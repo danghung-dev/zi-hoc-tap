@@ -1,7 +1,7 @@
-    // ==========================================
-    // --- N4 15群の文法データ定義 / 15 Grammar Groups ---
-    // ==========================================
-    const grammarGroups = [
+// ==========================================
+// --- N4 15群の文法データ定義 / 15 Grammar Groups ---
+// ==========================================
+const grammarGroups = [
       {
         id: 1,
         name: "1. Cho – Nhận – Nhờ",
@@ -248,8 +248,8 @@
       }
     ];
 
-    // --- 150 Trắc nghiệm Ngữ pháp N4: 10 câu cho mỗi nhóm ---
-    const grammarQuestions = [
+// --- 170 Trắc nghiệm Ngữ pháp N4: 10/11/12 câu cho mỗi nhóm ---
+const grammarQuestions = [
       {
             "id": "g1_01",
             "groupId": 1,
@@ -1373,8 +1373,8 @@
       {
             "id": "g9_01",
             "groupId": 9,
-            "question": "このペンは書き（　）です。",
-            "translation": "Cây bút này dễ viết.",
+            "question": "このペンはとても書き（　）ので、毎日使っています。",
+            "translation": "Cây bút này rất dễ viết nên tôi dùng hàng ngày.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1387,8 +1387,8 @@
       {
             "id": "g9_02",
             "groupId": 9,
-            "question": "この漢字は覚え（　）です。",
-            "translation": "Chữ Kanji này khó nhớ.",
+            "question": "この漢字は複雑で、覚え（　）です。",
+            "translation": "Chữ Kanji này phức tạp nên khó nhớ.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1401,8 +1401,8 @@
       {
             "id": "g9_03",
             "groupId": 9,
-            "question": "この道は歩き（　）です。",
-            "translation": "Con đường này dễ đi bộ.",
+            "question": "この道は広くてきれいですから、歩き（　）です。",
+            "translation": "Con đường này rộng và đẹp nên dễ đi bộ.",
             "options": [
                   "にくい",
                   "やすい",
@@ -1415,8 +1415,8 @@
       {
             "id": "g9_04",
             "groupId": 9,
-            "question": "この説明は分かり（　）です。",
-            "translation": "Lời giải thích này dễ hiểu.",
+            "question": "この説明は短くて、とても分かり（　）です。",
+            "translation": "Lời giải thích này ngắn gọn nên rất dễ hiểu.",
             "options": [
                   "にくい",
                   "やすい",
@@ -1429,8 +1429,8 @@
       {
             "id": "g9_05",
             "groupId": 9,
-            "question": "この靴は走り（　）です。",
-            "translation": "Đôi giày này khó chạy.",
+            "question": "この靴はサイズが小さすぎて、走り（　）です。",
+            "translation": "Đôi giày này cỡ quá nhỏ nên khó chạy.",
             "options": [
                   "やすい",
                   "たい",
@@ -1443,8 +1443,8 @@
       {
             "id": "g9_06",
             "groupId": 9,
-            "question": "小さい字は読み（　）です。",
-            "translation": "Chữ nhỏ thì khó đọc.",
+            "question": "暗い部屋では、小さい字は読み（　）です。",
+            "translation": "Trong phòng tối thì chữ nhỏ khó đọc.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1457,8 +1457,8 @@
       {
             "id": "g9_07",
             "groupId": 9,
-            "question": "このカメラは使い（　）です。",
-            "translation": "Máy ảnh này dễ dùng.",
+            "question": "ボタンが少なくて、このカメラは使い（　）です。",
+            "translation": "Có ít nút bấm nên chiếc máy ảnh này dễ sử dụng.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1471,8 +1471,8 @@
       {
             "id": "g9_08",
             "groupId": 9,
-            "question": "この薬は飲み（　）くないです。",
-            "translation": "Thuốc này không dễ uống.",
+            "question": "この薬はとても苦いですから、飲み（　）くないです。",
+            "translation": "Thuốc này rất đắng nên không dễ uống.",
             "options": [
                   "やす",
                   "にく",
@@ -1485,8 +1485,8 @@
       {
             "id": "g9_09",
             "groupId": 9,
-            "question": "この問題は答え（　）です。",
-            "translation": "Câu hỏi này khó trả lời.",
+            "question": "まだ習っていない問題ですから、答え（　）です。",
+            "translation": "Vì là câu hỏi chưa học nên khó trả lời.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1499,8 +1499,8 @@
       {
             "id": "g9_10",
             "groupId": 9,
-            "question": "この町は住み（　）と思います。",
-            "translation": "Tôi nghĩ thành phố này dễ sống.",
+            "question": "公園が多くて静かなので、この町は住み（　）と思います。",
+            "translation": "Vì nhiều công viên và yên tĩnh nên tôi nghĩ thành phố này dễ sống.",
             "options": [
                   "やすい",
                   "にくい",
@@ -1793,8 +1793,8 @@
       {
             "id": "g12_01",
             "groupId": 12,
-            "question": "遅れて（　）。",
-            "translation": "Xin lỗi vì đến muộn.",
+            "question": "遅れて（　）。お待たせしました。",
+            "translation": "Xin lỗi vì tôi đến muộn. Xin lỗi đã để bạn đợi.",
             "options": [
                   "よかったです",
                   "すみません",
@@ -1835,8 +1835,8 @@
       {
             "id": "g12_04",
             "groupId": 12,
-            "question": "電話しなくて（　）。",
-            "translation": "Xin lỗi vì đã không gọi điện.",
+            "question": "電話しなくて（　）。心配をかけてごめんなさい。",
+            "translation": "Xin lỗi vì đã không gọi điện. Xin lỗi vì đã làm bạn lo lắng.",
             "options": [
                   "すみません",
                   "よかった",
