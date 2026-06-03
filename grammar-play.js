@@ -2149,7 +2149,7 @@
                   "く",
                   "に",
                   "な",
-                  "đ"
+                  "で"
             ],
             "answer": 0,
             "explanation": "Tính từ い bỏ い + くする. Tính từ な/Danh từ + にする. Nghĩa là làm cho trở nên/trạng thái được chọn."
@@ -2407,6 +2407,62 @@
             "explanation": "Kết hợp thể quá khứ (た-form) của động từ để chỉ trình tự thời gian sau khi làm xong việc gì đó: 終わったら."
       },
       {
+            "id": "g3_13",
+            "groupId": 3,
+            "question": "春になっ（　）、桜が咲きます。",
+            "translation": "Khi mùa xuân đến, hoa anh đào sẽ nở.",
+            "options": [
+                  "たら",
+                  "と",
+                  "ば",
+                  "なら"
+            ],
+            "answer": 0,
+            "explanation": "Kết hợp thể quá khứ (なった) + 終わったら để biểu đạt thời gian tự nhiên/sau khi điều gì đó xảy ra."
+      },
+      {
+            "id": "g3_14",
+            "groupId": 3,
+            "question": "安いの（　）、このパソコンを買いたいです。",
+            "translation": "Nếu rẻ thì tôi muốn mua chiếc máy tính này.",
+            "options": [
+                  "なら",
+                  "と",
+                  "たら",
+                  "ば"
+            ],
+            "answer": 0,
+            "explanation": "Đi sau danh từ hoặc dạng danh từ hóa (の) để đưa ra giả định chủ đề của đối phương: のなら."
+      },
+      {
+            "id": "g4_11",
+            "groupId": 4,
+            "question": "どれほど練習し（　）、上手になりません。",
+            "translation": "Dù có luyện tập bao nhiêu đi nữa thì tôi vẫn không giỏi lên được.",
+            "options": [
+                  "ても",
+                  "のに",
+                  "から",
+                  "なら"
+            ],
+            "answer": 0,
+            "explanation": "どれほど / いくら đi kèm với ～ても để chỉ mức độ nhượng bộ: dù thế nào đi nữa vẫn..."
+      },
+      {
+            "id": "g4_12",
+            "groupId": 4,
+            "question": "このカメラは安くて便利（　）、全然売れません。",
+            "translation": "Chiếc máy ảnh này mặc dù rẻ và tiện lợi, vậy mà hoàn toàn không bán được.",
+            "options": [
+                  "なのに",
+                  "ても",
+                  "から",
+                  "なら"
+            ],
+            "answer": 0,
+            "explanation": "Tính từ đuôi な (便利) + なのに để diễn tả sự tương phản trái ngược kèm cảm xúc tiếc nuối/bất ngờ."
+      },
+      {
             "id": "g5_11",
             "groupId": 5,
             "question": "荷物が重いですから、ひもが切れ（　）そうです。",
@@ -2463,6 +2519,34 @@
             "explanation": "Thể sai khiến (bắt buộc/cho phép): 飲む (nhóm 1) -> 飲ませる. 飲ま + せ + ました = 飲ませました."
       },
       {
+            "id": "g7_13",
+            "groupId": 7,
+            "question": "私は知らない人（　）道を聞かれました。",
+            "translation": "Tôi bị một người lạ hỏi đường.",
+            "options": [
+                  "に",
+                  "を",
+                  "が",
+                  "で"
+            ],
+            "answer": 0,
+            "explanation": "Tác nhân gây ra hành động trong câu bị động đi với trợ từ に: 知らない人に聞かれました."
+      },
+      {
+            "id": "g7_14",
+            "groupId": 7,
+            "question": "先生は遅刻した学生を教室の外に（　）ました。",
+            "translation": "Thầy giáo bắt học sinh đi muộn đứng ở ngoài lớp học.",
+            "options": [
+                  "立たせ",
+                  "立たれ",
+                  "立たさせ",
+                  "立たて"
+            ],
+            "answer": 0,
+            "explanation": "Sai khiến động từ nhóm 1 (立つ -> 立たせる). Bắt đứng ngoài lớp: 立たせました."
+      },
+      {
             "id": "g10_11",
             "groupId": 10,
             "question": "冷蔵庫には牛乳（　）ありませんから、買い物に行きます。",
@@ -2489,5 +2573,61 @@
             ],
             "answer": 0,
             "explanation": "Cho phép không cần làm gì: Vなくて + もいいです. 起き + なくても + いいです."
+      },
+      {
+            "id": "g13_11",
+            "groupId": 13,
+            "question": "働き（　）大学に通うのは大変です。",
+            "translation": "Vừa đi làm vừa đi học đại học thật là vất vả.",
+            "options": [
+                  "ながら",
+                  "てみて",
+                  "あいだに",
+                  "ておく"
+            ],
+            "answer": 0,
+            "explanation": "Hai hành động song song đồng thời: Vます (bỏ ます) + ながら. Vừa làm vừa đi học: 働きながら."
+      },
+      {
+            "id": "g13_12",
+            "groupId": 13,
+            "question": "私が旅行をしている（　）、どろぼうが入りました。",
+            "translation": "Trong lúc tôi đi du lịch thì trộm đã đột nhập vào nhà.",
+            "options": [
+                  "あいだに",
+                  "ながら",
+                  "てみて",
+                  "ても"
+            ],
+            "answer": 0,
+            "explanation": "Một sự việc xen ngang đột ngột khi trạng thái khác đang tiếp diễn: Vている + あいだに."
+      },
+      {
+            "id": "g15_11",
+            "groupId": 15,
+            "question": "会議が何時に終わる（　）教えてください。",
+            "translation": "Hãy cho tôi biết mấy giờ thì cuộc họp kết thúc.",
+            "options": [
+                  "か",
+                  "かどうか",
+                  "という",
+                  "ても"
+            ],
+            "answer": 0,
+            "explanation": "Lồng câu hỏi có từ để hỏi (何時に): Thể thông thường + か."
+      },
+      {
+            "id": "g15_12",
+            "groupId": 15,
+            "question": "彼が試験に合格した（　）聞いていません。",
+            "translation": "Tôi vẫn chưa nghe nói liệu anh ấy có đỗ kỳ thi hay không.",
+            "options": [
+                  "かどうか",
+                  "という",
+                  "ながら",
+                  "ても"
+            ],
+            "answer": 0,
+            "explanation": "Lồng câu hỏi không có từ để hỏi: Thể thông thường + かどうか."
       }
 ];
