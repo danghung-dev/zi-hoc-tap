@@ -3565,10 +3565,24 @@
     // --- TTS Phát âm ---
     function speakJapanese(text) {
       if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
+        // Chỉ cancel khi đang đọc để tránh lỗi treo hàng đợi phát âm của Safari
+        if (window.speechSynthesis.speaking) {
+          window.speechSynthesis.cancel();
+        }
+        
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'ja-JP';
         utterance.rate = 0.85;
+
+        // Khắc phục lỗi Safari không tự động nhận diện đúng giọng đọc tiếng Nhật
+        if (window.speechSynthesis.getVoices) {
+          const voices = window.speechSynthesis.getVoices();
+          const jaVoice = voices.find(v => v.lang.toLowerCase().startsWith('ja'));
+          if (jaVoice) {
+            utterance.voice = jaVoice;
+          }
+        }
+
         window.speechSynthesis.speak(utterance);
       }
     }
@@ -3584,9 +3598,8 @@
       isFlipped = !isFlipped;
       if (isFlipped) {
         flashcardInner.classList.add("flipped");
-        setTimeout(() => {
-          speakJapanese(activeDeck[currentCardIndex].kanji);
-        }, 150);
+        // Phát âm thanh trực tiếp trong luồng click (không dùng setTimeout) để được Safari cho phép
+        speakJapanese(activeDeck[currentCardIndex].kanji);
       } else {
         flashcardInner.classList.remove("flipped");
       }
