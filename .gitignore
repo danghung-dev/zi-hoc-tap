@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Supabase
+.supabase/
+frontend/supabase/.temp/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Community posts (internal only, not for public repo)
+docs/00-foundation/06-Community/
+
+# Private family data — Họ Đặng làng Kỷ Các (seed data, admin credentials, debug scripts)
+# Do NOT commit — contains real names, dates, admin emails
+docs/data/
+
+# Code signing certificates — NEVER commit
+*.pfx
+*.p12
+*.pem
+
+# Electron build outputs — compiled JS (committed) vs release binaries (GitHub Releases)
+desktop/release/
+desktop/electron-dist/
+desktop/node_modules/
+
+# Claude Code local settings (may contain secrets)
+.claude/
+Prompt.md
+.vercel

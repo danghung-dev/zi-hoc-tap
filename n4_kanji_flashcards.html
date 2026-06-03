@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本語 N4 漢字フラッシュカード</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    /* カードの3D回転用スタイル */
+    .card-perspective {
+      perspective: 1500px;
+    }
+    .card-inner {
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+    }
+    .card-inner.flipped {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
+
+  <!-- ヘッダー / Header -->
+  <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="p-2 bg-indigo-600 rounded-xl shadow-lg shadow-indigo-500/30">
+          <i data-lucide="book-open" class="w-6 h-6 text-white"></i>
+        </div>
+        <div>
+          <h1 class="text-xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+            日本語 N4 漢字フラッシュカード
+          </h1>
+          <p class="text-xs text-slate-400">Flashcards Kanji N4 - Tự học thông minh & Báo cáo lỗi sai</p>
+        </div>
+      </div>
+      <!-- 全体統計 / Overall Stats -->
+      <div class="flex items-center gap-4 text-xs sm:text-sm bg-slate-800/40 px-3 py-1.5 rounded-lg border border-slate-700/50">
+        <div class="flex items-center gap-1">
+          <span class="text-emerald-400 font-semibold" id="global-correct-count">0</span>
+          <span class="text-slate-400">Đúng</span>
+        </div>
+        <div class="h-4 w-px bg-slate-700"></div>
+        <div class="flex items-center gap-1">
+          <span class="text-rose-400 font-semibold" id="global-wrong-count">0</span>
+          <span class="text-slate-400">Sai</span>
+        </div>
+        <div class="h-4 w-px bg-slate-700"></div>
+        <div class="flex items-center gap-1">
+          <span class="text-indigo-400 font-semibold" id="global-total-unique">0</span>
+          <span class="text-slate-400">Đã học</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-6xl w-full mx-auto p-4 grid grid-cols-1 lg:grid-cols-12 gap-6">
+    
+    <!-- 左側：コントロールパネル / Left Side Control Panel (4 cols) -->
+    <div class="lg:col-span-4 flex flex-col gap-5">
+      <!-- 学習範囲の選択 / Set Selector -->
+      <div class="bg-slate-900 rounded-2xl p-5 border border-slate-800 flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="font-bold flex items-center gap-2 text-slate-200">
+            <i data-lucide="layers" class="w-5 h-5 text-indigo-400"></i>
+            学習範囲 / Chọn Bộ Kanji
+          </h2>
+          <span class="text-xs bg-slate-800 px-2.5 py-1 rounded-full text-slate-400 font-mono" id="selected-count-badge">0/40</span>
+        </div>
+
+        <div class="flex gap-2">
+          <button id="btn-select-all" class="flex-1 py-1.5 px-3 bg-slate-800 hover:bg-slate-700 text-xs font-medium rounded-lg transition">
+            Chọn tất cả
+          </button>
+          <button id="btn-deselect-all" class="flex-1 py-1.5 px-3 bg-slate-800 hover:bg-slate-700 text-xs font-medium rounded-lg transition">
+            Bỏ chọn hết
+          </button>
+        </div>
+
+        <!-- セットリスト / List of sets -->
+        <div class="max-h-[280px] overflow-y-auto pr-1 flex flex-col gap-1 border border-slate-800/80 rounded-xl p-2 bg-slate-950/50" id="sets-list-container">
+          <!-- JSで動的に構築 -->
+        </div>
+
+        <!-- 動作コントロール / Study Mode Operations -->
+        <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2">
+          <button id="btn-start" class="w-full py-3 px-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-500/20 flex items-center justify-center gap-2 transition transform active:scale-[0.98]">
+            <i data-lucide="play" class="w-5 h-5 fill-current"></i>
+            <span>学習を開始 / Bắt đầu học</span>
+          </button>
+          <button id="btn-shuffle" class="w-full py-2 px-4 bg-slate-800 hover:bg-slate-750 text-slate-300 font-medium rounded-xl flex items-center justify-center gap-2 transition border border-slate-700/50">
+            <i data-lucide="shuffle" class="w-4 h-4"></i>
+            <span>シャッフル / Trộn thẻ</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 操作ガイド / Shortcuts & Guides -->
+      <div class="bg-slate-900/50 rounded-2xl p-4 border border-slate-800/60 text-xs text-slate-400">
+        <h3 class="font-semibold text-slate-300 mb-2 flex items-center gap-1">
+          <i data-lucide="help-circle" class="w-4 h-4 text-indigo-400"></i>
+          操作ガイド / Hướng dẫn nhanh
+        </h3>
+        <ul class="space-y-1.5 list-disc pl-4">
+          <li>Click vào thẻ hoặc nhấn phím <kbd class="px-1 py-0.5 bg-slate-800 rounded border border-slate-700 font-mono">Space</kbd> để lật thẻ.</li>
+          <li>Nhấn phím <kbd class="px-1 py-0.5 bg-slate-800 rounded border border-slate-700 font-mono">←</kbd> để đánh dấu <span class="text-rose-400 font-medium">Sai</span>.</li>
+          <li>Nhấn phím <kbd class="px-1 py-0.5 bg-slate-800 rounded border border-slate-700 font-mono">→</kbd> để đánh dấu <span class="text-emerald-400 font-medium">Đúng</span>.</li>
+          <li>Học 5 bộ mỗi ngày theo lộ trình khoa học để đạt hiệu quả cao nhất!</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 右側：フラッシュカード & レポート / Right Side Flashcards & Reports (8 cols) -->
+    <div class="lg:col-span-8 flex flex-col gap-6">
+      
+      <!-- メイン学習画面 / Main Study Screen -->
+      <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col items-center gap-6 shadow-xl relative overflow-hidden">
+        <!-- 背景のグラデーションデコレーション -->
+        <div class="absolute -top-40 -right-40 w-80 h-80 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- デッキ進行状況 / Deck Progress -->
+        <div class="w-full flex items-center justify-between text-xs text-slate-400 z-10">
+          <div class="flex items-center gap-2">
+            <span class="bg-indigo-950/80 text-indigo-400 px-2.5 py-1 rounded-full font-semibold border border-indigo-900/50" id="current-set-label">
+              Không có thẻ nào được tải
+            </span>
+          </div>
+          <div class="font-mono text-slate-300" id="card-progress-text">0 / 0</div>
+        </div>
+
+        <!-- プログレスバー / Progress Bar -->
+        <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden z-10">
+          <div class="h-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-300" id="card-progress-bar" style="width: 0%"></div>
+        </div>
+
+        <!-- 3D フラッシュカード / 3D Card View -->
+        <div class="w-full max-w-md h-72 card-perspective cursor-pointer z-10" id="flashcard-clickable">
+          <div class="w-full h-full card-inner relative shadow-2xl rounded-2xl" id="flashcard-inner">
+            
+            <!-- フロント面 (Kanji) / Front Face -->
+            <div class="card-front bg-slate-800 border border-slate-700/80 rounded-2xl flex flex-col items-center justify-between p-6">
+              <div class="w-full flex justify-end">
+                <span class="text-xs text-indigo-400 uppercase tracking-widest font-bold font-mono">Kanji</span>
+              </div>
+              
+              <div class="flex flex-col items-center justify-center gap-3">
+                <span class="text-6xl font-bold tracking-wider text-slate-100 font-sans" id="front-kanji">--</span>
+              </div>
+
+              <!-- ヒント / Hint (Ví dụ: Nhấp để lật) -->
+              <div class="flex items-center gap-1.5 text-xs text-slate-400 hover:text-slate-300 transition-colors">
+                <i data-lucide="rotate-3d" class="w-4 h-4"></i>
+                <span>Nhấp để xem Hiragana & Nghĩa</span>
+              </div>
+            </div>
+
+            <!-- バック面 (Hiragana & Meaning) / Back Face -->
+            <div class="card-back bg-slate-800 border-2 border-indigo-500/50 rounded-2xl flex flex-col items-center justify-between p-6 shadow-indigo-900/10">
+              <div class="w-full flex justify-between items-center">
+                <button id="btn-tts" class="p-1.5 hover:bg-slate-700/80 rounded-lg text-indigo-400 transition" title="Nghe phát âm">
+                  <i data-lucide="volume-2" class="w-5 h-5"></i>
+                </button>
+                <span class="text-xs text-emerald-400 uppercase tracking-widest font-bold font-mono">Answer</span>
+              </div>
+
+              <div class="flex flex-col items-center justify-center text-center gap-3 my-auto w-full px-4">
+                <!-- ひらがな / Hiragana -->
+                <span class="text-2xl font-bold text-indigo-300 font-sans tracking-wide" id="back-hiragana">--</span>
+                <!-- 区切り線 / Divider -->
+                <div class="w-12 h-0.5 bg-slate-700 rounded"></div>
+                <!-- 意味 / Meaning -->
+                <span class="text-xl font-medium text-slate-100" id="back-meaning">--</span>
+
+                <!-- 例文 & 特記事項 / Examples & Warnings -->
+                <div class="w-full mt-2 hidden" id="card-bonus-container">
+                  <div class="bg-slate-900/80 px-3 py-2 rounded-xl text-left border border-slate-700/40 text-xs">
+                    <!-- 例文表示 -->
+                    <div id="card-example-box" class="hidden">
+                      <span class="text-slate-400 font-semibold block mb-0.5">例句 / Câu mẫu:</span>
+                      <p class="text-emerald-300 font-medium" id="card-example-jp"></p>
+                    </div>
+                    <!-- 警告・トラップ表示 -->
+                    <div id="card-warning-box" class="hidden mt-1 text-rose-300/90 font-medium flex items-start gap-1">
+                      <i data-lucide="alert-triangle" class="w-3.5 h-3.5 mt-0.5 flex-shrink-0"></i>
+                      <span id="card-warning-text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-1.5 text-xs text-slate-400">
+                <i data-lucide="rotate-3d" class="w-4 h-4"></i>
+                <span>Nhấp để quay lại mặt Kanji</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- アクションボタン / Action Buttons -->
+        <div class="w-full max-w-sm grid grid-cols-2 gap-4 z-10">
+          <button id="btn-wrong" class="py-3 px-5 bg-rose-600/10 hover:bg-rose-600/25 text-rose-400 font-semibold rounded-2xl border border-rose-500/30 transition flex items-center justify-center gap-2 active:scale-95">
+            <i data-lucide="x" class="w-5 h-5"></i>
+            <span>Sai rồi (←)</span>
+          </button>
+          <button id="btn-correct" class="py-3 px-5 bg-emerald-600/10 hover:bg-emerald-600/25 text-emerald-400 font-semibold rounded-2xl border border-emerald-500/30 transition flex items-center justify-center gap-2 active:scale-95">
+            <i data-lucide="check" class="w-5 h-5"></i>
+            <span>Đã thuộc (→)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 学習統計レポート / Learning Mistakes Report -->
+      <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col gap-4 shadow-xl">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-lg font-bold flex items-center gap-2 text-slate-200">
+              <i data-lucide="bar-chart-2" class="w-5 h-5 text-indigo-400"></i>
+              間違いレポート / Báo cáo từ hay sai
+            </h2>
+            <p class="text-xs text-slate-400">Những từ bạn trả lời sai sẽ hiển thị ở đây (sắp xếp giảm dần)</p>
+          </div>
+          <div class="flex gap-2">
+            <button id="btn-study-mistakes" class="py-2 px-3 bg-indigo-950/60 hover:bg-indigo-900/60 text-indigo-300 border border-indigo-800 text-xs font-semibold rounded-xl flex items-center gap-1.5 transition">
+              <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+              Chỉ ôn tập từ sai
+            </button>
+            <button id="btn-clear-stats" class="py-2 px-3 bg-slate-800 hover:bg-slate-700 text-xs text-slate-400 hover:text-slate-200 rounded-xl flex items-center gap-1.5 transition">
+              <i data-lucide="trash-2" class="w-4 h-4"></i>
+              Xóa lịch sử sai
+            </button>
+          </div>
+        </div>
+
+        <!-- レポートテーブル / Mistake Table -->
+        <div class="overflow-x-auto border border-slate-800 rounded-xl bg-slate-950/40">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="bg-slate-900 text-slate-400 font-semibold border-b border-slate-800">
+                <th class="py-3 px-4">Chữ Hán / Kanji</th>
+                <th class="py-3 px-4">Cách đọc / Hiragana</th>
+                <th class="py-3 px-4">Ý nghĩa / Meaning</th>
+                <th class="py-3 px-4">Nhóm / Set</th>
+                <th class="py-3 px-4 text-right">Số lần sai</th>
+              </tr>
+            </thead>
+            <tbody id="mistake-table-body">
+              <!-- JSで動的に追加 -->
+              <tr>
+                <td colspan="5" class="py-8 text-center text-slate-500">
+                  <div class="flex flex-col items-center gap-2">
+                    <i data-lucide="check-circle" class="w-8 h-8 text-slate-600"></i>
+                    <span>Chưa có dữ liệu sai sót. Hãy bắt đầu học!</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- カスタmモーダル / Custom Dialog Modal -->
+  <div id="modal-container" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 z-[100] hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-sm w-full p-6 shadow-2xl flex flex-col gap-4">
+      <div class="flex items-center gap-3">
+        <div class="p-2 bg-indigo-950 text-indigo-400 rounded-xl border border-indigo-800" id="modal-icon-container">
+          <i data-lucide="info" class="w-6 h-6"></i>
+        </div>
+        <h3 class="font-bold text-lg text-slate-100" id="modal-title">Thông báo</h3>
+      </div>
+      <p class="text-sm text-slate-400 leading-relaxed" id="modal-message">Nội dung thông báo...</p>
+      <div class="flex justify-end pt-2">
+        <button id="modal-btn-ok" class="py-2 px-5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl transition active:scale-95">
+          OK
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-900/60 bg-slate-950 py-6 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© 2026 Nihongo N4 Kanji Flashcard App - Kiến thức vững vàng, thi cử dễ dàng.</p>
+      <p class="text-indigo-400/80">Premium Study Tool</p>
+    </div>
+  </footer>
+
+  <!-- 40セットのKanjiデータ定義 & ロジック / JavaScript Logic -->
+  <script>
+    // --- N4 漢字のデータ定義 / N4 Kanji Data Definition ---
+    const rawFlashcards = [
+      // 1. 会 — gặp gỡ, công ty, cuộc họp
+      { kanji: "会う", hiragana: "あう", meaning: "gặp", setId: 1 },
+      { kanji: "会社", hiragana: "かいしゃ", meaning: "công ty", setId: 1 },
+      { kanji: "会議", hiragana: "かいぎ", meaning: "cuộc họp", setId: 1 },
+      { kanji: "会話", hiragana: "かいわ", meaning: "hội thoại", setId: 1 },
+      { kanji: "会場", hiragana: "かいじょう", meaning: "hội trường, địa điểm tổ chức", setId: 1 },
+      { kanji: "社会", hiragana: "しゃかい", meaning: "xã hội", setId: 1 },
+      { kanji: "会社員", hiragana: "かいしゃいん", meaning: "nhân viên công ty", setId: 1 },
+
+      // 2. 社 — công ty, xã hội, tổ chức
+      { kanji: "会社", hiragana: "かいしゃ", meaning: "công ty", setId: 2 },
+      { kanji: "社会", hiragana: "しゃかい", meaning: "xã hội", setId: 2 },
+      { kanji: "神社", hiragana: "じんじゃ", meaning: "đền Shinto", setId: 2 },
+      { kanji: "新聞社", hiragana: "しんぶんしゃ", meaning: "tòa soạn báo", setId: 2 },
+      { kanji: "会社員", hiragana: "かいしゃいん", meaning: "nhân viên công ty", setId: 2 },
+
+      // 3. 場 — nơi chốn, địa điểm
+      { kanji: "場所", hiragana: "ばしょ", meaning: "địa điểm", setId: 3 },
+      { kanji: "会場", hiragana: "かいじょう", meaning: "hội trường, nơi tổ chức", setId: 3 },
+      { kanji: "売り場", hiragana: "うriば / うりば", meaning: "quầy bán hàng", setId: 3 },
+      { kanji: "工場", hiragana: "こうじょう", meaning: "nhà máy", setId: 3 },
+      { kanji: "駐車場", hiragana: "ちゅうしゃじょう", meaning: "bãi đỗ xe", setId: 3 },
+
+      // 4. 員 — nhân viên, người thuộc tổ chức
+      { kanji: "会社員", hiragana: "かいしゃいん", meaning: "nhân viên công ty", setId: 4 },
+      { kanji: "店員", hiragana: "てんいん", meaning: "nhân viên cửa hàng", setId: 4 },
+      { kanji: "公務員", hiragana: "公務員 / こうむいん", meaning: "công chức", setId: 4 },
+      { kanji: "銀行員", hiragana: "ぎんこういん", meaning: "nhân viên ngân hàng", setId: 4 },
+      { kanji: "駅員", hiragana: "えきいん", meaning: "nhân viên nhà ga", setId: 4 },
+
+      // 5. 者 — người làm nghề / người liên quan
+      { kanji: "医者", hiragana: "いしゃ", meaning: "bác sĩ", setId: 5 },
+      { kanji: "歯医者", hiragana: "はいしゃ", meaning: "nha sĩ", setId: 5 },
+      { kanji: "運転者", hiragana: "うんてんしゃ", meaning: "người lái xe", setId: 5 },
+      { kanji: "若者", hiragana: "わかもの", meaning: "người trẻ", setId: 5 },
+      { kanji: "学者", hiragana: "がくしゃ", meaning: "học giả", setId: 5 },
+
+      // 6. 事 — việc, sự việc, công việc
+      { kanji: "仕事", hiragana: "しごと", meaning: "công việc", setId: 6 },
+      { kanji: "用事", hiragana: "ようじ", meaning: "việc bận", setId: 6 },
+      { kanji: "火事", hiragana: "かじ", meaning: "hỏa hoạn", setId: 6 },
+      { kanji: "食事", hiragana: "しょくじ", meaning: "bữa ăn", setId: 6 },
+      { kanji: "大事", hiragana: "だいじ", meaning: "quan trọng", setId: 6 },
+
+      // 7. 用 — dùng, việc cần làm, chuẩn bị
+      { kanji: "用事", hiragana: "ようじ", meaning: "việc bận", setId: 7 },
+      { kanji: "用意", hiragana: "ようい", meaning: "chuẩn bị", setId: 7 },
+      { kanji: "用紙", hiragana: "ようし", meaning: "mẫu giấy, giấy dùng cho việc gì", setId: 7 },
+      { kanji: "利用する", hiragana: "りようする", meaning: "sử dụng", setId: 7 },
+      { kanji: "使用する", hiragana: "しようする", meaning: "sử dụng", setId: 7 },
+
+      // 8. 発 — xuất phát, phát ra
+      { kanji: "出発", hiragana: "しゅっぱつ", meaning: "xuất phát", setId: 8 },
+      { kanji: "発音", hiragana: "はつおん", meaning: "phát âm", setId: 8 },
+      { kanji: "発表", hiragana: "はっぴょう", meaning: "phát biểu, thuyết trình", setId: 8 },
+      { kanji: "発見", hiragana: "はっけん", meaning: "phát hiện", setId: 8 },
+      { kanji: "発車", hiragana: "はっしゃ", meaning: "xe/tàu khởi hành", setId: 8 },
+
+      // 9. 運・転 — lái xe, vận chuyển, chuyển động
+      { kanji: "運転", hiragana: "うんてん", meaning: "lái xe", setId: 9 },
+      { kanji: "運転手", hiragana: "うんてんしゅ", meaning: "tài xế", setId: 9 },
+      { kanji: "自転車", hiragana: "じてんしゃ", meaning: "xe đạp", setId: 9 },
+      { kanji: "運ぶ", hiragana: "はこぶ", meaning: "vận chuyển", setId: 9 },
+      { kanji: "運動", hiragana: "うんどう", meaning: "vận động, tập thể dục", setId: 9 },
+
+      // 10. 駅・道・通 — ga, đường, giao thông
+      { kanji: "駅", hiragana: "えき", meaning: "nhà ga", setId: 10 },
+      { kanji: "駅員", hiragana: "えきいん", meaning: "nhân viên nhà ga", setId: 10 },
+      { kanji: "駅前", hiragana: "えきまえ", meaning: "trước nhà ga", setId: 10 },
+      { kanji: "道", hiragana: "みち", meaning: "đường", setId: 10 },
+      { kanji: "水道", hiragana: "すいど​う", meaning: "nước máy", setId: 10 },
+      { kanji: "道具", hiragana: "どうぐ", meaning: "dụng cụ", setId: 10 },
+      { kanji: "交通", hiragana: "こうつう", meaning: "giao thông", setId: 10 },
+      { kanji: "通る", hiragana: "とおる", meaning: "đi qua", setId: 10 },
+      { kanji: "通う", hiragana: "かよう", meaning: "đi lại thường xuyên", setId: 10 },
+
+      // 11. 帰・着・起 — về, đến nơi, thức dậy
+      { kanji: "帰る", hiragana: "かえる", meaning: "trở về", setId: 11 },
+      { kanji: "帰り", hiragana: "かえり", meaning: "sự trở về, lúc về", setId: 11 },
+      { kanji: "着く", hiragana: "つく", meaning: "đến nơi", setId: 11, warning: "Bẫy N4: 着く (đến nơi) phát âm gần với 着る (mặc) nhưng cách viết & ý nghĩa hoàn toàn khác nhau." },
+      { kanji: "着る", hiragana: "きる", meaning: "mặc", setId: 11, warning: "Bẫy N4: 着る (mặc) phát âm gần với 着く (đến nơi) nhưng cách viết & ý nghĩa hoàn toàn khác nhau." },
+      { kanji: "着物", hiragana: "きもの", meaning: "kimono", setId: 11 },
+      { kanji: "下着", hiragana: "したぎ", meaning: "đồ lót", setId: 11 },
+      { kanji: "起きる", hiragana: "おきる", meaning: "thức dậy", setId: 11 },
+      { kanji: "起こす", hiragana: "おこす", meaning: "đánh thức", setId: 11 },
+
+      // 12. 歩・走・急・止 — đi, chạy, vội, dừng
+      { kanji: "歩く", hiragana: "あるく", meaning: "đi bộ", setId: 12 },
+      { kanji: "散歩", hiragana: "さんぽ", meaning: "đi dạo", setId: 12 },
+      { kanji: "走る", hiragana: "はしる", meaning: "chạy", setId: 12 },
+      { kanji: "急ぐ", hiragana: "いそぐ", meaning: "vội", setId: 12 },
+      { kanji: "急行", hiragana: "きゅうこう", meaning: "tàu tốc hành", setId: 12 },
+      { kanji: "止まる", hiragana: "とまる", meaning: "dừng lại", setId: 12 },
+      { kanji: "止める", hiragana: "とめる", meaning: "làm dừng, dừng cái gì đó", setId: 12 },
+
+      // 13. 病・院・医 — bệnh, bệnh viện, bác sĩ
+      { kanji: "病気", hiragana: "びょうき", meaning: "bệnh", setId: 13, example: "病気なので、学校を休みます。" },
+      { kanji: "病院", hiragana: "びょういん", meaning: "bệnh viện", setId: 13, example: "病院へ行きます。" },
+      { kanji: "医者", hiragana: "いしゃ", meaning: "bác sĩ", setId: 13, example: "医者に聞きます。" },
+      { kanji: "歯医者", hiragana: "はいしゃ", meaning: "nha sĩ", setId: 13 },
+      { kanji: "医学", hiragana: "いがく", meaning: "y học", setId: 13 },
+      { kanji: "入院", hiragana: "にゅういん", meaning: "nhập viện", setId: 13, example: "母は入院しています。" },
+      { kanji: "退院", hiragana: "たいいん", meaning: "xuất viện", setId: 13, example: "来週、退院します。" },
+
+      // 14. 体・心・気 — cơ thể, tâm trạng, cảm giác
+      { kanji: "体", hiragana: "からだ", meaning: "cơ thể", setId: 14 },
+      { kanji: "大体", hiragana: "だいたい", meaning: "đại khái, hầu hết", setId: 14 },
+      { kanji: "体質", hiragana: "たいしつ", meaning: "thể chất", setId: 14 },
+      { kanji: "心", hiragana: "こころ", meaning: "trái tim, lòng", setId: 14 },
+      { kanji: "心配", hiragana: "しんぱい", meaning: "lo lắng", setId: 14 },
+      { kanji: "元気", hiragana: "げんき", meaning: "khỏe", setId: 14 },
+      { kanji: "気持ち", hiragana: "きもち", meaning: "cảm giác, tâm trạng", setId: 14 },
+      { kanji: "空気", hiragana: "くうき", meaning: "không khí", setId: 14 },
+
+      // 15. 安・悪・重 — an toàn, xấu, quan trọng
+      { kanji: "安い", hiragana: "やすい", meaning: "rẻ", setId: 15 },
+      { kanji: "安心", hiragana: "あんしん", meaning: "an tâm", setId: 15 },
+      { kanji: "安全", hiragana: "あんぜん", meaning: "an toàn", setId: 15 },
+      { kanji: "悪い", hiragana: "わるい", meaning: "xấu, không tốt", setId: 15 },
+      { kanji: "悪口", hiragana: "わるぐち", meaning: "nói xấu", setId: 15 },
+      { kanji: "重い", hiragana: "おもい", meaning: "nặng", setId: 15 },
+      { kanji: "重要", hiragana: "じゅうよう", meaning: "quan trọng", setId: 15 },
+
+      // 16. 勉・強・習 — học, ôn tập
+      { kanji: "勉強", hiragana: "べんきょう", meaning: "học", setId: 16 },
+      { kanji: "勉強する", hiragana: "べんきょうする", meaning: "học", setId: 16 },
+      { kanji: "復習", hiragana: "ふくしゅう", meaning: "ôn tập", setId: 16 },
+      { kanji: "復習する", hiragana: "ふくしゅうする", meaning: "ôn tập", setId: 16 },
+      { kanji: "予習", hiragana: "よしゅう", meaning: "chuần bị bài trước", setId: 16 },
+      { kanji: "予習する", hiragana: "よしゅうする", meaning: "chuẩn bị bài trước", setId: 16 },
+      { kanji: "一生懸命", hiragana: "いっしょうけんめい", meaning: "cố gắng hết sức", setId: 16 },
+
+      // 17. 教・文・字・漢 — học thuật, chữ, văn hóa
+      { kanji: "教える", hiragana: "おしえる", meaning: "dạy, chỉ cho", setId: 17 },
+      { kanji: "教室", hiragana: "きょうしつ", meaning: "phòng học", setId: 17 },
+      { kanji: "教育", hiragana: "きょういく", meaning: "giáo dục", setId: 17 },
+      { kanji: "文化", hiragana: "ぶんか", meaning: "văn hóa", setId: 17 },
+      { kanji: "文学", hiragana: "ぶんがく", meaning: "văn học", setId: 17 },
+      { kanji: "文章", hiragana: "ぶんしょう", meaning: "đoạn văn, câu văn", setId: 17 },
+      { kanji: "字", hiragana: "じ", meaning: "chữ", setId: 17 },
+      { kanji: "漢字", hiragana: "かんじ", meaning: "chữ Hán", setId: 17 },
+
+      // 18. 試・験・質・問・答・題 — thi, hỏi, trả lời, bài tập
+      { kanji: "試験", hiragana: "しけん", meaning: "kỳ thi", setId: 18, warning: "Chú ý: Trong tiếng Nhật, chữ 験 (Nghiệm trong Thí nghiệm) viết khác hoàn toàn chữ 建 (Kiến trong Kiến trúc)." },
+      { kanji: "試合", hiragana: "しあい", meaning: "trận đấu", setId: 18 },
+      { kanji: "経験", hiragana: "けいけん", meaning: "kinh nghiệm", setId: 18, warning: "Chú ý: Chữ đúng là 験, không viết nhầm thành 建." },
+      { kanji: "質問", hiragana: "しつもん", meaning: "câu hỏi", setId: 18 },
+      { kanji: "質問する", hiragana: "しつもんする", meaning: "hỏi", setId: 18 },
+      { kanji: "答え", hiragana: "こたえ", meaning: "câu trả lời", setId: 18 },
+      { kanji: "答える", hiragana: "こたえる", meaning: "trả lời", setId: 18 },
+      { kanji: "宿題", hiragana: "しゅくだい", meaning: "bài tập về nhà", setId: 18 },
+      { kanji: "問題", hiragana: "もんだい", meaning: "vấn đề, câu hỏi", setId: 18 },
+
+      // 19. 研・究・室 — nghiên cứu, phòng
+      { kanji: "研究", hiragana: "けんきゅう", meaning: "nghiên cứu", setId: 19 },
+      { kanji: "研究する", hiragana: "けんきゅうする", meaning: "nghiên cứu", setId: 19 },
+      { kanji: "研究室", hiragana: "けんきゅうしつ", meaning: "phòng nghiên cứu", setId: 19 },
+      { kanji: "会議室", hiragana: "かいぎしつ", meaning: "phòng họp", setId: 19 },
+      { kanji: "教室", hiragana: "きょうしつ", meaning: "phòng học", setId: 19 },
+
+      // 20. 店・買・売・品・物 — cửa hàng, mua bán, đồ vật
+      { kanji: "店", hiragana: "みせ", meaning: "cửa hàng", setId: 20 },
+      { kanji: "店員", hiragana: "てんいん", meaning: "nhân viên cửa hàng", setId: 20 },
+      { kanji: "買う", hiragana: "かう", meaning: "mua", setId: 20 },
+      { kanji: "買い物", hiragana: "かいもの", meaning: "mua sắm", setId: 20 },
+      { kanji: "売る", hiragana: "うる", meaning: "bán", setId: 20 },
+      { kanji: "売り場", hiragana: "うりば", meaning: "quầy bán hàng", setId: 20 },
+      { kanji: "品物", hiragana: "しなもの", meaning: "hàng hóa", setId: 20 },
+      { kanji: "食料品", hiragana: "しょくりょうひん", meaning: "thực phẩm", setId: 20 },
+      { kanji: "物", hiragana: "もの", meaning: "đồ vật", setId: 20 },
+      { kanji: "飲み物", hiragana: "のみもの", meaning: "đồ uống", setId: 20 },
+
+      // 21. 料・音・飯・茶 — ăn uống
+      { kanji: "料理", hiragana: "りょうり", meaning: "món ăn, nấu ăn", setId: 21 },
+      { kanji: "料金", hiragana: "りょうきん", meaning: "phí", setId: 21 },
+      { kanji: "食料品", hiragana: "しょくりょうひん", meaning: "thực phẩm", setId: 21 },
+      { kanji: "飲む", hiragana: "のむ", meaning: "uống", setId: 21 },
+      { kanji: "飲み物", hiragana: "のみもの", meaning: "đồ uống", setId: 21 },
+      { kanji: "ご飯", hiragana: "ごはん", meaning: "cơm, bữa ăn", setId: 21 },
+      { kanji: "朝ご飯", hiragana: "あさごはん", meaning: "cơm sáng", setId: 21 },
+      { kanji: "晩ご飯", hiragana: "ばんごはん", meaning: "cơm tối", setId: 21 },
+      { kanji: "お茶", hiragana: "おちゃ", meaning: "trà", setId: 21 },
+      { kanji: "茶色", hiragana: "ちゃいろ", meaning: "màu nâu", setId: 21 },
+      { kanji: "喫茶店", hiragana: "きっさてん", meaning: "quán cà phê", setId: 21 },
+
+      // 22. 肉・牛・鳥・魚 — thịt, động vật, món ăn
+      { kanji: "肉", hiragana: "にく", meaning: "thịt", setId: 22 },
+      { kanji: "牛肉", hiragana: "ぎゅうにく", meaning: "thịt bò", setId: 22 },
+      { kanji: "鳥肉", hiragana: "とりにく", meaning: "thịt gà / thịt chim", setId: 22 },
+      { kanji: "牛", hiragana: "うし", meaning: "con bò", setId: 22 },
+      { kanji: "鳥", hiragana: "とり", meaning: "chim", setId: 22 },
+      { kanji: "小鳥", hiragana: "ことり", meaning: "chim nhỏ", setId: 22 },
+      { kanji: "魚", hiragana: "さかな", meaning: "cá", setId: 22 },
+      { kanji: "金魚", hiragana: "きんぎょ", meaning: "cá vàng", setId: 22 },
+
+      // 23. 朝・昼・夕・夜 — thời gian trong ngày
+      { kanji: "朝", hiragana: "あさ", meaning: "buổi sáng", setId: 23 },
+      { kanji: "朝ご飯", hiragana: "あさごはん", meaning: "cơm sáng", setId: 23 },
+      { kanji: "昼", hiragana: "ひる", meaning: "buổi trưa", setId: 23 },
+      { kanji: "昼休み", hiragana: "ひるやすみ", meaning: "nghỉ trưa", setId: 23 },
+      { kanji: "昼間", hiragana: "ひるま", meaning: "ban ngày", setId: 23 },
+      { kanji: "夕方", hiragana: "ゆうがた", meaning: "chiều tối", setId: 23 },
+      { kanji: "夕食", hiragana: "ゆうしょく", meaning: "bữa tối", setId: 23 },
+      { kanji: "夜", hiragana: "よる", meaning: "buổi tối", setId: 23 },
+      { kanji: "今夜", hiragana: "こんや", meaning: "đêm nay", setId: 23 },
+      { kanji: "夜中", hiragana: "夜中 / よなか", meaning: "nửa đêm", setId: 23 },
+
+      // 24. 週・曜・度・去 — tuần, thứ, lần, quá khứ
+      { kanji: "今週", hiragana: "こんしゅう", meaning: "tuần này", setId: 24 },
+      { kanji: "来週", hiragana: "らいしゅう", meaning: "tuần sau", setId: 24 },
+      { kanji: "一週間", hiragana: "いっしゅうかん", meaning: "một tuần", setId: 24 },
+      { kanji: "曜日", hiragana: "ようび", meaning: "thứ trong tuần", setId: 24 },
+      { kanji: "何曜日", hiragana: "なんようび", meaning: "thứ mấy", setId: 24 },
+      { kanji: "一度", hiragana: "いちど", meaning: "một lần", setId: 24 },
+      { kanji: "今度", hiragana: "こんど", meaning: "lần này, lần tới", setId: 24 },
+      { kanji: "去年", hiragana: "きょねん", meaning: "năm ngoái", setId: 24 },
+      { kanji: "過去", hiragana: "かこ", meaning: "quá khứ", setId: 24 },
+
+      // 25. 春・夏・秋・冬 — bốn mùa
+      { kanji: "春", hiragana: "はる", meaning: "mùa xuân", setId: 25 },
+      { kanji: "春休み", hiragana: "はるやすみ", meaning: "kỳ nghỉ xuân", setId: 25 },
+      { kanji: "夏", hiragana: "なつ", meaning: "mùa hè", setId: 25 },
+      { kanji: "夏休み", hiragana: "なつやすみ", meaning: "kỳ nghỉ hè", setId: 25 },
+      { kanji: "秋", hiragana: "あき", meaning: "mùa thu", setId: 25 },
+      { kanji: "冬", hiragana: "ふゆ", meaning: "mùa đông", setId: 25 },
+      { kanji: "冬休み", hiragana: "ふゆやすみ", meaning: "kỳ nghỉ đông", setId: 25 },
+
+      // 26. 地・図・館・屋 — bản đồ, thư viện, tòa nhà, cửa tiệm
+      { kanji: "地図", hiragana: "ちず", meaning: "bản đồ", setId: 26 },
+      { kanji: "地理", hiragana: "ちり", meaning: "địa lý", setId: 26 },
+      { kanji: "地震", hiragana: "じしん", meaning: "động đất", setId: 26 },
+      { kanji: "図書館", hiragana: "としょかん", meaning: "thư viện", setId: 26 },
+      { kanji: "旅館", hiragana: "りょかん", meaning: "nhà trọ kiểu Nhật", setId: 26 },
+      { kanji: "美術館", hiragana: "びじゅつかん", meaning: "bảo tàng mỹ thuật", setId: 26 },
+      { kanji: "本屋", hiragana: "ほんや", meaning: "tiệm sách", setId: 26 },
+      { kanji: "屋上", hiragana: "おくじょう", meaning: "sân thượng", setId: 26 },
+
+      // 27. 住・町・所・京 — nơi sống, thị trấn, địa chỉ
+      { kanji: "住む", hiragana: "すむ", meaning: "sống, cư trú", setId: 27 },
+      { kanji: "住所", hiragana: "じゅうしょ", meaning: "địa chỉ", setId: 27 },
+      { kanji: "近所", hiragana: "きんじょ", meaning: "hàng xóm, khu gần nhà", setId: 27 },
+      { kanji: "町", hiragana: "まち", meaning: "thị trấn, phố", setId: 27 },
+      { kanji: "東京", hiragana: "とうきょう", meaning: "Tokyo", setId: 27 },
+      { kanji: "場所", hiragana: "ばしょ", meaning: "địa điểm", setId: 27 },
+
+      // 28. 空・海・風・花 — thiên nhiên
+      { kanji: "空", hiragana: "そら", meaning: "bầu trời", setId: 28 },
+      { kanji: "空気", hiragana: "くうき", meaning: "không khí", setId: 28 },
+      { kanji: "空港", hiragana: "くうこう", meaning: "sân bay", setId: 28 },
+      { kanji: "海", hiragana: "うみ", meaning: "biển", setId: 28 },
+      { kanji: "海岸", hiragana: "かいがん", meaning: "bờ biển", setId: 28 },
+      { kanji: "風", hiragana: "かぜ", meaning: "gió", setId: 28 },
+      { kanji: "台風", hiragana: "たいふう", meaning: "bão", setId: 28 },
+      { kanji: "花", hiragana: "はな", meaning: "hoa", setId: 28 },
+      { kanji: "花見", hiragana: "はなみ", meaning: "ngắm hoa", setId: 28 },
+      { kanji: "花火", hiragana: "はなび", meaning: "pháo hoa", setId: 28 },
+
+      // 29. 色・赤・青・黒 — màu sắc
+      { kanji: "色", hiragana: "いろ", meaning: "màu sắc", setId: 29 },
+      { kanji: "茶色", hiragana: "ちゃいろ", meaning: "màu nâu", setId: 29 },
+      { kanji: "景色", hiragana: "けしき", meaning: "phong cảnh", setId: 29 },
+      { kanji: "赤い", hiragana: "あかい", meaning: "màu đỏ", setId: 29 },
+      { kanji: "赤ちゃん", hiragana: "あかちゃん", meaning: "em bé", setId: 29 },
+      { kanji: "青い", hiragana: "あおい", meaning: "màu xanh lam", setId: 29 },
+      { kanji: "青年", hiragana: "せいねん", meaning: "thanh niên", setId: 29 },
+      { kanji: "黒い", hiragana: "くろい", meaning: "màu đen", setId: 29 },
+      { kanji: "黒板", hiragana: "こくばん", meaning: "bảng đen", setId: 29 },
+
+      // 30. 新・古・多・少・近・広 — tính từ cơ bản
+      { kanji: "新しい", hiragana: "あたらしい", meaning: "mới", setId: 30 },
+      { kanji: "新聞", hiragana: "しんぶん", meaning: "báo", setId: 30 },
+      { kanji: "古い", hiragana: "ふるい", meaning: "cũ", setId: 30 },
+      { kanji: "中古", hiragana: "ちゅうこ", meaning: "đồ cũ", setId: 30 },
+      { kanji: "多い", hiragana: "おおい", meaning: "nhiều", setId: 30 },
+      { kanji: "多分", hiragana: "たぶん", meaning: "có lẽ", setId: 30 },
+      { kanji: "少ない", hiragana: "すくない", meaning: "ít", setId: 30 },
+      { kanji: "少し", hiragana: "すこし", meaning: "một chút", setId: 30 },
+      { kanji: "近い", hiragana: "ちかい", meaning: "gần", setId: 30 },
+      { kanji: "最近", hiragana: "さいきん", meaning: "gần đây", setId: 30 },
+      { kanji: "近所", hiragana: "きんじょ", meaning: "hàng xóm, khu gần nhà", setId: 30 },
+      { kanji: "広い", hiragana: "ひろい", meaning: "rộng", setId: 30 },
+
+      // 31. 正・有・特・別・不 — đúng, nổi tiếng, đặc biệt, phủ định
+      { kanji: "正しい", hiragana: "ただしい", meaning: "đúng, chính xác", setId: 31 },
+      { kanji: "正月", hiragana: "しょうがつ", meaning: "Tết, tháng Giêng", setId: 31 },
+      { kanji: "有名", hiragana: "ゆうめい", meaning: "nổi tiếng", setId: 31 },
+      { kanji: "特に", hiragana: "とくに", meaning: "đặc biệt là", setId: 31 },
+      { kanji: "特別", hiragana: "とくべつ", meaning: "đặc biệt", setId: 31 },
+      { kanji: "別れる", hiragana: "わかれる", meaning: "chia tay, chia ra", setId: 31 },
+      { kanji: "不便", hiragana: "ふべん", meaning: "bất tiện", setId: 31 },
+      { kanji: "不安", hiragana: "ふあん", meaning: "bất an", setId: 31 },
+
+      // 32. 家・族・親・兄・弟・姉・妹 — gia đình
+      { kanji: "家", hiragana: "いえ", meaning: "nhà", setId: 32 },
+      { kanji: "家族", hiragana: "かぞく", meaning: "gia đình", setId: 32 },
+      { kanji: "家内", hiragana: "かない", meaning: "vợ mình", setId: 32 },
+      { kanji: "親", hiragana: "おや", meaning: "cha mẹ", setId: 32 },
+      { kanji: "親切", hiragana: "しんせつ", meaning: "tốt bụng", setId: 32 },
+      { kanji: "兄", hiragana: "あに", meaning: "anh trai mình", setId: 32 },
+      { kanji: "お兄さん", hiragana: "おにいさん", meaning: "anh trai người khác", setId: 32 },
+      { kanji: "弟", hiragana: "おとうと", meaning: "em trai", setId: 32 },
+      { kanji: "兄弟", hiragana: "きょうだい", meaning: "anh em", setId: 32 },
+      { kanji: "姉", hiragana: "あね", meaning: "chị gái mình", setId: 32 },
+      { kanji: "お姉さん", hiragana: "おねえさん", meaning: "chị gái người khác", setId: 32 },
+      { kanji: "妹", hiragana: "いもうと", meaning: "em gái", setId: 32 },
+      { kanji: "姉妹", hiragana: "しまい", meaning: "chị em gái", setId: 32 },
+
+      // 33. 作・使・持・思・考・知・言 — động từ tư duy và hành động
+      { kanji: "作る", hiragana: "つくる", meaning: "làm, chế tạo", setId: 33 },
+      { kanji: "使う", hiragana: "つかう", meaning: "sử dụng", setId: 33 },
+      { kanji: "持つ", hiragana: "もつ", meaning: "cầm, có", setId: 33 },
+      { kanji: "気持ち", hiragana: "きもち", meaning: "cảm giác", setId: 33 },
+      { kanji: "思う", hiragana: "おもう", meaning: "nghĩ rằng", setId: 33 },
+      { kanji: "思い出す", hiragana: "おもいだす", meaning: "nhớ ra", setId: 33 },
+      { kanji: "考える", hiragana: "かんがえる", meaning: "suy nghĩ", setId: 33 },
+      { kanji: "知る", hiragana: "しる", meaning: "biết", setId: 33 },
+      { kanji: "知らせる", hiragana: "しらせる", meaning: "thông báo", setId: 33 },
+      { kanji: "言う", hiragana: "いう", meaning: "nói", setId: 33 },
+      { kanji: "伝える", hiragana: "つたえる", meaning: "truyền đạt", setId: 33 },
+
+      // 34. 開・始・終・集 — mở, bắt đầu, kết thúc, tập hợp
+      { kanji: "開く", hiragana: "ひらく", meaning: "mở, tổ chức", setId: 34 },
+      { kanji: "開ける", hiragana: "あける", meaning: "mở cái gì đó", setId: 34 },
+      { kanji: "始まる", hiragana: "はじまる", meaning: "bắt đầu", setId: 34 },
+      { kanji: "始める", hiragana: "はじめる", meaning: "bắt đầu cái gì đó", setId: 34 },
+      { kanji: "終わる", hiragana: "おわる", meaning: "kết thúc", setId: 34 },
+      { kanji: "終わり", hiragana: "おわり", meaning: "sự kết thúc", setId: 34 },
+      { kanji: "集まる", hiragana: "あつまる", meaning: "tập trung lại", setId: 34 },
+      { kanji: "集める", hiragana: "あつめる", meaning: "thu thập, gom lại", setId: 34 },
+
+      // 35. 借・貸・送・切・足 — mượn, cho mượn, gửi, cắt, đủ
+      { kanji: "借りる", hiragana: "かりる", meaning: "mượn", setId: 35 },
+      { kanji: "借金", hiragana: "しゃっきん", meaning: "khoản nợ", setId: 35 },
+      { kanji: "貸す", hiragana: "かす", meaning: "cho mượn", setId: 35 },
+      { kanji: "貸し出し", hiragana: "かしだし", meaning: "cho mượn ra ngoài", setId: 35 },
+      { kanji: "送る", hiragana: "おくる", meaning: "gửi, tiễn", setId: 35 },
+      { kanji: "切る", hiragana: "きる", meaning: "cắt", setId: 35 },
+      { kanji: "親切", hiragana: "しんせつ", meaning: "tốt bụng", setId: 35 },
+      { kanji: "足", hiragana: "あし", meaning: "chân", setId: 35 },
+      { kanji: "足す", hiragana: "たす", meaning: "cộng thêm", setId: 35 },
+      { kanji: "足りる", hiragana: "たりる", meaning: "đủ", setId: 35 },
+
+      // 36. 映・画・音・歌・楽 — phim, âm thanh, âm nhạc
+      { kanji: "映画", hiragana: "えいが", meaning: "phim", setId: 36 },
+      { kanji: "上映", hiragana: "じょうえい", meaning: "trình chiếu phim", setId: 36 },
+      { kanji: "漫画", hiragana: "まんが", meaning: "truyện tranh", setId: 36 },
+      { kanji: "計画", hiragana: "けいかく", meaning: "kế hoạch", setId: 36 },
+      { kanji: "音", hiragana: "おと", meaning: "âm thanh", setId: 36 },
+      { kanji: "発音", hiragana: "はつおん", meaning: "phát âm", setId: 36 },
+      { kanji: "歌", hiragana: "うた", meaning: "bài hát", setId: 36 },
+      { kanji: "歌う", hiragana: "うたう", meaning: "hát", setId: 36 },
+      { kanji: "歌手", hiragana: "かしゅ", meaning: "ca sĩ", setId: 36 },
+      { kanji: "楽しい", hiragana: "たのしい", meaning: "vui", setId: 36 },
+      { kanji: "楽しむ", hiragana: "たのしむ", meaning: "tận hưởng", setId: 36 },
+      { kanji: "楽しみ", hiragana: "たのしみ", meaning: "niềm vui, điều mong chờ", setId: 36 },
+
+      // 37. 紙・写・真 — giấy, ảnh, chụp
+      { kanji: "紙", hiragana: "かみ", meaning: "giấy", setId: 37 },
+      { kanji: "手紙", hiragana: "てがみ", meaning: "thư", setId: 37 },
+      { kanji: "用紙", hiragana: "ようし", meaning: "giấy dùng cho biểu mẫu", setId: 37 },
+      { kanji: "写す", hiragana: "うつす", meaning: "chép lại, chụp", setId: 37 },
+      { kanji: "写真", hiragana: "しゃしん", meaning: "ảnh", setId: 37 },
+      { kanji: "真ん中", hiragana: "まんなか", meaning: "chính giữa", setId: 37 },
+
+      // 38. 洋・旅・服 — phương Tây, du lịch, quần áo
+      { kanji: "西洋", hiragana: "せいよう", meaning: "phương Tây", setId: 38 },
+      { kanji: "洋服", hiragana: "ようふく", meaning: "quần áo kiểu Tây", setId: 38 },
+      { kanji: "洋風", hiragana: "ようふう", meaning: "phong cách Tây", setId: 38 },
+      { kanji: "旅", hiragana: "たび", meaning: "chuyến đi", setId: 38 },
+      { kanji: "旅行", hiragana: "りょこう", meaning: "du lịch", setId: 38 },
+      { kanji: "旅館", hiragana: "りょかん", meaning: "nhà trọ kiểu Nhật", setId: 38 },
+      { kanji: "服", hiragana: "ふく", meaning: "quần áo", setId: 38 },
+      { kanji: "下着", hiragana: "したぎ", meaning: "đồ lót", setId: 38 },
+      { kanji: "着物", hiragana: "きもの", meaning: "kimono", setId: 38 },
+
+      // 39. 理・意・方・力 — lý do, ý kiến, cách làm, sức lực
+      { kanji: "理由", hiragana: "りゆう", meaning: "lý do", setId: 39 },
+      { kanji: "地理", hiragana: "ちり", meaning: "địa lý", setId: 39 },
+      { kanji: "料理", hiragana: "りょうり", meaning: "món ăn, nấu ăn", setId: 39 },
+      { kanji: "意見", hiragana: "いけん", meaning: "ý kiến", setId: 39 },
+      { kanji: "注意", hiragana: "ちゅうい", meaning: "chú ý", setId: 39 },
+      { kanji: "用意", hiragana: "ようい", meaning: "chuẩn bị", setId: 39 },
+      { kanji: "仕方", hiragana: "しかた", meaning: "cách làm", setId: 39 },
+      { kanji: "泳ぎ方", hiragana: "およぎかた", meaning: "cách bơi", setId: 39 },
+      { kanji: "両方", hiragana: "りょうほう", meaning: "cả hai phía", setId: 39 },
+      { kanji: "力", hiragana: "ちから", meaning: "sức mạnh", setId: 39 },
+
+      // 40. 世・界・代 — thế giới, thời đại
+      { kanji: "世界", hiragana: "せいかい / せかい", meaning: "thế giới", setId: 40 },
+      { kanji: "世話", hiragana: "せわ", meaning: "chăm sóc", setId: 40 },
+      { kanji: "時代", hiragana: "じだい", meaning: "thời đại", setId: 40 },
+      { kanji: "代わり", hiragana: "かわり", meaning: "thay cho", setId: 40 },
+      { kanji: "先代", hiragana: "せんだい", meaning: "đời trước, thế hệ trước", setId: 40 }
+    ];
+
+    const setNames = {
+      1: "1. 会 — gặp gỡ, công ty",
+      2: "2. 社 — công ty, xã hội",
+      3: "3. 場 — địa điểm, nơi chốn",
+      4: "4. 員 — nhân viên, tổ chức",
+      5: "5. 者 — người làm nghề",
+      6: "6. 事 — sự việc, công việc",
+      7: "7. 用 — dùng, chuẩn bị",
+      8: "8. 発 — xuất phát, phát âm",
+      9: "9. 運・転 — lái xe, di chuyển",
+      10: "10. 駅・道・通 — ga, đường đi",
+      11: "11. 帰・着・起 — về, đến, dậy",
+      12: "12. 歩・走・急・止 — đi, chạy, dừng",
+      13: "13. 病・院・医 — y tế, bệnh viện",
+      14: "14. 体・心・気 — cơ thể, tâm trạng",
+      15: "15. 安・悪・重 — rẻ, xấu, nặng",
+      16: "16. 勉・強・習 — học tập, rèn luyện",
+      17: "17. 教・文・字・漢 — văn hóa, chữ hán",
+      18: "18. 試・験・質・問 — thi cử, hỏi đáp",
+      19: "19. 研・究・室 — nghiên cứu, phòng",
+      20: "20. 店・買・売・品 — mua bán, cửa hàng",
+      21: "21. 料・飲・飯・茶 — ẩm thực, ăn uống",
+      22: "22. 肉・牛・鳥・魚 — thịt, động vật, cá",
+      23: "23. 朝・昼・夕・夜 — thời gian trong ngày",
+      24: "24. 週・曜・度・去 — tuần, thứ, quá khứ",
+      25: "25. 春・夏・秋・冬 — bốn mùa",
+      26: "26. 地・図・館・屋 — thư viện, tiệm sách",
+      27: "27. 住・町・所・京 — nơi sống, thị trấn",
+      28: "28. 空・海・風・花 — tự nhiên, bầu trời",
+      29: "29. 色・赤・青・黒 — màu sắc",
+      30: "30. 新・古・多・少 — tính từ cơ bản",
+      31: "31. 正・有・特・別 — đặc biệt, nổi tiếng",
+      32: "32. 家・族・親・兄 — gia đình, họ hàng",
+      33: "33. 作・使・持・思 — động từ tư duy",
+      34: "34. 開・始・終・集 — trạng thái hành động",
+      35: "35. 借・貸・送・切 — giao dịch, giúp đỡ",
+      36: "36. 映・画・音・歌 — giải trí, nghệ thuật",
+      37: "37. 紙・写・真 — giấy tờ, chụp ảnh",
+      38: "38. 洋・旅・服 — du lịch, thời trang",
+      39: "39. 理・意・方・力 — lý do, ý kiến, lực",
+      40: "40. 世・界・代 — thế giới, thời đại"
+    };
+
+    // 一意のキーを割り当てる / Assign an unique key to each card
+    const flashcards = rawFlashcards.map((card, idx) => ({
+      ...card,
+      id: `card_${idx}`,
+      setName: setNames[card.setId]
+    }));
+
+    // --- 状態管理 / State Management ---
+    let activeDeck = [];
+    let currentCardIndex = 0;
+    let isFlipped = false;
+    let selectedSetIds = new Set([1, 2, 3, 4, 5]); // 初期選択は1〜5セット
+    let mistakeStats = {}; // { cardId: { wrong: count, correct: count } }
+
+    // --- DOM要素 / DOM Elements ---
+    const setsListContainer = document.getElementById("sets-list-container");
+    const selectedCountBadge = document.getElementById("selected-count-badge");
+    const btnSelectAll = document.getElementById("btn-select-all");
+    const btnDeselectAll = document.getElementById("btn-deselect-all");
+    const btnStart = document.getElementById("btn-start");
+    const btnShuffle = document.getElementById("btn-shuffle");
+    
+    const cardProgressText = document.getElementById("card-progress-text");
+    const cardProgressBar = document.getElementById("card-progress-bar");
+    const currentSetLabel = document.getElementById("current-set-label");
+    const flashcardClickable = document.getElementById("flashcard-clickable");
+    const flashcardInner = document.getElementById("flashcard-inner");
+    
+    const frontKanji = document.getElementById("front-kanji");
+    const backHiragana = document.getElementById("back-hiragana");
+    const backMeaning = document.getElementById("back-meaning");
+    const btnTts = document.getElementById("btn-tts");
+    
+    const cardBonusContainer = document.getElementById("card-bonus-container");
+    const cardExampleBox = document.getElementById("card-example-box");
+    const cardExampleJp = document.getElementById("card-example-jp");
+    const cardWarningBox = document.getElementById("card-warning-box");
+    const cardWarningText = document.getElementById("card-warning-text");
+
+    const btnWrong = document.getElementById("btn-wrong");
+    const btnCorrect = document.getElementById("btn-correct");
+    
+    const globalCorrectCount = document.getElementById("global-correct-count");
+    const globalWrongCount = document.getElementById("global-wrong-count");
+    const globalTotalUnique = document.getElementById("global-total-unique");
+
+    const mistakeTableBody = document.getElementById("mistake-table-body");
+    const btnStudyMistakes = document.getElementById("btn-study-mistakes");
+    const btnClearStats = document.getElementById("btn-clear-stats");
+
+    // モーダル用 / Modal
+    const modalContainer = document.getElementById("modal-container");
+    const modalTitle = document.getElementById("modal-title");
+    const modalMessage = document.getElementById("modal-message");
+    const modalBtnOk = document.getElementById("modal-btn-ok");
+    const modalIconContainer = document.getElementById("modal-icon-container");
+
+    // --- 初期化 / Initialization ---
+    window.onload = function() {
+      lucide.createIcons();
+      loadMistakeStats();
+      buildSetsUI();
+      loadActiveDeck();
+      renderCurrentCard();
+      renderMistakeReport();
+      updateGlobalStatsDisplay();
+
+      // UIを更新
+      updateSelectedBadge();
+    };
+
+    // --- ダイアログ表示処理 / Custom Dialog Display ---
+    function showModal(title, msg, type = "info") {
+      modalTitle.textContent = title;
+      modalMessage.textContent = msg;
+      
+      let iconHtml = '<i data-lucide="info" class="w-6 h-6"></i>';
+      if (type === "warning") {
+        iconHtml = '<i data-lucide="alert-triangle" class="w-6 h-6"></i>';
+        modalIconContainer.className = "p-2 bg-rose-950 text-rose-400 rounded-xl border border-rose-800";
+      } else if (type === "success") {
+        iconHtml = '<i data-lucide="check" class="w-6 h-6"></i>';
+        modalIconContainer.className = "p-2 bg-emerald-950 text-emerald-400 rounded-xl border border-emerald-800";
+      } else {
+        modalIconContainer.className = "p-2 bg-indigo-950 text-indigo-400 rounded-xl border border-indigo-800";
+      }
+      modalIconContainer.innerHTML = iconHtml;
+      lucide.createIcons();
+      
+      modalContainer.classList.remove("hidden");
+    }
+
+    modalBtnOk.onclick = function() {
+      modalContainer.classList.add("hidden");
+    };
+
+    // --- ローカルストレージ処理 / Local Storage Operations ---
+    function loadMistakeStats() {
+      const saved = localStorage.getItem("n4_kanji_mistakes_stats");
+      if (saved) {
+        try {
+          mistakeStats = JSON.parse(saved);
+        } catch (e) {
+          mistakeStats = {};
+        }
+      }
+    }
+
+    function saveMistakeStats() {
+      localStorage.setItem("n4_kanji_mistakes_stats", JSON.stringify(mistakeStats));
+      renderMistakeReport();
+      updateGlobalStatsDisplay();
+    }
+
+    // --- UI構築（セットのチェックボックス一覧） / Build Sets List UI ---
+    function buildSetsUI() {
+      setsListContainer.innerHTML = "";
+      Object.keys(setNames).forEach(idStr => {
+        const id = parseInt(idStr);
+        const name = setNames[id];
+        
+        const label = document.createElement("label");
+        label.className = "flex items-center justify-between p-2 rounded-lg hover:bg-slate-800/80 cursor-pointer text-xs transition border border-transparent hover:border-slate-700/50";
+        
+        const isChecked = selectedSetIds.has(id);
+        
+        label.innerHTML = `
+          <div class="flex items-center gap-2">
+            <input type="checkbox" value="${id}" ${isChecked ? 'checked' : ''} class="w-4 h-4 rounded text-indigo-600 bg-slate-950 border-slate-700 focus:ring-indigo-500 focus:ring-offset-slate-900 set-checkbox">
+            <span class="text-slate-300 font-medium">${name}</span>
+          </div>
+          <span class="text-[10px] text-slate-500 font-mono">${getWordCountInSet(id)} từ</span>
+        `;
+        
+        setsListContainer.appendChild(label);
+      });
+
+      // イベントリスナーの追加
+      const checkboxes = document.querySelectorAll(".set-checkbox");
+      checkboxes.forEach(cb => {
+        cb.addEventListener("change", function() {
+          const id = parseInt(this.value);
+          if (this.checked) {
+            selectedSetIds.add(id);
+          } else {
+            selectedSetIds.delete(id);
+          }
+          updateSelectedBadge();
+        });
+      });
+    }
+
+    function getWordCountInSet(setId) {
+      return flashcards.filter(c => c.setId === setId).length;
+    }
+
+    function updateSelectedBadge() {
+      selectedCountBadge.textContent = `${selectedSetIds.size}/40`;
+    }
+
+    // 全選択
+    btnSelectAll.onclick = function() {
+      const checkboxes = document.querySelectorAll(".set-checkbox");
+      checkboxes.forEach(cb => {
+        cb.checked = true;
+        selectedSetIds.add(parseInt(cb.value));
+      });
+      updateSelectedBadge();
+    };
+
+    // 全解除
+    btnDeselectAll.onclick = function() {
+      const checkboxes = document.querySelectorAll(".set-checkbox");
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+        selectedSetIds.delete(parseInt(cb.value));
+      });
+      updateSelectedBadge();
+    };
+
+    // --- デッキ制御 / Deck Management ---
+    function loadActiveDeck() {
+      if (selectedSetIds.size === 0) {
+        // デフォルトで最初の5セットを強制的に選択
+        for(let i=1; i<=5; i++) selectedSetIds.add(i);
+        buildSetsUI();
+      }
+      
+      activeDeck = flashcards.filter(card => selectedSetIds.has(card.setId));
+      currentCardIndex = 0;
+      isFlipped = false;
+      flashcardInner.classList.remove("flipped");
+    }
+
+    // シャッフル
+    function shuffleActiveDeck() {
+      if (activeDeck.length <= 1) return;
+      for (let i = activeDeck.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [activeDeck[i], activeDeck[j]] = [activeDeck[j], activeDeck[i]];
+      }
+      currentCardIndex = 0;
+      isFlipped = false;
+      flashcardInner.classList.remove("flipped");
+      renderCurrentCard();
+      showModal("シャッフル完了 / Trộn thành công", "Các thẻ trong bộ được chọn đã được tráo đổi ngẫu nhiên!", "success");
+    }
+
+    btnShuffle.onclick = shuffleActiveDeck;
+
+    // 学習開始ボタン
+    btnStart.onclick = function() {
+      loadActiveDeck();
+      if (activeDeck.length === 0) {
+        showModal("警告 / Cảnh báo", "Vui lòng chọn ít nhất một bộ Kanji để bắt đầu học!", "warning");
+        return;
+      }
+      renderCurrentCard();
+      showModal("学習スタート / Bắt đầu học", `Đã tải thành công ${activeDeck.length} thẻ từ các bộ đã chọn. Chúc bạn học tốt!`, "success");
+    };
+
+    // --- カード表示レンダリング / Render Flashcard ---
+    function renderCurrentCard() {
+      if (activeDeck.length === 0) {
+        frontKanji.textContent = "なし";
+        backHiragana.textContent = "おわり";
+        backMeaning.textContent = "Vui lòng chọn bộ Kanji";
+        currentSetLabel.textContent = "なし";
+        cardProgressText.textContent = "0 / 0";
+        cardProgressBar.style.width = "0%";
+        cardBonusContainer.classList.add("hidden");
+        return;
+      }
+
+      const card = activeDeck[currentCardIndex];
+      
+      // フロント面の設定
+      frontKanji.textContent = card.kanji;
+      
+      // バック面の設定
+      backHiragana.textContent = card.hiragana;
+      backMeaning.textContent = card.meaning;
+
+      // セットラベルと進捗
+      currentSetLabel.textContent = card.setName;
+      cardProgressText.textContent = `${currentCardIndex + 1} / ${activeDeck.length}`;
+      const percentage = ((currentCardIndex + 1) / activeDeck.length) * 100;
+      cardProgressBar.style.width = `${percentage}%`;
+
+      // 例句や警告（N4トラップ）の制御
+      let hasBonus = false;
+      
+      if (card.example) {
+        cardExampleBox.classList.remove("hidden");
+        cardExampleJp.textContent = card.example;
+        hasBonus = true;
+      } else {
+        cardExampleBox.classList.add("hidden");
+      }
+
+      if (card.warning) {
+        cardWarningBox.classList.remove("hidden");
+        cardWarningText.textContent = card.warning;
+        hasBonus = true;
+      } else {
+        cardWarningBox.classList.add("hidden");
+      }
+
+      if (hasBonus) {
+        cardBonusContainer.classList.remove("hidden");
+      } else {
+        cardBonusContainer.classList.add("hidden");
+      }
+
+      // めくり状態の初期化
+      if (isFlipped) {
+        isFlipped = false;
+        flashcardInner.classList.remove("flipped");
+      }
+    }
+
+    // --- 音声合成発音 (TTS) / Text-to-Speech ---
+    function speakJapanese(text) {
+      if ('speechSynthesis' in window) {
+        // 既存の音声をキャンセル
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'ja-JP';
+        utterance.rate = 0.85; // 少しゆっくり発音
+        window.speechSynthesis.speak(utterance);
+      } else {
+        showModal("エラー / Lỗi", "Trình duyệt của bạn không hỗ trợ tính năng phát âm (TTS).", "warning");
+      }
+    }
+
+    btnTts.onclick = function(e) {
+      e.stopPropagation(); // カードめくり発火を防ぐ
+      if (activeDeck.length === 0) return;
+      const card = activeDeck[currentCardIndex];
+      speakJapanese(card.kanji);
+    };
+
+    // --- カードのフリップ処理 / Card Flip Logic ---
+    function flipCard() {
+      if (activeDeck.length === 0) return;
+      isFlipped = !isFlipped;
+      if (isFlipped) {
+        flashcardInner.classList.add("flipped");
+        // めくった時に自動で発音
+        setTimeout(() => {
+          const card = activeDeck[currentCardIndex];
+          speakJapanese(card.kanji);
+        }, 150);
+      } else {
+        flashcardInner.classList.remove("flipped");
+      }
+    }
+
+    flashcardClickable.onclick = flipCard;
+
+    // --- 回答処理（正解 / 不正解） / Answer Handlers ---
+    function handleAnswer(isCorrectAnswer) {
+      if (activeDeck.length === 0) return;
+      
+      const card = activeDeck[currentCardIndex];
+      
+      if (!mistakeStats[card.id]) {
+        mistakeStats[card.id] = { wrong: 0, correct: 0 };
+      }
+
+      if (isCorrectAnswer) {
+        mistakeStats[card.id].correct += 1;
+      } else {
+        mistakeStats[card.id].wrong += 1;
+      }
+
+      // 状態をセーブ
+      saveMistakeStats();
+
+      // 次のカードへ進む
+      if (currentCardIndex < activeDeck.length - 1) {
+        currentCardIndex++;
+        renderCurrentCard();
+      } else {
+        // デッキを一周した場合
+        showModal(
+          "学習完了 / Hoàn thành!",
+          `Chúc mừng bạn đã học xong bộ thẻ hiện tại (${activeDeck.length} từ). Hãy xem báo cáo lỗi sai bên dưới để tiếp tục ôn tập tốt hơn!`,
+          "success"
+        );
+        currentCardIndex = 0;
+        renderCurrentCard();
+      }
+    }
+
+    btnCorrect.onclick = function(e) {
+      e.stopPropagation();
+      handleAnswer(true);
+    };
+
+    btnWrong.onclick = function(e) {
+      e.stopPropagation();
+      handleAnswer(false);
+    };
+
+    // --- ショートカットキー対応 / Keyboard Shortcuts ---
+    document.addEventListener("keydown", function(e) {
+      if (e.code === "Space") {
+        e.preventDefault(); // ページのスクロールを防止
+        flipCard();
+      } else if (e.code === "ArrowLeft") {
+        e.preventDefault();
+        handleAnswer(false); // 不正解
+      } else if (e.code === "ArrowRight") {
+        e.preventDefault();
+        handleAnswer(true); // 正解
+      }
+    });
+
+    // --- 統計レポートレンダリング / Render Stats & Mistake Report ---
+    function updateGlobalStatsDisplay() {
+      let totalCorrect = 0;
+      let totalWrong = 0;
+      let uniqueLearned = 0;
+
+      Object.keys(mistakeStats).forEach(id => {
+        const s = mistakeStats[id];
+        totalCorrect += (s.correct || 0);
+        totalWrong += (s.wrong || 0);
+        if ((s.correct || 0) > 0 || (s.wrong || 0) > 0) {
+          uniqueLearned++;
+        }
+      });
+
+      globalCorrectCount.textContent = totalCorrect;
+      globalWrongCount.textContent = totalWrong;
+      globalTotalUnique.textContent = `${uniqueLearned}/${flashcards.length}`;
+    }
+
+    function renderMistakeReport() {
+      mistakeTableBody.innerHTML = "";
+      
+      // 不正解数が1以上のものを抽出して配列化
+      const mistakesArr = [];
+      Object.keys(mistakeStats).forEach(id => {
+        const stat = mistakeStats[id];
+        if (stat.wrong > 0) {
+          const originalCard = flashcards.find(c => c.id === id);
+          if (originalCard) {
+            mistakesArr.push({
+              ...originalCard,
+              wrongCount: stat.wrong
+            });
+          }
+        }
+      });
+
+      // 不正解数が多い順にソート (Desc order)
+      mistakesArr.sort((a, b) => b.wrongCount - a.wrongCount);
+
+      if (mistakesArr.length === 0) {
+        mistakeTableBody.innerHTML = `
+          <tr>
+            <td colspan="5" class="py-8 text-center text-slate-500">
+              <div class="flex flex-col items-center gap-2">
+                <i data-lucide="check-circle" class="w-8 h-8 text-slate-600"></i>
+                <span>Chưa có dữ liệu sai sót. Hãy yên tâm học tập nhé!</span>
+              </div>
+            </td>
+          </tr>
+        `;
+        lucide.createIcons();
+        return;
+      }
+
+      mistakesArr.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.className = "border-b border-slate-800/60 hover:bg-slate-900/40 transition-colors";
+        
+        tr.innerHTML = `
+          <td class="py-3 px-4 font-bold text-slate-200 text-sm font-sans">${item.kanji}</td>
+          <td class="py-3 px-4 text-slate-300 font-sans">${item.hiragana}</td>
+          <td class="py-3 px-4 text-slate-400 font-medium">${item.meaning}</td>
+          <td class="py-3 px-4 text-slate-500 text-[11px]">${item.setName}</td>
+          <td class="py-3 px-4 text-right font-bold text-rose-400 font-mono text-sm">${item.wrongCount}</td>
+        `;
+        
+        mistakeTableBody.appendChild(tr);
+      });
+      lucide.createIcons();
+    }
+
+    // 統計データ全削除
+    btnClearStats.onclick = function() {
+      // ユーザーの意図的なアクションにカスタムモーダル確認ダイアログの代用を適用
+      const check = confirm("Bạn có chắc chắn muốn xóa tất cả lịch sử trả lời sai không? Hành động này không thể hoàn tác.");
+      if (check) {
+        mistakeStats = {};
+        saveMistakeStats();
+        showModal("履歴クリア / Đã xóa sạch", "Mọi lịch sử lỗi sai đã được làm mới thành công!", "success");
+      }
+    };
+
+    // 間違えた単語だけを学習するモード
+    btnStudyMistakes.onclick = function() {
+      const wrongIds = Object.keys(mistakeStats).filter(id => mistakeStats[id].wrong > 0);
+      
+      if (wrongIds.length === 0) {
+        showModal("通知 / Thông báo", "Chúc mừng! Bạn hiện chưa có từ nào bị sai. Hãy học bộ thẻ chính trước nhé!", "info");
+        return;
+      }
+
+      activeDeck = flashcards.filter(card => wrongIds.includes(card.id));
+      
+      // 不正解の多い順に初期ソートしておくと学習効率が上がります
+      activeDeck.sort((a, b) => {
+        return (mistakeStats[b.id]?.wrong || 0) - (mistakeStats[a.id]?.wrong || 0);
+      });
+
+      currentCardIndex = 0;
+      isFlipped = false;
+      flashcardInner.classList.remove("flipped");
+      renderCurrentCard();
+
+      showModal(
+        "復習モード / Chế độ Ôn tập lỗi sai", 
+        `Đã tạo thành công bộ gồm ${activeDeck.length} từ bạn hay làm sai nhất. Hãy cố gắng ghi nhớ chúng!`, 
+        "success"
+      );
+    };
+
+  </script>
+</body>
+</html>
