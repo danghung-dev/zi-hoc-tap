@@ -26,9 +26,12 @@ import {
   BookOpenCheck,
   CheckCircle2,
   XCircle,
-  GraduationCap
+  GraduationCap,
+  Lock
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+const IS_LISTENING_ENABLED = false;
 
 const ITEM_TYPE_LABELS: Record<string, string> = {
   // Từ vựng (Vocabulary)
@@ -88,6 +91,11 @@ export default function PracticePage() {
   // Skill Group State
   const [activeSkillGroup, setActiveSkillGroup] = useState<SkillGroup>("all");
 
+  // Derived enabled questions (filtering out listening if disabled)
+  const enabledQuestions = IS_LISTENING_ENABLED 
+    ? questions 
+    : questions.filter(q => q.section !== "listening");
+
   // Filter States
   const [filterCategory, setFilterCategory] = useState<string>("all");
   const [filterItemType, setFilterItemType] = useState<string>("all");
@@ -125,6 +133,11 @@ export default function PracticePage() {
   // 2. Filter logic: De-coupled from mistakeIds state to prevent deck reset while answering
   useEffect(() => {
     let result = [...questions];
+
+    // Filter out listening questions if disabled
+    if (!IS_LISTENING_ENABLED) {
+      result = result.filter(q => q.section !== "listening");
+    }
 
     // Filter by active skill group
     if (activeSkillGroup === "vocabulary") {
@@ -187,6 +200,7 @@ export default function PracticePage() {
       if (targetQuestion.section === "vocabulary") {
         targetSkillGroup = "vocabulary";
       } else if (targetQuestion.section === "listening") {
+        if (!IS_LISTENING_ENABLED) return; // Prevent jump if listening is disabled
         targetSkillGroup = "listening";
       } else if (targetQuestion.section === "grammar_reading") {
         const type = targetQuestion.jlptItemType;
@@ -249,7 +263,7 @@ export default function PracticePage() {
   // Calculate distinct category list dynamically
   const categories = Array.from(
     new Map(
-      questions
+      enabledQuestions
         .filter((q) => q.customClassification)
         .map((q) => [
           q.customClassification!.categoryId,
@@ -259,7 +273,7 @@ export default function PracticePage() {
   );
 
   // Calculate distinct item types dynamically
-  const itemTypes = Array.from(new Set(questions.map((q) => q.jlptItemType)));
+  const itemTypes = Array.from(new Set(enabledQuestions.map((q) => q.jlptItemType)));
 
   // Calculate counts for each group dynamically
   const vocabCount = questions.filter(q => q.section === "vocabulary").length;
@@ -375,7 +389,7 @@ export default function PracticePage() {
                 onClick={() => setActiveSkillGroup("all")}
                 className="text-xs text-indigo-400 hover:text-indigo-300 font-semibold transition cursor-pointer"
               >
-                Xem tất cả ({questions.length})
+                Xem tất cả ({enabledQuestions.length})
               </button>
             )}
           </div>
@@ -470,16 +484,23 @@ export default function PracticePage() {
 
             {/* Card 4: Listening */}
             <button
-              onClick={() => handleToggleGroup("listening")}
+              onClick={() => IS_LISTENING_ENABLED && handleToggleGroup("listening")}
+              disabled={!IS_LISTENING_ENABLED}
               className={cn(
-                "bg-slate-900 border rounded-3xl p-5 flex flex-col gap-4 text-left transition-all duration-300 hover:border-slate-700 hover:shadow-lg cursor-pointer",
+                "bg-slate-900 border rounded-3xl p-5 flex flex-col gap-4 text-left transition-all duration-300",
+                IS_LISTENING_ENABLED
+                  ? "hover:border-slate-700 hover:shadow-lg cursor-pointer"
+                  : "opacity-50 cursor-not-allowed select-none border-slate-850 bg-slate-900/50",
                 activeSkillGroup === "listening"
                   ? "border-indigo-500 bg-indigo-950/10 ring-1 ring-indigo-500/20"
                   : "border-slate-800"
               )}
             >
               <div className="flex items-center justify-between w-full">
-                <div className="w-10 h-10 rounded-xl bg-rose-950/50 text-rose-400 font-bold text-lg flex items-center justify-center font-sans">
+                <div className={cn(
+                  "w-10 h-10 rounded-xl font-bold text-lg flex items-center justify-center font-sans",
+                  IS_LISTENING_ENABLED ? "bg-rose-950/50 text-rose-400" : "bg-slate-950/50 text-slate-500"
+                )}>
                   聴
                 </div>
                 <span className="text-[10px] px-2 py-0.5 bg-slate-950 text-slate-400 rounded-md border border-slate-850 font-medium">
@@ -487,13 +508,25 @@ export default function PracticePage() {
                 </span>
               </div>
               <div>
-                <h3 className="font-bold text-slate-100 text-sm sm:text-base mb-1">Nghe Hiểu (TTS)</h3>
+                <h3 className="font-bold text-slate-100 text-sm sm:text-base mb-1 flex items-center gap-1.5">
+                  Nghe Hiểu (TTS)
+                  {!IS_LISTENING_ENABLED && <Lock className="w-3.5 h-3.5 text-slate-500" />}
+                </h3>
                 <p className="text-xs text-slate-400 leading-relaxed min-h-[48px]">
                   Chạy thử trình phát nghe chuẩn xác với hệ thống tự phát âm tiếng Nhật trực tiếp, hiện bài khóa sau trả lời.
                 </p>
               </div>
-              <div className="text-indigo-400 hover:text-indigo-300 text-xs font-bold flex items-center gap-1 mt-auto pt-2">
-                {activeSkillGroup === "listening" ? "Đang ôn tập •" : "Bắt đầu >"}
+              <div className={cn(
+                "text-xs font-bold flex items-center gap-1 mt-auto pt-2",
+                IS_LISTENING_ENABLED 
+                  ? "text-indigo-400 hover:text-indigo-300" 
+                  : "text-slate-500"
+              )}>
+                {!IS_LISTENING_ENABLED 
+                  ? "Tạm khóa (Bảo trì)" 
+                  : activeSkillGroup === "listening" 
+                    ? "Đang ôn tập •" 
+                    : "Bắt đầu >"}
               </div>
             </button>
 
@@ -528,9 +561,9 @@ export default function PracticePage() {
                 onChange={(e) => setFilterCategory(e.target.value)}
                 className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
               >
-                <option value="all">Tất cả danh mục ({questions.length})</option>
+                <option value="all">Tất cả danh mục ({enabledQuestions.length})</option>
                 {categories.map(([id, name]) => {
-                  const count = questions.filter(q => q.customClassification?.categoryId === id).length;
+                  const count = enabledQuestions.filter(q => q.customClassification?.categoryId === id).length;
                   return (
                     <option key={id} value={id}>
                       {name} ({count})
@@ -548,9 +581,9 @@ export default function PracticePage() {
                 onChange={(e) => setFilterItemType(e.target.value)}
                 className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
               >
-                <option value="all">Tất cả dạng bài ({questions.length})</option>
+                <option value="all">Tất cả dạng bài ({enabledQuestions.length})</option>
                 {itemTypes.map((type) => {
-                  const count = questions.filter(q => q.jlptItemType === type).length;
+                  const count = enabledQuestions.filter(q => q.jlptItemType === type).length;
                   const label = ITEM_TYPE_LABELS[type] || type;
                   return (
                     <option key={type} value={type}>
