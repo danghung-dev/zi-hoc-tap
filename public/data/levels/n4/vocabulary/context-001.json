@@ -1,0 +1,515 @@
+[
+  {
+    "id": "n4_vocab_context_001",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: まだ",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "1. いそがしかったので、　（＿＿）　ひるごはんを食べていません。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "なかなか",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「なかなか」 đi với phủ định mang nghĩa 'mãi mà không...' thể hiện sự khó khăn của hành động, nhưng câu này nguyên nhân do chủ quan bận rộn nên dùng まだ hợp lý hơn."
+      },
+      {
+        "id": "B",
+        "text": "まだ",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「まだ～ていません」 biểu thị hành động 'vẫn chưa' được thực hiện."
+      },
+      {
+        "id": "C",
+        "text": "もう",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「もう」 nghĩa là 'đã/rồi', đi kèm với thể khẳng định."
+      },
+      {
+        "id": "D",
+        "text": "さっき",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「さっき」 nghĩa là 'vừa nãy', thường đi với thể quá khứ khẳng định."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "まだ + V-te imasen = vẫn chưa",
+      "fullExplanationVi": "Cấu trúc ngữ pháp 「まだ + động từ thể ていません」 dùng để biểu thị một hành động chưa hoàn thành tính đến thời điểm hiện tại.",
+      "trapVi": "Bẫy phân biệt phó từ chỉ thời gian/trạng thái phủ định: なかなか vs まだ.",
+      "translationVi": "Vì bận rộn nên tôi vẫn chưa ăn cơm trưa."
+    }
+  },
+  {
+    "id": "n4_vocab_context_002",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "expression"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSION",
+      "categoryName": "Từ vựng quán ngữ",
+      "displayLabel": "Mẫu câu: どうぞ",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "2. いらっしゃいませ。　（＿＿）　入ってください。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "どうも",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「どうも」 là phó từ mang nghĩa cám ơn hoặc xin chào xã giao."
+      },
+      {
+        "id": "B",
+        "text": "どうぞ",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「どうぞ」 dùng để đưa ra lời mời, gợi ý lịch sự."
+      },
+      {
+        "id": "C",
+        "text": "きっと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「きっと」 nghĩa là chắc chắn (biểu thị phỏng đoán có tính chắc chắn cao)."
+      },
+      {
+        "id": "D",
+        "text": "やっぱり",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「やっぱり」 nghĩa là quả nhiên."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "どうぞ = xin mời",
+      "fullExplanationVi": "Cụm từ 「どうぞ～てください」 là cách nói lịch sự dùng để mời đối phương làm việc gì đó (trong trường hợp này là mời vào phòng/cửa hàng).",
+      "trapVi": "Dễ nhầm lẫn giữa どうぞ (xin mời) và どうも (cảm ơn).",
+      "translationVi": "Xin chào quý khách. Xin mời vào trong."
+    }
+  },
+  {
+    "id": "n4_vocab_context_003",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: たぶん",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "3. いっしょうけんめいべんきょうしたから、あしたのしけんは　（＿＿）　だいじょうぶでしょう。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "どうも",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「どうも」 không kết hợp với đuôi phỏng đoán でしょう."
+      },
+      {
+        "id": "B",
+        "text": "たぶん",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「たぶん」 (có lẽ) thường đi kèm với đuôi 「でしょう」 ở cuối câu để phỏng đoán sự việc."
+      },
+      {
+        "id": "C",
+        "text": "やはり",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「やはり」 nghĩa là quả nhiên, dùng cho sự việc đã rõ ràng, không hợp phỏng đoán tương lai."
+      },
+      {
+        "id": "D",
+        "text": "どうぞ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「どうぞ」 dùng để mời."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "たぶん ～ でしょう = có lẽ ～",
+      "fullExplanationVi": "Phó từ 「たぶん (có lẽ)」 biểu thị suy đoán mang tính chủ quan hoặc có căn cứ nhẹ, thường kết hợp hoàn hảo với quán ngữ kết thúc câu 「～でしょう」.",
+      "trapVi": "Tránh nhầm với やはり (quả nhiên - khẳng định thực tế khớp mong đợi).",
+      "translationVi": "Vì đã học hành chăm chỉ nên bài thi ngày mai có lẽ sẽ ổn thôi."
+    }
+  },
+  {
+    "id": "n4_vocab_context_004",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: なかなか",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "4. おそくなってすみません。バスが　（＿＿）　来なかったんです。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "けっして",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「けっして」 + phủ định nghĩa là tuyệt đối không, không phù hợp cho trường hợp xe buýt đến muộn."
+      },
+      {
+        "id": "B",
+        "text": "きっと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「きっと」 mang tính khẳng định, thường đi với câu khẳng định."
+      },
+      {
+        "id": "C",
+        "text": "たぶん",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「たぶん」 nghĩa là có lẽ, thể hiện phỏng đoán."
+      },
+      {
+        "id": "D",
+        "text": "なかなか",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Phó từ 「なかなか」 khi đi kèm động từ thể phủ định mang nghĩa 'mãi mà không...'"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "なかなか + phủ định = mãi mà không",
+      "fullExplanationVi": "Phó từ 「なかなか」 biểu thị một sự việc dự định hay mong muốn mãi vẫn chưa xảy ra mặc dù thời gian đã trôi qua lâu.",
+      "trapVi": "Bẫy các phó từ đi với thể phủ định như けっして (tuyệt đối không).",
+      "translationVi": "Xin lỗi vì tôi đã đến muộn. Xe buýt mãi mà không tới."
+    }
+  },
+  {
+    "id": "n4_vocab_context_005",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: やはり",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "5. 午後から雨がふると聞いていましたが、　（＿＿）　ふりはじめました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "きっと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「きっと」 biểu thị suy đoán chắc chắn ở tương lai, còn hành động ở đây đã bắt đầu (ふりはじめました)."
+      },
+      {
+        "id": "B",
+        "text": "たぶん",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「たぶん」 biểu thị sự phỏng đoán, không dùng cho sự việc thực tế trước mắt."
+      },
+      {
+        "id": "C",
+        "text": "やはり",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「やはり」 (quả nhiên) dùng để xác nhận một sự việc xảy ra đúng như suy đoán hoặc thông tin nhận được trước đó."
+      },
+      {
+        "id": "D",
+        "text": "なかなか",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「なかなか」 đi với phủ định."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "やはり = quả nhiên là/đúng như mong đợi",
+      "fullExplanationVi": "Phó từ 「やはり」 (hoặc dạng hội thoại 「やっぱり」) biểu thị ý nghĩa 'quả nhiên', dùng để nhấn mạnh sự việc diễn ra đúng theo dự kiến hoặc lẽ tự nhiên.",
+      "trapVi": "Dễ nhầm với きっと (nhất định) - dùng cho ý chí hoặc phỏng đoán mạnh mẽ trước khi sự việc xảy ra.",
+      "translationVi": "Tôi đã nghe nói chiều nay trời mưa, quả nhiên là trời đã bắt đầu mưa rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_context_006",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: けっして",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "6. おせわになりました。田中さんのことは　（＿＿）　わすれません。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ぜんぜん",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ぜんぜん」 đi với phủ định thể hiện mức độ 'hoàn toàn không' (thường dùng cho khả năng, hiểu biết, trạng thái), ít dùng để thể hiện quyết tâm tương lai."
+      },
+      {
+        "id": "B",
+        "text": "とても",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「とても」 đi với khẳng định hoặc phủ định dạng ても nhưng nghĩa ở đây không hợp."
+      },
+      {
+        "id": "C",
+        "text": "けっして",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「けっして + phủ định」 thể hiện sự quyết tâm mạnh mẽ: 'quyết không/tuyệt đối không'."
+      },
+      {
+        "id": "D",
+        "text": "ほとんど",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ほとんど」 + phủ định nghĩa là 'hầu như không', không hợp ngữ cảnh thể hiện tình cảm này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "けっして ～ ない = quyết không ～",
+      "fullExplanationVi": "Phó từ 「けっして」 kết hợp với động từ chia thể phủ định dùng để nhấn mạnh ý chí quyết tâm hoặc cam kết tuyệt đối không làm việc gì đó.",
+      "trapVi": "Phân biệt với ぜんぜん (hoàn toàn không) chỉ mức độ nhận thức hoặc trạng thái khách quan.",
+      "translationVi": "Cảm ơn anh đã giúp đỡ. Tôi quyết không quên anh Tanaka đâu."
+    }
+  },
+  {
+    "id": "n4_vocab_context_007",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: もう",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "7. どようびのひこうきのきっぷは　（＿＿）　なくなってしまいました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ぜんぜん",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ぜんぜん」 đi với thể phủ định."
+      },
+      {
+        "id": "B",
+        "text": "あまり",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あまり」 đi với thể phủ định."
+      },
+      {
+        "id": "C",
+        "text": "もう",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Phó từ 「もう」 kết hợp với thể quá khứ/hoàn thành biểu thị hành động 'đã' xảy ra xong rồi."
+      },
+      {
+        "id": "D",
+        "text": "なかなか",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「なかなか」 đi với phủ định."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "もう = đã/rồi",
+      "fullExplanationVi": "Phó từ 「もう」 dùng để biểu thị trạng thái đã biến đổi hoặc hành động đã kết thúc từ trước đó (đã hết sạch).",
+      "trapVi": "Tránh nhầm với các phó từ đi với thể phủ định như ぜんぜん hoặc あまり.",
+      "translationVi": "Vé máy bay ngày thứ bảy đã hết sạch mất rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_context_008",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: あまり",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "8. きのうのしけんは　（＿＿）　むずかしくありませんでした。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "あまり",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「あまり + phủ định」 nghĩa là 'không... lắm'."
+      },
+      {
+        "id": "B",
+        "text": "いつも",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いつも」 nghĩa là luôn luôn, không hợp ngữ cảnh phủ định."
+      },
+      {
+        "id": "C",
+        "text": "ずいぶん",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ずいぶん」 nghĩa là khá/rất, đi kèm với thể khẳng định."
+      },
+      {
+        "id": "D",
+        "text": "よく",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「よく」 nghĩa là thường xuyên hoặc rõ/tốt, đi kèm thể khẳng định."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "あまり ～ ない = không ～ lắm",
+      "fullExplanationVi": "Phó từ 「あまり」 kết hợp với tính từ hoặc động từ thể phủ định dùng để giảm nhẹ mức độ phủ định, mang nghĩa là 'không lắm'.",
+      "trapVi": "Phân biệt với ずいぶん (khá là) - phó từ chỉ mức độ cao dùng trong câu khẳng định.",
+      "translationVi": "Kỳ thi ngày hôm qua không khó lắm."
+    }
+  },
+  {
+    "id": "n4_vocab_context_009",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_ADVERB",
+      "categoryName": "Từ vựng phó từ",
+      "displayLabel": "Phó từ: いくら",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "9. （＿＿）　れんしゅうしても、じょうずになりません。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ぜひ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ぜひ」 thường đi với cấu trúc nguyện vọng như たい hoặc ください."
+      },
+      {
+        "id": "B",
+        "text": "いくら",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc giả định đối lập 「いくら + động từ thể ても」 có nghĩa là 'cho dù ... bao nhiêu đi chăng nữa'."
+      },
+      {
+        "id": "C",
+        "text": "ずっと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ずっと」 dùng trong so sánh hơn hoặc biểu thị trạng thái kéo dài liên tục."
+      },
+      {
+        "id": "D",
+        "text": "いつか",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いつか」 nghĩa là một lúc nào đó, một ngày nào đó."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "いくら ～ ても = cho dù ～ bao nhiêu đi nữa",
+      "fullExplanationVi": "Mẫu câu giả định nhượng bộ 「いくら + Vても」 biểu thị ý nghĩa: cho dù có thực hiện hành động ở mức độ cao hay nhiều lần đi nữa thì kết quả vẫn không thay đổi.",
+      "trapVi": "Tránh nhầm với ぜひ (nhất định - dùng để mời mọc hoặc nêu ý chí của bản thân).",
+      "translationVi": "Cho dù có luyện tập bao nhiêu đi nữa thì vẫn không giỏi lên được."
+    }
+  }
+]

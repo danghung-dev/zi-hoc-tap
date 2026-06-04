@@ -1,0 +1,606 @@
+[
+  {
+    "id": "n4_listen_task_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q01.mp3",
+        "durationSec": 72.5
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の子 が 話し て い ます 。 毎日 、 いちばん 先 に 片付け なけれ ば なら ない の は どれ ですか ｡",
+      "stemVi": "Một bé gái đang nói chuyện. Việc gì mà cô bé phải tự dọn dẹp đầu tiên mỗi sáng?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "1",
+        "explanationVi": "Đáp án A. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture1-6.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture2-4.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "3",
+        "explanationVi": "Đáp án C. Đúng.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture3-4.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture4-4.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Quyết định làm việc của bản thân: Rửa tất, mang bát đĩa ra bồn, gấp chăn đệm cất tủ. Trong đó việc đầu tiên khi ngủ dậy mỗi sáng là gấp chăn đệm cất tủ.",
+      "fullExplanationVi": "Cô bé tự làm các việc: giặt tất (靴下を洗ったり), mang bát đĩa ra bếp (台所へ持って行ったり), gấp chăn đệm mỗi sáng khi thức dậy (毎朝、起きてから布団をたたんで、押し入れに入れるのも). Câu hỏi hỏi việc dọn dẹp đầu tiên mỗi sáng (毎日、いちばん先に片付けなければならない), đó là gấp chăn đệm cất tủ. Đáp án 3.",
+      "trapVi": "Bẫy liệt kê các hoạt động cô bé làm như giặt tất, rửa bát đĩa, mua đồ, cần nghe kỹ từ khóa thời gian '毎朝' (mỗi sáng) và 'いちばん先' (đầu tiên).",
+      "listeningStrategyVi": "Nghe kỹ các hoạt động và liên hệ với các từ chỉ thứ tự/thời gian như '毎朝', 'いちばん先に' để chốt quyết định.",
+      "transcriptJa": "女の子が話しています。毎日、いちばん先に片付けなければならないのはどれですか。\n女の子：私、今年で7才です。まだ小さいですが、自分が出来ることは自分でやることにしました。例えば、靴下を洗ったり、ご飯を食べてから、お椀やお皿を台所へ持って行ったり。毎朝、起きてから布団をたたんで、押し入れに入れるのも自分でやるのですよ。時々、お母さんのために買い物をしますが、みんな1000円以下のものばかりです。",
+      "translationVi": "Một bé gái đang nói chuyện. Việc gì mà cô bé phải tự dọn dẹp đầu tiên mỗi sáng?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q02.mp3",
+        "durationSec": 61.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "病院 の 先生 と 男 の 人 が 話し て い ます 。 男 の 人 は 退院 し て から どう し ます か 。",
+      "stemVi": "Bác sĩ ở bệnh viện và một người nam đang nói chuyện. Người nam sau khi xuất viện sẽ làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "たまには外を歩く",
+        "explanationVi": "Đáp án A. Đúng."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "毎日少しずつ外を歩く",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "しばらく家で寝て休む",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "早回復するように走る",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Bác sĩ khuyên đi bộ bên ngoài từng chút một mỗi ngày, không cần vội vã.",
+      "fullExplanationVi": "Bác sĩ chúc mừng xuất viện và khuyên: '足ですが、だいぶ良くなっていますから、もう外を歩いてもいいですよ。毎日少しずつ。決して急ぐことはありませんよ' (Chân đã đỡ nhiều rồi, có thể đi bộ bên ngoài rồi đấy. Mỗi ngày một ít. Tuyệt đối không được vội vã). Vậy đáp án là đi bộ ngoài trời từng chút một (Option 1).",
+      "trapVi": "Tránh chọn các hành động vội vã hoặc hoạt động mạnh. Chú ý từ khóa '少しずつ' (từng chút một).",
+      "listeningStrategyVi": "Lắng nghe lời khuyên trực tiếp từ bác sĩ (ngoại cảnh hoặc lời nói trực tiếp).",
+      "transcriptJa": "病院の先生と男の人が話しています。男の人は退院してからどうしますか。\n男：先生、おかげさまで今日退院です。長い間お世話になりました。\n女：おめでとう。よく頑張りましたね。足ですが、だいぶ良くなっていますから、もう外を歩いてもいいですよ。毎日少しずつ。決して急ぐことはありませんよ。ゆっくり少しずつですよ。\n男：分かりました。ありがとうございました。",
+      "translationVi": "Bác sĩ ở bệnh viện và một người nam đang nói chuyện. Người nam sau khi xuất viện sẽ làm gì?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q03.mp3",
+        "durationSec": 79.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 が 話し て い ます 。 この 人 は 仕事 の 時 、 いつも どんな 乗り物 を 使っ て い ます か 。",
+      "stemVi": "Một người đàn ông đang nói chuyện. Người này khi đi làm luôn sử dụng phương tiện gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "1",
+        "explanationVi": "Đáp án A. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture5-4.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture6-4.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "3",
+        "explanationVi": "Đáp án C. Đúng.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture7-3.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture8-3.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người nam nói rằng anh ấy luôn đi làm bằng tàu điện (電車).",
+      "fullExplanationVi": "Người nam mô tả công việc của mình: lái xe tải lớn chở hàng ra biển, nhưng để đi làm thì: '私はいつも電車に乗って会社に行きます' (Tôi luôn đi tàu điện đến công ty). Khi nghỉ thì vợ lái xe, con đi xe đạp. Đáp án đúng là tàu điện (電車).",
+      "trapVi": "Bẫy xe tải lớn (được lái khi làm việc chứ không phải phương tiện đi làm) và xe hơi của vợ lái ngày nghỉ.",
+      "listeningStrategyVi": "Phân biệt rõ phương tiện dùng để đi làm (通勤) và phương tiện dùng trong lúc làm việc (仕事中の移動) hoặc ngày nghỉ.",
+      "transcriptJa": "男の人が話しています。この人は仕事の時、いつもどんな乗り物を使っていますか。\n男：私は会社の運転手で、毎日大きな車に乗って、会社の荷物を海のそばへ送ります。それから、他の人が荷物を船に載せます。私はいつも電車に乗って会社に行きます。休みの日に時々家内と一緒に緑の多いところへ遊びに行きます。その時は私ではなく、家内が運転します。子供たちは「お父さんやお母さんと一緒に出かけたくない」と言って、大抵自転車に乗って自分の好きなところに行きます。",
+      "translationVi": "Một người đàn ông đang nói chuyện. Người này khi đi làm luôn sử dụng phương tiện gì?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q04.mp3",
+        "durationSec": 45.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 と 女 の 人 が 話し て い ます 。 男 の 人 は 傘 を どう し ます か 。",
+      "stemVi": "Một người nam và một người nữ đang nói chuyện. Người nam sẽ làm gì với chiếc ô?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "会社に置いておく",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "持って行かない",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "大きいのを持っていく",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "小さいのを持っていく",
+        "explanationVi": "Đáp án D. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người nam quyết định đem theo chiếc ô gấp nhỏ (小さくなるの) để tránh vướng víu trên tàu.",
+      "fullExplanationVi": "Người nữ khuyên mang ô đi. Người nam từ chối vì ở công ty có sẵn và ô to vướng víu trên tàu. Người nữ gợi ý chiếc ô gấp nhỏ (小さくなるの). Cuối cùng người nam đồng ý đem theo chiếc ô đó. Đáp án 4.",
+      "trapVi": "Bẫy chiếc ô lớn ở công ty hoặc từ chối không mang theo ô.",
+      "listeningStrategyVi": "Theo dõi cuộc đàm phán và chú ý sự thay đổi ý kiến ở câu cuối của người nam.",
+      "transcriptJa": "男の人と女の人が話しています。男の人は傘をどうしますか。\n女：今日は傘を持って行ってくださいよ。\n男：会社に1本置いてあるから、帰りは大丈夫だよ。\n女：でも、午前中に降ると言っていますよ。また風邪を引いても知りませんよ。\n男：大きいのは電車が混むから邪魔なんだよ。\n女：小さくなるのがあるでしょう？",
+      "translationVi": "Một người nam và một người nữ đang nói chuyện. Người nam sẽ làm gì với chiếc ô?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q05.mp3",
+        "durationSec": 63.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 と 女 の 人 が 話し て い ます 。 娘 さん は 今日 の お昼 に 何 を 食べ まし た か 。",
+      "stemVi": "Người con gái đã ăn gì vào bữa trưa hôm nay?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "1",
+        "explanationVi": "Đáp án A. Đúng.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture9-3.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture10-2.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture11-2.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture12-2.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Con gái đã mang cơm hộp (お弁当) đi học và ăn trưa bằng cơm hộp đó.",
+      "fullExplanationVi": "Bố mẹ nói chuyện về sức ăn của con gái. Sáng nay đi học cô bé nói hộp cơm mẹ chuẩn bị không đủ ăn. Bữa trưa ở trường cô bé ăn hộp cơm đó. Đáp án đúng là cơm hộp (お弁当).",
+      "trapVi": "Tránh nhầm lẫn với thực đơn ăn sáng của hôm qua (sữa, trứng, bánh mì kẹp) hoặc hôm nay.",
+      "listeningStrategyVi": "Lọc thông tin thời gian '今日のお昼' (trưa hôm nay) so với '昨日の朝' (sáng hôm qua).",
+      "transcriptJa": "男の人と女の人が話しています。娘さんは今日のお昼に何を食べましたか。今日のお昼です。\n女：ねぇ、あなた。最近、明子よく食べると思わない？\n男：ああ。\n女：昨日の朝、ミルク1本と卵2個とサンドイッチ3つも。\n男：前は、ご飯1杯ぐらいしか食べなかったのにね。\n女：今朝、学校に行く時、弁当箱を開けて、これだけじゃ足りないわって言ったわ。いっぱい詰めてやったのに。\n男：そりゃ、いいんじゃない？もう15歳なんだから。\n女：そりゃそうだけど、こうたくさん食べていたら、すぐ太っちゃうわよ。",
+      "translationVi": "Người con gái đã ăn gì vào bữa trưa hôm nay?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q06.mp3",
+        "durationSec": 54.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "\"F : にいちゃん は お 金持ち ね 。 男 の 人 と 女の子 が 話し て い ます 。 1 万 円 札 は 何 枚 あり ます か 。1 万 円 札 です 。",
+      "stemVi": "Có bao nhiêu tờ tiền 1 vạn Yên (10,000 Yên)?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "１５枚",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": true,
+        "text": "13枚",
+        "explanationVi": "Đáp án B. Đúng."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "9枚",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "7枚",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Tổng cộng có 15 tờ, trừ đi 3 tờ 5 nghìn Yên, 2 tờ 1 nghìn Yên và thêm 1 tờ 5 nghìn Yên nữa. Còn lại 9 tờ 1 vạn Yên.",
+      "fullExplanationVi": "Tổng số tờ tiền là 15 tờ. Người nam nói có tờ 5000 Yên và 1000 Yên xen vào: 5000 Yên có 3 tờ, 1000 Yên có 2 tờ. Sau đó phát hiện thêm 1 tờ nữa cũng là 5000 Yên thay vì 1 vạn Yên. Vậy số tờ 5000 Yên là 4, số tờ 1000 Yên là 2. Tổng tờ không phải 1 vạn Yên là 6. Số tờ 1 vạn Yên là: 15 - 6 = 9 tờ.",
+      "trapVi": "Bẫy tính toán số tờ tiền, đặc biệt là tờ phát hiện thêm ở cuối cùng.",
+      "listeningStrategyVi": "Viết nháp phép tính cộng trừ số tờ tiền ngay khi nghe số lượng cụ thể.",
+      "transcriptJa": "男の人と女の子が話しています。1万円札は何枚ありますか。1万円札です。\n女の子：にいちゃんはお金持ちね。\n男：へへへ。\n女の子：何枚あるの？1枚、2枚、3枚…全部で15枚。これみんな1万円の？\n男：違うよ。中には5000円のと1000円のもあるよ。ほら、これ。5000円札が3枚、1000円札が2枚。\n男：あ、この札も1万円じゃなくて5000円だ。",
+      "translationVi": "Có bao nhiêu tờ tiền 1 vạn Yên (10,000 Yên)?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q07.mp3",
+        "durationSec": 47.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女 の 人 が 話し て い ます 。 パーティー の 受付 は 誰 が し ます か 。",
+      "stemVi": "Ai sẽ làm nhiệm vụ nhận khách (lễ tân) ở bữa tiệc?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "島田さん",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "佐藤さん",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "女の人",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "男の人",
+        "explanationVi": "Đáp án D. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Các phương án nhờ người khác đều bất khả thi (người bận, người nằm viện), cuối cùng người nam tự đảm nhận.",
+      "fullExplanationVi": "Người nam định nhờ Shimada (bận), Sato (nằm viện), sau đó định nhờ người nữ nhưng người nữ từ chối và bảo người nam làm đi. Người nam đồng ý: '僕でも構わないかな' (Tôi làm cũng được chứ nhỉ). Vậy người nam (男の人) làm lễ tân. Đáp án 4.",
+      "trapVi": "Bẫy Shimada hoặc Sato xuất hiện đầu đoạn hội thoại.",
+      "listeningStrategyVi": "Loại trừ các ứng viên bị bác bỏ và nghe kỹ người đồng ý thực hiện cuối cùng.",
+      "transcriptJa": "男の人と女の人が話しています。パーティーの受付は誰がしますか。\n男：来週の受付、誰に頼もうか。元気な島田がいいかな。\n女：島田さん、出られないそうよ。\n男：そうか。じゃあ、真面目な佐藤さんかな。\n女：彼女、入院しているらしいの。\n男：じゃあ、君、やってくれないか。\n女：私よりあなたよ。\n男：僕でも構わないかな。\n女：構わないわよ。頼むわ。",
+      "translationVi": "Ai sẽ làm nhiệm vụ nhận khách (lễ tân) ở bữa tiệc?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_008",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m1-q08.mp3",
+        "durationSec": 40.0
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい１では、はじめにしつもんをきてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。女の人が着ているセーターはいくらですか。",
+      "stemVi": "Chiếc áo len mà người nữ đang mặc có giá bao nhiêu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "１８，０００円",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "６０，０００円",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "９，０００円",
+        "explanationVi": "Đáp án C. Đúng."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "３０，０００円",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Giá gốc là 18,000 Yên, nhưng được mua với giá giảm một nửa (半分), tức là 9,000 Yên.",
+      "fullExplanationVi": "Người nữ nói chiếc áo len này bình thường có giá 1 vạn 8 nghìn Yên (18,000円). Cô ấy mua được với giá giảm một nửa (半分の値段), tức là 9,000 Yên. Đáp án 3.",
+      "trapVi": "Bẫy giá gốc 18,000 Yên và giá chiếc áo khoác 60,000 Yên được nhắc đến ở cuối.",
+      "listeningStrategyVi": "Nghe số tiền gốc và từ khóa liên quan đến giảm giá như '半分' (một nửa) để làm phép chia nhanh.",
+      "transcriptJa": "男の人と女の人が話しています。女の人が着ているセーターはいくらですか。\n男：綺麗なセーターを着ているね。\n女：ありがとう。安くなっていたから買ったの。普通は1万8000円はする品物なの。半分の値段だったのよ。6万円のコートも半分の値段で買えるそうよ。それはこれからママに買ってもらうわ。",
+      "translationVi": "Chiếc áo len mà người nữ đang mặc có giá bao nhiêu?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

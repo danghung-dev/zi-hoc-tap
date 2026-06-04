@@ -1,0 +1,528 @@
+[
+  {
+    "id": "n4_listen_comprehension_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q01.mp3",
+        "durationSec": 198.0
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。 どうして 温泉 旅行 に し ませ ん でし た か 。",
+      "stemVi": "Tại sao họ lại không chọn đi du lịch tắm suối nước nóng (onsen)?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "電気が悪くなるから",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": true,
+        "text": "はかの社員がいやがるから",
+        "explanationVi": "Đáp án B. Đúng."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "二度は行きたくないから",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "ゴルフ場がないから",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người nam từ chối đi tắm suối nước nóng vì năm ngoái cả công ty đã đi rồi.",
+      "fullExplanationVi": "Người nữ đề xuất đi tắm suối nước nóng (温泉). Người nam gạt đi: 'でも去年も温泉だったよね。もういいんじゃないかな' (Nhưng năm ngoái cũng đi suối nước nóng rồi mà. Thế là đủ rồi). Sau đó họ chọn đi khách sạn chơi tennis và bơi lội. Đáp án 2.",
+      "trapVi": "Bẫy thời tiết xấu (chỉ là lo lắng sau đó) hoặc các sở thích thể thao khác.",
+      "listeningStrategyVi": "Tìm lý do phản đối trực tiếp bằng từ khóa chỉ thời gian quá khứ '去年' (năm ngoái).",
+      "transcriptJa": "男の人と女の人が話しています。どうして温泉旅行にしませんでしたか。\n\n女：ただいま。\n男：おお、お帰り。どこへ行っていたの？\n女：旅行社へ行ってきたんです。\n男：あー、明日の社員旅行のことだったね。\n女：ええ。ねえ、今度の社員旅行、どこにしましょうか。案内書もらってきたんですけど。\n男：そうだな。やっぱり、ゴルフ場のあるところがいいな。\n女：ゴルフですか。それより温泉はどうでしょうか。ほら、ここ、大きな露天風呂がありますよ。\n男：うーん、でも去年も温泉だったよね。もういいんじゃないかな。\n女：そうですね。じゃあ、えーっと... あ！ここならホテルでテニスもできるし、泳ぐところもありますね。\n男：うーん、面白い考えだね。今回はみんなスポーツをやりたいと言っているんだからね。それに僕はテニスも好きだし。\n女：じゃあ、ちょっと電話して、予約とれるかどうか聞いてみますね。\n男：あ、ちょっと待って。もし雨だったらどうするの？\n女：そうですね。ホテルを予約するより先に天気予報を聞いてみましょう。\n\nどうして温泉旅行にしませんでしたか。",
+      "translationVi": "Tại sao họ lại không chọn đi du lịch tắm suối nước nóng (onsen)?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q02.mp3",
+        "durationSec": 31.9
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。 男の人は課長に何と言われましたか。",
+      "stemVi": "Người nam đã được Trưởng phòng nói gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "会社にいてもいなくてもいい人間",
+        "explanationVi": "Đáp án A. Đúng."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "会社にいないほうがいい人間",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "会社にいてほしい人間",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "会社にいたがらない人間",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Trưởng phòng nói anh ấy là người không thể thiếu đối với công ty.",
+      "fullExplanationVi": "Người nam kể lại việc xin nghỉ việc: '課長に会社辞めたいって言ったんだよ。そうしたらね、君はうちの会社になくてはならない人間だって言われたんだよ' (Tôi bảo trưởng phòng muốn nghỉ việc, thế là được bảo là cậu là người không thể thiếu đối với công ty). Đáp án 1.",
+      "trapVi": "Bẫy người nam vẫn muốn nghỉ việc dù được giữ lại.",
+      "listeningStrategyVi": "Tập trung nghe câu trích dẫn gián tiếp sau cấu từ '～と言われました'.",
+      "transcriptJa": "男の人と女の人が話しています。男の人は課長に何と言われましたか。\n\n女：何考えているの？\n男：今日ね、課長に会社辞めたいって言ったんだよ。そうしたらね、君はうちの会社になくてはならない人間だって言われたんだよ。\n女：で、残ることにしたの？\n男：やっぱり、辞めようかなと思っている。\n\n男の人は課長に何と言われましたか。",
+      "translationVi": "Người nam đã được Trưởng phòng nói gì?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q03.mp3",
+        "durationSec": 40.5
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 と 女 の 人 が 話し て い ます 。 部屋 は どう なり まし た か 。",
+      "stemVi": "Căn phòng đã trở nên như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "1",
+        "explanationVi": "Đáp án A. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture13-2.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture15-2.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "3",
+        "explanationVi": "Đáp án C. Đúng.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture14-2.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Sai.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture16-2.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Căn phòng bị trộm đột nhập: ngăn kéo tủ rơi ra, máy tính biến mất và có tiếng động lạ từ phòng ngủ.",
+      "fullExplanationVi": "Hai vợ chồng về nhà thấy cửa không khóa chặt, ngăn kéo bàn rơi ra (机の引き出し落ちてる), máy tính biến mất (パソコンは？) và có tiếng động lạ ở phòng ngủ. Căn phòng đã bị lục lọi và mất đồ. Đáp án 3.",
+      "trapVi": "Bẫy cửa sổ vẫn đóng chặt (chồng bảo đã đóng).",
+      "listeningStrategyVi": "Tổng hợp các chi tiết bất thường được liệt kê liên tiếp để suy ra trạng thái căn phòng.",
+      "transcriptJa": "男の人と女の人が話しています。部屋はどうなりましたか。\n\n女：あら、このドア変ね。ちゃんと閉めて出たはずなんだけど。\n男：僕はカーテンも窓もちゃんと閉めておいたよ。\n女：あなた見てよ。机の引き出し落ちてる。\n男：おや、僕のパソコンは？\n女：しっ、静かに。寝室から変な音がしたわよ。\n\n部屋はどうなりましたか。",
+      "translationVi": "Căn phòng đã trở nên như thế nào?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q04.mp3",
+        "durationSec": 84.6
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 の 生活 で 変わら なかっ た の は 何 ですか 。 変わら なかっ た こと です 。",
+      "stemVi": "Điều gì KHÔNG thay đổi trong cuộc sống của người nam?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "一人暮らし",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "住宅",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "車",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "仕事",
+        "explanationVi": "Đáp án D. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Anh ấy đã chuyển nhà, sinh con, mua xe hơi, nhưng công việc ở công ty thì vẫn giữ nguyên.",
+      "fullExplanationVi": "Người nam chia sẻ về những thay đổi: chuyển nhà (引越し), sinh con (子供が生まれ), mua xe hơi (車を買い). Nhưng anh ấy vẫn đi làm ở công ty cũ (company commute / 会社に通える). Vậy công việc (仕事) là thứ KHÔNG thay đổi. Đáp án 4.",
+      "trapVi": "Cực kỳ chú ý câu hỏi phủ định '変わらなかったのは何ですか' (Cái KHÔNG thay đổi là gì).",
+      "listeningStrategyVi": "Lọc các thông tin thay đổi để chọn ra thông tin duy nhất được giữ nguyên.",
+      "transcriptJa": "男の人の生活で変わらなかったのは何ですか。\n\n女：お久しぶりですね。お元気でしたか。\n男：ええ、なんとか。でも、ずいぶん生活が変わりましたよ。",
+      "translationVi": "Điều gì KHÔNG thay đổi trong cuộc sống của người nam?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q05.mp3",
+        "durationSec": 72.3
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture17-2.png",
+        "alt": "Mondai 2 Question 5 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 と 女 の 人 が 話し て い ます 。 アスカ ちゃん は どの 子 ですか 。",
+      "stemVi": "Bé Asuka là bé nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "1",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": true,
+        "text": "2",
+        "explanationVi": "Đáp án B. Đúng."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Asuka là bé đang trượt ở vị trí chính giữa cầu trượt.",
+      "fullExplanationVi": "Người nam chỉ bé Asuka: 'あの子じゃなくて、ほら、ちょうど真ん中ぐらいのところを降りている子だよ' (Không phải đứa bé đó, kìa, đứa đang trượt ở khoảng chính giữa ấy). Đáp án 2.",
+      "trapVi": "Bẫy đứa bé trượt đầu tiên hoặc trượt cuối cùng.",
+      "listeningStrategyVi": "Chú ý từ chỉ vị trí tương đối '真ん中' (chính giữa) để xác định đối tượng.",
+      "transcriptJa": "男の人と女の人が話しています。アスカちゃんはどのコですか。\n\n男：あれ？アスカちゃんが遊んでいる。\n女：アスカちゃん？吉田さんところのアスカちゃん？どの子？今降りる子？\n男：あの子じゃなくて、ほら、ちょうど真ん中ぐらいのところを降りている子だよ。\n女：ああ、あの子。かわいい子ね。\n\nアスカちゃんはどの子ですか。",
+      "translationVi": "Bé Asuka là bé nào?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q06.mp3",
+        "durationSec": 76.4
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男 の 人 と 女 の 人 が 話し て い ます 。 男 の 人 は いつ 本 を 返し ます か 。",
+      "stemVi": "Người nam sẽ trả sách vào lúc nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "今日の午前中",
+        "explanationVi": "Đáp án A. Đúng."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "今日の午後",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "明日の午後中",
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "明日の午後",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người nam bận học và làm thêm vào chiều mai, nên quyết định đi trả vào sáng mai (午前中).",
+      "fullExplanationVi": "Hạn trả sách là ngày mai. Hôm nay người nam bận làm thêm (バイト). Chiều mai (午後) cũng bận học và làm thêm. Người nữ gợi ý trả vào sáng mai. Người nam đồng ý: '午前中は空いているんじゃないの？そうか、そうしよう' (Sáng mai rảnh đúng không? Ừ nhỉ, làm thế đi). Đáp án 1.",
+      "trapVi": "Bẫy chiều mai (午後) hoặc hôm nay (今日) đều là lúc bận.",
+      "listeningStrategyVi": "Nghe lịch trình bận rộn và chốt thời gian rảnh được đồng thuận ở cuối.",
+      "transcriptJa": "男の人と女の人が話しています。男の人はいつ本を返しますか。\n\n女：いつ図書館の本返すの？明日まででしょ？まだ3時だから今日でもいいのよ。\n男：今日はこれからバイトがあるんだ。明日も午後から授業とバイトがあるし。\n女：午前中は空いているんじゃないの？\n男：そうか、そうしよう。\n\n男の人はいつ本を返しますか。",
+      "translationVi": "Người nam sẽ trả sách vào lúc nào?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_comprehension_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m2-q07.mp3",
+        "durationSec": 88.17
+      }
+    },
+    "question": {
+      "instruction": "もんだい2では、はじめにしつもんをきいてはなしをきいて､もんだいようしの1から4のいいものをひとつえらんでください。それからください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の子が木 を 見 ながら 話し て い ます 。 この 木 に は 小鳥 が い ます か 。 今 で す 。",
+      "stemVi": "Hiện tại, có bao nhiêu con chim nhỏ trên cây?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "4羽",
+        "explanationVi": "Đáp án A. Sai."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "6羽",
+        "explanationVi": "Đáp án B. Sai."
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "10羽",
+        "explanationVi": "Đáp án C. Đúng."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "20羽",
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Ban đầu có 10 con trên cây, 4 con trốn trong lá, 6 con bay đến (tổng 20). Một con chim lớn đến làm 19 con bay mất. Chỉ còn lại 1 con trốn trong lá.",
+      "fullExplanationVi": "Diễn biến: 10 con đậu trên cây + 4 con trốn trong lá. Thêm 6 con bay đến (tổng 20). Sau đó 1 con chim lớn đến làm tất cả bay mất, TRỪ những con trốn trong lá. Ban đầu có 4 con trốn trong lá, nhưng 3 con đã bay ra ngoài trước đó, nên chỉ còn lại 1 con ở lại trong lá. Vậy hiện tại chỉ có 1 con chim trên cây. Đáp án đúng là 1 con (Option 3 / C).",
+      "trapVi": "Bẫy con số 20 (tổng cộng lúc nhiều nhất) hoặc số 4 (số chim trốn ban đầu).",
+      "listeningStrategyVi": "Theo dõi chuỗi hành động cộng trừ số lượng chim theo lời tường thuật sinh động của em bé.",
+      "transcriptJa": "男の子が木を見ながら話しています。今、この木には小鳥が何羽いますか。今です。",
+      "translationVi": "Hiện tại, có bao nhiêu con chim nhỏ trên cây?",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

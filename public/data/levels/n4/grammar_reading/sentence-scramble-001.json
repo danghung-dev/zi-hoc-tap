@@ -1,0 +1,342 @@
+[
+  {
+    "id": "n4_grammar_scramble_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 2,
+    "tags": [
+      "scramble",
+      "noun-clause"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp: Danh từ hóa",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "漢字を",
+        "____",
+        "★",
+        "____",
+        "____",
+        "です。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "むずかしい"
+        },
+        {
+          "id": "B",
+          "text": "は"
+        },
+        {
+          "id": "C",
+          "text": "の"
+        },
+        {
+          "id": "D",
+          "text": "書く"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "correctStarFragmentId": "C",
+      "completedSentence": "漢字を書くのはむずかしいです。",
+      "translationVi": "Việc viết chữ Kanji thật là khó.",
+      "shortExplanationVi": "Cụm đúng là 「書くのはむずかしい」.",
+      "fullExplanationVi": "Dùng trợ từ 「の」 để danh từ hóa động từ 「書く」 -> 「書くの」 (việc viết). Sau đó đi kèm với trợ từ chủ đề 「は」 bổ nghĩa cho tính từ 「むずかしい」 ở cuối câu.",
+      "fragmentExplanationsVi": {
+        "A": "Tính từ 「むずかしい」 đứng trước 「です」 làm vị ngữ.",
+        "B": "Trợ từ 「は」 đứng sau danh từ hóa để làm chủ từ.",
+        "C": "Trợ từ 「の」 danh từ hóa động từ 「書く」 đứng trước.",
+        "D": "Động từ 「書く」 bổ nghĩa trực tiếp cho tân ngữ 「漢字を」 đứng đầu."
+      },
+      "trapVi": "Nhầm lẫn trật tự của の và は tạo thành cấu trúc vô nghĩa."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 2,
+    "tags": [
+      "scramble",
+      "conditional"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp: Giả định đối lập",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "どんなに",
+        "★",
+        "____",
+        "____",
+        "____",
+        "くださいね。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "読んで"
+        },
+        {
+          "id": "B",
+          "text": "は"
+        },
+        {
+          "id": "C",
+          "text": "メール"
+        },
+        {
+          "id": "D",
+          "text": "いそがしくても"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "correctStarFragmentId": "D",
+      "completedSentence": "どんなにいそがしくてもメールは読んでくださいね。",
+      "translationVi": "Cho dù có bận rộn thế nào đi nữa thì cũng hãy đọc thư (email) nhé.",
+      "shortExplanationVi": "Cụm đúng là 「どんなにいそがしくても」.",
+      "fullExplanationVi": "Cấu trúc giả định nhượng bộ 「どんなに ～ ても」 (cho dù ... thế nào đi nữa) đi liền với tính từ いそがしい chia thể ても -> 「いそがしくても」. Vế sau là tân ngữ 「メールは」 nhấn mạnh đi với động từ đọc 「読んでください」.",
+      "fragmentExplanationsVi": {
+        "A": "Động từ chia thể て 「読んで」 kết hợp với 「くださいね」 tạo câu yêu cầu lịch sự.",
+        "B": "Trợ từ 「は」 đứng sau danh từ 「メール」 nhấn mạnh chủ đề đối chiếu.",
+        "C": "Danh từ 「メール」 làm tân ngữ.",
+        "D": "Tính từ 「いそがしくても」 đi kèm 「どんなに」 ngay đầu câu tạo trạng ngữ nhượng bộ."
+      },
+      "trapVi": "Không nhận diện được sự kết hợp giữa どんなに và tính từ thể ても."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_003",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "passive"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp: Bị động sai khiến",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "おさけを",
+        "____",
+        "★",
+        "____",
+        "____",
+        "悪くなりました。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "むりに"
+        },
+        {
+          "id": "B",
+          "text": "飲まされて"
+        },
+        {
+          "id": "C",
+          "text": "気持ち"
+        },
+        {
+          "id": "D",
+          "text": "が"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctStarFragmentId": "B",
+      "completedSentence": "お酒を無理に飲まされて気持ちが悪くなりました。",
+      "translationVi": "Tôi bị ép uống rượu quá mức nên cảm thấy khó chịu/buồn nôn.",
+      "shortExplanationVi": "Cụm đúng là 「無理に飲まされて気持ちが」.",
+      "fullExplanationVi": "Động từ thể bị động sai khiến 「飲まされる」 chỉ việc bị ép buộc làm gì đó ngoài ý muốn. Đi kèm phó từ 「無理に」 (cưỡng ép). Cụm 「気持ちが悪くなる」 nghĩa là cảm thấy khó chịu/buồn nôn.",
+      "fragmentExplanationsVi": {
+        "A": "Phó từ 「むりに」 bổ nghĩa trực tiếp cho động từ bị ép buộc đứng sau.",
+        "B": "Động từ bị động sai khiến chia thể て 「飲まされて」 nối tiếp nguyên nhân kết quả.",
+        "C": "Danh từ 「気持ち」 kết hợp với が.",
+        "D": "Trợ từ 「が」 đi liền sau 気持ち tạo thành cụm 気持ちが悪くなる."
+      },
+      "trapVi": "Không phân biệt được thể bị động sai khiến 飲まされる với các thể khác."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_004",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "indirect-speech"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp: Truyền ngôn そうです",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "ヤンさんは山田さんに",
+        "____",
+        "____",
+        "★",
+        "____",
+        "しまいました。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "さそわれた"
+        },
+        {
+          "id": "B",
+          "text": "に"
+        },
+        {
+          "id": "C",
+          "text": "そう"
+        },
+        {
+          "id": "D",
+          "text": "映画"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "correctStarFragmentId": "A",
+      "completedSentence": "ヤンさんは山田さんに映画にさそわれたそうです。",
+      "translationVi": "Nghe nói anh Yan đã được anh Yamada mời đi xem phim.",
+      "shortExplanationVi": "Cụm đúng là 「映画にさそわれたそう」.",
+      "fullExplanationVi": "Cấu trúc truyền ngôn 「～そうです (nghe nói là)」 đứng sau động từ thể bị động quá khứ 「さそわれた (đã được mời)」. Đi kèm địa điểm hướng đến là 「映画に (đi xem phim)」. [LƯU Ý]: Đề thi trên website có lỗi copy-paste chữ 'しまいました' ở cuối câu của câu tiếp theo, bản chất câu đúng chuẩn ngữ pháp phải kết thúc bằng 'です'.",
+      "fragmentExplanationsVi": {
+        "A": "Động từ bị động quá khứ 「さそわれた」 bổ nghĩa trực tiếp cho cấu trúc truyền ngôn そう.",
+        "B": "Trợ từ chỉ hướng hành động 「に」 đi sau danh từ 映画.",
+        "C": "Cấu trúc truyền ngôn 「そう」 đứng cuối vế bổ nghĩa.",
+        "D": "Danh từ 「映画」 làm mục tiêu lời mời."
+      },
+      "trapVi": "Bẫy lỗi in ấn của trang web gốc khiến ứng viên hoang mang giữa 'そうです' và 'しまいました'."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_005",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "verb-compound"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp: Động từ liên kết",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "電車に",
+        "____",
+        "____",
+        "____",
+        "★",
+        "しまいました。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "を"
+        },
+        {
+          "id": "B",
+          "text": "かさ"
+        },
+        {
+          "id": "C",
+          "text": "きて"
+        },
+        {
+          "id": "D",
+          "text": "わすれて"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "correctStarFragmentId": "C",
+      "completedSentence": "電車にかさを忘れてきてしまいました。",
+      "translationVi": "Tôi đã để quên chiếc ô trên tàu điện mất rồi.",
+      "shortExplanationVi": "Cụm đúng là 「かさを忘れてきて」.",
+      "fullExplanationVi": "Động từ liên kết 「忘れてくる (quên cái gì đó mang đi rồi bỏ lại đâu đó)」 chia thể て đi kèm しまいました -> 「忘れてきてしまいました」. Tân ngữ là chiếc ô 「かさを」.",
+      "fragmentExplanationsVi": {
+        "A": "Trợ từ chỉ đối tượng 「を」 đi sau danh từ かさ.",
+        "B": "Danh từ chỉ chiếc ô 「かさ」 đứng đầu vế trống.",
+        "C": "Động từ 「きて」 (thể て của くる) là thành phần bổ trợ cuối cùng đứng trước しまいました.",
+        "D": "Động từ chia thể て 「わすれて」 đứng trước きて để tạo thành cụm hành động liên tục 忘れてくる."
+      },
+      "trapVi": "Nhầm lẫn thứ tự của 忘れて và きて."
+    }
+  }
+]

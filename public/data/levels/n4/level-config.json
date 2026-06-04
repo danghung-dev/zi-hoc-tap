@@ -1,0 +1,32 @@
+{
+  "level": "N4",
+  "displayName": "JLPT N4",
+  "language": "ja",
+  "assetBaseUrl": "/assets/levels/n4",
+  "officialSections": [
+    {
+      "id": "vocabulary",
+      "displayName": "Từ vựng"
+    },
+    {
+      "id": "grammar_reading",
+      "displayName": "Ngữ pháp & Đọc hiểu"
+    },
+    {
+      "id": "listening",
+      "displayName": "Nghe hiểu"
+    }
+  ],
+  "scoringGroups": [
+    {
+      "id": "language_knowledge",
+      "displayName": "Kiến thức ngôn ngữ & Đọc hiểu",
+      "sections": ["vocabulary", "grammar_reading"]
+    },
+    {
+      "id": "listening",
+      "displayName": "Nghe hiểu",
+      "sections": ["listening"]
+    }
+  ]
+}

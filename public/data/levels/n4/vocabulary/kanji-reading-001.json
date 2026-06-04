@@ -1,0 +1,308 @@
+[
+  {
+    "id": "n4_vocab_kanji_001",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": ["kanji", "noun"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "practiceKANJI_READING_N4_REVIEW",
+      "categoryName": "Đọc Kanji N4 ôn tập",
+      "displayLabel": "Kanji cơ bản: 歌",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "1. <u>歌</u>がじょうずです。",
+      "underlinedText": "歌"
+    },
+    "options": [
+      { "id": "A", "text": "え", "isCorrect": false, "explanationVi": "Sai. 「え」 là 絵 (bức tranh)." },
+      { "id": "B", "text": "はなし", "isCorrect": false, "explanationVi": "Sai. 「はなし」 là 話 (câu chuyện)." },
+      { "id": "C", "text": "うた", "isCorrect": true, "explanationVi": "Đúng. Kanji 「歌」 (Ca - bài hát) có âm Onyomi/Kunyomi đọc là 「うた」 trong ngữ cảnh này." },
+      { "id": "D", "text": "か", "isCorrect": false, "explanationVi": "Sai. 「か」 là âm Onyomi của 歌 (như trong 歌手 - かしゅ), đứng một mình không đọc là か." }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "歌 = うた",
+      "fullExplanationVi": "Từ 「歌」 khi đứng một mình làm danh từ nghĩa là 'bài hát', có cách đọc Kunyomi là 「うた」.",
+      "trapVi": "Bẫy phân biệt giữa âm đứng độc lập (Kunyomi) và âm ghép (Onyomi).",
+      "translationVi": "Hát hay / Giỏi hát bài hát."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_002",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": ["kanji", "verb", "te-form"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_VERB",
+      "categoryName": "Đọc Kanji động từ",
+      "displayLabel": "Động từ chuyển động: 帰る",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "2. はやく<u>帰って</u>きてください。",
+      "underlinedText": "帰って"
+    },
+    "options": [
+      { "id": "A", "text": "かえって", "isCorrect": true, "explanationVi": "Đúng. Động từ 「帰る」 (Quy - trở về) nhóm 1, thể Te chuyển thành 「帰って (かえって)」." },
+      { "id": "B", "text": "もどって", "isCorrect": false, "explanationVi": "Sai. 「もどって」 là thể Te của động từ 戻る (戻って)." },
+      { "id": "C", "text": "いって", "isCorrect": false, "explanationVi": "Sai. 「いって」 là thể Te của động từ 行く (行って) hoặc 言う (言って)." },
+      { "id": "D", "text": "きって", "isCorrect": false, "explanationVi": "Sai. 「きって」 là thể Te của động từ 切る (切って) hoặc 着る (着て - không có âm ngắt)." }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "帰って = かえって",
+      "fullExplanationVi": "Động từ 「帰る」 (về) chia sang thể て là 「帰って」 (かえって). Đi kèm cụm 「～てくる」 tạo thành 「帰ってくる」 nghĩa là 'trở về đây'.",
+      "trapVi": "Dễ nhầm với các động từ có nghĩa gần giống như 戻る (quay lại).",
+      "translationVi": "Hãy mau trở về nhà nhé."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_003",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": ["kanji", "verb", "te-form"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_VERB",
+      "categoryName": "Đọc Kanji động từ",
+      "displayLabel": "Động từ nhóm 1: 急ぐ",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "3. <u>急いで</u>ください。",
+      "underlinedText": "急いで"
+    },
+    "options": [
+      { "id": "A", "text": "およいで", "isCorrect": false, "explanationVi": "Sai. 「およいで」 là thể Te của động từ 泳ぐ (bơi)." },
+      { "id": "B", "text": "はやいで", "isCorrect": false, "explanationVi": "Sai. Không có biến thể động từ 「はやいで」." },
+      { "id": "C", "text": "きゅういで", "isCorrect": false, "explanationVi": "Sai. 「きゅう」 là âm Onyomi của 急 (như trong 急行 - きゅうこう), không dùng để chia động từ." },
+      { "id": "D", "text": "いそいで", "isCorrect": true, "explanationVi": "Đúng. Động từ 「急ぐ」 (Cấp - khẩn trương, vội vã) có đuôi 「ぐ」 biến đổi thành 「いで」 khi chia sang thể Te." }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "急いで = いそいで",
+      "fullExplanationVi": "Động từ 「急ぐ (いそぐ)」 kết thúc bằng đuôi 「ぐ」 nên khi chia thể Te đổi thành 「～いで」 -> 「急いで」.",
+      "trapVi": "Bẫy âm đọc Onyomi 「きゅう」 và cách biến âm đặc biệt của đuôi 「ぐ」.",
+      "translationVi": "Xin vui lòng khẩn trương/nhanh lên một chút."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_004",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": ["kanji", "adjective-i"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_ADJECTIVE",
+      "categoryName": "Đọc Kanji tính từ",
+      "displayLabel": "Tính từ -i trái nghĩa: 強い",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "4. きょうはかぜが<u>強い</u>です。",
+      "underlinedText": "強い"
+    },
+    "options": [
+      { "id": "A", "text": "さむい", "isCorrect": false, "explanationVi": "Sai. 「さむい」 là 寒い (Lạnh)." },
+      { "id": "B", "text": "よわい", "isCorrect": false, "explanationVi": "Sai. 「よわい」 là 弱い (Yếu) - từ trái nghĩa của 強い." },
+      { "id": "C", "text": "つよい", "isCorrect": true, "explanationVi": "Đúng. Tính từ đuôi -i 「強い」 (Cường - mạnh) đọc là 「つよい」." },
+      { "id": "D", "text": "つめたい", "isCorrect": false, "explanationVi": "Sai. 「つめたい」 là 冷たい (Lạnh buốt, nguội)." }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "強い = つよい",
+      "fullExplanationVi": "Tính từ 「強い」 đại diện cho tính chất mạnh mẽ (thường đi với gió: かぜが強い - gió to/mạnh).",
+      "trapVi": "Đưa ra từ trái nghĩa 「弱い (よわい)」 để đánh lừa ứng viên không nhớ kỹ mặt chữ.",
+      "translationVi": "Hôm nay gió mạnh/to quá."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_005",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": ["kanji", "verb", "te-form"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_VERB",
+      "categoryName": "Đọc Kanji động từ",
+      "displayLabel": "Động từ nhóm 2: 教える",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "5. ちょっと<u>教えて</u>ください。",
+      "underlinedText": "教えて"
+    },
+    "options": [
+      { "id": "A", "text": "おちえて", "isCorrect": false, "explanationVi": "Sai từ vựng, không có từ này." },
+      { "id": "B", "text": "おしえて", "isCorrect": true, "explanationVi": "Đúng. Động từ 「教える」 (Giáo - chỉ bảo, dạy) nhóm 2 bỏ 「る」 thêm 「て」 thành 「教えて (おしえて)」." },
+      { "id": "C", "text": "きょうえて", "isCorrect": false, "explanationVi": "Sai. 「きょう」 là âm Onyomi (như trong 教室 - きょうしつ), không dùng trong trường hợp chia đuôi động từ thuần Nhật này." },
+      { "id": "D", "text": "きょえて", "isCorrect": false, "explanationVi": "Sai chính tả hoàn toàn." }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "教えて = おしえて",
+      "fullExplanationVi": "Động từ 「教える」 (chỉ bảo, cho biết) có cách đọc Kunyomi là 「おしえる」. Khi dùng dạng kính ngữ/yêu cầu lịch sự nhẹ nhàng: 「～てください」.",
+      "trapVi": "Bẫy âm Onyomi 「きょう」 của chữ 教.",
+      "translationVi": "Xin hãy chỉ cho tôi một chút."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_006",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": ["kanji", "noun", "location"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_NOUN",
+      "categoryName": "Đọc Kanji danh từ",
+      "displayLabel": "Từ chỉ vị trí: 近く",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "6. そのビルは<u>近く</u>にあります。",
+      "underlinedText": "近く"
+    },
+    "options": [
+      { "id": "A", "text": "とおく", "isCorrect": false, "explanationVi": "Sai. 「とおく」 là 遠く (Ở xa) - từ trái nghĩa." },
+      { "id": "B", "text": "ちかく", "isCorrect": true, "explanationVi": "Đúng. Chữ 「近く」 (Cận - ở gần) chuyển thành danh từ chỉ vị trí đọc là 「ちかく」." },
+      { "id": "C", "text": "しかく", "isCorrect": false, "explanationVi": "Sai chính tả (四角 - hình vuông)." },
+      { "id": "D", "text": "ちく", "isCorrect": false, "explanationVi": "Sai. Thiếu mất âm 「か」." }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "近く = ちかく",
+      "fullExplanationVi": "Tính từ 「近い (ちかい)」 khi chuyển sang dạng danh từ chỉ nơi chốn/vị trí lân cận sẽ biến đuôi 「い」 thành 「く」 tạo thành 「近く (ちかく)」.",
+      "trapVi": "Đưa ra từ trái nghĩa 「遠く (とおく)」 để kiểm tra khả năng nhận diện mặt chữ Kanji.",
+      "translationVi": "Tòa nhà đó nằm ở gần đây."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_007",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": ["kanji", "noun", "nature"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "practiceKANJI_READING_N4_REVIEW",
+      "categoryName": "Đọc Kanji N4 ôn tập",
+      "displayLabel": "Kanji cơ bản: 空",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "7. <u>空</u>がれいに見えます。",
+      "underlinedText": "空"
+    },
+    "options": [
+      { "id": "A", "text": "くも", "isCorrect": false, "explanationVi": "Sai. 「くも」 là 雲 (Mây)." },
+      { "id": "B", "text": "そら", "isCorrect": true, "explanationVi": "Đúng. Kanji 「空」 (Không - bầu trời) đọc là 「そら」." },
+      { "id": "C", "text": "くう", "isCorrect": false, "explanationVi": "Sai. 「くう」 là âm Onyomi (như trong 空港 - くうこう), không đứng một mình trong trường hợp này." },
+      { "id": "D", "text": "ほし", "isCorrect": false, "explanationVi": "Sai. 「ほし」 là 星 (Ngôi sao)." }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "空 = そら",
+      "fullExplanationVi": "Bầu trời độc lập trong câu sử dụng âm thuần Nhật Kunyomi là 「そら」.",
+      "trapVi": "Các từ vựng liên quan đến bầu trời như mây (雲), sao (星) và âm Onyomi (くう).",
+      "translationVi": "Bầu trời nhìn đẹp quá."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_008",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": ["kanji", "family"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_FAMILY",
+      "categoryName": "Đọc Kanji gia đình",
+      "displayLabel": "Từ xưng hô: 兄",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "8. <u>兄</u>とテニスをしました。",
+      "underlinedText": "兄"
+    },
+    "options": [
+      { "id": "A", "text": "あに", "isCorrect": true, "explanationVi": "Đúng. Chữ 「兄」 (Huynh - anh trai mình) đọc là 「あに」." },
+      { "id": "B", "text": "あね", "isCorrect": false, "explanationVi": "Sai. 「あね」 là 姉 (Chị gái mình)." },
+      { "id": "C", "text": "おとうと", "isCorrect": false, "explanationVi": "Sai. 「おとうと」 là 弟 (Em trai)." },
+      { "id": "D", "text": "いもうと", "isCorrect": false, "explanationVi": "Sai. 「いもうと」 là 妹 (Em gái)." }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "兄 = あに",
+      "fullExplanationVi": "Dùng để gọi anh trai của bản thân một cách khiêm tốn khi kể với người khác, chữ 「兄」 đọc là 「あに」.",
+      "trapVi": "Bẫy toàn bộ hệ thống từ xưng hô gia đình (Chị, Em trai, Em gái) rất dễ lộn mặt chữ.",
+      "translationVi": "Tôi đã chơi tennis với anh trai."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_009",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": ["kanji", "animal"],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING_ANIMAL",
+      "categoryName": "Đọc Kanji động vật",
+      "displayLabel": "Động vật cơ bản: 犬",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "9. <u>犬</u>がはしってきました。",
+      "underlinedText": "犬"
+    },
+    "options": [
+      { "id": "A", "text": "いぬ", "isCorrect": true, "explanationVi": "Đúng. Chữ 「犬」 (Khuyển - con chó) đọc là 「いぬ」." },
+      { "id": "B", "text": "ねこ", "isCorrect": false, "explanationVi": "Sai. 「ねこ」 là 猫 (Con mèo)." },
+      { "id": "C", "text": "うま", "isCorrect": false, "explanationVi": "Sai. 「うま」 là 馬 (Con ngựa)." },
+      { "id": "D", "text": "ひと", "isCorrect": false, "explanationVi": "Sai. 「ひと」 là 人 (Người)." }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "犬 = いぬ",
+      "fullExplanationVi": "Chữ 「犬」 có bộ Đại và một dấu chấm phía trên bên phải, đọc là 「いぬ」.",
+      "trapVi": "Đưa ra các loài động vật hoặc danh từ cơ bản khác học ở N5.",
+      "translationVi": "Một chú chó đang chạy lao về phía này."
+    }
+  }
+]

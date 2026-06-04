@@ -1,0 +1,596 @@
+[
+  {
+    "id": "n4_listen_quick_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q01.mp3",
+        "durationSec": 19.45
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": true,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Đúng."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "1",
+      "shortExplanationVi": "Phản hồi: 'Hôm qua tớ bị kẻ trộm móc mất rồi.'",
+      "fullExplanationVi": "Câu hỏi dùng thể chủ động, câu trả lời tự nhiên nhất giải thích lý do là dùng thể bị động 'すりに取られちゃった' (Bị móc túi lấy mất). Phương án 1 đúng.",
+      "trapVi": "Bẫy thể sai khiến '取らせちゃった' (Cho phép lấy) hoặc thể cho nhận '取ってあげちゃった' (Lấy hộ trộm).",
+      "listeningStrategyVi": "Phân biệt kỹ các thể bị động, sai khiến, cho nhận rất hay xuất hiện trong hội thoại ngắn.",
+      "promptTranscriptJa": "どうして電子辞書持ってこなかったの？ 1.昨日、すりに取られちゃったの。 2.昨日、すりに取らせちゃったの。 3.昨日、すりに取ってあげちゃったの。",
+      "promptTranslationVi": "Sao bạn lại không mang theo từ điển điện tử?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q02.mp3",
+        "durationSec": 17.8
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Phản hồi đồng tình và lo lắng: 'Đúng thế thật nhỉ, chúng ta nên làm thế nào đây?'",
+      "fullExplanationVi": "Đối thoại bày tỏ sự đồng tình 'そうですねえ' và lo lắng tìm giải pháp 'どうしましょう'. Phương án 3 đúng.",
+      "trapVi": "Phương án 1 đồng tình để làm việc gì đó, phương án 2 hỏi về quá khứ.",
+      "listeningStrategyVi": "Chọn câu trả lời nối tiếp mạch cảm xúc lo lắng của người nói.",
+      "promptTranscriptJa": "バスがなかなか来ませんね。 1.そうですよ。そうしましょう。 2.そうですか。どうでしたか。 3.そうですねえ。どうしましょう。",
+      "promptTranslationVi": "Xe buýt mãi mà chưa đến nhỉ."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q03.mp3",
+        "durationSec": 20.95
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": true,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Đúng."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "1",
+      "shortExplanationVi": "Lời đồng ý cho phép đặt đồ: 'Vâng, được chứ ạ. Xin mời.'",
+      "fullExplanationVi": "Để phản hồi lại lời xin phép lịch sự '～させていただけませんか', câu trả lời đồng ý là 'ええ、いいですよ。どうぞ'. Phương án 1 đúng.",
+      "trapVi": "Phương án 2 và 3 dùng cách nói từ chối thô lỗ hoặc không đúng ngữ cảnh.",
+      "listeningStrategyVi": "Phản hồi tích cực cho câu hỏi xin phép làm phiền.",
+      "promptTranscriptJa": "すみませんが、荷物をここにしばらく置かせていただけませんか。 1.ええ、いいですよ。どうぞ。 2.ええ、いただけませんよ。 3.いいえ、その方がよろしいです。",
+      "promptTranslationVi": "Xin lỗi, tôi có thể để hành lý ở đây một lát được không?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q04.mp3",
+        "durationSec": 19.15
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Đúng."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "2",
+      "shortExplanationVi": "Phản hồi trấn an người trả tiền: 'Không cần vội thế đâu.'",
+      "fullExplanationVi": "Khi ai đó chuẩn bị trả tiền và tỏ vẻ áy náy, chủ nợ lịch sự sẽ nói 'そう急がなくてもいいですよ' (Không cần vội vã thế đâu). Phương án 2 đúng.",
+      "trapVi": "Các phương án khác dùng sai ngôi hoặc khẳng định quá trực diện.",
+      "listeningStrategyVi": "Đáp lại thái độ áy náy bằng lời trấn an lịch sự.",
+      "promptTranscriptJa": "借りたお金を返そうと思っていたところですが。 1.はい、返してくれて嬉しかったです。 2.そう急がなくてもいいですよ。 3.確か貸してあげたと思いますけど。",
+      "promptTranslationVi": "Tớ đang định trả tiền đã mượn đây..."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q05.mp3",
+        "durationSec": 21.25
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Lời đồng ý của cấp trên hoặc giáo viên: 'Được chứ, em chú ý giữ gìn nhé.'",
+      "fullExplanationVi": "Khi cấp dưới hoặc học sinh xin nghỉ vì ốm, người nghe đồng ý và dặn dò 'はい、いいですよ。気をつけてください'. Phương án 3 đúng.",
+      "trapVi": "Phương án 1 và 2 mang tính chất cằn nhằn hoặc giả định không phù hợp làm câu phản hồi trực tiếp.",
+      "listeningStrategyVi": "Nhận diện phản hồi đồng ý + dặn dò sức khỏe tiêu chuẩn.",
+      "promptTranscriptJa": "体の調子が悪いので、休ませていただけませんか。 1.どこが悪いか、医者に行ったらいいじゃない。 2.無理にすれば、病気になるかもしれない。 3.はい、いいですよ。気をつけてください。",
+      "promptTranslationVi": "Vì sức khỏe không tốt, em xin phép nghỉ được không ạ?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q06.mp3",
+        "durationSec": 28.45
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": true,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Đúng."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "1",
+      "shortExplanationVi": "Thông báo đồng nghiệp vắng mặt lịch sự: 'Anh Yamada hiện đang ra ngoài rồi ạ.'",
+      "fullExplanationVi": "Khi khách hỏi tìm đồng nghiệp, người tiếp khách dùng kính ngữ khiêm nhường để nói đồng nghiệp đi vắng '山田は今、出かけております'. Phương án 1 đúng.",
+      "trapVi": "Phương án 2 dùng từ ngữ thô lỗ, phương án 3 đưa ra thông tin không liên quan câu hỏi.",
+      "listeningStrategyVi": "Chú ý việc dùng khiêm nhường ngữ (おります) cho người trong công ty khi đối thoại với khách.",
+      "promptTranscriptJa": "すみません、山田さんはいらっしゃいますか。 1.山田は今、出かけております。 2.いいえ、山田は出かけません。 3.山田はうちの社員ですよ。",
+      "promptTranslationVi": "Xin lỗi, có anh Yamada ở đây không ạ?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q07.mp3",
+        "durationSec": 28.05
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Đúng."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "2",
+      "shortExplanationVi": "Đồng ý nhận sự giúp đỡ: 'Thế à? Vậy nhờ cậu nhé.'",
+      "fullExplanationVi": "Khi ai đó đề nghị giúp đỡ làm việc gì, câu nhận lời thân thiện là 'そう？じゃあ、頼むよ' (Thế à? Vậy nhờ cậu nhé). Phương án 2 đúng.",
+      "trapVi": "Phương án 1 từ chối thô lỗ, phương án 3 tự nói về nỗi lo lắng của bản thân.",
+      "listeningStrategyVi": "Nhận lời đề nghị giúp đỡ một cách tự nhiên và cởi mở.",
+      "promptTranscriptJa": "僕がお客様を車で駅まで送りましょう。1．そんなこと頼まないよ。2．そう？じゃあ、頼むよ。3．うん、心配いらないよ。",
+      "promptTranslationVi": "Để tớ lái xe tiễn khách ra ga giúp cậu nhé."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_008",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q08.mp3",
+        "durationSec": 29.75
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Xác nhận lịch trình: 'Thứ Sáu nhỉ. Vâng, tớ nhớ rồi.'",
+      "fullExplanationVi": "Khi thống nhất lịch trình, ta nhắc lại mốc thời gian để xác nhận '金曜日ですね。はい、わかりました'. Phương án 3 đúng.",
+      "trapVi": "Phương án 1 bảo người khác chờ đợi vô lý, phương án 2 nói mình không biết ngày nào.",
+      "listeningStrategyVi": "Lắng nghe câu chốt lịch trình và phản hồi xác nhận (わかりました).",
+      "promptTranscriptJa": "じゃ、今度のパーティーは今週の金曜日にしましょう。1．どうぞ、その日を待っていてください。2．さあ、何曜日か私にもわかりません。3．金曜日ですね。はい、わかりました。",
+      "promptTranslationVi": "Vậy bữa tiệc tới chúng ta sẽ tổ chức vào thứ Sáu tuần này nhé."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_quick_009",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "quick_response",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M4",
+      "categoryName": "Nghe hiểu Mondai 4",
+      "displayLabel": "N4 Nghe: Mondai 4",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m4-q09.mp3",
+        "durationSec": 17.9
+      }
+    },
+    "question": {
+      "instruction": "もんだい４では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、１から３の中から、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "1",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "2",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "3",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Lời đáp lại sẵn sàng lắng nghe: 'Vâng, việc gì thế?'",
+      "fullExplanationVi": "Khi ai đó mở đầu bằng 'ちょっと伺いたいんですが' (Tớ muốn hỏi chút), câu đáp lại thân thiện là 'はい、何ですか' (Vâng, chuyện gì thế?). Phương án 3 đúng.",
+      "trapVi": "Bẫy câu hỏi thời gian 'いつ' hoặc địa điểm 'どこ' không phù hợp khi chưa biết người kia muốn hỏi gì.",
+      "listeningStrategyVi": "Phản hồi mở để đón nhận câu hỏi tiếp theo của đối phương.",
+      "promptTranscriptJa": "ちょっと伺いたいんですが。1．はい、どこですか。2．はい、いつですか。3．はい、何ですか。",
+      "promptTranslationVi": "Tớ xin phép hỏi một chút được không..."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

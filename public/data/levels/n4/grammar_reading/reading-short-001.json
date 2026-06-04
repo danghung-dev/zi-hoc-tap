@@ -1,0 +1,226 @@
+[
+  {
+    "id": "n4_grammar_reading_short_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short",
+      "calculation"
+    ],
+    "passage": {
+      "title": "旅館の料金",
+      "text": "ボプさんは旅館にとまってみたいです。花旅館のふろとトイレがついている部屋は5000円です。ふろがない部屋は1000円安く、トイレもないとさらに500円安くなります。1人でとまると部屋代は10%多くはらわなければなりません。でも友だちのしょうかいなのではらわなくてもいいと言われました。食事は朝は1000円、夜は3500円です。部屋は一ばん安いのがいいです。でも、タ食は日本料理を旅館で食べたいです。",
+      "translationVi": "Bob muốn thử ở trọ tại lữ quán (nhà trọ kiểu Nhật). Tại lữ quán Hana, phòng có sẵn bồn tắm và nhà vệ sinh có giá 5000 yên. Phòng không có bồn tắm thì rẻ hơn 1000 yên, và nếu không có cả nhà vệ sinh nữa thì sẽ rẻ thêm 500 yên nữa. Nếu ở một mình thì tiền phòng phải trả thêm 10%. Nhưng vì có bạn bè giới thiệu nên anh ấy được bảo là không cần trả khoản phụ thu này. Về ăn uống, bữa sáng là 1000 yên, bữa tối là 3500 yên. Anh ấy muốn chọn phòng rẻ nhất. Tuy nhiên, anh ấy muốn ăn bữa tối là món ăn Nhật Bản tại lữ quán."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "ぜんぶでいくらはらいますか。",
+        "questionTranslationVi": "Tổng cộng anh ấy phải trả bao nhiêu tiền?",
+        "options": [
+          {
+            "id": "A",
+            "text": "7000円",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Tiền phòng rẻ nhất: 5000 - 1000 (không bồn tắm) - 500 (không vệ sinh) = 3500 yên. Không phụ thu 10% do được giới thiệu. Tiền ăn tối: 3500 yên (không ăn sáng). Tổng cộng: 3500 + 3500 = 7000 yên."
+          },
+          {
+            "id": "B",
+            "text": "7350円",
+            "isCorrect": false,
+            "explanationVi": "Sai. Mức giá này đã tính thêm 10% phụ thu tiền phòng (3500 + 350 phụ thu + 3500 ăn tối), nhưng thực tế Bob được miễn phụ thu."
+          },
+          {
+            "id": "C",
+            "text": "7500円",
+            "isCorrect": false,
+            "explanationVi": "Sai. Tính sai giá phòng hoặc tiền ăn."
+          },
+          {
+            "id": "D",
+            "text": "7700円",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chưa trừ hết các khoản giảm giá phòng."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceText": "部屋は一ばん安いのがいいです。でも、夕食は日本料理を旅館で食べたいです。",
+          "strategyVi": "Liệt kê giá gốc rồi thực hiện phép tính trừ cho phòng rẻ nhất: 5000 - 1000 (không tắm) - 500 (không vệ sinh) = 3500 yên. Bỏ qua phụ thu 10%. Chỉ cộng thêm tiền ăn tối 3500 yên."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short",
+      "company-rules"
+    ],
+    "passage": {
+      "title": "会社の年休",
+      "text": "メイさんの会社の年休は1年目は7日間もらえます。年休というのは休んでもきゅうりょうがへらない休みのことです。2年目から1日ずつふえていきますが、年休は20日以上にはなりません。毎年3月31日までに使わなかった年休はつぎの年に使うことができます。メイさんは去年年休をぜんぶ使ってしまいました。今年12日もらいましたが、7日使いました。",
+      "translationVi": "Ngày nghỉ phép năm (nhân hưu) tại công ty của May vào năm đầu tiên được nhận là 7 ngày. Phép năm là những ngày nghỉ mà lương không bị giảm. Từ năm thứ hai trở đi, mỗi năm sẽ tăng thêm 1 ngày, nhưng số ngày phép tối đa không quá 20 ngày. Những ngày phép năm không dùng hết trước ngày 31 tháng 3 hàng năm có thể được cộng dồn sang năm tiếp theo. May đã dùng hết sạch phép năm của năm ngoái. Năm nay cô ấy được nhận 12 ngày phép, và đã dùng hết 7 ngày."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "メイさんの来年の年休は何日ですか。",
+        "questionTranslationVi": "Ngày nghỉ phép năm sau của May là bao nhiêu ngày?",
+        "options": [
+          {
+            "id": "A",
+            "text": "12日",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây là số ngày phép được cấp mới của năm nay."
+          },
+          {
+            "id": "B",
+            "text": "13日",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây mới chỉ là số ngày phép cấp mới của năm sau (tăng thêm 1 ngày so với năm nay), chưa cộng dồn phép thừa."
+          },
+          {
+            "id": "C",
+            "text": "17日",
+            "isCorrect": false,
+            "explanationVi": "Sai. Tính toán sai số ngày phép thừa."
+          },
+          {
+            "id": "D",
+            "text": "18日",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Số ngày phép dư năm nay: 12 - 7 = 5 ngày. Phép năm sau được nhận thêm: 12 + 1 = 13 ngày. Tổng phép năm sau: 13 + 5 = 18 ngày."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceText": "2年目から1日ずつふえていきます... 毎年3月31日までに使わなかった年休はつぎの年に使うことができます。",
+          "strategyVi": "Tìm số phép năm nay còn lại (12 - 7 = 5 ngày). Xác định số phép mới năm sau (năm nay 12 ngày nên năm sau tăng 1 ngày thành 13 ngày). Cộng hai khoản lại: 13 + 5 = 18 ngày."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_003",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short",
+      "birthday"
+    ],
+    "passage": {
+      "title": "おじいさんの誕生日",
+      "text": "おじいさんのたんじょう日になべ料理や手まきずしなどを作りました。なべ料理は魚や肉ややさいを切ってなべに入れてにながら食べます。手まきずしはごはんと好きなさしみやたまごをのりでつつんで食べます。どちらもとてもおいしいし、じぶんの好きな物だけ食べることができます。それに準備に時間がかかりません。買ってきた料理はこまかく切ったりもう一度やわらかくにたりして出しました。\n※さしみ：生で食べるためにうすく切った魚",
+      "translationVi": "Vào ngày sinh nhật của ông nội, chúng tôi đã làm các món như lẩu và sushi tự cuốn. Món lẩu là cắt cá, thịt, rau rồi cho vào nồi vừa nấu vừa ăn. Sushi tự cuốn là dùng rong biển cuốn cơm với cá sống (sashimi) hoặc trứng tùy thích. Cả hai món đều rất ngon, lại có thể tự chọn ăn những món mình thích. Hơn nữa, khâu chuẩn bị không tốn thời gian. Những món mua sẵn về thì được thái nhỏ hoặc nấu mềm thêm lần nữa rồi mới dọn ra."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "なべ料理や手まきずしを作った理由でないのはどれですか。",
+        "questionTranslationVi": "Đâu KHÔNG phải là lý do họ chọn làm món lẩu và sushi tự cuốn?",
+        "options": [
+          {
+            "id": "A",
+            "text": "とてもおいしいから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây là một lý do được nêu trong bài (どちらもとてもおいしいし)."
+          },
+          {
+            "id": "B",
+            "text": "好きなものだけ食べられるから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây là lý do được nêu trong bài (じぶんの好きな物だけ食べることができます)."
+          },
+          {
+            "id": "C",
+            "text": "おじいさんが好きだから。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Thông tin 'ông thích món này' hoàn toàn không xuất hiện trong văn bản (dù là tiệc sinh nhật ông nhưng không nói ông thích hai món này)."
+          },
+          {
+            "id": "D",
+            "text": "短い時間で準備できるから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây là lý do được nêu trong bài (準備に時間がかかりません)."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "どちらもとてもおいしいし、じぶんの好きな物だけ食べることができます。それに準備に時間がかかりません。",
+          "strategyVi": "Đọc kỹ ba lý do trực tiếp được đề cập để loại trừ phương án sai. Thông tin về sở thích của ông nội không hề được nhắc đến."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_004",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short",
+      "subway"
+    ],
+    "passage": {
+      "title": "東京の地下鉄",
+      "text": "東京のちかてつ、東京メトロは乗りかえるときに注意しなければならない。駅の中で乗りかえる場合は問題がないが、一度駅から外へ出てつぎに乗る電車の駅に入る場合はオレンジ色の「のりつぎ」と書かれた出口を通らなければならない。ほかの出口を通るときっぷはとられてしまう。また30分以内に駅の中に入らなければそのきっぷは使えなくなってしまう。",
+      "translationVi": "Khi chuyển tuyến trên tàu điện ngầm Tokyo (Tokyo Metro), bạn cần phải chú ý. Nếu chuyển tuyến ngay bên trong ga thì không có vấn đề gì, nhưng nếu phải đi ra ngoài ga một lần rồi mới đi vào ga của tuyến tiếp theo, bạn bắt buộc phải đi qua cổng soát vé màu cam có ghi chữ 'Chuyển tuyến' (のりつぎ). Nếu đi qua cổng khác, vé của bạn sẽ bị máy thu mất. Ngoài ra, nếu không vào lại ga trong vòng 30 phút, chiếc vé đó sẽ không còn sử dụng được nữa."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "どうして乗りかえのときに注意しなければならないのですか。",
+        "questionTranslationVi": "Tại sao phải chú ý khi chuyển tuyến tàu điện?",
+        "options": [
+          {
+            "id": "A",
+            "text": "出口がたくさんありすぎるから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc có nhiều cổng ra không phải nguyên nhân chính khiến vé bị nuốt."
+          },
+          {
+            "id": "B",
+            "text": "一度駅の外に出なければならないから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc đi ra ngoài ga chỉ là một trường hợp chuyển tuyến, bản thân nó không bắt buộc phải chú ý nếu đi đúng cổng."
+          },
+          {
+            "id": "C",
+            "text": "いろいろな出口がたくさんあるから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Lý do tương tự câu A."
+          },
+          {
+            "id": "D",
+            "text": "特別な出口を使わなければならないことがあるから。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Khi phải ra ngoài ga để chuyển tuyến, hành khách buộc phải dùng cổng soát vé màu cam đặc biệt, nếu dùng cổng thường vé sẽ bị nuốt."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceText": "一度駅から外へ出てつぎに乗る電車の駅に入る場合はオレンジ色の「のりつぎ」と書かれた出口を通らなければならない。ほかの出口を通るときっぷはとられてしまう。",
+          "strategyVi": "Tìm thông tin liên quan đến hậu quả của việc không chú ý (vé bị nuốt do đi nhầm cổng). Cổng màu cam 'のりつぎ' chính là cổng đặc biệt được nói đến."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "appVersion": "1.0.0",
+  "defaultLevel": "N4",
+  "activeLevels": ["N4"],
+  "dataBasePath": "/data",
+  "assetBasePath": "/assets",
+  "features": {
+    "practiceMode": true
+  }
+}

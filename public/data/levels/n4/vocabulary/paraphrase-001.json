@@ -1,0 +1,292 @@
+[
+  {
+    "id": "n4_vocab_paraphrase_001",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "noun",
+      "location"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASE_LOCATION",
+      "categoryName": "Đồng nghĩa từ địa điểm",
+      "displayLabel": "Đồng nghĩa: 図書館",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "1. <u>ここはとしょかんです。</u>",
+      "underlinedText": "ここはとしょかんです。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ここはほんをかうところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi mua sách là hiệu sách (本屋/書店), không phải thư viện."
+      },
+      {
+        "id": "B",
+        "text": "ここはほんをかりるところです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Thư viện (図書館 - としょかん) là nơi để mọi người đến đọc và mượn sách (本を借りるところ)."
+      },
+      {
+        "id": "C",
+        "text": "ここはひとにあうところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi gặp gỡ người khác thường là quán cà phê hay sảnh đợi, không phải chức năng chính của thư viện."
+      },
+      {
+        "id": "D",
+        "text": "ここはひととはなすところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thư viện cần giữ yên tĩnh, không phải là nơi nói chuyện."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "図書館 = Nơi mượn sách",
+      "fullExplanationVi": "Từ vựng 「図書館 (としょかん - thư viện)」 là cơ sở lưu trữ sách báo để phục vụ nhu cầu đọc và mượn sách của cộng đồng. Cụm tương đương là 「本を借りる場所 (ほんをかりるばしょ)」.",
+      "trapVi": "Nhầm lẫn giữa hành động mượn sách (借りる) và mua sách (買う).",
+      "translationVi": "Đây là thư viện. / Đây là nơi mượn sách."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_002",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "noun",
+      "location"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASE_LOCATION",
+      "categoryName": "Đồng nghĩa từ địa điểm",
+      "displayLabel": "Đồng nghĩa: 喫茶店",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "2. <u>ここはきっさてんです。</u>",
+      "underlinedText": "ここはきっさてんです。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ここはえをみるところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi xem tranh ảnh là bảo tàng mỹ thuật (美術館)."
+      },
+      {
+        "id": "B",
+        "text": "ここはうんどうをするところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi vận động thể thao là phòng gym hoặc sân vận động (体育館/運動場)."
+      },
+      {
+        "id": "C",
+        "text": "ここはたばこをすうところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Mặc dù một số quán cà phê cho hút thuốc, nhưng đây không phải định nghĩa cốt lõi."
+      },
+      {
+        "id": "D",
+        "text": "ここはコーヒーなどをのむところです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Quán giải khát / Quán cà phê (喫茶店 - きっさてん) là nơi phục vụ trà, cà phê và đồ uống nhẹ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "喫茶店 = Nơi uống cà phê",
+      "fullExplanationVi": "Từ 「喫茶店 (きっさてん - quán giải khát/quán cà phê)」 có nghĩa tương đương với quán nước phục vụ đồ uống nhẹ như trà, cà phê.",
+      "trapVi": "Bẫy đưa ra các mô tả địa điểm không đúng trọng tâm công dụng cốt lõi của quán cà phê.",
+      "translationVi": "Đây là quán giải khát. / Đây là nơi để uống cà phê..."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_003",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "noun",
+      "location"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASE_LOCATION",
+      "categoryName": "Đồng nghĩa từ địa điểm",
+      "displayLabel": "Đồng nghĩa: 病院",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "3. <u>ここはびょういんです。</u>",
+      "underlinedText": "ここはびょういんです。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "びょうきのときくるところです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Bệnh viện (病院 - びょういん) là nơi người ta tìm đến khám chữa bệnh khi bị ốm đau."
+      },
+      {
+        "id": "B",
+        "text": "かみのけをきるときくるところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi cắt tóc là tiệm làm tóc/tiệm cắt tóc (美容院/床屋)."
+      },
+      {
+        "id": "C",
+        "text": "うんどうをするときくるところです",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi tập thể dục là trung tâm thể thao."
+      },
+      {
+        "id": "D",
+        "text": "ここはくるまをとめておくところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nơi đỗ xe là bãi đỗ xe."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "病院 = Nơi đến khi bị bệnh",
+      "fullExplanationVi": "Từ 「病院 (びょういん - bệnh viện)」 định nghĩa là cơ sở y tế điều trị cho người bệnh. Cách diễn giải đồng nghĩa là 「病気の時に来る場所 (びょうきのときにくるばしょ)」.",
+      "trapVi": "Tránh nhầm lẫn chữ Kanji với 美容院 (びよういん - tiệm làm đẹp/cắt tóc) vì cách phát âm cực kỳ giống nhau (chỉ khác âm ngắt/trường âm).",
+      "translationVi": "Đây là bệnh viện. / Đây là nơi bạn đến khi bị bệnh."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_004",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "noun",
+      "location"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASE_LOCATION",
+      "categoryName": "Đồng nghĩa từ địa điểm",
+      "displayLabel": "Đồng nghĩa: 駐車場",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "4. <u>ここはくるまをとめておくところです。</u>",
+      "underlinedText": "ここはくるまをとめておくところです。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ここはえきです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nhà ga (駅) là nơi lên xuống tàu hỏa, tàu điện."
+      },
+      {
+        "id": "B",
+        "text": "ここはひこうじょうです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Sân bay (飛行場) là nơi cất cánh/hạ cánh của máy bay."
+      },
+      {
+        "id": "C",
+        "text": "ここはちゅうしゃじょうです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Bãi đỗ xe (駐車場 - ちゅうしゃじょう) chính là nơi để đỗ xe ô tô (車を止めておくところ)."
+      },
+      {
+        "id": "D",
+        "text": "ここはおくじょうです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Sân thượng (屋上) không phải là bãi đỗ xe thông thường."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "車を止める場所 = 駐車場",
+      "fullExplanationVi": "Cụm định nghĩa 「車を止めておく場所」 tương đương trực tiếp với danh từ ghép 「駐車場 (ちゅうしゃじょう - bãi đỗ xe)」.",
+      "trapVi": "Bẫy các danh từ kết thúc bằng đuôi 「じょう」 như 飛行場 (ひこうじょう - sân bay), 屋上 (おくじょう - sân thượng).",
+      "translationVi": "Đây là nơi đỗ xe ô tô. / Đây là bãi đỗ xe."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_005",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "noun",
+      "location"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASE_LOCATION",
+      "categoryName": "Đồng nghĩa từ địa điểm",
+      "displayLabel": "Đồng nghĩa: 空港",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "5. <u>ここはくうこうです。</u>",
+      "underlinedText": "ここはくうこうです。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ここはでんしゃにのったりおりたりするところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Đây là định nghĩa của nhà ga điện ngầm hoặc tàu điện (駅)."
+      },
+      {
+        "id": "B",
+        "text": "ここはバスにのったりおりたりするところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Đây là định nghĩa của bến xe buýt hoặc trạm dừng xe buýt."
+      },
+      {
+        "id": "C",
+        "text": "ここはタクシーにのったりおりたりするところです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Đây là trạm đón taxi."
+      },
+      {
+        "id": "D",
+        "text": "ここはひこうきにのったりおりたりするところです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Sân bay (空港 - くうこう) là nơi hành khách lên và xuống máy bay (飛行機に乗り降りする場所)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "空港 = Nơi lên xuống máy bay",
+      "fullExplanationVi": "Từ 「空港 (くうこう - sân bay/phi trường)」 đồng nghĩa với nơi lên và xuống máy bay 「飛行機に乗ったり降りたりする場所」.",
+      "trapVi": "Các phương tiện giao thông công cộng khác như tàu điện (電車), xe buýt (バス), taxi (タクシー).",
+      "translationVi": "Đây là sân bay. / Đây là nơi để lên xuống máy bay."
+    }
+  }
+]

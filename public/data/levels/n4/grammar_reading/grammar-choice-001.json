@@ -1,0 +1,871 @@
+[
+  {
+    "id": "n4_grammar_choice_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "made"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: まで",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "1. 日本には来年の3月　（＿＿）　いるつもりです。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "に",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ に chỉ thời điểm cụ thể, không biểu thị tính kéo dài liên tục."
+      },
+      {
+        "id": "B",
+        "text": "まで",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「まで」 chỉ giới hạn thời gian mà một hành động hay trạng thái diễn ra liên tục cho đến mốc đó."
+      },
+      {
+        "id": "C",
+        "text": "から",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「から」 nghĩa là từ (thời điểm bắt đầu)."
+      },
+      {
+        "id": "D",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「で」 chỉ địa điểm diễn ra hành động hoặc phương tiện."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "まで = cho đến khi",
+      "fullExplanationVi": "Trợ từ chỉ giới hạn thời gian 「まで」 đi kèm với động từ chỉ trạng thái diễn ra liên tục 「いる (ở/sống)」 biểu thị hành động kéo dài đến mốc thời gian đó.",
+      "trapVi": "Nhầm lẫn với trợ từ に chỉ thời điểm xảy ra hành động nhất thời.",
+      "translationVi": "Tôi dự định ở Nhật Bản cho đến tháng 3 năm sau."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "to-omou"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: と",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "2. 今日は早く帰れる　（＿＿）　思います。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が chỉ đối tượng/chủ ngữ."
+      },
+      {
+        "id": "B",
+        "text": "の",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ の không đứng trước động từ 思います."
+      },
+      {
+        "id": "C",
+        "text": "か",
+        "isCorrect": false,
+        "explanationVi": "Sai. か dùng trong câu hỏi lựa chọn gián tiếp."
+      },
+      {
+        "id": "D",
+        "text": "と",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「～と思います」 dùng để trích dẫn suy nghĩ, ý kiến cá nhân."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "～ と思います = nghĩ rằng ～",
+      "fullExplanationVi": "Trợ từ 「と」 đóng vai trò trích dẫn nội dung suy nghĩ hoặc lời nói đứng trước các động từ như 思います (nghĩ), 言います (nói).",
+      "trapVi": "Nhầm với trợ từ の làm danh từ hóa.",
+      "translationVi": "Tôi nghĩ hôm nay có thể về sớm."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_003",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "expression",
+      "ni-tsuite"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_EXPRESSION",
+      "categoryName": "Mẫu câu ngữ pháp",
+      "displayLabel": "Cấu trúc: について",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "3. この問題　（＿＿）　ついて何か質問はありませんか。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ で không đi kèm cấu trúc này."
+      },
+      {
+        "id": "B",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が không tạo thành cụm từ chỉ chủ đề đối chiếu."
+      },
+      {
+        "id": "C",
+        "text": "に",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「～について」 có nghĩa là 'về/liên quan đến N'."
+      },
+      {
+        "id": "D",
+        "text": "は",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ は không phù hợp."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "N + について = Về N",
+      "fullExplanationVi": "Cấu trúc ngữ pháp N4 「N について」 dùng để chỉ ra chủ đề, nội dung mà mình muốn hỏi, muốn thảo luận hay suy nghĩ.",
+      "trapVi": "Tránh dùng sai trợ từ đi trước cấu trúc (phải dùng に trước ついて).",
+      "translationVi": "Về vấn đề này, anh/chị có câu hỏi nào không?"
+    }
+  },
+  {
+    "id": "n4_grammar_choice_004",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "ga"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: が",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "4. そのへやはほかの人　（＿＿）　使っています。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "を",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ を đi với ngoại động từ trực tiếp."
+      },
+      {
+        "id": "B",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ で chỉ phương tiện hoặc địa điểm."
+      },
+      {
+        "id": "C",
+        "text": "は",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ は chỉ chủ đề lớn."
+      },
+      {
+        "id": "D",
+        "text": "が",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「が」 dùng để chỉ ra chủ thể thực hiện hành động khách quan."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "が = chỉ chủ ngữ thực hiện hành động",
+      "fullExplanationVi": "Trong câu miêu tả trạng thái khách quan 「Nが使っています (N đang sử dụng)」, trợ từ が đứng sau người thực hiện hành động.",
+      "trapVi": "Nhầm lẫn giữa を và が.",
+      "translationVi": "Căn phòng đó đang có người khác sử dụng."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_005",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "ni"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: に",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "5. 大学のおいわい　（＿＿）　時計をもらいました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "か",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ か chỉ sự lựa chọn hoặc nghi vấn."
+      },
+      {
+        "id": "B",
+        "text": "に",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「に」 ở đây dùng để chỉ mục đích, lý do, hoặc nhân dịp (nhân dịp chúc mừng đỗ đại học)."
+      },
+      {
+        "id": "C",
+        "text": "を",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ を chỉ đối tượng chịu tác động."
+      },
+      {
+        "id": "D",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が chỉ chủ thể."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "に = nhân dịp/làm quà",
+      "fullExplanationVi": "Trợ từ 「に」 đứng sau danh từ chỉ danh nghĩa của món quà (làm quà chúc mừng đại học) trong mẫu câu nhận quà 「Nをもらいました」.",
+      "trapVi": "Nhầm dùng trợ từ を đứng trước vật trao nhận làm biến đổi ngữ nghĩa gốc.",
+      "translationVi": "Tôi đã được tặng chiếc đồng hồ nhân dịp chúc mừng vào đại học."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_006",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "causative"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CAUSATIVE",
+      "categoryName": "Thể sai khiến",
+      "displayLabel": "Sai khiến: ～せてください",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "6. その仕事は、わたし　（＿＿）　やらせてください。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "と",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ と nghĩa là 'với/cùng'."
+      },
+      {
+        "id": "B",
+        "text": "に",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「に」 dùng để chỉ đối tượng được cho phép thực hiện hành động trong câu cầu khiến/xin phép chia thể sai khiến 「～せてください」."
+      },
+      {
+        "id": "C",
+        "text": "を",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ を dùng chỉ đối tượng trực tiếp nhưng ở đây người thực hiện hành động xin phép tự ứng cử nên dùng に tự nhiên hơn."
+      },
+      {
+        "id": "D",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が không hợp ngữ pháp cầu khiến này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "～に～せてください = xin hãy cho phép ～ làm",
+      "fullExplanationVi": "Động từ sai khiến chia dạng 「V(さ)せてください」 (xin hãy cho phép tôi làm) đi kèm với trợ từ 「に」 đứng sau chủ thể được cho phép.",
+      "trapVi": "Hay nhầm lẫn dùng を thay vì に trong cấu trúc xin phép sai khiến này.",
+      "translationVi": "Công việc đó xin hãy để tôi làm nhé."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_007",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "wo"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: を",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "7. わたしがリーさん　（＿＿）　あんないしてあげましょう。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "を",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「案内する (dẫn đường/hướng dẫn)」 là ngoại động từ tác động trực tiếp lên người được dẫn đường, do đó dùng trợ từ 「を」."
+      },
+      {
+        "id": "B",
+        "text": "に",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ に không đi với 案内する."
+      },
+      {
+        "id": "C",
+        "text": "から",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ から nghĩa là từ."
+      },
+      {
+        "id": "D",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が chỉ chủ thể hành động (chủ thể ở đây là わたしが)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "～を案内する = dẫn đường/hướng dẫn cho ～",
+      "fullExplanationVi": "Trợ từ chỉ đối tượng của hành động 「を」 kết hợp với ngoại động từ 「案内する」. Thể hiện hành vi giúp đỡ người khác 「～てあげます」.",
+      "trapVi": "Nhầm lẫn dùng に với các động từ cho nhận hướng dẫn khác.",
+      "translationVi": "Tôi sẽ dẫn đường cho bạn Lee nhé."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_008",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "benefactive",
+      "te-morau"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_BENEFACTIVE",
+      "categoryName": "Hành động cho nhận",
+      "displayLabel": "Cho nhận: ～てもらう",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "8. この手紙は田中さん　（＿＿）　なおしてもらいました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "から",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「から」 có thể dùng nhưng trong mẫu câu nhận hành động giúp đỡ 「～てもらう」, trợ từ chỉ người thực hiện hành động chuẩn ngữ pháp nhất là 「に」."
+      },
+      {
+        "id": "B",
+        "text": "は",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ は chỉ chủ đề."
+      },
+      {
+        "id": "C",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が không đứng sau người thực hiện hành động trong mẫu câu もらう."
+      },
+      {
+        "id": "D",
+        "text": "に",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「NにVてもらう」 biểu thị việc mình nhận được hành động giúp đỡ từ người khác."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "N に V てもらう = Được N làm giúp việc gì",
+      "fullExplanationVi": "Trong cấu trúc nhận hành động 「～てもらう」, người thực hiện hành động giúp đỡ cho mình sẽ đi kèm trợ từ 「に」 (hoặc から nếu đó là nguồn tiếp nhận). Ở đây dùng に là chuẩn nhất.",
+      "trapVi": "Dễ nhầm sang dùng が chỉ chủ ngữ gây rối ngữ pháp.",
+      "translationVi": "Bức thư này tôi đã được anh Tanaka sửa giúp."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_009",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "node"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CONJUNCTION",
+      "categoryName": "Liên từ ngữ pháp",
+      "displayLabel": "Liên từ: ので",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "9. \"時間がない　（＿＿）　、いそぎましょう。 \"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "のに",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「のに」 thể hiện ý nghĩa tương phản (mặc dù... nhưng...)."
+      },
+      {
+        "id": "B",
+        "text": "ので",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「ので」 dùng để chỉ nguyên nhân, lý do một cách khách quan, lịch sự."
+      },
+      {
+        "id": "C",
+        "text": "には",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「には」 nghĩa là đối với/để làm gì."
+      },
+      {
+        "id": "D",
+        "text": "のは",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「のは」 dùng để danh từ hóa cụm chủ ngữ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "ので = vì",
+      "fullExplanationVi": "Liên từ chỉ lý do 「ので」 nối liền sau thể thông thường (ない) để giải thích nguyên nhân cho hành động rủ rê ở vế sau 「いそぎましょう」.",
+      "trapVi": "Phân biệt với のに mang ý nghĩa trái ngược/than phiền.",
+      "translationVi": "Vì không có thời gian nên hãy khẩn trương lên nào."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_010",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "kara"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: から",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "10. あの店は、朝8時半　（＿＿）　あいています。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "から",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「から」 chỉ mốc thời gian bắt đầu hành động hoặc trạng thái (mở cửa từ 8h30)."
+      },
+      {
+        "id": "B",
+        "text": "を",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ を chỉ đối tượng trực tiếp."
+      },
+      {
+        "id": "C",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ で chỉ thời lượng hoàn thành hoặc phương tiện, không dùng chỉ mốc bắt đầu trạng thái kéo dài."
+      },
+      {
+        "id": "D",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が không hợp ngữ cảnh."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "から = từ (mốc thời gian)",
+      "fullExplanationVi": "Trợ từ 「から」 đứng sau mốc thời gian 「朝8時半」 đi kèm tự động từ chỉ trạng thái mở cửa 「あいています」 thể hiện cửa hàng bắt đầu mở từ giờ đó.",
+      "trapVi": "Tránh nhầm lẫn dùng で chỉ giới hạn thời gian kết thúc hoặc nơi chốn.",
+      "translationVi": "Cửa hàng đó mở cửa từ 8 rưỡi sáng."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_011",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "kara"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: から (thông tin)",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "11. いろいろな人　（＿＿）　田中さんのことを聞きました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "まで",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「まで」 nghĩa là đến tận."
+      },
+      {
+        "id": "B",
+        "text": "から",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「から」 chỉ nguồn gốc của thông tin nhận được (nghe kể từ ai đó)."
+      },
+      {
+        "id": "C",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「で」 chỉ nơi chốn/phương tiện."
+      },
+      {
+        "id": "D",
+        "text": "へ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「へ」 chỉ hướng di chuyển."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "N から聞く = nghe từ N",
+      "fullExplanationVi": "Trợ từ 「から (từ)」 dùng để chỉ đối tượng nguồn phát ra thông tin khi đi kèm động từ nghe 「聞く」.",
+      "trapVi": "Dễ nhầm với trợ từ に chỉ đối tượng giao tiếp trực tiếp trong một số ngữ cảnh hội thoại khác.",
+      "translationVi": "Tôi đã nghe kể về anh Tanaka từ nhiều người khác nhau."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_012",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "expression",
+      "tame-ni"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_EXPRESSION",
+      "categoryName": "Mẫu câu ngữ pháp",
+      "displayLabel": "Cấu trúc: ために",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "12. コンピューターの勉強をするため　（＿＿）　、日本へ来ました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ が chỉ đối tượng/chủ ngữ."
+      },
+      {
+        "id": "B",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ で chỉ nguyên nhân/phương tiện."
+      },
+      {
+        "id": "C",
+        "text": "に",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「～ために」 biểu thị mục đích (để làm việc gì đó)."
+      },
+      {
+        "id": "D",
+        "text": "は",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trợ từ は không đúng ngữ pháp mục đích."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "V-ru + ために = Để làm việc V",
+      "fullExplanationVi": "Cấu trúc chỉ mục đích rõ ràng hành động 「ために」 đứng sau động từ thể từ điển 「勉強をするため」.",
+      "trapVi": "Phân biệt cách dùng chỉ mục đích ために (cho động từ có ý chí) và ように (cho động từ khả năng/không ý chí).",
+      "translationVi": "Tôi đến Nhật Bản để học về máy tính."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_013",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "noni"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CONJUNCTION",
+      "categoryName": "Liên từ ngữ pháp",
+      "displayLabel": "Liên từ: のに",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "13. 朝早く行った　（＿＿）　、きっぷは買えませんでした。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "のに",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ liên kết 「のに」 dùng để biểu thị ý nghĩa tương phản bất ngờ, bất mãn: 'mặc dù... nhưng vẫn...' (mặc dù đi sớm mà vẫn không mua được vé)."
+      },
+      {
+        "id": "B",
+        "text": "のは",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「のは」 dùng để danh từ hóa vế câu làm chủ ngữ."
+      },
+      {
+        "id": "C",
+        "text": "ので",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ので」 chỉ lý do nguyên nhân mang kết quả tương xứng, không đi với kết quả trái ngược."
+      },
+      {
+        "id": "D",
+        "text": "でも",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「でも」 nghĩa là tuy nhiên nhưng không đứng sau thể thông thường để nối câu trực tiếp như thế này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "のに = mặc dù ～ thế mà",
+      "fullExplanationVi": "Đầu câu vế trước là hành động nỗ lực (朝早く行った - đi rất sớm), vế sau là kết quả thất vọng ngoài dự kiến (きっぷは買えませんでした - không mua được vé). Dùng liên từ biểu thị sự bất mãn 「のに」.",
+      "trapVi": "Nhầm lẫn với liên từ chỉ nguyên nhân thuận chiều 「ので」.",
+      "translationVi": "Mặc dù đã đi từ sáng sớm nhưng tôi vẫn không mua được vé."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_014",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "kara"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CONJUNCTION",
+      "categoryName": "Liên từ ngữ pháp",
+      "displayLabel": "Liên từ: から",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "14. \"今日は天気がいい　（＿＿）　、せんたくをします。 \"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "で",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「で」 đứng sau danh từ chỉ nguyên nhân, không đứng sau tính từ đuôi -i chia thể thông thường trực tiếp."
+      },
+      {
+        "id": "B",
+        "text": "から",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「から」 đứng sau thể thông thường của tính từ để chỉ nguyên nhân, lý do chủ quan (Vì thời tiết đẹp nên...)."
+      },
+      {
+        "id": "C",
+        "text": "が",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「が」 chỉ sự đối lập."
+      },
+      {
+        "id": "D",
+        "text": "のに",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「のに」 chỉ sự trái ngược."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "から = vì (nguyên nhân chủ quan)",
+      "fullExplanationVi": "Trợ từ chỉ nguyên nhân chủ quan 「から」 đứng sau tính từ đuôi -i thể thông thường 「いい」 biểu thị động lực thúc đẩy hành động giặt giũ ở vế sau.",
+      "trapVi": "Phân biệt với trợ từ chỉ nguyên nhân khách quan 「ので」.",
+      "translationVi": "Hôm nay thời tiết đẹp nên tôi sẽ giặt đồ."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_015",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "particle",
+      "bakari"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_PARTICLE",
+      "categoryName": "Trợ từ ngữ pháp",
+      "displayLabel": "Trợ từ: ばかり",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "15. 本　（＿＿）　読んでいないで、たまには外へ出ませんか。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "さえ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「さえ」 nghĩa là ngay cả/thậm chí."
+      },
+      {
+        "id": "B",
+        "text": "しか",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「しか」 đi với phủ định mang nghĩa 'chỉ', nhưng ở đây động từ chia thể ていないで (đừng chỉ làm việc đó) chứ không phải phủ định hoàn toàn."
+      },
+      {
+        "id": "C",
+        "text": "も",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「も」 nghĩa là cũng."
+      },
+      {
+        "id": "D",
+        "text": "ばかり",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trợ từ 「ばかり」 đi sau danh từ chỉ hành động lặp đi lặp lại nhiều lần mang tính tiêu cực: 'chỉ toàn là / suốt ngày chỉ...'"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "ばかり = chỉ toàn là",
+      "fullExplanationVi": "Trợ từ 「ばかり」 kết hợp với cấu trúc 「Vていないで」 mang ý nghĩa khuyên nhủ hoặc phàn nàn: 'đừng có suốt ngày chỉ đọc sách như vậy, thỉnh thoảng ra ngoài chơi đi'.",
+      "trapVi": "Tránh nhầm với しか vì しか đi kèm phủ định hoàn toàn ở cuối câu (Vない) mang tính loại trừ tất cả cái khác.",
+      "translationVi": "Đừng có suốt ngày chỉ đọc sách thế chứ, thỉnh thoảng ra ngoài chơi đi."
+    }
+  }
+]
