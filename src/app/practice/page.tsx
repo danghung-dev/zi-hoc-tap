@@ -30,6 +30,29 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+const ITEM_TYPE_LABELS: Record<string, string> = {
+  // Từ vựng (Vocabulary)
+  kanji_reading: "Cách đọc Kanji (漢字読み)",
+  orthography: "Cách viết Kanji (表記)",
+  contextually_defined_expressions: "Điền từ theo ngữ cảnh (文脈規定)",
+  paraphrases: "Từ đồng nghĩa (言い換え類義語)",
+  usage: "Cách dùng từ (用途)",
+  
+  // Ngữ pháp & Đọc hiểu (Grammar & Reading)
+  sentential_grammar_1: "Ngữ pháp câu - Chọn đáp án (文の文法 1 - 選択)",
+  sentential_grammar_2_sentence_composition: "Ngữ pháp câu - Sắp xếp từ dấu ★ (文の文法 2 - 順序)",
+  text_grammar: "Ngữ pháp trong đoạn văn (文章の文法)",
+  reading_short_passage: "Đọc hiểu - Đoạn văn ngắn (読解 短文)",
+  reading_mid_size_passage: "Đọc hiểu - Đoạn văn dài (読解 中文)",
+  information_retrieval: "Đọc hiểu - Tìm kiếm thông tin (情報検索)",
+  
+  // Nghe hiểu (Listening)
+  task_based_comprehension: "Nghe hiểu - Nhiệm vụ (課題理解)",
+  comprehension_of_key_points: "Nghe hiểu - Điểm cốt lõi (ポイント理解)",
+  verbal_expressions: "Nghe hiểu - Diễn đạt hội thoại (発話表現)",
+  quick_response: "Nghe hiểu - Phản xạ nhanh (即時応答)",
+};
+
 export default function PracticePage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
@@ -338,7 +361,7 @@ export default function PracticePage() {
                 <option value="all">Tất cả dạng bài ({questions.length})</option>
                 {itemTypes.map((type) => {
                   const count = questions.filter(q => q.jlptItemType === type).length;
-                  const label = type === "kanji_reading" ? "Đọc Kanji" : type;
+                  const label = ITEM_TYPE_LABELS[type] || type;
                   return (
                     <option key={type} value={type}>
                       {label} ({count})
@@ -469,9 +492,16 @@ export default function PracticePage() {
                             className="font-medium text-slate-200 truncate leading-relaxed"
                             dangerouslySetInnerHTML={{ __html: q.question.stem }}
                           />
-                          <span className="text-[9px] px-1.5 py-0.5 bg-slate-950 text-slate-400 rounded border border-slate-850 inline-block mt-1 font-mono">
-                            {q.customClassification?.displayLabel || "Phân loại"}
-                          </span>
+                          <div className="flex flex-wrap gap-1.5 mt-1.5">
+                            <span className="text-[9px] px-1.5 py-0.5 bg-indigo-950/40 text-indigo-300 rounded border border-indigo-900/40 font-semibold font-sans">
+                              {ITEM_TYPE_LABELS[q.jlptItemType] || q.jlptItemType}
+                            </span>
+                            {q.customClassification?.displayLabel && (
+                              <span className="text-[9px] px-1.5 py-0.5 bg-slate-950 text-slate-400 rounded border border-slate-850">
+                                {q.customClassification.displayLabel}
+                              </span>
+                            )}
+                          </div>
                         </td>
                         <td className="py-3.5 px-3 text-center font-bold text-rose-400 font-mono text-sm">
                           {stats.wrong}
