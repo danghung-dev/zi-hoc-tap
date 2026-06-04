@@ -54,3 +54,6 @@ desktop/node_modules/
 .claude/
 Prompt.md
 .vercel
+temp
+github-data/
+tsconfig.tsbuildinfo

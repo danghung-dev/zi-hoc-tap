@@ -1,0 +1,562 @@
+[
+  {
+    "id": "n4_listen_verbal_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q01.mp3",
+        "durationSec": 36.72
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture18-2.png",
+        "alt": "Mondai 3 Question 1 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": true,
+        "textAfterAnswer": "失礼ですが、駅はどういったらいいですか。",
+        "explanationVi": "Đáp án 1. Đúng."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "失礼しました。私が行くところは駅です。",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "失礼するかもしれないが、道を教えてください。",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "1",
+      "shortExplanationVi": "Lời hỏi đường lịch sự: 'Xin lỗi, tôi đi đến ga thế nào thì tốt ạ?'",
+      "fullExplanationVi": "Khi hỏi đường người lạ, cần bắt đầu bằng câu xin lỗi lịch sự '失礼ですが' và cấu trúc hỏi đường '～はどう行ったらいいですか'. Phương án 1 đúng.",
+      "trapVi": "Các phương án khác dùng từ ngữ thiếu tự nhiên hoặc quá suồng sã.",
+      "listeningStrategyVi": "Chọn câu thoại thể hiện đúng văn hóa giao tiếp lịch sự của người Nhật khi làm phiền người khác.",
+      "promptTranscriptJa": "人に道を聞きたいです。何と言いますか。 1. 失礼ですが、駅はどう行ったらいいですか。 2. 失礼しました。私が行くところは駅です。 3. 失礼するかもしれないが、道を教えてください。",
+      "promptTranslationVi": "Muốn hỏi đường người khác. Bạn sẽ nói thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q02.mp3",
+        "durationSec": 27.88
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture19-2.png",
+        "alt": "Mondai 3 Question 2 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "行ってらっしゃい。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "textAfterAnswer": "またいらっしゃい。",
+        "explanationVi": "Đáp án 2. Đúng."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "お帰りなさい。",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "2",
+      "shortExplanationVi": "Lời mời khách lần sau lại đến chơi: 'Lần sau lại đến chơi nhé.'",
+      "fullExplanationVi": "Khi tiễn khách ra về, câu nói quen thuộc của chủ nhà là 'またいらっしゃい' (Lần sau lại đến nhé). Phương án 2 đúng.",
+      "trapVi": "Bẫy câu 'お帰りなさい' (Chào mừng về nhà) dành cho người trong gia đình.",
+      "listeningStrategyVi": "Phân biệt các câu chào hỏi đón khách (đến) và tiễn khách (về).",
+      "promptTranscriptJa": "お帰りなさい… お客がこれから帰ります。何と言いますか。 1. 行ってらっしゃい。 2. またいらっしゃい。 3. お帰りなさい。",
+      "promptTranslationVi": "Khách chuẩn bị ra về. Chủ nhà sẽ nói thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q03.mp3",
+        "durationSec": 31.84
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture20-2.png",
+        "alt": "Mondai 3 Question 3 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "先生、ごめんなさい。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "先生、お邪魔します。",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "先生、おかげさまで。",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Lời cảm ơn công lao của thầy cô giáo: 'Thưa thầy, nhờ có thầy mà em được kết quả tốt ạ.'",
+      "fullExplanationVi": "Khi đạt kết quả tốt nhờ sự giúp đỡ của thầy cô, học sinh thường nói 'おかげさまで' (Nhờ ơn thầy/cô). Phương án 3 đúng.",
+      "trapVi": "Bẫy câu xin lỗi 'ごめんなさい' hoặc xin phép làm phiền 'お邪魔します'.",
+      "listeningStrategyVi": "Thể hiện lòng biết ơn (おかげさまで) đối với người đã giúp đỡ mình.",
+      "promptTranscriptJa": "試験でいい成績がとれました。先生に何と言いますか。 1. 先生、ごめんなさい。 2. 先生、お邪魔します。 3. 先生、おかげさまで。",
+      "promptTranslationVi": "Đạt thành tích tốt trong kỳ thi. Bạn sẽ nói gì với giáo viên?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q04.mp3",
+        "durationSec": 38.83
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture21-3.png",
+        "alt": "Mondai 3 Question 4 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "先生、ここ、分かれば、教えてください。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "先生ですから、分からないところがないでしょうね。",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "先生、ちょっと分からないところがあるんですが。",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Cách tiếp cận lịch sự khi muốn hỏi bài: 'Thưa thầy, em có chỗ này chưa hiểu rõ lắm ạ...'",
+      "fullExplanationVi": "Để hỏi bài giáo viên một cách lịch sự, nên nói tránh 'ちょっとわからないところがあるんですが' (Em có chút chưa hiểu...). Phương án 3 đúng.",
+      "trapVi": "Phương án 1 dùng sai ngữ pháp, phương án 2 mang tính áp đặt khi khiêu khích giáo viên.",
+      "listeningStrategyVi": "Dùng cách nói giảm nói tránh '～が...' ở cuối câu để tạo không khí lịch sự.",
+      "promptTranscriptJa": "先生に聞きたいことがあります。何と言いますか。 1. 先生、ここを分かれば教えてください。 2. 先生ですから、分からないところがないでしょうね。 3. 先生、ちょっと分からないところがあるんですが。",
+      "promptTranslationVi": "Có điều muốn hỏi giáo viên. Bạn sẽ nói thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q05.mp3",
+        "durationSec": 36.99
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture22-1.png",
+        "alt": "Mondai 3 Question 5 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": true,
+        "textAfterAnswer": "ちょっとお願いがあるんですが、今いいでしょうか。",
+        "explanationVi": "Đáp án 1. Đúng."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "頼むことがありますから、今は大丈夫ですね。",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "これからお願いします。私の話を聞いてください。",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "1",
+      "shortExplanationVi": "Lời dạm hỏi trước khi nhờ vả: 'Tôi có chút việc muốn nhờ, bây giờ có tiện không ạ?'",
+      "fullExplanationVi": "Trước khi nhờ vả, cần thăm dò thời gian của đối phương bằng câu 'ちょっとお願いがあるんですが、今いいでしょうか'. Phương án 1 đúng.",
+      "trapVi": "Các phương án khác mang tính ra lệnh hoặc khẳng định áp đặt.",
+      "listeningStrategyVi": "Luôn thăm dò xem đối phương có rảnh không (今いいでしょうか) trước khi nhờ vả.",
+      "promptTranscriptJa": "人に頼むことがあります。何と言いますか。 1. ちょっとお願いがあるんですが、今いいでしょうか。 2. 頼むことがありますから、今は大丈夫ですね。 3. これからお願いします。私の話を聞いてください。",
+      "promptTranslationVi": "Có việc muốn nhờ vả người khác. Bạn sẽ nói thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q06.mp3",
+        "durationSec": 22.38
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture23-1.png",
+        "alt": "Mondai 3 Question 6 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "お先に。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "textAfterAnswer": "おだいじに。",
+        "explanationVi": "Đáp án 2. Đúng."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "がんばってくださいい。",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "2",
+      "shortExplanationVi": "Lời chúc sức khỏe người ốm ra về trước: 'Anh/chị giữ gìn sức khỏe nhé.'",
+      "fullExplanationVi": "Khi tiễn đồng nghiệp bị ốm về trước, ta nói 'お大事に' (Chúc anh/chị mau khỏe/giữ gìn sức khỏe). Phương án 2 đúng.",
+      "trapVi": "Bẫy câu 'お先に' (Tôi xin phép về trước) dành cho người về, hoặc '頑張ってください' (Hãy cố gắng lên) không phù hợp với người bệnh.",
+      "listeningStrategyVi": "Ghi nhớ các câu chúc sức khỏe cố định trong môi trường công sở.",
+      "promptTranscriptJa": "会社で風邪を引いた人が先に帰ります。何と言いますか。 1. お先に。 2. お大事に。 3. 頑張ってください。",
+      "promptTranslationVi": "Ở công ty, người bị cảm xin phép về trước. Bạn sẽ nói thế nào với họ?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q07.mp3",
+        "durationSec": 20.85
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture24-1.png",
+        "alt": "Mondai 3 Question 7 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "手伝ってください。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": true,
+        "textAfterAnswer": "手伝いましょうか。",
+        "explanationVi": "Đáp án 2. Đúng."
+      },
+      {
+        "id": "3",
+        "isCorrect": false,
+        "textAfterAnswer": "手伝ってもいいです。",
+        "explanationVi": "Đáp án 3. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "2",
+      "shortExplanationVi": "Lời đề nghị giúp đỡ lịch sự: 'Để tôi giúp một tay nhé?'",
+      "fullExplanationVi": "Đề xuất giúp đỡ người khác bằng cấu trúc '～ましょうか': '手伝いましょうか' (Để tôi giúp nhé?). Phương án 2 đúng.",
+      "trapVi": "Bẫy '手伝ってください' (Hãy giúp tôi) mang nghĩa ngược lại.",
+      "listeningStrategyVi": "Phân biệt hướng hành động của '～ましょうか' (tự mình làm cho đối phương) và '～てください' (nhờ đối phương làm).",
+      "promptTranscriptJa": "困っている人がいます。何と言いますか。1.手伝ってください。2.手伝いましょうか。3.手伝ってもいいです。",
+      "promptTranslationVi": "Có người đang gặp khó khăn. Bạn muốn đề nghị giúp đỡ thì nói thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_verbal_008",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "verbal_expressions",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M3",
+      "categoryName": "Nghe hiểu Mondai 3",
+      "displayLabel": "N4 Nghe: Mondai 3",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de3-m3-q08.mp3",
+        "durationSec": 21.05
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture25-1.png",
+        "alt": "Mondai 3 Question 8 Situation Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい3では,えをみながらしつもんをきいてください。→(やじるし)のひとはなんといいますか。1から３なかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": false,
+      "buttonMode": true
+    },
+    "options": [
+      {
+        "id": "1",
+        "isCorrect": false,
+        "textAfterAnswer": "おそかったです。",
+        "explanationVi": "Đáp án 1. Sai."
+      },
+      {
+        "id": "2",
+        "isCorrect": false,
+        "textAfterAnswer": "おくれます。",
+        "explanationVi": "Đáp án 2. Sai."
+      },
+      {
+        "id": "3",
+        "isCorrect": true,
+        "textAfterAnswer": "おそくなりました。",
+        "explanationVi": "Đáp án 3. Đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "3",
+      "shortExplanationVi": "Lời xin lỗi vì đến muộn: 'Tôi xin lỗi vì đã đến muộn.'",
+      "fullExplanationVi": "Khi đến muộn, câu xin lỗi lịch sự là '遅くなりました' (Tôi đã đến muộn/Xin lỗi vì đã trễ). Phương án 3 đúng.",
+      "trapVi": "Phương án 1 chỉ là tính từ mô tả khách quan, phương án 2 diễn tả hành động tương lai.",
+      "listeningStrategyVi": "Nhận diện lời xin lỗi xã giao tiêu chuẩn khi phạm lỗi thời gian.",
+      "promptTranscriptJa": "待ち合わせの時間におくれました。何と言いますか。1.おそかったです。2.おくれます。3.おそくなりました。",
+      "promptTranslationVi": "Bạn bị muộn giờ hẹn. Bạn sẽ nói thế nào khi đến nơi?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

@@ -139,6 +139,7 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
   const isButtonMode = !!question.question.buttonMode;
   const isTextVisible = question.question.textVisibleBeforeAudio || hasPlayedOnce || hasAnswered;
   const progressPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const hasOptionImages = question.options.some(opt => !!opt.imageSrc);
 
   return (
     <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-300">
@@ -241,6 +242,35 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
             )}
           </div>
 
+          {/* Question text / Stem */}
+          {!isButtonMode && (question.question.stem || question.question.stemVi) && (
+            <div className="flex flex-col gap-1.5 px-4 py-3.5 bg-slate-950/65 border border-slate-850 rounded-2xl">
+              {question.question.stem && (
+                <p className="text-sm sm:text-base font-semibold text-slate-100 leading-relaxed">
+                  {question.question.stem}
+                </p>
+              )}
+              {question.question.stemVi && (
+                <p className="text-xs sm:text-sm text-slate-400 font-medium leading-relaxed">
+                  {question.question.stemVi}
+                </p>
+              )}
+            </div>
+          )}
+
+          {/* Situation Image */}
+          {question.media.image && (
+            <div className="w-full flex justify-center py-1">
+              <div className="max-w-md w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950/60 p-2 shadow-inner">
+                <img
+                  src={getAssetUrl(question.media.image.src)}
+                  alt={question.media.image.alt || "Hình ảnh tình huống"}
+                  className="w-full h-auto object-contain rounded-xl"
+                />
+              </div>
+            </div>
+          )}
+
           {/* Options Display */}
           <div className="flex flex-col gap-3">
             <span className="text-xs font-semibold text-slate-400 px-1">
@@ -294,6 +324,59 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
                         </span>
                       )}
                     </div>
+                  );
+                })}
+              </div>
+            ) : hasOptionImages ? (
+              /* Option images grid layout */
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {question.options.map((opt) => {
+                  const isSelected = selectedOptionId === opt.id;
+                  const isCorrect = opt.isCorrect;
+
+                  let btnStyle = "bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-900";
+
+                  if (hasAnswered) {
+                    if (isCorrect) {
+                      btnStyle = "border-emerald-500 bg-emerald-950/20 text-emerald-300 font-semibold ring-2 ring-emerald-500/10";
+                    } else if (isSelected) {
+                      btnStyle = "border-rose-500 bg-rose-950/20 text-rose-300 font-semibold ring-2 ring-rose-500/10";
+                    } else {
+                      btnStyle = "border-slate-900 bg-slate-950/40 text-slate-500 opacity-40 scale-95";
+                    }
+                  } else if (isSelected) {
+                    btnStyle = "border-indigo-500 bg-indigo-950/20 text-indigo-300 font-semibold scale-[1.02]";
+                  }
+
+                  return (
+                    <button
+                      key={opt.id}
+                      disabled={hasAnswered}
+                      onClick={() => handleSelectOption(opt.id)}
+                      className={cn(
+                        "p-4 border rounded-2xl flex flex-col items-center gap-3 transition-all duration-150 active:scale-[0.98] cursor-pointer text-center",
+                        btnStyle
+                      )}
+                    >
+                      <span className={cn(
+                        "w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border self-start",
+                        isSelected ? "bg-slate-100 text-slate-950 border-slate-200" : "bg-slate-900 text-slate-500 border-slate-800"
+                      )}>
+                        {opt.id}
+                      </span>
+                      {opt.imageSrc && (
+                        <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-950 border border-slate-850 flex items-center justify-center relative">
+                          <img
+                            src={getAssetUrl(opt.imageSrc)}
+                            alt={`Lựa chọn ${opt.id}`}
+                            className="max-w-full max-h-full object-contain"
+                          />
+                        </div>
+                      )}
+                      {(opt.text && opt.text !== opt.id) && (
+                        <span className="text-xs font-semibold">{opt.text}</span>
+                      )}
+                    </button>
                   );
                 })}
               </div>

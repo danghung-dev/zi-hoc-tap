@@ -189,6 +189,8 @@ export interface ListeningPlayerQuestion extends QuestionBase {
     instructionVi?: string;
     textVisibleBeforeAudio?: boolean;
     buttonMode?: boolean;
+    stem?: string;
+    stemVi?: string;
   };
   options: {
     id: string;
@@ -196,6 +198,7 @@ export interface ListeningPlayerQuestion extends QuestionBase {
     textAfterAnswer?: string;
     isCorrect: boolean;
     explanationVi: string;
+    imageSrc?: string;
   }[];
   answer: {
     correctOptionId: string;
