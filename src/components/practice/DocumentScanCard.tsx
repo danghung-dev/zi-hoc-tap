@@ -91,11 +91,11 @@ export function DocumentScanCard({ question, onAnswered }: DocumentScanCardProps
         </div>
       )}
 
-      {/* Main Split Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+      {/* Stacked Layout */}
+      <div className="flex flex-col gap-6">
         
-        {/* Left Side: Document Panel */}
-        <div className="md:col-span-6 bg-slate-950/60 border border-slate-850 rounded-2xl p-5 flex flex-col gap-4 overflow-y-auto max-h-[500px] md:sticky md:top-24">
+        {/* Top Panel: Document Panel (Full Width) */}
+        <div className="w-full bg-slate-950/60 border border-slate-850 rounded-2xl p-5 sm:p-6 flex flex-col gap-4">
           <div className="flex items-center justify-between border-b border-slate-900 pb-3">
             <h4 className="font-bold text-slate-100 flex items-center gap-2 text-sm sm:text-base">
               <FileText className="w-4.5 h-4.5 text-indigo-400" />
@@ -126,8 +126,8 @@ export function DocumentScanCard({ question, onAnswered }: DocumentScanCardProps
           </p>
         </div>
 
-        {/* Right Side: Checklist and Questions Panel */}
-        <div className="md:col-span-6 flex flex-col gap-4">
+        {/* Bottom Panel: Checklist and Questions Panel (Full Width) */}
+        <div className="w-full flex flex-col gap-4">
           
           {/* Conditions check list */}
           {question.question.conditions && question.question.conditions.length > 0 && (
@@ -195,7 +195,7 @@ export function DocumentScanCard({ question, onAnswered }: DocumentScanCardProps
               <div>
                 <button
                   onClick={() => setShowQuestionTranslation(!showQuestionTranslation)}
-                  className="flex items-center gap-1 text-[11px] text-slate-500 hover:text-slate-350 transition cursor-pointer"
+                  className="flex items-center gap-1 text-[11px] text-slate-500 hover:text-slate-355 transition cursor-pointer"
                 >
                   <Languages className="w-3.5 h-3.5 text-indigo-400" />
                   <span>{showQuestionTranslation ? "Ẩn dịch nghĩa câu hỏi" : "Dịch nghĩa câu hỏi"}</span>

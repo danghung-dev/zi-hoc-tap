@@ -53,6 +53,8 @@ const ITEM_TYPE_LABELS: Record<string, string> = {
   quick_response: "Nghe hiểu - Phản xạ nhanh (即時応答)",
 };
 
+type SkillGroup = "all" | "vocabulary" | "grammar" | "reading" | "listening";
+
 const getDisplayStem = (q: Question): string => {
   if (q.uiTemplate === "standard_quiz") {
     return q.question.stem;
@@ -71,8 +73,6 @@ const getDisplayStem = (q: Question): string => {
   }
   return "";
 };
-
-type SkillGroup = "all" | "vocabulary" | "grammar" | "reading" | "listening";
 
 export default function PracticePage() {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -332,7 +332,7 @@ export default function PracticePage() {
       
       {/* Header */}
       <header className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Link 
               href="/"
@@ -359,7 +359,7 @@ export default function PracticePage() {
       </header>
 
       {/* Main Container */}
-      <main className="max-w-6xl mx-auto w-full px-4 py-6 flex flex-col gap-8 flex-1">
+      <main className="max-w-4xl mx-auto w-full px-4 py-6 flex flex-col gap-6 flex-1">
         
         {/* Skill Groups Grid */}
         <section className="flex flex-col gap-3">
@@ -496,190 +496,195 @@ export default function PracticePage() {
 
           </div>
         </section>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-          
-          {/* Main Question Area (Left 2 columns on lg screens) */}
-          <div className="lg:col-span-2 flex flex-col gap-6">
-            
-            {/* Question Deck Area */}
-            {totalQuestions > 0 ? (
-              <div className="flex flex-col gap-4">
-                
-                {/* Deck Progress Bar & Indicators */}
-                <div className="flex flex-col gap-2">
-                  <div className="flex items-center justify-between text-xs font-bold text-slate-400 px-1">
-                    <span>
-                      Tiến trình ôn tập: {activeSkillGroup === "all" ? "Tất cả" : 
-                        activeSkillGroup === "vocabulary" ? "Từ vựng & Chữ Hán" :
-                        activeSkillGroup === "grammar" ? "Ngữ Pháp & Sắp Xếp" :
-                        activeSkillGroup === "reading" ? "Đọc Hiểu Văn Bản" :
-                        "Nghe Hiểu"}
-                    </span>
-                    <span className="font-mono text-slate-200">
-                      {currentIndex + 1} / {totalQuestions} câu
-                    </span>
-                  </div>
-                  <div className="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-850">
-                    <div 
-                      className="bg-indigo-600 h-full rounded-full transition-all duration-300 ease-out" 
-                      style={{ width: `${progressPercent}%` }}
-                    />
-                  </div>
-                </div>
 
-                {/* Question Renderer */}
-                {currentQuestion && (
-                  <QuestionRenderer 
-                    question={currentQuestion} 
-                    onAnswered={handleQuestionAnswered}
-                  />
-                )}
-
-                {/* Navigation Panel */}
-                <div className="flex justify-between items-center mt-2">
-                  <button
-                    onClick={handlePrev}
-                    disabled={currentIndex === 0}
-                    className="px-4 py-2.5 border border-slate-800 hover:bg-slate-900 bg-slate-950 rounded-xl text-xs font-bold transition flex items-center gap-1 text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
-                  >
-                    <ChevronLeft className="w-4 h-4" />
-                    <span>Trước</span>
-                  </button>
-
-                  <button
-                    onClick={handleNext}
-                    disabled={currentIndex === totalQuestions - 1}
-                    className="px-5 py-2.5 bg-slate-800 hover:bg-slate-750 text-xs font-bold text-slate-200 rounded-xl transition flex items-center gap-1 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
-                  >
-                    <span>Sau</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
-                </div>
-
-              </div>
-            ) : (
-              <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12 text-center flex flex-col items-center gap-4">
-                <AlertCircle className="w-12 h-12 text-slate-600" />
-                <div>
-                  <h3 className="font-bold text-slate-300 text-lg mb-1">Không tìm thấy câu hỏi</h3>
-                  <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed text-center">
-                    {onlyMistakes && mistakeIds.length === 0 
-                      ? "Bạn chưa có câu hỏi nào bị làm sai trong danh sách ôn tập lỗi sai!"
-                      : "Không có câu hỏi nào phù hợp với danh mục bộ lọc hoặc nhóm kỹ năng này."}
-                  </p>
-                </div>
-                {(filterCategory !== "all" || filterItemType !== "all" || onlyMistakes || activeSkillGroup !== "all") && (
-                  <button
-                    onClick={() => {
-                      setFilterCategory("all");
-                      setFilterItemType("all");
-                      setOnlyMistakes(false);
-                      setActiveSkillGroup("all");
-                    }}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl transition cursor-pointer"
-                  >
-                    Đặt lại bộ lọc
-                  </button>
-                )}
-              </div>
+        {/* Filters Panel (Moved to top of main area, full width) */}
+        <section className="bg-slate-900/80 border border-slate-850 rounded-3xl p-5 flex flex-col gap-4 shadow-lg animate-in fade-in duration-200">
+          <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+            <h2 className="text-xs sm:text-sm font-bold text-slate-300 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-indigo-400" />
+              Bộ lọc câu hỏi & Thiết lập
+            </h2>
+            {mistakeIds.length > 0 && (
+              <button 
+                onClick={handleClearMistakes}
+                className="text-[10px] text-rose-400 hover:text-rose-350 font-semibold flex items-center gap-1 transition cursor-pointer"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+                Xóa tất cả câu sai ({mistakeIds.length})
+              </button>
             )}
           </div>
 
-          {/* Filters Panel (Right 1 column on lg screens) */}
-          <div className="flex flex-col gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
             
-            {/* Filters Panel */}
-            <section className="bg-slate-900/80 border border-slate-850 rounded-3xl p-5 flex flex-col gap-5 shadow-lg animate-in fade-in duration-200">
-              <div className="flex items-center justify-between pb-2 border-b border-slate-800">
-                <h2 className="text-xs sm:text-sm font-bold text-slate-300 flex items-center gap-1.5">
-                  <Sparkles className="w-4 h-4 text-indigo-400" />
-                  Bộ lọc & Cài đặt
-                </h2>
+            {/* Study Mode option: review wrong vs review all list */}
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Chế độ ôn tập</label>
+              <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 w-full">
+                <button
+                  onClick={() => setOnlyMistakes(false)}
+                  className={cn(
+                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 cursor-pointer text-center",
+                    !onlyMistakes
+                      ? "bg-indigo-600 text-white font-medium"
+                      : "text-slate-400 hover:text-slate-200"
+                  )}
+                >
+                  Ôn hết list ({questions.length})
+                </button>
+                <button
+                  onClick={() => setOnlyMistakes(true)}
+                  className={cn(
+                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer text-center",
+                    onlyMistakes
+                      ? "bg-rose-600 text-white font-medium"
+                      : "text-slate-400 hover:text-slate-200"
+                  )}
+                >
+                  <AlertCircle className="w-3.5 h-3.5" />
+                  Chỉ ôn câu sai ({mistakeIds.length})
+                </button>
               </div>
+            </div>
 
-              {/* Study Mode option: review wrong vs review all list */}
-              <div className="flex flex-col gap-1.5">
-                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Chế độ ôn tập</label>
-                <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 w-full">
-                  <button
-                    onClick={() => setOnlyMistakes(false)}
-                    className={cn(
-                      "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 cursor-pointer text-center",
-                      !onlyMistakes
-                        ? "bg-indigo-600 text-white font-medium"
-                        : "text-slate-400 hover:text-slate-200"
-                    )}
-                  >
-                    Tất cả
-                  </button>
-                  <button
-                    onClick={() => setOnlyMistakes(true)}
-                    className={cn(
-                      "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 flex items-center justify-center gap-1 cursor-pointer text-center",
-                      onlyMistakes
-                        ? "bg-rose-600 text-white font-medium"
-                        : "text-slate-400 hover:text-slate-200"
-                    )}
-                  >
-                    Câu sai ({mistakeIds.length})
-                  </button>
+            {/* Classification Filter */}
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Phân loại</label>
+              <select
+                value={filterCategory}
+                onChange={(e) => setFilterCategory(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
+              >
+                <option value="all">Tất cả danh mục ({questions.length})</option>
+                {categories.map(([id, name]) => {
+                  const count = questions.filter(q => q.customClassification?.categoryId === id).length;
+                  return (
+                    <option key={id} value={id}>
+                      {name} ({count})
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+
+            {/* Item Type Filter */}
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Dạng bài thi</label>
+              <select
+                value={filterItemType}
+                onChange={(e) => setFilterItemType(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
+              >
+                <option value="all">Tất cả dạng bài ({questions.length})</option>
+                {itemTypes.map((type) => {
+                  const count = questions.filter(q => q.jlptItemType === type).length;
+                  const label = ITEM_TYPE_LABELS[type] || type;
+                  return (
+                    <option key={type} value={type}>
+                      {label} ({count})
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+
+            {/* Shuffle & Reset Buttons */}
+            <div className="grid grid-cols-2 gap-2 self-end w-full">
+              <button
+                onClick={handleShuffle}
+                disabled={filteredQuestions.length <= 1}
+                className="h-[38px] text-xs font-semibold bg-slate-950 text-indigo-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center gap-1.5 transition disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer w-full"
+              >
+                <Shuffle className="w-3.5 h-3.5" />
+                Trộn câu
+              </button>
+              <button
+                onClick={() => {
+                  setFilterCategory("all");
+                  setFilterItemType("all");
+                  setOnlyMistakes(false);
+                  setActiveSkillGroup("all");
+                }}
+                className="h-[38px] text-xs font-semibold bg-slate-950 text-slate-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center transition cursor-pointer w-full"
+              >
+                Đặt lại
+              </button>
+            </div>
+
+          </div>
+        </section>
+        
+        {/* Main Question Area (Full Width below the filters) */}
+        <div className="flex flex-col gap-6">
+          
+          {/* Question Deck Area */}
+          {totalQuestions > 0 ? (
+            <div className="flex flex-col gap-4">
+              
+              {/* Deck Progress Bar & Indicators */}
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center justify-between text-xs font-bold text-slate-400 px-1">
+                  <span>
+                    Tiến trình ôn tập: {activeSkillGroup === "all" ? "Tất cả" : 
+                      activeSkillGroup === "vocabulary" ? "Từ vựng & Chữ Hán" :
+                      activeSkillGroup === "grammar" ? "Ngữ Pháp & Sắp Xếp" :
+                      activeSkillGroup === "reading" ? "Đọc Hiểu Văn Bản" :
+                      "Nghe Hiểu"}
+                  </span>
+                  <span className="font-mono text-slate-200">
+                    {currentIndex + 1} / {totalQuestions} câu
+                  </span>
+                </div>
+                <div className="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-850">
+                  <div 
+                    className="bg-indigo-600 h-full rounded-full transition-all duration-300 ease-out" 
+                    style={{ width: `${progressPercent}%` }}
+                  />
                 </div>
               </div>
 
-              {/* Classification Filter */}
-              <div className="flex flex-col gap-1.5">
-                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Phân loại danh mục</label>
-                <select
-                  value={filterCategory}
-                  onChange={(e) => setFilterCategory(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-9"
-                >
-                  <option value="all">Tất cả danh mục ({questions.length})</option>
-                  {categories.map(([id, name]) => {
-                    const count = questions.filter(q => q.customClassification?.categoryId === id).length;
-                    return (
-                      <option key={id} value={id}>
-                        {name} ({count})
-                      </option>
-                    );
-                  })}
-                </select>
-              </div>
+              {/* Question Renderer */}
+              {currentQuestion && (
+                <QuestionRenderer 
+                  question={currentQuestion} 
+                  onAnswered={handleQuestionAnswered}
+                />
+              )}
 
-              {/* Item Type Filter */}
-              <div className="flex flex-col gap-1.5">
-                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Dạng bài thi</label>
-                <select
-                  value={filterItemType}
-                  onChange={(e) => setFilterItemType(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-9"
-                >
-                  <option value="all">Tất cả dạng bài ({questions.length})</option>
-                  {itemTypes.map((type) => {
-                    const count = questions.filter(q => q.jlptItemType === type).length;
-                    const label = ITEM_TYPE_LABELS[type] || type;
-                    return (
-                      <option key={type} value={type}>
-                        {label} ({count})
-                      </option>
-                    );
-                  })}
-                </select>
-              </div>
-
-              <div className="grid grid-cols-2 gap-2 pt-2">
-                {/* Shuffle Button */}
+              {/* Navigation Panel */}
+              <div className="flex justify-between items-center mt-2 pb-4 border-b border-slate-900">
                 <button
-                  onClick={handleShuffle}
-                  disabled={filteredQuestions.length <= 1}
-                  className="h-[38px] text-xs font-semibold bg-slate-950 text-indigo-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center gap-1.5 transition disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer w-full"
+                  onClick={handlePrev}
+                  disabled={currentIndex === 0}
+                  className="px-4 py-2.5 border border-slate-800 hover:bg-slate-900 bg-slate-950 rounded-xl text-xs font-bold transition flex items-center gap-1 text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
                 >
-                  <Shuffle className="w-3.5 h-3.5" />
-                  Trộn câu
+                  <ChevronLeft className="w-4 h-4" />
+                  <span>Trước</span>
                 </button>
 
-                {/* Reset all filters */}
+                <button
+                  onClick={handleNext}
+                  disabled={currentIndex === totalQuestions - 1}
+                  className="px-5 py-2.5 bg-slate-800 hover:bg-slate-750 text-xs font-bold text-slate-200 rounded-xl transition flex items-center gap-1 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+                >
+                  <span>Sau</span>
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+
+            </div>
+          ) : (
+            <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12 text-center flex flex-col items-center gap-4">
+              <AlertCircle className="w-12 h-12 text-slate-600" />
+              <div>
+                <h3 className="font-bold text-slate-300 text-lg mb-1">Không tìm thấy câu hỏi</h3>
+                <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed text-center">
+                  {onlyMistakes && mistakeIds.length === 0 
+                    ? "Bạn chưa có câu hỏi nào bị làm sai trong danh sách ôn tập lỗi sai!"
+                    : "Không có câu hỏi nào phù hợp với danh mục bộ lọc hoặc nhóm kỹ năng này."}
+                </p>
+              </div>
+              {(filterCategory !== "all" || filterItemType !== "all" || onlyMistakes || activeSkillGroup !== "all") && (
                 <button
                   onClick={() => {
                     setFilterCategory("all");
@@ -687,33 +692,24 @@ export default function PracticePage() {
                     setOnlyMistakes(false);
                     setActiveSkillGroup("all");
                   }}
-                  className="h-[38px] text-xs font-semibold bg-slate-950 text-slate-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center transition cursor-pointer w-full"
+                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl transition cursor-pointer"
                 >
-                  Đặt lại
+                  Đặt lại bộ lọc
                 </button>
-              </div>
-            </section>
-            
-          </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* View list of all incorrect questions */}
         {mistakeIds.length > 0 && (
           <section className="bg-slate-900/60 border border-slate-850 rounded-3xl p-5 shadow-lg flex flex-col gap-4 animate-in fade-in duration-300">
-            <div className="flex items-center justify-between pb-2 border-b border-slate-850">
+            <div className="flex items-center justify-between pb-2 border-b border-slate-855">
               <h2 className="text-sm font-bold text-slate-200 flex items-center gap-2">
                 <AlertCircle className="w-4.5 h-4.5 text-rose-500" />
                 Sổ tay lỗi sai ({mistakeIds.length})
               </h2>
-              {mistakeIds.length > 0 && (
-                <button 
-                  onClick={handleClearMistakes}
-                  className="text-xs text-rose-400 hover:text-rose-350 font-semibold flex items-center gap-1 transition cursor-pointer"
-                >
-                  <Trash2 className="w-3.5 h-3.5" />
-                  Xóa tất cả câu sai ({mistakeIds.length})
-                </button>
-              )}
+              <span className="text-[10px] text-slate-400 italic">Nhấp "Luyện tập" để giải lại câu sai</span>
             </div>
 
             <div className="overflow-x-auto">

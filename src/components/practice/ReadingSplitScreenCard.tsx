@@ -103,11 +103,11 @@ export function ReadingSplitScreenCard({ question, onAnswered }: ReadingSplitScr
         </div>
       )}
 
-      {/* Main Split Screen Area */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+      {/* Main Stacked Area */}
+      <div className="flex flex-col gap-6">
         
-        {/* Left Side: Passage panel */}
-        <div className="md:col-span-6 bg-slate-950/60 border border-slate-850 rounded-2xl p-5 flex flex-col gap-4 overflow-y-auto max-h-[500px] md:sticky md:top-24">
+        {/* Top: Passage Panel (Full Width) */}
+        <div className="w-full bg-slate-950/60 border border-slate-850 rounded-2xl p-5 sm:p-6 flex flex-col gap-4">
           <div className="flex items-center justify-between border-b border-slate-900 pb-3">
             <h4 className="font-bold text-slate-100 flex items-center gap-2 text-sm sm:text-base">
               <BookOpen className="w-4.5 h-4.5 text-indigo-400" />
@@ -145,8 +145,8 @@ export function ReadingSplitScreenCard({ question, onAnswered }: ReadingSplitScr
           )}
         </div>
 
-        {/* Right Side: Questions panel */}
-        <div className="md:col-span-6 flex flex-col gap-4">
+        {/* Bottom: Questions Panel (Full Width) */}
+        <div className="w-full flex flex-col gap-4">
           
           {/* Question selection navigator (if multiple questions in this passage) */}
           {numQuestions > 1 && (
