@@ -3,6 +3,7 @@ import { Question } from "@/lib/practice/types";
 import { StandardQuizCard } from "./StandardQuizCard";
 import { SentenceScrambleCard } from "./SentenceScrambleCard";
 import { TextGrammarClozeCard } from "./TextGrammarClozeCard";
+import { ReadingSplitScreenCard } from "./ReadingSplitScreenCard";
 
 interface QuestionRendererProps {
   question: Question;
@@ -17,6 +18,8 @@ export function QuestionRenderer({ question, onAnswered }: QuestionRendererProps
       return <SentenceScrambleCard question={question} onAnswered={onAnswered} />;
     case "text_grammar_cloze":
       return <TextGrammarClozeCard question={question} onAnswered={onAnswered} />;
+    case "reading_split_screen":
+      return <ReadingSplitScreenCard question={question} onAnswered={onAnswered} />;
     default:
       return (
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center text-slate-400">

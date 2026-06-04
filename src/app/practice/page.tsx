@@ -63,6 +63,9 @@ const getDisplayStem = (q: Question): string => {
   if (q.uiTemplate === "text_grammar_cloze") {
     return `Đoạn văn: "${q.passage.title}"`;
   }
+  if (q.uiTemplate === "reading_split_screen") {
+    return `Đọc hiểu: "${q.passage.title}"`;
+  }
   return "";
 };
 

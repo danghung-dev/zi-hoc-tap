@@ -124,7 +124,32 @@ export interface TextGrammarClozeQuestion extends QuestionBase {
   }[];
 }
 
+export interface ReadingSplitScreenQuestion extends QuestionBase {
+  uiTemplate: "reading_split_screen";
+  passage: {
+    title: string;
+    text: string;
+    translationVi?: string;
+  };
+  questions: {
+    id: string;
+    questionText: string;
+    questionTranslationVi?: string;
+    options: QuestionOption[];
+    answer: {
+      correctOptionId: string;
+      evidenceText?: string;
+      strategyVi?: string;
+    };
+  }[];
+}
+
 // Union type for questions to allow future expansion
-export type Question = StandardQuizQuestion | SentenceScrambleQuestion | TextGrammarClozeQuestion;
+export type Question = 
+  | StandardQuizQuestion 
+  | SentenceScrambleQuestion 
+  | TextGrammarClozeQuestion 
+  | ReadingSplitScreenQuestion;
+
 
 
