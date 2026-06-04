@@ -71,6 +71,9 @@ const getDisplayStem = (q: Question): string => {
   if (q.uiTemplate === "document_scan") {
     return `Tra cứu thông tin: "${q.document.title}"`;
   }
+  if (q.uiTemplate === "listening_player") {
+    return `Nghe hiểu: "${q.question.instruction}"`;
+  }
   return "";
 };
 

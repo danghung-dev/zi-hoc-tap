@@ -172,13 +172,58 @@ export interface DocumentScanQuestion extends QuestionBase {
   };
 }
 
+export interface ListeningPlayerQuestion extends QuestionBase {
+  uiTemplate: "listening_player";
+  media: {
+    audio: {
+      src: string;
+      durationSec: number;
+    };
+    image?: {
+      src: string;
+      alt: string;
+    } | null;
+  };
+  question: {
+    instruction: string;
+    instructionVi?: string;
+    textVisibleBeforeAudio?: boolean;
+    buttonMode?: boolean;
+  };
+  options: {
+    id: string;
+    text?: string;
+    textAfterAnswer?: string;
+    isCorrect: boolean;
+    explanationVi: string;
+  }[];
+  answer: {
+    correctOptionId: string;
+    transcriptJa?: string;
+    translationVi?: string;
+    highlightTranscript?: string[];
+    shortExplanationVi: string;
+    fullExplanationVi: string;
+    listeningStrategyVi?: string;
+    trapVi?: string;
+  };
+  playbackPolicy?: {
+    practiceModeReplay?: boolean;
+    examModeReplay?: boolean;
+    showTranscriptBeforeAnswer?: boolean;
+    showTranscriptAfterAnswer?: boolean;
+  };
+}
+
 // Union type for questions to allow future expansion
 export type Question = 
   | StandardQuizQuestion 
   | SentenceScrambleQuestion 
   | TextGrammarClozeQuestion 
   | ReadingSplitScreenQuestion
-  | DocumentScanQuestion;
+  | DocumentScanQuestion
+  | ListeningPlayerQuestion;
+
 
 
 
