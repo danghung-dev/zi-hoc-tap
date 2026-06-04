@@ -2,6 +2,7 @@ import React from "react";
 import { Question } from "@/lib/practice/types";
 import { StandardQuizCard } from "./StandardQuizCard";
 import { SentenceScrambleCard } from "./SentenceScrambleCard";
+import { TextGrammarClozeCard } from "./TextGrammarClozeCard";
 
 interface QuestionRendererProps {
   question: Question;
@@ -14,6 +15,8 @@ export function QuestionRenderer({ question, onAnswered }: QuestionRendererProps
       return <StandardQuizCard question={question} onAnswered={onAnswered} />;
     case "sentence_scramble":
       return <SentenceScrambleCard question={question} onAnswered={onAnswered} />;
+    case "text_grammar_cloze":
+      return <TextGrammarClozeCard question={question} onAnswered={onAnswered} />;
     default:
       return (
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center text-slate-400">

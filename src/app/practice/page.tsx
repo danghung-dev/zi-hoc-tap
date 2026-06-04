@@ -60,6 +60,9 @@ const getDisplayStem = (q: Question): string => {
   if (q.uiTemplate === "sentence_scramble") {
     return q.answer.completedSentence;
   }
+  if (q.uiTemplate === "text_grammar_cloze") {
+    return `Đoạn văn: "${q.passage.title}"`;
+  }
   return "";
 };
 

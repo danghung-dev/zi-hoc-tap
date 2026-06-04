@@ -104,6 +104,27 @@ export interface SentenceScrambleQuestion extends QuestionBase {
   };
 }
 
+export interface TextGrammarClozeQuestion extends QuestionBase {
+  uiTemplate: "text_grammar_cloze";
+  passage: {
+    title: string;
+    text: string;
+    translationVi?: string;
+  };
+  questions: {
+    id: string;
+    blankId: string;
+    options: QuestionOption[];
+    answer: {
+      correctOptionId: string;
+      evidenceBefore?: string;
+      evidenceAfter?: string;
+      logicVi?: string;
+    };
+  }[];
+}
+
 // Union type for questions to allow future expansion
-export type Question = StandardQuizQuestion | SentenceScrambleQuestion;
+export type Question = StandardQuizQuestion | SentenceScrambleQuestion | TextGrammarClozeQuestion;
+
 
