@@ -1,0 +1,209 @@
+[
+  {
+    "id": "n4_grammar_text_grammar_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "text_grammar",
+    "uiTemplate": "text_grammar_cloze",
+    "difficulty": 3,
+    "tags": [
+      "cloze",
+      "banking",
+      "instructions"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_TEXT_GRAMMAR",
+      "categoryName": "Ngữ pháp đoạn văn",
+      "displayLabel": "Đoạn văn: Giao dịch ngân hàng",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "銀行にて",
+      "text": "女の人：「すみません、このカード、　[blank_1]　か。」\n銀行の人：「はい、ここにカードを入れてください。つぎにあんしょう番号を　[blank_2]　。」\n女の人：「あんしょう番号?」\n銀行の人：「ええ、カードを作るとき自分で　[blank_3]　番号です。　[blank_4]　。」\n女の人：「はい、わかります。」\n銀行の人：「さいごに数字と”円”を　[blank_5]　、お金を出すことができます。」\n女の人：「そうですか。ありがとうございました。」",
+      "translationVi": "Người phụ nữ: \"Xin lỗi, chiếc thẻ này có dùng được không ạ?\"\nNhân viên ngân hàng: \"Vâng, hãy đưa thẻ vào đây. Tiếp theo xin hãy nhấn mã số pin.\"\nNgười phụ nữ: \"Mã số pin?\"\nNhân viên ngân hàng: \"Vâng, đó là mã số mà tự bản thân chị đã đặt khi làm thẻ. Chị có nhớ không?\"\nNgười phụ nữ: \"Vâng, tôi hiểu rồi.\"\nNhân viên ngân hàng: \"Cuối cùng, nếu chị nhấn con số và chữ 'Yên' thì sẽ có thể rút được tiền.\"\nNgười phụ nữ: \"Thế ạ. Cảm ơn anh rất nhiều.\""
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "blankId": "blank_1",
+        "options": [
+          {
+            "id": "A",
+            "text": "使えません",
+            "isCorrect": false,
+            "explanationVi": "Sai. Dạng phủ định lịch sự, không thích hợp cho câu hỏi khả năng sử dụng thẻ để bắt đầu giao dịch."
+          },
+          {
+            "id": "B",
+            "text": "使えます",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Động từ khả năng của 使う (sử dụng) chia lịch sự 「使えます」 kết hợp với か tạo thành câu hỏi lịch sự: 'Có dùng được không ạ?'"
+          },
+          {
+            "id": "C",
+            "text": "使えない",
+            "isCorrect": false,
+            "explanationVi": "Sai. Dạng thông thường, thiếu lịch sự khi nói chuyện với người lạ/nhân viên ngân hàng."
+          },
+          {
+            "id": "D",
+            "text": "使えかった",
+            "isCorrect": false,
+            "explanationVi": "Sai ngữ pháp chính tả tiếng Nhật."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceBefore": "すみません、このカード、",
+          "evidenceAfter": "か。",
+          "logicVi": "Người phụ nữ đang muốn dùng thẻ để rút tiền nhưng chưa rõ thẻ có dùng được không, nên hỏi về khả năng một cách lịch sự."
+        }
+      },
+      {
+        "id": "q2",
+        "blankId": "blank_2",
+        "options": [
+          {
+            "id": "A",
+            "text": "おしました",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đã nhấn (quá khứ), trong khi nhân viên đang hướng dẫn làm tiếp theo."
+          },
+          {
+            "id": "B",
+            "text": "おしませんか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Rủ rê người khác cùng nhấn nút."
+          },
+          {
+            "id": "C",
+            "text": "おしてください",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Cấu trúc yêu cầu, hướng dẫn lịch sự 「～てください (Xin hãy...)」."
+          },
+          {
+            "id": "D",
+            "text": "おすかもしれません",
+            "isCorrect": false,
+            "explanationVi": "Sai. Diễn tả sự phỏng đoán yếu (có lẽ sẽ nhấn)."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceBefore": "つぎにあんしょう番号を",
+          "evidenceAfter": "。",
+          "logicVi": "Nhân viên ngân hàng hướng dẫn các bước thao tác trên máy ATM, do đó phải dùng thể yêu cầu lịch sự 「～てください」."
+        }
+      },
+      {
+        "id": "q3",
+        "blankId": "blank_3",
+        "options": [
+          {
+            "id": "A",
+            "text": "決める",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chia ở tương lai/hiện tại, trong khi việc lập thẻ đã làm từ trước."
+          },
+          {
+            "id": "B",
+            "text": "決めた",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Động từ 決める (quyết định/đặt mã) chia ở quá khứ 「決めた」 để bổ nghĩa cho danh từ 「番号 (mã số)」: 'mã số đã đặt'."
+          },
+          {
+            "id": "C",
+            "text": "決めます",
+            "isCorrect": false,
+            "explanationVi": "Sai. Không bổ nghĩa trực tiếp cho danh từ ở dạng lịch sự ます."
+          },
+          {
+            "id": "D",
+            "text": "決めて",
+            "isCorrect": false,
+            "explanationVi": "Sai. Dạng thể て, không dùng bổ nghĩa danh từ."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceBefore": "ええ、カードを作るとき自分で",
+          "evidenceAfter": "番号です。",
+          "logicVi": "Cụm từ bổ nghĩa cho danh từ 「番号」 diễn tả một hành động đã xảy ra trong quá khứ lúc làm thẻ (カードを作るとき)."
+        }
+      },
+      {
+        "id": "q4",
+        "blankId": "blank_4",
+        "options": [
+          {
+            "id": "A",
+            "text": "おぼえますか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Hỏi xem có bắt đầu ghi nhớ không (hành động hướng tới tương lai)."
+          },
+          {
+            "id": "B",
+            "text": "おぼえていますか",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Động từ 覚える (nhớ) chia thể 「～ていますか」 hỏi về trạng thái nhận thức hiện tại: 'Chị có nhớ không?'"
+          },
+          {
+            "id": "C",
+            "text": "おぼえましたか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Hỏi xem vừa mới ghi nhớ xong chưa."
+          },
+          {
+            "id": "D",
+            "text": "おぼえるか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Thiếu kính ngữ và sai cấu trúc giao tiếp."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceBefore": "自分で決めた番号です。",
+          "evidenceAfter": "。",
+          "logicVi": "Nhân viên hỏi người phụ nữ xem hiện tại có đang lưu giữ/nhớ mã số pin đó trong đầu hay không, đây là câu hỏi về trạng thái (おぼえていますか)."
+        }
+      },
+      {
+        "id": "q5",
+        "blankId": "blank_5",
+        "options": [
+          {
+            "id": "A",
+            "text": "おせば",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Thể điều kiện 「Vば」 (Nếu... thì sẽ...)."
+          },
+          {
+            "id": "B",
+            "text": "おさないと",
+            "isCorrect": false,
+            "explanationVi": "Sai. Mang nghĩa 'nếu không nhấn thì...', vế sau lại là có thể rút tiền (khẳng định)."
+          },
+          {
+            "id": "C",
+            "text": "おしたとき",
+            "isCorrect": false,
+            "explanationVi": "Sai. 'Khi đã nhấn' nhưng cấu trúc vế sau chỉ khả năng rút tiền mang tính hệ quả tự nhiên/điều kiện nên dùng thể ば phù hợp hơn."
+          },
+          {
+            "id": "D",
+            "text": "おすとき",
+            "isCorrect": false,
+            "explanationVi": "Sai. 'Khi nhấn'."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceBefore": "さいごに数字と”円”を",
+          "evidenceAfter": "、お金を出すことができます。",
+          "logicVi": "Thể điều kiện 「おせば」 (nếu nhấn) dẫn tới kết quả tất yếu khách quan ở vế sau là có thể rút tiền."
+        }
+      }
+    ]
+  }
+]

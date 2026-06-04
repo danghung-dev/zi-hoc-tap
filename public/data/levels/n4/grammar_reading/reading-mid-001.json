@@ -1,0 +1,166 @@
+[
+  {
+    "id": "n4_grammar_reading_mid_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_mid_size_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "mid",
+      "restaurant"
+    ],
+    "passage": {
+      "title": "レストランでの会話",
+      "text": "田中：「ええ。あのレストランに入りませんか。」\n山田：「ああ、日本りょうりのレストランですね。　（ 1 ）　」\n（ふたりは、レストランに入りました。そして、すわりました。）\n田中：「クリスさん、日本りょうりのレストランははじめてですか。」\n山田：「いいえ、はじめてではありません。名前はわすれましたが、　（ 2 ）　。」\n田中：「そうですか。きょうは何を食べましょうか。」\n山田：「あ、りょうりのしゃしんがありますよ。」\n田中：「ほんとうだ。りょうりがよくわかりますね。たくさんありますね。クリスさん、　（ 3 ）　。」\n山田：「ええと、これがいいです。Ａランチ。」\n田中：「ランチはＡランチとＢランチがありますね。じゃあ、わたしはＢランチにします。」\n山田：「わたしは、あとであまいものが食べたいです。」\n田中：「そうですね。わたしも食べたいです。ケーキも二つたのみましょう。」",
+      "translationVi": "Tanaka: \"Ừ nhỉ. Chúng ta vào nhà hàng kia không?\"\nYamada (Chris): \"À, nhà hàng món ăn Nhật Bản nhỉ. Được đấy, chúng ta vào đi.\"\n(Hai người bước vào nhà hàng và ngồi xuống ghế.)\nTanaka: \"Chris này, đây là lần đầu tiên cậu vào nhà hàng món Nhật à?\"\nYamada: \"Không, không phải lần đầu đâu. Tớ quên mất tên rồi nhưng tuần trước tớ đã đi ăn một lần.\"\nTanaka: \"Thế à. Hôm nay chúng ta ăn gì đây nhỉ?\"\nYamada: \"Ơ, có hình ảnh minh họa món ăn này.\"\nTanaka: \"Ừ đúng rồi. Nhìn ảnh dễ hình dung món ăn hẳn ra. Nhiều món quá nhỉ. Chris này, cậu gọi món gì?\"\nYamada: \"Xem nào, món này được đấy. Suất ăn trưa A (A Lunch).\"\nTanaka: \"Suất trưa thì có suất A và suất B nhỉ. Vậy tớ sẽ chọn suất B.\"\nYamada: \"Lát nữa tớ muốn ăn đồ ngọt nữa.\"\nTanaka: \"Ừ nhỉ. Tớ cũng muốn ăn. Vậy chúng ta gọi thêm hai chiếc bánh ngọt nhé.\""
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "（1）には何を入れますか。",
+        "questionTranslationVi": "Điền cụm từ nào vào vị trí trống (1)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "いいですね。入るね。",
+            "isCorrect": false,
+            "explanationVi": "Sai ngữ pháp, cách nói '入るね' không phù hợp ngữ cảnh rủ rê."
+          },
+          {
+            "id": "B",
+            "text": "いいでしょう。入るでしょう。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Mang tính phỏng đoán, không thể hiện sự đồng ý lời mời."
+          },
+          {
+            "id": "C",
+            "text": "いいですよ。入りましょう。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Câu trả lời thể hiện sự đồng thuận cao và cùng rủ rê lịch sự: 'Được đấy chứ. Chúng ta vào thôi nào.'"
+          },
+          {
+            "id": "D",
+            "text": "いいです。入ります。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Nghe quá trang trọng và xa cách, không tự nhiên trong hội thoại bạn bè."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "田中：「ええ。あのレストランに入りませんか。」",
+          "strategyVi": "Tìm câu phản hồi phù hợp nhất cho lời rủ rê 「～入りませんか (vào không?)」. Cấu trúc rủ rê phản hồi tương ứng là 「～ましょう (hãy cùng làm...)」."
+        }
+      },
+      {
+        "id": "q2",
+        "questionText": "（2）には何を入れますか。",
+        "questionTranslationVi": "Điền cụm từ nào vào vị trí trống (2)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "あした食べたいです",
+            "isCorrect": false,
+            "explanationVi": "Sai. Không khớp logic với câu 'Không phải lần đầu tiên' (quá khứ)."
+          },
+          {
+            "id": "B",
+            "text": "きのう食べたかったです",
+            "isCorrect": false,
+            "explanationVi": "Sai. 'Hôm qua đã muốn ăn' không giải thích trực tiếp cho kinh nghiệm đã đi ăn trước đó."
+          },
+          {
+            "id": "C",
+            "text": "来週行きます",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chỉ hành động tương lai."
+          },
+          {
+            "id": "D",
+            "text": "先週行きました",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Diễn tả hành động thực tế đã diễn ra trong quá khứ để minh chứng cho việc 'đã có kinh nghiệm đi ăn món Nhật' (Tuần trước tớ đã đi rồi)."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceText": "クリスさん、日本りょうりのレストランははじめてですか。 ―― いいえ、はじめてではありません。",
+          "strategyVi": "Để giải thích cho việc đây không phải lần đầu, người nói đưa ra một trải nghiệm trong quá khứ (先週行きました)."
+        }
+      },
+      {
+        "id": "q3",
+        "questionText": "（3）には何を入れますか。",
+        "questionTranslationVi": "Điền cụm từ nào vào vị trí trống (3)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "何をたのみますか",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Câu hỏi ý kiến đối phương xem muốn gọi món gì: 'Chris này, cậu gọi món gì?'"
+          },
+          {
+            "id": "B",
+            "text": "どうしていいですか",
+            "isCorrect": false,
+            "explanationVi": "Sai ý nghĩa."
+          },
+          {
+            "id": "C",
+            "text": "だれと食べますか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Họ đang đi ăn cùng nhau nên không thể hỏi ăn với ai."
+          },
+          {
+            "id": "D",
+            "text": "どれをください",
+            "isCorrect": false,
+            "explanationVi": "Sai ngữ pháp cấu trúc câu hỏi."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceText": "山田：「ええと、これがいいです。Ａランチ。」",
+          "strategyVi": "Phần phản hồi của Yamada chỉ ra món ăn cụ thể mà cậu ấy chọn (A Lunch), nên câu hỏi của Tanaka phải là hỏi về lựa chọn món ăn."
+        }
+      },
+      {
+        "id": "q4",
+        "questionText": "正しいものはどれですか。",
+        "questionTranslationVi": "Câu nào sau đây là đúng với nội dung đoạn hội thoại?",
+        "options": [
+          {
+            "id": "A",
+            "text": "山田さんも田中さんも　ランチだけ食べます。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cả hai người đều gọi thêm cả bánh ngọt ăn kèm sau bữa trưa."
+          },
+          {
+            "id": "B",
+            "text": "田中さんはＢランチと　ケーキを二つ食べます。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Họ gọi 2 chiếc bánh ngọt nghĩa là chia đôi mỗi người 1 chiếc, không phải Tanaka ăn cả 2."
+          },
+          {
+            "id": "C",
+            "text": "山田さんはＡランチと　ケーキを二つ食べます。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Lý do tương tự câu B."
+          },
+          {
+            "id": "D",
+            "text": "山田さんも田中さんも　ランチとケーキを食べます。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Yamada ăn suất A + 1 bánh ngọt, Tanaka ăn suất B + 1 bánh ngọt. Cả hai đều ăn trưa và ăn bánh."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceText": "田中：「ランチはＡランチとＢランチがありますね。じゃあ、わたしはＢランチにします。」 山田：「わたしは、あとであまいものが食べたいです。」 ―― ケーキも二つたのみましょう。",
+          "strategyVi": "Xem xét cẩn thận lựa chọn của từng người: Yamada chọn A Lunch + ngọt (bánh). Tanaka chọn B Lunch + ngọt (bánh). Họ đặt 2 cái bánh cho 2 người."
+        }
+      }
+    ]
+  }
+]

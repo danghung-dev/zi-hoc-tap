@@ -7,5 +7,95 @@
     "file": "vocabulary/kanji-reading-001.json",
     "title": "Luyện đọc chữ Kanji - Pack 1",
     "count": 9
+  },
+  {
+    "id": "n4_vocab_orthography_001",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "file": "vocabulary/orthography-001.json",
+    "title": "Luyện chính tả Kanji - Pack 1",
+    "count": 6
+  },
+  {
+    "id": "n4_vocab_context_001",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "file": "vocabulary/context-001.json",
+    "title": "Luyện từ vựng theo mạch văn - Pack 1",
+    "count": 9
+  },
+  {
+    "id": "n4_vocab_paraphrase_001",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "file": "vocabulary/paraphrase-001.json",
+    "title": "Luyện từ đồng nghĩa - Pack 1",
+    "count": 5
+  },
+  {
+    "id": "n4_vocab_usage_001",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "file": "vocabulary/usage-001.json",
+    "title": "Luyện cách dùng từ - Pack 1",
+    "count": 5
+  },
+  {
+    "id": "n4_grammar_choice_001",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "file": "grammar_reading/grammar-choice-001.json",
+    "title": "Luyện ngữ pháp câu - Pack 1",
+    "count": 15
+  },
+  {
+    "id": "n4_grammar_scramble_001",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "file": "grammar_reading/sentence-scramble-001.json",
+    "title": "Luyện sắp xếp câu - Pack 1",
+    "count": 5
+  },
+  {
+    "id": "n4_grammar_text_grammar_001",
+    "section": "grammar_reading",
+    "jlptItemType": "text_grammar",
+    "uiTemplate": "text_grammar_cloze",
+    "file": "grammar_reading/text-grammar-001.json",
+    "title": "Luyện ngữ pháp đoạn văn - Pack 1",
+    "count": 1
+  },
+  {
+    "id": "n4_grammar_reading_short_001",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "file": "grammar_reading/reading-short-001.json",
+    "title": "Đọc hiểu đoạn ngắn - Pack 1",
+    "count": 4
+  },
+  {
+    "id": "n4_grammar_reading_mid_001",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_mid_size_passage",
+    "uiTemplate": "reading_split_screen",
+    "file": "grammar_reading/reading-mid-001.json",
+    "title": "Đọc hiểu đoạn vừa - Pack 1",
+    "count": 1
+  },
+  {
+    "id": "n4_grammar_info_retrieval_001",
+    "section": "grammar_reading",
+    "jlptItemType": "information_retrieval",
+    "uiTemplate": "document_scan",
+    "file": "grammar_reading/info-retrieval-001.json",
+    "title": "Tìm kiếm thông tin - Pack 1",
+    "count": 2
   }
 ]

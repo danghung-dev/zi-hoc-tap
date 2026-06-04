@@ -1,0 +1,287 @@
+[
+  {
+    "id": "n4_vocab_usage_001",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE_NOUN",
+      "categoryName": "Cách dùng danh từ",
+      "displayLabel": "Cách dùng: 以外",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "1. <b>以外</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "りょうりとのみものはお金がいがいです。いっしょではありません。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cần dùng 「別（べつ）」 (Tiền đồ ăn và thức uống riêng biệt/tính riêng) thay vì 以外."
+      },
+      {
+        "id": "B",
+        "text": "こちらのみせにはないので、いがいのみせに行ってみましょう。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cần dùng 「他（ほか）の店」 (Cửa hàng khác) thay vì 以外."
+      },
+      {
+        "id": "C",
+        "text": "かんけいのある人いがいはこのへやに入らないでください。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「以外」 (Ngoại trừ / ngoài ra) đứng sau danh từ chỉ đối tượng bị loại trừ: 'Ngoại trừ những người liên quan, xin vui lòng không vào phòng này.'"
+      },
+      {
+        "id": "D",
+        "text": "へやはふたつあります。だんせいとじょせいのへやはいがいです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cần dùng 「別々（べつべつ）」 (phòng nam và nữ riêng biệt) thay vì 以外."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "以外 = ngoại trừ, ngoài ra",
+      "fullExplanationVi": "Từ chỉ sự loại trừ 「以外 (ngoại trừ)」 thường đi liền sau danh từ (N 以外) để nói về phạm vi ngoại trừ danh từ đó.",
+      "trapVi": "Nhầm lẫn cách dùng của 以外 với các từ chỉ sự riêng biệt như 「別々」「別」 hoặc từ chỉ đối tượng khác như 「他の」.",
+      "translationVi": "Ngoại trừ những người liên quan, xin vui lòng không vào phòng này."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_002",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "vocabulary",
+      "adjective-na"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE_ADJECTIVE",
+      "categoryName": "Cách dùng tính từ",
+      "displayLabel": "Cách dùng: 盛ん",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "2. <b>さかん</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "日本は外国とのぽうえきがさかんな国です。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Tính từ đuôi -na 「盛ん (さかん - thịnh hành, phát triển mạnh)」 dùng rất phù hợp để mô tả hoạt động giao thương/thương mại (貿易 - ぼうえき) diễn ra năng nổ, phát triển mạnh mẽ."
+      },
+      {
+        "id": "B",
+        "text": "きのうのパーティーは人がおおくてさかんでした。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bữa tiệc đông vui nên dùng 「にぎやか」 thay vì 盛ん."
+      },
+      {
+        "id": "C",
+        "text": "山下さんはしんせつがさかんで、とてもいい人です。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Không dùng 盛ん để bổ nghĩa cho lòng tốt (親切). Nên nói 「親切な人」."
+      },
+      {
+        "id": "D",
+        "text": "えき前はデパートやレストランがあってさかんです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Khu vực trước nhà ga sầm uất nên dùng 「にぎやか」 hoặc 「栄えている (さかえている)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "盛ん = thịnh hành, phát triển mạnh mẽ",
+      "fullExplanationVi": "Tính từ 「盛ん (さかん)」 dùng để miêu tả một phong trào, hoạt động giao thương hoặc thể thao diễn ra vô cùng sôi nổi và phổ biến (ví dụ: 貿易が盛ん, スポーツが盛ん).",
+      "trapVi": "Dễ nhầm cách dùng với tính từ 「にぎやか (nhộn nhịp/đông đúc)」 để mô tả trạng thái của bữa tiệc hoặc khu phố trước nhà ga.",
+      "translationVi": "Nhật Bản là quốc gia có hoạt động giao thương với nước ngoài phát triển mạnh mẽ."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_003",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE_VERB",
+      "categoryName": "Cách dùng động từ",
+      "displayLabel": "Cách dùng: 沸く",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "3. <b>わく</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ふろがわきました。先に入ってください。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cụm từ 「お風呂が沸く (おふろがわく)」 dùng để diễn tả nước trong bồn tắm đã được đun nóng sẵn sàng để tắm."
+      },
+      {
+        "id": "B",
+        "text": "水があつくわいています。火をとめましょう。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Dù nước sôi dùng 沸く (お湯が沸く), nhưng nói 「水が沸いている」 không tự nhiên, vì khi nước sôi sẽ gọi là お湯."
+      },
+      {
+        "id": "C",
+        "text": "水があつくわいています。火をとめましょう。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trùng lặp câu trên."
+      },
+      {
+        "id": "D",
+        "text": "みそしるとごはんがもうすぐわきます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cơm (ごはん) chín/thổi xong dùng 「炊ける (たける)」 chứ không dùng 沸く."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "お風呂が沸く = nước bồn tắm đã nóng sẵn",
+      "fullExplanationVi": "Động từ tự động từ 「沸く (わく)」 thường dùng cho nước (đã đun sôi thành nước nóng) hoặc bồn tắm (お風呂が沸く - nước bồn tắm đã đủ độ ấm để sử dụng).",
+      "trapVi": "Nhầm lẫn với các từ chỉ nấu ăn như 「炊く (たう - thổi cơm)」 hoặc nhầm cách gọi nước lạnh 「水」 với nước nóng 「お湯」 khi đun sôi.",
+      "translationVi": "Nước bồn tắm đã nóng sẵn rồi. Xin mời bạn tắm trước đi."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_004",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE_VERB",
+      "categoryName": "Cách dùng động từ",
+      "displayLabel": "Cách dùng: 止む",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "4. <b>やむ</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "つよいかぜがふいて、マッチの火がやみました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Lửa diêm bị tắt dùng động từ 「消えました (きえました)」 chứ không dùng 止む."
+      },
+      {
+        "id": "B",
+        "text": "おさけもたばこもやむほうがからだにいいですよ。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Đây là tha động từ chỉ sự từ bỏ thói quen, cần dùng 「やめる (辞める/止める)」 thay vì tự động từ やむ."
+      },
+      {
+        "id": "C",
+        "text": "ひこうきがたいふうのせいでやむことになりました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chuyến bay bị hủy bỏ hoặc đình chỉ nên dùng 「欠航する (けっこうする)」 hoặc 「中止する」."
+      },
+      {
+        "id": "D",
+        "text": "けさからふっていた雨がゆうがたやみました。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「止む (やむ)」 là tự động từ đặc dụng để mô tả thời tiết như mưa (雨), tuyết (雪), gió (風) tạnh/ngừng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "雨が止む = mưa tạnh",
+      "fullExplanationVi": "Tự động từ 「止む (やむ)」 chuyên dùng cho việc các hiện tượng tự nhiên như mưa, tuyết, gió ngừng lại, tạnh hẳn.",
+      "trapVi": "Bẫy nhầm lẫn giữa tự động từ 止む (ngừng/tạnh) với tha động từ 止める (ngưng/bỏ thói quen) hoặc động từ tắt lửa 消える.",
+      "translationVi": "Cơn mưa rơi suốt từ sáng nay đến chiều tối đã tạnh rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_005",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE_VERB",
+      "categoryName": "Cách dùng động từ",
+      "displayLabel": "Cách dùng: 寄る",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "5. <b>よる</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "すこし時間があるのでかいぎによりましょう。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Tham dự cuộc họp dùng 「会議に出ましょう」 hoặc 「参加しましょう」 chứ không dùng 寄る."
+      },
+      {
+        "id": "B",
+        "text": "はじまる時間がよってきました。もうすぐです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thời gian cận kề dùng động từ 「近づく (ちかづく)」."
+      },
+      {
+        "id": "C",
+        "text": "びょうきがよらないように気をつけてください。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bệnh tình tiến triển tốt hơn dùng 「治る (なおる)」 hoặc 「よくなる」."
+      },
+      {
+        "id": "D",
+        "text": "ちょっとほんやによってからうちにかえります。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「寄る (よる - ghé qua, tạt qua)」 chỉ hành vi tạt vào một địa điểm phụ trên đường đi về."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "本屋に寄る = ghé qua tiệm sách",
+      "fullExplanationVi": "Động từ 「寄る (よる)」 mang ý nghĩa ghé thăm chốc lát, tạt qua một nơi nào đó vốn không phải điểm đến chính ban đầu trên lộ trình di chuyển chính.",
+      "trapVi": "Tránh nhầm lẫn với các động từ đồng âm hoặc có nét nghĩa gần giống như 近づく (tiếp cận thời gian), 治る (hồi phục bệnh).",
+      "translationVi": "Tôi sẽ ghé qua hiệu sách một chút rồi mới về nhà."
+    }
+  }
+]

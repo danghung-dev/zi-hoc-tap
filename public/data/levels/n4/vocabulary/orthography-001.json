@@ -1,0 +1,344 @@
+[
+  {
+    "id": "n4_vocab_ortho_001",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_VERB",
+      "categoryName": "Chính tả động từ",
+      "displayLabel": "Chính tả: 飲む",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "1. よくおさけを<u>のみます</u>か。",
+      "underlinedText": "のみます"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "飲みます",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「飲む」 (Ẩm - uống) nhóm 1, thể lịch sự là 「飲みます (のみます)」."
+      },
+      {
+        "id": "B",
+        "text": "食みます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「食」 (Thực) dùng trong động từ 「食む (はむ - ăn cỏ/ngoạm)」 không phù hợp để nói về uống rượu."
+      },
+      {
+        "id": "C",
+        "text": "飯みます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「飯」 (Phạn) dùng trong 「ご飯 (ごはん - cơm)」, không có động từ 「飯む」."
+      },
+      {
+        "id": "D",
+        "text": "飴みます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「飴」 (Di) nghĩa là kẹo, không có động từ 「飴む」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "飲みます = のみます",
+      "fullExplanationVi": "Động từ chỉ hành động uống nước, uống rượu là 「飲む (のむ)」, chữ Kanji là 「飲 (Ẩm)」. Chia sang thể lịch sự ます là 「飲みます」.",
+      "trapVi": "Tránh nhầm với các chữ Kanji khác có cùng bộ Thực (食) bên trái như 食, 飯, 飴.",
+      "translationVi": "Bạn có thường uống rượu không?"
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_002",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_VERB",
+      "categoryName": "Chính tả động từ",
+      "displayLabel": "Chính tả: 会う",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "2. 父と母に<u>あいたい</u>です。",
+      "underlinedText": "あいたい"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "合いたい",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「合」 (Hợp) dùng trong động từ 「合う」 (gặp gỡ, hợp/phù hợp) nhưng không dùng khi diễn tả gặp gỡ người thân thiết."
+      },
+      {
+        "id": "B",
+        "text": "会いたい",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「会う」 (Hội - gặp gỡ ai đó) thể mong muốn là 「会いたい (あいたい)」."
+      },
+      {
+        "id": "C",
+        "text": "全いたい",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「全」 (Toàn) nghĩa là toàn bộ, không liên quan."
+      },
+      {
+        "id": "D",
+        "text": "念いたい",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「念」 (Niệm) dùng trong 「残念 (ざんねん)」 hoặc 「記念 (きねん)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "会いたい = あいたい",
+      "fullExplanationVi": "Động từ chỉ việc gặp gỡ ai đó (đối tượng đi với trợ từ に) là 「会う (あう)」, chữ Kanji là 「会 (Hội)」. Khi chuyển sang thể mong muốn, bỏ ます thêm たい thành 「会いたい」.",
+      "trapVi": "Bẫy chữ 「合 (Hợp)」 vì cũng có cách đọc âm ôn/kun liên quan đến 「あう」 nhưng mang nghĩa hòa hợp, vừa vặn.",
+      "translationVi": "Tôi muốn gặp bố và mẹ."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_003",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_NOUN",
+      "categoryName": "Chính tả danh từ",
+      "displayLabel": "Chính tả: 海",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "3. <u>うみ</u>はとてもひろいです。",
+      "underlinedText": "うみ"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "河",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「河」 (Hà) có nghĩa là sông."
+      },
+      {
+        "id": "B",
+        "text": "海",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Danh từ 「うみ」 (Biển) viết bằng chữ Kanji là 「海 (Hải)」."
+      },
+      {
+        "id": "C",
+        "text": "港",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「港」 (Cảng) có nghĩa là bến cảng, đọc là みなと."
+      },
+      {
+        "id": "D",
+        "text": "江",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「江」 (Giang) nghĩa là sông lớn."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "海 = うみ",
+      "fullExplanationVi": "Biển trong tiếng Nhật đọc là 「うみ」, chữ Kanji tương ứng là 「海 (Hải)」.",
+      "trapVi": "Các Kanji đều có bộ Thủy (氵) chỉ nước ở bên trái, dễ gây nhầm lẫn nếu không nhớ rõ cấu trúc chữ.",
+      "translationVi": "Biển rất rộng lớn."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_004",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_VERB",
+      "categoryName": "Chính tả động từ",
+      "displayLabel": "Chính tả: 開ける",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "4. まどを<u>あけても</u>いいですか。",
+      "underlinedText": "あけても"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "開けても",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「開ける」 (Khai - mở) chia sang thể ても thành 「開けても」."
+      },
+      {
+        "id": "B",
+        "text": "閉けても",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「閉」 (Bế) dùng trong 「閉める (しめる)」 nghĩa là đóng, không đọc là 「あける」."
+      },
+      {
+        "id": "C",
+        "text": "間けても",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「間」 (Gian) nghĩa là ở giữa, không đi với đuôi ける làm động từ mở."
+      },
+      {
+        "id": "D",
+        "text": "問けても",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「問」 (Vấn) nghĩa là hỏi."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "開けても = あけても",
+      "fullExplanationVi": "Động từ chỉ hành động mở (cửa, cửa sổ) là 「開ける (あける)」, dùng chữ Kanji 「開 (Khai)」. Thể cho phép: 「～てもいいですか (Làm ... có được không?)」.",
+      "trapVi": "Tránh nhầm với từ trái nghĩa 「閉める (しめる)」 hoặc các chữ Kanji có bộ Môn (門) tương tự.",
+      "translationVi": "Tôi mở cửa sổ có được không?"
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_005",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "orthography",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_NOUN",
+      "categoryName": "Chính tả danh từ",
+      "displayLabel": "Chính tả: 間",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "5. まっている<u>あいだ</u>、ざっしを読んでいました。",
+      "underlinedText": "あいだ"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "聞",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「聞」 (Văn) dùng trong 「聞く (きく)」 nghĩa là nghe."
+      },
+      {
+        "id": "B",
+        "text": "問",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「問」 (Vấn) dùng trong 「問題 (もんだい)」 nghĩa là câu hỏi/vấn đề."
+      },
+      {
+        "id": "C",
+        "text": "間",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「間」 (Gian - trong lúc/khoảng) đọc là 「あいだ」."
+      },
+      {
+        "id": "D",
+        "text": "開",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「開」 (Khai) dùng trong 「開ける (あける)」 nghĩa là mở."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "間 = あいだ",
+      "fullExplanationVi": "Khoảng thời gian hoặc khoảng cách 「あいだ」 được viết bằng chữ Kanji là 「間 (Gian)」. Trong chữ 間 có chữ 日 (nhật) nằm ở giữa bộ 門 (môn).",
+      "trapVi": "Bẫy nhận diện các chữ Kanji cùng có bộ 門 bao bọc bên ngoài: 聞 (có 耳 - nhĩ), 問 (có 口 - khẩu), 開 (có bộ phận mở khóa).",
+      "translationVi": "Trong lúc chờ đợi, tôi đã đọc tạp chí."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_006",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY_VERB",
+      "categoryName": "Chính tả động từ",
+      "displayLabel": "Chính tả: 起きる",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "6. いつも何時ごろ<u>おきます</u>か。",
+      "underlinedText": "おきます"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "立きます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「立」 (Lập) dùng trong 「立ちます (たちます - đứng)」."
+      },
+      {
+        "id": "B",
+        "text": "置きます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Động từ 「置く (おく)」 nghĩa là đặt, để. Mặc dù chia thể ます cũng là 「置きます (おきます)」 nhưng không có nghĩa là thức dậy."
+      },
+      {
+        "id": "C",
+        "text": "起きます",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「起きる」 (Khởi - thức dậy) nhóm 2, thể ます viết là 「起きます (おきます)」."
+      },
+      {
+        "id": "D",
+        "text": "足きます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「足」 (Túc) nghĩa là chân, không dùng làm động từ này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "起きます = おきます",
+      "fullExplanationVi": "Động từ chỉ hành vi thức dậy là 「起きる (おきる)」, chữ Kanji tương ứng là 「起 (Khởi)」. Tránh nhầm lẫn với đồng âm 「置きます (đặt để)」.",
+      "trapVi": "Bẫy đồng âm hoàn toàn 「おきます」 với động từ 「置く (おきます)」.",
+      "translationVi": "Lúc nào bạn cũng thức dậy khoảng mấy giờ?"
+    }
+  }
+]

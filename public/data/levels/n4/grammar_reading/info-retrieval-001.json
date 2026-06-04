@@ -1,0 +1,165 @@
+[
+  {
+    "id": "n4_grammar_info_retrieval_001",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "information_retrieval",
+    "uiTemplate": "document_scan",
+    "difficulty": 3,
+    "tags": [
+      "info-retrieval",
+      "poster",
+      "conditions"
+    ],
+    "document": {
+      "type": "notice",
+      "title": "けんこうパン 春のキャンペーン",
+      "text": "「けんこうパン」のシールをはがきにはって送ると、ちゅうせんで100人に楽しい旅行券が当たります。\nAコース：長野おいしいもの食べ放題コース\nBコース：ハイキングコース\n\nキャンペーン期間：20XX年5月1日〜6月30日\nおうぼしめきり：20XX年7月5日\nおうぼ方法：「けんこうパン」のふくろについている丸いシール30点分をはがきにはって、郵便番号・住所・名前・電話番号・ごきぼうのコースを書いて送ってください。\n※四角のシールは使えません。\n※切手をはってください。\n\nおうぼ先：161-1234 新宿区市谷3-5-10-2 新宿郵便局 けんこうパン 春のキャンペーン係",
+      "image": {
+        "src": "images/info/dethi3_mondai11.jpg",
+        "alt": "けんこうパン 春のキャンペーン"
+      }
+    },
+    "question": {
+      "text": "みさきさんのはがきは、どうしてまちがっていますか。",
+      "translationVi": "Tại sao bưu thiếp của Misaki lại bị sai quy định?",
+      "conditions": [
+        {
+          "id": "c1",
+          "labelVi": "Số điểm tối thiểu: 30 điểm",
+          "keywordJa": "30点分"
+        },
+        {
+          "id": "c2",
+          "labelVi": "Loại nhãn dán: Nhãn tròn (không dùng nhãn vuông)",
+          "keywordJa": "丸いシール"
+        },
+        {
+          "id": "c3",
+          "labelVi": "Thông tin cá nhân đầy đủ: Địa chỉ, tên, điện thoại, mã bưu điện",
+          "keywordJa": "郵便番号・住所・名前・電話番号"
+        },
+        {
+          "id": "c4",
+          "labelVi": "Chọn khóa học: A hoặc B",
+          "keywordJa": "ごきぼうのコース"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "名前を書きわすれた。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trên thiệp của Misaki có ghi tên rõ ràng là '田中 みさき'."
+      },
+      {
+        "id": "B",
+        "text": "きぼうのコースを書きわすれた。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cô ấy có viết 'Bコース' ở góc dưới."
+      },
+      {
+        "id": "C",
+        "text": "シールが正しくない。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Misaki dán 3 nhãn hình vuông (四角のシール), trong khi quy định bắt buộc phải dùng nhãn dán hình tròn (丸いシール) và ghi rõ '※四角のシールは使えません'."
+      },
+      {
+        "id": "D",
+        "text": "自分の住所がない。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Địa chỉ của cô ấy có ghi là '〇〇区✕✕町456'."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "evidenceTexts": [
+        "丸いシール30点分をはがきにはって",
+        "※四角のシールは使えません。"
+      ],
+      "logicVi": "Bưu thiếp của Misaki sử dụng nhãn dán hình vuông (được vẽ rõ ràng dạng ô vuông nét đậm [10点] * 3), vi phạm quy chế chỉ dùng nhãn tròn."
+    }
+  },
+  {
+    "id": "n4_grammar_info_retrieval_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "information_retrieval",
+    "uiTemplate": "document_scan",
+    "difficulty": 3,
+    "tags": [
+      "info-retrieval",
+      "poster",
+      "conditions"
+    ],
+    "document": {
+      "type": "notice",
+      "title": "けんこうパン 春 of キャンペーン",
+      "text": "「けんこうパン」のシールをはがきにはって送ると、ちゅうせんで100人に楽しい旅行券が当たります。\nAコース：長野おいしいもの食べ放題コース\nBコース：ハイキングコース\n\nキャンペーン期間：20XX年5月1日〜6月30日\nおうぼしめきり：20XX年7月5日\nおうぼ方法：「けんこうパン」のふくろについている丸いシール30点分をはがきにはって、郵便番号・住所・名前・電話番号・ごきぼうのコースを書いて送ってください。\n※四角のシールは使えません。\n※切手をはってください。\n\nおうぼ先：161-1234 新宿区市谷3-5-10-2 新宿郵便局 けんこうパン 春のキャンペーン係",
+      "image": {
+        "src": "images/info/dethi3_mondai11.jpg",
+        "alt": "けんこうパン 春のキャンペーン"
+      }
+    },
+    "question": {
+      "text": "いちろうさんのはがきは、どうしてまちがっていますか。",
+      "translationVi": "Tại sao bưu thiếp của Ichirou lại bị sai quy định?",
+      "conditions": [
+        {
+          "id": "c1",
+          "labelVi": "Số điểm tối thiểu: 30 điểm",
+          "keywordJa": "30点分"
+        },
+        {
+          "id": "c2",
+          "labelVi": "Loại nhãn dán: Nhãn tròn (không dùng nhãn vuông)",
+          "keywordJa": "丸いシール"
+        },
+        {
+          "id": "c3",
+          "labelVi": "Thông tin cá nhân đầy đủ: Địa chỉ, tên, điện thoại, mã bưu điện",
+          "keywordJa": "郵便番号・住所・名前・電話番号"
+        },
+        {
+          "id": "c4",
+          "labelVi": "Chọn khóa học: A hoặc B",
+          "keywordJa": "ごきぼうのコース"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "きぼうのコースを書きわすれた。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trên bưu thiếp của Ichirou có đầy đủ nhãn tròn (5点 * 6 = 30), có tên và địa chỉ, số điện thoại nhưng hoàn toàn không ghi lựa chọn khóa học A hay B."
+      },
+      {
+        "id": "B",
+        "text": "自分の住所を書きわすれた。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Địa chỉ ghi rõ là '△△市□□町1234'."
+      },
+      {
+        "id": "C",
+        "text": "シールをはりわすれた。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cậu ấy đã dán 6 nhãn dán tròn 5 điểm."
+      },
+      {
+        "id": "D",
+        "text": "名前を書きわすれた。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Tên ghi rõ là '山田 いちろう'."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "evidenceTexts": [
+        "ごきぼうのコースを書いて送ってください。"
+      ],
+      "logicVi": "Bưu thiếp của Ichirou thiếu đi dòng đăng ký lựa chọn khóa học mong muốn (Aコース hoặc Bコース) ở mặt sau."
+    }
+  }
+]

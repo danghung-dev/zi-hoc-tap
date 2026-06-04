@@ -9,8 +9,8 @@
     "tags": ["kanji", "noun"],
     "customClassification": {
       "source": "zi_jlpt_n4_taxonomy_v1",
-      "categoryId": "KANJI_READING_N5_REVIEW",
-      "categoryName": "Đọc Kanji N5 ôn tập",
+      "categoryId": "practiceKANJI_READING_N4_REVIEW",
+      "categoryName": "Đọc Kanji N4 ôn tập",
       "displayLabel": "Kanji cơ bản: 歌",
       "showOnCard": true
     },
@@ -213,8 +213,8 @@
     "tags": ["kanji", "noun", "nature"],
     "customClassification": {
       "source": "zi_jlpt_n4_taxonomy_v1",
-      "categoryId": "KANJI_READING_N5_REVIEW",
-      "categoryName": "Đọc Kanji N5 ôn tập",
+      "categoryId": "practiceKANJI_READING_N4_REVIEW",
+      "categoryName": "Đọc Kanji N4 ôn tập",
       "displayLabel": "Kanji cơ bản: 空",
       "showOnCard": true
     },
