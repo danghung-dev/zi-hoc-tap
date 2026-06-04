@@ -82,5 +82,28 @@ export interface StandardQuizQuestion extends QuestionBase {
   };
 }
 
+export interface SentenceScrambleQuestion extends QuestionBase {
+  uiTemplate: "sentence_scramble";
+  question: {
+    instruction: string;
+    fixedParts: string[];
+    fragments: {
+      id: string;
+      text: string;
+    }[];
+  };
+  answer: {
+    correctOrder: string[];
+    correctStarFragmentId: string;
+    completedSentence: string;
+    translationVi?: string;
+    shortExplanationVi: string;
+    fullExplanationVi: string;
+    fragmentExplanationsVi?: Record<string, string>;
+    trapVi?: string;
+  };
+}
+
 // Union type for questions to allow future expansion
-export type Question = StandardQuizQuestion;
+export type Question = StandardQuizQuestion | SentenceScrambleQuestion;
+

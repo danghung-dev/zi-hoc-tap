@@ -53,6 +53,16 @@ const ITEM_TYPE_LABELS: Record<string, string> = {
   quick_response: "Nghe hiểu - Phản xạ nhanh (即時応答)",
 };
 
+const getDisplayStem = (q: Question): string => {
+  if (q.uiTemplate === "standard_quiz") {
+    return q.question.stem;
+  }
+  if (q.uiTemplate === "sentence_scramble") {
+    return q.answer.completedSentence;
+  }
+  return "";
+};
+
 type SkillGroup = "all" | "vocabulary" | "grammar" | "reading" | "listening";
 
 export default function PracticePage() {
@@ -717,7 +727,7 @@ export default function PracticePage() {
                         <td className="py-3.5 px-3 max-w-[200px] sm:max-w-xs md:max-w-md">
                           <div 
                             className="font-medium text-slate-200 truncate leading-relaxed"
-                            dangerouslySetInnerHTML={{ __html: q.question.stem }}
+                            dangerouslySetInnerHTML={{ __html: getDisplayStem(q) }}
                           />
                           <div className="flex flex-wrap gap-1.5 mt-1.5">
                             <span className="text-[9px] px-1.5 py-0.5 bg-indigo-950/40 text-indigo-300 rounded border border-indigo-900/40 font-semibold font-sans">
