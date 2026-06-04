@@ -144,12 +144,42 @@ export interface ReadingSplitScreenQuestion extends QuestionBase {
   }[];
 }
 
+export interface DocumentScanQuestion extends QuestionBase {
+  uiTemplate: "document_scan";
+  document: {
+    type: string;
+    title: string;
+    text: string;
+    image?: {
+      src: string;
+      alt: string;
+    };
+  };
+  question: {
+    text: string;
+    translationVi?: string;
+    conditions?: {
+      id: string;
+      labelVi: string;
+      keywordJa?: string;
+    }[];
+  };
+  options: QuestionOption[];
+  answer: {
+    correctOptionId: string;
+    evidenceTexts?: string[];
+    logicVi?: string;
+  };
+}
+
 // Union type for questions to allow future expansion
 export type Question = 
   | StandardQuizQuestion 
   | SentenceScrambleQuestion 
   | TextGrammarClozeQuestion 
-  | ReadingSplitScreenQuestion;
+  | ReadingSplitScreenQuestion
+  | DocumentScanQuestion;
+
 
 
 

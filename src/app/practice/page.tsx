@@ -66,6 +66,9 @@ const getDisplayStem = (q: Question): string => {
   if (q.uiTemplate === "reading_split_screen") {
     return `Đọc hiểu: "${q.passage.title}"`;
   }
+  if (q.uiTemplate === "document_scan") {
+    return `Tra cứu thông tin: "${q.document.title}"`;
+  }
   return "";
 };
 
