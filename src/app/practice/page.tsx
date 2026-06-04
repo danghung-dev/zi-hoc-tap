@@ -518,38 +518,8 @@ export default function PracticePage() {
             )}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             
-            {/* Study Mode option: review wrong vs review all list */}
-            <div className="flex flex-col gap-1.5 sm:col-span-2">
-              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Chế độ ôn tập</label>
-              <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 w-full">
-                <button
-                  onClick={() => setOnlyMistakes(false)}
-                  className={cn(
-                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 cursor-pointer text-center",
-                    !onlyMistakes
-                      ? "bg-indigo-600 text-white font-medium"
-                      : "text-slate-400 hover:text-slate-200"
-                  )}
-                >
-                  Ôn hết list ({questions.length})
-                </button>
-                <button
-                  onClick={() => setOnlyMistakes(true)}
-                  className={cn(
-                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer text-center",
-                    onlyMistakes
-                      ? "bg-rose-600 text-white font-medium"
-                      : "text-slate-400 hover:text-slate-200"
-                  )}
-                >
-                  <AlertCircle className="w-3.5 h-3.5" />
-                  Chỉ ôn câu sai ({mistakeIds.length})
-                </button>
-              </div>
-            </div>
-
             {/* Classification Filter */}
             <div className="flex flex-col gap-1.5">
               <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Phân loại</label>
@@ -707,12 +677,26 @@ export default function PracticePage() {
         {/* View list of all incorrect questions */}
         {mistakeIds.length > 0 && (
           <section className="bg-slate-900/60 border border-slate-850 rounded-3xl p-5 shadow-lg flex flex-col gap-4 animate-in fade-in duration-300">
-            <div className="flex items-center justify-between pb-2 border-b border-slate-855">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-slate-800 gap-2">
               <h2 className="text-sm font-bold text-slate-200 flex items-center gap-2">
                 <AlertCircle className="w-4.5 h-4.5 text-rose-500" />
                 Sổ tay lỗi sai ({mistakeIds.length})
               </h2>
-              <span className="text-[10px] text-slate-400 italic">Nhấp "Luyện tập" để giải lại câu sai</span>
+              <div className="flex items-center justify-between sm:justify-end gap-3.5">
+                <span className="text-[10px] text-slate-400 italic">Nhấp "Luyện tập" để giải lại câu sai</span>
+                <button
+                  onClick={() => setOnlyMistakes(!onlyMistakes)}
+                  className={cn(
+                    "px-3 py-1.5 rounded-xl text-[11px] font-semibold border transition duration-150 flex items-center gap-1.5 cursor-pointer active:scale-95",
+                    onlyMistakes
+                      ? "bg-rose-600 border-rose-500 text-white shadow-md shadow-rose-600/10"
+                      : "bg-rose-950/20 border-rose-900/40 text-rose-300 hover:bg-rose-900/20"
+                  )}
+                >
+                  <AlertCircle className="w-3.5 h-3.5 animate-pulse" />
+                  {onlyMistakes ? "Đang ôn câu sai" : "Ôn tập câu sai"}
+                </button>
+              </div>
             </div>
 
             <div className="overflow-x-auto">
