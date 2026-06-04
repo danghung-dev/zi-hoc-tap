@@ -61,7 +61,7 @@
       }
     ],
     "answer": {
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "shortExplanationVi": "Quyết định làm việc của bản thân: Rửa tất, mang bát đĩa ra bồn, gấp chăn đệm cất tủ. Trong đó việc đầu tiên khi ngủ dậy mỗi sáng là gấp chăn đệm cất tủ.",
       "fullExplanationVi": "Cô bé tự làm các việc: giặt tất (靴下を洗ったり), mang bát đĩa ra bếp (台所へ持って行ったり), gấp chăn đệm mỗi sáng khi thức dậy (毎朝、起きてから布団をたたんで、押し入れに入れるのも). Câu hỏi hỏi việc dọn dẹp đầu tiên mỗi sáng (毎日、いちばん先に片付けなければならない), đó là gấp chăn đệm cất tủ. Đáp án 3.",
       "trapVi": "Bẫy liệt kê các hoạt động cô bé làm như giặt tất, rửa bát đĩa, mua đồ, cần nghe kỹ từ khóa thời gian '毎朝' (mỗi sáng) và 'いちばん先' (đầu tiên).",
@@ -192,16 +192,16 @@
       },
       {
         "id": "B",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "2",
-        "explanationVi": "Đáp án B. Sai.",
+        "explanationVi": "Đáp án B. Đúng.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture6-4.png"
       },
       {
         "id": "C",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "3",
-        "explanationVi": "Đáp án C. Đúng.",
+        "explanationVi": "Đáp án C. Sai.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture7-3.png"
       },
       {
@@ -213,10 +213,10 @@
       }
     ],
     "answer": {
-      "correctOptionId": "C",
-      "shortExplanationVi": "Người nam nói rằng anh ấy luôn đi làm bằng tàu điện (電車).",
-      "fullExplanationVi": "Người nam mô tả công việc của mình: lái xe tải lớn chở hàng ra biển, nhưng để đi làm thì: '私はいつも電車に乗って会社に行きます' (Tôi luôn đi tàu điện đến công ty). Khi nghỉ thì vợ lái xe, con đi xe đạp. Đáp án đúng là tàu điện (電車).",
-      "trapVi": "Bẫy xe tải lớn (được lái khi làm việc chứ không phải phương tiện đi làm) và xe hơi của vợ lái ngày nghỉ.",
+      "correctOptionId": "B",
+      "shortExplanationVi": "Tôi là tài xế của công ty, hằng ngày lái một chiếc xe lớn để chở hàng của công ty đến gần biển.",
+      "fullExplanationVi": "Người nam mô tả công việc của mình: lái xe tải lớn chở hàng ra biển, nhưng để đi làm thì: '私はいつも電車に乗って会社に行きます' (Tôi luôn đi tàu điện đến công ty). Khi nghỉ thì vợ lái xe, con đi xe đạp.",
+      "trapVi": "Bẫy xe hơi của vợ lái ngày nghỉ.",
       "listeningStrategyVi": "Phân biệt rõ phương tiện dùng để đi làm (通勤) và phương tiện dùng trong lúc làm việc (仕事中の移動) hoặc ngày nghỉ.",
       "transcriptJa": "男の人が話しています。この人は仕事の時、いつもどんな乗り物を使っていますか。\n男：私は会社の運転手で、毎日大きな車に乗って、会社の荷物を海のそばへ送ります。それから、他の人が荷物を船に載せます。私はいつも電車に乗って会社に行きます。休みの日に時々家内と一緒に緑の多いところへ遊びに行きます。その時は私ではなく、家内が運転します。子供たちは「お父さんやお母さんと一緒に出かけたくない」と言って、大抵自転車に乗って自分の好きなところに行きます。",
       "translationVi": "Một người đàn ông đang nói chuyện. Người này khi đi làm luôn sử dụng phương tiện gì?",
@@ -337,16 +337,16 @@
     "options": [
       {
         "id": "A",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "1",
-        "explanationVi": "Đáp án A. Đúng.",
+        "explanationVi": "Đáp án A. Sai.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture9-3.png"
       },
       {
         "id": "B",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "2",
-        "explanationVi": "Đáp án B. Sai.",
+        "explanationVi": "Đáp án B. Đúng.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture10-2.png"
       },
       {
@@ -421,15 +421,15 @@
       },
       {
         "id": "B",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "13枚",
-        "explanationVi": "Đáp án B. Đúng."
+        "explanationVi": "Đáp án B. Sai."
       },
       {
         "id": "C",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "9枚",
-        "explanationVi": "Đáp án C. Sai."
+        "explanationVi": "Đáp án C. Đúng."
       },
       {
         "id": "D",
