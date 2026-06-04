@@ -1,0 +1,22 @@
+import React from "react";
+import { Question } from "@/lib/practice/types";
+import { StandardQuizCard } from "./StandardQuizCard";
+
+interface QuestionRendererProps {
+  question: Question;
+  onAnswered: (isCorrect: boolean) => void;
+}
+
+export function QuestionRenderer({ question, onAnswered }: QuestionRendererProps) {
+  switch (question.uiTemplate) {
+    case "standard_quiz":
+      return <StandardQuizCard question={question} onAnswered={onAnswered} />;
+    default:
+      return (
+        <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center text-slate-400">
+          <p className="font-semibold text-lg text-slate-300 mb-2">Giao diện câu hỏi chưa được hỗ trợ</p>
+          <p className="text-xs text-slate-500">Mẫu giao diện: {question.uiTemplate}</p>
+        </div>
+      );
+  }
+}

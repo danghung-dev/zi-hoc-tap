@@ -1,0 +1,11 @@
+[
+  {
+    "id": "n4_vocab_kanji_reading_001",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "file": "vocabulary/kanji-reading-001.json",
+    "title": "Luyện đọc chữ Kanji - Pack 1",
+    "count": 9
+  }
+]

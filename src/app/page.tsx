@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import {
   GraduationCap,
   BookOpen,
@@ -415,35 +416,45 @@ export default function Page() {
           </div>
 
           {/* Main Tabs Navigation */}
-          <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800">
-            <button
-              onClick={() => setSelectedTab("kanji")}
-              className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 flex items-center gap-1.5 ${
-                selectedTab === "kanji"
-                  ? "bg-indigo-600 text-white"
-                  : "text-slate-400 hover:text-slate-200"
-              }`}
+          <div className="flex flex-wrap items-center gap-3 justify-center">
+            <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800">
+              <button
+                onClick={() => setSelectedTab("kanji")}
+                className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 flex items-center gap-1.5 ${
+                  selectedTab === "kanji"
+                    ? "bg-indigo-600 text-white"
+                    : "text-slate-400 hover:text-slate-200"
+                }`}
+              >
+                <BookOpen className="w-4 h-4" />
+                漢字 / Kanji Flashcard
+              </button>
+              <button
+                onClick={() => {
+                  setSelectedTab("grammar");
+                  // On initial load, load the first cheat sheet
+                  if (currentGrammarGroupId === "all") {
+                    setCurrentGrammarGroupId(1);
+                  }
+                }}
+                className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 flex items-center gap-1.5 ${
+                  selectedTab === "grammar"
+                    ? "bg-indigo-600 text-white"
+                    : "text-slate-400 hover:text-slate-200"
+                }`}
+              >
+                <Swords className="w-4 h-4" />
+                文法 / Ngữ Pháp Arena
+              </button>
+            </div>
+            
+            <Link
+              href="/practice"
+              className="px-4 py-2 text-xs sm:text-sm font-semibold bg-slate-900 border border-slate-800 hover:bg-slate-800 text-indigo-400 hover:text-indigo-300 rounded-xl transition-all duration-200 flex items-center gap-1.5 cursor-pointer"
             >
-              <BookOpen className="w-4 h-4" />
-              漢字 / Kanji Flashcard
-            </button>
-            <button
-              onClick={() => {
-                setSelectedTab("grammar");
-                // On initial load, load the first cheat sheet
-                if (currentGrammarGroupId === "all") {
-                  setCurrentGrammarGroupId(1);
-                }
-              }}
-              className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 flex items-center gap-1.5 ${
-                selectedTab === "grammar"
-                  ? "bg-indigo-600 text-white"
-                  : "text-slate-400 hover:text-slate-200"
-              }`}
-            >
-              <Swords className="w-4 h-4" />
-              文法 / Ngữ Pháp Arena
-            </button>
+              <BookOpenCheck className="w-4 h-4" />
+              Luyện Tập Mode
+            </Link>
           </div>
         </div>
       </header>

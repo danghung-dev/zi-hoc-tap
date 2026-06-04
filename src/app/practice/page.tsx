@@ -1,0 +1,518 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import { 
+  loadAllQuestions, 
+  loadLevelConfig 
+} from "@/lib/practice/data-loader";
+import { 
+  getWrongIds, 
+  clearMistakes, 
+  loadMistakes,
+  clearSingleMistake
+} from "@/lib/practice/progress";
+import { Question, LevelConfig } from "@/lib/practice/types";
+import { QuestionRenderer } from "@/components/practice/QuestionRenderer";
+import { 
+  ArrowLeft, 
+  Shuffle, 
+  AlertCircle, 
+  ChevronLeft, 
+  ChevronRight, 
+  Trash2, 
+  Sparkles, 
+  RefreshCw,
+  BookOpenCheck,
+  CheckCircle2,
+  XCircle,
+  GraduationCap
+} from "lucide-react";
+import { cn } from "@/lib/utils";
+
+export default function PracticePage() {
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
+  const [levelConfig, setLevelConfig] = useState<LevelConfig | null>(null);
+  
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Filter States
+  const [filterCategory, setFilterCategory] = useState<string>("all");
+  const [filterItemType, setFilterItemType] = useState<string>("all");
+  const [onlyMistakes, setOnlyMistakes] = useState(false);
+  
+  // Progress states
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [mistakeIds, setMistakeIds] = useState<string[]>([]);
+  
+  // Tracking if current question is correct/incorrect
+  const [answersState, setAnswersState] = useState<Record<string, boolean>>({});
+
+  // 1. Initial Data Fetching
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        setLoading(true);
+        const [configData, questionData] = await Promise.all([
+          loadLevelConfig("n4"),
+          loadAllQuestions("n4")
+        ]);
+        setLevelConfig(configData);
+        setQuestions(questionData);
+        setMistakeIds(getWrongIds());
+      } catch (err: any) {
+        console.error(err);
+        setError("Không thể nạp dữ liệu câu hỏi từ hệ thống. Hãy thử tải lại trang.");
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchData();
+  }, []);
+
+  // 2. Filter logic: De-coupled from mistakeIds state to prevent deck reset while answering
+  useEffect(() => {
+    let result = [...questions];
+
+    if (filterCategory !== "all") {
+      result = result.filter(
+        (q) => q.customClassification?.categoryId === filterCategory
+      );
+    }
+
+    if (filterItemType !== "all") {
+      result = result.filter((q) => q.jlptItemType === filterItemType);
+    }
+
+    if (onlyMistakes) {
+      const activeMistakes = getWrongIds();
+      result = result.filter((q) => activeMistakes.includes(q.id));
+    }
+
+    setFilteredQuestions(result);
+    setCurrentIndex(0);
+  }, [filterCategory, filterItemType, onlyMistakes, questions]);
+
+  // Handle answers completed inside cards
+  const handleQuestionAnswered = (isCorrect: boolean) => {
+    const currentQuestion = filteredQuestions[currentIndex];
+    if (!currentQuestion) return;
+
+    setAnswersState((prev) => ({
+      ...prev,
+      [currentQuestion.id]: isCorrect
+    }));
+
+    // Update mistake count lists in state (updates badge & stats view, doesn't reset filter useEffect)
+    setMistakeIds(getWrongIds());
+  };
+
+  // Jump to a specific question from the mistake book list
+  const jumpToQuestion = (qId: string) => {
+    // Find index in original questions
+    const targetIdx = questions.findIndex(q => q.id === qId);
+    if (targetIdx !== -1) {
+      // Check if it's in the currently filtered list
+      const filteredIdx = filteredQuestions.findIndex(q => q.id === qId);
+      if (filteredIdx !== -1) {
+        setCurrentIndex(filteredIdx);
+      } else {
+        // If not in the filtered list (e.g. category filter is blocking it), reset filters first
+        setFilterCategory("all");
+        setFilterItemType("all");
+        
+        // Compute resetting deck matching current "onlyMistakes" option
+        const resetFiltered = questions.filter(
+          (q) => !onlyMistakes || getWrongIds().includes(q.id)
+        );
+        setFilteredQuestions(resetFiltered);
+        
+        const idxInReset = resetFiltered.findIndex(q => q.id === qId);
+        setCurrentIndex(idxInReset !== -1 ? idxInReset : 0);
+      }
+      
+      // Smooth scroll back to top of the page (to the card area)
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  // Shuffle Fisher-Yates
+  const handleShuffle = () => {
+    if (filteredQuestions.length <= 1) return;
+    const shuffled = [...filteredQuestions];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    setFilteredQuestions(shuffled);
+    setCurrentIndex(0);
+  };
+
+  // Clear mistakes
+  const handleClearMistakes = () => {
+    const confirmed = confirm("Bạn có chắc chắn muốn xóa toàn bộ lịch sử lỗi sai luyện tập không?");
+    if (confirmed) {
+      clearMistakes();
+      setMistakeIds([]);
+      setOnlyMistakes(false);
+    }
+  };
+
+  // Calculate distinct category list dynamically
+  const categories = Array.from(
+    new Map(
+      questions
+        .filter((q) => q.customClassification)
+        .map((q) => [
+          q.customClassification!.categoryId,
+          q.customClassification!.categoryName,
+        ])
+    ).entries()
+  );
+
+  // Calculate distinct item types dynamically
+  const itemTypes = Array.from(new Set(questions.map((q) => q.jlptItemType)));
+
+  // Navigation handlers
+  const handleNext = () => {
+    if (currentIndex < filteredQuestions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  // Render Section Loading / Error / Empty
+  if (loading) {
+    return (
+      <div className="bg-slate-950 text-slate-100 min-h-screen flex flex-col items-center justify-center font-sans">
+        <div className="flex flex-col items-center gap-4">
+          <RefreshCw className="w-10 h-10 text-indigo-500 animate-spin" />
+          <p className="text-sm text-slate-400 font-medium">Đang tải dữ liệu luyện tập...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !levelConfig) {
+    return (
+      <div className="bg-slate-950 text-slate-100 min-h-screen flex flex-col items-center justify-center font-sans p-4">
+        <div className="max-w-md w-full bg-slate-900 border border-slate-800 rounded-3xl p-6 text-center flex flex-col gap-4">
+          <AlertCircle className="w-12 h-12 text-rose-500 mx-auto" />
+          <h2 className="text-lg font-bold text-slate-200">Đã xảy ra lỗi</h2>
+          <p className="text-sm text-slate-400 leading-relaxed">{error}</p>
+          <Link
+            href="/"
+            className="mt-2 w-full py-2.5 bg-slate-800 hover:bg-slate-750 text-xs font-bold rounded-xl transition flex items-center justify-center gap-1 text-slate-200"
+          >
+            <ArrowLeft className="w-4 h-4" /> Quay lại Trang chủ
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  const currentQuestion = filteredQuestions[currentIndex];
+  const totalQuestions = filteredQuestions.length;
+  const progressPercent = totalQuestions > 0 ? ((currentIndex + 1) / totalQuestions) * 100 : 0;
+  const mistakeRecords = loadMistakes();
+
+  return (
+    <div className="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
+      
+      {/* Header */}
+      <header className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <Link 
+              href="/"
+              className="p-2 bg-slate-800 hover:bg-slate-750 rounded-xl transition text-slate-300 hover:text-slate-100 border border-slate-700/50"
+              title="Quay lại trang chủ"
+            >
+              <ArrowLeft className="w-4 h-4" />
+            </Link>
+            <div>
+              <h1 className="text-base sm:text-lg font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent flex items-center gap-1.5">
+                <BookOpenCheck className="w-4.5 h-4.5 text-indigo-400" />
+                Luyện Tập {levelConfig.displayName}
+              </h1>
+              <p className="text-[10px] sm:text-xs text-slate-400 hidden sm:block">Chế độ ôn luyện kiến thức ngôn ngữ</p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <span className="px-2 py-0.5 bg-slate-800 text-[10px] font-semibold text-slate-400 rounded-md border border-slate-700">
+              MVP Mode
+            </span>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Container */}
+      <main className="max-w-4xl mx-auto w-full px-4 py-6 flex flex-col gap-6 flex-1">
+        
+        {/* Filters Panel */}
+        <section className="bg-slate-900/80 border border-slate-850 rounded-3xl p-4 sm:p-5 flex flex-col gap-4 shadow-lg animate-in fade-in duration-200">
+          <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+            <h2 className="text-xs sm:text-sm font-bold text-slate-300 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-indigo-400" />
+              Bộ lọc câu hỏi & Thiết lập
+            </h2>
+            {mistakeIds.length > 0 && (
+              <button 
+                onClick={handleClearMistakes}
+                className="text-[10px] text-rose-400 hover:text-rose-300 font-semibold flex items-center gap-1 transition cursor-pointer"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+                Xóa tất cả câu sai ({mistakeIds.length})
+              </button>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+            
+            {/* Study Mode option: review wrong vs review all list */}
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Chế độ ôn tập</label>
+              <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 w-full">
+                <button
+                  onClick={() => setOnlyMistakes(false)}
+                  className={cn(
+                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 cursor-pointer text-center",
+                    !onlyMistakes
+                      ? "bg-indigo-600 text-white font-medium"
+                      : "text-slate-400 hover:text-slate-200"
+                  )}
+                >
+                  Ôn hết list ({questions.length})
+                </button>
+                <button
+                  onClick={() => setOnlyMistakes(true)}
+                  className={cn(
+                    "flex-1 py-1.5 text-xs font-semibold rounded-lg transition-all duration-200 flex items-center justify-center gap-1 cursor-pointer text-center",
+                    onlyMistakes
+                      ? "bg-rose-600 text-white font-medium"
+                      : "text-slate-400 hover:text-slate-200"
+                  )}
+                >
+                  <AlertCircle className="w-3.5 h-3.5" />
+                  Chỉ ôn câu sai ({mistakeIds.length})
+                </button>
+              </div>
+            </div>
+
+            {/* Classification Filter */}
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Phân loại</label>
+              <select
+                value={filterCategory}
+                onChange={(e) => setFilterCategory(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
+              >
+                <option value="all">Tất cả danh mục ({questions.length})</option>
+                {categories.map(([id, name]) => {
+                  const count = questions.filter(q => q.customClassification?.categoryId === id).length;
+                  return (
+                    <option key={id} value={id}>
+                      {name} ({count})
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+
+            {/* Item Type Filter */}
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Dạng bài thi</label>
+              <select
+                value={filterItemType}
+                onChange={(e) => setFilterItemType(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
+              >
+                <option value="all">Tất cả dạng bài ({questions.length})</option>
+                {itemTypes.map((type) => {
+                  const count = questions.filter(q => q.jlptItemType === type).length;
+                  const label = type === "kanji_reading" ? "Đọc Kanji" : type;
+                  return (
+                    <option key={type} value={type}>
+                      {label} ({count})
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+
+            {/* Shuffle Button */}
+            <button
+              onClick={handleShuffle}
+              disabled={filteredQuestions.length <= 1}
+              className="h-[38px] px-3 text-xs font-semibold bg-slate-950 text-indigo-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center gap-1.5 transition disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer self-end w-full"
+            >
+              <Shuffle className="w-4 h-4" />
+              Trộn câu hỏi
+            </button>
+          </div>
+        </section>
+
+        {/* Question Deck Area */}
+        {totalQuestions > 0 ? (
+          <div className="flex flex-col gap-4">
+            
+            {/* Deck Progress Bar & Indicators */}
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center justify-between text-xs font-bold text-slate-400 px-1">
+                <span>Tiến trình luyện tập</span>
+                <span className="font-mono text-slate-200">
+                  {currentIndex + 1} / {totalQuestions} câu
+                </span>
+              </div>
+              <div className="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-850">
+                <div 
+                  className="bg-indigo-600 h-full rounded-full transition-all duration-300 ease-out" 
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
+            </div>
+
+            {/* Question Renderer */}
+            {currentQuestion && (
+              <QuestionRenderer 
+                question={currentQuestion} 
+                onAnswered={handleQuestionAnswered}
+              />
+            )}
+
+            {/* Navigation Panel */}
+            <div className="flex justify-between items-center mt-2 pb-4 border-b border-slate-900">
+              <button
+                onClick={handlePrev}
+                disabled={currentIndex === 0}
+                className="px-4 py-2.5 border border-slate-800 hover:bg-slate-900 bg-slate-950 rounded-xl text-xs font-bold transition flex items-center gap-1 text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                <span>Trước</span>
+              </button>
+
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === totalQuestions - 1}
+                className="px-5 py-2.5 bg-slate-800 hover:bg-slate-750 text-xs font-bold text-slate-200 rounded-xl transition flex items-center gap-1 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+              >
+                <span>Sau</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+
+          </div>
+        ) : (
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12 text-center flex flex-col items-center gap-4">
+            <AlertCircle className="w-12 h-12 text-slate-600" />
+            <div>
+              <h3 className="font-bold text-slate-300 text-lg mb-1">Không tìm thấy câu hỏi</h3>
+              <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed">
+                {onlyMistakes && mistakeIds.length === 0 
+                  ? "Bạn chưa có câu hỏi nào bị làm sai trong danh sách ôn tập lỗi sai!"
+                  : "Không có câu hỏi nào phù hợp với danh mục bộ lọc được chọn. Vui lòng thiết lập lại bộ lọc."}
+              </p>
+            </div>
+            {(filterCategory !== "all" || filterItemType !== "all" || onlyMistakes) && (
+              <button
+                onClick={() => {
+                  setFilterCategory("all");
+                  setFilterItemType("all");
+                  setOnlyMistakes(false);
+                }}
+                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl transition cursor-pointer"
+              >
+                Đặt lại bộ lọc
+              </button>
+            )}
+          </div>
+        )}
+
+        {/* View list of all incorrect questions */}
+        {mistakeIds.length > 0 && (
+          <section className="bg-slate-900/60 border border-slate-850 rounded-3xl p-5 shadow-lg flex flex-col gap-4 mt-4 animate-in fade-in duration-300">
+            <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+              <h2 className="text-sm font-bold text-slate-200 flex items-center gap-2">
+                <AlertCircle className="w-4.5 h-4.5 text-rose-500" />
+                Sổ tay lỗi sai ({mistakeIds.length})
+              </h2>
+              <span className="text-[10px] text-slate-400 italic">Nhấp "Luyện tập" để giải lại câu sai</span>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-xs sm:text-sm text-slate-300 border-collapse">
+                <thead>
+                  <tr className="border-b border-slate-800 text-slate-400 font-semibold text-[10px] uppercase tracking-wider">
+                    <th className="py-2.5 px-3">Câu hỏi / Stem</th>
+                    <th className="py-2.5 px-3 text-center w-24">Số lần sai</th>
+                    <th className="py-2.5 px-3 text-center w-24">Số lần đúng</th>
+                    <th className="py-2.5 px-3 text-right w-36">Thao tác</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-850">
+                  {mistakeIds.map((id) => {
+                    const q = questions.find((item) => item.id === id);
+                    const stats = mistakeRecords[id] || { wrong: 0, correct: 0 };
+                    if (!q) return null;
+                    return (
+                      <tr key={id} className="hover:bg-slate-850/20 transition-all duration-150">
+                        <td className="py-3.5 px-3 max-w-[200px] sm:max-w-xs md:max-w-md">
+                          <div 
+                            className="font-medium text-slate-200 truncate leading-relaxed"
+                            dangerouslySetInnerHTML={{ __html: q.question.stem }}
+                          />
+                          <span className="text-[9px] px-1.5 py-0.5 bg-slate-950 text-slate-400 rounded border border-slate-850 inline-block mt-1 font-mono">
+                            {q.customClassification?.displayLabel || "Phân loại"}
+                          </span>
+                        </td>
+                        <td className="py-3.5 px-3 text-center font-bold text-rose-400 font-mono text-sm">
+                          {stats.wrong}
+                        </td>
+                        <td className="py-3.5 px-3 text-center font-bold text-emerald-400 font-mono text-sm">
+                          {stats.correct}
+                        </td>
+                        <td className="py-3.5 px-3 text-right">
+                          <div className="flex items-center justify-end gap-2.5">
+                            <button
+                              onClick={() => jumpToQuestion(id)}
+                              className="px-2.5 py-1.5 bg-indigo-950/50 hover:bg-indigo-600 hover:text-white border border-indigo-500/20 text-indigo-400 font-semibold rounded-lg text-[10px] transition cursor-pointer active:scale-95"
+                            >
+                              Luyện tập
+                            </button>
+                            <button
+                              onClick={() => {
+                                clearSingleMistake(id);
+                                const newWrongIds = getWrongIds();
+                                setMistakeIds(newWrongIds);
+                                // If reviewing mistakes only, filter it out from current list
+                                if (onlyMistakes) {
+                                  setFilteredQuestions(prev => prev.filter(item => item.id !== id));
+                                }
+                              }}
+                              className="p-1.5 bg-slate-950 hover:bg-rose-950/30 text-slate-500 hover:text-rose-400 border border-slate-850 hover:border-rose-900/40 rounded-lg transition cursor-pointer active:scale-95"
+                              title="Xóa lỗi này"
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+      </main>
+    </div>
+  );
+}
