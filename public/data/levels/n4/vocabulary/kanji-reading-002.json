@@ -1,0 +1,516 @@
+[
+  {
+    "id": "n4_vocab_kanji_010",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Tính từ -i: 古い",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "1. れいぞうこに<u>古い</u>パンが入っています。",
+      "underlinedText": "古い"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "かたい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「かたい」 là 固い/硬い (cứng)."
+      },
+      {
+        "id": "B",
+        "text": "ふるい",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「古」 (Cổ) đứng trước 「い」 đọc là 「ふるい」."
+      },
+      {
+        "id": "C",
+        "text": "わるい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「わるい」 là 悪い (xấu/tồi)."
+      },
+      {
+        "id": "D",
+        "text": "うまい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「うまい」 là 旨い/上手い (ngon/giỏi)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "古い = ふるい (cũ)",
+      "fullExplanationVi": "Tính từ 「古い」 (Cổ) có nghĩa là cũ, cổ, đọc là 「ふるい」. Tránh nhầm với 「硬い (かたい) - cứng」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Tính từ -i: 古い.",
+      "translationVi": "Có bánh mì cũ trong tủ lạnh."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_011",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Động từ: 習う",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "2. これはきのう<u>習いました</u>。",
+      "underlinedText": "習いました"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ならいました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「習う」 (Tập - học tập) chia ở quá khứ lịch sự đọc là 「ならいました」."
+      },
+      {
+        "id": "B",
+        "text": "もらいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「もらいました」 là 貰いました (đã nhận)."
+      },
+      {
+        "id": "C",
+        "text": "いいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いいました」 là 言いました (đã nói)."
+      },
+      {
+        "id": "D",
+        "text": "かいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「かいました」 là 買いました (đã mua)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "習いました = ならいました (đã học)",
+      "fullExplanationVi": "Động từ 「習う (ならう)」 có nghĩa là học, luyện tập. Chia sang quá khứ lịch sự là 「習いました (ならいました)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 習う.",
+      "translationVi": "Cái này hôm qua tôi đã học rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_012",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "color"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Màu sắc: 黒い",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "3. <u>黒い</u>くつをかいました。",
+      "underlinedText": "黒い"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "しろい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「しろい」 là 白い (màu trắng)."
+      },
+      {
+        "id": "B",
+        "text": "くろい",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「黒」 (Hắc) đứng trước 「い」 đọc là 「くろい」."
+      },
+      {
+        "id": "C",
+        "text": "あおい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あおい」 là 青い (màu xanh dương)."
+      },
+      {
+        "id": "D",
+        "text": "あかい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あかい」 là 赤い (màu đỏ)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "黒い = くろい (đen)",
+      "fullExplanationVi": "Tính từ chỉ màu sắc 「黒い」 (Hắc) đọc là 「くろい」, nghĩa là màu đen.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Màu sắc: 黒い.",
+      "translationVi": "Tôi đã mua một đôi giày màu đen."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_013",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "time"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Thời gian: 何時",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "4. いつも<u>何時</u>ごろねますか。",
+      "underlinedText": "何時"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "なんどき",
+        "isCorrect": false,
+        "explanationVi": "Sai. Không dùng từ 「なんどき」 trong ngữ cảnh hỏi mấy giờ thông dụng này."
+      },
+      {
+        "id": "B",
+        "text": "いつ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いつ」 nghĩa là 'khi nào', không viết là 何時."
+      },
+      {
+        "id": "C",
+        "text": "いま",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いま」 là 今 (bây giờ)."
+      },
+      {
+        "id": "D",
+        "text": "なんじ",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Nghi vấn từ 「何時」 (Mấy giờ) đọc là 「なんじ」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "何時 = なんじ (mấy giờ)",
+      "fullExplanationVi": "Từ chỉ thời gian và nghi vấn từ 「何時 (なんじ)」 dùng để hỏi 'mấy giờ'.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Thời gian: 何時.",
+      "translationVi": "Thường thì khoảng mấy giờ bạn đi ngủ?"
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_014",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "family"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Gia đình: 姉",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "5. わたしに<u>姉</u>はいません。",
+      "underlinedText": "姉"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "いもうと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いもうと」 là 妹 (em gái)."
+      },
+      {
+        "id": "B",
+        "text": "あに",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あに」 là 兄 (anh trai)."
+      },
+      {
+        "id": "C",
+        "text": "あね",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「姉」 (Tỷ - chị gái mình) đọc là 「あね」."
+      },
+      {
+        "id": "D",
+        "text": "おとうと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「おとうと」 là 弟 (em trai)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "姉 = あね (chị gái mình)",
+      "fullExplanationVi": "Danh từ 「姉」 dùng khi tự xưng về chị gái của mình, đọc là 「あね」. Nếu gọi chị của người khác dùng 「おねえさん」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Gia đình: 姉.",
+      "translationVi": "Tôi không có chị gái."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_015",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "season"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Mùa: 秋",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "6. <u>秋</u>になりました。",
+      "underlinedText": "秋"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ふゆ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ふゆ」 là 冬 (mùa đông)."
+      },
+      {
+        "id": "B",
+        "text": "あき",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「秋」 (Thu) đứng một mình đọc là 「あき」."
+      },
+      {
+        "id": "C",
+        "text": "はる",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「はる」 là 春 (mùa xuân)."
+      },
+      {
+        "id": "D",
+        "text": "なつ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「なつ」 là 夏 (mùa hè)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "秋 = あき (mùa thu)",
+      "fullExplanationVi": "Danh từ 「秋」 chỉ mùa thu, đọc theo Kunyomi là 「あき」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Mùa: 秋.",
+      "translationVi": "Trời đã sang thu rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_016",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "kanji",
+      "verb",
+      "te-form"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Động từ: 集める",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "7. みんなでこみを<u>集めて</u>ください。",
+      "underlinedText": "集めて"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "つめて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「つめて」 là thể Te của 詰める (nhồi nhét) hoặc 冷やす/冷める."
+      },
+      {
+        "id": "B",
+        "text": "まるめて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「まるめて」 là thể Te của 丸める (vo tròn)."
+      },
+      {
+        "id": "C",
+        "text": "つとめて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「つとめて」 là thể Te của 努める/勤める (nỗ lực/làm việc)."
+      },
+      {
+        "id": "D",
+        "text": "あつめて",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「集める」 (Tập - thu gom, gom lại) chia thể Te đọc là 「あつめて」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "集めて = あつめて (gom lại)",
+      "fullExplanationVi": "Động từ nhóm 2 「集める (あつめる)」 nghĩa là gom lại, thu thập. Chia sang thể Te là 「集めて (あつめて)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 集める.",
+      "translationVi": "Mọi người hãy gom rác lại nhé."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_017",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "kanji",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Tính từ -i: 重い",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "8. これは、ずいぶん<u>重い</u>ですね。",
+      "underlinedText": "重い"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "おもい",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「重」 (Trọng) đứng trước 「い」 đọc là 「おもい」 (nặng)."
+      },
+      {
+        "id": "B",
+        "text": "かるい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「かるい」 là 軽い (nhẹ)."
+      },
+      {
+        "id": "C",
+        "text": "くらい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「くらい」 là 暗い (tối)."
+      },
+      {
+        "id": "D",
+        "text": "こわい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「こわい」 là 怖い (đáng sợ)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "重い = おもい (nặng)",
+      "fullExplanationVi": "Tính từ 「重い」 (Trọng) nghĩa là nặng, có âm đọc Kunyomi là 「おもい」. Trái nghĩa là 「軽い (かるい)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Tính từ -i: 重い.",
+      "translationVi": "Cái này nặng ghê nhỉ."
+    }
+  },
+  {
+    "id": "n4_vocab_kanji_018",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "kanji_reading",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "kanji",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "KANJI_READING",
+      "categoryName": "Đọc Kanji",
+      "displayLabel": "Đọc Kanji: Từ vựng: 色",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉はどう読みますか。",
+      "stem": "9. どんな<u>色</u>がすきですか。",
+      "underlinedText": "色"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "あじ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あじ」 là 味 (vị)."
+      },
+      {
+        "id": "B",
+        "text": "おと",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「おと」 là 音 (âm thanh)."
+      },
+      {
+        "id": "C",
+        "text": "いろ",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「色」 (Sắc) đứng một mình đọc là 「いろ」 (màu sắc)."
+      },
+      {
+        "id": "D",
+        "text": "かお",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「かお」 là 顔 (khuôn mặt)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "色 = いろ (màu sắc)",
+      "fullExplanationVi": "Danh từ 「色」 chỉ màu sắc nói chung, đọc theo âm Kunyomi là 「いろ」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Từ vựng: 色.",
+      "translationVi": "Bạn thích màu nào?"
+    }
+  }
+]

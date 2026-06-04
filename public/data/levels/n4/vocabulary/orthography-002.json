@@ -1,0 +1,344 @@
+[
+  {
+    "id": "n4_vocab_ortho_007",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Động từ: 作る",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "1. じぶんでりょうりを<u>つくります</u>か。",
+      "underlinedText": "つくります"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "作ります",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「作」 (Tác) ghép thành 「作ります (つくります - nấu ăn/chế tạo)」."
+      },
+      {
+        "id": "B",
+        "text": "付ります",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「付」 (Phó) trong 「付きます (đính kèm/có)」."
+      },
+      {
+        "id": "C",
+        "text": "俳ります",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「俳」 (Bài) trong 「俳優 (diễn viên)」, không dùng cho động từ này."
+      },
+      {
+        "id": "D",
+        "text": "代ります",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「代」 (Đại) trong 「代わります (thay thế)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "つくります = 作ります",
+      "fullExplanationVi": "Động từ 「作る (つくる)」 viết bằng chữ Kanji 「作」 (Tác).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 作る.",
+      "translationVi": "Bạn có tự mình nấu ăn không?"
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_008",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Động từ: 止める",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "2. ここに車を<u>とめないで</u>ください。",
+      "underlinedText": "とめないで"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "止めないで",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「止」 (Chỉ) ghép thành 「止めないで (とめないで - đừng đỗ xe/dừng)」."
+      },
+      {
+        "id": "B",
+        "text": "正めないで",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「正」 (Chính) trong 「正しい (đúng đắn)」."
+      },
+      {
+        "id": "C",
+        "text": "上めないで",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「上」 (Thượng) trong 「上げます (nâng lên)」."
+      },
+      {
+        "id": "D",
+        "text": "土めないで",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「土」 (Thổ) nghĩa là đất, không liên quan."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "とめないで = 止めないで",
+      "fullExplanationVi": "Động từ 「止める (とめる)」 (dừng, đỗ xe) viết bằng chữ Kanji 「止」 (Chỉ).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 止める.",
+      "translationVi": "Vui lòng không đỗ xe ở đây."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_009",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Động từ: 死ぬ",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "3. うちのねこが<u>しにました</u>。",
+      "underlinedText": "しにました"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "外にました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「外」 (Ngoại) nghĩa là bên ngoài."
+      },
+      {
+        "id": "B",
+        "text": "死にました。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「死」 (Tử) trong 「死にました (đã chết)」."
+      },
+      {
+        "id": "C",
+        "text": "列にました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「列」 (Liệt) trong 「列 (hàng lối)」."
+      },
+      {
+        "id": "D",
+        "text": "例にました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「例」 (Lệ) trong 「例えば (ví dụ)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "しにました = 死にました",
+      "fullExplanationVi": "Động từ 「死ぬ (しぬ)」 (chết) viết bằng chữ Kanji 「死」 (Tử).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 死ぬ.",
+      "translationVi": "Con mèo nhà tôi đã chết rồi."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_010",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Đại từ: 私",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "4. ここが、<u>わたし</u>のいえです。",
+      "underlinedText": "わたし"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "秋",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「秋」 (Thu) chỉ mùa thu."
+      },
+      {
+        "id": "B",
+        "text": "和",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「和」 (Hòa) trong 「平和 (hòa bình)」 hoặc 「和食 (món Nhật)」."
+      },
+      {
+        "id": "C",
+        "text": "私",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「私」 (Tư) chỉ bản thân mình, đọc là 「わたし」."
+      },
+      {
+        "id": "D",
+        "text": "利",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「利」 (Lợi) trong 「便利 (tiện lợi)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "わたし = 私",
+      "fullExplanationVi": "Đại từ nhân xưng ngôi thứ nhất 「わたし」 trong văn viết trang trọng hoặc phổ thông dùng chữ 「私」 (Tư).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Đại từ: 私.",
+      "translationVi": "Đây là nhà của tôi."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_011",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Động từ: 始める",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "5. 9時から<u>はじめます</u>。",
+      "underlinedText": "はじめます"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "姉めます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「姉」 (Tỷ) chỉ chị gái."
+      },
+      {
+        "id": "B",
+        "text": "好めます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「好」 (Hảo) trong 「好き (thích)」."
+      },
+      {
+        "id": "C",
+        "text": "始めます",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「始」 (Thủy) ghép thành 「始めます (はじめます - bắt đầu)」."
+      },
+      {
+        "id": "D",
+        "text": "妹めま",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「妹」 (Muội) chỉ em gái."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "はじめます = 始めます",
+      "fullExplanationVi": "Động từ 「始める (はじめる)」 (bắt đầu) viết bằng chữ Kanji 「始」 (Thủy).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 始める.",
+      "translationVi": "Sẽ bắt đầu từ 9 giờ."
+    }
+  },
+  {
+    "id": "n4_vocab_ortho_012",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "orthography",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "orthography",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "ORTHOGRAPHY",
+      "categoryName": "Chính tả Kanji",
+      "displayLabel": "Chính tả Kanji: Động từ: 思う",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "下線の言葉は漢字でどう書きますか。",
+      "stem": "6. いつもあなたのことを<u>おもって</u>います。",
+      "underlinedText": "おもって"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "悲って",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「悲」 (Bi) trong 「悲しい (buồn)」."
+      },
+      {
+        "id": "B",
+        "text": "思って",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Chữ 「思」 (Tư) ghép thành 「思って (おもって - suy nghĩ)」."
+      },
+      {
+        "id": "C",
+        "text": "志って",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「志」 (Chí) trong 「意志 (ý chí)」."
+      },
+      {
+        "id": "D",
+        "text": "感って",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chữ 「感」 (Cảm) trong 「感じる (cảm thấy)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "おもって = 思って",
+      "fullExplanationVi": "Động từ 「思う (おもう)」 (nghĩ) viết bằng chữ Kanji 「思」 (Tư). Thể Te gấp âm là 「思って」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: 思う.",
+      "translationVi": "Tôi lúc nào cũng nghĩ về bạn."
+    }
+  }
+]

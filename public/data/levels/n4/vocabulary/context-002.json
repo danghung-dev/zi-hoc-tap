@@ -1,0 +1,515 @@
+[
+  {
+    "id": "n4_vocab_context_010",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Động từ: Ngã/Rơi",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "1. 子どもがかいだんから　（　）　けがをしました。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "おちて",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「おちて」 (rơi/ngã từ trên cao xuống) phù hợp khi nói ngã cầu thang (かいだんからおちて)."
+      },
+      {
+        "id": "B",
+        "text": "おりて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「おりて」 (đi xuống cầu thang) thì không dẫn đến bị thương nghiêm trọng theo cấu trúc nhân quả này."
+      },
+      {
+        "id": "C",
+        "text": "たおれて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「たおれて」 (đổ/ngã quỵ trên mặt phẳng đất), không đi với trợ từ 「から」."
+      },
+      {
+        "id": "D",
+        "text": "のって",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「のって」 (lên xe/tàu) không hợp ngữ cảnh."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "階段からおちて = ngã cầu thang",
+      "fullExplanationVi": "Động từ 「落ちる (おちる)」 biểu thị việc rơi/ngã từ vị trí cao xuống thấp (như cầu thang, ban công), phù hợp với trợ từ 「から」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: Ngã/Rơi.",
+      "translationVi": "Đứa trẻ bị ngã từ cầu thang xuống và bị thương."
+    }
+  },
+  {
+    "id": "n4_vocab_context_011",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Động từ: Treo tranh/lịch",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "2. かべに大きなカレンダーが　（　）　あります。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "つけて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「つけて」 (dán/đính vào). Thường đi với dán giấy, không tự nhiên với lịch treo tường lớn."
+      },
+      {
+        "id": "B",
+        "text": "しめて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「しめて」 (đóng cửa)."
+      },
+      {
+        "id": "C",
+        "text": "入って",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「入って」 (vào trong)."
+      },
+      {
+        "id": "D",
+        "text": "かけて",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「かけてあります」 là trạng thái đang được treo (壁にカレンダーがかけてあります)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "かけてあります = đang được treo",
+      "fullExplanationVi": "Cấu trúc 「V-てあります」 biểu thị trạng thái kết quả của một hành động có chủ ý. Động từ 「掛ける (かける)」 là treo lịch/tranh lên tường.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: Treo tranh/lịch.",
+      "translationVi": "Tờ lịch lớn được treo trên tường."
+    }
+  },
+  {
+    "id": "n4_vocab_context_012",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "collocation"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Cụm từ: Pha trà",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "3. ちょっとおまちください。今、おちゃを　（　）　から。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "つくります",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「つくります」 (chế tạo/nấu ăn) không đi với pha trà trực tiếp trong hội thoại mời khách này."
+      },
+      {
+        "id": "B",
+        "text": "いれます",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cụm từ 「お茶を入れる (おちゃをいれる)」 có nghĩa là pha trà."
+      },
+      {
+        "id": "C",
+        "text": "もちます",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「もちます」 (cầm/mang)."
+      },
+      {
+        "id": "D",
+        "text": "わきます",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「わきます」 (nước sôi - tự động từ, không dùng chủ động お茶をわく)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "お茶をいれる = pha trà",
+      "fullExplanationVi": "Pha trà/cà phê trong tiếng Nhật sử dụng động từ 「淹れる / 入れる (いれる)」 tạo thành cụm 「お茶を入れる」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cụm từ: Pha trà.",
+      "translationVi": "Xin vui lòng chờ một chút. Bây giờ tôi sẽ pha trà."
+    }
+  },
+  {
+    "id": "n4_vocab_context_013",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Thành ngữ: Bị cảm",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "4. かぜを　（　）　ときは、むりをしないでゆっくり休んでください。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ひいた",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cụm từ 「風邪をひく」 có nghĩa là bị cảm lạnh. Quá khứ là 「ひいた」."
+      },
+      {
+        "id": "B",
+        "text": "ふいた",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ふいた」 là thổi (gió thổi)."
+      },
+      {
+        "id": "C",
+        "text": "なった",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「なった」 là trở nên (không đi trực tiếp với 風邪を)."
+      },
+      {
+        "id": "D",
+        "text": "もった",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「もった」 là cầm/có."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "風邪をひく = bị cảm",
+      "fullExplanationVi": "Cụm từ cố định 「風邪をひく (かぜをひく)」 nghĩa là mắc bệnh cảm cúm/cảm lạnh.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Thành ngữ: Bị cảm.",
+      "translationVi": "Khi bị cảm, đừng làm việc quá sức mà hãy nghỉ ngơi thư thả."
+    }
+  },
+  {
+    "id": "n4_vocab_context_014",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Tính từ đuôi -na: Nhộn nhịp",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "5. このへんはレストランやみせがおおいので、よるも　（　）　です。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "おおい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「おおい」 (nhiều) đứng trước です không tạo nghĩa tự nhiên khi phía trước đã có レストランやみせがおおい."
+      },
+      {
+        "id": "B",
+        "text": "にぎやか",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「にぎやか」 (nhộn nhịp/sầm uất) miêu tả bầu không khí khu phố ban đêm."
+      },
+      {
+        "id": "C",
+        "text": "げんき",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「げんき」 (khỏe mạnh) dùng cho con người/động vật."
+      },
+      {
+        "id": "D",
+        "text": "じょうぶ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「じょうぶ」 (bền/chắc chắn) dùng cho đồ vật hoặc sức khỏe."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "にぎやか = nhộn nhịp",
+      "fullExplanationVi": "Tính từ đuôi -na 「にぎやか」 dùng để miêu tả một nơi chốn náo nhiệt, đông vui do có nhiều người, cửa hàng.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Tính từ đuôi -na: Nhộn nhịp.",
+      "translationVi": "Khu vực này có nhiều nhà hàng và cửa hàng nên ban đêm cũng nhộn nhịp."
+    }
+  },
+  {
+    "id": "n4_vocab_context_015",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Tính từ đuôi -i: Trông buồn bã",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "6. 山田さんはたいせつないぬがしんだので、とても　（　）　そうです。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "かなし",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Tính từ 「悲しい (かなしい - buồn)」 bỏ 「い」 thêm 「そう」 thành 「かなしそう」 (trông có vẻ buồn)."
+      },
+      {
+        "id": "B",
+        "text": "くるし",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「くるしい」 (đau đớn/khổ sở) bỏ 「い」 thành 「くるしそう」."
+      },
+      {
+        "id": "C",
+        "text": "いた",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いたい」 (đau) -> 「いたそう」."
+      },
+      {
+        "id": "D",
+        "text": "うるさ",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「うるさい」 (ồn ào) -> 「うるさそう」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "かなしそう = trông có vẻ buồn",
+      "fullExplanationVi": "Ngữ pháp 「A-い / Na + そう」 biểu thị dự đoán qua vẻ bề ngoài. 「悲しい」 bỏ 「い」 cộng 「そう」 tạo thành 「悲しそう」 (trông có vẻ buồn).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Tính từ đuôi -i: Trông buồn bã.",
+      "translationVi": "Vì chú chó cưng qua đời nên anh Yamada trông có vẻ rất buồn."
+    }
+  },
+  {
+    "id": "n4_vocab_context_016",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "vocabulary",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Động từ: Vắng vẻ/Trống",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "7. このみちはいつも　（　）　、車がおおくありません。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "いそがしくて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いそがしくて」 (bận rộn) dùng cho người."
+      },
+      {
+        "id": "B",
+        "text": "はしっていて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「はしっていて」 (chạy)."
+      },
+      {
+        "id": "C",
+        "text": "すいていて",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「すいていて」 (vắng vẻ, thoáng đãng - từ động từ 空く)."
+      },
+      {
+        "id": "D",
+        "text": "こんでいて",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「こんでいて」 (đông đúc - trái nghĩa với vắng xe)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "すいていて = vắng vẻ (đường sá)",
+      "fullExplanationVi": "Động từ 「空く (すく)」 chia ở thể Te-iru chỉ trạng thái đường sá vắng vẻ, ít phương tiện qua lại.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Động từ: Vắng vẻ/Trống.",
+      "translationVi": "Con đường này lúc nào cũng vắng vẻ, không có nhiều xe cộ."
+    }
+  },
+  {
+    "id": "n4_vocab_context_017",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Tính từ đuôi -i: Nguy hiểm",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "8. このみちは車がおおいので、　（　）　です。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "はやい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「はやい」 (nhanh)."
+      },
+      {
+        "id": "B",
+        "text": "あぶない",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「あぶない」 (nguy hiểm) vì có nhiều xe cộ đi lại."
+      },
+      {
+        "id": "C",
+        "text": "いそがしい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「いそがしい」 (bận rộn)."
+      },
+      {
+        "id": "D",
+        "text": "あかるい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「あかるい」 (sáng sủa)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "あぶない = nguy hiểm",
+      "fullExplanationVi": "Đường nhiều xe cộ qua lại thì gây nguy hiểm cho người đi bộ, tính từ phù hợp là 「危ない (あぶない)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Tính từ đuôi -i: Nguy hiểm.",
+      "translationVi": "Con đường này có nhiều xe cộ nên rất nguy hiểm."
+    }
+  },
+  {
+    "id": "n4_vocab_context_018",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "contextually_defined_expressions",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "CONTEXT_EXPRESSIONS",
+      "categoryName": "Mạch văn",
+      "displayLabel": "Mạch văn: Cơ thể: Thấp (chiều cao)",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "9. わたしはおとうとよりせが　（　）　です。",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "みじかい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「みじかい」 (ngắn) dùng cho chiều dài vật lý (sợi dây, thời gian)."
+      },
+      {
+        "id": "B",
+        "text": "ひくい",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cụm từ 「背が低い (せがひくい)」 nghĩa là chiều cao thấp/lùn."
+      },
+      {
+        "id": "C",
+        "text": "すくない",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「すくない」 (ít) dùng cho số lượng."
+      },
+      {
+        "id": "D",
+        "text": "よわい",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「よわい」 (yếu) dùng cho sức lực."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "背が低い = thấp, lùn",
+      "fullExplanationVi": "Để miêu tả chiều cao cơ thể người thấp/lùn, ta dùng cụm từ 「背が低い (せがひくい)」. Trái nghĩa là 「背が高い」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cơ thể: Thấp (chiều cao).",
+      "translationVi": "Tôi thấp hơn em trai tôi."
+    }
+  }
+]

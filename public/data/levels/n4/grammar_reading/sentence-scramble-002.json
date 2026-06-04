@@ -1,0 +1,341 @@
+[
+  {
+    "id": "n4_grammar_scramble_006",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp câu: どんなに勉強してもしすぎること...",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "★",
+        "____",
+        "____",
+        "____",
+        "ことはありません。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "どんなに"
+        },
+        {
+          "id": "B",
+          "text": "しすぎる"
+        },
+        {
+          "id": "C",
+          "text": "勉強"
+        },
+        {
+          "id": "D",
+          "text": "しても"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "correctStarFragmentId": "A",
+      "completedSentence": "どんなに勉強してもしすぎることはありません。",
+      "translationVi": "Dù học thế nào đi nữa cũng không bao giờ là quá nhiều.",
+      "shortExplanationVi": "Cụm cấu trúc đúng là 「どんなに勉強してもしすぎることはない」.",
+      "fullExplanationVi": "Cấu trúc 「どんなに〜しても 〜しすぎることはない」 nghĩa là 'dù có làm... thế nào đi nữa thì cũng không bao giờ là thừa/quá'. Thứ tự sắp xếp các từ là: どんなに (A) + 勉強 (C) + しても (D) + しすぎる (B). Vị trí ngôi sao ★ ở ô số 1 ứng với fragment A.",
+      "fragmentExplanationsVi": {
+        "A": "Trạng từ 「どんなに」 đi kèm với động từ chia thể Te-mo ở phía sau.",
+        "B": "Đứng trước 「ことはありません」 để tạo cụm 「しすぎることはない」.",
+        "C": "Danh từ 「勉強」 kết hợp với động từ しても.",
+        "D": "Động từ chia thể Te-mo (しても) kết hợp với どんなに ở đầu."
+      },
+      "trapVi": "Không nhận ra cụm cấu trúc kép 「どんなに〜ても〜しすぎることはない」."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_007",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp câu: 冬が来てゆきがふり始めました。...",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "冬が",
+        "____",
+        "____",
+        "____",
+        "★",
+        "始めました。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "が"
+        },
+        {
+          "id": "B",
+          "text": "来て"
+        },
+        {
+          "id": "C",
+          "text": "ゆき"
+        },
+        {
+          "id": "D",
+          "text": "ふり"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correctStarFragmentId": "D",
+      "completedSentence": "冬が来てゆきがふり始めました。",
+      "translationVi": "Mùa đông đến và tuyết đã bắt đầu rơi.",
+      "shortExplanationVi": "Cụm cấu trúc đúng là 「冬が来てゆきがふり始めました」.",
+      "fullExplanationVi": "Động từ ghép chỉ sự bắt đầu hành động: 「V-masu + 始める」 -> 「降り始める (ふり始める)」. Thứ tự sắp xếp là: 冬が + 来て (B) + ゆき (C) + が (A) + ふり (D) + 始めました. Vị trí ngôi sao ★ nằm ở ô số 4 ứng với fragment D.",
+      "fragmentExplanationsVi": {
+        "A": "Trợ từ 「が」 chỉ chủ ngữ tuyết 「ゆきが」 đi kèm động từ rơi 「ふる」.",
+        "B": "Động từ 「来る」 chia thể Te liên kết câu: 「冬が来て」 (mùa đông đến và...).",
+        "C": "Danh từ 「ゆき」 đóng vai trò chủ ngữ.",
+        "D": "Động từ 「降る」 bỏ ます đi với 始める thành 「降り始める」."
+      },
+      "trapVi": "Cần lưu ý thứ tự của cấu trúc V-masu + 始める."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_008",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp câu: このジュースはさとうが入ってい...",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "このジュースは",
+        "____",
+        "____",
+        "★",
+        "____",
+        "ので、あまくありません。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "が"
+        },
+        {
+          "id": "B",
+          "text": "さとう"
+        },
+        {
+          "id": "C",
+          "text": "入って"
+        },
+        {
+          "id": "D",
+          "text": "いない"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "correctStarFragmentId": "C",
+      "completedSentence": "このジュースはさとうが入っていないので、あまくありません。",
+      "translationVi": "Nước hoa quả này vì không có đường nên không ngọt.",
+      "shortExplanationVi": "Cụm từ đúng là 「さとうが入っていない」.",
+      "fullExplanationVi": "Cụm danh từ biểu thị thành phần: 「Nが入っている/いない」 (có/không có N). Thứ tự sắp xếp là: さとう (B) + が (A) + 入って (C) + いない (D) đứng trước 「ので」. Vị trí ngôi sao ★ ở ô số 3 ứng với fragment C.",
+      "fragmentExplanationsVi": {
+        "A": "Trợ từ 「が」 đi kèm chủ ngữ phụ 「さとう」.",
+        "B": "Danh từ 「さとう」 chỉ chất đường.",
+        "C": "Động từ 「入る」 chia thể Te-iru phủ định thành 「入っていない」.",
+        "D": "Từ phủ định 「いない」 kết thúc cụm bổ nghĩa trước ので."
+      },
+      "trapVi": "Chú ý cấu trúc bổ ngữ đứng trước trợ từ chỉ lý do 「ので」."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_009",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp câu: リーさんは何度も試験におちまし...",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "リーさんは何度も",
+        "____",
+        "____",
+        "____",
+        "★",
+        "あきらめませんでした。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "試験"
+        },
+        {
+          "id": "B",
+          "text": "に"
+        },
+        {
+          "id": "C",
+          "text": "が"
+        },
+        {
+          "id": "D",
+          "text": "おちました"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "correctStarFragmentId": "C",
+      "completedSentence": "リーさんは何度も試験におちましたが、あきらめませんでした。",
+      "translationVi": "Anh Lee mặc dù đã thi trượt nhiều lần nhưng vẫn không bỏ cuộc.",
+      "shortExplanationVi": "Cụm cấu trúc đúng là 「試験におちましたが」.",
+      "fullExplanationVi": "Cấu trúc chỉ sự tương phản đối lập: 「V-ta + が」 (mặc dù... nhưng...). Thi trượt đi kèm trợ từ に: 「試験に落ちる」. Thứ tự sắp xếp là: 試験 (A) + に (B) + おちました (D) + が (C). Vị trí ngôi sao ★ ở ô số 4 ứng với fragment C.",
+      "fragmentExplanationsVi": {
+        "A": "Danh từ 「試験」.",
+        "B": "Trợ từ 「に」 đi kèm động từ 落ちる.",
+        "C": "Trợ từ liên kết biểu thị đối lập nghịch lý 「が」.",
+        "D": "Động từ 「落ちる」 chia quá khứ lịch sự 「おちました」."
+      },
+      "trapVi": "Nhầm trợ từ 「が」 đứng đầu câu với trợ từ nối ngược nghĩa ở giữa câu."
+    }
+  },
+  {
+    "id": "n4_grammar_scramble_010",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_2_sentence_composition",
+    "uiTemplate": "sentence_scramble",
+    "difficulty": 3,
+    "tags": [
+      "scramble",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_SCRAMBLE",
+      "categoryName": "Sắp xếp câu",
+      "displayLabel": "Sắp xếp câu: この問題について何か質問はあり...",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "★に入るものはどれですか。",
+      "fixedParts": [
+        "この",
+        "★",
+        "____",
+        "____",
+        "____",
+        "質問はありませんか。"
+      ],
+      "fragments": [
+        {
+          "id": "A",
+          "text": "問題"
+        },
+        {
+          "id": "B",
+          "text": "に"
+        },
+        {
+          "id": "C",
+          "text": "何か"
+        },
+        {
+          "id": "D",
+          "text": "ついて"
+        }
+      ]
+    },
+    "answer": {
+      "correctOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "correctStarFragmentId": "A",
+      "completedSentence": "この問題について何か質問はありませんか。",
+      "translationVi": "Có ai có câu hỏi nào về vấn đề này không?",
+      "shortExplanationVi": "Cấu trúc đúng là 「問題について何か」.",
+      "fullExplanationVi": "Mẫu ngữ pháp nói về một chủ đề: 「Nについて」 (về N). Thứ tự sắp xếp là: この + 問題 (A) + に (B) + ついて (D) + 何か (C) + 質問はありませんか. Vị trí ngôi sao ★ ở ô số 1 ứng với fragment A.",
+      "fragmentExplanationsVi": {
+        "A": "Danh từ 「問題」 đứng sau chỉ định từ この.",
+        "B": "Trợ từ 「に」 nằm trong cụm について.",
+        "C": "Đại từ nghi vấn bất định 「何か」 (cái gì đó/nào đó) bổ nghĩa cho câu hỏi.",
+        "D": "Từ 「ついて」 kết thúc cấu trúc について."
+      },
+      "trapVi": "Không nắm vững cụm cố định 「〜について」."
+    }
+  }
+]

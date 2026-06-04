@@ -1,0 +1,866 @@
+[
+  {
+    "id": "n4_grammar_choice_016",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "request"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Yêu cầu lịch sự: 〜てください",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "1. \"A：　「先生、ボールペンで書いてもいいですか。」 B：　「いいえ、えんぴつで　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "書かないでください",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「書かないでください」 nghĩa là đừng viết, mâu thuẫn với câu trả lời đồng ý dùng bút chì."
+      },
+      {
+        "id": "B",
+        "text": "書いてもいいです",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「書いてもいいです」 nghĩa là viết cũng được, không tạo câu trả lời dứt khoát phủ định cho câu trước."
+      },
+      {
+        "id": "C",
+        "text": "書いてください",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「えんぴつで書いてください」 nghĩa là hãy viết bằng bút chì, phù hợp sau khi từ chối viết bằng bút bi."
+      },
+      {
+        "id": "D",
+        "text": "書いてはいけません",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「書いてはいけません」 (không được viết) quá cứng nhắc và lặp lại ý cấm đoán."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "書いてください = hãy viết",
+      "fullExplanationVi": "Khi từ chối đề nghị 「ボールペンで書いてもいいですか」 (viết bằng bút bi được không) bằng cách bảo dùngえんぴつ (bút chì), ta dùng cấu trúc yêu cầu lịch sự 「〜てください」 -> 「えんぴつで書いてください」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Yêu cầu lịch sự: 〜てください.",
+      "translationVi": "A: Thưa thầy, em viết bằng bút bi có được không ạ? B: Không, hãy viết bằng bút chì."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_017",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "direction"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Chỉ đường: 〜てください",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "2. \"A：　「すみません。駅はどっちでしょうか。」 B：　「まっすぐ行くと、広い道に出ますから、そこを右に　（　）　。\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "まがらないでください",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「まがらないでください」 (xin đừng rẽ)."
+      },
+      {
+        "id": "B",
+        "text": "まがってください",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「まがってください」 (xin hãy rẽ) dùng để chỉ dẫn giao thông lịch sự."
+      },
+      {
+        "id": "C",
+        "text": "まがってはいけません",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「まがってはいけません」 (không được rẽ) mang tính cấm đoán."
+      },
+      {
+        "id": "D",
+        "text": "まがらなくてもいいです",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「まがらなくてもいいです」 (không rẽ cũng được)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "まがってください = hãy rẽ",
+      "fullExplanationVi": "Để hướng dẫn lộ trình di chuyển lịch sự, ta dùng cấu trúc 「〜てください」 với động từ 「曲がる (まがる - rẽ)」 -> 「右に曲がってください (hãy rẽ phải)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Chỉ đường: 〜てください.",
+      "translationVi": "A: Xin lỗi. Ga đi đường nào ạ? B: Đi thẳng sẽ ra một con đường rộng, nên hãy rẽ phải ở đó."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_018",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tense",
+      "negative"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Phủ định hiện tại: まだ〜ていません",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "3. \"A：　「キムさん、この本、もう読みましたか。」 B：　「いいえ、まだ1ページも　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "読んでいません",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「まだ + V-ていません」 dùng để diễn tả một hành động vẫn chưa xảy ra cho tới thời điểm hiện tại."
+      },
+      {
+        "id": "B",
+        "text": "読んでいます",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「読んでいます」 nghĩa là đang đọc."
+      },
+      {
+        "id": "C",
+        "text": "読みません",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「読みません」 nghĩa là sẽ không đọc (chỉ ý chí tương lai hoặc thói quen)."
+      },
+      {
+        "id": "D",
+        "text": "読みませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「読みませんでした」 (đã không đọc) chỉ đơn thuần kể lại sự việc quá khứ, không đi với まだ biểu thị trạng thái chưa hoàn thành."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "読んでいません = chưa đọc",
+      "fullExplanationVi": "Cấu trúc biểu thị một sự việc vẫn chưa xảy ra tính tới thời điểm nói là 「まだ + V-ていません」. Câu trả lời 'chưa đọc một trang nào' dùng 「読んでいません」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Phủ định hiện tại: まだ〜ていません.",
+      "translationVi": "A: Anh Kim đã đọc cuốn sách này chưa? B: Chưa, tôi vẫn chưa đọc một trang nào cả."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_019",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "verb",
+      "past"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Thì quá khứ: 〜ませんでした",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "4. \"A：　「ヤンさん、じしょを貸してくれませんか。」 B：　「ごめんなさい。今日じしょ、　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "持ってきません",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「持ってきません」 (sẽ không mang đi)."
+      },
+      {
+        "id": "B",
+        "text": "持ってきました",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「持ってきました」 (đã mang đi) thì mâu thuẫn với lời từ chối xin lỗi."
+      },
+      {
+        "id": "C",
+        "text": "持ってきます",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「持ってきます」 (sẽ mang đi)."
+      },
+      {
+        "id": "D",
+        "text": "持ってきませんでした",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「持ってきませんでした」 (tôi đã không mang theo) là lý do phù hợp giải thích cho việc không thể cho mượn từ điển."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "持ってきませんでした = đã không mang theo",
+      "fullExplanationVi": "Để giải thích lý do không mang từ điển đi học ngày hôm nay (hành động quên ở nhà đã xảy ra trong quá khứ), ta chia động từ 「持ってくる」 sang phủ định quá khứ 「持ってきませんでした」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Thì quá khứ: 〜ませんでした.",
+      "translationVi": "A: Bạn Yang, cho tôi mượn cuốn từ điển được không? B: Xin lỗi nhé. Hôm nay tôi không mang theo từ điển."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_020",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "aspect",
+      "change"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Sự chuyển biến: 〜てきました",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "5. \"A：　「もうすぐ3月ですね。」 B：　「だいぶあたたかく　（　）　ね。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "なってきませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định quá khứ của chuyển biến."
+      },
+      {
+        "id": "B",
+        "text": "なってきません",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định chuyển biến."
+      },
+      {
+        "id": "C",
+        "text": "なってきます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hướng tương lai."
+      },
+      {
+        "id": "D",
+        "text": "なってきました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc 「V-てくる」 chỉ sự chuyển biến trạng thái kéo dài từ quá khứ đến hiện tại. Đã trở nên ấm áp: 「あたたかくなってきました」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "なってきました = đã trở nên (ấm áp)",
+      "fullExplanationVi": "Mẫu ngữ pháp 「V-てくる」 diễn tả sự biến đổi trạng thái kéo dài từ quá khứ và thể hiện rõ rệt ở hiện tại. Thời tiết đang ấm dần lên: 「あたたかくなってきました」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Sự chuyển biến: 〜てきました.",
+      "translationVi": "A: Sắp tới tháng 3 rồi nhỉ. B: Trời đã trở nên ấm áp hẳn lên rồi nhỉ."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_021",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "volitional",
+      "try"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Ý chí/Thử làm: 〜てみましょう",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "6. \"A：　「リーさん、おそいですねえ。」 B：　「そうですねえ。あと10分　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "待ってみましょう",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Kết hợp cấu trúc thử làm 「V-てみる」 với đuôi rủ rê 「〜ましょう」 tạo thành 「待ってみましょう」 (Chúng ta hãy cùng chờ thử xem)."
+      },
+      {
+        "id": "B",
+        "text": "待ってみません",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định rủ rê."
+      },
+      {
+        "id": "C",
+        "text": "待ってみました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Kể lại hành động trong quá khứ."
+      },
+      {
+        "id": "D",
+        "text": "待ってみませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. Kể lại phủ định trong quá khứ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "待ってみましょう = hãy cùng đợi thử",
+      "fullExplanationVi": "Cấu trúc thử làm gì đó là 「V-てみる」. Khi rủ rê cùng thử làm gì, ta chuyển đuôi thành 「〜ましょう」 -> 「待ってみましょう」 (hãy thử đợi cùng xem sao).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Ý chí/Thử làm: 〜てみましょう.",
+      "translationVi": "A: Bạn Lee muộn quá nhỉ. B: Ừ nhỉ. Chúng ta hãy thử đợi thêm 10 phút nữa xem sao."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_022",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "regret"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Đáng tiếc/Lỡ làm: 〜てしまいました",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "7. \"A：　「どうしたんですか。大きな音がしましたが。」 B：　「すみません。コップをおとして　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "わってしまいました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Động từ 「割る (わる - làm vỡ)」 chia sang cấu trúc nuối tiếc 「V-てしまう」 ở quá khứ: 「わってしまいました」 (lỡ làm vỡ mất rồi)."
+      },
+      {
+        "id": "B",
+        "text": "わってしまいませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định quá khứ."
+      },
+      {
+        "id": "C",
+        "text": "わってしまいません",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định hiện tại."
+      },
+      {
+        "id": "D",
+        "text": "わります",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chia thể lịch sự thông thường, không thể hiện cảm xúc nuối tiếc."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "わってしまいました = lỡ làm vỡ mất rồi",
+      "fullExplanationVi": "Động từ 「割る (わる - làm vỡ)」 chia sang thể Te-shimau biểu thị hành động lỡ xảy ra ngoài ý muốn và gây ra sự đáng tiếc: 「わってしまいました」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Đáng tiếc/Lỡ làm: 〜てしまいました.",
+      "translationVi": "A: Có chuyện gì thế? Tôi nghe thấy tiếng động lớn. B: Xin lỗi. Tôi lỡ làm rơi cái cốc và làm vỡ mất rồi."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_023",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "aspect",
+      "complete"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Hoàn thành: 〜てしまいました",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "8. \"A：　「そのざっし、おもしろいですか。」 B：　「はい。もう　（　）　から、よかったらどうぞ。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "読んでしまいます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Diễn tả hành động sẽ hoàn thành trong tương lai."
+      },
+      {
+        "id": "B",
+        "text": "読んでしまいました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「読んでしまいました」 (đã đọc xong rồi) thể hiện hành động đã hoàn thành trọn vẹn trong quá khứ."
+      },
+      {
+        "id": "C",
+        "text": "読んでいます",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「読んでいます」 (đang đọc/đã đọc)."
+      },
+      {
+        "id": "D",
+        "text": "読んでいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「読んでいました」 (quá khứ tiếp diễn)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "読んでしまいました = đã đọc xong",
+      "fullExplanationVi": "Cấu trúc 「V-てしまう」 ngoài ý nghĩa nuối tiếc còn dùng để nhấn mạnh sự hoàn thành trọn vẹn của hành động. 「読んでしまいました」 nghĩa là đã đọc xong hoàn toàn.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Hoàn thành: 〜てしまいました.",
+      "translationVi": "A: Cuốn tạp chí đó có hay không? B: Có. Tôi đã đọc xong rồi nên nếu được thì xin mời bạn lấy đi."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_024",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "preparation"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Chuẩn bị sẵn: 〜ておいてください",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "9. \"A：　「読んだ本はどうしたらいいですか。」 B：　「ああ、自分でたなに　（　）　ください。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "もどしてあって",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cấu trúc trạng thái 「V-てある」 không đi với ください."
+      },
+      {
+        "id": "B",
+        "text": "もどしていて",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trạng thái tiếp diễn 「V-ている」."
+      },
+      {
+        "id": "C",
+        "text": "もどしてみて",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trạng thái thử làm 「V-てみる」."
+      },
+      {
+        "id": "D",
+        "text": "もどしておいて",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc chuẩn bị trước hoặc để nguyên trạng thái 「V-ておく」 chia thể yêu cầu: 「もどしておいてください」 (hãy cất trả lại giá sách sẵn nhé)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "もどしておいてください = hãy cất lại sẵn nhé",
+      "fullExplanationVi": "Cấu trúc 「V-ておく」 biểu thị hành động chuẩn bị trước hoặc xử lý đồ vật để phục vụ mục đích sau đó. Cất sách lại kệ sẵn: 「もどしておいてください」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Chuẩn bị sẵn: 〜ておいてください.",
+      "translationVi": "A: Sách đọc xong rồi thì nên làm thế nào ạ? B: À, hãy tự cất trả lại giá sách nhé."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_025",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "aspect",
+      "continuation"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Xu hướng: 〜ていく",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "10. \"A：　「おんだんかって何ですか。」 B：　「世界中できおんが　（　）　ことです。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "上がらない",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định."
+      },
+      {
+        "id": "B",
+        "text": "上がっていった",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hướng từ quá khứ tới hiện tại."
+      },
+      {
+        "id": "C",
+        "text": "上がっていく",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc biến đổi đi xa hoặc hướng tới tương lai 「V-ていく」. Nhiệt độ trên thế giới đang tiếp tục tăng lên: 「上がっていく」."
+      },
+      {
+        "id": "D",
+        "text": "上がっていない",
+        "isCorrect": false,
+        "explanationVi": "Sai. Trạng thái chưa tăng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "上がっていく = tăng lên (hướng tương lai)",
+      "fullExplanationVi": "Mẫu ngữ pháp 「V-ていく」 diễn tả sự biến đổi tiếp diễn từ hiện tại hướng tới tương lai. Hiện tượng nóng lên toàn cầu làm nhiệt độ tiếp tục tăng lên: 「上がっていく」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Xu hướng: 〜ていく.",
+      "translationVi": "A: Ấm lên toàn cầu là gì thế? B: Là việc nhiệt độ trên khắp thế giới đang tiếp tục tăng lên."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_026",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "passive"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Thể bị động: 〜られています",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "11. \"A：　「田中さん、それ、なんですか。」 B：　「これですか。にんぎょうです。木と紙で　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "作られています",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Thể bị động của 「作る」 là 「作られる」. Khi mô tả chất liệu sản xuất của đồ vật: 「木と紙で作られています」."
+      },
+      {
+        "id": "B",
+        "text": "作られていません",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bị động phủ định."
+      },
+      {
+        "id": "C",
+        "text": "作られていました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bị động quá khứ."
+      },
+      {
+        "id": "D",
+        "text": "作られていませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bị động phủ định quá khứ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "作られています = được làm bằng (chất liệu)",
+      "fullExplanationVi": "Cấu trúc bị động chỉ chất liệu làm nên vật dụng là 「Nで/から作られている」. Chủ ngữ là人形 (búp bê) số nhiều hoặc không xác định nên dùng thể bị động tiếp diễn 「作られています」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Thể bị động: 〜られています.",
+      "translationVi": "A: Anh Tanaka, đó là gì thế? B: Cái này á? Là búp bê. Nó được làm bằng gỗ và giấy."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_027",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "passive",
+      "adversative"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Bị động gián tiếp: 〜られました",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "12. \"A：　「あら、どうしたの。ずいぶんぬれて。」 B：　「雨に　（　）　。かさを持っていなかったので。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ふります",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể thông thường chủ động."
+      },
+      {
+        "id": "B",
+        "text": "ふりました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể quá khứ chủ động."
+      },
+      {
+        "id": "C",
+        "text": "ふられます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể bị động hiện tại."
+      },
+      {
+        "id": "D",
+        "text": "ふられました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc bị động gián tiếp (bị động gây phiền toái): 「雨に降られました (あめにふられました)」 nghĩa là tôi bị dính mưa."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "雨に降られました = bị dính mưa",
+      "fullExplanationVi": "Bị động gián tiếp (bị động hại) dùng để diễn tả một sự việc khách quan xảy ra gây phiền toái cho người nói. 「雨に降られる」 nghĩa là bị mưa làm ướt.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Bị động gián tiếp: 〜られました.",
+      "translationVi": "A: Ơ kìa, bị sao thế? Ướt sũng thế kia. B: Tôi bị dính mưa. Vì tôi không mang theo ô."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_028",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "causative",
+      "request"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Sai khiến phủ định: 〜させないで",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "13. \"A：　「ただいま。」 B：　「ずいぶんおそかったわね。あまり　（　）　ね。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "しんばいしないで",
+        "isCorrect": false,
+        "explanationVi": "Sai. Động từ khuyên ngăn thông thường: đừng lo lắng."
+      },
+      {
+        "id": "B",
+        "text": "しんばいさせないで",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Thể sai khiến của 「心配する」 là 「心配させる」. 「心配させないで」 nghĩa là đừng làm tôi lo lắng."
+      },
+      {
+        "id": "C",
+        "text": "しんばいさせて",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hãy để tôi lo lắng."
+      },
+      {
+        "id": "D",
+        "text": "しんばいして",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hãy lo lắng đi."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "しんばいさせないで = đừng làm lo lắng",
+      "fullExplanationVi": "Thể sai khiến của 「心配する」 là 「心配させる」. Kết hợp thể cấm đoán nhẹ nhàng 「〜ないでね」 thành 「心配させないでね」 (đừng làm mẹ lo lắng nhé).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Sai khiến phủ định: 〜させないで.",
+      "translationVi": "A: Con về rồi đây. B: Muộn quá đấy nhé. Đừng làm mọi người lo lắng chứ."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_029",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "causative",
+      "habit"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Cấu trúc sai khiến: 〜させています",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "14. \"A：　「どの教室もきれいですね。」 B：　「この学校では学生にそうじを　（　）　から。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "させています",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Thể sai khiến 「学生にそうじをさせる」 chỉ việc giáo viên bắt/cho học sinh dọn dẹp. Đuôi 「ている」 chỉ quy định lặp đi lặp lại: 「させています」."
+      },
+      {
+        "id": "B",
+        "text": "させていました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Diễn tả hành động trong quá khứ."
+      },
+      {
+        "id": "C",
+        "text": "します",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể chủ động thông thường."
+      },
+      {
+        "id": "D",
+        "text": "しました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể chủ động quá khứ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "させています = đang bắt làm (sai khiến)",
+      "fullExplanationVi": "Cấu trúc sai khiến 「学生にそうじをさせる」 (bắt học sinh dọn dẹp) kết hợp với đuôi 「〜ています」 để chỉ một quy định, thói quen lặp đi lặp lại ở trường học.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cấu trúc sai khiến: 〜させています.",
+      "translationVi": "A: Các lớp học đều sạch sẽ nhỉ. B: Vì ở trường này, người ta bắt học sinh phải dọn dẹp mà."
+    }
+  },
+  {
+    "id": "n4_grammar_choice_030",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "sentential_grammar_1",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "giving-receiving"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "GRAMMAR_CHOICE",
+      "categoryName": "Ngữ pháp câu",
+      "displayLabel": "Ngữ pháp câu: Cho nhận: 〜てもらいました",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "（　）に何を入れますか。",
+      "stem": "15. \"A：　「リーさん、そのぼうし、すてきですね。」 B：　「これですか。兄に　（　）　。」\"",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "もらいませんでした",
+        "isCorrect": false,
+        "explanationVi": "Sai. Phủ định nhận."
+      },
+      {
+        "id": "B",
+        "text": "もらわれました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thể bị động."
+      },
+      {
+        "id": "C",
+        "text": "もらいました",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cấu trúc nhận được hành động từ ai đó 「Nに V-てもらいました」 -> 「兄にもらいました」 (tôi được anh trai tặng)."
+      },
+      {
+        "id": "D",
+        "text": "もらいます",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thời tương lai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "もらいました = đã nhận được",
+      "fullExplanationVi": "Cấu trúc nhận được đồ vật hoặc hành động từ ai đó: 「N1は N2に/から Oをもらう」. Người nói nhận chiếc mũ từ anh trai nên dùng 「兄にもらいました」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cho nhận: 〜てもらいました.",
+      "translationVi": "A: Bạn Lee, chiếc mũ đó đẹp thế nhỉ. B: Cái này á? Tôi được anh trai tặng đấy."
+    }
+  }
+]

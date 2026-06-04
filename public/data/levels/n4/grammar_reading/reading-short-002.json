@@ -1,0 +1,250 @@
+[
+  {
+    "id": "n4_grammar_reading_short_005",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "READING_SHORT",
+      "categoryName": "Đọc hiểu đoạn ngắn",
+      "displayLabel": "Đọc hiểu đoạn ngắn: レイ君と絵本",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "レイ君と絵本",
+      "text": "私が働いている保育国に、一歳のレイ君という男の子がいます。レイ君は、白雪姫 （しらゆきひめ） の絵本が大好きです。私が白雪姫の絵本を読んであげると、悪い女王が怖い顔をしているページで、レイ君はいつも 「ママ」 と言って指をさします。 ある日、レイ君のお母さんに 「レイ君は白雪姫の絵本を見ると、いつも 「ママ」 というんですよ」 と話すと、お母さんはうれしそうに笑いました。どのページのことかは、言わないことにしました。",
+      "translationVi": "Tại nhà trẻ nơi tôi làm việc, có một bé trai 1 tuổi tên là Rei. Rei rất thích cuốn sách truyện tranh Nàng Bạch Tuyết. Khi tôi đọc truyện Nàng Bạch Tuyết cho cậu bé nghe, ở trang mụ hoàng hậu độc ác đang làm bộ mặt đáng sợ, Rei luôn chỉ tay và nói \"Mẹ\". Một ngày nọ, khi tôi nói chuyện với mẹ của Rei rằng \"Bé Rei hễ xem truyện Nàng Bạch Tuyết là lại gọi 'Mẹ' đấy ạ\", người mẹ đã cười trông rất hạnh phúc. Tôi đã quyết định không nói cho cô ấy biết đó là trang nào."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "レイ君のお母さんはどうしてうれしそうに笑いましたか。",
+        "questionTranslationVi": "Tại sao mẹ của bé Rei lại mỉm cười trông rất hạnh phúc?",
+        "options": [
+          {
+            "id": "A",
+            "text": "私がレイ君に絵本を読んであげるから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc cô giáo đọc truyện cho con nghe không phải lý do chính khiến người mẹ cười hạnh phúc theo câu chuyện gọi mẹ."
+          },
+          {
+            "id": "B",
+            "text": "レイ君は白雪姫が好きだから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Mẹ vui mừng không đơn giản chỉ vì con thích truyện Bạch Tuyết."
+          },
+          {
+            "id": "C",
+            "text": "レイ君が白雪姫を 「ママ」 といったと思ったから。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Vì cô giáo không nói rõ là Rei chỉ vào mụ hoàng hậu độc ác, nên người mẹ nghĩ rằng con trai mình đã chỉ vào Nàng Bạch Tuyết xinh đẹp và gọi 'Mẹ'."
+          },
+          {
+            "id": "D",
+            "text": "レイ君が悪い女王を 「ママ」 といったと思ったから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Nếu người mẹ biết con mình gọi mụ hoàng hậu độc ác đáng sợ là 'Mẹ' thì cô ấy sẽ không cười vui vẻ như vậy."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "レイ君のお母さんに 「レイ君は白雪姫の絵本を見ると、いつも 「ママ」 というんですよ」 と話すと、お母さんはうれしそうに笑いました。どのページのことかは、言わないことにしました。",
+          "strategyVi": "Phân tích tâm lý nhân vật: Người mẹ chỉ được nghe kể rằng con mình nhìn vào cuốn sách truyện Bạch Tuyết rồi gọi 'Mẹ'. Vì không biết con gọi ở trang mụ hoàng hậu độc ác, người mẹ mặc định nghĩ con mình liên tưởng mẹ xinh đẹp như Bạch Tuyết, dẫn đến nụ cười hạnh phúc."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_006",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "READING_SHORT",
+      "categoryName": "Đọc hiểu đoạn ngắn",
+      "displayLabel": "Đọc hiểu đoạn ngắn: 母の日",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "母の日",
+      "text": "先週の日曜日は母の日でした。私は、日曜日は用事があったので、土曜日に母が好きな料理を作ってあげました。姉は仕事でパリに行っていたので、母にメールだけ送り、帰国したあと、バリで買ったバッグをあげました。弟は 「なんでもしてあげます」 と書いた紙を五あげました。母が弟に 「じゃ、今度のテストでは100点取ってくれる？」 というと、弟は 「あ、それは無理！」 と答えました。",
+      "translationVi": "Chủ nhật tuần trước là Ngày của Mẹ. Vì tôi bận việc vào ngày Chủ nhật nên đã nấu món ăn mẹ thích vào thứ Bảy tặng mẹ. Chị gái tôi vì đi công tác ở Paris nên chỉ gửi email cho mẹ, sau khi về nước mới tặng chiếc túi xách mua ở Paris. Em trai tôi thì tặng 5 tờ giấy có viết \"Con sẽ làm bất cứ điều gì cho mẹ\". Khi mẹ bảo em trai \"Vậy kỳ thi tới con đạt 100 điểm nhé?\", em trai trả lời ngay \"A, việc đó thì không thể nào!\"."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "先週の日曜日について書かれていることはどれですか。",
+        "questionTranslationVi": "Điều nào được viết chính xác về ngày Chủ nhật tuần trước?",
+        "options": [
+          {
+            "id": "A",
+            "text": "母は姉にバッグをもらいました。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Người mẹ nhận được túi xách sau khi chị gái đi công tác ở Paris về nước chứ không phải vào ngày Chủ nhật."
+          },
+          {
+            "id": "B",
+            "text": "弟は母のために100点を取ってあげました。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Em trai từ chối thẳng thừng vì cho rằng điều đó là không thể."
+          },
+          {
+            "id": "C",
+            "text": "母は姉にメールをもらいました。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Vào ngày Chủ nhật (Ngày của Mẹ), người chị đang ở Paris đã gửi email chúc mừng cho mẹ."
+          },
+          {
+            "id": "D",
+            "text": "\"私は母に料理を作ってあげました。 \"",
+            "isCorrect": false,
+            "explanationVi": "Sai. Người viết nấu ăn cho mẹ vào ngày thứ Bảy (土曜日に) chứ không phải ngày Chủ nhật."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "姉は仕事でパリに行っていたので、母にメールだけ送り、帰国したあと、バリで買ったバッグをあげました。",
+          "strategyVi": "Tìm thông tin tương thích với mốc thời gian 'Chủ nhật tuần trước' (先週の日曜日 - Ngày của Mẹ). Đối chiếu hành động của từng người: người viết nấu ăn vào thứ Bảy; chị gái gửi mail vào Chủ nhật và tặng quà sau khi về nước; em trai chỉ hứa suông."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_007",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "READING_SHORT",
+      "categoryName": "Đọc hiểu đoạn ngắn",
+      "displayLabel": "Đọc hiểu đoạn ngắn: 新しい本屋",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "新しい本屋",
+      "text": "近所に本屋ができた。そこは壁いっばいに本棚があって、真ん中にソファーとテーブルがあり、コーヒーも飲める。まるで喫茶店で本を読んでいるようだ。 店を始めた中村さんは、自分の部屋にいるような本屋を作るのが夢だったそうだ。この近くには、いい本屋がなかったので、近所の人がその本やに集まるようになった。",
+      "translationVi": "Một hiệu sách mới mở ở gần nhà tôi. Ở đó có giá sách cao đầy tường, ở chính giữa có sofa và bàn uống nước, còn có thể uống cà phê nữa. Giống hệt như đang đọc sách ở quán cà phê vậy. Nghe nói anh Nakamura, người mở cửa hàng, có ước mơ tạo ra một hiệu sách đem lại cảm giác thoải mái giống như đang ở trong phòng của chính mình. Xung quanh đây trước giờ không có hiệu sách tốt nào cả, nên người dân trong khu phố đã bắt đầu tụ tập ở hiệu sách đó."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "中村さんはどうしてこの本屋を作りましたか。",
+        "questionTranslationVi": "Tại sao anh Nakamura lại tạo dựng nên hiệu sách này?",
+        "options": [
+          {
+            "id": "A",
+            "text": "自分の部屋にいるような本屋を作りたかったから。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Trong bài nêu rõ ước mơ của anh là tạo ra một hiệu sách ấm cúng như trong chính căn phòng của mình."
+          },
+          {
+            "id": "B",
+            "text": "喫茶店のような本屋を作りたかったから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cảm giác như quán cà phê chỉ là cảm nhận của khách hàng, không phải mục tiêu chính của chủ quán."
+          },
+          {
+            "id": "C",
+            "text": "周りにいい本屋がなかったから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc xung quanh không có hiệu sách tốt là lý do khiến người dân tụ tập đông đúc, không phải động cơ mở quán của Nakamura."
+          },
+          {
+            "id": "D",
+            "text": "近所の人が集まる本屋やを作りたかったから。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc mọi người tập trung là kết quả sau khi mở tiệm."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceText": "店を始めた中村さんは、自分の部屋にいるような本屋を作るのが夢だったそうだ。",
+          "strategyVi": "Định vị từ khóa chỉ mục đích, động cơ mở tiệm của Nakamura: 「夢だったそうだ (nghe nói đó là ước mơ) -> 自分の部屋にいるような本屋を作ること」."
+        }
+      }
+    ]
+  },
+  {
+    "id": "n4_grammar_reading_short_008",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_short_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "short"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "READING_SHORT",
+      "categoryName": "Đọc hiểu đoạn ngắn",
+      "displayLabel": "Đọc hiểu đoạn ngắn: 花の育て方",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "花の育て方",
+      "text": "友達から花をもらいました。紙にこの花の育て方が書いてあります。 寒いところに置かないでください。外が10℃以下になったら、家の中に入れてください。水は毎日やらなくてもいいです。土が乾いてきたら、やってください。多すぎるとよくないです。水をやるときは、葉や花に水がかからないように注意しましょう。 日の光が当たる明るいところに置けば、きれいな花がたくさん咲きます。花が咲き終わったら、その花ははさみで切ってください。",
+      "translationVi": "Tôi nhận được một chậu hoa từ người bạn. Trên tờ giấy có ghi hướng dẫn cách nuôi trồng loài hoa này. Đừng để chậu hoa ở nơi lạnh. Nếu nhiệt độ ngoài trời xuống dưới 10 độ C, hãy mang hoa vào trong nhà. Nước không cần phải tưới hàng ngày. Khi đất bắt đầu khô thì hãy tưới nước. Tưới nhiều nước quá cũng không tốt. Khi tưới nước, chú ý không để nước dính vào lá và hoa. Nếu đặt ở nơi sáng sủa có ánh nắng mặt trời chiếu vào, nhiều hoa đẹp sẽ nở. Khi hoa tàn, hãy dùng kéo cắt bông hoa đó đi."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "この花を育てるとき、やってもいいことはなんですか。",
+        "questionTranslationVi": "Khi nuôi chậu hoa này, hành động nào sau đây ĐƯỢC PHÉP thực hiện?",
+        "options": [
+          {
+            "id": "A",
+            "text": "寒くても家の外に置きます。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Bài viết yêu cầu nếu dưới 10 độ phải mang vào trong nhà."
+          },
+          {
+            "id": "B",
+            "text": "毎日水をたくさんやります。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Tưới nhiều nước quá không tốt và không cần tưới hàng ngày."
+          },
+          {
+            "id": "C",
+            "text": "明るいところに置きます。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Đặt chậu hoa ở nơi sáng sủa đón ánh nắng mặt trời giúp hoa nở đẹp."
+          },
+          {
+            "id": "D",
+            "text": "咲いている花をはさみで切ります。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chỉ cắt những bông hoa đã tàn (咲き終わったら) chứ không cắt hoa đang nở."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "日の光が当たる明るいところに置けば、きれいな花がたくさん咲きます。",
+          "strategyVi": "Đối chiếu 4 lựa chọn với các quy định nuôi hoa: không để nơi lạnh (<10 độ mang vào nhà); tưới nước khi đất khô (không tưới quá nhiều); tránh tưới trực tiếp lên hoa/lá; đặt nơi sáng sủa; chỉ cắt hoa tàn."
+        }
+      }
+    ]
+  }
+]

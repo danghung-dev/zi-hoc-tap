@@ -1,0 +1,287 @@
+[
+  {
+    "id": "n4_vocab_usage_006",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "usage",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE",
+      "categoryName": "Cách dùng từ",
+      "displayLabel": "Cách dùng từ: Cách dùng: 楽しい",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "1. <b>楽しい</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "プレゼントをもらって楽しいです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nhận quà đem lại niềm vui sướng nhất thời, nên dùng 「嬉しい (うれしい)」."
+      },
+      {
+        "id": "B",
+        "text": "てとも楽しいごはんを食べました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Bữa ăn ngon thì dùng 「美味しい」. Cụm 「楽しいごはん」 không tự nhiên."
+      },
+      {
+        "id": "C",
+        "text": "びょうきがなおって楽しかったです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hết bệnh thì dùng 「嬉しい」 hoặc 「安心した」."
+      },
+      {
+        "id": "D",
+        "text": "きのうのパーティーは楽しかったです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「楽しい」 dùng để tả tính chất vui vẻ của một sự kiện/trải nghiệm như bữa tiệc (パーティーは楽しかったです)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "楽しい = vui vẻ (chỉ hoạt động/sự kiện)",
+      "fullExplanationVi": "Tính từ 「楽しい (たのしい)」 dùng để miêu tả tính chất vui vẻ, hào hứng của một sự việc, hoạt động trải nghiệm (như tiệc tùng, chuyến đi, bộ phim).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cách dùng: 楽しい.",
+      "translationVi": "Bữa tiệc ngày hôm qua rất vui vẻ."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_007",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "usage",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE",
+      "categoryName": "Cách dùng từ",
+      "displayLabel": "Cách dùng từ: Cách dùng: 便利",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "2. <b>便利</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "便利なひとをたくさん集めてください。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Không dùng 「便利な人」 để tả người. Dùng 「役に立つ人 (người có ích)」 hoặc 「優秀な人 (người ưu tú)」."
+      },
+      {
+        "id": "B",
+        "text": "アパートですから便利な駅に近いです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nên diễn đạt là 「駅に近くて便利です (gần ga nên tiện lợi)」."
+      },
+      {
+        "id": "C",
+        "text": "これはなんでも開けられる便利などうぐです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Biểu thị một công cụ giúp ích, tạo sự dễ dàng tiện lợi khi sử dụng (便利などうぐ)."
+      },
+      {
+        "id": "D",
+        "text": "このバスは駅まで便利です。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nên diễn đạt là 「駅まで行くのに便利です (tiện cho việc đi đến ga)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "便利 = tiện lợi (chỉ tính chất công cụ/nơi chốn)",
+      "fullExplanationVi": "Tính từ đuôi -na 「便利 (べんり)」 nghĩa là tiện lợi, dùng cho đồ vật/công cụ giúp ích hoặc địa điểm đi lại thuận tiện.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cách dùng: 便利.",
+      "translationVi": "Đây là một dụng cụ tiện lợi có thể mở được bất cứ thứ gì."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_008",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "usage",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE",
+      "categoryName": "Cách dùng từ",
+      "displayLabel": "Cách dùng từ: Cách dùng: 連絡",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "3. <b>れんらく</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ジムさんはれんらくが上手ですから友たちがたくださんいます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Giao tiếp tốt/khéo léo dùng 「コミュニケーションが上手」."
+      },
+      {
+        "id": "B",
+        "text": "にもつが着いたらすぐにれんらくをください。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Cụm 「連絡をください」 nghĩa là 'hãy liên lạc cho tôi'."
+      },
+      {
+        "id": "C",
+        "text": "ゆうきょくから手紙でれんらくにしました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nên nói là 「連絡がありました」 hoặc 「連絡がきました」."
+      },
+      {
+        "id": "D",
+        "text": "友だちのれんらくが好きですから電話を持っています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thích trò chuyện/trao đổi dùng 「連絡を取り合うのが好き」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "連絡をください = hãy liên lạc cho tôi",
+      "fullExplanationVi": "Danh từ/Động từ nhóm 3 「連絡 (れんらく)」 chỉ hành động thông tin liên lạc. Cụm 「連絡をください」 dùng để yêu cầu đối phương liên lạc với mình.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cách dùng: 連絡.",
+      "translationVi": "Ngay sau khi hành lý đến nơi thì hãy liên lạc ngay cho tôi nhé."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_009",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "usage",
+      "noun"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE",
+      "categoryName": "Cách dùng từ",
+      "displayLabel": "Cách dùng từ: Cách dùng: 約束",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "4. <b>やくそく</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "あの人がメイさんのやくそくの人です。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chỉ người hẹn ước kết hôn dùng 「婚約者」."
+      },
+      {
+        "id": "B",
+        "text": "やくそくをやったのにやぶられてしまいました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Hứa hẹn dùng động từ 「約束をする / 約束を守る」 chứ không dùng 約束をやる."
+      },
+      {
+        "id": "C",
+        "text": "サムさんとやくそくになったらうれしいです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Không dùng 約束になる trong ngữ cảnh này."
+      },
+      {
+        "id": "D",
+        "text": "やくそくをしたらまもらなければなりません。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Giữ lời hứa dùng cụm 「約束を守る (やくそくをまもる)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "約束を守る = giữ lời hứa",
+      "fullExplanationVi": "Danh từ 「約束 (やくそく)」 nghĩa là lời hứa. Đi với động từ 「守る (まもる - bảo vệ/giữ)」 tạo thành cụm 「約束を守る」 (giữ lời hứa).",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cách dùng: 約束.",
+      "translationVi": "Một khi đã hứa thì phải giữ lời."
+    }
+  },
+  {
+    "id": "n4_vocab_usage_010",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "usage",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 3,
+    "tags": [
+      "usage",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "USAGE",
+      "categoryName": "Cách dùng từ",
+      "displayLabel": "Cách dùng từ: Cách dùng: さびしい",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "つぎの言葉の使い方として最もよいものを選んでください。",
+      "stem": "5. <b>さびしい</b>",
+      "underlinedText": ""
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "友だちがいなくてさびしい人になりました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Nên diễn đạt là 「さびしくなりました」."
+      },
+      {
+        "id": "B",
+        "text": "友だちと別れてさびしくしました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Tự nhiên phải là 「さびしくなりました」."
+      },
+      {
+        "id": "C",
+        "text": "子どもはお母さんがいないのでさびしそうです。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Trông đứa trẻ có vẻ cô đơn buồn bã vì thiếu mẹ (さびしそう)."
+      },
+      {
+        "id": "D",
+        "text": "試合にまけてさびしいです。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thua trận cảm thấy tiếc nuối nên dùng 「悔しい (くやしい)」 hoặc buồn bã nói chung 「悲しい」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "さびしそう = trông có vẻ cô đơn",
+      "fullExplanationVi": "Tính từ 「寂しい (さびしい)」 chỉ cảm giác cô đơn, trống trải. Khi nhìn biểu cảm của ai đó và đoán họ đang cô đơn, ta dùng 「さびしそう」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cách dùng: さびしい.",
+      "translationVi": "Đứa trẻ trông có vẻ cô đơn vì không có mẹ ở bên."
+    }
+  }
+]

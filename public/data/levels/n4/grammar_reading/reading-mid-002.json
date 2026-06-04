@@ -1,0 +1,172 @@
+[
+  {
+    "id": "n4_grammar_reading_mid_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "reading_mid_size_passage",
+    "uiTemplate": "reading_split_screen",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "mid"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "READING_MID",
+      "categoryName": "Đọc hiểu đoạn vừa",
+      "displayLabel": "Đọc hiểu đoạn vừa: たけしくんへのメール",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "たけしくんへのメール",
+      "text": "たけしくんメ－ル、ありがとう。前のメ－ルに 「英語の勉強はつまらない」 と書いてありましたが。まず好きなことから始めたらどうですか。 ぼくが日本語の勉強を始めたのは中学１年のときです。友だちの家ではじめて日本のまんがを見ました。そのときは日本語がぜんぜんわからかっかたのですが、えがあるから話はだいたいわかりました。日本語で読めるようになりたいと思って、自分で勉強を始めました。漢字は、むずかしかったですが、まんがを何さつも読んでいたら、かんたんな漢字はおぼえてしましました。まんがはよくないと言う人もいますが、どんなものにもいいものと悪いものがあると思います。だから、まんがもえらんで読めばいいと思います。 人をいじめるようなまんがはよくないですが、サッカ－やバスケットボ－ルなどスポ－ツのまんがはおもしろいし、読むと元気になります。たけしくんは、何にきょうみがありますか。音楽ですか、映画ですか。 （　 ） じゃ、またメ－ルします。 ジョン",
+      "translationVi": "Chào Takeshi, cảm ơn email của cậu nhé. Trong email trước cậu có viết là \"Học tiếng Anh thật tẻ nhạt\". Trước hết, cậu thử bắt đầu từ những điều cậu thích xem sao? Tớ bắt đầu học tiếng Nhật là khi học năm thứ nhất trung học. Tớ nhìn thấy truyện tranh Nhật Bản lần đầu tiên ở nhà một người bạn. Lúc đó tớ hoàn toàn không hiểu tiếng Nhật tí nào, nhưng vì có tranh vẽ nên cốt truyện thì đại khái tớ đã hiểu được. Tớ muốn có thể đọc được bằng tiếng Nhật, thế là tớ tự bắt đầu học. Chữ Hán tuy khó, nhưng sau khi đọc nhiều cuốn truyện tranh, tớ đã nhớ được những chữ Hán đơn giản. Cũng có người nói truyện tranh là không tốt, nhưng tớ nghĩ cái gì cũng có cái tốt và cái xấu của nó. Vì vậy, tớ nghĩ truyện tranh chỉ cần lựa chọn mà đọc là được. Những cuốn truyện tranh kiểu bắt nạt người khác thì không tốt, nhưng truyện tranh thể thao như bóng đá hay bóng rổ thì thú vị và đọc xong sẽ cảm thấy tràn đầy năng lượng. Takeshi, cậu thích cái gì thế? Âm nhạc à, hay phim ảnh? (  ) Hẹn gặp lại cậu trong email sau nhé. John"
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "questionText": "ジョンさんが日本語の勉強を始めたのはどうしてですか。",
+        "questionTranslationVi": "Tại sao John lại bắt đầu học tiếng Nhật?",
+        "options": [
+          {
+            "id": "A",
+            "text": "漢字をたくさんおぼえたかったから",
+            "isCorrect": false,
+            "explanationVi": "Sai. Việc học Kanji chỉ là kết quả phụ khi đọc manga, không phải lý do bắt đầu học."
+          },
+          {
+            "id": "B",
+            "text": "日本語でまんがを読みたいと思ったから",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Cậu bé thích truyện tranh và muốn có thể tự đọc hiểu chúng bằng tiếng Nhật."
+          },
+          {
+            "id": "C",
+            "text": "友だちに日本のまんがをもらったから",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cậu bé chỉ được xem nhờ ở nhà bạn chứ không được tặng."
+          },
+          {
+            "id": "D",
+            "text": "日本のまんががぜんぜんわからなかったから",
+            "isCorrect": false,
+            "explanationVi": "Sai. Mặc dù ban đầu không hiểu tiếng Nhật, nhưng cốt truyện qua hình vẽ thì đại khái vẫn nắm được."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceText": "日本語で読めるようになりたいと思って、自分で勉強を始めました。",
+          "strategyVi": "Tìm lý do bắt đầu học tiếng Nhật của John: Xem manga ở nhà bạn -> Thích -> Muốn tự đọc được bằng tiếng Nhật -> Tự học."
+        }
+      },
+      {
+        "id": "q2",
+        "questionText": "ジョンさんはまんがについてどう思っていますか。",
+        "questionTranslationVi": "John có suy nghĩ gì về truyện tranh?",
+        "options": [
+          {
+            "id": "A",
+            "text": "日本語の勉強のためにどんなまんがでも読んだほうがいい。",
+            "isCorrect": false,
+            "explanationVi": "Sai. John khuyên nên lựa chọn truyện để đọc chứ không phải đọc bất kỳ loại nào."
+          },
+          {
+            "id": "B",
+            "text": "サッカ－やバスケットボ－ルのまんが以外は読んではいけない。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cậu chỉ lấy truyện thể thao làm ví dụ tốt, không cấm đoán các thể loại lành mạnh khác."
+          },
+          {
+            "id": "C",
+            "text": "いろいろなまんががあるので、いいものだけえらんで読んだらいい。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Vì truyện tranh có cả mặt tốt lẫn mặt xấu nên người đọc cần có sự chọn lọc."
+          },
+          {
+            "id": "D",
+            "text": "まんがばかり読むと人をいじめるようになるので、読まないほうがいい。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chỉ có truyện bắt nạt người khác mới không tốt, không phải tất cả truyện tranh."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceText": "どんなものにもいいものと悪いものがあると思います。だから、まんがもえらんで読めばいいと思います。",
+          "strategyVi": "Xác định quan điểm của John về manga: Nhận định mọi thứ đều có hai mặt -> Đưa ra lời khuyên chọn lọc khi đọc (えらんで読めばいい)."
+        }
+      },
+      {
+        "id": "q3",
+        "questionText": "はじめてまんがを見て、日本語が分かりましたか。",
+        "questionTranslationVi": "Lần đầu tiên xem truyện tranh, John có hiểu tiếng Nhật hay không?",
+        "options": [
+          {
+            "id": "A",
+            "text": "少し分かりました。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Tiếng Nhật hoàn toàn không hiểu."
+          },
+          {
+            "id": "B",
+            "text": "全然わかりませんでした。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Khi mới xem manga lần đầu, tiếng Nhật của John hoàn toàn là con số không."
+          },
+          {
+            "id": "C",
+            "text": "よく分かりました。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Trái ngược thông tin trong bài."
+          },
+          {
+            "id": "D",
+            "text": "だいたい分かりました。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cái đại khái hiểu được ở đây là cốt truyện nhờ tranh vẽ (話はだいたいわかりました) chứ không phải tiếng Nhật."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceText": "そのときは日本語がぜんぜんわからかっかたのですが、えがあるから話はだいたいわかりました。",
+          "strategyVi": "Phân biệt giữa hiểu ngôn ngữ (日本語が分かる) và hiểu cốt truyện qua hình ảnh (話が分かる). Bài viết ghi rõ: 日本語がぜんぜんわからなかった."
+        }
+      },
+      {
+        "id": "q4",
+        "questionText": "（　）　には何を入れますか。",
+        "questionTranslationVi": "Nên điền nội dung nào vào vị trí trống (  )?",
+        "options": [
+          {
+            "id": "A",
+            "text": "映画がきらいでも、毎日見ればわかるようになりますよ。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Lời khuyên này vô lý và không đi theo mạch khuyên học tiếng Anh qua sở thích."
+          },
+          {
+            "id": "B",
+            "text": "日本語のまんがを読めば、漢字がおぼえられるようになりますよ。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Takeshi đang gặp vấn đề chán học tiếng Anh, khuyên đọc manga tiếng Nhật là lạc đề."
+          },
+          {
+            "id": "C",
+            "text": "毎日れんしゅうすれば、サッカ－やバスケットボ－ルがじょうずになりますよ。",
+            "isCorrect": false,
+            "explanationVi": "Sai. Lời khuyên về kỹ năng thể thao, không liên quan đến việc học ngoại ngữ."
+          },
+          {
+            "id": "D",
+            "text": "英語を使って好きなことをすれば、勉強が楽しくなりますよ。",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Đây là lời khuyên cốt lõi của John dành cho Takeshi: Hãy dùng tiếng Anh làm điều mình thích (nghe nhạc, xem phim...) thì việc học sẽ trở nên thú vị."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceText": "「英語の勉強はつまらない」と書いてありましたが。まず好きなことから始めたらどうですか。たけしくんは、何にきょうみがありますか。音楽ですか、映画ですか。",
+          "strategyVi": "Móc nối vấn đề của Takeshi (chán học tiếng Anh) và giải pháp của John (kết hợp sở thích phim ảnh/âm nhạc của cậu). Điền câu định hướng Takeshi dùng tiếng Anh làm những việc đó để học tập vui vẻ hơn."
+        }
+      }
+    ]
+  }
+]

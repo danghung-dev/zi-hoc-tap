@@ -1,0 +1,209 @@
+[
+  {
+    "id": "n4_grammar_text_grammar_002",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "text_grammar",
+    "uiTemplate": "text_grammar_cloze",
+    "difficulty": 3,
+    "tags": [
+      "cloze",
+      "passage",
+      "grammar"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "TEXT_GRAMMAR",
+      "categoryName": "Ngữ pháp đoạn văn",
+      "displayLabel": "Ngữ pháp đoạn văn: 日本語のあいさつ",
+      "showOnCard": true
+    },
+    "passage": {
+      "title": "日本語のあいさつ",
+      "text": "今日田中先生のクラスで日本語のあいさつについて勉強しました。 わたし[blank_1]国やわたしが知っている国のあいさつととてもちがいます。 [blank_2]、 「おはようございます」 は、 「早いです」 といういみです。わたしは、 「いい朝ですね」 と言いたいです。「こんにちは」 にも 「こんばんは」 にも 「いい」 という [blank_3] 。先生は 「日本ではあいさつは、いみをつたえるより、あいさつをすることが [blank_4] 。」 とおっしゃいました。でも、てんきのいい日には 「いいおてんきですね」 と言うそうです。こんど 「おはようございます」 のあとに [blank_5] 。",
+      "translationVi": "Hôm nay ở lớp học của thầy Tanaka, chúng tôi đã học về cách chào hỏi trong tiếng Nhật. Nó rất khác với lời chào của đất nước tôi hay những đất nước khác mà tôi biết. Ví dụ như, \"Ohayou gozaimasu\" mang ý nghĩa là \"Sớm nhỉ\". Tôi thì muốn nói câu \"Buổi sáng tốt lành nhỉ\". Cả \"Konnichiwa\" và \"Konbanwa\" đều không có ý nghĩa \"tốt/đẹp\" như vậy. Thầy giáo nói: \"Ở Nhật Bản, việc chào hỏi thì việc thực hiện lời chào quan trọng hơn là truyền tải ý nghĩa\". Tuy nhiên, nghe nói vào những ngày đẹp trời người ta cũng nói \"Thời tiết đẹp nhỉ\". Lần tới, tôi định sẽ thử nói câu đó sau câu \"Ohayou gozaimasu\" xem sao."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "blankId": "blank_1",
+        "options": [
+          {
+            "id": "A",
+            "text": "に",
+            "isCorrect": false,
+            "explanationVi": "Sai. Trợ từ chỉ địa điểm/đích đến."
+          },
+          {
+            "id": "B",
+            "text": "が",
+            "isCorrect": false,
+            "explanationVi": "Sai. Trợ từ chỉ chủ ngữ phụ."
+          },
+          {
+            "id": "C",
+            "text": "は",
+            "isCorrect": false,
+            "explanationVi": "Sai. Trợ từ chỉ chủ đề."
+          },
+          {
+            "id": "D",
+            "text": "の",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Trợ từ chỉ sở hữu 「わたしの国」 (đất nước của tôi)."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "D",
+          "evidenceBefore": "わたし",
+          "evidenceAfter": "国やわたしが知っている国のあいさつ",
+          "logicVi": "Cần một trợ từ sở hữu để liên kết danh từ わたし (tôi) và 国 (đất nước) thành 'đất nước của tôi'."
+        }
+      },
+      {
+        "id": "q2",
+        "blankId": "blank_2",
+        "options": [
+          {
+            "id": "A",
+            "text": "たとえば",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Từ nối dùng để đưa ra ví dụ minh họa cho ý kiến khác biệt ở câu trước."
+          },
+          {
+            "id": "B",
+            "text": "しかし",
+            "isCorrect": false,
+            "explanationVi": "Sai. Từ nối biểu thị sự đối lập."
+          },
+          {
+            "id": "C",
+            "text": "だから",
+            "isCorrect": false,
+            "explanationVi": "Sai. Từ nối biểu thị quan hệ nguyên nhân - kết quả."
+          },
+          {
+            "id": "D",
+            "text": "そして",
+            "isCorrect": false,
+            "explanationVi": "Sai. Từ nối biểu thị sự liệt kê, thêm vào."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceBefore": "国のあいさつととてもちがいます。",
+          "evidenceAfter": "、「おはようございます」は、「早いです」という意味です。",
+          "logicVi": "Câu sau đưa ra ví dụ cụ thể về câu chào 「おはようございます」 để làm rõ cho nhận định 'rất khác biệt' ở câu trước, nên chọn từ nối 'Ví dụ' (たとえば)."
+        }
+      },
+      {
+        "id": "q3",
+        "blankId": "blank_3",
+        "options": [
+          {
+            "id": "A",
+            "text": "いみがあるかもしれません",
+            "isCorrect": false,
+            "explanationVi": "Sai. Nghĩa là 'có lẽ có ý nghĩa', không phù hợp logic đối chiếu từ ngữ."
+          },
+          {
+            "id": "B",
+            "text": "いみがあります",
+            "isCorrect": false,
+            "explanationVi": "Sai. Cả 2 từ này thực tế không chứa chữ いい (tốt) nên nói có ý nghĩa là sai."
+          },
+          {
+            "id": "C",
+            "text": "いみがありません",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Cả 2 từ chào hỏi trên đều xuất phát từ ngữ cảnh khác và không chứa từ 'tốt' (いい) bên trong."
+          },
+          {
+            "id": "D",
+            "text": "いみがありそうです",
+            "isCorrect": false,
+            "explanationVi": "Sai. Nghĩa là 'trông có vẻ có ý nghĩa'."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "C",
+          "evidenceBefore": "「こんにちは」にも「こんばんは」にも「いい」という",
+          "evidenceAfter": "。先生は...",
+          "logicVi": "Từ 「こんにちは」 (nguồn gốc từ 今日は) và 「こんばんは」 (nguồn gốc từ 今晩は) đều không chứa từ 「いい」 mang nghĩa 'tốt' giống như câu chào 「いい朝ですね」."
+        }
+      },
+      {
+        "id": "q4",
+        "blankId": "blank_4",
+        "options": [
+          {
+            "id": "A",
+            "text": "大切です",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Phù hợp ý kiến của thầy giáo về bản chất của chào hỏi là hành động kết nối (chào nhau) quan trọng hơn ngữ nghĩa."
+          },
+          {
+            "id": "B",
+            "text": "大切ではありません",
+            "isCorrect": false,
+            "explanationVi": "Sai. Trái ngược hoàn toàn với triết lý giáo dục của người Nhật về lời chào."
+          },
+          {
+            "id": "C",
+            "text": "大切でしょうか",
+            "isCorrect": false,
+            "explanationVi": "Sai. Đây là câu hỏi tu từ, không phù hợp cấu trúc khẳng định ý kiến."
+          },
+          {
+            "id": "D",
+            "text": "大切そうです",
+            "isCorrect": false,
+            "explanationVi": "Sai. Nghĩa là 'trông có vẻ quan trọng'."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "A",
+          "evidenceBefore": "意味をつたえるより、あいさつをすることが",
+          "evidenceAfter": "とおっしゃいました。",
+          "logicVi": "Thầy giáo giải thích tầm quan trọng của việc thực hành lời chào, vì vậy cụm từ khẳng định tính quan trọng '大切です' là chính xác."
+        }
+      },
+      {
+        "id": "q5",
+        "blankId": "blank_5",
+        "options": [
+          {
+            "id": "A",
+            "text": "言ってみました",
+            "isCorrect": false,
+            "explanationVi": "Sai. Diễn tả hành động đã thử trong quá khứ, trong khi từ nối こんど (lần tới) chỉ hành động tương lai."
+          },
+          {
+            "id": "B",
+            "text": "言ってみようと思います",
+            "isCorrect": true,
+            "explanationVi": "Đúng. Diễn tả dự định sẽ thực hiện một hành động thử nghiệm trong tương lai (こんど...言ってみようと思います)."
+          },
+          {
+            "id": "C",
+            "text": "言ってみようと思いません",
+            "isCorrect": false,
+            "explanationVi": "Sai. Ý phủ định dự định."
+          },
+          {
+            "id": "D",
+            "text": "言ってしまいました",
+            "isCorrect": false,
+            "explanationVi": "Sai. Chỉ việc lỡ nói ra mất rồi."
+          }
+        ],
+        "answer": {
+          "correctOptionId": "B",
+          "evidenceBefore": "こんど 「おはようございます」 のあとに",
+          "evidenceAfter": "。",
+          "logicVi": "Trạng từ 「こんど」 (lần tới) đi kèm với cấu trúc dự định ở tương lai 「V-ようと思います」 kết hợp thể thử nghiệm 「V-てみる」."
+        }
+      }
+    ]
+  }
+]

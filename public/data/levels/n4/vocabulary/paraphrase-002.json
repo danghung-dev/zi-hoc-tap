@@ -1,0 +1,287 @@
+[
+  {
+    "id": "n4_vocab_paraphrase_006",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "paraphrase",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASES",
+      "categoryName": "Từ đồng nghĩa",
+      "displayLabel": "Từ đồng nghĩa: Cơ thể lạnh đi: 冷たくなる",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "1. <u>外にいたら体がひえてしまいました。</u>",
+      "underlinedText": "外にいたら体がひえてしまいました。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "外にいたので体を寒くしてしまいました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「寒くして」 nghĩa là tự làm cho lạnh đi (như bật điều hòa), không tương ứng với trạng thái bị lạnh đi tự nhiên của cơ thể."
+      },
+      {
+        "id": "B",
+        "text": "外にいたので体が。すずしくなってしまいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chứa ký tự chấm thừa 「体が。すずしく」 và nghĩa 涼しく (mát mẻ) nhẹ hơn so với ひえる (lạnh cóng)."
+      },
+      {
+        "id": "C",
+        "text": "外にいたので体が冷たくなってしまいました。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「体が冷たくなる」 (cơ thể trở nên lạnh ngắt) đồng nghĩa với 「体が冷える (ひえる)」."
+      },
+      {
+        "id": "D",
+        "text": "外にいたので体が。こおりになってしまいました",
+        "isCorrect": false,
+        "explanationVi": "Sai. Chứa ký tự chấm thừa 「体が。こおり」 và nghĩa こおり (đóng băng) quá cường điệu."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "体がひえる = 体が冷たくなる",
+      "fullExplanationVi": "Cụm từ 「体が冷える (ひえる - cơ thể lạnh đi)」 đồng nghĩa với 「体が冷たくなる (つめたくなる)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Cơ thể lạnh đi: 冷たくなる.",
+      "translationVi": "Vì ở ngoài trời nên cơ thể tôi đã bị lạnh đi. -> Vì ở ngoài nên cơ thể tôi đã trở nên lạnh ngắt."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_007",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "paraphrase",
+      "adjective"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASES",
+      "categoryName": "Từ đồng nghĩa",
+      "displayLabel": "Từ đồng nghĩa: Gầy đi: 体が細くなる",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "2. <u>父は病気になってやせてしまいました。</u>",
+      "underlinedText": "父は病気になってやせてしまいました。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "父は病気で体が弱くなってしまいました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「弱くなって」 là yếu đi, không trực tiếp mang nghĩa gầy đi."
+      },
+      {
+        "id": "B",
+        "text": "父は病気で動けなくなってしまいました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「動けなくなって」 là không thể cử động."
+      },
+      {
+        "id": "C",
+        "text": "父は病気で元気がなくなってしまいました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「元気がなくなって」 là mất đi sự khỏe khoắn/tinh thần."
+      },
+      {
+        "id": "D",
+        "text": "父は病気て体がほそくなってしまいました。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「体が細くなる」 (người thon nhỏ lại/gầy đi) đồng nghĩa với động từ 「痩せる (やせる - gầy đi)」."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "やせる = 体がほそくなる",
+      "fullExplanationVi": "Động từ 「痩せる (やせる - gầy/sút cân)」 đồng nghĩa với cụm từ miêu tả hình dáng 「体が細くなる (ほそくなる - người nhỏ/gầy đi)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Gầy đi: 体が細くなる.",
+      "translationVi": "Bố tôi ngã bệnh nên đã gầy đi. -> Bố tôi ngã bệnh nên người gầy rộc đi."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_008",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "paraphrase",
+      "verb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASES",
+      "categoryName": "Từ đồng nghĩa",
+      "displayLabel": "Từ đồng nghĩa: Đi học đều đặn: 毎日のように行く",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "3. <u>電車で学校へ通っています。</u>",
+      "underlinedText": "電車で学校へ通っています。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "毎日のように電車に乗っています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「電車に乗っています」 chỉ đơn thuần là lên tàu, không thể hiện mục đích đi học."
+      },
+      {
+        "id": "B",
+        "text": "毎日のように電車で学校へ行っています。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「電車で学校へ通う」 nghĩa là đi học bằng tàu điện hàng ngày, đồng nghĩa với 「毎日のように電車で学校へ行っている」."
+      },
+      {
+        "id": "C",
+        "text": "たまに電車で学校へ行っています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「たまに」 là thi thoảng, trái ngược với 通う (đi lại thường xuyên)."
+      },
+      {
+        "id": "D",
+        "text": "ときどき学校へ電車で行きます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ときどき」 là thỉnh thoảng, không làm nổi bật tính thường xuyên của 通う."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "通っている = 毎日のように行っている",
+      "fullExplanationVi": "Động từ 「通う (かよう)」 nghĩa là đi đi về về một địa điểm (trường học, công sở) một cách đều đặn thường xuyên, tương đương với 「毎日のように行く」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Đi học đều đặn: 毎日のように行く.",
+      "translationVi": "Tôi đi học bằng tàu điện. -> Hầu như mỗi ngày tôi đều đi học bằng tàu điện."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_009",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "paraphrase",
+      "adverb"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASES",
+      "categoryName": "Từ đồng nghĩa",
+      "displayLabel": "Từ đồng nghĩa: Nhiệt huyết: 熱心に",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "4. <u>大学に入るために一生けんめい勉強しています。</u>",
+      "underlinedText": "大学に入るために一生けんめい勉強しています。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "大学に入りたいのでねないで勉強しています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ねないで」 là không ngủ, đây là hành động thái quá không đồng nghĩa với 一生懸命."
+      },
+      {
+        "id": "B",
+        "text": "大学に入りたいのでねっしんに勉強しています。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「熱心に」 (nhiệt huyết/chăm chỉ) đồng nghĩa với 「一生懸命 (hết sức mình/chăm chỉ)」."
+      },
+      {
+        "id": "C",
+        "text": "大学に入りたいので少し勉強しています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「少し」 là một chút, trái nghĩa."
+      },
+      {
+        "id": "D",
+        "text": "大学に入りたいので勉強だけしています。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「勉強だけ」 là chỉ học, không đồng nghĩa."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "一生けんめい = ねっしんに",
+      "fullExplanationVi": "Trạng từ 「一生懸命 (いっしょうけんめい)」 nghĩa là hết sức mình, đồng nghĩa với 「熱心に (ねっしんに - một cách nhiệt huyết/nỗ lực)」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Nhiệt huyết: 熱心に.",
+      "translationVi": "Tôi đang học hết sức mình để được vào đại học. -> Tôi đang học tập rất chăm chỉ để vào đại học."
+    }
+  },
+  {
+    "id": "n4_vocab_paraphrase_010",
+    "level": "N4",
+    "section": "vocabulary",
+    "jlptItemType": "paraphrases",
+    "uiTemplate": "standard_quiz",
+    "difficulty": 2,
+    "tags": [
+      "paraphrase",
+      "keigo"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "PARAPHRASES",
+      "categoryName": "Từ đồng nghĩa",
+      "displayLabel": "Từ đồng nghĩa: Khiêm nhường ngữ: お会いする",
+      "showOnCard": true
+    },
+    "question": {
+      "instruction": "＿の文とだいたい同じ意味の文を選んでください。",
+      "stem": "5. <u>きのうしゃちょうにおめにかかりました。</u>",
+      "underlinedText": "きのうしゃちょうにおめにかかりました。"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "きのうしゃちょうにごそうだんしました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ご相談しました」 là bàn bạc/thảo luận."
+      },
+      {
+        "id": "B",
+        "text": "きのうしゃちょうにおあいしました。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. 「お目にかかる」 là khiêm nhường ngữ của 「会う」 (gặp gỡ), đồng nghĩa với 「お会いしました」."
+      },
+      {
+        "id": "C",
+        "text": "きのうしゃちょうにほめられました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「ほめられました」 là được khen (bị động)."
+      },
+      {
+        "id": "D",
+        "text": "きのうしゃちょうにしかられました。",
+        "isCorrect": false,
+        "explanationVi": "Sai. 「しかられました」 là bị mắng (bị động)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "おめにかかりました = おあいしました",
+      "fullExplanationVi": "Trong kính ngữ, 「お目にかかる」 là dạng khiêm nhường ngữ của 「会う」. Dạng khiêm nhường ngữ khác tương đương là 「お会いする」.",
+      "trapVi": "Phân biệt cách phát âm/viết dễ nhầm lẫn của Khiêm nhường ngữ: お会いする.",
+      "translationVi": "Hôm qua tôi đã gặp giám đốc. -> Hôm qua tôi đã gặp gỡ giám đốc."
+    }
+  }
+]

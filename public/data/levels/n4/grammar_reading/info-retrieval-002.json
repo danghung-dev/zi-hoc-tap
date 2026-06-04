@@ -1,0 +1,169 @@
+[
+  {
+    "id": "n4_grammar_info_003",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "information_retrieval",
+    "uiTemplate": "document_scan",
+    "difficulty": 3,
+    "tags": [
+      "info-retrieval",
+      "document"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "INFO_RETRIEVAL",
+      "categoryName": "Tìm kiếm thông tin",
+      "displayLabel": "Tìm kiếm thông tin: スポーツをしませんか。",
+      "showOnCard": true
+    },
+    "document": {
+      "type": "notice",
+      "title": "スポーツをしませんか。",
+      "text": "市内の中学校で、どなたでもスポーツができます。申し込みはいりません。始まる時間までに、会場に行ってください。費用は無料です。道具は借りることができますが、卓球（ピンポン）のボールが必要な人は、1つ100円で買ってください。体育館を使う場合は、体育館用のくつを必ず持ってきてください。準備・片付け・掃除は、時間内にみんなでいっしょに行ってください。わからないことがあれば、市役所のスポーツ係（電話：13-946-2171）にお聞きください。",
+      "image": {
+        "src": "images/info/dethi4_mondai11.jpg",
+        "alt": "スポーツをしませんか。"
+      }
+    },
+    "question": {
+      "text": "青川中学校でバスケットをします。ボールのお金と体育館用のくつは必要ですか。",
+      "translationVi": "Chơi bóng rổ ở trường trung học Aokawa. Có cần trả tiền bóng và mang giày chuyên dụng cho nhà thể chất không?",
+      "conditions": [
+        {
+          "id": "c1",
+          "labelVi": "Môn học: Tennis",
+          "keywordJa": "テニス"
+        },
+        {
+          "id": "c2",
+          "labelVi": "Thứ trong tuần: Thứ Tư",
+          "keywordJa": "水"
+        },
+        {
+          "id": "c3",
+          "labelVi": "Không cần đăng ký trước",
+          "keywordJa": "申し込みはいりません"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "ボールのお金も、体育館用のくつも必要です。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Cả hai thứ đều không cần trả phí hay mang theo."
+      },
+      {
+        "id": "B",
+        "text": "ボールのお金は必要ですが、体育館用のくつはひつようありません。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Tiền bóng cũng không cần vì chỉ có bóng bàn mới phải mua."
+      },
+      {
+        "id": "C",
+        "text": "ボールのお金は必要ありませんが、体育館用のくつは必要です。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Giày chuyên dụng không cần thiết vì chơi ngoài sân trường."
+      },
+      {
+        "id": "D",
+        "text": "ポールのお金も、体育館用のくつも必要ありません。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Bóng rổ chơi ở sân trường (校庭 - không dùng nhà thể chất) nên không cần giày chuyên dụng. Dụng cụ bóng rổ được mượn miễn phí."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "evidenceTexts": [
+        "青川中学校（校庭）土 15時〜18時",
+        "道具は借りることができますが、卓球（ピンポン）のボールが必要な人は、1つ100円で買ってください。",
+        "体育館を使う場合は、体育館用のくつを必ず持ってきてください。"
+      ],
+      "logicVi": "Đối chiếu bảng lịch trình: môn bóng rổ ở trường trung học Aokawa diễn ra ở sân trường (校庭 - koutei), do không dùng nhà thể chất (体育館) nên không cần giày chuyên dụng. Về bóng: chỉ có bóng bàn mới cần mua 100 yên, còn bóng rổ được mượn miễn phí. Vậy cả hai đều không cần thiết."
+    }
+  },
+  {
+    "id": "n4_grammar_info_004",
+    "level": "N4",
+    "section": "grammar_reading",
+    "jlptItemType": "information_retrieval",
+    "uiTemplate": "document_scan",
+    "difficulty": 3,
+    "tags": [
+      "info-retrieval",
+      "document"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "INFO_RETRIEVAL",
+      "categoryName": "Tìm kiếm thông tin",
+      "displayLabel": "Tìm kiếm thông tin: スポーツをしませんか。",
+      "showOnCard": true
+    },
+    "document": {
+      "type": "notice",
+      "title": "スポーツをしませんか。",
+      "text": "市内の中学校で、どなたでもスポーツができます。申し込みはいりません。始まる時間までに、会場に行ってください。費用は無料です。道具は借りることができますが、卓球（ピンポン）のボールが必要な人は、1つ100円で買ってください。体育館を使う場合は、体育館用のくつを必ず持ってきてください。準備・片付け・掃除は、時間内にみんなでいっしょに行ってください。わからないことがあれば、市役所のスポーツ係（電話：13-946-2171）にお聞きください。",
+      "image": {
+        "src": "images/info/dethi4_mondai11.jpg",
+        "alt": "スポーツをしませんか。"
+      }
+    },
+    "question": {
+      "text": "水曜日にテニスをしたいです。どうすればいいですか。",
+      "translationVi": "Tôi muốn chơi tennis vào thứ Tư. Tôi nên làm thế nào?",
+      "conditions": [
+        {
+          "id": "c1",
+          "labelVi": "Môn học: Tennis",
+          "keywordJa": "テニス"
+        },
+        {
+          "id": "c2",
+          "labelVi": "Thứ trong tuần: Thứ Tư",
+          "keywordJa": "水"
+        },
+        {
+          "id": "c3",
+          "labelVi": "Không cần đăng ký trước",
+          "keywordJa": "申し込みはいりません"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "市役所のスポーツ係に電話で申し込みます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Thông báo ghi rõ không cần đăng ký trước (申し込みはいりません)."
+      },
+      {
+        "id": "B",
+        "text": "市役所のスポーツ係に行って申し込みます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Không cần đăng ký trước."
+      },
+      {
+        "id": "C",
+        "text": "赤山中学校に18時に行きます。",
+        "isCorrect": true,
+        "explanationVi": "Đúng. Tennis thứ Tư diễn ra tại trường trung học Akayama lúc 18:00. Người chơi chỉ cần trực tiếp đến địa điểm đúng giờ."
+      },
+      {
+        "id": "D",
+        "text": "大川学校に15時に行きます。",
+        "isCorrect": false,
+        "explanationVi": "Sai. Địa điểm và khung giờ không khớp với tennis thứ Tư."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "evidenceTexts": [
+        "テニス 赤山中学校（校庭）水 18時〜21時",
+        "申し込みはいりません。始まる時間までに、会場に行ってください。"
+      ],
+      "logicVi": "Đối chiếu bảng lịch trình: tennis vào thứ Tư (水) diễn ra tại trường trung học Akayama (赤山中学校) từ 18 giờ. Đồng thời quy định chung nêu rõ không cần đăng ký trước mà chỉ cần trực tiếp đến địa điểm trước giờ bắt đầu. Vì vậy, ta chọn đi trực tiếp đến trường trung học Akayama lúc 18 giờ."
+    }
+  }
+]
