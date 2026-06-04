@@ -47,16 +47,16 @@
       },
       {
         "id": "C",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "3",
-        "explanationVi": "Đáp án C. Đúng.",
+        "explanationVi": "Đáp án C. Sai.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture3-4.png"
       },
       {
         "id": "D",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "4",
-        "explanationVi": "Đáp án D. Sai.",
+        "explanationVi": "Đáp án D. Đúng.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/Picture4-4.png"
       }
     ],
