@@ -1,7 +1,22 @@
-// ==========================================
-// --- N4 15群の文法データ定義 / 15 Grammar Groups ---
-// ==========================================
-const grammarGroups = [
+export interface GrammarGroup {
+  id: number;
+  name: string;
+  priority: string;
+  summary: string;
+  details: string;
+}
+
+export interface GrammarQuestion {
+  id: string;
+  groupId: number;
+  question: string;
+  translation: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+}
+
+export const grammarGroups: GrammarGroup[] = [
       {
         id: 1,
         name: "1. Cho – Nhận – Nhờ",
@@ -248,8 +263,7 @@ const grammarGroups = [
       }
     ];
 
-// --- 170 Trắc nghiệm Ngữ pháp N4: 10/11/12 câu cho mỗi nhóm ---
-const grammarQuestions = [
+export const grammarQuestions: GrammarQuestion[] = [
       {
             "id": "g1_01",
             "groupId": 1,
