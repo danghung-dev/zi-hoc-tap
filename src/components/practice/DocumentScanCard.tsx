@@ -16,6 +16,7 @@ import {
   Square
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface DocumentScanCardProps {
   question: DocumentScanQuestion;
@@ -36,18 +37,7 @@ export function DocumentScanCard({ question, onAnswered }: DocumentScanCardProps
     setShowQuestionTranslation(false);
   }, [question.id]);
 
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const plainText = text.replace(/<[^>]*>/g, "");
-      const utterance = new SpeechSynthesisUtterance(plainText);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   const handleToggleCondition = (condId: string) => {
     if (hasAnswered) return;

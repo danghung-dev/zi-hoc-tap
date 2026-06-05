@@ -13,6 +13,7 @@ import {
   XCircle
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface StandardQuizCardProps {
   question: StandardQuizQuestion;
@@ -31,19 +32,7 @@ export function StandardQuizCard({ question, onAnswered }: StandardQuizCardProps
     setShowTranslation(false);
   }, [question.id]);
 
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      // Remove HTML tags from text if any
-      const plainText = text.replace(/<[^>]*>/g, "");
-      const utterance = new SpeechSynthesisUtterance(plainText);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   const handleSelect = (optionId: string) => {
     if (hasAnswered) return;

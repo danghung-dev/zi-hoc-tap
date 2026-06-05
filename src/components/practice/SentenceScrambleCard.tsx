@@ -14,6 +14,7 @@ import {
   RefreshCw
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface SentenceScrambleCardProps {
   question: SentenceScrambleQuestion;
@@ -41,18 +42,7 @@ export function SentenceScrambleCard({ question, onAnswered }: SentenceScrambleC
     setShowTranslation(false);
   }, [question.id]);
 
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const plainText = text.replace(/<[^>]*>/g, "");
-      const utterance = new SpeechSynthesisUtterance(plainText);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   // Add fragment to the first empty slot
   const handleSelectFragment = (fragId: string) => {

@@ -15,6 +15,7 @@ import {
   BookOpen
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface TextGrammarClozeCardProps {
   question: TextGrammarClozeQuestion;
@@ -36,16 +37,8 @@ export function TextGrammarClozeCard({ question, onAnswered }: TextGrammarClozeC
   }, [question.id]);
 
   const speakText = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const plainText = text.replace(/\[blank_\d+\]/g, " ___ ");
-      const utterance = new SpeechSynthesisUtterance(plainText);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
+    const plainText = text.replace(/\[blank_\d+\]/g, " ___ ");
+    speakJapanese(plainText);
   };
 
   const handleSelectOption = (qId: string, optionId: string) => {

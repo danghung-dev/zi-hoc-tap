@@ -17,6 +17,7 @@ import {
   ChevronRight
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface ReadingSplitScreenCardProps {
   question: ReadingSplitScreenQuestion;
@@ -39,17 +40,7 @@ export function ReadingSplitScreenCard({ question, onAnswered }: ReadingSplitScr
     setShowQuestionTranslation({});
   }, [question.id]);
 
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   const handleSelectOption = (qId: string, optionId: string) => {
     if (hasSubmitted) return;

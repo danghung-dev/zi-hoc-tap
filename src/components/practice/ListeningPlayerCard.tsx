@@ -18,6 +18,7 @@ import {
   BookOpen
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakJapanese } from "@/lib/tts";
 
 interface ListeningPlayerCardProps {
   question: ListeningPlayerQuestion;
@@ -65,18 +66,7 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
     return `/assets/levels/n4/${src}`;
   };
 
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const plainText = text.replace(/<[^>]*>/g, "");
-      const utterance = new SpeechSynthesisUtterance(plainText);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   const handlePlayPause = () => {
     if (!audioRef.current) return;

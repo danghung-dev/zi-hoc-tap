@@ -25,6 +25,7 @@ import {
 // Import data
 import { setNames, flashcards, KanjiCard } from "@/data/kanji";
 import { grammarGroups, grammarQuestions, GrammarQuestion } from "@/data/grammar";
+import { speakJapanese } from "@/lib/tts";
 
 export default function Page() {
   // Navigation
@@ -152,25 +153,7 @@ export default function Page() {
   };
 
   // --- TTS Pronunciation ---
-  const speakJapanese = (text: string) => {
-    if ("speechSynthesis" in window) {
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "ja-JP";
-      utterance.rate = 0.85;
-
-      if (window.speechSynthesis.getVoices) {
-        const voices = window.speechSynthesis.getVoices();
-        const jaVoice = voices.find((v) => v.lang.toLowerCase().startsWith("ja"));
-        if (jaVoice) {
-          utterance.voice = jaVoice;
-        }
-      }
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Note: speakJapanese is now imported from "@/lib/tts"
 
   // --- Kanji logic ---
   const handleCheckboxChange = (id: number, checked: boolean) => {
