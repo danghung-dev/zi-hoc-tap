@@ -46,7 +46,16 @@ Convert one exam HTML file and its shared MP3 audio into separate audio clips an
      -o temp/listening/timestamp_candidates.json
    ```
 
-5. **Cut Audio Clips**:
+5. **Generate Clean Grouped Transcript**:
+   Group the Whisper segments into a compact, human-readable text file organized by question. This is highly token-efficient and avoids passing huge JSON files with word-level details to the LLM:
+   ```bash
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/generate_question_transcripts.py \
+     -w temp/listening/whisper_raw.json \
+     -t temp/listening/timestamp_candidates.json \
+     -o temp/listening/whisper_by_question.txt
+   ```
+
+6. **Cut Audio Clips**:
    Cut the main MP3 file into individual audio files for each question (saving them into `github-data/`):
    ```bash
    .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/cut_from_model_timestamps.py \
@@ -57,8 +66,8 @@ Convert one exam HTML file and its shared MP3 audio into separate audio clips an
      -o temp/listening/segments.json
    ```
 
-6. **Gemini Transcript Refinement & JSON Generation**:
-   Using `references/gemini_transcript_refinement.md`, align and correct the Whisper-transcribed segments for each question, determine the correct options, write the Vietnamese translations and explanations, and generate the final question JSON files.
+7. **Gemini Transcript Refinement & JSON Generation**:
+   Using `references/gemini_transcript_refinement.md`, read the question-grouped raw text transcripts in `temp/listening/whisper_by_question.txt`, refine the Japanese dialog (typos, speaker tags), determine the correct option by solving the question, write Vietnamese translations and explanations, and generate the final question JSON files.
    
    > [!IMPORTANT]
    > **The HTML file does NOT contain correct answers.** You (Gemini) must analyze the refined Japanese dialogue and solve the question yourself using your Japanese knowledge to identify the correct option, then set it in `correctOptionId` and provide explanations.

@@ -5,7 +5,7 @@ Using the raw output of `faster-whisper` and the parsed HTML questions, you will
 ## Inputs
 
 1. **HTML Parsed Questions (`temp/listening/listen_raw.json`)**: Contains instructions, question stems, and option text (if present in HTML).
-2. **Whisper Raw Transcripts (`temp/listening/whisper_raw.json`)**: Segment-level and word-level raw Japanese transcripts and timestamps.
+2. **Question-Grouped Transcripts (`temp/listening/whisper_by_question.txt`)**: A clean, token-efficient text file grouping raw Whisper segments and timestamps under question headers.
 3. **Question Timestamps (`temp/listening/timestamp_candidates.json`)**: Start and end timestamps for each question.
 
 ---
@@ -15,9 +15,8 @@ Using the raw output of `faster-whisper` and the parsed HTML questions, you will
 For each question (e.g., Mondai 1 Question 1):
 
 ### 1. Extract Raw Transcript
-- Look up the question's `startSec` and `endSec` from `timestamp_candidates.json`.
-- Extract all segments from `whisper_raw.json` that fall within this time range.
-- Concatenate them to form the raw text of the question.
+- Open `whisper_by_question.txt` and locate the section for the question ID (e.g., `### QUESTION: de5-m1-q01`).
+- Read the raw text segments and timestamps directly from this section.
 
 ### 2. Clean and Format Japanese Transcript
 - **Correct Typos/Mishearings**: Use Japanese knowledge and context to fix any homophone errors, particle mistakes, or transcription inaccuracies in the raw Whisper output.
