@@ -35,6 +35,7 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
 
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
+  const [showQuestionTranslation, setShowQuestionTranslation] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
   // Initialize and load new audio when question changes
@@ -45,6 +46,7 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
     setHasPlayedOnce(false);
     setSelectedOptionId(null);
     setHasAnswered(false);
+    setShowQuestionTranslation(false);
     setShowTranslation(false);
 
     if (audioRef.current) {
@@ -225,7 +227,7 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
             <p className="text-sm sm:text-base text-slate-200 font-medium leading-relaxed">
               {question.question.instruction}
             </p>
-            {question.question.instructionVi && (
+            {showQuestionTranslation && question.question.instructionVi && (
               <p className="text-xs text-slate-400 italic">
                 "{question.question.instructionVi}"
               </p>
@@ -240,12 +242,22 @@ export function ListeningPlayerCard({ question, onAnswered }: ListeningPlayerCar
                   {question.question.stem}
                 </p>
               )}
-              {question.question.stemVi && (
+              {showQuestionTranslation && question.question.stemVi && (
                 <p className="text-xs sm:text-sm text-slate-400 font-medium leading-relaxed">
                   {question.question.stemVi}
                 </p>
               )}
             </div>
+          )}
+
+          {(question.question.instructionVi || question.question.stemVi) && (
+            <button
+              onClick={() => setShowQuestionTranslation(!showQuestionTranslation)}
+              className="flex w-fit items-center gap-1.5 px-1 text-xs text-slate-400 hover:text-slate-200 transition cursor-pointer"
+            >
+              <Languages className="w-4 h-4 text-indigo-400" />
+              <span>{showQuestionTranslation ? "Ẩn dịch tiếng Việt câu hỏi" : "Hiện dịch tiếng Việt câu hỏi"}</span>
+            </button>
           )}
 
           {/* Situation Image */}
