@@ -27,40 +27,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｍ：今の仕事、給料も少ないし、疲れるし…。",
-      "stemVi": "Nam: Công việc hiện tại lương vừa thấp, lại mệt mỏi nữa..."
+      "stem": "今の仕事、給料も少ないし、疲れるし…。",
+      "stemVi": "Công việc hiện tại lương vừa thấp lại vừa mệt..."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "まあ、いろいろ大変でしょうね。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 1: 'Chà, chắc là có nhiều chuyện vất vả lắm nhỉ.' - Đúng. Bày tỏ sự đồng cảm tự nhiên trước câu phàn nàn của đối phương."
+        "explanationVi": "Đúng. 'Chà, chắc là có nhiều thứ vất vả lắm nhỉ.' thể hiện sự đồng cảm phù hợp khi nghe đối phương than phiền về công việc."
       },
       {
         "id": "2",
         "textAfterAnswer": "そういえば、食べるのは心配ありませんね。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Nhắc mới nhớ, việc ăn uống thì không phải lo lắng nhỉ.' - Sai vì không liên quan đến lời than thở về công việc."
+        "explanationVi": "Sai. 'Nhắc mới nhớ, việc ăn uống thì không phải lo lắng gì nhỉ.' không liên quan đến ngữ cảnh than thở về công việc lương thấp, mệt mỏi."
       },
       {
         "id": "3",
         "textAfterAnswer": "じゃあ、ちょっと休みにしましょうか。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Vậy thì nghỉ một chút nhé?' - Sai vì '休みにする' thường dùng cho việc nghỉ lễ/nghỉ học/nghỉ làm tập thể, không dùng để khuyên cá nhân nghỉ ngơi khi họ đang than thở về công việc lâu dài."
+        "explanationVi": "Sai. 'Vậy thì cùng nghỉ ngơi một chút nhé?' dùng để rủ nghỉ giải lao giữa giờ làm việc/học tập hiện tại, không dùng để khuyên nhủ hay phản hồi về tình trạng công việc chung chung."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Bày tỏ sự đồng cảm trước lời than thở của đối phương bằng câu 'まあ、いろいろ大変でしょうね。'",
-      "fullExplanationVi": "Khi nghe đối phương than thở về công việc hiện tại mệt mỏi và lương thấp, câu trả lời phù hợp nhất là bày tỏ sự đồng cảm 'まあ、いろいろ大変でしょうね' (Chà, chắc là vất vả lắm nhỉ). Phương án 1 chính xác.",
-      "trapVi": "Tránh nhầm lẫn với phương án 3 vì '休みにする' mang nghĩa cho nghỉ/quyết định ngày nghỉ của tập thể, không dùng cho việc khuyên nhủ cá nhân nghỉ ngơi.",
-      "listeningStrategyVi": "Khi đối phương sử dụng cấu trúc liệt kê lý do tiêu cực '～し、～し' (vừa... vừa...), hãy tìm câu phản hồi mang tính đồng cảm hoặc an ủi.",
-      "transcriptJa": "M：今の仕事、給料も少ないし、疲れるし…。\n1．まあ、いろいろ大変でしょうね。\n2．そういえば、食べるのは心配ありませんね。\n3．じゃあ、ちょっと休みにしましょうか。",
-      "translationVi": "M: Công việc hiện tại lương vừa thấp, lại mệt mỏi nữa...\n1. Chà, chắc là có nhiều chuyện vất vả lắm nhỉ.\n2. Nhắc mới nhớ, việc ăn uống thì không phải lo lắng nhỉ.\n3. Vậy thì nghỉ một chút nhé?",
+      "shortExplanationVi": "Khi nghe đối phương than thở về công việc vất vả, phản hồi thể hiện sự đồng cảm 「まあ、いろいろ大変でしょうね。」 (Chà, chắc là vất vả nhiều thứ nhỉ) là tự nhiên nhất.",
+      "fullExplanationVi": "Người nói đang phàn nàn về công việc hiện tại của mình: 「今の仕事、給料も少ないし、疲れるし…」 (Công việc hiện tại lương vừa thấp lại vừa mệt...).\\n- Lựa chọn 1: 「まあ、いろいろ大変でしょうね」 bày tỏ sự thấu hiểu và chia sẻ với những vất vả của đối phương.\\n- Lựa chọn 2: 「そういえば食べるのは心配ありませんね」 không ăn nhập gì với hoàn cảnh phàn nàn.\\n- Lựa chọn 3: 「じゃあちょっと休みにしましょうか」 thường dùng khi hai người đang cùng làm một công việc gì đó và đề xuất tạm nghỉ ngơi, không phải phản hồi thích hợp cho lời phàn nàn về toàn bộ công việc.",
+      "trapVi": "Bẫy ở Lựa chọn 3 là từ 「休みにする」 (nghỉ ngơi) có vẻ liên quan tới 「疲れる」 (mệt) nhưng thực tế sai ngữ cảnh sử dụng.",
+      "listeningStrategyVi": "Khi đối phương đưa ra lời than thở hoặc chia sẻ khó khăn, câu trả lời đúng thường mang tính đồng cảm, an ủi.",
+      "transcriptJa": "1番\\n今の仕事、給料も少ないし、疲れるし…\\n1　まあ、いろいろ大変でしょうね。\\n2　そういえば、食べるのは心配ありませんね。\\n3　じゃあ、ちょっと休みにしましょうか。",
+      "translationVi": "1番\\nNam: Công việc hiện tại lương vừa thấp lại vừa mệt...\\n1: Chà, chắc là có nhiều thứ vất vả lắm nhỉ.\\n2: Nhắc mới nhớ, việc ăn uống thì không phải lo lắng gì nhỉ.\\n3: Vậy thì cùng nghỉ ngơi một chút nhé?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｍ：今の仕事、給料も少ないし、疲れるし…。 1. まあ、いろいろ大変でしょうね。 2. そういえば、食べるのは心配ありませんね。 3. じゃあ、ちょっと休みにしましょうか。",
-      "promptTranslationVi": "Nam: Công việc hiện tại lương vừa thấp, lại mệt mỏi nữa..."
+      "promptTranscriptJa": "今の仕事、給料も少ないし、疲れるし…",
+      "promptTranslationVi": "Công việc hiện tại lương vừa thấp lại vừa mệt..."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -97,40 +97,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｆ：ねえ、うちの息子とあの女の子、合わないと思うわ。わたし、反対よ。",
-      "stemVi": "Nữ: Này, tôi nghĩ con trai chúng ta với cô bé kia không hợp nhau đâu. Tôi phản đối đấy!"
+      "stem": "ねえ、うちの息子とあの女の子、合わないと思うわ。私、反対よ。",
+      "stemVi": "Này, tôi nghĩ con trai mình và cô bé đó không hợp nhau đâu. Tôi phản đối đấy."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "君のことをいつから好きになったの？",
         "isCorrect": false,
-        "explanationVi": "Đáp án 1: 'Họ thích em từ khi nào thế?' - Sai vì nhầm đối tượng (hỏi về người nói thay vì con trai)."
+        "explanationVi": "Sai. 'Anh bắt đầu thích em từ bao giờ thế?' là câu hỏi về tình cảm giữa hai vợ chồng, hoàn toàn lạc đề so với chuyện của con trai."
       },
       {
         "id": "2",
         "textAfterAnswer": "嫌われてもいいじゃないか。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Có bị ghét thì cũng đâu có sao.' - Sai vì không phù hợp ngữ cảnh phản đối hôn nhân/quan hệ của con."
+        "explanationVi": "Sai. 'Bị ghét cũng có sao đâu?' không phù hợp với việc người mẹ phản đối mối quan hệ của con trai vì nghĩ hai đứa không hợp."
       },
       {
         "id": "3",
-        "textAfterAnswer": "đつも好きならいいじゃない。",
+        "textAfterAnswer": "でも、好きならいいじゃない。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 3: 'Nhưng nếu chúng thích nhau thì cũng tốt mà.' - Đúng. Thể hiện ý kiến phản biện nhẹ nhàng rằng chỉ cần các con yêu nhau là được."
+        "explanationVi": "Đúng. 'Nhưng nếu tụi nó thích nhau thì có sao đâu chứ?' là câu phản biện hợp lý, bênh vực tình cảm của con trai trước sự phản đối của người mẹ."
       }
     ],
     "answer": {
       "correctOptionId": "3",
-      "shortExplanationVi": "Phản biện lại sự phản đối của vợ bằng ý kiến 'đつも' (Thực chất là 'でも好きならいいじゃない' - Nhưng nếu chúng thích nhau thì có sao đâu).",
-      "fullExplanationVi": "Người vợ phản đối mối quan hệ của con trai vì cho rằng không hợp. Người chồng phản đối nhẹ nhàng bằng cách nói 'でも、好きならいいじゃない' (Nhưng nếu chúng thích nhau thì cũng tốt/được mà). Từ '好きなら' (nếu thích) ám chỉ tình cảm của cặp đôi trẻ. Phương án 3 là chính xác.",
-      "trapVi": "Phương án 1 nhầm lẫn đối tượng là '君' (em/vợ), phương án 2 nói về việc 'bị ghét' không hợp logic.",
-      "listeningStrategyVi": "Chú ý xác định đối tượng đang được nói tới là 'うちの息子' (con trai chúng ta) và 'あの女の子' (cô bé kia) để loại bỏ các phương án nhầm lẫn chủ ngữ.",
-      "transcriptJa": "F：ねえ、うちの息子とあの女の子、合わないと思うわ。わたし、反対よ。\n1．君のことをいつから好きになったの？\n2．嫌われてもいいじゃないか。\n3．でも、好きならいいじゃない。",
-      "translationVi": "F: Này, tôi nghĩ con trai chúng ta với cô bé kia không hợp nhau đâu. Tôi phản đối đấy!\n1. Họ thích em từ khi nào thế?\n2. Có bị ghét thì cũng đâu có sao.\n3. Nhưng nếu chúng thích nhau thì cũng tốt mà.",
+      "shortExplanationVi": "Khi người mẹ phản đối mối quan hệ vì cho rằng con trai và cô gái không hợp nhau, phản hồi bênh vực 「でも、好きならいいじゃない。」 (Nhưng nếu tụi nó thích nhau thì tốt rồi còn gì) là phù hợp nhất.",
+      "fullExplanationVi": "Người mẹ đang bày tỏ sự lo lắng và phản đối mối quan hệ của con trai: 「うちの息子とあの女の子、合わないと思うわ。私、反対よ。」 (Tôi nghĩ con trai mình và cô bé đó không hợp nhau. Tôi phản đối).\\n- Lựa chọn 1: 「君のことをいつから好きになったの？」 chuyển chủ đề sang mối quan hệ của hai vợ chồng, không liên quan.\\n- Lựa chọn 2: 「嫌われてもいいじゃないか」 (Bị ghét cũng kệ chứ) không giải quyết được vấn đề hợp nhau hay không.\\n- Lựa chọn 3: 「でも好きならいいじゃない」 (Nhưng nếu chúng nó thích nhau thì có sao đâu) thể hiện quan điểm cởi mở của người cha/người đối thoại, cho rằng chỉ cần hai đứa yêu nhau là được.",
+      "trapVi": "Cần hiểu rõ ngôi xưng: người nói là người mẹ đang nói về con trai mình (息子). Lựa chọn 1 sử dụng 「君」 (em/cậu) khiến câu nói bị lệch đối tượng.",
+      "listeningStrategyVi": "Xác định rõ chủ ngữ và đối tượng được nói đến trong câu (con trai và cô gái) để chọn câu trả lời tương ứng với đối tượng đó.",
+      "transcriptJa": "2番\\nねえ、うちของ息子とあの女の子、合わないと思うわ。私、反対よ。\\n1　君のことをいつから好きになったの？\\n2　嫌われてもいいじゃないか。\\n3　でも、好きならいいじゃない。",
+      "translationVi": "2番\\nNữ: Này, tôi nghĩ con trai mình và cô bé đó không hợp nhau đâu. Tôi phản đối đấy.\\n1: Anh bắt đầu thích em từ bao giờ thế?\\n2: Bị ghét cũng có sao đâu?\\n3: Nhưng nếu tụi nó thích nhau thì có sao đâu chứ?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｆ：ねえ、うちの息子とあの女の子、合わないと思うわ。わたし、反対よ。 1. 君のことをいつから好きになったの？ 2. 嫌われてもいいじゃないか。 3. でも、好きならいいじゃない。",
-      "promptTranslationVi": "Nữ: Này, tôi nghĩ con trai chúng ta với cô bé kia không hợp nhau đâu. Tôi phản đối đấy!"
+      "promptTranscriptJa": "ねえ、うちの息子とあの女の子、合わないと思うわ。私、反対よ。",
+      "promptTranslationVi": "Này, tôi nghĩ con trai mình và cô bé đó không hợp nhau đâu. Tôi phản đối đấy."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -167,40 +167,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｍ：あのう、貸してくれた本を汚してしまって…。",
-      "stemVi": "Nam: Xin lỗi, cuốn sách cậu cho tớ mượn tớ lỡ làm bẩn mất rồi..."
+      "stem": "あの、貸してくれた本を汚してしまって…。",
+      "stemVi": "À, cuốn sách bạn cho tôi mượn, tôi lỡ làm bẩn mất rồi..."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "もう何日心配していたの？",
         "isCorrect": false,
-        "explanationVi": "Đáp án 1: 'Cậu đã lo lắng bao nhiêu ngày rồi thế?' - Sai vì câu hỏi không tự nhiên trong ngữ cảnh xin lỗi."
+        "explanationVi": "Sai. 'Cậu đã lo lắng bao nhiêu ngày rồi thế?' nghe rất kỳ lạ và không phải phản hồi thông thường khi người khác xin lỗi vì làm bẩn sách."
       },
       {
         "id": "2",
-        "textAfterAnswer": "まあ、これぐらいは大丈夫よ。",
+        "textAfterAnswer": "まあ、これくらいは大丈夫よ。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 2: 'Ôi, thế này thì không sao đâu.' - Đúng. Câu trả lời rộng lượng để trấn an người đã làm bẩn sách."
+        "explanationVi": "Đúng. 'Ôi, thế này thì không sao đâu mà.' là lời đáp rộng lượng, trấn an đối phương khi họ làm bẩn sách và đang áy náy xin lỗi."
       },
       {
         "id": "3",
         "textAfterAnswer": "読みたいなら貸してあげましょう。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Nếu muốn đọc thì tớ cho mượn nhé.' - Sai vì người kia đang trả/xin lỗi về sách đã mượn rồi."
+        "explanationVi": "Sai. 'Nếu muốn đọc thì tớ cho mượn nhé.' dùng để đề nghị cho mượn sách, không khớp với tình huống đối phương đang xin lỗi vì làm bẩn cuốn sách đã mượn."
       }
     ],
     "answer": {
       "correctOptionId": "2",
-      "shortExplanationVi": "Trấn an người xin lỗi làm bẩn sách bằng câu 'まあ、これぐらいは大丈夫よ' (Thế này thì không sao đâu).",
-      "fullExplanationVi": "Khi ai đó xin lỗi vì làm bẩn sách đã mượn của mình, câu trả lời rộng lượng và lịch sự để trấn an họ là 'まあ、これぐらいは大丈夫よ' (Không sao đâu, tầm này vẫn ổn mà). Do đó phương án 2 chính xác.",
-      "trapVi": "Tránh chọn phương án 3 vì đây là câu đề nghị cho mượn sách, không đúng thời điểm vì sách đã được mượn và đang gặp sự cố.",
-      "listeningStrategyVi": "Khi đối phương xin lỗi vì đã làm hỏng/làm bẩn đồ vật '～てしまって', hãy tìm phản hồi bày tỏ sự thông cảm, tha thứ hoặc trấn an như '大丈夫' (không sao).",
-      "transcriptJa": "M：あのう、貸してくれた本を汚してしまって…。\n1．もう何日心配していたの？\n2．まあ、これぐらいは大丈夫よ。\n3．読みたいなら貸してあげましょう。",
-      "translationVi": "M: Xin lỗi, cuốn sách cậu cho tớ mượn tớ lỡ làm bẩn mất rồi...\n1. Cậu đã lo lắng bao nhiêu ngày rồi thế?\n2. Ôi, thế này thì không sao đâu.\n3. Nếu muốn đọc thì tớ cho mượn nhé.",
+      "shortExplanationVi": "Khi ai đó xin lỗi vì lỡ làm bẩn cuốn sách mượn của mình, câu trả lời thể hiện sự bao dung, trấn an 「まあ、これくらいは大丈夫よ。」 (Ôi, thế này thì không sao đâu) là thích hợp nhất.",
+      "fullExplanationVi": "Người nói đang ngập ngừng xin lỗi vì lỡ làm bẩn sách đã mượn: 「あの、貸してくれた本を汚してしまって…」.\\n- Lựa chọn 1: 「もう何日心配していたの？」 nghe rất kỳ quặc, không tự nhiên.\\n- Lựa chọn 2: 「まあこれぐらいは大丈夫よ」 (À, cỡ này thì không sao đâu) thể hiện sự rộng lượng, an ủi người mượn rằng vết bẩn nhỏ không đáng kể.\\n- Lựa chọn 3: 「読みたいなら貸してあげましょう」 đề nghị cho mượn sách, nhưng cuốn sách đã được mượn rồi nên không hợp lý.",
+      "trapVi": "Lựa chọn 3 có động từ 「貸す」 (cho mượn) xuất hiện trong câu hỏi dễ gây nhầm lẫn nếu không nghe kỹ thì quá khứ 「貸してくれた」 (đã cho tôi mượn).",
+      "listeningStrategyVi": "Khi đối phương dùng cấu trúc xin lỗi gián tiếp bằng cách bỏ lửng đuôi 「～てしまって…」, hãy tìm các phương án phản hồi mang tính xoa dịu, tha thứ như 「大丈夫」「気にしないで」.",
+      "transcriptJa": "3番\\nあの、貸してくれた本を汚してしまって…\\n1　もう何日心配していたの？\\n2　まあ、これくらいは大丈夫よ。\\n3　読みたいなら貸してあげましょう。",
+      "translationVi": "3番\\nNam: À, cuốn sách bạn cho tôi mượn, tôi lỡ làm bẩn mất rồi...\\n1: Cậu đã lo lắng bao nhiêu ngày rồi thế?\\n2: Ôi, thế này thì không sao đâu mà.\\n3: Nếu muốn đọc thì tớ cho mượn nhé?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｍ：あのう、貸してくれた本を汚してしまって…。 1. もう何日心配していたの？ 2. まあ、これぐらいは大丈夫よ。 3. 読みたいなら貸してあげましょう。",
-      "promptTranslationVi": "Nam: Xin lỗi, cuốn sách cậu cho tớ mượn tớ lỡ làm bẩn mất rồi..."
+      "promptTranscriptJa": "あの、貸してくれた本を汚してしまって…",
+      "promptTranslationVi": "À, cuốn sách bạn cho tôi mượn, tôi lỡ làm bẩn mất rồi..."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -237,40 +237,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｆ：あっ、すみません、どうも。",
-      "stemVi": "Nữ: Ôi, xin lỗi/cảm ơn anh/chị nhiều."
+      "stem": "あっ、すみません、どうも。",
+      "stemVi": "Ôi, cảm ơn anh/chị nhiều."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "おかげさまで元気です。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 1: 'Nhờ trời tôi vẫn khỏe.' - Sai vì đây là câu đáp lại khi hỏi thăm sức khỏe."
+        "explanationVi": "Sai. 'Nhờ trời tôi vẫn khỏe' là câu trả lời khi được hỏi thăm sức khỏe."
       },
       {
         "id": "2",
-        "textAfterAnswer": "こちらこそよろしくお願いします。",
+        "textAfterAnswer": "こちらこそ、よろしくお願いします。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Chính tôi mới là người mong được giúp đỡ.' - Sai vì đây là câu dùng khi lần đầu gặp mặt."
+        "explanationVi": "Sai. 'Chính tôi cũng mong được giúp đỡ' dùng để đáp lại lời chào xã giao khi mới gặp hoặc khi bắt đầu hợp tác."
       },
       {
         "id": "3",
         "textAfterAnswer": "いいえ、どういたしまして。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 3: 'Không có gì đâu ạ.' - Đúng. Đây là câu trả lời chuẩn mực khi đối phương nói lời xin lỗi/cảm ơn."
+        "explanationVi": "Đúng. 'Không có gì đâu ạ.' là cách trả lời chuẩn mực, lịch sự để đáp lại lời cảm ơn 「すみません、どうも」."
       }
     ],
     "answer": {
       "correctOptionId": "3",
-      "shortExplanationVi": "Đáp lại câu xin lỗi/cảm ơn bằng câu trả lời tiêu chuẩn 'いいえ、どういたしまして' (Không có gì đâu ạ).",
-      "fullExplanationVi": "Từ 'すみません、どうも' ở đây được dùng như một lời cảm ơn hoặc xin lỗi xã giao khi được giúp đỡ. Cách đáp lại tiêu chuẩn nhất là 'いいえ、どういたしまして' (Không có gì/Không dám). Phương án 3 là chính xác.",
-      "trapVi": "Phương án 1 chỉ dùng để đáp lại câu hỏi thăm sức khỏe. Phương án 2 chỉ dùng khi tự giới thiệu lần đầu gặp mặt.",
-      "listeningStrategyVi": "Nắm vững các cặp câu thoại giao tiếp cố định. Khi nghe 'すみません' hoặc 'ありがとう', hãy tìm ngay 'いいえ、どういたしまして'.",
-      "transcriptJa": "F：あっ、すみません、どうも。\n1．おかげさまで元気です。\n2．こちらこそよろしくお願いします。\n3．いいえ、どういたしまして。",
-      "translationVi": "F: Ôi, xin lỗi/cảm ơn anh/chị nhiều.\n1. Nhờ trời tôi vẫn khỏe.\n2. Chính tôi mới là người mong được giúp đỡ.\n3. Không có gì đâu ạ.",
+      "shortExplanationVi": "Khi đối phương nói 「すみません、どうも」 với nghĩa là 'Cảm ơn', ta đáp lại bằng câu 「いいえ、どういたしまして。」 (Không có gì/Không dám).",
+      "fullExplanationVi": "Trong tiếng Nhật, 「すみません」 thường được dùng thay cho lời cảm ơn khi ai đó làm giúp mình việc gì (mang hàm ý cảm ơn vì đã làm phiền đối phương). Ở đây 「すみません、どうも」 có nghĩa là 'Cảm ơn anh/chị nhiều'.\\n- Lựa chọn 1: 「おかげさまで元気です」 trả lời cho câu hỏi sức khỏe.\\n- Lựa chọn 2: 「こちらこそよろしくお願いします」 trả lời cho câu chào nhờ vả/hợp tác.\\n- Lựa chọn 3: 「いいえ、どういたしまして」 là câu đáp lại lời cảm ơn tiêu chuẩn ('Không có gì đâu').",
+      "trapVi": "Nhiều người học nhầm tưởng 「すみません」 chỉ có nghĩa là 'Xin lỗi' nên lúng túng không biết đáp lại thế nào. Thực tế nó mang nghĩa 'Cảm ơn' trong rất nhiều tình huống giao tiếp đời sống.",
+      "listeningStrategyVi": "Nắm vững các nét nghĩa đa dạng của 「すみません」 (Xin lỗi, Cảm ơn, Xin hỏi) dựa vào ngữ điệu và ngữ cảnh để chọn câu đáp lại phù hợp.",
+      "transcriptJa": "4番\\nあっ、すみません、どうも。\\n1　おかげさまで元気です。\\n2　こちらこそ、よろしくお願いします。\\n3　いいえ、どういたしまして。",
+      "translationVi": "4番\\nNữ: Ôi, cảm ơn anh/chị nhiều.\\n1: Nhờ trời tôi vẫn khỏe.\\n2: Chính tôi cũng mong được giúp đỡ.\\n3: Không có gì đâu ạ.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｆ：あっ、すみません、どうも。 1. おかげさまで元気です。 2. こちらこそよろしくお願いします。 3. いいえ、どういたしまして。",
-      "promptTranslationVi": "Nữ: Ôi, xin lỗi/cảm ơn anh/chị nhiều."
+      "promptTranscriptJa": "あっ、すみません、どうも。",
+      "promptTranslationVi": "Ôi, cảm ơn anh/chị nhiều."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -307,7 +307,7 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "空港までだれがお客さんを迎えに行くの?",
+      "stem": "空港まで誰がお客さんを迎えに行くの？",
       "stemVi": "Ai sẽ đi đón khách ở sân bay thế?"
     },
     "options": [
@@ -315,31 +315,31 @@
         "id": "1",
         "textAfterAnswer": "はい、もう行きました。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 1: 'Vâng, đã đi rồi.' - Sai vì câu hỏi bắt đầu bằng từ để hỏi 'だれ' (ai) nên không thể trả lời bằng 'はい'."
+        "explanationVi": "Sai. Câu hỏi bắt đầu bằng từ nghi vấn '誰' (ai), không thể trả lời bằng 'はい' (vâng)."
       },
       {
         "id": "2",
         "textAfterAnswer": "ええ、私が行っています。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Vâng, tôi đang đi.' - Sai vì không trả lời bằng 'ええ' cho câu hỏi 'だれ', và thì '行っています' không phù hợp."
+        "explanationVi": "Sai. Tương tự, không thể trả lời bằng 'ええ' (vâng) cho câu hỏi '誰' (ai)."
       },
       {
         "id": "3",
-        "textAfterAnswer": "よければ、私が行きましょう。",
+        "textAfterAnswer": "よければ私が行きましょう。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 3: 'Nếu được thì để tôi đi cho nhé.' - Đúng. Đưa ra lời đề xuất nhận nhiệm vụ đón khách một cách tự nhiên."
+        "explanationVi": "Đúng. 'Nếu được thì để tôi đi cho.' là lời đề nghị nhận nhiệm vụ đi đón khách, trả lời trực tiếp cho câu hỏi ai sẽ đi."
       }
     ],
     "answer": {
       "correctOptionId": "3",
-      "shortExplanationVi": "Tự đề xuất đi đón khách bằng câu 'よければ、私が行きましょう' (Nếu được thì để tôi đi cho).",
-      "fullExplanationVi": "Với câu hỏi thông tin bắt đầu bằng 'だれ' (Ai), các câu trả lời có chứa 'はい' hoặc 'ええ' ở đầu đều sai ngữ pháp giao tiếp. Phương án 3 'よければ、私が行きましょう' (Nếu được thì để tôi đi nhé) là lời đề xuất nhận việc hợp lý và tự nhiên.",
-      "trapVi": "Tránh chọn phương án 1 và 2 vì bắt đầu bằng 'はい/ええ', đây là lỗi ngữ pháp cơ bản khi trả lời câu hỏi có từ để hỏi.",
-      "listeningStrategyVi": "Đối với câu hỏi có từ để hỏi (như だれ, いつ, どこ), hãy loại ngay lập tức các phương án trả lời bằng はい (Yes) hoặc いいえ (No).",
-      "transcriptJa": "空港までだれがお客さんを迎えに行くの？\n1．はい、もう行きました。\n2．ええ、私が行っています。\n3．よければ、私が行きましょう。",
-      "translationVi": "Ai sẽ đi đón khách ở sân bay thế?\n1. Vâng, đã đi rồi.\n2. Vâng, tôi đang đi.\n3. Nếu được thì để tôi đi cho nhé.",
+      "shortExplanationVi": "Với câu hỏi thông tin 「誰が」 (Ai), ta loại ngay các phương án trả lời bằng 「はい」「ええ」. Câu trả lời đúng là lời tự nguyện nhận việc 「よければ私が行きましょう」.",
+      "fullExplanationVi": "Câu hỏi là: 「空港まで誰がお客さんを迎えに行くの？」 (Ai sẽ đi đón khách ở sân bay?). Đây là câu hỏi nghi vấn từ chỉ người (誰 - Ai).\\n- Lựa chọn 1 và 2 bắt đầu bằng 「はい」 (vâng) và 「ええ」 (vâng), ngữ pháp tiếng Nhật không trả lời Có/Không cho câu hỏi chứa từ nghi vấn.\\n- Lựa chọn 3: 「よければ私が行きましょう」 (Nếu được thì để tôi đi nhé) là lời đề nghị hợp lý để giải quyết câu hỏi 'ai sẽ đi'.",
+      "trapVi": "Học sinh dễ nhầm lẫn lựa chọn 2 vì có cụm 「私が行っています」 nhưng từ 「ええ」 ở đầu đã làm câu trở nên phi logic.",
+      "listeningStrategyVi": "Chú ý từ nghi vấn ở đầu câu hỏi. Nếu là câu hỏi có từ nghi vấn (Ai, Cái gì, Ở đâu, Khi nào...), hãy loại ngay các đáp án bắt đầu bằng はい (Vâng) hoặc いいえ (Không).",
+      "transcriptJa": "5番\\n空港まで誰がお客さんを迎えに行くの？\\n1　はい、もう行きました。\\n2　ええ、私が行っています。\\n3　よければ私が行きましょう。",
+      "translationVi": "5番\\nNam: Ai sẽ đi đón khách ở sân bay thế?\\n1: Vâng, đã đi rồi.\\n2: Vâng, tôi đang đi.\\n3: Nếu được thì để tôi đi cho.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "空港までだれがお客さんを迎えに行くの? 1. はい、もう行きました。 2. ええ、私が行っています。 3. よければ、私が行きましょう。",
+      "promptTranscriptJa": "空港まで誰がお客さんを迎えに行くの？",
       "promptTranslationVi": "Ai sẽ đi đón khách ở sân bay thế?"
     },
     "playbackPolicy": {
@@ -377,40 +377,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｆ：ああ、楽しみにしていた試合は雨で…。",
-      "stemVi": "Nữ: Trận đấu mà tớ rất mong đợi, vì trời mưa nên..."
+      "stem": "楽しみにしていた試合は雨で…",
+      "stemVi": "Trận đấu mà tớ mong đợi thế mà lại gặp mưa..."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "本当、残念だったね。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 1: 'Thật là đáng tiếc quá nhỉ.' - Đúng. Bày tỏ sự đồng cảm sâu sắc với sự tiếc nuối của đối phương."
+        "explanationVi": "Đúng. 'Thật sự đáng tiếc quá nhỉ.' là câu chia sẻ, đồng cảm phù hợp khi trận đấu mong đợi bị hủy hoặc ảnh hưởng bởi trời mưa."
       },
       {
         "id": "2",
         "textAfterAnswer": "うん、楽しい試合だった。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Ừ, quả là một trận đấu hay.' - Sai vì trận đấu bị hủy/hoãn do mưa nên không thể nói là hay hay vui được."
+        "explanationVi": "Sai. 'Ừ, đã là một trận đấu vui vẻ' mâuthuẫn với việc trận đấu bị ảnh hưởng/hủy do mưa."
       },
       {
         "id": "3",
         "textAfterAnswer": "もう少しで降り出すところだったな。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Suýt chút nữa là trời mưa rồi nhỉ.' - Sai vì cấu trúc '～ところだった' nghĩa là suýt nữa thì xảy ra (nhưng thực tế không xảy ra), trong khi thực tế trời đã mưa rồi."
+        "explanationVi": "Sai. 'Suýt chút nữa là trời đổ mưa rồi nhỉ' ngụ ý trời chưa mưa, trái ngược với thực tế trận đấu đã bị hỏng do mưa."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Đồng cảm với sự tiếc nuối khi trận đấu bị ảnh hưởng bởi mưa bằng câu '本当、残念だったね' (Thật là đáng tiếc nhỉ).",
-      "fullExplanationVi": "Vế câu lửng '雨で...' biểu thị nguyên nhân dẫn đến một kết quả không mong muốn (trận đấu bị hủy hoặc hoãn). Người nghe cần phản hồi bằng lời chia sẻ sự tiếc nuối: '本当、残念だったね' (Thật là đáng tiếc nhỉ). Phương án 1 chính xác.",
-      "trapVi": "Tránh chọn phương án 3 vì cấu trúc '～ところだった' biểu thị việc suýt nữa thì mưa (thực tế chưa mưa), trái ngược với thực tế là trận đấu đã bị ảnh hưởng do mưa.",
-      "listeningStrategyVi": "Khi nghe một vế câu lửng kết thúc bằng '～で...' chỉ lý do tiêu cực (như bão, mưa, tai nạn), hãy phán đoán kết quả xấu và tìm câu phản hồi chia buồn hoặc tiếc nuối.",
-      "transcriptJa": "F：ああ、楽しみにしていた試合は雨で…。\n1．本当、残念だったね。\n2．うん、楽しい試合だった。\n3．もう少しで降り出すところだったな。",
-      "translationVi": "F: Trận đấu mà tớ rất mong đợi, vì trời mưa nên...\n1. Thật là đáng tiếc quá nhỉ.\n2. Ừ, quả là một trận đấu hay.\n3. Suýt chút nữa là trời mưa rồi nhỉ.",
+      "shortExplanationVi": "Khi đối phương bỏ lửng câu với 「雨で…」 (vì mưa nên...), ngụ ý trận đấu bị hủy hoặc không diễn ra trọn vẹn, câu bày tỏ sự tiếc nuối 「本当、残念だったね。」 là thích hợp nhất.",
+      "fullExplanationVi": "Câu nói lửng: 「楽しみにしていた試合は雨で…」 (Trận đấu tớ mong chờ vì mưa nên...). Trong tiếng Nhật, việc lửng câu thế này biểu thị kết quả tiêu cực (trận đấu bị hủy/hoãn).\\n- Lựa chọn 1: 「本当残念だったね」 (Thật đáng tiếc nhỉ) phản hồi hoàn toàn tự nhiên để chia buồn với sự thất vọng của bạn.\\n- Lựa chọn 2: 「うん楽しい試合だった」 không hợp lý vì trận đấu đâu có diễn ra trọn vẹn hoặc vui vẻ.\\n- Lựa chọn 3: 「もう少しで降り出すところだったな」 nghĩa là suýt nữa thì mưa rơi, tức là thực tế chưa mưa, mâu thuẫn với câu gốc.",
+      "trapVi": "Bẫy ở Lựa chọn 3 là cấu trúc 「もう少しで～ところだった」 (suýt nữa thì...), thể hiện việc suýt xảy ra nhưng thực chất chưa xảy ra.",
+      "listeningStrategyVi": "Hiểu thói quen nói lửng câu của người Nhật. Khi câu kết thúc bằng từ chỉ nguyên nhân + trợ từ 「で…」, kết quả thường là tiêu cực và cần câu trả lời chia sẻ, cảm thông.",
+      "transcriptJa": "6番\\n楽しみにしていた試合は雨で…\\n1　本当、残念だったね。\\n2　うん、楽しい試合だった。\\n3　もう少しで降り出すところだったな。",
+      "translationVi": "6番\\nNữ: Trận đấu mà tớ mong đợi thế mà lại gặp mưa...\\n1: Thật sự đáng tiếc quá nhỉ.\\n2: Ừ, đã là một trận đấu vui vẻ.\\n3: Suýt chút nữa là trời đổ mưa rồi nhỉ.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｆ：ああ、楽しみにしていた試合は雨で…。 1. 本当、残念だったね。 2. うん、楽しい試合だった。 3. もう少しで降り出すところだったな。",
-      "promptTranslationVi": "Nữ: Trận đấu mà tớ rất mong đợi, vì trời mưa nên..."
+      "promptTranscriptJa": "楽しみにしていた試合は雨で…",
+      "promptTranslationVi": "Trận đấu mà tớ mong đợi thế mà lại gặp mưa..."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -447,40 +447,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｍ：お体の具合、いかがですか。",
-      "stemVi": "Nam: Sức khỏe của anh/chị thế nào rồi?"
+      "stem": "お体の具合、いかがですか。",
+      "stemVi": "Sức khỏe của anh/chị thế nào rồi?"
     },
     "options": [
       {
         "id": "1",
-        "textAfterAnswer": "おかげさまで、良くなりました。",
+        "textAfterAnswer": "おかげさまで良くなりました。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 1: 'Cảm ơn anh/chị, tôi đã đỡ hơn nhiều rồi ạ.' - Đúng. Câu trả lời lịch sự khi được hỏi thăm sức khỏe."
+        "explanationVi": "Đúng. 'Nhờ trời tôi đã khỏe hơn rồi.' là câu trả lời chuẩn mực khi được hỏi thăm sức khỏe sau khi ốm."
       },
       {
         "id": "2",
         "textAfterAnswer": "これから、お大事にしてくださいね。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Từ giờ hãy giữ gìn sức khỏe nhé.' - Sai vì đây là câu của người đi hỏi thăm nói với người bệnh."
+        "explanationVi": "Sai. 'Từ giờ hãy giữ gìn sức khỏe nhé' là câu người đi hỏi thăm nói với người bệnh chứ không phải câu trả lời của người bệnh."
       },
       {
         "id": "3",
         "textAfterAnswer": "特にきれいにしてきましたよ。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Tôi đã đặc biệt dọn dẹp sạch sẽ rồi đấy.' - Sai vì không liên quan."
+        "explanationVi": "Sai. 'Tôi đặc biệt đã dọn sạch sẽ rồi đấy' hoàn toàn lạc đề."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Báo sức khỏe đã tốt lên bằng câu 'おかげさまで、良くなりました' (Nhờ ơn trời, tôi đỡ rồi).",
-      "fullExplanationVi": "Khi được hỏi thăm sức khỏe bằng câu 'お体の具合、いかがですか', người bệnh sẽ trả lời bằng trạng thái của mình. Phương án 1 'おかげさまで、良くなりました' (Nhờ ơn trời/nhờ anh chị quan tâm, tôi đã khá hơn rồi) là câu trả lời chuẩn xác và lịch sự.",
-      "trapVi": "Tránh nhầm với phương án 2 vì 'お大事に' là câu chúc sức khỏe dùng bởi người hỏi thăm, chứ bản thân người bệnh không tự chúc mình.",
-      "listeningStrategyVi": "Phần biệt rõ câu thoại của người đi hỏi thăm sức khỏe (お大事に) và người được hỏi thăm (おかげさまで...).",
-      "transcriptJa": "M：お体の具合、いかがですか。\n1．おかげさまで、良くなりました。\n2．これから、お大事にしてくださいね。\n3．特にきれいにしてきましたよ。",
-      "translationVi": "M: Sức khỏe của anh/chị thế nào rồi?\n1. Cảm ơn anh/chị, tôi đã đỡ hơn nhiều rồi ạ.\n2. Từ giờ hãy giữ gìn sức khỏe nhé.\n3. Tôi đã đặc biệt dọn dẹp sạch sẽ rồi đấy.",
+      "shortExplanationVi": "Khi được hỏi thăm sức khỏe 「お体の具合、いかがですか。」, câu đáp lịch sự của người đang hồi phục là 「おかげさまで良くなりました。」 (Nhờ trời tôi đã khỏe hơn rồi).",
+      "fullExplanationVi": "Câu hỏi thăm sức khỏe lịch sự: 「お体の具合、いかがですか。」\\n- Lựa chọn 1: 「おかげさまで良くなりました」 (Nhờ trời/ơn trời tôi đã đỡ hơn rồi) là lời cảm ơn sự quan tâm và thông báo sức khỏe đã tiến triển tốt.\\n- Lựa chọn 2: 「これからお大事にしてくださいね」 (Hãy bảo trọng nhé) là lời chúc dành cho người bệnh, không dùng làm câu trả lời của chính người bệnh.\\n- Lựa chọn 3: 「特にきれいにしてきましたよ」 mang ý nghĩa làm sạch, không liên quan.",
+      "trapVi": "Lựa chọn 2 là câu chúc cửa miệng 「お大事に」 rất quen thuộc nhưng lại sai vai giao tiếp (người bệnh không tự chúc mình).",
+      "listeningStrategyVi": "Xác định rõ vai giao tiếp: ai là người hỏi thăm (người khỏe) và ai là người trả lời (người đang/đã ốm) để lựa chọn đúng kính ngữ/lời đáp thích hợp.",
+      "transcriptJa": "7番\\nお体の具合、いかがですか。\\n1　おかげさまで良くなりました。\\n2　これから、お大事にしてくださいね。\\n3　特にきれいにしてきましたよ。",
+      "translationVi": "7番\\nNam: Sức khỏe của anh/chị thế nào rồi?\\n1: Nhờ trời tôi đã khỏe hơn rồi.\\n2: Từ giờ hãy giữ giữ sức khỏe nhé.\\n3: Tôi đặc biệt đã dọn sạch sẽ rồi đấy.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｍ：お体の具合、いかがですか。 1. おかげさまで、良くなりました。 2. これから、お大事にしてくださいね。 3. 特にきれいにしてきましたよ。",
-      "promptTranslationVi": "Nam: Sức khỏe của anh/chị thế nào rồi?"
+      "promptTranscriptJa": "お体の具合、いかがですか。",
+      "promptTranslationVi": "Sức khỏe của anh/chị thế nào rồi?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -517,40 +517,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｆ：今晩のパーティー、楽しかったわ。",
-      "stemVi": "Nữ: Bữa tiệc tối nay vui quá!"
+      "stem": "今晩のパーティー、楽しかったわ。",
+      "stemVi": "Bữa tiệc tối nay vui thật đấy."
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "遠いところから来ていただければ、うれしいと思います。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 1: 'Nếu bạn đến từ nơi xa thì tôi sẽ rất vui.' - Sai vì sai ngữ pháp và ngữ cảnh."
+        "explanationVi": "Sai. Cấu trúc câu giả định ở đây rất gượng gạo và không phù hợp làm câu đáp."
       },
       {
         "id": "2",
         "textAfterAnswer": "わざわざいらっしゃっていただいて、どうもありがとうございました。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 2: 'Cảm ơn bạn rất nhiều vì đã cất công đến tham gia.' - Đúng. Lời cảm ơn của chủ nhà đáp lại lời khen của khách."
+        "explanationVi": "Đúng. 'Cảm ơn anh/chị rất nhiều vì đã cất công ghé chơi.' là lời cảm ơn lịch sự của chủ nhà đáp lại lời khen của khách."
       },
       {
         "id": "3",
         "textAfterAnswer": "すっかりお邪魔しまして、本当にすみませんでした。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Tôi đã làm phiền bạn suốt cả buổi, thực sự xin lỗi.' - Sai vì đây là câu nói của khách khi xin lỗi chủ nhà."
+        "explanationVi": "Sai. 'Tôi đã làm phiền anh/chị nhiều quá, thực sự xin lỗi.' là lời của khách nói với chủ nhà, không phải của chủ nhà đáp lại khách."
       }
     ],
     "answer": {
       "correctOptionId": "2",
-      "shortExplanationVi": "Chủ nhà cảm ơn khách đã cất công tới dự tiệc bằng câu 'わざわざいらっしゃっていただいて、どうもありがとうございました。'",
-      "fullExplanationVi": "Khi khách khen ngợi bữa tiệc tối nay rất vui ('楽しかったわ'), chủ nhà sẽ đáp lại bằng cách cảm ơn khách đã dành thời gian đến dự bằng câu kính ngữ: 'わざわざいらっしゃっていただいて、どうもありがとうございました' (Cảm ơn anh/chị đã cất công đến dự). Phương án 2 chính xác.",
-      "trapVi": "Tránh nhầm với phương án 3 vì đó là câu khách nói khi chào tạm biệt chủ nhà ('すっかりお邪魔しまして...' - Tôi đã làm phiền nhiều quá), không phải câu của chủ nhà đáp lại lời khen.",
-      "listeningStrategyVi": "Phân biệt rõ câu thoại của vai chủ nhà (cảm ơn khách đã đến: いらっしゃっていただいて...) và vai khách (xin lỗi vì làm phiền: お邪魔しました) để chọn đáp án phù hợp.",
-      "transcriptJa": "F：今晩のパーティー、楽しかったわ。\n1．遠いところから来ていただければ、うれしいと思います。\n2．わざわざいらっしゃっていただいて、どうもありがとうございました。\n3．すっかりお邪魔しまして、本当にすみませんでした。",
-      "translationVi": "F: Bữa tiệc tối nay vui quá!\n1. Nếu bạn đến từ nơi xa thì tôi sẽ rất vui.\n2. Cảm ơn bạn rất nhiều vì đã cất công đến tham gia.\n3. Tôi đã làm phiền bạn suốt cả buổi, thực sự xin lỗi.",
+      "shortExplanationVi": "Khi khách khen bữa tiệc vui, chủ nhà đáp lại lịch sự bằng lời cảm ơn vì khách đã cất công đến dự: 「わざわざいらっしゃっていただいて、どうもありがとうございました。」.",
+      "fullExplanationVi": "Khách (nữ) khen: 「今晩のパーティー楽しかったわ」 (Bữa tiệc tối nay vui quá).\\n- Lựa chọn 1: 「遠いところから来ていただければうれしいと思います」 sai về cấu trúc giao tiếp và ngữ pháp.\\n- Lựa chọn 2: 「わざわざいらっしゃっていただいてどうもありがとうございました」 sử dụng kính ngữ tôn kính 「いらっしゃっていただく」 (được quý khách ghé chơi) thể hiện sự hiếu khách và lời cảm ơn chân thành từ phía chủ nhà.\\n- Lựa chọn 3: 「すっかりお邪魔しまして本当にすみませんでした」 là câu khách tự nói khi chuẩn bị ra về để xin lỗi vì đã làm phiền gia chủ.",
+      "trapVi": "Cần xác định đúng vị thế giao tiếp: Người nói câu đề bài là khách khen tiệc vui. Do đó, câu phản hồi phải là lời của chủ nhà. Lựa chọn 3 là lời của khách nên bị loại.",
+      "listeningStrategyVi": "Phân biệt rõ lời thoại của Chủ nhà (ホスト) và Khách (ゲスト). Chủ nhà sẽ dùng kính ngữ tôn vinh hành động của khách (いらっしゃっていただく) và cảm ơn khách.",
+      "transcriptJa": "8番\\n今晩のパーティー、楽しかったわ。\\n1　遠いところから来ていただければ、うれしいと思います。\\n2　わざわざいらっしゃっていただいて、どうもありがとうございました。\\n3　すっかりお邪魔しまして、本当にすみませんでした。",
+      "translationVi": "8番\\nNữ: Bữa tiệc tối nay vui thật đấy.\\n1: Tôi nghĩ mình sẽ vui nếu anh/chị đến từ nơi xa.\\n2: Cảm ơn anh/chị rất nhiều vì đã cất công ghé chơi.\\n3: Tôi đã làm phiền anh/chị nhiều quá, thực sự xin lỗi.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｆ：今晩のパーティー、楽しかったわ。 1. 遠いところから来ていただければ、うれしいと思います。 2. わざわざいらっしゃっていただいて、どうもありがとうございました。 3. すっかりお邪魔しまして、本当にすみませんでした。",
-      "promptTranslationVi": "Nữ: Bữa tiệc tối nay vui quá!"
+      "promptTranscriptJa": "今晩のパーティー、楽しかったわ。",
+      "promptTranslationVi": "Bữa tiệc tối nay vui thật đấy."
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -587,40 +587,40 @@
       "instruction": "もんだい4では、えなどがありません。まず、ぶんを聞いてください。それから、そのへんじを聞いて、1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nghe câu hỏi/tình huống ngắn và chọn câu phản hồi nhanh thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "Ｍ：あ、田中さん、黒板を消しておいてくれませんか。",
-      "stemVi": "Nam: À, Tanaka, cậu xóa bảng giúp tôi được không?"
+      "stem": "あ、田中さん、黒板を消しといてくれませんか。",
+      "stemVi": "A, anh Tanaka, anh xóa hộ tôi cái bảng nhé?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "はい、すぐにやります。",
         "isCorrect": true,
-        "explanationVi": "Đáp án 1: 'Vâng, tôi sẽ làm ngay ạ.' - Đúng. Đồng ý nhận lời nhờ vả một cách lịch sự, sẵn sàng."
+        "explanationVi": "Đúng. 'Vâng, tôi sẽ làm ngay đây.' là câu đồng ý thực hiện yêu cầu giúp đỡ một cách nhanh chóng, lịch sự."
       },
       {
         "id": "2",
         "textAfterAnswer": "きれいになりましたね。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 2: 'Sạch sẽ quá rồi nhỉ.' - Sai vì bảng chưa được xóa."
+        "explanationVi": "Sai. 'Bảng đã sạch rồi nhỉ' là nhận xét sau khi bảng đã sạch, không thích hợp đáp lại lời nhờ vả xóa bảng lúc này."
       },
       {
         "id": "3",
         "textAfterAnswer": "ここに置きましょう。",
         "isCorrect": false,
-        "explanationVi": "Đáp án 3: 'Chúng ta đặt ở đây nhé.' - Sai vì không liên quan đến việc xóa bảng."
+        "explanationVi": "Sai. 'Hãy đặt ở đây nào' không liên quan gì đến hành động xóa bảng."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Nhận lời xóa bảng bằng câu 'はい、すぐにやります' (Vâng, tôi làm ngay).",
-      "fullExplanationVi": "Khi được nhờ vả làm một việc gì đó bằng mẫu câu '～てくれませんか' (Làm giúp tôi... được không?), người nghe đồng ý sẽ nói 'はい、すぐにやります' (Vâng, tôi sẽ làm ngay). Phương án 1 chính xác.",
-      "trapVi": "Phương án 2 nói bảng đã sạch trong khi chưa xóa. Phương án 3 nói về vị trí đặt đồ, lạc đề.",
-      "listeningStrategyVi": "Đáp lại lời nhờ vả '～てくれませんか' hoặc '～てください', câu đồng ý thường là 'はい、わかりました' hoặc 'はい、すぐにやります' (tỏ ý làm ngay lập tức).",
-      "transcriptJa": "M：あ、田中さん、黒板を消しておいてくれませんか。\n1．はい、すぐにやります。\n2．きれいになりましたね。\n3．ここに置きましょう。",
-      "translationVi": "M: À, Tanaka, cậu xóa bảng giúp tôi được không?\n1. Vâng, tôi sẽ làm ngay ạ.\n2. Sạch sẽ quá rồi nhỉ.\n3. Chúng ta đặt ở đây nhé.",
+      "shortExplanationVi": "Khi được nhờ vả 「～てくれませんか」 (Làm giúp tôi... nhé?), lời phản hồi đồng ý thực hiện ngay lập tức là 「はい、すぐにやります。」.",
+      "fullExplanationVi": "Người nói đưa ra lời nhờ vả: 「黒板を消しといてくれませんか」 (Xóa bảng hộ tôi được không?).\\n- Lựa chọn 1: 「はい、すぐにやります」 (Vâng, tôi sẽ làm ngay) thể hiện sự đồng ý nhận lời giúp đỡ và tiến hành ngay lập tức.\\n- Lựa chọn 2: 「きれいになりましたね」 (Đã sạch rồi nhỉ) nói khi bảng đã được xóa sạch từ trước.\\n- Lựa chọn 3: 「ここに置きましょう」 (Hãy đặt ở đây) đề xuất đặt đồ vật nào đó xuống, không liên quan.",
+      "trapVi": "Bẫy ở Lựa chọn 2 nói về trạng thái 'sạch sẽ' liên quan đến kết quả của việc xóa bảng, nhưng sai thời điểm giao tiếp (đang được nhờ chứ chưa làm).",
+      "listeningStrategyVi": "Khi nghe câu yêu cầu hoặc nhờ vả với đuôi 「～てくれませんか」「～てください」, hãy tìm các phương án nhận lời như 「わかりました」「はい、すぐに行います/やります」.",
+      "transcriptJa": "9番\\nあ、田中さん、黒板を消しといてくれませんか。\\n1　はい、すぐにやります。\\n2　きれいになりましたね。\\n3　ここに置きましょう。",
+      "translationVi": "9番\\nNam: A, anh Tanaka, anh xóa hộ tôi cái bảng nhé?\\n1: Vâng, tôi sẽ làm ngay đây.\\n2: Bảng đã sạch rồi nhỉ.\\n3: Hãy đặt ở đây nào.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "Ｍ：あ、田中さん、黒板を消しておいてくれませんか。 1. はい、すぐにやります。 2. きれいになりましたね。 3. ここに置きましょう。",
-      "promptTranslationVi": "Nam: À, Tanaka, cậu xóa bảng giúp tôi được không?"
+      "promptTranscriptJa": "あ、田中さん、黒板を消しといてくれませんか。",
+      "promptTranslationVi": "A, anh Tanaka, anh xóa hộ tôi cái bảng nhé?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
