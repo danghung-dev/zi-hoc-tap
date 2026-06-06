@@ -31,7 +31,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const IS_LISTENING_ENABLED = false;
+const IS_LISTENING_ENABLED = true;
 
 const ITEM_TYPE_LABELS: Record<string, string> = {
   // Từ vựng (Vocabulary)

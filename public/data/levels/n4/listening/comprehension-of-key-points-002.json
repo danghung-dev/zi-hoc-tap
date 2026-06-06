@@ -28,46 +28,46 @@
       "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
       "textVisibleBeforeAudio": true,
       "stem": "どれにしますか。",
-      "stemVi": "Họ quyết định chọn mẫu thiết kế nào?"
+      "stemVi": "Quyết định chọn cái nào?"
     },
     "options": [
       {
         "id": "A",
         "isCorrect": false,
         "text": "1",
-        "explanationVi": "Đáp án A. Mẫu chữ Hán (漢字) bị người phụ nữ từ chối vì cho rằng quá cứng nhắc đối với khách hàng nữ.",
+        "explanationVi": "Đáp án A: Chữ Hán (漢字) bị người phụ nữ từ chối vì cửa hàng có nhiều khách nữ, mẫu này trông quá cứng nhắc.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optA.png"
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "2",
-        "explanationVi": "Đáp án B. Mẫu chữ Hiragana (ひらがな) cũng bị người phụ nữ chần chừ từ chối.",
+        "explanationVi": "Đáp án B: Chữ Hiragana (ひらがな) bị người phụ nữ chê là 'hơi...' (ちょっとねえ), không được chọn.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optB.png"
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "3",
-        "explanationVi": "Đáp án C. Mẫu chữ Katakana (カタカナ) bị người phụ nữ từ chối chung với Hiragana.",
+        "explanationVi": "Đáp án C: Chữ Katakana (カタカナ) cũng bị từ chối cùng chữ Hiragana.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optC.png"
       },
       {
         "id": "D",
         "isCorrect": true,
         "text": "4",
-        "explanationVi": "Đáp án D. Mẫu thứ tư mang lại cảm giác mới mẻ được cả hai thống nhất lựa chọn.",
+        "explanationVi": "Đáp án D: Mẫu còn lại (mẫu số 4) được người phụ nữ chọn vì mang lại cảm giác mới mẻ hơn.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optD.png"
       }
     ],
     "answer": {
       "correctOptionId": "D",
-      "shortExplanationVi": "Họ chọn mẫu thứ 4 vì mẫu chữ Hán quá cứng nhắc, còn chữ Hiragana và Katakana cũng không phù hợp; mẫu thứ 4 mang lại cảm giác mới mẻ hơn.",
-      "fullExplanationVi": "Trong cuộc trò chuyện, người đàn ông đưa ra 4 mẫu thiết kế. Người đàn ông gợi ý chữ Hán (漢字), nhưng người phụ nữ từ chối vì cửa hàng có nhiều khách nữ, chữ Hán sẽ bị cứng nhắc. Tiếp theo, người đàn ông đề xuất chữ Hiragana, người phụ nữ nhận xét cả Hiragana và Katakana đều không được ổn cho lắm. Cuối cùng, cô đề xuất mẫu còn lại (mẫu thứ 4) vì nó đem lại cảm giác mới mẻ hơn ('新しい感じがするわね'). Người đàn ông đồng ý ('これにしましょう'). Do đó, đáp án đúng là 4 (D).",
-      "trapVi": "Bẫy ở chỗ người phụ nữ phủ định liên tiếp các phương án chữ Hán, Hiragana và Katakana. Nếu không nghe kỹ từ phủ định 'ちょっとねえ' (hơi...) thì dễ chọn nhầm.",
-      "listeningStrategyVi": "Chú ý đến các từ phủ định nhẹ nhàng trong tiếng Nhật như 'ちょっと...' (hơi...) hay câu hỏi tu từ '固いんじゃないかしら' (chẳng phải hơi cứng sao) để loại bỏ phương án sai.",
-      "transcriptJa": "男の人：あのー、4つ作りましたけど、どれがいいでしょう？\n男の人：私は漢字がいいと思いますけど。\n女の人：漢字ねえ… うちは女のお客さんが多いから、ちょっと固いんじゃないかしら。\n男の人：じゃあ、ひらがなにしましょうか。\n女の人：ひらがなもカタカナもちょっとねえ。それより、これの方が新しい感じがするわね。\n男の人：わかりました。これにしましょう。",
-      "translationVi": "Người đàn ông: À... Tôi đã làm 4 mẫu thiết kế rồi, cái nào thì tốt nhỉ?\nNgười đàn ông: Tôi thì nghĩ chữ Hán là đẹp...\nNgười phụ nữ: Chữ Hán à... Cửa hàng chúng ta có nhiều khách hàng nữ nên chẳng phải hơi cứng nhắc sao?\nNgười đàn ông: Vậy thì chọn chữ Hiragana nhé?\nNgười phụ nữ: Hiragana hay Katakana cũng hơi... Thay vì thế, cái này mang lại cảm giác mới mẻ hơn nhỉ.\nNgười đàn ông: Tôi hiểu rồi. Vậy chọn mẫu này đi.",
+      "shortExplanationVi": "Người phụ nữ từ chối chữ Hán (mẫu 1) vì cứng nhắc, từ chối chữ Hiragana (mẫu 2) và Katakana (mẫu 3) vì không phù hợp, cuối cùng chọn mẫu còn lại (mẫu 4) vì mang lại cảm giác mới mẻ.",
+      "fullExplanationVi": "Người nam đưa ra 4 mẫu thiết kế để lựa chọn. Người nam gợi ý dùng chữ Hán (mẫu 1), nhưng người nữ phản đối vì cửa hàng đông khách nữ nên chữ Hán trông hơi cứng nhắc. Khi người nam đề xuất đổi sang chữ Hiragana (mẫu 2), người nữ thấy cả Hiragana lẫn Katakana (mẫu 3) đều không ổn. Cuối cùng, cô chỉ vào mẫu thứ 4 và khen nó mang lại cảm giác mới mẻ hơn (新しい感じがする). Cả hai thống nhất chọn mẫu này.",
+      "trapVi": "Từ đồng âm trong hội thoại: Từ '新しい感じ' (cảm giác mới mẻ) phát âm giống với '新しい漢字' (chữ Hán mới), dễ khiến người nghe nhầm lẫn sang việc chọn một chữ Hán khác nếu không dựa vào ngữ cảnh từ chối chữ Hán từ đầu.",
+      "listeningStrategyVi": "Chú ý nghe các từ phủ định hoặc thái độ ngập ngừng như 'ちょっとねえ' (hơi...) để loại trừ các đáp án bị từ chối. Nắm bắt cấu trúc loại trừ dần.",
+      "transcriptJa": "男の人：あのー、４つ作りましたけど、どれがいいでしょう。私は漢字がいいと思いますけど。\n女の人：漢字ねえ。うちは女のお客さんが多いから、ちょっと硬いんじゃないかしら。\n男の人：じゃあ、ひらがなにしましょうか。\n女の人：ひらがなもカタカナもちょっとねえ。それより、これの方が新しい感じがするわね。\n男の人：わかりました。これにしましょう。",
+      "translationVi": "男の人：À, tôi đã làm 4 mẫu rồi, cái nào thì tốt hơn ạ? Tôi nghĩ chữ Hán thì đẹp...\n女の人：Chữ Hán à... Cửa hàng chúng ta có nhiều khách hàng nữ nên chẳng phải chữ Hán trông hơi cứng nhắc sao?\n男の人：Vậy thì chúng ta chọn chữ Hiragana nhé?\n女の人：Chữ Hiragana hay Katakana thì cũng hơi... Thay vì thế, mẫu này (mẫu số 4) trông có vẻ mới mẻ hơn nhỉ.\n男の人：Tôi hiểu rồi. Vậy quyết định chọn mẫu này nhé.",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -113,35 +113,35 @@
         "id": "A",
         "isCorrect": false,
         "text": "中国の上海で働くため",
-        "explanationVi": "Đáp án A. Đi làm việc ở Thượng Hải là lý do anh ấy cần học tiếng Trung, chứ không phải mục đích anh ấy đến gặp người phụ nữ."
+        "explanationVi": "Đáp án A: Việc đi làm ở Thượng Hải chỉ là hoàn cảnh, không phải là mục đích trực tiếp anh ấy đến nhờ cô."
       },
       {
         "id": "B",
         "isCorrect": true,
         "text": "中国語を教えてもらうため",
-        "explanationVi": "Đáp án B. Anh ấy đến để nhờ người phụ nữ dạy tiếng Trung giao tiếp cơ bản cho mình."
+        "explanationVi": "Đáp án B: Mục đích chính là đến nhờ người phụ nữ dạy tiếng Trung cơ bản để chuẩn bị đi Thượng Hải."
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "向こうが忙しいかそうかを聞くため",
-        "explanationVi": "Đáp án C. Hỏi đối phương có bận không chỉ là câu chào hỏi lịch sự ban đầu."
+        "explanationVi": "Đáp án C: Việc hỏi bận hay không chỉ là câu mở đầu lịch sự xã giao khi bắt đầu cuộc trò chuyện."
       },
       {
         "id": "D",
         "isCorrect": false,
         "text": "別れのあいさつをするため",
-        "explanationVi": "Đáp án D. Anh ấy đến nhờ học tiếng Trung chứ chưa phải để chào tạm biệt."
+        "explanationVi": "Đáp án D: Anh ấy chưa đi ngay mà chỉ mới chuẩn bị đi, mục đích đến là nhờ vả chứ không phải để chào tạm biệt."
       }
     ],
     "answer": {
       "correctOptionId": "B",
-      "shortExplanationVi": "Người đàn ông đến gặp người phụ nữ để nhờ cô dạy tiếng Trung giao tiếp cơ bản trước khi đi công tác Thượng Hải.",
-      "fullExplanationVi": "Người đàn ông đến gặp người phụ nữ và thông báo sắp đi làm việc ở chi nhánh Thượng Hải. Vì lo lắng do chưa từng đến đó và không biết tiếng Trung, anh ấy đã nhờ người phụ nữ dạy tiếng Trung cho mình ('中国語を教えていただけないでしょうか'). Dù người phụ nữ hơi ngần ngại vì chưa có kinh nghiệm, người đàn ông giải thích chỉ cần học chào hỏi cơ bản, nên cô đã đồng ý. Mục đích chính của chuyến viếng thăm là nhờ dạy tiếng Trung. Do đó đáp án B đúng.",
-      "trapVi": "Bẫy ở chi tiết '上海に勤める' (làm việc ở Thượng Hải). Đây là bối cảnh/lý do phát sinh nhu cầu, nhưng mục đích gặp người phụ nữ là nhờ học tiếng Trung.",
-      "listeningStrategyVi": "Cần phân biệt giữa bối cảnh sự việc (đi Thượng Hải làm việc) và mục đích hành động cụ thể khi đến gặp đối phương (nhờ dạy học).",
-      "transcriptJa": "男の人：Dさん、今お忙しいでしょうか。\n女の人：いいえ、あまり忙しくありません。\n男の人：ちょっとお邪魔してもよろしいでしょうか。\n女の人：はい、どうぞ、遠慮なく。\n男の人：あのー、今度、中国の上海にある支店に勤めることになったんです。\n女の人：えー、そうなんですか。上海ですか、いいところですよ。\n男の人：ええ。それで、ちょっとお願いがあるんですが。\n女の人：はい、私にできることでしたら、何でもおっしゃってください。\n男の人：私、上海は初めてですし、特に中国語が全然できませんし、ちょっと心配なんです。それで、Dさんのご都合のいい時でいいんですが、ちょっと中国語を教えていただけないでしょうか。\n女の人：え、私が教えるんですか。えっと、教えた経験もありませんが。\n男の人：いえ、ただ挨拶ぐらいだけでいいんですよ。\n女の人：あー、そうですか。それなら私にもできそうです。\n男の人：あ、やっていただけますね。\n女の人：ええ、喜んでやらせていただきます。\n男の人：あー、よかった。ありがとうございます。じゃあ、今から始めましょう。\n女の人：そうですか。はい、よろしくお願いします。",
-      "translationVi": "Người đàn ông: Chị D ơi, bây giờ chị có bận không ạ?\nNgười phụ nữ: Không, tôi không bận lắm.\nNgười đàn ông: Tôi xin phép làm phiền một chút có được không?\nNgười phụ nữ: Vâng, xin mời anh cứ tự nhiên.\nNgười đàn ông: À... sắp tới tôi sẽ chuyển sang làm việc tại chi nhánh ở Thượng Hải, Trung Quốc.\nNgười phụ nữ: Ôi thế ạ? Thượng Hải à, nơi đó đẹp lắm đấy.\nNgười đàn ông: Vâng. Thế nên tôi có chút việc muốn nhờ...\nNgười phụ nữ: Vâng, nếu là việc tôi có thể làm thì xin anh cứ nói.\nNgười đàn ông: Đây là lần đầu tôi đến Thượng Hải, vả lại tôi hoàn toàn không biết tiếng Trung nên hơi lo lắng. Vì thế, lúc nào chị D tiện cũng được, chị có thể dạy tiếng Trung cho tôi được không?\nNgười phụ nữ: Ơ, tôi dạy á? Tôi cũng chưa có kinh nghiệm dạy học bao giờ...\nNgười đàn ông: Không, chỉ cần chào hỏi xã giao là được rồi ạ.\nNgười phụ nữ: À ra vậy, nếu thế thì tôi cũng có thể làm được.\nNgười đàn ông: Ôi, chị sẽ dạy giúp tôi chứ?\nNgười phụ nữ: Vâng, tôi rất sẵn lòng.\nNgười đàn ông: Ôi tốt quá, xin cảm ơn chị. Vậy chúng ta bắt đầu từ bây giờ luôn nhé.\nNgười phụ nữ: Thế ạ? Vâng, mong được anh giúp đỡ.",
+      "shortExplanationVi": "Người đàn ông chuẩn bị sang chi nhánh Thượng Hải làm việc, vì không biết tiếng Trung nên đã đến gặp đồng nghiệp (chị D) để nhờ dạy giúp các câu chào hỏi cơ bản.",
+      "fullExplanationVi": "Trong cuộc trò chuyện, người đàn ông giải thích hoàn cảnh sắp tới là sẽ chuyển sang làm việc tại chi nhánh Thượng Hải. Do lo lắng vì lần đầu đi và không biết tiếng Trung, anh ấy đã nói rõ mục đích của mình: 'ちょっと中国語を教えていただけないでしょうか' (Chị có thể dạy tiếng Trung cho tôi một chút được không?). Người phụ nữ sau khi biết chỉ cần dạy các câu chào hỏi đơn giản đã vui vẻ đồng ý.",
+      "trapVi": "Người nghe dễ bị nhầm lẫn với phương án A (làm việc ở Thượng Hải) vì thông tin này xuất hiện rất sớm và nổi bật, hoặc phương án D (chào tạm biệt). Hãy chú ý phân biệt giữa lý do hoàn cảnh và mục đích hành động.",
+      "listeningStrategyVi": "Khi người nói dùng các cấu trúc nhờ vả như '...ていただけないでしょうか' (Có thể làm giúp tôi... không?), đó chính là từ khóa chứa mục đích thực sự của cuộc hội thoại.",
+      "transcriptJa": "男の人：Dさん、今お忙しいでしょうか。\n女の人：いいえ、あまり忙しくありません。\n男の人：ちょっとお邪魔してもよろしいでしょうか。\n女の人：はい、どうぞ、遠慮なく。\n男の人：あのー、今度中国の上海にある支店に勤めることになったんです。\n女の人：えー、そうなんですか。上海ですか。いいところですよ。\n男の人：ええ。それで、ちょっとお願いがあるんですが。\n女の人：はい、私にできることでしたら何でもおっしゃってください。\n男の人：私、上海は初めてですし、特に中国語が全然できませんし、ちょっと心配なんです。それで、Dさんのご都合のいい時でいいんですが。\n女の人：はい。\n男の人：ちょっと中国語を教えていただけないでしょうか。\n女の人：え、私が教えるんですか。えっと、教えた経験もありませんが。\n男の人：いえ、ただ挨拶ぐらいだけでいいんですよ。\n女の人：あー、そうですか。それなら私にもできそうです。\n男の人：あ、やっていただけますね。\n女の人：ええ、喜んでやらせていただきます。\n男の人：あー、よかった。ありがとうございます。\n女の人：じゃあ、今から始めましょう。\n男の人：え、そうですか。はい、よろしくお願いします。",
+      "translationVi": "男の人：Chị D ơi, bây giờ chị có bận không ạ?\n女の人：Không, tôi không bận lắm.\n男の人：Tôi có thể xin phép làm phiền chị một chút được không?\n女の人：Vâng, xin mời anh cứ tự nhiên.\n男の人：À, sắp tới tôi được phân công sang làm việc tại chi nhánh ở Thượng Hải, Trung Quốc.\n女の人：Ôi, vậy ạ? Thượng Hải à, nơi đó tuyệt lắm đấy.\n男の人：Vâng. Vì vậy tôi có một thỉnh cầu nhỏ...\n女の人：Vâng, nếu là việc tôi có thể làm thì xin anh cứ nói.\n男の人：Thượng Hải là nơi tôi đến lần đầu, đặc biệt là tôi hoàn toàn không biết tiếng Trung nên hơi lo lắng. Vì vậy, vào lúc nào thuận tiện cho chị D cũng được...\n女の人：Vâng.\n男の人：Chị có thể dạy tiếng Trung cho tôi một chút được không?\n女の人：Ơ, tôi dạy sao? Tôi cũng chưa từng có kinh nghiệm dạy học...\n男の人：Không, chỉ cần chào hỏi xã giao thông thường là được rồi ạ.\n女の人：A, ra là vậy. Nếu thế thì tôi nghĩ mình có thể làm được.\n男の人：Ôi, chị sẽ giúp tôi chứ?\n女の人：Vâng, tôi rất sẵn lòng.\n男の人：Thế thì tốt quá rồi. Xin cảm ơn chị rất nhiều.\n女の人：Vậy thì chúng ta bắt đầu ngay từ bây giờ nhé.\n男の人：Ơ, thế ạ? Vâng, nhờ chị giúp đỡ ạ.",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -180,46 +180,46 @@
       "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
       "textVisibleBeforeAudio": true,
       "stem": "男の子は、どのお皿をもっていきますか。",
-      "stemVi": "Cậu bé sẽ mang chiếc đĩa nào đi?"
+      "stemVi": "Cậu bé sẽ mang chiếc đĩa nào ra?"
     },
     "options": [
       {
         "id": "A",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "1",
-        "explanationVi": "Đáp án A. Chiếc đĩa tròn, kích thước lớn và không có vẽ hình trang trí.",
+        "explanationVi": "Đáp án A: Đĩa hình tròn nhưng có vẽ hoa văn (hình 1), không đúng yêu cầu của mẹ.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optA.png"
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "2",
-        "explanationVi": "Đáp án B. Chiếc đĩa tròn, kích thước lớn nhưng có vẽ hình trang trí.",
+        "explanationVi": "Đáp án B: Đĩa hình vuông có hoa văn (hình 2), hoàn toàn sai.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optB.png"
       },
       {
         "id": "C",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "3",
-        "explanationVi": "Đáp án C. Chiếc đĩa vuông.",
+        "explanationVi": "Đáp án C: Đĩa hình tròn lớn và không có hoa văn (hình 3), đúng khớp với tất cả điều kiện của người mẹ.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optC.png"
       },
       {
         "id": "D",
         "isCorrect": false,
         "text": "4",
-        "explanationVi": "Đáp án D. Chiếc đĩa tròn kích thước nhỏ.",
+        "explanationVi": "Đáp án D: Đĩa hình vuông không có hoa văn (hình 4), sai về hình dáng.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optD.png"
       }
     ],
     "answer": {
-      "correctOptionId": "A",
-      "shortExplanationVi": "Người mẹ bảo lấy chiếc đĩa to (大きい), dáng tròn (丸くて) và không vẽ hình (絵の書いてない方).",
-      "fullExplanationVi": "Người mẹ nhờ cậu bé lấy đĩa vì nhà có khách. Các tiêu chí được đưa ra lần lượt là: đĩa to ('大きいのがいいわね'), đĩa tròn chứ không phải đĩa vuông ('丸くて'), và đĩa không vẽ hình ('絵の書いてない方'). Đối chiếu các tiêu chí này, chiếc đĩa thỏa mãn là đĩa số 1. Do đó đáp án A đúng.",
-      "trapVi": "Bẫy ở các đặc điểm kết hợp của đĩa như hình dạng (vuông/tròn) và hình vẽ (có vẽ/không vẽ). Cần lắng nghe và loại trừ dần.",
-      "listeningStrategyVi": "Ghi chú nhanh các tính từ miêu tả đặc điểm vật thể: '大きい' (to) -> '丸い' (tròn) -> '絵の書いてない' (không vẽ hình) để chọn đáp án chính xác.",
-      "transcriptJa": "お母さん：けんちゃん、お皿持ってきてちょうだい。\n男の子：いいよ。で、ママ、どのお皿？\nお母さん：お客様が来るから、大きいのがいいわね。\n男の子：えーっと、でも四角いのと丸いのがあるよ、ママ。\nお母さん：そうね、丸くて絵の書いてない方を持ってきて。\n男の子：わかった。",
-      "translationVi": "Người mẹ: Ken-chan, mang đĩa ra đây cho mẹ với.\nCậu bé: Vâng ạ. Nhưng mẹ ơi, đĩa nào thế?\nNgười mẹ: Vì có khách đến chơi nên lấy đĩa to nhé.\nCậu bé: Xem nào... Nhưng có cả đĩa vuông và đĩa tròn đấy mẹ.\nNgười mẹ: Ừ nhỉ, mang cho mẹ cái đĩa tròn và không vẽ hình nhé.\nCậu bé: Vâng ạ.",
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người mẹ yêu cầu đĩa lớn (大きい), hình tròn (丸い) và không vẽ hoa văn (絵の書いてない), tương ứng với hình số 3.",
+      "fullExplanationVi": "Hội thoại đưa ra 3 dữ kiện để lựa chọn chiếc đĩa:\n1. Kích thước: '大きいのがいいわね' (Lấy cái lớn nhé) -> Loại đĩa nhỏ.\n2. Hình dáng: '丸い方' (Lấy cái hình tròn) -> Loại đĩa hình vuông (hình 2 và hình 4).\n3. Họa tiết: '絵の書いてない方' (Lấy cái không có vẽ hình) -> Loại đĩa hình tròn có vẽ hoa văn (hình 1).\nĐối chiếu lại, chiếc đĩa thỏa mãn là đĩa hình tròn, trơn không hoa văn ở hình 3.",
+      "trapVi": "Phải nghe cẩn thận cụm từ phủ định '書いてない' (không vẽ/không viết). Nhiều bạn nghe nhanh chỉ bắt được từ '絵' và '書いて' rồi chọn nhầm đĩa có hình vẽ (hình 1 hoặc 2).",
+      "listeningStrategyVi": "Ghi chép nhanh các điều kiện loại trừ dưới dạng từ khóa: Lớn -> Tròn -> Không hoa văn. Thực hiện loại trừ trực tiếp trên hình vẽ đề bài.",
+      "transcriptJa": "お母さん：けんちゃん、お皿持ってきてちょうだい。\n男の子：いいよ。で、ママ、どのお皿？\nお母さん：お客様が来るから、大きいのがいいわね。\n男の子：えーっと、 we... でも四角いのと丸いのがあるよ、ママ。\nお母さん：そうね、丸くて絵の書いてない方を持ってきて。\n男の子：わかった。",
+      "translationVi": "お母さん：Ken-chan, mang đĩa ra đây cho mẹ với nhé.\n男の子：Dạ được ạ. Mà mẹ ơi, đĩa nào thế?\nお母さん：Vì có khách đến chơi nên lấy đĩa lớn nhé con.\n男の子：Ừm... nhưng có cả đĩa hình vuông và đĩa hình tròn đấy mẹ.\nお母さん：À thế à, lấy cho mẹ cái hình tròn và không có vẽ hình gì nhé.\n男の子：Dạ, con biết rồi.",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -265,35 +265,35 @@
         "id": "A",
         "isCorrect": false,
         "text": "駅から遠い",
-        "explanationVi": "Đáp án A. Sai, vì việc đi lại (通勤) ở mức ổn ('まあまあ')."
+        "explanationVi": "Đáp án A: Căn hộ đi lại đi làm tàm tạm ổn."
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "家賃が高い",
-        "explanationVi": "Đáp án B. Sai, vì tiền thuê nhà rẻ ('安いことは安い')."
+        "explanationVi": "Đáp án B: Tiền thuê phòng rẻ."
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "買い物に不便だ",
-        "explanationVi": "Đáp án C. Sai, vì việc mua sắm cũng ở mức tiện lợi ('買い物にもまあまあ')."
+        "explanationVi": "Đáp án C: Việc mua sắm cũng khá thuận tiện."
       },
       {
         "id": "D",
         "isCorrect": true,
         "text": "日当たりがよくない",
-        "explanationVi": "Đáp án D. Đúng, xung quanh nhiều tòa nhà cao tầng che khuất ánh nắng nên phòng thiếu ánh sáng và lạnh."
+        "explanationVi": "Đáp án D: Xung quanh có nhiều tòa nhà cao tầng che nắng làm phòng thiếu sáng và rất lạnh vào mùa đông."
       }
     ],
     "answer": {
       "correctOptionId": "D",
-      "shortExplanationVi": "Căn hộ bị vây quanh bởi các tòa nhà cao tầng nên thiếu ánh nắng ấm áp (日当たりがよくない).",
-      "fullExplanationVi": "Người đàn ông nhận xét về căn hộ mới: tiền thuê rẻ ('安い'), đi làm và mua sắm tạm ổn ('まあまあ'). Tuy nhiên, điểm trừ duy nhất là xung quanh có nhiều tòa nhà cao tầng ('高いビルがいっぱいあってね'). Người phụ nữ lập tức thông cảm: 'Sắp tới trời lạnh nên sẽ vất vả đây nhỉ', ngụ ý rằng căn hộ không đón được ánh nắng mặt trời, tức là đón nắng kém. Điều này tương ứng với '日当たりがよくない'. Do đó đáp án D đúng.",
-      "trapVi": "Bẫy gián tiếp. Đoạn băng không nói thẳng từ '日当たりがよくない' mà nói qua chi tiết 'nhiều tòa nhà cao tầng' và 'trời lạnh sẽ vất vả'.",
-      "listeningStrategyVi": "Cần suy luận logic từ các hiện tượng thực tế: nhà bị cao ốc bao quanh + mùa đông lạnh = thiếu ánh nắng chiếu vào.",
-      "transcriptJa": "女の人：今度のアパート、どう？\n男の人：安いことは安いけど、通勤にも買い物にもまあまあだよ。\n女の人：よかったじゃない。\n男の人：ただ、家のまわりに高いビルがいっぱいあってね。\n女の人：これから寒くなるから大変ね。",
-      "translationVi": "Người phụ nữ: Căn hộ mới thế nào rồi?\nNgười đàn ông: Rẻ thì có rẻ thật, đi làm hay đi mua sắm cũng khá thuận tiện.\nNgười phụ nữ: Thế thì tốt quá rồi còn gì.\nNgười đàn ông: Chỉ là xung quanh nhà có rất nhiều tòa nhà cao tầng...\nNgười phụ nữ: Sắp tới trời trở lạnh nên sẽ vất vả đây nhỉ.",
+      "shortExplanationVi": "Căn hộ có nhiều tòa nhà cao tầng xung quanh che khuất ánh sáng mặt trời, dẫn đến thiếu nắng (日当たりがよくない) khiến mùa đông lạnh giá.",
+      "fullExplanationVi": "Người nam khen căn hộ rẻ và tiện lợi đi lại, mua sắm. Tuy nhiên, anh than phiền: 'ただ、家のまわりに高いビルがいっぱいあってね' (Chỉ là xung quanh nhà có rất nhiều tòa nhà cao tầng). Người nữ liền đồng cảm: 'これから寒くなるから大変ね' (Sắp tới trời lạnh đi nên vất vả nhỉ). Việc nhiều nhà cao tầng vây quanh cản trở nắng chiếu vào phòng làm phòng trở nên lạnh lẽo.",
+      "trapVi": "Hội thoại không nói trực tiếp cụm từ '日当たりがよくない' (thiếu nắng). Người nghe phải tự suy luận từ chi tiết xung quanh có nhiều nhà cao tầng và mùa đông sắp tới sẽ vất vả.",
+      "listeningStrategyVi": "Ghi nhận thông tin bất lợi (nhà cao tầng che khuất) và phản ứng của đối phương (lạnh lẽo) để đúc kết ra thuộc tính môi trường phòng ở.",
+      "transcriptJa": "女の人：今度のアパートどう？\n男の人：安いことは安いけど、通勤にも買い物にもまあまあだよ。\n女の人：よかったじゃない。\n男の人：ただ、家のまわりに高いビルがいっぱいあってね。\n女の人：これから寒くなるから大変ね。",
+      "translationVi": "女の人：Căn hộ mới của anh thế nào rồi?\n男の人：Rẻ thì rẻ thật đấy, mà đi làm hay mua sắm cũng tàm tạm (ổn thỏa).\n女の人：Thế thì tốt quá rồi còn gì.\n男の人：Chỉ là, xung quanh nhà có nhiều tòa nhà cao tầng quá...\n女の人：Sắp tới trời lạnh đi nên sẽ vất vả đây nhỉ.",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -332,46 +332,46 @@
       "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
       "textVisibleBeforeAudio": true,
       "stem": "男の人はきのう、何をしましたか。",
-      "stemVi": "Hôm qua người đàn ông đã làm gì?"
+      "stemVi": "Người đàn ông đã làm gì vào ngày hôm qua?"
     },
     "options": [
       {
         "id": "A",
         "isCorrect": true,
         "text": "1",
-        "explanationVi": "Đáp án A. Đi câu cá (釣り) để kiếm thức ăn cho bữa tối.",
+        "explanationVi": "Đáp án A: Đi câu cá (hình 1). Đúng vì anh đi biển để lấy món ăn cho bữa tối.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optA.png"
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "2",
-        "explanationVi": "Đáp án B. Đi bơi (泳ぐ) - đã bị phủ nhận bởi 'ううun'.",
+        "explanationVi": "Đáp án B: Đi bơi (hình 2). Người đàn ông đã phủ nhận.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optB.png"
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "3",
-        "explanationVi": "Đáp án C. Đi dạo với vợ (散歩) - đã bị phủ nhận bởi 'そんな時間ないよ'.",
+        "explanationVi": "Đáp án C: Đi dạo cùng vợ (hình 3). Người đàn ông bảo không có thời gian.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optC.png"
       },
       {
         "id": "D",
         "isCorrect": false,
         "text": "4",
-        "explanationVi": "Đáp án D. Hoạt động khác không liên quan.",
+        "explanationVi": "Đáp án D: Thả diều (hình 4). Không được nhắc đến.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optD.png"
       }
     ],
     "answer": {
       "correctOptionId": "A",
-      "shortExplanationVi": "Người đàn ông đi biển để câu cá kiếm thức ăn cho bữa tối (晩ごはんのおかず).",
-      "fullExplanationVi": "Hôm qua người đàn ông đi biển ('海へ行った'). Người phụ nữ đoán anh đi bơi ('泳ぎに') nhưng anh phủ nhận ('ううん'). Cô đoán tiếp là đi dạo với vợ ('散歩') nhưng anh bảo không có thời gian. Cuối cùng, người phụ nữ đoán ra và người đàn ông xác nhận mục đích đi biển là để kiếm thức ăn cho bữa tối ('晩ごはんのおかずさ'). Việc đi biển kiếm thức ăn chỉ có thể là đi câu cá (釣り). Do đó chọn đáp án A.",
-      "trapVi": "Bẫy ở các hoạt động đi biển thông thường như bơi lội hay đi dạo. Người nghe phải chú ý các từ phủ định để loại trừ.",
-      "listeningStrategyVi": "Lắng nghe các thông tin phủ định 'ううん', 'そんな時間ない' để loại bỏ phương án nhiễu, tập trung vào kết luận cuối cùng '晩ごはんのおかず' để suy ra hoạt động câu cá.",
-      "transcriptJa": "女の人：きのう、どこかへ行ったんでしょう？\n男の人：うん、海へ行ったんだ。\n女の人：泳ぎに？\n男の人：ううん。\n女の人：奥さんをつれて散歩でもしたの？\n男の人：そんな時間ないよ。\n女の人：じゃあ…\n女の人：あ、わかった！\n男の人：そう、晩ごはんのおかずさ。",
-      "translationVi": "Người phụ nữ: Hôm qua anh đi đâu đó phải không?\nNgười đàn ông: Ừ, anh đi biển đấy.\nNgười phụ nữ: Đi bơi à?\nNgười đàn ông: Không phải.\nNgười phụ nữ: Dẫn vợ đi dạo à?\nNgười đàn ông: Làm gì có thời gian chứ.\nNgười phụ nữ: Thế thì...\nNgười phụ nữ: À, em biết rồi!\nNgười đàn ông: Đúng thế, kiếm thức ăn cho bữa tối đấy.",
+      "shortExplanationVi": "Người đàn ông đi biển để kiếm thức ăn cho bữa tối (câu cá), tương ứng với bức hình số 1.",
+      "fullExplanationVi": "Người đàn ông kể mình đi biển ngày hôm qua. Người phụ nữ đoán anh đi bơi (hình 2) hoặc đi dạo với vợ (hình 3), nhưng anh đều phủ nhận. Cuối cùng, anh gợi ý và người phụ nữ đoán ra mục đích: '晩ごはんのおかず' (kiếm thức ăn cho bữa tối). Đi biển để có cá ăn tối đồng nghĩa với việc đi câu cá.",
+      "trapVi": "Người nghe cần vượt qua bẫy suy luận: '晩ごはんのおかずさ' (món ăn tối) ở bờ biển chính là hành động 'câu cá'. Ngoài ra, cần loại trừ các hành động bị phủ định rõ ràng.",
+      "listeningStrategyVi": "Lắng nghe kỹ các câu trả lời ngắn phản bác như 'ううううん' (Không) hay 'そんな時間ないよ' (Không có thời gian) để gạch bỏ nhanh các phương án sai.",
+      "transcriptJa": "女の人：きのうどこかへ行ったんでしょう？\n男の人：うん、海へ行ったんだ。\n女の人：泳ぎに？\n男の人：うううん。\n女の人：奥さんを連れて散歩でもしたの？\n男の人：そんな時間ないよ。\n女の人：じゃあ...\n男の人：あ、わかった？\n女の人：そう、晩ごはんのおかずさ。",
+      "translationVi": "女の人：Hôm qua anh đi đâu đó đúng không?\n男の人：Ừ, anh đi biển đấy.\n女の人：Đi bơi à?\n男の人：Không đâu.\n女の人：Dẫn vợ đi dạo bờ biển hả?\n男の人：Làm gì có thời gian mà làm thế.\n女の人：Thế thì...\n男の人：À, đoán ra chưa?\n女の人：À đúng rồi, kiếm đồ ăn kèm cho bữa tối chứ gì (đi câu cá)!",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -410,42 +410,42 @@
       "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
       "textVisibleBeforeAudio": true,
       "stem": "パーティーはいつですか",
-      "stemVi": "Bữa tiệc diễn ra vào ngày nào?"
+      "stemVi": "Bữa tiệc diễn ra vào khi nào?"
     },
     "options": [
       {
         "id": "A",
         "isCorrect": false,
         "text": "いつか",
-        "explanationVi": "Đáp án A. Ngày 5 (không liên quan)."
+        "explanationVi": "Đáp án A: Mùng 5, sai ngày."
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "じゅうごにち",
-        "explanationVi": "Đáp án B. Ngày 15 (là ngày hôm nay)."
+        "explanationVi": "Đáp án B: Ngày 15, đây là ngày hôm nay."
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "はつか",
-        "explanationVi": "Đáp án C. Ngày 20 (là hạn chót trả lời thư mời)."
+        "explanationVi": "Đáp án C: Ngày 20, đây là hạn chót phản hồi thư mời."
       },
       {
         "id": "D",
         "isCorrect": true,
         "text": "にじゅうごにち",
-        "explanationVi": "Đáp án D. Ngày 25 (là ngày diễn ra bữa tiệc)."
+        "explanationVi": "Đáp án D: Ngày 25, đây là ngày diễn ra tiệc (5 ngày sau hạn chót ngày 20)."
       }
     ],
     "answer": {
       "correctOptionId": "D",
-      "shortExplanationVi": "Hôm nay là ngày 15, còn 5 ngày nữa là đến hạn phản hồi (ngày 20). Hạn phản hồi là trước tiệc 5 ngày, nên tiệc diễn ra ngày 25.",
-      "fullExplanationVi": "Người phụ nữ thấy thư mời dự tiệc bị người đàn ông kẹp quên trong sách. Thư yêu cầu phản hồi trước khi tiệc diễn ra 5 ngày ('5日前までに答えてください'). Hôm nay là ngày 15 ('今日は15日ね'), và cô ấy nói 'chỉ còn 5 ngày nữa thôi' ('あと5日しかないわ'), tức là thời hạn phản hồi là ngày 20 (15 + 5 = 20). Vì hạn phản hồi là trước tiệc 5 ngày, nên bữa tiệc sẽ diễn ra vào ngày 25 (20 + 5 = 25). Do đó đáp án đúng là D.",
-      "trapVi": "Bẫy tính toán ngày tháng. Người nghe dễ nhầm lẫn giữa ngày hôm nay (15), hạn phản hồi (20), và ngày tiệc thực tế (25) nếu cộng trừ sai.",
-      "listeningStrategyVi": "Vẽ sơ đồ thời gian nháp nhanh: Hôm nay (15) + 5 ngày còn lại = Hạn phản hồi (20) + 5 ngày trước tiệc = Ngày tiệc (25).",
-      "transcriptJa": "女の人：あら、この手紙、いつ来たの？\n男の人：ああ、2週間ぐらい前かな。本の間に入れて忘れていた。ごめん、大切なものだった？\n女の人：パーティーの案内なのよ。5日前までに答えてくださいって書いてあるわ。今日は15日ね。あと5日しかないわ。\n男の人：ごめん。",
-      "translationVi": "Người phụ nữ: Ơ, lá thư này gửi đến từ bao giờ thế?\nNgười đàn ông: À, chắc khoảng 2 tuần trước. Anh kẹp nó vào giữa cuốn sách rồi quên mất. Xin lỗi nhé, đó là thứ quan trọng à?\nNgười phụ nữ: Thư mời dự tiệc đấy. Trong thư ghi là hãy trả lời trước 5 ngày. Hôm nay là ngày 15 rồi. Chỉ còn 5 ngày nữa thôi.\nNgười đàn ông: Xin lỗi em.",
+      "shortExplanationVi": "Hôm nay là ngày 15, hạn trả lời là ngày 20 (còn 5 ngày). Vì hạn trả lời là trước tiệc 5 ngày, nên tiệc sẽ vào ngày 25 (20 + 5 = 25).",
+      "fullExplanationVi": "Bài toán ngày tháng cần tính toán như sau:\n1. Ngày hiện tại: Ngày 15.\n2. Thời gian còn lại để trả lời: 5 ngày nữa.\n3. Suy ra hạn chót trả lời là ngày: 15 + 5 = ngày 20.\n4. Điều kiện trong thư mời: Phải trả lời trước ngày tiệc 5 ngày.\n5. Do hạn trả lời là ngày 20, nên ngày diễn ra bữa tiệc phải là: 20 + 5 = ngày 25.",
+      "trapVi": "Bẫy ở đây là khoảng cách 5 ngày lặp lại hai lần: từ ngày 15 đến hạn chót (5 ngày) và từ hạn chót đến ngày tiệc (5 ngày). Dễ chọn nhầm ngày 20 nếu tính thiếu bước.",
+      "listeningStrategyVi": "Vẽ trục thời gian nháp: 15 (Hôm nay) -> +5 ngày -> 20 (Hạn trả lời) -> +5 ngày -> 25 (Ngày tiệc). Việc trực quan hóa con số sẽ giúp bạn tránh nhầm lẫn.",
+      "transcriptJa": "女の人：あら、この手紙いつ来たの？\n男の人：ああ、２週間ぐらい前かな。本の間に入れて忘れていた。ごめん、大切なものだった？\n女の人：パーティーの案内なのよ。『５日前までに答えてください』って書いてあるわ。今日は１５日ね。あと５日しかないわ。\n男の人：ごめん。",
+      "translationVi": "女の人：Ơ, lá thư này đến từ lúc nào thế anh?\n男の人：À, chắc khoảng 2 tuần trước nhỉ. Anh kẹp vào giữa cuốn sách rồi quên khuấy đi mất. Xin lỗi nhé, thư quan trọng lắm hả em?\n女の人：Là thư mời dự tiệc đấy. Trong này viết là 'Hãy phản hồi trước 5 ngày'. Hôm nay đã là ngày 15 rồi. Chỉ còn đúng 5 ngày nữa thôi.\n男の人：Anh xin lỗi.",
       "highlightTranscript": []
     },
     "playbackPolicy": {
@@ -484,46 +484,46 @@
       "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
       "textVisibleBeforeAudio": true,
       "stem": "二人はどれを見ていますか。",
-      "stemVi": "Hai người đang nhìn cái gì?"
+      "stemVi": "Hai người đang nhìn cái nào?"
     },
     "options": [
       {
         "id": "A",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "1",
-        "explanationVi": "Đáp án A. Tổ chim có 7 quả trứng.",
+        "explanationVi": "Đáp án A: Tổ có 3 quả trứng, đây là số trứng của ngày hôm kia.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optA.png"
       },
       {
         "id": "B",
         "isCorrect": false,
         "text": "2",
-        "explanationVi": "Đáp án B. Tổ chim có 5 quả trứng (số lượng của ngày hôm qua).",
+        "explanationVi": "Đáp án B: Tổ có 5 quả trứng, đây là số trứng của ngày hôm qua.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optB.png"
       },
       {
         "id": "C",
         "isCorrect": false,
         "text": "3",
-        "explanationVi": "Đáp án C. Tổ chim có 3 quả trứng (số lượng của ngày hôm kia).",
+        "explanationVi": "Đáp án C: Tổ có 6 quả trứng, sai số lượng.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optC.png"
       },
       {
         "id": "D",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "4",
-        "explanationVi": "Đáp án D. Tổ chim có số lượng khác.",
+        "explanationVi": "Đáp án D: Tổ có 7 quả trứng, đây là số trứng của ngày hôm nay (5 quả hôm qua + 2 quả mới tăng).",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optD.png"
       }
     ],
     "answer": {
-      "correctOptionId": "A",
-      "shortExplanationVi": "Hôm kia có 3 quả, hôm qua có 5 quả, hôm nay tăng thêm 2 quả nên hiện tại có 7 quả trứng.",
-      "fullExplanationVi": "Hai người đang xem tổ trứng chim. Người phụ nữ nói hôm nay trứng lại tăng thêm 2 quả ('また2つ増えた'). Khi được hỏi hôm qua có mấy quả, cô trả lời: Hôm kia có 3 quả ('おとといが3つ'), hôm qua có 5 quả ('昨日は5つ'). Vì hôm nay tăng thêm 2 quả so với hôm qua, nên số trứng hiện tại là 5 + 2 = 7 quả. Họ đang nhìn tổ chim có 7 quả trứng. Do đó chọn đáp án A.",
-      "trapVi": "Bẫy số lượng trứng qua các mốc thời gian: hôm kia (3 quả), hôm qua (5 quả) và hôm nay (7 quả). Tránh chọn nhầm số trứng của hôm qua.",
-      "listeningStrategyVi": "Theo dõi chuỗi số liệu tăng dần theo thời gian: Hôm kia (3) -> Hôm qua (5) -> Hôm nay (5 + 2 = 7) để xác định con số hiện tại.",
-      "transcriptJa": "女の人：あなたちょっと見て。小鳥の卵がまた2つ増えたみたいよ。\n男の人：へえ。昨日はいくつあったの？\n女の人：おとといが3つで、昨日は5つになっていたの。\n男の人：いくつになるか楽しみだね。",
-      "translationVi": "Người phụ nữ: Anh ơi nhìn này. Trứng chim non dường như lại tăng thêm 2 quả nữa rồi đấy.\nNgười đàn ông: Thế à. Hôm qua có mấy quả?\nNgười phụ nữ: Hôm kia có 3 quả, hôm qua tăng lên thành 5 quả rồi.\nNgười đàn ông: Không biết sẽ lên tới bao nhiêu quả nữa, thật mong chờ nhỉ.",
+      "correctOptionId": "D",
+      "shortExplanationVi": "Hôm kia có 3 quả, hôm qua có 5 quả. Hôm nay lại tăng thêm 2 quả nữa, tổng cộng là 7 quả (tương ứng hình 4).",
+      "fullExplanationVi": "Ta tính số lượng trứng qua các mốc thời gian:\n- Ngày hôm kia (おととい): 3 quả.\n- Ngày hôm qua (昨日): 5 quả (tăng thêm 2 quả so với hôm kia).\n- Ngày hôm nay (現在): Lại tăng thêm 2 quả nữa so với hôm qua -> 5 + 2 = 7 quả.\nHai người đang nói chuyện ở thời điểm hiện tại và nhìn vào tổ chim lúc này, tức là có 7 quả trứng. Tổ có 7 quả trứng là hình số 4.",
+      "trapVi": "Bài toán cộng dồn số lượng. Người nghe dễ nhầm lẫn lấy số lượng của hôm kia (3 quả) hoặc hôm qua (5 quả) nếu không nghe kỹ trạng từ chỉ thời gian.",
+      "listeningStrategyVi": "Theo dõi sát các mốc thời gian: Hôm kia (3) -> Hôm qua (5) -> Hôm nay (+2). Thực hiện phép cộng nhanh ngay trong đầu.",
+      "transcriptJa": "女の人：あなたちょっと見て。小鳥の卵がまた２つ増えたみたいよ。\n男の人：へえ。昨日はいくつあったの？\n女の人：おとといが３つで、昨日は５つになっていたの。\n男の人：いくつになるか楽しみだね。",
+      "translationVi": "女の人：Anh ơi nhìn này. Hình như trứng của chim non lại tăng thêm 2 quả nữa rồi kìa.\n男の人：Chà. Hôm qua có mấy quả thế em?\n女の人：Hôm kia có 3 quả, còn hôm qua thì tăng lên thành 5 quả rồi.\n男の人：Không biết sẽ có tất cả bao nhiêu quả đây, mong chờ quá đi.",
       "highlightTranscript": []
     },
     "playbackPolicy": {

@@ -27,40 +27,40 @@
       "instruction": "もんだい3では、えを見ながらしつもんを聞いてください。やじるし（→）の人は何と言いますか。1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "灰皿がほしいです。何と言いますか。",
-      "stemVi": "Bạn muốn có cái gạt tàn thuốc. Bạn sẽ nói thế nào?"
+      "stem": "灰皿が欲しいです。何と言いますか。",
+      "stemVi": "Bạn muốn có cái gạt tàn (muốn nhờ lấy giúp). Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
-        "textAfterAnswer": "ごめんなさい。灰皿そこにあるよ。",
+        "textAfterAnswer": "ごめんなさい、灰皿そこにあるよ。",
         "isCorrect": false,
-        "explanationVi": "Sai. Đây là câu chỉ cho người khác biết gạt tàn ở đằng kia, chứ không phải lời nhờ vả lấy gạt tàn cho mình."
+        "explanationVi": "Đáp án 1: 'Xin lỗi, gạt tàn ở đằng kia kìa.' - Sai vì đây là câu thông báo vị trí, không phải câu nhờ vả."
       },
       {
         "id": "2",
         "textAfterAnswer": "あのー、それは灰皿と言ってもいい？",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Cái đó có thể gọi là cái gạt tàn được không?\", hỏi về định nghĩa chứ không phải yêu cầu lấy đồ."
+        "explanationVi": "Đáp án 2: 'Này, cái đó có gọi là gạt tàn được không?' - Sai vì đây là câu hỏi định nghĩa/tên gọi của vật."
       },
       {
         "id": "3",
         "textAfterAnswer": "悪いけど、そこの灰皿取ってくれる？",
         "isCorrect": true,
-        "explanationVi": "Đúng. Cấu trúc 「悪いけど、〜てくれる？」 (Xin lỗi/Ngại quá nhưng bạn lấy hộ tôi... được không?) là cách nhờ vả người quen, bạn bè một cách tự nhiên và lịch sự vừa phải."
+        "explanationVi": "Đáp án 3: 'Ngại quá, lấy giùm tôi cái gạt tàn ở đằng đó được không?' - Đúng vì mẫu '～てくれる？' đi kèm '悪いけど' là cách nhờ vả lịch sự vừa phải, tự nhiên giữa bạn bè/đồng nghiệp."
       }
     ],
     "answer": {
       "correctOptionId": "3",
-      "shortExplanationVi": "Khi muốn nhờ người khác lấy giùm chiếc gạt tàn ở gần họ, ta dùng mẫu câu nhờ vả nhẹ nhàng 「悪いけど、〜てくれる？」 (Phiền bạn lấy hộ...).",
-      "fullExplanationVi": "Trong tình huống này, người nói muốn có chiếc gạt tàn nằm ở phía đối phương. Lựa chọn 3 dùng 「悪いけどそこの灰皿取ってくれる？」 là mẫu câu nhờ vả thông dụng trong đời sống hàng ngày với bạn bè, đồng nghiệp. Lựa chọn 1 và 2 đều không mang tính chất nhờ vả lấy đồ.",
-      "trapVi": "Học sinh dễ nhầm lẫn sang lựa chọn 1 vì có từ 「そこにある」 (ở đằng kia) nhưng thực chất đây lại là câu thông báo vị trí cho người khác.",
-      "listeningStrategyVi": "Chú ý đến động từ thể て kết hợp với 「くれる」 hoặc 「もらえる」 để nhận biết câu nhờ vả người khác làm việc gì đó cho mình.",
-      "transcriptJa": "1：ごめんなさい。灰皿そこにあるよ。\n2：あのー、それは灰皿と言ってもいい？\n3：悪いけど、そこの灰皿取ってくれる？",
-      "translationVi": "1: Xin lỗi. Gạt tàn ở đằng kia kìa.\n2: Kìa, cái đó có thể gọi là gạt tàn được không?\n3: Ngại quá nhưng lấy hộ tôi cái gạt tàn đằng kia được không?",
+      "shortExplanationVi": "Nhờ vả lấy đồ vật bằng mẫu câu '悪いけど、そこの灰皿取ってくれる？' (Ngại quá, lấy giúp tôi cái gạt tàn ở đó được không?).",
+      "fullExplanationVi": "Khi muốn nhờ người khác lấy giúp một đồ vật ở gần họ, cấu trúc thân mật lịch sự vừa phải là '悪いけど、～てくれる？' (Ngại quá, làm giúp tôi... được không?). Phương án 3 đáp ứng đúng ngữ cảnh này. Phương án 1 là câu chỉ vị trí cho người khác. Phương án 2 là câu hỏi về tên gọi.",
+      "trapVi": "Tránh nhầm với phương án 1 vì câu này chỉ vị trí của chiếc gạt tàn chứ không mang ý nhờ vả người khác lấy giúp.",
+      "listeningStrategyVi": "Chú ý từ khóa '欲しい' (muốn có) kết hợp với hành động nhờ vả. Hãy tìm các đuôi câu nhờ vả quen thuộc như '～てくれる？', '～てもらえますか？'.",
+      "transcriptJa": "状況：灰皿が欲しいです。何と言いますか。\n1．ごめんなさい、灰皿そこにあるよ。\n2．あのー、それは灰皿と言ってもいい？\n3．悪いけど、そこの灰皿取ってくれる？",
+      "translationVi": "Tình huống: Bạn muốn có cái gạt tàn. Bạn sẽ nói thế nào?\n1. Xin lỗi, gạt tàn ở đằng kia kìa.\n2. Này, cái đó có gọi là gạt tàn được không?\n3. Ngại quá, lấy giùm tôi cái gạt tàn ở đằng đó được không?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "灰皿がほしいです。何と言いますか。",
-      "promptTranslationVi": "Bạn muốn có cái gạt tàn thuốc. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "灰皿が欲しいです。何と言いますか。 1. ごめんなさい、灰皿そこにあるよ。 2. あのー、それは灰皿と言ってもいい？ 3. 悪いけど、そこの灰皿取ってくれる？",
+      "promptTranslationVi": "Bạn muốn có cái gạt tàn (muốn nhờ lấy giúp). Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -97,40 +97,40 @@
       "instruction": "もんだい3では、えを見ながらしつもんを聞いてください。やじるし（→）の人は何と言いますか。1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "火遊びをしている子を見つけて止めさせます。何と言いますか。",
-      "stemVi": "Bạn phát hiện một đứa trẻ đang nghịch lửa và muốn bắt nó dừng lại. Bạn sẽ nói thế nào?"
+      "stem": "火遊びをしている子を見つけて、止めさせます。何と言いますか。",
+      "stemVi": "Bạn bắt gặp đứa trẻ đang chơi với lửa và muốn ngăn nó lại. Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "火遊びは子供のすることよ。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Nghịch lửa là việc của trẻ con mà\", mang ý nghĩa đồng tình hoặc xem nhẹ hành vi nguy hiểm này chứ không ngăn cản."
+        "explanationVi": "Đáp án 1: 'Chơi với lửa là việc trẻ con hay làm mà.' - Sai vì câu này mang tính dung túng, chấp nhận hành vi nguy hiểm."
       },
       {
         "id": "2",
         "textAfterAnswer": "火事になった場合どうしたらいい？",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này hỏi \"Trong trường hợp xảy ra hỏa hoạn thì nên làm gì?\", không có tính chất ngăn cản ngay lập tức đứa trẻ đang nghịch lửa."
+        "explanationVi": "Đáp án 2: 'Nếu xảy ra hỏa hoạn thì phải làm sao?' - Sai vì đây là câu hỏi thảo luận cách xử lý, không ngăn chặn trực tiếp hành vi."
       },
       {
         "id": "3",
-        "textAfterAnswer": "危ない、やめなさい！",
+        "textAfterAnswer": "危ない！やめなさい！",
         "isCorrect": true,
-        "explanationVi": "Đúng. Câu mệnh lệnh 「危ない、やめなさい！」 (Nguy hiểm đấy, dừng lại ngay!) là cách ra lệnh trực tiếp và khẩn cấp để ngăn chặn hành động nguy hiểm của trẻ nhỏ."
+        "explanationVi": "Đáp án 3: 'Nguy hiểm quá! Dừng lại ngay!' - Đúng vì dùng tính từ cảnh báo '危ない' và thể mệnh lệnh nhẹ nhàng 'やめなさい' để ngăn chặn đứa trẻ."
       }
     ],
     "answer": {
       "correctOptionId": "3",
-      "shortExplanationVi": "Khi cần ngăn chặn khẩn cấp hành vi nguy hiểm của trẻ nhỏ, ta dùng câu mệnh lệnh trực tiếp như 「危ない、やめなさい！」.",
-      "fullExplanationVi": "Tình huống yêu cầu ngăn cản đứa trẻ nghịch lửa (止めさせます). Câu nói phù hợp nhất phải mang tính cảnh báo và mệnh lệnh mạnh mẽ. Lựa chọn 3 「危ないやめなさい」 đáp ứng đúng yêu cầu này. Lựa chọn 1 mang sắc thái bao che/dung túng, lựa chọn 2 mang tính chất thảo luận phương án ứng phó hỏa hoạn, không phù hợp.",
-      "trapVi": "Lựa chọn 1 and 2 đều có chứa từ liên quan đến lửa/hỏa hoạn (火遊び, 火事) nhằm đánh lừa người nghe không chú ý đến mục đích \"ngăn cản\" (止めさせる) của đề bài.",
-      "listeningStrategyVi": "Nhận diện mục đích giao tiếp trong phần dẫn dắt: \"止めさせます\" (bắt dừng lại) thường đi kèm với các mẫu câu mệnh lệnh như 「〜なさい」「〜てはいけません」「〜るな」.",
-      "transcriptJa": "1：火遊びは子供のすることよ。\n2：火事になった場合どうしたらいい？\n3：危ない、やめなさい！",
-      "translationVi": "1: Nghịch lửa là chuyện bình thường của trẻ con mà.\n2: Nếu xảy ra hỏa hoạn thì nên làm thế nào?\n3: Nguy hiểm quá, dừng lại ngay!",
+      "shortExplanationVi": "Cảnh báo nguy hiểm và yêu cầu dừng lại bằng câu '危ない！やめなさい！' (Nguy hiểm quá! Dừng lại ngay!).",
+      "fullExplanationVi": "Để ngăn chặn ngay một hành vi nguy hiểm của trẻ nhỏ, chúng ta cần dùng từ cảnh báo trực tiếp '危ない' (Nguy hiểm) kết hợp với thể mệnh lệnh nhẹ nhàng '～なさい' (Hãy.../Dừng lại...). Do đó phương án 3 là chính xác nhất.",
+      "trapVi": "Phương án 1 và 2 đều là những câu bình luận hoặc thảo luận chung chung, không có tác dụng ngăn cản đứa trẻ đang thực hiện hành vi nguy hiểm ngay lúc đó.",
+      "listeningStrategyVi": "Khi thấy từ khóa '止めさせます' (ngăn cản/bắt dừng lại), hãy chú ý tìm các câu mệnh lệnh cấm đoán hoặc yêu cầu dừng lại như '～てはいけない', '～なさい', 'やめなさい'.",
+      "transcriptJa": "状況：火遊びをしている子を見つけて、止めさせます。何と言いますか。\n1．火遊びは子供のすることよ。\n2．火事になった場合どうしたらいい？\n3．危ない！やめなさい！",
+      "translationVi": "Tình huống: Bạn bắt gặp đứa trẻ đang chơi với lửa và muốn ngăn nó lại. Bạn sẽ nói thế nào?\n1. Chơi với lửa là việc trẻ con hay làm mà.\n2. Nếu xảy ra hỏa hoạn thì phải làm sao?\n3. Nguy hiểm quá! Dừng lại ngay!",
       "highlightTranscript": [],
-      "promptTranscriptJa": "火遊びをしている子を見つけて止めさせます。何と言いますか。",
-      "promptTranslationVi": "Bạn phát hiện một đứa trẻ đang nghịch lửa và muốn bắt nó dừng lại. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "火遊びをしている子を見つけて、止めさせます。何と言いますか。 1. 火遊びは子供のすることよ。 2. 火事になった場合どうしたらいい？ 3. 危ない！やめなさい！",
+      "promptTranslationVi": "Bạn bắt gặp đứa trẻ đang chơi với lửa và muốn ngăn nó lại. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -168,39 +168,39 @@
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
       "stem": "遅れたわけを聞きます。何と言いますか。",
-      "stemVi": "Bạn muốn hỏi lý do đối phương đi muộn. Bạn sẽ nói thế nào?"
+      "stemVi": "Bạn hỏi lý do đối phương đến muộn. Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "どうだったの？遅くなるか？",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Thế nào rồi? Sẽ muộn à?\", dùng để đoán trước tình hình chứ không phải hỏi lý do đã muộn."
+        "explanationVi": "Đáp án 1: 'Thế nào rồi? Có muộn không?' - Sai vì dùng sai thì/ngữ cảnh (hỏi xem liệu có trễ không, không phải hỏi lý do sau khi đã trễ)."
       },
       {
         "id": "2",
         "textAfterAnswer": "どうしたの？遅かったね。",
         "isCorrect": true,
-        "explanationVi": "Đúng. Câu 「どうしたの？」 dùng để hỏi \"Có chuyện gì thế?\" nhằm tìm hiểu nguyên nhân/lý do. Đi kèm vế sau 「遅かったね」 (Cậu đến muộn nhỉ) tạo thành câu hỏi lý do đi muộn rất tự nhiên."
+        "explanationVi": "Đáp án 2: 'Có chuyện gì thế? Cậu đến muộn thế.' - Đúng vì dùng 'どうしたの？' (Có chuyện gì thế?) để hỏi nguyên nhân/lý do."
       },
       {
         "id": "3",
         "textAfterAnswer": "どう？今からでは遅くない？",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Thế nào? Bây giờ đi thì có muộn không?\", dùng để hỏi xem thời điểm hiện tại có quá muộn cho một việc gì đó hay không."
+        "explanationVi": "Đáp án 3: 'Thế nào? Từ bây giờ thì không muộn chứ?' - Sai vì hỏi về tương lai (bây giờ đi thì liệu có muộn không)."
       }
     ],
     "answer": {
       "correctOptionId": "2",
-      "shortExplanationVi": "Dùng cụm từ 「どうしたの？」 (Có chuyện gì vậy?) để hỏi nguyên nhân/lý do đối phương đến muộn.",
-      "fullExplanationVi": "Mục đích của người nói là hỏi lý do đi muộn (遅れたわけを聞きます). Trong tiếng Nhật giao tiếp, 「どうしたの？」 (Có chuyện gì xảy ra thế?) là cách hỏi lý do nhẹ nhàng và phổ biến khi thấy đối phương đến trễ. Do đó lựa chọn 2 là chính xác. Lựa chọn 1 và 3 hỏi về việc muộn trong tương lai hoặc hiện tại, không phải hỏi lý do cho việc đã muộn.",
-      "trapVi": "Cả ba phương án đều sử dụng các từ biến thể của 「遅れる / 遅い」. Học sinh dễ chọn nhầm nếu chỉ nghe từ khóa mà không phân tích ngữ cảnh và mục đích hỏi lý do (わけを聞く).",
-      "listeningStrategyVi": "Ghi nhớ cụm từ hỏi nguyên nhân: 「どうしたの？」「何があったの？」 thường được dùng để hỏi lý do (わけ/理由を聞く) khi có bất thường xảy ra.",
-      "transcriptJa": "1：どうだったの？遅くなるか？\n2：どうしたの？遅かったね。\n3：どう？今からでは遅くない？",
-      "translationVi": "1: Thế nào rồi? Sẽ bị muộn à?\n2: Có chuyện gì thế? Đến muộn nhỉ.\n3: Thế nào? Bây giờ thì có muộn không?",
+      "shortExplanationVi": "Hỏi lý do đến trễ bằng câu 'どうしたの？遅かったね。' (Có chuyện gì thế? Cậu đến muộn thế).",
+      "fullExplanationVi": "Để hỏi nguyên nhân hoặc lý do của một sự việc bất thường đã xảy ra (ở đây là việc đối phương đến muộn), người Nhật thường dùng câu 'どうしたの？' (Có chuyện gì thế/Sao vậy?). Vì vậy phương án 2 là phù hợp nhất.",
+      "trapVi": "Tránh nhầm với phương án 1 và 3 vì chúng đều hỏi về việc liệu có bị muộn hay không ở hiện tại hoặc tương lai, không phải hỏi lý do sau khi đối phương đã đến muộn.",
+      "listeningStrategyVi": "Khi đề bài yêu cầu 'わけを聞きます' (hỏi lý do/nguyên nhân), hãy tìm câu hỏi 'どうしたの？' hoặc '～なぜ/どうして'.",
+      "transcriptJa": "状況：遅れたわけを聞きます。何と言いますか。\n1．どうだったの？遅くなるか？\n2．どうしたの？遅かったね。\n3．どう？今からでは遅くない？",
+      "translationVi": "Tình huống: Bạn hỏi lý do đối phương đến muộn. Bạn sẽ nói thế nào?\n1. Thế nào rồi? Có muộn không?\n2. Có chuyện gì thế? Cậu đến muộn thế.\n3. Thế nào? Từ bây giờ thì không muộn chứ?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "遅れたわけを聞きます。何と言いますか。",
-      "promptTranslationVi": "Bạn muốn hỏi lý do đối phương đi muộn. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "遅れたわけを聞きます。何と言いますか。 1. どうだったの？遅くなるか？ 2. どうしたの？遅かったね。 3. どう？今からでは遅くない？",
+      "promptTranslationVi": "Bạn hỏi lý do đối phương đến muộn. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -237,40 +237,40 @@
       "instruction": "もんだい3では、えを見ながらしつもんを聞いてください。やじるし（→）の人は何と言いますか。1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "友達にお金を借りたいです。何と言いますか。",
-      "stemVi": "Bạn muốn mượn tiền bạn bè. Bạn sẽ nói thế nào?"
+      "stem": "友だちにお金を借りたいです。何と言いますか。",
+      "stemVi": "Bạn muốn mượn tiền người bạn của mình. Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "悪いけど、いくらか持ってる？",
         "isCorrect": true,
-        "explanationVi": "Đúng. 「悪いけど」 (Ngại quá/Xin lỗi nhưng...) đi kèm câu hỏi 「いくらか持ってる？」 (Cậu có mang theo ít tiền nào không?) là cách dạm hỏi mượn tiền rất tế nhị và tự nhiên giữa bạn bè."
+        "explanationVi": "Đáp án 1: 'Xin lỗi nhé, cậu có mang theo ít tiền nào không?' - Đúng. Dùng lời xin lỗi nhẹ '悪いけど' kèm câu hỏi thăm dò túi tiền để mở lời mượn."
       },
       {
         "id": "2",
-        "textAfterAnswer": "今日、お金を持ってるだろう。",
+        "textAfterAnswer": "今日お金を持ってるだろう。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này mang tính áp đặt: \"Hôm nay chắc cậu có mang tiền chứ gì\", tạo cảm giác bất lịch sự và ép buộc."
+        "explanationVi": "Đáp án 2: 'Hôm nay chắc cậu mang tiền nhỉ.' - Sai vì mang tính phán đoán áp đặt, không lịch sự khi muốn mượn tiền."
       },
       {
         "id": "3",
         "textAfterAnswer": "君のお金、僕が使ってみようか。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Tiền của cậu để tớ dùng thử xem sao nhé?\", nghe rất kỳ cục và thiếu lịch sự."
+        "explanationVi": "Đáp án 3: 'Tiền của cậu, để tớ dùng thử xem sao nhé?' - Sai vì mang tính đùa cợt khiếm nhã."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Cách dạm hỏi mượn tiền bạn bè tế nhị bằng cách hỏi họ có mang theo tiền không: 「悪いけど、いくらか持ってる？」.",
-      "fullExplanationVi": "Khi muốn mượn tiền bạn bè (お金を借りたい), người Nhật thường không hỏi thẳng thừng \"Cho tớ mượn tiền\" mà sẽ dùng cách dạm hỏi xem đối phương có mang theo tiền hay không bằng mẫu câu 「いくらか持ってる？」 kèm theo lời xin lỗi tế nhị 「悪いけど」. Vì thế, lựa chọn 1 là phù hợp nhất. Lựa chọn 2 mang giọng điệu ép buộc, lựa chọn 3 diễn đạt phi thực tế.",
-      "trapVi": "Lựa chọn 2 sử dụng cấu trúc khẳng định chắc chắn 「〜だろう」 tạo cảm giác ép buộc, không phù hợp cho việc mượn tiền một cách lịch sự.",
-      "listeningStrategyVi": "Trong văn hóa giao tiếp Nhật Bản, khi nhờ vả hoặc mượn đồ, người ta thường dùng các từ đệm giảm nhẹ như 「悪いけど」「ちょっと」 kết hợp câu hỏi dò.",
-      "transcriptJa": "1：悪いけど、いくらか持ってる？\n2：今日、お金を持ってるだろう。\n3：君のお金、僕が使ってみようか。",
-      "translationVi": "1: Ngại quá nhưng cậu có mang theo ít tiền nào không?\n2: Hôm nay chắc cậu có mang tiền nhỉ.\n3: Tiền của cậu để tớ dùng thử xem sao nhé?",
+      "shortExplanationVi": "Mở lời mượn tiền thân mật bằng câu '悪いけど、いくらか持ってる？' (Ngại quá, cậu có mang theo ít tiền nào không?).",
+      "fullExplanationVi": "Khi muốn mượn tiền bạn bè, thay vì đòi hỏi trực tiếp, cách nói tự nhiên và lịch sự là hỏi dò xem họ có mang theo tiền không bằng câu 'いくらか持ってる？' kèm lời mở đầu '悪いけど' (Ngại quá/Xin lỗi nhưng...). Phương án 1 là câu trả lời chính xác.",
+      "trapVi": "Phương án 2 mang tính áp đặt khẳng định đối phương có tiền, phương án 3 là lời đùa cợt khiếm nhã.",
+      "listeningStrategyVi": "Nhận diện các cách nói mở lời nhờ vả, mượn đồ từ bạn bè thường có cấu trúc '悪いけど、～' để giảm bớt sự đường đột.",
+      "transcriptJa": "状況：友だちにお金を借りたいです。何と言いますか。\n1．悪いけど、いくらか持ってる？\n2．今日お金を持ってるだろう。\n3．君のお金、僕が使ってみようか。",
+      "translationVi": "Tình huống: Bạn muốn mượn tiền người bạn của mình. Bạn sẽ nói thế nào?\n1. Xin lỗi nhé, cậu có mang theo ít tiền nào không?\n2. Hôm nay chắc cậu có mang theo tiền nhỉ.\n3. Tiền của cậu, để tớ tiêu thử xem sao nhé?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "友達にお金を借りたいです。何と言いますか。",
-      "promptTranslationVi": "Bạn muốn mượn tiền bạn bè. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "友だちにお金を借りたいです。何と言いますか。 1. 悪いけど、いくらか持ってる？ 2. 今日お金を持ってるだろう。 3. 君のお金、僕が使ってみようか。",
+      "promptTranslationVi": "Bạn muốn mượn tiền người bạn của mình. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -315,31 +315,31 @@
         "id": "1",
         "textAfterAnswer": "ここで会えてよかったじゃない。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này mang nghĩa \"Gặp được nhau ở đây chẳng phải tốt sao\", dùng cho người quen tình cờ gặp lại chứ không phải người lần đầu gặp."
+        "explanationVi": "Đáp án 1: 'Gặp được nhau ở đây chẳng phải tốt sao.' - Sai vì đây là câu nói suồng sã dành cho người quen khi tình cờ gặp mặt."
       },
       {
         "id": "2",
         "textAfterAnswer": "お会いできて嬉しいです。",
         "isCorrect": true,
-        "explanationVi": "Đúng. 「お会いできて嬉しいです」 (Rất vui/hân hạnh được gặp anh/chị) là câu chào hỏi trang trọng, lịch sự dành cho người lần đầu gặp mặt."
+        "explanationVi": "Đáp án 2: 'Rất vui được gặp anh/chị.' - Đúng. Đây là câu chào hỏi lịch sự và trang trọng khi gặp ai đó lần đầu."
       },
       {
         "id": "3",
-        "textAfterAnswer": "初めてですけど、挨拶をします。",
+        "textAfterAnswer": "初めてですけど挨拶をします。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Tuy là lần đầu nhưng tôi xin chào hỏi\", cực kỳ ngô nghê và không ai dùng câu này làm lời chào."
+        "explanationVi": "Đáp án 3: 'Đây là lần đầu tiên nên tôi chào nhé.' - Sai vì cách nói ngô nghê, không tự nhiên."
       }
     ],
     "answer": {
       "correctOptionId": "2",
-      "shortExplanationVi": "Lời chào lịch sự dành cho người lần đầu gặp mặt: 「お会いできて嬉しいです」 (Rất vui được gặp anh/chị).",
-      "fullExplanationVi": "Khi gặp ai đó lần đầu (初めて会う人), chúng ta cần một câu chào thể hiện niềm vinh hạnh. Câu 「お会いできて嬉しいです」 là dạng khiêm nhường ngữ của 「会えて嬉しいです」, rất thích hợp cho lần đầu gặp mặt. Lựa chọn 1 quá suồng sã và chỉ dùng cho bạn bè quen thuộc. Lựa chọn 3 dịch thô từ hành động chào hỏi, không phải là câu chào thực tế.",
-      "trapVi": "Lựa chọn 3 chứa từ 「初めて」 (lần đầu) giống như đề bài để đánh lừa người nghe lười suy nghĩ ngữ cảnh.",
-      "listeningStrategyVi": "Nhớ các cụm từ cố định cho các tình huống chào hỏi cơ bản: Lần đầu gặp mặt dùng 「はじめまして」「お会いできて嬉しいです」.",
-      "transcriptJa": "1：ここで会えてよかったじゃない。\n2：お会いできて嬉しいです。\n3：初めてですけど、挨拶をします。",
-      "translationVi": "1: Gặp được nhau ở đây chẳng phải tốt sao.\n2: Rất vui được gặp anh/chị.\n3: Tuy là lần đầu nhưng tôi xin phép chào hỏi.",
+      "shortExplanationVi": "Chào hỏi người mới gặp lần đầu bằng câu 'お会いできて嬉しいです' (Rất vui được gặp anh/chị).",
+      "fullExplanationVi": "Khi gặp ai đó lần đầu tiên, câu chào thể hiện niềm vui và sự kính trọng là 'お会いできて嬉しいです' (Tôi rất vui/hân hạnh được gặp anh/chị). Phương án 2 là đáp án chính xác.",
+      "trapVi": "Phương án 1 dùng cho người quen tình cờ gặp, phương án 3 là câu tự thuật ngây ngô không có trong giao tiếp thực tế.",
+      "listeningStrategyVi": "Phần biệt rõ đối tượng giao tiếp: '初めて会う人' (người lần đầu gặp) đòi hỏi sử dụng kính ngữ hoặc các mẫu câu lịch sự cố định như 'はじめまして' hoặc 'お会いできて嬉しいです'.",
+      "transcriptJa": "状況：初めて会う人に挨拶をします。何と言いますか。\n1．ここで会えてよかったじゃない。\n2．お会いできて嬉しいです。\n3．初めてですけど挨拶をします。",
+      "translationVi": "Tình huống: Bạn chào hỏi người lần đầu tiên gặp mặt. Bạn sẽ nói thế nào?\n1. Gặp được nhau ở đây chẳng phải là tốt sao.\n2. Rất vui được gặp anh/chị.\n3. Đây là lần đầu tiên nên tôi chào nhé.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "初めて会う人に挨拶をします。何と言いますか。",
+      "promptTranscriptJa": "初めて会う人に挨拶をします。何と言いますか。 1. ここで会えてよかったじゃない。 2. お会いできて嬉しいです。 3. 初めてですけど挨拶をします。",
       "promptTranslationVi": "Bạn chào hỏi người lần đầu tiên gặp mặt. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
@@ -378,39 +378,39 @@
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
       "stem": "お土産を買いました。先輩にあげます。何と言いますか。",
-      "stemVi": "Bạn đã mua quà lưu niệm và muốn tặng cho tiền bối. Bạn sẽ nói thế nào?"
+      "stemVi": "Bạn mua quà lưu niệm và tặng cho tiền bối. Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "これ、お土産です。どうぞ。",
         "isCorrect": true,
-        "explanationVi": "Đúng. Câu 「これ、お土産です。どうぞ。」 (Đây là chút quà lưu niệm, xin mời anh/chị nhận cho) là cách nói giản dị, lịch sự vừa phải để tặng quà cho tiền bối."
+        "explanationVi": "Đáp án 1: 'Đây là quà lưu niệm ạ. Xin mời anh/chị.' - Đúng. Cách tặng quà đơn giản, tự nhiên và lịch sự."
       },
       {
         "id": "2",
-        "textAfterAnswer": "お土産いただきます。",
+        "textAfterAnswer": "お土産、いただきます。",
         "isCorrect": false,
-        "explanationVi": "Sai. 「いただきます」 là từ người nhận quà nói để thể hiện sự cảm ơn và nhận quà, không phải từ người đi tặng quà."
+        "explanationVi": "Đáp án 2: 'Tôi xin nhận quà lưu niệm ạ.' - Sai vì đây là câu người nhận quà nói khi nhận đồ."
       },
       {
         "id": "3",
         "textAfterAnswer": "お土産を買っておきます。",
         "isCorrect": false,
-        "explanationVi": "Sai. Cấu trúc 「〜ておきます」 mang nghĩa làm sẵn việc gì đó. Câu này nghĩa là \"Tôi sẽ mua sẵn quà lưu niệm\", không phải câu nói khi trao quà."
+        "explanationVi": "Đáp án 3: 'Tôi sẽ mua sẵn quà lưu niệm.' - Sai vì '～ておきます' thể hiện hành động chuẩn bị trước, không dùng khi đang tặng quà."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Khi trao quà cho người khác, ta nói câu đơn giản và lịch sự: 「これ、お土産です。どうぞ。」.",
-      "fullExplanationVi": "Tình huống là đi tặng quà (先輩にあげます). Khi trao quà cho tiền bối, câu nói phù hợp nhất là giới thiệu món quà và mời họ nhận: 「これお土産です。どうぞ」. Lựa chọn 2 là lời của người nhận quà nói khi nhận quà. Lựa chọn 3 diễn tả việc chuẩn bị mua quà trước, không đúng thời điểm trao quà.",
-      "trapVi": "Học sinh dễ nhầm giữa người trao quà (あげる) và người nhận quà (もらう / いただく), dẫn đến chọn nhầm lựa chọn 2.",
-      "listeningStrategyVi": "Phân biệt rõ vị thế người nói trong hành động cho/nhận: \"あげます\" (tặng) -> dùng câu trao quà 「どうぞ」「つまらないものですが」. \"もらいます\" (nhận) -> dùng 「いただきます」「ありがとうございます」.",
-      "transcriptJa": "1：これ、お土産です。どうぞ。\n2：お土産いただきます。\n3：お土産を買っておきます。",
-      "translationVi": "1: Cái này là quà lưu niệm ạ. Xin mời anh/chị.\n2: Tôi xin nhận quà lưu niệm ạ.\n3: Tôi sẽ mua sẵn quà lưu niệm.",
+      "shortExplanationVi": "Tặng quà cho tiền bối bằng câu 'これ、お土産です。どうぞ。' (Đây là quà lưu niệm ạ. Xin mời anh/chị).",
+      "fullExplanationVi": "Khi trao quà cho ai đó (đặc biệt là tiền bối), bạn nói 'これ、お土産です。どうぞ' (Đây là quà lưu niệm, xin gửi anh/chị) hoặc có thể đi kèm 'つまらないものですが...' (Món quà nhỏ mọn...). Do đó phương án 1 là chính xác nhất.",
+      "trapVi": "Tránh nhầm với phương án 2 vì 'いただきます' là câu nhận quà. Phương án 3 dùng cho việc chuẩn bị mua quà trước.",
+      "listeningStrategyVi": "Xác định rõ vai trò người nói: 'あげます' (cho/tặng) nên cần tìm câu thoại của người trao quà, tránh chọn nhầm câu của người nhận quà.",
+      "transcriptJa": "状況：お土産を買いました。先輩にあげます。何と言いますか。\n1．これ、お土産です。どうぞ。\n2．お土産、いただきます。\n3．お土産を買っておきます。",
+      "translationVi": "Tình huống: Bạn mua quà lưu niệm và tặng cho tiền bối. Bạn sẽ nói thế nào?\n1. Đây là quà lưu niệm ạ. Xin mời anh/chị.\n2. Tôi xin nhận quà lưu niệm ạ.\n3. Tôi sẽ mua sẵn quà lưu niệm.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "お土産を買いました。先輩にあげます。何と言いますか。",
-      "promptTranslationVi": "Bạn đã mua quà lưu niệm và muốn tặng cho tiền bối. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "お土産を買いました。先輩にあげます。何と言いますか。 1. これ、お土産です。どうぞ。 2. お土産、いただきます。 3. お土産を買っておきます。",
+      "promptTranslationVi": "Bạn mua quà lưu niệm và tặng cho tiền bối. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -448,39 +448,39 @@
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
       "stem": "明日、二人で映画に行きたいです。何と言いますか。",
-      "stemVi": "Bạn muốn rủ đối phương ngày mai cùng đi xem phim với mình. Bạn sẽ nói thế nào?"
+      "stemVi": "Ngày mai bạn muốn đi xem phim cùng với người kia. Bạn sẽ nói thế nào?"
     },
     "options": [
       {
         "id": "1",
         "textAfterAnswer": "明日、映画に誘いましょう。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này có nghĩa là \"Ngày mai chúng ta hãy rủ (ai đó) đi xem phim đi\", dùng để rủ nhau đi mời một bên thứ ba chứ không phải rủ trực tiếp đối phương."
+        "explanationVi": "Đáp án 1: 'Ngày mai rủ đi xem phim đi.' - Sai vì '誘いましょう' nghĩa là đề xuất rủ một bên thứ ba hoặc nói về hành vi rủ rê, không phải lời rủ trực tiếp."
       },
       {
         "id": "2",
         "textAfterAnswer": "明日、映画を見に行きませんか。",
         "isCorrect": true,
-        "explanationVi": "Đúng. Mẫu câu 「〜ませんか」 (Chúng ta cùng đi... nhé?) là cấu trúc rủ rê, mời mọc lịch sự và thông dụng nhất trong tiếng Nhật."
+        "explanationVi": "Đáp án 2: 'Ngày mai cậu đi xem phim với tớ không?' - Đúng. Mẫu câu '～ませんか' là cách rủ rê, mời mọc lịch sự và tự nhiên."
       },
       {
         "id": "3",
         "textAfterAnswer": "明日、映画に行きたいそうですよ。",
         "isCorrect": false,
-        "explanationVi": "Sai. Mẫu 「〜そうですよ」 chỉ tin đồn/nghe nói: \"Nghe nói ngày mai (ai đó) muốn đi xem phim đấy\", không mang tính chất rủ rê trực tiếp."
+        "explanationVi": "Đáp án 3: 'Nghe nói ngày mai có người muốn đi xem phim đấy.' - Sai vì cấu trúc '～そうですよ' dùng để truyền đạt lại thông tin nghe từ người khác."
       }
     ],
     "answer": {
       "correctOptionId": "2",
-      "shortExplanationVi": "Dùng cấu trúc rủ rê mời mọc 「〜ませんか」 để rủ đối phương cùng đi xem phim: 「明日、映画を見に行きませんか。」.",
-      "fullExplanationVi": "Đề bài yêu cầu rủ người khác đi xem phim cùng mình (映画に行きたいです。何と言いますか). Mẫu câu mời mọc chuẩn mực là 「V-ませんか」. Do đó, lựa chọn 2 「明日映画を見に行きませんか」 là đáp án chính xác. Lựa chọn 1 mang nghĩa rủ đi mời người khác. Lựa chọn 3 là dạng truyền đạt thông tin nghe từ người khác.",
-      "trapVi": "Lựa chọn 1 dùng đuôi 「〜ましょう」 dễ khiến người học lầm tưởng là rủ rê trực tiếp, nhưng động từ là 「誘う」 (mời mọc) khiến câu mang nghĩa \"hãy mời ai đó\".",
-      "listeningStrategyVi": "Khi cần mời mọc/rủ rê (誘う), luôn ưu tiên tìm các đuôi câu như 「〜ませんか」「〜ない？」「〜ましょうか」.",
-      "transcriptJa": "1：明日、映画に誘いましょう。\n2：明日、映画を見に行きませんか。\n3：明日、映画に行きたいそうですよ。",
-      "translationVi": "1: Ngày mai chúng ta hãy rủ đi xem phim đi.\n2: Ngày mai bạn có muốn cùng đi xem phim với tôi không?\n3: Nghe nói ngày mai ai đó muốn đi xem phim đấy.",
+      "shortExplanationVi": "Rủ đối phương đi xem phim bằng mẫu câu '～ませんか' (Ngày mai cậu có đi xem phim cùng tớ không?).",
+      "fullExplanationVi": "Để rủ rê hoặc mời ai đó tham gia một hoạt động cùng mình, người Nhật sử dụng mẫu câu phủ định lịch sự '～ませんか' (Cùng... nhé?). Phương án 2 thể hiện chính xác ý định mời đi xem phim.",
+      "trapVi": "Phương án 1 '誘いましょう' nghĩa là chúng ta hãy rủ ai đó đi, không phải lời mời đối phương. Phương án 3 là truyền đạt tin đồn.",
+      "listeningStrategyVi": "Khi đề bài có từ khóa '行きたいです' (muốn đi cùng ai đó) hoặc '誘います' (rủ rê), hãy chú ý lắng nghe mẫu câu mời mọc đặc trưng như '～ませんか' hoặc '～ましょう'.",
+      "transcriptJa": "状況：明日、二人で映画に行きたいです。何と言いますか。\n1．明日、映画に誘いましょう。\n2．明日、映画を見に行きませんか。\n3．明日、映画に行きたいそうですよ。",
+      "translationVi": "Tình huống: Ngày mai bạn muốn đi xem phim cùng với người kia. Bạn sẽ nói thế nào?\n1. Ngày mai rủ đi xem phim đi.\n2. Ngày mai cậu đi xem phim với tớ không?\n3. Nghe nói ngày mai có người muốn đi xem phim đấy.",
       "highlightTranscript": [],
-      "promptTranscriptJa": "明日、二人で映画に行きたいです。何と言いますか。",
-      "promptTranslationVi": "Bạn muốn rủ đối phương ngày mai cùng đi xem phim với mình. Bạn sẽ nói thế nào?"
+      "promptTranscriptJa": "明日、二人で映画に行きたいです。何と言いますか。 1. 明日、映画に誘いましょう。 2. 明日、映画を見に行きませんか。 3. 明日、映画に行きたいそうですよ。",
+      "promptTranslationVi": "Ngày mai bạn muốn đi xem phim cùng với người kia. Bạn sẽ nói thế nào?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
@@ -517,40 +517,40 @@
       "instruction": "もんだい3では、えを見ながらしつもんを聞いてください。やじるし（→）の人は何と言いますか。1から3の中から、いちばんいいものを一つえらんでください。",
       "instructionVi": "Nhìn tranh, nghe tình huống và chọn lời thoại thích hợp nhất.",
       "textVisibleBeforeAudio": false,
-      "stem": "黒板の字が小さくて読めません。先生に何と言いますか。",
-      "stemVi": "Chữ trên bảng đen nhỏ quá bạn không đọc được. Bạn sẽ nói gì với giáo viên?"
+      "stem": "黒板의字가小さくて、読めません。先生に何と言いますか。",
+      "stemVi": "Chữ trên bảng nhỏ quá bạn không đọc được. Bạn sẽ nói thế nào với giáo viên?"
     },
     "options": [
       {
         "id": "1",
-        "textAfterAnswer": "すいません。よく見えません。",
+        "textAfterAnswer": "すみません、よく見えません。",
         "isCorrect": true,
-        "explanationVi": "Đúng. Câu 「すいません。よく見えません。」 (Thưa thầy/cô, em xin lỗi nhưng em không nhìn rõ ạ) là cách thông báo lịch sự cho giáo viên biết mình đang gặp khó khăn khi nhìn bảng."
+        "explanationVi": "Đáp án 1: 'Thưa cô, em nhìn không rõ ạ.' - Đúng. Báo cáo tình hình không nhìn rõ chữ trên bảng một cách lịch sự."
       },
       {
         "id": "2",
-        "textAfterAnswer": "すいません。読んでもいいですか。",
+        "textAfterAnswer": "すみません、読んでもいいですか。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này xin phép: \"Thưa thầy/cô, em đọc có được không ạ?\", không giải quyết được vấn đề chữ quá nhỏ không đọc được."
+        "explanationVi": "Đáp án 2: 'Thưa cô, em đọc có được không ạ?' - Sai vì đây là câu xin phép được đọc (bài học/sách)."
       },
       {
         "id": "3",
-        "textAfterAnswer": "すいません。書きましょうか。",
+        "textAfterAnswer": "すみません、書きましょうか。",
         "isCorrect": false,
-        "explanationVi": "Sai. Câu này đề nghị giúp đỡ: \"Thưa thầy/cô, để em viết hộ nhé?\", không phù hợp với ngữ cảnh học sinh không nhìn rõ bảng."
+        "explanationVi": "Đáp án 3: 'Thưa cô, để em viết nhé?' - Sai vì đây là câu đề nghị viết hộ, không liên quan đến việc không đọc được."
       }
     ],
     "answer": {
       "correctOptionId": "1",
-      "shortExplanationVi": "Báo cáo tình trạng không nhìn rõ bảng với giáo viên bằng câu lịch sự: 「すいません。よく見えません。」.",
-      "fullExplanationVi": "Trong phòng học, chữ trên bảng nhỏ và học sinh không đọc được (読めません). Học sinh cần trình bày vấn đề này với giáo viên để giáo viên điều chỉnh hoặc hỗ trợ. Lựa chọn 1 「すいません。よく見えません。」 là cách diễn đạt phù hợp nhất. Lựa chọn 2 là xin phép làm gì đó, lựa chọn 3 là lời đề nghị giúp đỡ giáo viên viết bảng, cả hai đều không hợp lý.",
-      "trapVi": "Lựa chọn 2 dùng động từ 「読む」 (đọc) giống như từ 「読めない」 trong đề bài nhằm bẫy người nghe chọn theo âm thanh lặp lại.",
-      "listeningStrategyVi": "Khi gặp sự cố hoặc khó khăn cá nhân (không nhìn rõ, không nghe rõ), hãy dùng động từ khả năng thể phủ định: 「見えません」「聞こえません」.",
-      "transcriptJa": "1：すいません。よく見えません。\n2：すいません。読んでもいいですか。\n3：すいません。書きましょうか。",
-      "translationVi": "1: Em thưa thầy/cô, em không nhìn rõ ạ.\n2: Em thưa thầy/cô, em đọc có được không ạ?\n3: Em thưa thầy/cô, để em viết hộ nhé?",
+      "shortExplanationVi": "Thông báo việc không nhìn thấy rõ chữ trên bảng bằng câu 'すみません、よく見えません。'",
+      "fullExplanationVi": "Khi chữ trên bảng quá nhỏ dẫn đến việc học sinh không đọc được, học sinh cần báo cáo với giáo viên là không nhìn thấy rõ bằng câu 'よく見えません' (Em không nhìn thấy rõ) kèm theo từ mở đầu lịch sự 'すみません'. Do đó phương án 1 là chính xác.",
+      "trapVi": "Phương án 2 dùng khi muốn xin phép đọc bài. Phương án 3 là đề nghị giúp đỡ giáo viên viết bảng.",
+      "listeningStrategyVi": "Chú ý từ khóa '読めません' (không đọc được) dẫn đến nguyên nhân là '見えません' (không nhìn thấy). Hãy tìm câu phản ánh đúng thực trạng thị lực/tầm nhìn.",
+      "transcriptJa": "状況：黒板の字が小さくて読めません。先生に何と言いますか。\n1．すみません、よく見えません。\n2．すみません、読んでもいいですか。\n3．すみません、書きましょうか。",
+      "translationVi": "Tình huống: Chữ trên bảng nhỏ quá bạn không đọc được. Bạn sẽ nói thế nào với giáo viên?\n1. Thưa cô, em nhìn không rõ ạ.\n2. Thưa cô, em đọc có được không ạ?\n3. Thưa cô, để em viết nhé?",
       "highlightTranscript": [],
-      "promptTranscriptJa": "黒板の字が小さくて読めません。先生に何と言いますか。",
-      "promptTranslationVi": "Chữ trên bảng đen nhỏ quá bạn không đọc được. Bạn sẽ nói gì với giáo viên?"
+      "promptTranscriptJa": "黒板의字가小さくて、読めません。先生に何と言いますか。 1. すみません、よく見えません。 2. すみません、読んでもいいですか。 3. すみません、書きましょうか。",
+      "promptTranslationVi": "Chữ trên bảng nhỏ quá bạn không đọc được. Bạn sẽ nói thế nào với giáo viên?"
     },
     "playbackPolicy": {
       "practiceModeReplay": true,
