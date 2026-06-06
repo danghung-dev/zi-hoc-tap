@@ -71,6 +71,7 @@ Convert one exam HTML file and its shared MP3 audio into separate audio clips an
    
    > [!IMPORTANT]
    > **The HTML file does NOT contain correct answers.** You (Gemini) must analyze the refined Japanese dialogue and solve the question yourself using your Japanese knowledge to identify the correct option, then set it in `correctOptionId` and provide explanations.
+   > If the question contains option or situation images, you **MUST** use the `view_file` tool to view the images to verify their visual contents and ensure correct Option A/B/C/D mapping. Do not guess the image contents!
 
    Ensure all question/option images are copied from `temp/listening/images/raw` to `github-data/public/assets/levels/n4/images/listening`.
    In the JSON files, both audio and images must reference raw GitHub CDN links instead of local paths (branch `main` on repo `danghung-dev/tiengnhat`):

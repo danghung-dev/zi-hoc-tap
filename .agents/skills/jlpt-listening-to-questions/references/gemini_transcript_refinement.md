@@ -31,6 +31,8 @@ For each question (e.g., Mondai 1 Question 1):
 > **The HTML file does NOT contain the correct answers.** You must listen to/read the corrected Japanese dialogue, apply your Japanese knowledge, and solve the question yourself to identify which option is correct.
 
 - **Compare Dialogue with Options**: Using Japanese comprehension, solve the question to find the correct answer.
+- **Analyze Option/Situation Images**:
+  If the question contains option images (e.g., Mondai 1 or Mondai 2 Q3, Q7) or situation images (Mondai 3), you **MUST** use the `view_file` tool to inspect each of the image files (e.g., `temp/listening/images/raw/` or `github-data/.../optA.png`). Looking at the images is the only way to understand what Tranh 1, Tranh 2, Tranh 3, Tranh 4 actually show, ensuring you correctly map which option letter (A, B, C, D) corresponds to which visual content, and write accurate option explanations. Do not make blind guesses about what is drawn in the options.
 - **Options Formats**:
   - **Mondai 1 & 2** (Standard Quiz): Options are labeled `"A"`, `"B"`, `"C"`, `"D"` corresponding to indexes `0`, `1`, `2`, `3` in `listen_raw.json`.
   - **Mondai 3 & 4** (Quick Response): Set `"buttonMode": true`. Options are `"1"`, `"2"`, `"3"`. For these, transcribe the options spoken at the end of the audio and set them as `"textAfterAnswer"` in the `options` array.
