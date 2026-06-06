@@ -11,63 +11,68 @@ description: >-
 
 # JLPT Listening Exam HTML + MP3 → Listening Question JSON + Audio Clips
 
-Convert one exam HTML file and its shared MP3 audio into separate audio clips and JSON packs for each Mondai.
+Convert one exam HTML file and its shared MP3 audio into separate audio clips and JSON packs for each Mondai using faster-whisper and Gemini refinement.
 
 ## Workflow Summary
 
 1. **Parse HTML (Part 2)**:
+   Extract raw questions, prompts, options, and images from HTML:
    ```bash
-   python scripts/parse_exam_html.py temp/dethi3.html --part p2 -o temp/listening/listen_raw.json
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/parse_exam_html.py temp/dethi3.html --part p2 -o temp/listening/listen_raw.json
    ```
+
 2. **Fetch MP3 and Images**:
+   Download the main MP3 file and any question/option images from the web pages:
    ```bash
-   python scripts/fetch_listening_media.py temp/dethi3.html --out temp/listening
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/fetch_listening_media.py temp/dethi3.html --out temp/listening
    ```
-3. **Chunk Audio for LLM Listening**:
+
+3. **Transcribe Audio with faster-whisper**:
+   Run faster-whisper on the main MP3 to generate segment-level and word-level timestamps:
    ```bash
-   python scripts/prepare_audio_chunks.py temp/listening/source.mp3 --chunk-sec 45 --overlap-sec 3 --out temp/listening/chunks
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/transcribe_whisper.py \
+     temp/listening/source.mp3 \
+     -o temp/listening/whisper_raw.json \
+     --model large-v3-turbo
    ```
-4. **LLM Drafts Timestamps**:
-   The LLM listens to each chunk (via `view_file` tool) along with `listen_raw.json` and writes observations to `temp/listening/model_chunk_observations/chunk_NNN.json` matching `references/model_timestamp_authoring.md`.
-5. **Merge Timestamps**:
+
+4. **Align Timestamps**:
+   Align the detected question announcements from the transcript with the expected questions from HTML:
    ```bash
-   python scripts/merge_model_timestamps.py \
-     --observations temp/listening/model_chunk_observations \
-     --chunks temp/listening/chunks_manifest.json \
-     --raw temp/listening/listen_raw.json \
-     --counts 8,7,8,9 \
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/align_timestamps.py \
+     temp/listening/whisper_raw.json \
+     temp/listening/listen_raw.json \
      --exam de3 \
      -o temp/listening/timestamp_candidates.json
    ```
-6. **Cut Clips**:
-   Save cut clips to `github-data` repository instead of the source code's `public/` directory:
+
+5. **Cut Audio Clips**:
+   Cut the main MP3 file into individual audio files for each question (saving them into `github-data/`):
    ```bash
-   python scripts/cut_from_model_timestamps.py \
+   .venv/bin/python .agents/skills/jlpt-listening-to-questions/scripts/cut_from_model_timestamps.py \
      temp/listening/source.mp3 \
      temp/listening/timestamp_candidates.json \
      --out-assets github-data/public/assets/levels/n4/audio/listening \
      --exam de3 \
      -o temp/listening/segments.json
    ```
-7. **LLM Verifies Clips**:
-   The LLM listens to each cut clip in `github-data/public/assets/levels/n4/audio/listening/` (via `view_file`) matching `references/verify_clips_with_model.md` and writes verification feedback to `temp/listening/clip_verification/de3-mX-qYY.json`.
-8. **Adjust Clips**:
-   ```bash
-   python scripts/apply_clip_adjustments.py \
-     --source temp/listening/source.mp3 \
-     --segments temp/listening/segments.json \
-     --verification temp/listening/clip_verification \
-     --out-assets github-data/public/assets/levels/n4/audio/listening
-   ```
-9. **Generate Question JSON**:
-   LLM creates final JSON packs for each Mondai using transcripts, correct answers, and durations.
+
+6. **Gemini Transcript Refinement & JSON Generation**:
+   Using `references/gemini_transcript_refinement.md`, align and correct the Whisper-transcribed segments for each question, determine the correct options, write the Vietnamese translations and explanations, and generate the final question JSON files.
+   
+   > [!IMPORTANT]
+   > **The HTML file does NOT contain correct answers.** You (Gemini) must analyze the refined Japanese dialogue and solve the question yourself using your Japanese knowledge to identify the correct option, then set it in `correctOptionId` and provide explanations.
+
    Ensure all question/option images are copied from `temp/listening/images/raw` to `github-data/public/assets/levels/n4/images/listening`.
    In the JSON files, both audio and images must reference raw GitHub CDN links instead of local paths (branch `main` on repo `danghung-dev/tiengnhat`):
    - Base URL prefix: `https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/`
    - Set `"media.audio.src"` to the raw GitHub audio link.
    - For option images (Mondai 1 and Mondai 2 Q3), set `"imageSrc"` on each option to the raw GitHub image link.
    - For situation images (Mondai 2 Q5 and Mondai 3), set `"media.image.src"` to the raw GitHub image link.
-10. **Register in `packs.json`**:
-    Update the `public/data/levels/n4/packs.json` file.
-11. **Commit and Push github-data**:
-    Navigate to `github-data` repository, stage all newly added audio and images, commit and push to the `main` branch.
+
+7. **Register in `packs.json`**:
+   Update the `public/data/levels/n4/packs.json` file.
+
+8. **Commit and Push github-data**:
+   Navigate to the `github-data` repository, stage all newly added audio and images, commit and push to the `main` branch.
+
