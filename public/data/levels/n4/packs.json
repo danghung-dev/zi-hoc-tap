@@ -108,33 +108,6 @@
     "count": 8
   },
   {
-    "id": "n4_listen_point_001",
-    "section": "listening",
-    "jlptItemType": "comprehension_of_key_points",
-    "uiTemplate": "listening_player",
-    "file": "listening/comprehension-of-key-points-001.json",
-    "title": "聴解 問題2 - Comprehension of key points",
-    "count": 7
-  },
-  {
-    "id": "n4_listen_verbal_001",
-    "section": "listening",
-    "jlptItemType": "verbal_expressions",
-    "uiTemplate": "listening_player",
-    "file": "listening/verbal-expressions-001.json",
-    "title": "聴解 問題3 - Verbal expressions",
-    "count": 8
-  },
-  {
-    "id": "n4_listen_quick_001",
-    "section": "listening",
-    "jlptItemType": "quick_response",
-    "uiTemplate": "listening_player",
-    "file": "listening/quick-response-001.json",
-    "title": "聴解 問題4 - Quick response",
-    "count": 9
-  },
-  {
     "id": "n4_vocab_kanji_reading_002",
     "section": "vocabulary",
     "jlptItemType": "kanji_reading",
