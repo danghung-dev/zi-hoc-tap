@@ -181,9 +181,9 @@
     "options": [
       {
         "id": "A",
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "1",
-        "explanationVi": "Bức tranh 1 (Viết nhật ký). Người đàn ông khẳng định luôn viết nhật ký trước khi đi ngủ.",
+        "explanationVi": "Bức tranh 1 (Tắm). Người đàn ông đi tắm sau khi ăn cơm, đây là hành động trước đó chứ không phải hành động ngay trước khi đi ngủ.",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optA.png"
       },
       {
@@ -202,16 +202,16 @@
       },
       {
         "id": "D",
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "4",
-        "explanationVi": "Bức tranh 4 (Tắm). Việc tắm rửa được thực hiện sau khi ăn cơm và trước các hoạt động thư giãn khác.",
+        "explanationVi": "Bức tranh 4 (Viết nhật ký). Người đàn ông khẳng định luôn viết nhật ký xong mới đi ngủ ('必ず日記をつけた後で布団に入ります').",
         "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optD.png"
       }
     ],
     "answer": {
-      "correctOptionId": "A",
-      "shortExplanationVi": "Dù có thể uống bia hay xem tivi, người đàn ông khẳng định luôn viết nhật ký rồi mới đi ngủ (\"必ず日記をつけた後で布団に入ります\").",
-      "fullExplanationVi": "Trong cuộc hội thoại, người phụ nữ hỏi về thói quen sinh hoạt buổi tối của người đàn ông. Trình tự của người đàn ông là: về nhà -> ăn cơm -> tắm rửa (\"お風呂に入るとゆっくりしますね\"). Sau đó, thỉnh thoảng ông uống bia (\"ビールを飲むこともあります\") hoặc xem tivi (\"たまには見ますよ\"). Tuy nhiên, ông nhấn mạnh hành động luôn làm trước khi đi ngủ: \"\u3067\u3082\u5fc5\u305a\u65e5\u8a18\u3092\u3064\u3051\u305f\u5f8c\u3067\u5e03\u56e3\u306b\u5165\u308a\u307e\u3059\" (Nhưng tôi luôn viết nhật ký xong rồi mới đi ngủ). Do đó, hành động ngay trước khi ngủ là viết nhật ký (tương ứng với tranh 1).",
+      "correctOptionId": "D",
+      "shortExplanationVi": "Dù có thể uống bia hay xem tivi, người đàn ông khẳng định luôn viết nhật ký rồi mới đi ngủ (\"必ず日記をつけた後で布団に入ります\"), tương ứng với bức tranh số 4.",
+      "fullExplanationVi": "Trong cuộc hội thoại, người phụ nữ hỏi về thói quen sinh hoạt buổi tối của người đàn ông. Trình tự của người đàn ông là: về nhà -> ăn cơm -> tắm rửa (\"お風呂に入るとゆっくりしますね\"). Sau đó, thỉnh thoảng ông uống bia (\"ビールを飲むこともあります\") hoặc xem tivi (\"たまには見ますよ\"). Tuy nhiên, ông nhấn mạnh hành động luôn làm trước khi đi ngủ: \"\u3067\u3082\u5fc5\u305a\u65e5\u8a18\u3092\u3064\u3051\u305f\u5f8c\u3067\u5e03\u56e3\u306b\u5165\u308a\u307e\u3059\" (Nhưng tôi luôn viết nhật ký xong rồi mới đi ngủ). Do đó, hành động ngay trước khi ngủ là viết nhật ký (tương ứng với bức tranh 4).",
       "trapVi": "Đoạn hội thoại nhắc đến nhiều hoạt động như tắm (お風呂), uống bia (ビール), xem tivi (テレビ) khiến người nghe dễ bị rối. Cần chú ý phó từ \"必ず\" (nhất định, luôn luôn) đi kèm với hành động viết nhật ký.",
       "listeningStrategyVi": "Tìm kiếm các trạng từ tần suất hoặc phó từ nhấn mạnh như \"必ず\" (nhất định), \"いつも\" (luôn luôn) để xác định hành động cốt lõi được hỏi trong câu hỏi dạng \"いつも何をしますか\" (luôn làm gì).",
       "transcriptJa": "女の人：男の人は家に帰って食事してお風呂に入るとゆっくりしますね。お風呂は食事の前ですか、後ですか？\n男の人：後です。その後ゆっくりビールを飲むこともあります。\n女の人：いいですね。寝る前にビールですか。テレビは見ないですか？\n男の人：たまには見ますよ。でも必ず日記をつけた後で布団に入ります。",
