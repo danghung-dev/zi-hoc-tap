@@ -1,0 +1,598 @@
+[
+  {
+    "id": "n4_listen_task_002_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q01.mp3",
+        "durationSec": 62.22
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "運転者は最後に何をしますか。",
+      "stemVi": "Người lái xe sẽ làm gì cuối cùng?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "車を止める",
+        "explanationVi": "Dừng xe ở bên trái đường trước khi xuống xe, đây là hành động trước đó chứ không phải hành động cuối cùng."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "免許を見せる",
+        "explanationVi": "Cảnh sát yêu cầu xuất trình bằng lái ở đầu cuộc hội thoại, không phải hành động cuối cùng."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "信号を見る",
+        "explanationVi": "Người lái xe đã không nhìn thấy đèn đỏ và đây không phải hành động cuối cùng."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "車から降りる",
+        "explanationVi": "Cảnh sát yêu cầu đỗ xe vào lề đường bên trái rồi xuống xe (\"車を止めて降りなさい\"), do đó hành động cuối cùng là xuống xe."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Cảnh sát yêu cầu người lái xe đỗ xe vào lề bên trái rồi xuống xe (\"車を止めて降りなさい\"). Do đó, hành động cuối cùng là xuống xe.",
+      "fullExplanationVi": "Trong đoạn hội thoại, cảnh sát chặn người lái xe lại vì vượt đèn đỏ và yêu cầu xuất trình bằng lái. Sau đó, cảnh sát yêu cầu người lái xe thực hiện hai hành động tiếp theo: \"道の左側へ車を止めて降りなさい\" (Đỗ xe vào lề đường bên trái rồi xuống xe đi). Cấu trúc liên kết động từ thể \"-te\" (止めて) chỉ trình tự hành động: đỗ xe trước (止める), sau đó xuống xe (降りる). Vì câu hỏi hỏi về hành động cuối cùng (最後に何をしますか), đáp án đúng là xuống xe (車から降りる).",
+      "trapVi": "Người nghe dễ nhầm lẫn chọn \"車を止める\" (dừng xe) vì đây là hành động được nhắc đến gần cuối, hoặc chọn \"免許を見せる\" (cho xem bằng lái) vì đây là yêu cầu đầu tiên của cảnh sát. Tuy nhiên, từ khóa quyết định là trình tự thời gian được biểu thị bằng thể \"-te\" (止めて -> 降りる).",
+      "listeningStrategyVi": "Đối với dạng câu hỏi về trình tự hành động \"Cuối cùng làm gì\" (最後に何をしますか), hãy chú ý lắng nghe các liên từ chỉ trình tự hoặc cấu trúc ngữ pháp như thể て (-te), あとで (sau khi), それから (sau đó) để xác định rõ hành động nào xảy ra ở cuối chuỗi thời gian.",
+      "transcriptJa": "警察官：あ、危ない！おい、止まれ！赤信号が見えなかったのか。免許証を見せなさい。学生さんか。教習所の教官が教えてくれなかったの？道の左側へ車を止めて降りなさい。",
+      "translationVi": "Cảnh sát: Ôi, nguy hiểm quá! Này, dừng lại! Cậu không nhìn thấy đèn đỏ à? Xuất trình bằng lái xe ra xem nào. Sinh viên à? Giáo viên ở trường dạy lái xe không dạy cậu à? Hãy đỗ xe vào lề đường bên trái rồi xuống xe đi!",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q02.mp3",
+        "durationSec": 48.54
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の子はどうしますか。",
+      "stemVi": "Cậu bé sẽ làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "いすに乗る",
+        "explanationVi": "Cậu bé sẽ đứng lên ghế để với tới quả chuối theo gợi ý của người mẹ."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "手を伸ばす",
+        "explanationVi": "Tay cậu bé ngắn nên việc chỉ với tay thông thường sẽ không lấy được chuối."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "テーブルに乗る",
+        "explanationVi": "Không có thông tin cậu bé trèo lên bàn trong cuộc hội thoại."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "食事の準備をする",
+        "explanationVi": "Đây là việc người mẹ đang bận làm, không phải việc cậu bé sẽ làm."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người mẹ đang bận chuẩn bị bữa ăn nên khuyên cậu bé tự lấy chuối bằng cách đứng lên ghế (\"椅子の上に上がったら？\"). Cậu bé sẽ trèo lên ghế để lấy chuối.",
+      "fullExplanationVi": "Cậu bé muốn ăn chuối và nhờ mẹ lấy hộ. Người mẹ từ chối vì bận chuẩn bị bữa ăn (\"食事の準備で忙しいの\") và bảo cậu bé tự lấy. Khi cậu bé nói rằng tay mình quá ngắn không với tới (\"僕の手は短くて\"), người mẹ đã đưa ra giải pháp gợi ý: \"椅子の上に上がったら？\" (Nếu con trèo lên ghế thì sao? / Con đứng lên ghế đi). Trong tiếng Nhật, cấu trúc \"～たら？\" dùng để đưa ra lời khuyên hoặc gợi ý nhẹ nhàng. Do đó, cậu bé sẽ thực hiện hành động trèo lên ghế (\"いすに乗る\").",
+      "trapVi": "Đoạn băng nhắc đến \"食事の準備\" (chuẩn bị bữa ăn) nhưng đó là việc người mẹ đang làm. Chi tiết \"僕の手は短くて\" (tay con ngắn) là nguyên nhân khiến cậu bé không thể chỉ đơn thuần với tay (手を伸ばす) mà phải trèo lên ghế.",
+      "listeningStrategyVi": "Khi nghe các đoạn hội thoại có lời khuyên hoặc gợi ý, hãy chú ý đến các cấu trúc như \"～たらどう？\", \"～たら？\", \"～ほうがいい\" vì đây thường là hành động mà nhân vật sẽ thực hiện tiếp theo để giải quyết vấn đề.",
+      "transcriptJa": "男の子：お母さん。\nお母さん：何？\n男の子：バナナが欲しいんだけど。\nお母さん：自分で取って。お母さんは今、食事の準備で忙しいの。\n男の子：でも、僕の手は短くて…\nお母さん：椅子の上に上がったら？",
+      "translationVi": "Cậu bé: Mẹ ơi.\nMẹ: Gì thế con?\nCậu bé: Con muốn ăn chuối...\nMẹ: Tự lấy đi con. Mẹ đang bận chuẩn bị bữa ăn rồi.\nCậu bé: Nhưng tay con ngắn quá...\nMẹ: Thế con đứng lên ghế mà lấy.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q03.mp3",
+        "durationSec": 64.13
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人は寝る前にいつも何をしますか。",
+      "stemVi": "Người đàn ông luôn làm gì trước khi đi ngủ?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "1",
+        "explanationVi": "Hình 1 (Viết nhật ký). Đây là hành động người đàn ông luôn thực hiện ngay trước khi đi ngủ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optA.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Hình 2 (Uống bia). Người đàn ông chỉ thỉnh thoảng uống bia sau khi tắm, không phải hành động luôn làm trước khi ngủ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optB.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Hình 3 (Xem ti vi). Người đàn ông thỉnh thoảng mới xem ti vi, không phải việc luôn làm trước khi ngủ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optC.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Hình 4 (Đi tắm). Người đàn ông tắm sau khi ăn cơm xong, sau đó còn làm nhiều hoạt động khác trước khi đi ngủ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m1-q03-optD.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông luôn viết nhật ký xong rồi mới đi ngủ (\"必ず日記をつけた後で布団に入ります\"). Do đó hành động luôn làm trước khi ngủ là viết nhật ký (đáp án 1 / A).",
+      "fullExplanationVi": "Đoạn hội thoại mô tả thói quen buổi tối của người đàn ông: Ăn cơm xong rồi đi tắm (お風呂は食事の後), sau đó thỉnh thoảng uống bia (ビールを飲むこともある) hoặc xem ti vi (たまにはテレビを見る). Cuối cùng, anh ấy khẳng định: \"必ず日記をつけた後で布団に入ります\" (Tôi luôn luôn viết nhật ký xong rồi mới vào chăn/đi ngủ). Từ khóa \"必ず\" (luôn luôn, nhất định) và \"日記をつけた後で\" chỉ ra rằng hành động viết nhật ký (日記をつける) luôn là hành động cuối cùng được thực hiện ngay trước khi ngủ. Do đó đáp án đúng là hình 1 (Option A).",
+      "trapVi": "Người nghe dễ bị bẫy bởi các hoạt động được liệt kê như uống bia (ビールを飲む) hay xem ti vi (テレビを見る) vì chúng xuất hiện gần từ khóa \"寝る前\" (trước khi ngủ) trong câu hỏi của người phụ nữ. Tuy nhiên, người đàn ông nói bia và ti vi chỉ là \"thỉnh thoảng\" (こともある, たまには), duy chỉ có viết nhật ký là \"luôn luôn\" (必ず).",
+      "listeningStrategyVi": "Hãy phân biệt rõ các mức độ tần suất như \"たまに\" (thỉnh thoảng), \"～することもある\" (cũng có lúc làm) với \"必ず\" (luôn luôn, nhất định) hoặc \"いつも\" (luôn luôn) để chọn đúng hoạt động lặp đi lặp lại cố định theo yêu cầu của câu hỏi.",
+      "transcriptJa": "女の人：男の人は、家に帰って食事してお風呂に入るとゆっくりしますね。お風呂は食事の前ですか、後ですか。\n男の人：後です。その後ゆっくりビールを飲むこともあります。\n女の人：いいですね。寝る前にビールですか。テレビは見ないですか。\n男の人：たまには見ますよ。でも、必ず日記をつけた後で布団に入ります。",
+      "translationVi": "Người phụ nữ: Khi về nhà, ăn cơm rồi đi tắm xong là anh thong thả nghỉ ngơi nhỉ. Anh tắm trước hay sau bữa ăn vậy?\nNgười đàn ông: Sau bữa ăn. Sau đó đôi khi tôi cũng thong thả uống bia.\nNgười phụ nữ: Thích thật đấy. Uống bia trước khi đi ngủ sao? Anh có xem ti vi không?\nNgười đàn ông: Thỉnh thoảng tôi cũng xem. Nhưng tôi luôn viết nhật ký xong rồi mới đi ngủ.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q04.mp3",
+        "durationSec": 41.46
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "二人は何について話していますか。",
+      "stemVi": "Hai người đang nói về cái gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "ズボン",
+        "explanationVi": "Chiếc quần dài. Các từ miêu tả như \"太い/細い\" (rộng/bó), động từ \"履く\" (mặc quần) và màu sắc nhạt cho mùa ấm áp đều hướng đến chiếc quần dài."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "セーター",
+        "explanationVi": "Áo len đi với động từ \"着る\" (mặc áo), không dùng động từ \"履く\"."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "かわぐつ",
+        "explanationVi": "Giày da tuy dùng động từ \"履く\" nhưng không miêu tả bằng tính từ \"細い/太い\" (để chỉ dáng quần skinny hay baggy) hay độ dày mỏng theo mùa."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "くつした",
+        "explanationVi": "Tất chân không được miêu tả có dáng bó hay rộng và thay đổi màu nhạt cho ấm áp như quần dài."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Hai người bàn về một trang phục dùng động từ \"履く\" (mặc cho phần dưới cơ thể), có dáng ống rộng (太い) và ống bó (細い), và chọn màu sáng hơn cho mùa ấm áp. Đó chính là chiếc quần dài (ズボン).",
+      "fullExplanationVi": "Trong tiếng Nhật, động từ \"履く\" (haku) được dùng cho các trang phục mặc từ thắt lưng trở xuống (quần, váy, giày, tất). Cuộc đối thoại xoay quanh các đặc điểm: \"太い\" (rộng) và \"細い\" (bó/gầy), \"履く\" (mặc), \"足が太いから細いのは合わない\" (Vì chân to nên mặc loại bó không hợp). Ở đây \"足\" (ashi) có nghĩa là chân (leg). Quần ống bó (skinny pants) và quần ống rộng (baggy pants) là những khái niệm rất phổ biến. Thêm vào đó là gợi ý chọn màu nhạt/sáng hơn vì trời sắp ấm lên. Tất cả các dữ kiện trên đều chỉ ra rằng họ đang thảo luận về chiếc quần dài (ズボン - Option A). Các trang phục khác như áo len (セーター) dùng động từ \"着る\", giày da (かわぐつ) hay tất (くつした) không được mô tả là quần ống rộng hay ống bó như vậy.",
+      "trapVi": "Người nghe có thể bị bẫy bởi từ \"足\" (chân/bàn chân) và nghĩ đến giày da (かわぐつ) hoặc tất (くつした) vì chúng đều dùng động từ \"履く\". Tuy nhiên, giày da không có dáng \"細い/太い\" để che chân to, và tất cũng không phải trang phục thời trang thay đổi kiểu dáng bó/rộng rõ rệt như quần.",
+      "listeningStrategyVi": "Đối với câu hỏi về chủ đề nói chuyện (何について話していますか), hãy chú ý đến động từ đi kèm (đặc biệt là động từ mặc trang phục: 着る cho áo, 履く cho quần/giày/tất, 被る cho mũ, かける cho kính) và các tính từ mô tả kiểu dáng để loại trừ phương án sai.",
+      "transcriptJa": "男の人：これ、どう思う？\n女の人：色もいいし…\n女の人：ちょっと太いんじゃない？今は細いのを履いている人が多いわよ。\n男の人：太い方が履きやすいし、足が太いから細いのは合わないんだ。\n女の人：そうね。でも、色はもう少し薄い方がいいわよ。これから暖かくなるんだから。",
+      "translationVi": "Bạn nam: Cậu thấy cái này thế nào?\nBạn nữ: Màu sắc cũng đẹp đó... Nhưng chẳng phải hơi rộng sao? Dạo này nhiều người mặc loại ống bó lắm đấy.\nBạn nam: Ống rộng mặc thoải mái hơn mà, với lại chân tớ to nên không hợp mặc ống bó đâu.\nBạn nữ: Ừ nhỉ. Nhưng màu sắc thì nên chọn loại sáng hơn một chút. Vì từ giờ thời tiết sẽ ấm dần lên rồi.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q05.mp3",
+        "durationSec": 84.56
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "二人はどれをプレゼントしますか。",
+      "stemVi": "Hai người sẽ tặng món quà nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "皮のコート",
+        "explanationVi": "Áo khoác da. Món quà giữ ấm cơ thể (\"身につけるもの\", \"寒くなるから\") và làm bằng chất liệu da mà người mẹ chưa có."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "皮の人形",
+        "explanationVi": "Búp bê da. Người mẹ đã có nhiều búp bê ở nhà và đây không phải đồ mặc giữ ấm."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "指輪",
+        "explanationVi": "Nhẫn. Nhẫn quá đắt tiền và đã bị người phụ nữ gạt đi ngay từ đầu."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "絵",
+        "explanationVi": "Tranh. Tranh treo tường không phải là sở thích của người mẹ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Hai người quyết định mua đồ mặc trên người để giữ ấm khi trời lạnh (\"身につけるもの\", \"寒くなるから\") và chọn chất liệu bằng da (\"革の\") vì mẹ chưa có. Đó là chiếc áo khoác da (皮のコート).",
+      "fullExplanationVi": "Cuộc trò chuyện loại trừ dần các phương án: Nhẫn (指輪) bị loại vì quá đắt (高いものだめ); Búp bê (人形) bị loại vì mẹ đã có sẵn (人形はある); Tranh (絵) bị loại vì không hợp sở thích của mẹ (趣味じゃない). Cuối cùng, họ đồng ý chọn \"身につけるもの\" (đồ mặc trên người/phụ kiện mang trên người). Người phụ nữ đề xuất: \"寒くなるからこれにしましょう。革のはお母さん持っていないし\" (Vì trời sắp lạnh nên hãy chọn cái này đi. Mẹ cũng chưa có cái nào bằng da cả). Đồ mặc trên người làm bằng da giúp giữ ấm khi trời lạnh chỉ có thể là chiếc áo khoác da (皮のコート). Do đó Option A là đáp án chính xác.",
+      "trapVi": "Người nghe có thể nghe thấy các từ khóa như \"指輪\" (nhẫn), \"人形\" (búp bê), \"絵\" (tranh) nhưng tất cả đều bị từ chối bằng các lý do cụ thể. Từ khóa quyết định nằm ở đoạn cuối: \"身につけるもの\" (đồ mặc/mang trên người), \"寒くなる\" (trời lạnh) và \"革の\" (bằng da).",
+      "listeningStrategyVi": "Đối với dạng câu hỏi lựa chọn đồ vật/quà tặng, hãy lập bảng loại trừ nhanh trong đầu khi nghe thấy các từ phản bác như \"だめ\" (không được), \"～はある\" (đã có rồi), \"趣味じゃない\" (không phải sở thích). Tập trung cao độ vào quyết định cuối cùng ở cuối đoạn hội thoại.",
+      "transcriptJa": "男の人：お母さんのプレゼント、何にしましょうか。\n女の人：飾るものがいいと思うけど。\n男の人：指輪なんかどう？\n女の人：そんな高いものだめよ。それに、飾るといってもお部屋よ。\n男の人：そうか。じゃあ、人形とか？\n女の人：人形はあるわ。\n男の人：絵なんかは？\n女の人：お母さんの趣味じゃないわね。やっぱり身につけるものがいいんじゃない？\n男の人：そうね。\n女の人：寒くなるからこれにしましょう。革のはお母さん持っていないし。",
+      "translationVi": "Bạn nam: Chúng ta nên tặng quà gì cho mẹ đây nhỉ?\nBạn nữ: Tớ nghĩ đồ trang trí thì tốt hơn.\nBạn nam: Nhẫn thì sao?\nBạn nữ: Đồ đắt tiền thế không được đâu. Với lại bảo là trang trí nhưng cũng chỉ là trong phòng thôi.\nBạn nam: Vậy à. Thế còn búp bê thì sao?\nBạn nữ: Búp bê thì mẹ có rồi.\nBạn nam: Tranh ảnh thì thế nào?\nBạn nữ: Tranh không phải sở thích của mẹ đâu. Tớ nghĩ đồ mặc trên người (đồ thời trang) vẫn tốt hơn chứ?\nBạn nam: Ừ nhỉ.\nBạn nữ: Thời tiết sắp lạnh rồi nên chọn cái này đi. Mẹ cũng chưa có cái nào bằng da cả.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q06.mp3",
+        "durationSec": 46.92
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人は本当は何歳ですか。",
+      "stemVi": "Người phụ nữ thực sự bao nhiêu tuổi?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "40歳",
+        "explanationVi": "40 tuổi. Đây là tuổi mà đứa con đã nói với hàng xóm (nói tăng lên 5 tuổi)."
+      },
+      {
+        "id": "B",
+        "isCorrect": true,
+        "text": "35歳",
+        "explanationVi": "35 tuổi. Tuổi thật của người phụ nữ. Khi hàng xóm khen trông cô ấy trẻ hơn 5 tuổi, cô ấy nghĩ mình được khen trông như 30 tuổi (35 - 5 = 30)."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "30歳",
+        "explanationVi": "30 tuổi. Tuổi mà người phụ nữ lầm tưởng mình được khen."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "25歳",
+        "explanationVi": "25 tuổi. Phương án gây nhiễu, không liên quan đến phép tính tuổi trong bài."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người phụ nữ nghĩ tuổi thật mình là 35 nên khi nghe hàng xóm khen \"trông trẻ hơn 5 tuổi\", cô ấy nghĩ họ thấy mình như 30 tuổi (35 - 5 = 30). Nhưng đứa con đã khai tăng tuổi mẹ thêm 5 tuổi (thành 40 tuổi), nên hàng xóm thực chất thấy cô ấy giống 35 tuổi (tuổi thật). Tuổi thật của cô ấy là 35 tuổi (35歳).",
+      "fullExplanationVi": "Đây là một câu hỏi tính toán logic: Người phụ nữ biết tuổi thật của mình là R. Người hàng xóm khen: \"Chị trông trẻ hơn 5 tuổi\" (5つ若く見えますね). Người phụ nữ vui mừng vì nghĩ mình được cho là 30 tuổi (\"30に見られたのかしら\"). Từ suy nghĩ này, ta biết tuổi thật của cô ấy tự nhẩm là R = 30 + 5 = 35 tuổi. Tuy nhiên, đứa con tiết lộ: \"Con đã nói tuổi mẹ nhiều hơn 5 tuổi đấy\" (5つ多く言ったよ). Tức là đứa con đã nói với hàng xóm mẹ 40 tuổi (35 + 5 = 40). Người hàng xóm nghĩ cô ấy 40 tuổi, và nhận xét cô ấy trông trẻ hơn 5 tuổi, tức là trông như 35 tuổi (bằng đúng tuổi thật). Vì vậy, tuổi thật của người phụ nữ là 35 tuổi (Option B).",
+      "trapVi": "Người nghe dễ nhầm lẫn chọn 40 tuổi (tuổi con khai) hoặc 30 tuổi (tuổi người phụ nữ tưởng tượng được khen). Cần phân biệt rõ góc nhìn của từng nhân vật: hàng xóm nghĩ cô ấy 40 và khen trông như 35; cô ấy biết mình 35 và tưởng hàng xóm nghĩ mình 35 nên khen trông như 30; đứa con thì khai tăng lên thành 40.",
+      "listeningStrategyVi": "Đối với các câu hỏi về số tuổi hoặc con số cần tính toán, hãy ghi nhanh các con số ra giấy nháp và thiết lập mối quan hệ giữa chúng (cộng hay trừ). Chú ý các cụm từ như \"多く言った\" (nói nhiều hơn/tăng lên) và \"若く見える\" (trông trẻ hơn/giảm đi).",
+      "transcriptJa": "女の人：昨日ね、隣に引っ越してきた奥さんにね、「奥さんは5つ若く見えますね」って言われたのよ。私、30に見られたのかしらって喜んで子供に話したのよ。そしたら子供が、「お母さんの年、5つ多く言ったよ」って言うのよ。子供って何でも多い方がいいと思うらしいのよね。",
+      "translationVi": "Người phụ nữ: Hôm qua nhé, tớ được chị hàng xóm mới chuyển đến bảo là: \"Trông chị trẻ hơn 5 tuổi đấy\". Tớ sướng quá, nghĩ bụng chắc nhìn mình như mới 30 tuổi, thế là về khoe với con. Ai dè con tớ bảo: \"Con nói tuổi của mẹ tăng lên 5 tuổi đấy!\". Trẻ con hình như cái gì cũng nghĩ càng nhiều càng tốt hay sao ấy.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q07.mp3",
+        "durationSec": 72.39
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人はこれからだれと映画に行こうと思っていますか。",
+      "stemVi": "Người phụ nữ định đi xem phim với ai tiếp theo?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "一人で行く",
+        "explanationVi": "Đi một mình. Đây là câu hỏi của người phụ nữ hỏi người đàn ông về lần đi xem phim trước của anh ấy, không phải dự định của cô ấy."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "彼氏と行く",
+        "explanationVi": "Đi với bạn trai. Người đàn ông đã đi xem phim với bạn gái của anh ấy, không liên quan đến người phụ nữ."
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "両親と行く",
+        "explanationVi": "Đi với bố mẹ. Người phụ nữ quyết định sẽ dẫn bố mẹ mình đi xem bộ phim này sau khi nghe gợi ý từ người đàn ông."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "男の人の彼女と行く",
+        "explanationVi": "Đi với bạn gái của người đàn ông. Thông tin sai lệch, không có trong bài."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Sau khi được bạn nam gợi ý đi xem phim cùng bố mẹ (\"ご両親と一緒にどうですか？\"), bạn nữ đồng tình và nói muốn dẫn bố mẹ đi cùng (\"連れて行ってあげたいですね\"). Do đó cô ấy định đi xem phim với bố mẹ (両親と行く - Option C).",
+      "fullExplanationVi": "Cuộc hội thoại diễn ra như sau: Bạn nữ hỏi bạn nam về bộ phim anh ấy vừa xem. Bạn nam khen phim rất hay. Bạn nữ hỏi bạn nam đi một mình à. Bạn nam trả lời đi với bạn gái (彼女と一緒). Bạn nam hỏi ngược lại bạn nữ: \"ご両親と一緒にどうですか？\" (Cậu đi xem cùng bố mẹ cậu thì sao?). Bạn nữ trả lời: \"そうですね。連れて行ってあげたいですね。\" (Ừ nhỉ, tớ cũng muốn dẫn bố mẹ đi xem cùng). Hành động \"連れて行ってあげる\" (dẫn đi/đưa đi) thể hiện cô ấy muốn tạo niềm vui cho bố mẹ bằng việc đưa họ đi xem phim. Vì vậy, người phụ nữ định đi xem phim cùng bố mẹ mình (Option C).",
+      "trapVi": "Người nghe dễ chọn nhầm \"一人で行く\" (đi một mình) hoặc \"彼氏と行く\" (đi với bạn trai) do nghe thấy các từ \"一人で\" và \"彼女\" ở phần đầu đoạn hội thoại khi họ đang nói về trải nghiệm của người đàn ông. Cần chú ý chủ ngữ của câu hỏi là \"女の人\" (người phụ nữ) và mốc thời gian là \"これから\" (từ bây giờ/sắp tới).",
+      "listeningStrategyVi": "Luôn xác định rõ câu hỏi đang hỏi về hành động của nhân vật nào (nam hay nữ) và thời điểm nào (quá khứ hay tương lai). Tránh nhầm lẫn giữa thông tin quá khứ của nhân vật này với dự định tương lai của nhân vật kia.",
+      "transcriptJa": "女の人：映画どうでした？\n男の人：すごくよかったよ。\n女の人：一人で行ったんですか？\n男の人：いえ、彼女と一緒に。\n女の人：まあ、いいですね。\n男の人：ご両親と一緒にどうですか？\n女の人：そうですね。連れて行ってあげたいですね。",
+      "translationVi": "Bạn nữ: Phim thế nào hả cậu?\nBạn nam: Hay cực kỳ luôn ấy.\nBạn nữ: Cậu đi xem một mình à?\nBạn nam: Không, tớ đi với bạn gái.\nBạn nữ: Ôi thích thế.\nBạn nam: Cậu thử đi xem cùng bố mẹ xem sao?\nBạn nữ: Ừ nhỉ. Tớ cũng muốn dẫn bố mẹ đi xem cùng.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_002_008",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m1-q08.mp3",
+        "durationSec": 62.72
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめに しつもんを きいて ください。それからはなしを きいて、もんだいようしの １から４の なかから、いちばんいい ものを ひとつ えらんで ください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人はいくら払いますか。",
+      "stemVi": "Người phụ nữ sẽ trả bao nhiêu tiền?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "500円",
+        "explanationVi": "500 yên. Đây là giá khuyến mãi khi mua 5 quả táo, người phụ nữ không mua nhiều thế."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "360円",
+        "explanationVi": "360 yên. Đây là giá gốc của 3 quả táo (120 yên/quả x 3), nhưng người bán đã giảm giá thêm."
+      },
+      {
+        "id": "C",
+        "isCorrect": true,
+        "text": "330円",
+        "explanationVi": "330 yên. Đây là số tiền thực tế người phụ nữ trả sau khi được giảm giá 30 yên cho 3 quả táo (360 - 30 = 330)."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "300円",
+        "explanationVi": "300 yên. Phương án gây nhiễu từ các phép tính sai khác."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người phụ nữ mua 3 quả táo. Giá gốc 3 quả là 360 yên (120 yên x 3), nhưng người bán giảm giá 30 yên nên số tiền thực tế phải trả là 330 yên (360 - 30 = 330). Do đó đáp án là 330 yên (Option C).",
+      "fullExplanationVi": "Phép tính giá tiền mua táo của người phụ nữ như sau: Mua lẻ 1 quả táo giá 120 yên. Người phụ nữ định mua 3 quả, nhẩm tính: 120 x 3 = 360 yên. Người bán hàng đưa ra ưu đãi: Nếu mua 3 quả sẽ giảm giá thêm 30 yên (\"30円安くするよ\"). Người phụ nữ đồng ý mua: Số tiền phải trả là 360 - 30 = 330 yên. Vì vậy, đáp án đúng là 330 yên (Option C).",
+      "trapVi": "Người nghe dễ bị nhầm giữa các con số: 500 yên (giá 5 quả), 360 yên (giá gốc 3 quả) hoặc thực hiện phép tính sai. Cần lắng nghe kỹ chi tiết giảm giá \"30円安くする\" (bớt đi 30 yên) từ mức giá 360 yên.",
+      "listeningStrategyVi": "Đối với câu hỏi tính tiền, hãy ghi chú các mức giá và số lượng tương ứng ngay khi nghe thấy. Chú ý các từ chỉ giảm giá như \"安くする\" (giảm giá), \"サービスする\" (khuyến mãi/tặng thêm), \"引く\" (trừ bớt) để thực hiện phép trừ chính xác.",
+      "transcriptJa": "お店の人：奥さん、りんごが安いよ。5個500円、500円だよ。\n女の人：おいしそうね。でも、5個もいらないわ。1個だといくらなの？\nお店の人：1個だと120円。5個だと安くなるんだよ。\n女の人：じゃあ、3個買うと360円。\nお店の人：そうね。3個を買ってくれるなら、奥さんだから30円安くするよ。\n女の人：じゃあ、3個もらうわ。\nお店の人：はい、ありがとう。",
+      "translationVi": "Người bán hàng: Chị ơi, táo rẻ lắm này! 5 quả 500 yên, chỉ 500 yên thôi!\nNgười phụ nữ: Trông ngon nhỉ. Nhưng tôi không cần đến tận 5 quả đâu. Lẻ 1 quả thì bao nhiêu?\nNgười bán hàng: 1 quả lẻ thì 120 yên. Mua 5 quả mới được rẻ cơ.\nNgười phụ nữ: Thế thì mua 3 quả là 360 yên nhỉ.\nNgười bán hàng: Đúng thế. Mà nếu chị mua 3 quả thì vì là chỗ quen biết tớ bớt cho chị 30 yên đấy.\nNgười phụ nữ: Thế lấy tôi 3 quả nhé.\nNgười bán hàng: Vâng, cảm ơn chị.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

@@ -1,0 +1,536 @@
+[
+  {
+    "id": "n4_listen_point_002_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q01.mp3",
+        "durationSec": 76.96
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "どれにしますか。",
+      "stemVi": "Họ quyết định chọn mẫu thiết kế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "1",
+        "explanationVi": "Đáp án A. Mẫu chữ Hán (漢字) bị người phụ nữ từ chối vì cho rằng quá cứng nhắc đối với khách hàng nữ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optA.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Mẫu chữ Hiragana (ひらがな) cũng bị người phụ nữ chần chừ từ chối.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optB.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Mẫu chữ Katakana (カタカナ) bị người phụ nữ từ chối chung với Hiragana.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optC.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "4",
+        "explanationVi": "Đáp án D. Mẫu thứ tư mang lại cảm giác mới mẻ được cả hai thống nhất lựa chọn.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q01-optD.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Họ chọn mẫu thứ 4 vì mẫu chữ Hán quá cứng nhắc, còn chữ Hiragana và Katakana cũng không phù hợp; mẫu thứ 4 mang lại cảm giác mới mẻ hơn.",
+      "fullExplanationVi": "Trong cuộc trò chuyện, người đàn ông đưa ra 4 mẫu thiết kế. Người đàn ông gợi ý chữ Hán (漢字), nhưng người phụ nữ từ chối vì cửa hàng có nhiều khách nữ, chữ Hán sẽ bị cứng nhắc. Tiếp theo, người đàn ông đề xuất chữ Hiragana, người phụ nữ nhận xét cả Hiragana và Katakana đều không được ổn cho lắm. Cuối cùng, cô đề xuất mẫu còn lại (mẫu thứ 4) vì nó đem lại cảm giác mới mẻ hơn ('新しい感じがするわね'). Người đàn ông đồng ý ('これにしましょう'). Do đó, đáp án đúng là 4 (D).",
+      "trapVi": "Bẫy ở chỗ người phụ nữ phủ định liên tiếp các phương án chữ Hán, Hiragana và Katakana. Nếu không nghe kỹ từ phủ định 'ちょっとねえ' (hơi...) thì dễ chọn nhầm.",
+      "listeningStrategyVi": "Chú ý đến các từ phủ định nhẹ nhàng trong tiếng Nhật như 'ちょっと...' (hơi...) hay câu hỏi tu từ '固いんじゃないかしら' (chẳng phải hơi cứng sao) để loại bỏ phương án sai.",
+      "transcriptJa": "男の人：あのー、4つ作りましたけど、どれがいいでしょう？\n男の人：私は漢字がいいと思いますけど。\n女の人：漢字ねえ… うちは女のお客さんが多いから、ちょっと固いんじゃないかしら。\n男の人：じゃあ、ひらがなにしましょうか。\n女の人：ひらがなもカタカナもちょっとねえ。それより、これの方が新しい感じがするわね。\n男の人：わかりました。これにしましょう。",
+      "translationVi": "Người đàn ông: À... Tôi đã làm 4 mẫu thiết kế rồi, cái nào thì tốt nhỉ?\nNgười đàn ông: Tôi thì nghĩ chữ Hán là đẹp...\nNgười phụ nữ: Chữ Hán à... Cửa hàng chúng ta có nhiều khách hàng nữ nên chẳng phải hơi cứng nhắc sao?\nNgười đàn ông: Vậy thì chọn chữ Hiragana nhé?\nNgười phụ nữ: Hiragana hay Katakana cũng hơi... Thay vì thế, cái này mang lại cảm giác mới mẻ hơn nhỉ.\nNgười đàn ông: Tôi hiểu rồi. Vậy chọn mẫu này đi.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q02.mp3",
+        "durationSec": 143.28
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人は何のために女の人を訪ねたのですか。",
+      "stemVi": "Người đàn ông đến gặp người phụ nữ để làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "中国の上海で働くため",
+        "explanationVi": "Đáp án A. Đi làm việc ở Thượng Hải là lý do anh ấy cần học tiếng Trung, chứ không phải mục đích anh ấy đến gặp người phụ nữ."
+      },
+      {
+        "id": "B",
+        "isCorrect": true,
+        "text": "中国語を教えてもらうため",
+        "explanationVi": "Đáp án B. Anh ấy đến để nhờ người phụ nữ dạy tiếng Trung giao tiếp cơ bản cho mình."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "向こうが忙しいかそうかを聞くため",
+        "explanationVi": "Đáp án C. Hỏi đối phương có bận không chỉ là câu chào hỏi lịch sự ban đầu."
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "別れのあいさつをするため",
+        "explanationVi": "Đáp án D. Anh ấy đến nhờ học tiếng Trung chứ chưa phải để chào tạm biệt."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người đàn ông đến gặp người phụ nữ để nhờ cô dạy tiếng Trung giao tiếp cơ bản trước khi đi công tác Thượng Hải.",
+      "fullExplanationVi": "Người đàn ông đến gặp người phụ nữ và thông báo sắp đi làm việc ở chi nhánh Thượng Hải. Vì lo lắng do chưa từng đến đó và không biết tiếng Trung, anh ấy đã nhờ người phụ nữ dạy tiếng Trung cho mình ('中国語を教えていただけないでしょうか'). Dù người phụ nữ hơi ngần ngại vì chưa có kinh nghiệm, người đàn ông giải thích chỉ cần học chào hỏi cơ bản, nên cô đã đồng ý. Mục đích chính của chuyến viếng thăm là nhờ dạy tiếng Trung. Do đó đáp án B đúng.",
+      "trapVi": "Bẫy ở chi tiết '上海に勤める' (làm việc ở Thượng Hải). Đây là bối cảnh/lý do phát sinh nhu cầu, nhưng mục đích gặp người phụ nữ là nhờ học tiếng Trung.",
+      "listeningStrategyVi": "Cần phân biệt giữa bối cảnh sự việc (đi Thượng Hải làm việc) và mục đích hành động cụ thể khi đến gặp đối phương (nhờ dạy học).",
+      "transcriptJa": "男の人：Dさん、今お忙しいでしょうか。\n女の人：いいえ、あまり忙しくありません。\n男の人：ちょっとお邪魔してもよろしいでしょうか。\n女の人：はい、どうぞ、遠慮なく。\n男の人：あのー、今度、中国の上海にある支店に勤めることになったんです。\n女の人：えー、そうなんですか。上海ですか、いいところですよ。\n男の人：ええ。それで、ちょっとお願いがあるんですが。\n女の人：はい、私にできることでしたら、何でもおっしゃってください。\n男の人：私、上海は初めてですし、特に中国語が全然できませんし、ちょっと心配なんです。それで、Dさんのご都合のいい時でいいんですが、ちょっと中国語を教えていただけないでしょうか。\n女の人：え、私が教えるんですか。えっと、教えた経験もありませんが。\n男の人：いえ、ただ挨拶ぐらいだけでいいんですよ。\n女の人：あー、そうですか。それなら私にもできそうです。\n男の人：あ、やっていただけますね。\n女の人：ええ、喜んでやらせていただきます。\n男の人：あー、よかった。ありがとうございます。じゃあ、今から始めましょう。\n女の人：そうですか。はい、よろしくお願いします。",
+      "translationVi": "Người đàn ông: Chị D ơi, bây giờ chị có bận không ạ?\nNgười phụ nữ: Không, tôi không bận lắm.\nNgười đàn ông: Tôi xin phép làm phiền một chút có được không?\nNgười phụ nữ: Vâng, xin mời anh cứ tự nhiên.\nNgười đàn ông: À... sắp tới tôi sẽ chuyển sang làm việc tại chi nhánh ở Thượng Hải, Trung Quốc.\nNgười phụ nữ: Ôi thế ạ? Thượng Hải à, nơi đó đẹp lắm đấy.\nNgười đàn ông: Vâng. Thế nên tôi có chút việc muốn nhờ...\nNgười phụ nữ: Vâng, nếu là việc tôi có thể làm thì xin anh cứ nói.\nNgười đàn ông: Đây là lần đầu tôi đến Thượng Hải, vả lại tôi hoàn toàn không biết tiếng Trung nên hơi lo lắng. Vì thế, lúc nào chị D tiện cũng được, chị có thể dạy tiếng Trung cho tôi được không?\nNgười phụ nữ: Ơ, tôi dạy á? Tôi cũng chưa có kinh nghiệm dạy học bao giờ...\nNgười đàn ông: Không, chỉ cần chào hỏi xã giao là được rồi ạ.\nNgười phụ nữ: À ra vậy, nếu thế thì tôi cũng có thể làm được.\nNgười đàn ông: Ôi, chị sẽ dạy giúp tôi chứ?\nNgười phụ nữ: Vâng, tôi rất sẵn lòng.\nNgười đàn ông: Ôi tốt quá, xin cảm ơn chị. Vậy chúng ta bắt đầu từ bây giờ luôn nhé.\nNgười phụ nữ: Thế ạ? Vâng, mong được anh giúp đỡ.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q03.mp3",
+        "durationSec": 99.79
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の子は、どのお皿をもっていきますか。",
+      "stemVi": "Cậu bé sẽ mang chiếc đĩa nào đi?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "1",
+        "explanationVi": "Đáp án A. Chiếc đĩa tròn, kích thước lớn và không có vẽ hình trang trí.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optA.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Chiếc đĩa tròn, kích thước lớn nhưng có vẽ hình trang trí.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optB.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Chiếc đĩa vuông.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optC.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Chiếc đĩa tròn kích thước nhỏ.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q03-optD.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người mẹ bảo lấy chiếc đĩa to (大きい), dáng tròn (丸くて) và không vẽ hình (絵の書いてない方).",
+      "fullExplanationVi": "Người mẹ nhờ cậu bé lấy đĩa vì nhà có khách. Các tiêu chí được đưa ra lần lượt là: đĩa to ('大きいのがいいわね'), đĩa tròn chứ không phải đĩa vuông ('丸くて'), và đĩa không vẽ hình ('絵の書いてない方'). Đối chiếu các tiêu chí này, chiếc đĩa thỏa mãn là đĩa số 1. Do đó đáp án A đúng.",
+      "trapVi": "Bẫy ở các đặc điểm kết hợp của đĩa như hình dạng (vuông/tròn) và hình vẽ (có vẽ/không vẽ). Cần lắng nghe và loại trừ dần.",
+      "listeningStrategyVi": "Ghi chú nhanh các tính từ miêu tả đặc điểm vật thể: '大きい' (to) -> '丸い' (tròn) -> '絵の書いてない' (không vẽ hình) để chọn đáp án chính xác.",
+      "transcriptJa": "お母さん：けんちゃん、お皿持ってきてちょうだい。\n男の子：いいよ。で、ママ、どのお皿？\nお母さん：お客様が来るから、大きいのがいいわね。\n男の子：えーっと、でも四角いのと丸いのがあるよ、ママ。\nお母さん：そうね、丸くて絵の書いてない方を持ってきて。\n男の子：わかった。",
+      "translationVi": "Người mẹ: Ken-chan, mang đĩa ra đây cho mẹ với.\nCậu bé: Vâng ạ. Nhưng mẹ ơi, đĩa nào thế?\nNgười mẹ: Vì có khách đến chơi nên lấy đĩa to nhé.\nCậu bé: Xem nào... Nhưng có cả đĩa vuông và đĩa tròn đấy mẹ.\nNgười mẹ: Ừ nhỉ, mang cho mẹ cái đĩa tròn và không vẽ hình nhé.\nCậu bé: Vâng ạ.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q04.mp3",
+        "durationSec": 63.63
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人のアパートはどこが問題なのですか。",
+      "stemVi": "Căn hộ của người đàn ông gặp vấn đề gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "駅から遠い",
+        "explanationVi": "Đáp án A. Sai, vì việc đi lại (通勤) ở mức ổn ('まあまあ')."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "家賃が高い",
+        "explanationVi": "Đáp án B. Sai, vì tiền thuê nhà rẻ ('安いことは安い')."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "買い物に不便だ",
+        "explanationVi": "Đáp án C. Sai, vì việc mua sắm cũng ở mức tiện lợi ('買い物にもまあまあ')."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "日当たりがよくない",
+        "explanationVi": "Đáp án D. Đúng, xung quanh nhiều tòa nhà cao tầng che khuất ánh nắng nên phòng thiếu ánh sáng và lạnh."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Căn hộ bị vây quanh bởi các tòa nhà cao tầng nên thiếu ánh nắng ấm áp (日当たりがよくない).",
+      "fullExplanationVi": "Người đàn ông nhận xét về căn hộ mới: tiền thuê rẻ ('安い'), đi làm và mua sắm tạm ổn ('まあまあ'). Tuy nhiên, điểm trừ duy nhất là xung quanh có nhiều tòa nhà cao tầng ('高いビルがいっぱいあってね'). Người phụ nữ lập tức thông cảm: 'Sắp tới trời lạnh nên sẽ vất vả đây nhỉ', ngụ ý rằng căn hộ không đón được ánh nắng mặt trời, tức là đón nắng kém. Điều này tương ứng với '日当たりがよくない'. Do đó đáp án D đúng.",
+      "trapVi": "Bẫy gián tiếp. Đoạn băng không nói thẳng từ '日当たりがよくない' mà nói qua chi tiết 'nhiều tòa nhà cao tầng' và 'trời lạnh sẽ vất vả'.",
+      "listeningStrategyVi": "Cần suy luận logic từ các hiện tượng thực tế: nhà bị cao ốc bao quanh + mùa đông lạnh = thiếu ánh nắng chiếu vào.",
+      "transcriptJa": "女の人：今度のアパート、どう？\n男の人：安いことは安いけど、通勤にも買い物にもまあまあだよ。\n女の人：よかったじゃない。\n男の人：ただ、家のまわりに高いビルがいっぱいあってね。\n女の人：これから寒くなるから大変ね。",
+      "translationVi": "Người phụ nữ: Căn hộ mới thế nào rồi?\nNgười đàn ông: Rẻ thì có rẻ thật, đi làm hay đi mua sắm cũng khá thuận tiện.\nNgười phụ nữ: Thế thì tốt quá rồi còn gì.\nNgười đàn ông: Chỉ là xung quanh nhà có rất nhiều tòa nhà cao tầng...\nNgười phụ nữ: Sắp tới trời trở lạnh nên sẽ vất vả đây nhỉ.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q05.mp3",
+        "durationSec": 92.19
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人はきのう、何をしましたか。",
+      "stemVi": "Hôm qua người đàn ông đã làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "1",
+        "explanationVi": "Đáp án A. Đi câu cá (釣り) để kiếm thức ăn cho bữa tối.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optA.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Đi bơi (泳ぐ) - đã bị phủ nhận bởi 'ううun'.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optB.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Đi dạo với vợ (散歩) - đã bị phủ nhận bởi 'そんな時間ないよ'.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optC.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Hoạt động khác không liên quan.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q05-optD.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông đi biển để câu cá kiếm thức ăn cho bữa tối (晩ごはんのおかず).",
+      "fullExplanationVi": "Hôm qua người đàn ông đi biển ('海へ行った'). Người phụ nữ đoán anh đi bơi ('泳ぎに') nhưng anh phủ nhận ('ううん'). Cô đoán tiếp là đi dạo với vợ ('散歩') nhưng anh bảo không có thời gian. Cuối cùng, người phụ nữ đoán ra và người đàn ông xác nhận mục đích đi biển là để kiếm thức ăn cho bữa tối ('晩ごはんのおかずさ'). Việc đi biển kiếm thức ăn chỉ có thể là đi câu cá (釣り). Do đó chọn đáp án A.",
+      "trapVi": "Bẫy ở các hoạt động đi biển thông thường như bơi lội hay đi dạo. Người nghe phải chú ý các từ phủ định để loại trừ.",
+      "listeningStrategyVi": "Lắng nghe các thông tin phủ định 'ううん', 'そんな時間ない' để loại bỏ phương án nhiễu, tập trung vào kết luận cuối cùng '晩ごはんのおかず' để suy ra hoạt động câu cá.",
+      "transcriptJa": "女の人：きのう、どこかへ行ったんでしょう？\n男の人：うん、海へ行ったんだ。\n女の人：泳ぎに？\n男の人：ううん。\n女の人：奥さんをつれて散歩でもしたの？\n男の人：そんな時間ないよ。\n女の人：じゃあ…\n女の人：あ、わかった！\n男の人：そう、晩ごはんのおかずさ。",
+      "translationVi": "Người phụ nữ: Hôm qua anh đi đâu đó phải không?\nNgười đàn ông: Ừ, anh đi biển đấy.\nNgười phụ nữ: Đi bơi à?\nNgười đàn ông: Không phải.\nNgười phụ nữ: Dẫn vợ đi dạo à?\nNgười đàn ông: Làm gì có thời gian chứ.\nNgười phụ nữ: Thế thì...\nNgười phụ nữ: À, em biết rồi!\nNgười đàn ông: Đúng thế, kiếm thức ăn cho bữa tối đấy.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_006",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q06.mp3",
+        "durationSec": 64.73
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "パーティーはいつですか",
+      "stemVi": "Bữa tiệc diễn ra vào ngày nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": false,
+        "text": "いつか",
+        "explanationVi": "Đáp án A. Ngày 5 (không liên quan)."
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "じゅうごにち",
+        "explanationVi": "Đáp án B. Ngày 15 (là ngày hôm nay)."
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "はつか",
+        "explanationVi": "Đáp án C. Ngày 20 (là hạn chót trả lời thư mời)."
+      },
+      {
+        "id": "D",
+        "isCorrect": true,
+        "text": "にじゅうごにち",
+        "explanationVi": "Đáp án D. Ngày 25 (là ngày diễn ra bữa tiệc)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Hôm nay là ngày 15, còn 5 ngày nữa là đến hạn phản hồi (ngày 20). Hạn phản hồi là trước tiệc 5 ngày, nên tiệc diễn ra ngày 25.",
+      "fullExplanationVi": "Người phụ nữ thấy thư mời dự tiệc bị người đàn ông kẹp quên trong sách. Thư yêu cầu phản hồi trước khi tiệc diễn ra 5 ngày ('5日前までに答えてください'). Hôm nay là ngày 15 ('今日は15日ね'), và cô ấy nói 'chỉ còn 5 ngày nữa thôi' ('あと5日しかないわ'), tức là thời hạn phản hồi là ngày 20 (15 + 5 = 20). Vì hạn phản hồi là trước tiệc 5 ngày, nên bữa tiệc sẽ diễn ra vào ngày 25 (20 + 5 = 25). Do đó đáp án đúng là D.",
+      "trapVi": "Bẫy tính toán ngày tháng. Người nghe dễ nhầm lẫn giữa ngày hôm nay (15), hạn phản hồi (20), và ngày tiệc thực tế (25) nếu cộng trừ sai.",
+      "listeningStrategyVi": "Vẽ sơ đồ thời gian nháp nhanh: Hôm nay (15) + 5 ngày còn lại = Hạn phản hồi (20) + 5 ngày trước tiệc = Ngày tiệc (25).",
+      "transcriptJa": "女の人：あら、この手紙、いつ来たの？\n男の人：ああ、2週間ぐらい前かな。本の間に入れて忘れていた。ごめん、大切なものだった？\n女の人：パーティーの案内なのよ。5日前までに答えてくださいって書いてあるわ。今日は15日ね。あと5日しかないわ。\n男の人：ごめん。",
+      "translationVi": "Người phụ nữ: Ơ, lá thư này gửi đến từ bao giờ thế?\nNgười đàn ông: À, chắc khoảng 2 tuần trước. Anh kẹp nó vào giữa cuốn sách rồi quên mất. Xin lỗi nhé, đó là thứ quan trọng à?\nNgười phụ nữ: Thư mời dự tiệc đấy. Trong thư ghi là hãy trả lời trước 5 ngày. Hôm nay là ngày 15 rồi. Chỉ còn 5 ngày nữa thôi.\nNgười đàn ông: Xin lỗi em.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_point_002_007",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "comprehension_of_key_points",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "mondai2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M2",
+      "categoryName": "Nghe hiểu Mondai 2",
+      "displayLabel": "N4 Nghe: Mondai 2",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/de5-m2-q07.mp3",
+        "durationSec": 91.56
+      }
+    },
+    "question": {
+      "instruction": "\"もんだい2では、まずしつもんを聞いてください。そのあと、もんだいようしを見てください。読む時間があります。それから話を聞いて、もんだいようしの1から4の中からいちばんいいものを一つえらんでください。\"",
+      "instructionVi": "Nghe câu hỏi, đọc các đáp án lựa chọn trên đề, sau đó nghe hội thoại để chọn đáp án đúng.",
+      "textVisibleBeforeAudio": true,
+      "stem": "二人はどれを見ていますか。",
+      "stemVi": "Hai người đang nhìn cái gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "isCorrect": true,
+        "text": "1",
+        "explanationVi": "Đáp án A. Tổ chim có 7 quả trứng.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optA.png"
+      },
+      {
+        "id": "B",
+        "isCorrect": false,
+        "text": "2",
+        "explanationVi": "Đáp án B. Tổ chim có 5 quả trứng (số lượng của ngày hôm qua).",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optB.png"
+      },
+      {
+        "id": "C",
+        "isCorrect": false,
+        "text": "3",
+        "explanationVi": "Đáp án C. Tổ chim có 3 quả trứng (số lượng của ngày hôm kia).",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optC.png"
+      },
+      {
+        "id": "D",
+        "isCorrect": false,
+        "text": "4",
+        "explanationVi": "Đáp án D. Tổ chim có số lượng khác.",
+        "imageSrc": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/de5-m2-q07-optD.png"
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Hôm kia có 3 quả, hôm qua có 5 quả, hôm nay tăng thêm 2 quả nên hiện tại có 7 quả trứng.",
+      "fullExplanationVi": "Hai người đang xem tổ trứng chim. Người phụ nữ nói hôm nay trứng lại tăng thêm 2 quả ('また2つ増えた'). Khi được hỏi hôm qua có mấy quả, cô trả lời: Hôm kia có 3 quả ('おとといが3つ'), hôm qua có 5 quả ('昨日は5つ'). Vì hôm nay tăng thêm 2 quả so với hôm qua, nên số trứng hiện tại là 5 + 2 = 7 quả. Họ đang nhìn tổ chim có 7 quả trứng. Do đó chọn đáp án A.",
+      "trapVi": "Bẫy số lượng trứng qua các mốc thời gian: hôm kia (3 quả), hôm qua (5 quả) và hôm nay (7 quả). Tránh chọn nhầm số trứng của hôm qua.",
+      "listeningStrategyVi": "Theo dõi chuỗi số liệu tăng dần theo thời gian: Hôm kia (3) -> Hôm qua (5) -> Hôm nay (5 + 2 = 7) để xác định con số hiện tại.",
+      "transcriptJa": "女の人：あなたちょっと見て。小鳥の卵がまた2つ増えたみたいよ。\n男の人：へえ。昨日はいくつあったの？\n女の人：おとといが3つで、昨日は5つになっていたの。\n男の人：いくつになるか楽しみだね。",
+      "translationVi": "Người phụ nữ: Anh ơi nhìn này. Trứng chim non dường như lại tăng thêm 2 quả nữa rồi đấy.\nNgười đàn ông: Thế à. Hôm qua có mấy quả?\nNgười phụ nữ: Hôm kia có 3 quả, hôm qua tăng lên thành 5 quả rồi.\nNgười đàn ông: Không biết sẽ lên tới bao nhiêu quả nữa, thật mong chờ nhỉ.",
+      "highlightTranscript": []
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]
