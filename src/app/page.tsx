@@ -215,7 +215,7 @@ export default function Page() {
     const nextFlippedState = !isFlipped;
     setIsFlipped(nextFlippedState);
     if (nextFlippedState) {
-      speakJapanese(activeDeck[currentCardIndex].kanji);
+      speakJapanese(activeDeck[currentCardIndex].hiragana);
     }
   };
 
@@ -628,7 +628,7 @@ export default function Page() {
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
-                            if (activeDeck.length > 0) speakJapanese(activeDeck[currentCardIndex].kanji);
+                            if (activeDeck.length > 0) speakJapanese(activeDeck[currentCardIndex].hiragana);
                           }}
                           className="p-1.5 hover:bg-slate-700 rounded-lg text-indigo-400 transition"
                           title="Nghe phát âm"
