@@ -664,6 +664,27 @@ export default function PracticePage() {
               </button>
             </div>
 
+            {/* Pack Selector Dropdown */}
+            {activeSkillGroup !== "all" && (
+              <div className="flex flex-col gap-1.5 col-span-1 sm:col-span-3 border-t border-slate-800/60 pt-3 animate-in slide-in-from-top-2 duration-200">
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                  Bắt đầu luyện tập từ Pack
+                </label>
+                <select
+                  value={selectedPackId}
+                  onChange={(e) => setSelectedPackId(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none focus:border-indigo-600 transition h-[38px]"
+                >
+                  <option value="all">Tất cả các Pack (Từ đầu)</option>
+                  {activePacks.map((pack) => (
+                    <option key={pack.id} value={pack.id}>
+                      {pack.title} ({pack.count} câu)
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+
           </div>
         </section>
         
