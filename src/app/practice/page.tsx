@@ -112,6 +112,32 @@ export default function PracticePage() {
   // Tracking if current question is correct/incorrect
   const [answersState, setAnswersState] = useState<Record<string, boolean>>({});
 
+  // Derive active packs for current active skill group
+  const activePacks = React.useMemo(() => {
+    if (activeSkillGroup === "all") return [];
+    return packs.filter((p) => {
+      if (activeSkillGroup === "vocabulary") {
+        return p.section === "vocabulary";
+      }
+      if (activeSkillGroup === "listening") {
+        return p.section === "listening";
+      }
+      if (activeSkillGroup === "grammar") {
+        return (
+          p.section === "grammar_reading" &&
+          (p.jlptItemType.includes("grammar") || p.jlptItemType.includes("composition"))
+        );
+      }
+      if (activeSkillGroup === "reading") {
+        return (
+          p.section === "grammar_reading" &&
+          (p.jlptItemType.includes("reading") || p.jlptItemType.includes("information") || p.jlptItemType.includes("retrieval"))
+        );
+      }
+      return false;
+    });
+  }, [packs, activeSkillGroup]);
+
   // 1. Initial Data Fetching
   useEffect(() => {
     async function fetchData() {
@@ -167,6 +193,15 @@ export default function PracticePage() {
       result = result.filter(q => q.section === "listening");
     }
 
+    // Filter by selected pack and subsequent packs
+    if (selectedPackId !== "all") {
+      const targetIdx = activePacks.findIndex(p => p.id === selectedPackId);
+      if (targetIdx !== -1) {
+        const allowedPackIds = activePacks.slice(targetIdx).map(p => p.id);
+        result = result.filter(q => q.packId && allowedPackIds.includes(q.packId));
+      }
+    }
+
     if (filterCategory !== "all") {
       result = result.filter(
         (q) => q.customClassification?.categoryId === filterCategory
@@ -184,7 +219,7 @@ export default function PracticePage() {
 
     setFilteredQuestions(result);
     setCurrentIndex(0);
-  }, [activeSkillGroup, filterCategory, filterItemType, onlyMistakes, questions]);
+  }, [activeSkillGroup, filterCategory, filterItemType, onlyMistakes, questions, selectedPackId, activePacks]);
 
   // Handle answers completed inside cards
   const handleQuestionAnswered = (isCorrect: boolean) => {
@@ -621,6 +656,7 @@ export default function PracticePage() {
                   setFilterItemType("all");
                   setOnlyMistakes(false);
                   setActiveSkillGroup("all");
+                  setSelectedPackId("all");
                 }}
                 className="h-[38px] text-xs font-semibold bg-slate-950 text-slate-400 border border-slate-850 hover:bg-slate-900 rounded-xl flex items-center justify-center transition cursor-pointer w-full"
               >
