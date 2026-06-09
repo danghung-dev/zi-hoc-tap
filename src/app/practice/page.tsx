@@ -4,7 +4,8 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { 
   loadAllQuestions, 
-  loadLevelConfig 
+  loadLevelConfig,
+  loadPacks
 } from "@/lib/practice/data-loader";
 import { 
   getWrongIds, 
@@ -12,7 +13,7 @@ import {
   loadMistakes,
   clearSingleMistake
 } from "@/lib/practice/progress";
-import { Question, LevelConfig } from "@/lib/practice/types";
+import { Question, LevelConfig, Pack } from "@/lib/practice/types";
 import { QuestionRenderer } from "@/components/practice/QuestionRenderer";
 import { 
   ArrowLeft, 
@@ -91,6 +92,9 @@ export default function PracticePage() {
   // Skill Group State
   const [activeSkillGroup, setActiveSkillGroup] = useState<SkillGroup>("all");
 
+  const [packs, setPacks] = useState<Pack[]>([]);
+  const [selectedPackId, setSelectedPackId] = useState<string>("all");
+
   // Derived enabled questions (filtering out listening if disabled)
   const enabledQuestions = IS_LISTENING_ENABLED 
     ? questions 
@@ -113,12 +117,14 @@ export default function PracticePage() {
     async function fetchData() {
       try {
         setLoading(true);
-        const [configData, questionData] = await Promise.all([
+        const [configData, questionData, packsData] = await Promise.all([
           loadLevelConfig("n4"),
-          loadAllQuestions("n4")
+          loadAllQuestions("n4"),
+          loadPacks("n4")
         ]);
         setLevelConfig(configData);
         setQuestions(questionData);
+        setPacks(packsData);
         setMistakeIds(getWrongIds());
       } catch (err: any) {
         console.error(err);
@@ -129,6 +135,11 @@ export default function PracticePage() {
     }
     fetchData();
   }, []);
+
+  // Reset selected pack when active skill group changes
+  useEffect(() => {
+    setSelectedPackId("all");
+  }, [activeSkillGroup]);
 
   // 2. Filter logic: De-coupled from mistakeIds state to prevent deck reset while answering
   useEffect(() => {
