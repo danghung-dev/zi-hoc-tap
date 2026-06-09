@@ -25,9 +25,6 @@ import {
   Sparkles, 
   RefreshCw,
   BookOpenCheck,
-  CheckCircle2,
-  XCircle,
-  GraduationCap,
   Lock
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -110,7 +107,7 @@ export default function PracticePage() {
   const [mistakeIds, setMistakeIds] = useState<string[]>([]);
   
   // Tracking if current question is correct/incorrect
-  const [answersState, setAnswersState] = useState<Record<string, boolean>>({});
+  const [, setAnswersState] = useState<Record<string, boolean>>({});
 
   // Derive active packs for current active skill group
   const activePacks = React.useMemo(() => {
@@ -152,7 +149,7 @@ export default function PracticePage() {
         setQuestions(questionData);
         setPacks(packsData);
         setMistakeIds(getWrongIds());
-      } catch (err: any) {
+      } catch (err) {
         console.error(err);
         setError("Không thể nạp dữ liệu câu hỏi từ hệ thống. Hãy thử tải lại trang.");
       } finally {
@@ -161,11 +158,6 @@ export default function PracticePage() {
     }
     fetchData();
   }, []);
-
-  // Reset selected pack when active skill group changes
-  useEffect(() => {
-    setSelectedPackId("all");
-  }, [activeSkillGroup]);
 
   // 2. Filter logic: De-coupled from mistakeIds state to prevent deck reset while answering
   useEffect(() => {
@@ -217,6 +209,7 @@ export default function PracticePage() {
       result = result.filter((q) => activeMistakes.includes(q.id));
     }
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setFilteredQuestions(result);
     setCurrentIndex(0);
   }, [activeSkillGroup, filterCategory, filterItemType, onlyMistakes, questions, selectedPackId, activePacks]);
@@ -259,6 +252,7 @@ export default function PracticePage() {
 
       // Switch active group to match the target question's group
       setActiveSkillGroup(targetSkillGroup);
+      setSelectedPackId("all");
       setFilterCategory("all");
       setFilterItemType("all");
 
@@ -335,6 +329,7 @@ export default function PracticePage() {
 
   // Toggle active group helper
   const handleToggleGroup = (group: SkillGroup) => {
+    setSelectedPackId("all");
     if (activeSkillGroup === group) {
       setActiveSkillGroup("all");
     } else {
@@ -432,7 +427,7 @@ export default function PracticePage() {
             </h2>
             {activeSkillGroup !== "all" && (
               <button
-                onClick={() => setActiveSkillGroup("all")}
+                onClick={() => { setActiveSkillGroup("all"); setSelectedPackId("all"); }}
                 className="text-xs text-indigo-400 hover:text-indigo-300 font-semibold transition cursor-pointer"
               >
                 Xem tất cả ({enabledQuestions.length})
@@ -765,6 +760,7 @@ export default function PracticePage() {
                     setFilterItemType("all");
                     setOnlyMistakes(false);
                     setActiveSkillGroup("all");
+                    setSelectedPackId("all");
                   }}
                   className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl transition cursor-pointer"
                 >
@@ -784,7 +780,7 @@ export default function PracticePage() {
                 Sổ tay lỗi sai ({mistakeIds.length})
               </h2>
               <div className="flex items-center justify-between sm:justify-end gap-3.5">
-                <span className="text-[10px] text-slate-400 italic">Nhấp "Luyện tập" để giải lại câu sai</span>
+                <span className="text-[10px] text-slate-400 italic">Nhấp &quot;Luyện tập&quot; để giải lại câu sai</span>
                 <button
                   onClick={() => setOnlyMistakes(!onlyMistakes)}
                   className={cn(
