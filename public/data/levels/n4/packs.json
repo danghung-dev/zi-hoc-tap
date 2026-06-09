@@ -241,5 +241,14 @@
     "file": "listening/quick-response-002.json",
     "title": "聴解 問題4 - Quick response (Đề 5)",
     "count": 9
+  },
+  {
+    "id": "n4_listen_task_003",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-003.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 1)",
+    "count": 5
   }
 ]

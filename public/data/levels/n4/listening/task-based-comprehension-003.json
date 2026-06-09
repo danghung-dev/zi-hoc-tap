@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_003_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex1-q1.mp3",
+        "durationSec": 60.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex1-q1.gif",
+        "alt": "Japanesetest4you Ex 1 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "学生が先生に漢字のテストについて聞いています。学生が書いた漢字はどれです",
+      "stemVi": "Học sinh đang hỏi giáo viên về bài kiểm tra Kanji. Chữ Kanji học sinh đã viết là chữ nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Học sinh đã viết nét chấm ở bên trái nét ngang chứ không phải bên phải."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Học sinh đặt dấu chấm ở trên nét ngang nhưng lại đặt nhầm sang bên trái nét thẳng (nhầm sang chữ 太). Chữ này tương ứng với hình 2."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đây là chữ đúng của từ \"chó\" (犬) với nét chấm ở phía trên bên phải, nhưng câu hỏi hỏi chữ học sinh đã viết sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Học sinh viết chữ Kanji \"con chó\" (犬) nhưng bị sai vị trí dấu chấm: thay vì viết ở phía trên bên phải, học sinh lại viết dấu chấm ở phía trên bên trái (nhầm sang chữ 太). Chữ học sinh viết sai tương ứng với hình 2.",
+      "fullExplanationVi": "Trong cuộc hội thoại, học sinh hỏi về lỗi sai trong bài kiểm tra chữ Kanji \"dog\" (いぬ - 犬). Giáo viên hỏi \"Dấu chấm ở đây có đúng không?\". Học sinh nhận ra: \"Dấu chấm không phải dưới nét ngang, em đã đặt ở trên, nhưng mà... a, em lại viết sang bên trái mất rồi\" (点は横の線の下じゃなくて、上につけましたが、あっ、ひだりにつけてしまいました). Do đó, chữ Kanji mà học sinh viết có dấu chấm ở phía trên bên trái. Đáp án đúng là hình 2.",
+      "trapVi": "Cần chú ý câu hỏi hỏi chữ Kanji học sinh \"đã viết\" (đang bị lỗi) chứ không phải chữ Kanji đúng của từ \"dog\" (犬). Tránh nhầm lẫn giữa bên trái (ひだり) và bên phải (みぎ).",
+      "listeningStrategyVi": "Nghe kỹ câu hỏi \"Học sinh đã viết chữ nào\" (学生が書いた漢字はどれですか) để xác định mục tiêu nghe là tìm chữ viết sai của học sinh. Theo dõi sự điều chỉnh của học sinh ở câu cuối: \"ひだりにつけてしまいました\" (đã lỡ viết bên trái).",
+      "transcriptJa": "学生が先生に漢字のテストについて聞いています。学生が書いた漢字はどれです\nか。\n学生：先生、先週の漢字のテストですけど、これですね。\n先生：これですね。 学生：はい。いぬっていう漢字を書いたんですが、どこが\nまちがっているんでしょう。\n先生：点はここで正しいですか。\n学生：あのう、点は横の線の下じゃなくて、上につけましたが、あっ、ひだりに\nつけてしまいました。",
+      "translationVi": "Học sinh: Thưa thầy, đây là bài kiểm tra Kanji tuần trước đúng không ạ?\nGiáo viên: Đúng rồi.\nHọc sinh: Vâng. Em đã viết chữ Kanji \"inu\" (con chó), nhưng không biết bị sai ở chỗ nào ạ?\nGiáo viên: Dấu chấm ở vị trí này có đúng không?\nHọc sinh: À... Dấu chấm thì không phải ở dưới đường nằm ngang mà em lại đặt ở trên, nhưng mà... a, em lại chấm ở bên trái mất rồi."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_003_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex1-q2.mp3",
+        "durationSec": 48.13
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex1-q2.gif",
+        "alt": "Japanesetest4you Ex 1 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人と男の人がホテルで話しています。男の人はこれからどうしますか。",
+      "stemVi": "Một người nam và một người nữ đang nói chuyện ở khách sạn. Người nam từ bây giờ sẽ làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Ăn tối là hoạt động sau khi đi dạo."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đi tắm được lùi lại sau bữa tối."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Người nam thay đổi ý định muốn đi dạo cùng người nữ (ぼくも一緒に行くよ) và lùi việc tắm lại sau."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người nam quyết định đi dạo cùng người nữ trước rồi mới ăn tối và tắm sau.",
+      "fullExplanationVi": "Ban đầu người nam định đi tắm trước (先にお風呂に入ろうかな). Tuy nhiên, khi nghe người nữ nói sẽ đi dạo (散歩でもしてくるわ), người nam thay đổi ý định và muốn đi cùng (ぼくも一緒に行くよ). Việc tắm được lùi lại sau bữa tối (お風呂は夕食の後にするよ). Vì vậy, hành động ngay sau đây của người nam là đi dạo. Đáp án đúng là hình 3.",
+      "trapVi": "Bẫy là các dự định ban đầu như đi tắm (お風呂) hoặc ăn tối (夕飯). Người nghe cần theo dõi đến cuối hội thoại để biết quyết định cuối cùng.",
+      "listeningStrategyVi": "Lưu ý cấu trúc thay đổi quyết định: \"...もいいね。ぼくも一緒に行くよ\" và \"お風呂は夕食の後にするよ\" (Tắm thì để sau bữa tối).",
+      "transcriptJa": "女の人と男の人がホテルで話しています。男の人はこれからどうしますか。\n女の人：そろそろ夕飯の時間だね。\n男の人：そうだね。僕は先にお風呂に入ろうかな。まだそんなにおなかがすいて\nいないし。\n女の人：わたしは散歩でもしてくるわ。\n男の人：お、散歩もいいね。ぼくも一緒に行くよ。\n女の人：そう、\n男の人：お風呂は夕食の後にするよ。",
+      "translationVi": "Nữ: Sắp đến giờ ăn tối rồi nhỉ.\nNam: Ừ nhỉ. Hay là anh đi tắm trước nhé. Anh vẫn chưa đói bụng lắm.\nNữ: Em thì sẽ đi dạo một lát.\nNam: Ồ, đi dạo cũng hay đấy. Anh cũng đi cùng em nữa.\nNữ: Thế à?\nNam: Tắm rửa thì để sau bữa tối vậy."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_003_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex1-q3.mp3",
+        "durationSec": 40.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex1-q3.gif",
+        "alt": "Japanesetest4you Ex 1 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人が外国にいる女の人と電話で話しています。女の人の国は今何時ですか。",
+      "stemVi": "Một người nam đang nói chuyện điện thoại với một người nữ ở nước ngoài. Nước của người nữ bây giờ là mấy giờ?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Khi người nam nói ở Nhật cũng là 8:50 nhưng là buổi tối (夜), điều này có nghĩa là ở chỗ người nữ là 8:50 sáng (ban ngày)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là 8:50 tối (trùng với giờ ở Nhật)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Bên phía người nữ đang là 8 giờ 50 phút sáng (ban ngày).",
+      "fullExplanationVi": "Khi người nam hỏi giờ, người nữ trả lời là 8 giờ 50 phút (8時50分). Người nam ngạc nhiên nói ở Nhật cũng là 8 giờ 50 phút nhưng là buổi tối (こっちは夜だよ。夜の 8 時 50 分). Điều này có nghĩa là ở nước của người nữ đang là 8 giờ 50 phút sáng (ban ngày). Đáp án đúng là hình 1 (hình hiển thị mặt trời/sáng).",
+      "trapVi": "Cần phân biệt giữa sáng (8:50 AM) và tối (8:50 PM). Sự tương đồng về số phút/giờ nhưng đối lập về ngày/đêm là điểm then chốt.",
+      "listeningStrategyVi": "Lắng nghe từ tương phản \"đối lập\" \"được\" như \"でも\" (nhưng) khi người nam nói \"こっちは夜だよ\" để suy ra bên đối phương ngược lại là ban ngày.",
+      "transcriptJa": "男の人が外国にいる女の人と電話で話しています。女の人の国は今何時ですか。\n男の人：今、そっちは何時です？\n女の人：8 時 50 分。\n男の人：へえ、日本も今 8 時 50 分だよ。\n女の人：へっ、同じ。\n男の人：でも、こっちは夜だよ。夜の 8 時 50 分。\n女の人：へえ。",
+      "translationVi": "Nam: Bây giờ bên đó là mấy giờ thế?\nNữ: 8 giờ 50 phút.\nNam: Ồ, Nhật Bản bây giờ cũng là 8 giờ 50 phút đấy.\nNữ: Ơ, giống nhau à?\nNam: Nhưng bên này là buổi tối. 8 giờ 50 phút tối.\nNữ: Chà."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_003_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex1-q4.mp3",
+        "durationSec": 53.14
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex1-q4.gif",
+        "alt": "Japanesetest4you Ex 1 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。ふたりはいつ映画に行きますか?",
+      "stemVi": "Một người nam và một người nữ đang nói chuyện. Hai người khi nào sẽ đi xem phim?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Ngày mùng 3 là thứ Sáu tuần này, người nữ đã từ chối."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Ngày mùng 4 là thứ Bảy tuần này."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Họ quyết định đi xem phim vào thứ Sáu tuần sau. Vì thứ Sáu tuần này là mùng 3 nên thứ Sáu tuần sau là mùng 10."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Hai người quyết định đi xem phim vào thứ Sáu tuần sau (ngày 10).",
+      "fullExplanationVi": "Người nam rủ đi xem phim thứ Sáu hoặc thứ Bảy tuần này (ngày 3 hoặc 4). Người nam thích thứ Sáu (ngày 3) hơn. Nhưng khi người nữ kiểm tra lịch thì tuần này bận (今週はだめだな). Người nam hỏi tiếp tuần sau (来週は), người nữ đồng ý và hẹn vào thứ Sáu tuần sau. Vì thứ Sáu tuần này là ngày mùng 3, nên thứ Sáu tuần sau sẽ là ngày mùng 10. Đáp án đúng là hình 3.",
+      "trapVi": "Rất dễ nhầm lẫn chọn ngày mùng 3 (thứ Sáu tuần này) do người nam thích ngày này hoặc nghe nhầm sang ngày mùng 4. Cần chú ý việc người nữ từ chối tuần này và hẹn sang tuần sau.",
+      "listeningStrategyVi": "Tính toán ngày dựa trên thông tin: thứ Sáu tuần này là mùng 3 -> thứ Sáu tuần sau là mùng 10. Lắng nghe các từ phủ định như \"だめだな\" để loại trừ.",
+      "transcriptJa": "男の人と女の人が話しています。ふたりはいつ映画に行きますか?\n男の人：今週の金曜日か土曜日、映画に行かない\n女の人：今週か、三日か四日ね？\n男の人：僕は土曜日より金曜日の方がいいな\n女の人：じゃ、三日、ちょっと手帳を見てみる。あっ、ごめん、今週はだめだな。\n男の人：来週は。\n女の人：来週はいいよ。じゃ、金曜日ね。\n男の人：楽しみにしているよ。",
+      "translationVi": "Nam: Thứ Sáu hoặc thứ Bảy tuần này đi xem phim không?\nNữ: Tuần này à, ngày mùng 3 hoặc mùng 4 nhỉ?\nNam: Anh thì thích thứ Sáu hơn thứ Bảy.\nNữ: Vậy để em xem sổ tay ngày mùng 3 xem sao. Ôi xin lỗi anh, tuần này không được rồi.\nNam: Thế tuần sau thì sao?\nNữ: Tuần sau thì được đấy. Vậy hẹn thứ Sáu nhé.\nNam: Anh rất mong đợi đấy."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_003_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-1"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex1-q5.mp3",
+        "durationSec": 57.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex1-q5.gif",
+        "alt": "Japanesetest4you Ex 1 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人と男の人が話しています。女の人はどのかばんを買うことにしましたか。",
+      "stemVi": "Một người nam và một người nữ đang nói chuyện. Người nữ đã quyết định mua chiếc túi xách nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Túi này có nhiều ngăn ngoài, đã bị loại theo lời khuyên của người nam."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Túi này cũng có nhiều ngăn ngoài."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Túi này có 1 ngăn ngoài nhưng ngăn đó rất to, dễ làm mất đồ bên trong."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Túi này có 2 ngăn ngoài kích thước vừa phải, là lựa chọn cuối cùng sau khi loại trừ chiếc túi có ngăn quá to."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người nữ quyết định mua chiếc túi có ít túi ngoài và kích thước túi ngoài vừa phải (không quá to), tức là chiếc túi hình số 4.",
+      "fullExplanationVi": "Ban đầu người nữ thích túi có nhiều ngăn túi ngoài. Người nam khuyên chỉ nên chọn loại có 1 hoặc 2 ngăn ngoài. Người nữ đồng ý và phân vân giữa 2 chiếc túi còn lại. Cô chỉ vào một chiếc có ngăn túi ngoài rất to để đựng được nhiều, nhưng người nam khuyên ngăn to quá sẽ khó tìm đồ bên trong. Người nữ đồng ý với lời khuyên (そうね) và quyết định chọn chiếc túi còn lại. Đáp án đúng là hình 4.",
+      "trapVi": "Bẫy là các đặc điểm được nhắc tới trước đó như túi có nhiều ngăn hoặc túi có một ngăn lớn. Cần hiểu phản ứng của người nữ trước các lời khuyên để biết cô chọn chiếc túi nào.",
+      "listeningStrategyVi": "Lưu ý quá trình loại trừ: Nhiều ngăn -> Loại. Ngăn ngoài quá to -> Loại nốt sau khi nghe lời khuyên. Chọn chiếc còn lại.",
+      "transcriptJa": "女の人と男の人が話しています。女の人はどのかばんを買うことにしましたか。\n女の人：ねえ、このかばん、外側にポケットがたくさんあって、便利そうね。\n男の人：どこに何を入れたか忘れてしまうよ。外側のポケットはひとつか二つあ\nればいいんだよ。\n女の人：そうね、じゃ、これかこれね。このポケットは大きいから、たくさん入\nるわね。\n男の人：でも、入れすぎて、中のものが見つけにくいかもしれない。\n女の人：そうね、決めた、こっちにする。",
+      "translationVi": "Nữ: Này, cái túi này có nhiều túi nhỏ ở bên ngoài, trông tiện lợi nhỉ.\nNam: Em sẽ quên mất là để cái gì ở đâu đấy. Túi bên ngoài chỉ cần một hoặc hai cái là được rồi.\nNữ: Đúng thế thật, vậy thì cái này hoặc cái này nhỉ. Cái túi nhỏ này to nên đựng được nhiều đồ này.\nNam: Nhưng nếu đựng nhiều quá thì có khi lại khó tìm đồ bên trong đấy.\nNữ: Ừ nhỉ, quyết định rồi, em lấy cái này."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]
