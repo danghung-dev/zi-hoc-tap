@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_009_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-7"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex7-q1.mp3",
+        "durationSec": 55.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex7-q1.gif",
+        "alt": "Japanesetest4you Ex 7 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "このお母さんが子供に毎日させていることは何ですか？",
+      "stemVi": "Người mẹ này bắt con làm việc gì mỗi ngày?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người mẹ nói rằng việc giặt giũ là do bà tự làm (\"洗濯は私がやりますね\"), không bắt con làm."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Người mẹ nói chỉ bắt con dọn dẹp phòng vào những ngày nghỉ (\"休みの日だけは部屋の掃除をさせます\"), chứ không phải hàng ngày."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Người mẹ khẳng định sau bữa ăn nhất định bắt con tự rửa những thứ mình đã dùng (\"食事の後は必ず自分が使ったものを洗わせます\"). Việc ăn uống diễn ra hàng ngày, kết hợp với từ \"luôn luôn/nhất định\" (必ず) có nghĩa là việc này được thực hiện mỗi ngày."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Người mẹ nói chưa từng bảo con học bài vì đứa trẻ tự giác học mà không cần nhắc nhở (\"勉強しろと言ったことはありません\")."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người mẹ cho biết giặt giũ là do bà tự làm, dọn phòng chỉ làm vào ngày nghỉ, còn học tập thì con tự giác. Chỉ có việc rửa đồ dùng ăn uống của bản thân sau bữa ăn là bà bắt buộc con phải làm mỗi ngày (\"必ず...洗わせます\").",
+      "fullExplanationVi": "Trong đoạn hội thoại, hai người phụ nữ trao đổi về việc người mẹ bắt con làm những công việc nhà nào. Phân tích chi tiết:\n\n- Giặt giũ: Bà tự làm (\"洗濯は私がやりますね\").\n- Rửa đồ dùng ăn uống: Bắt buộc con tự rửa đồ mình đã dùng sau bữa ăn (\"食事の後は必ず自分が使ったものを洗わせます\"). Vì ăn uống là hoạt động mỗi ngày và có trạng từ \"luôn luôn\" (必ず), nên đây là việc làm hàng ngày.\n- Dọn dẹp phòng: Chỉ dọn vào ngày nghỉ (\"休みの日だけは部屋の掃除をさせます\").\n- Học tập: Bà chưa từng bảo con phải học vì con tự làm rồi (\"勉強しろと言ったことはありません\").\n\nNhư vậy, hành động duy nhất được yêu cầu làm mỗi ngày (毎日) là rửa đồ dùng ăn uống sau bữa ăn (Đáp án 3).",
+      "trapVi": "Bẫy thời gian và tần suất. Người nghe dễ nhầm lẫn việc dọn dẹp phòng (掃除) là đáp án đúng, nhưng hội thoại nêu rõ chỉ làm vào \"ngày nghỉ\" (休みの日だけ) chứ không phải \"hàng ngày\" (毎日). Ngoài ra, chi tiết học tập (勉強) cũng là bẫy vì học sinh thường học hàng ngày, nhưng người mẹ không bắt buộc.",
+      "listeningStrategyVi": "Chú ý kỹ câu hỏi hỏi về tần suất nào (trong câu hỏi này là \"mỗi ngày\" - 毎日). Khi nghe, cần ghi chú nhanh các công việc xuất hiện kèm theo tần suất hoặc điều kiện đi kèm (ví dụ: dọn dẹp -> ngày nghỉ, rửa bát -> sau khi ăn/luôn luôn). Loại trừ các đáp án không khớp tần suất.",
+      "transcriptJa": "二人の女の人が話しています。 このお母さんが子供に毎日させていることは何\nですか？毎日です。\n女１：洗濯とか掃除とか、お子さんにさせるんですか？\n女２：できるだけ自分のことは自分でさせたいとは思っているんですが、洗濯は\n私がやりますね。でも、食事の後は必ず自分が使ったものを洗わせます。それか\nら、休みの日だけは部屋の掃除をさせます。\n女１：勉強はどうですか？\n女２：勉強しろと言ったことはありません。私は言わなくてもやっているようで\nすから。\n女１：そうですか、いいですね。\nこのお母さんが子供に毎日させていることは何ですか？",
+      "translationVi": "Hai người phụ nữ đang nói chuyện với nhau. Người mẹ này bắt con làm việc gì mỗi ngày? Là mỗi ngày nhé.\n\n- Người phụ nữ 1: Chị có bắt con làm mấy việc như giặt giũ hay dọn dẹp không?\n- Người phụ nữ 2: Tôi cũng muốn con tự làm việc của mình trong khả năng có thể, nhưng giặt giũ thì tôi làm. Tuy nhiên, sau khi ăn xong, tôi nhất định bắt con tự rửa những đồ dùng bản thân đã ăn. Thêm nữa, chỉ vào ngày nghỉ tôi mới bắt con dọn dẹp phòng của nó thôi.\n- Người phụ nữ 1: Thế còn việc học thì sao?\n- Người phụ nữ 2: Tôi chưa bao giờ bảo con phải học cả. Vì có vẻ không cần tôi nói thì con cũng tự học rồi.\n- Người phụ nữ 1: Thế ạ, tốt quá nhỉ.\n\nNgười mẹ này bắt con làm việc gì mỗi ngày?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_009_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-7"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex7-q2.mp3",
+        "durationSec": 66.13
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex7-q2.gif",
+        "alt": "Japanesetest4you Ex 7 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "コンピュータを少し使ったことがある人は何番の教室で勉強しますか？",
+      "stemVi": "Người đã từng sử dụng máy tính một chút sẽ học ở phòng học số mấy?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Phòng 201 dành cho người hôm nay mới bắt đầu dùng máy tính lần đầu tiên (\"今日始めてコンピュータを使う人は隣の２０１番の教室に行ってください\")."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Người hướng dẫn nói rằng người đã từng dùng một chút hãy ở lại phòng học này (\"少し使ったことがある人はこのままこの教室に行ってください\"). Vì buổi hướng dẫn ban đầu đang diễn ra tại phòng 202 (do các phòng khác là 201, 203, 204 được chỉ định đi chỗ khác), nên \"phòng học này\" chính là phòng 202."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Phòng 203 dành cho người có thể vẽ tranh hoặc viết những câu đơn giản (\"簡単な文や絵が描ける人は２０３番\")."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Phòng 204 dành cho những người có thể làm được những việc phức tạp hơn (\"もっと複雑なこともできる人は２０４番\")."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người đã từng sử dụng máy tính một chút được hướng dẫn tiếp tục ở lại phòng học hiện tại (\"このままこの教室\"). Theo logic phân chia các phòng từ 201 đến 204, các phòng khác được gọi tên rõ ràng (201, 203, 204), suy ra phòng hiện tại là phòng 202.",
+      "fullExplanationVi": "Trong bài phát biểu, người đàn ông phân chia học viên vào các phòng học từ 201 đến 204 dựa trên trình độ sử dụng máy tính:\n\n1. Người mới dùng lần đầu (初めて): Đi sang phòng 201 bên cạnh.\n2. Người đã dùng một chút (少し使ったことがある): Ở lại chính phòng học này (\"このままこの教室\").\n3. Người có thể viết câu/vẽ tranh đơn giản (簡単な文や絵が描ける): Đi sang phòng 203.\n4. Người làm được việc phức tạp hơn (複雑なこともできる): Đi sang phòng 204.\n\nVì tổng số phòng là 201, 202, 203, 204; mà ba phòng 201, 203, 204 đã được chỉ định cho các nhóm khác đi tới, nên phòng hiện tại (\"この教室\") chắc chắn phải là phòng 202. Vậy đáp án đúng là phòng 202 (Đáp án 2).",
+      "trapVi": "Bẫy suy luận gián tiếp. Người nói không phát âm trực tiếp số phòng \"202\" trong lời thoại, mà chỉ nói \"ở lại phòng này\" (この教室). Người nghe phải dùng phương pháp loại trừ từ danh sách các phòng từ 201 đến 204 để suy ra phòng hiện tại là 202.",
+      "listeningStrategyVi": "Khi gặp dạng câu hỏi chia nhóm/phòng, hãy nhanh chóng liệt kê các số hiệu phòng (201, 202, 203, 204) ra nháp. Ghi chú điều kiện của từng phòng khi nghe. Chú ý các từ chỉ định vị trí như \"phòng bên cạnh\" (隣の教室), \"ở lại phòng này\" (この教室) để suy luận ra số phòng chưa được đọc trực tiếp.",
+      "transcriptJa": "男の人がパソコンのクラスについて話しています。 コンピュータを少し使った\nことがある人は何番の教室で勉強しますか？\n男：お早うございます。これからパソコンのクラスを始めますが、２０１番から\n２０４番の教室に分かれて勉強します。え、今日始めてコンピュータを使う人は\n隣の２０１番の教室に行ってください。 少し使ったことがある人はこのままこ\nの教室に行ってください。 簡単な文や絵が描ける人は２０３番。もっと複雑な\nこともできる人は２０４番の教室へ行ってください。では皆さん、頑張ってくだ\nさい。\nコンピュータを少し使ったことがある人は何番の教室で勉強しますか？",
+      "translationVi": "Một người đàn ông đang nói về lớp học máy tính. Người đã từng sử dụng máy tính một chút sẽ học ở phòng học số mấy?\n\n- Người đàn ông: Xin chào buổi sáng. Chúng ta chuẩn bị bắt đầu lớp học máy tính. Mọi người sẽ chia ra các phòng từ 201 đến 204 để học. Đầu tiên, những ai hôm nay mới dùng máy tính lần đầu thì vui lòng di chuyển sang phòng 201 bên cạnh. Những ai đã từng dùng một chút rồi thì cứ ở lại phòng học này. Những ai có thể vẽ tranh hoặc viết những câu đơn giản thì xin mời sang phòng 203. Những ai có thể thực hiện những tác vụ phức tạp hơn thì xin mời di chuyển sang phòng 204. Chúc mọi người học tốt.\n\nNgười đã từng sử dụng máy tính một chút sẽ học ở phòng học số mấy?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_009_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-7"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex7-q3.mp3",
+        "durationSec": 50.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex7-q3.gif",
+        "alt": "Japanesetest4you Ex 7 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人が話しています。午後はどんな予定ですか？",
+      "stemVi": "Người đàn ông đang nói chuyện. Lịch trình chiều nay như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Đây là lịch trình ban đầu được người nam nói ra, nhưng sau đó anh ta đã thay đổi thứ tự dọn dẹp lên trước khi ăn."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Thứ tự dọn dẹp và xem video bị đảo lộn không chính xác so với lời thoại."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Dọn dẹp không phải là hoạt động đầu tiên của buổi chiều."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Lịch trình ban đầu là: Bơi (水泳) -> xem Video -> Ăn uống (食事). Tuy nhiên, ngay sau đó người nam đính chính: \"あっ、食事の前に掃除をします\" (À, dọn dẹp trước khi ăn). Do đó dọn dẹp được chèn vào trước ăn uống, tạo thành trình tự đúng: Bơi -> Video -> Dọn dẹp -> Ăn uống."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Lịch trình ban đầu được đưa ra là Bơi -> xem Video -> Ăn uống. Tuy nhiên, người nói bổ sung thêm việc dọn dẹp vào ngay trước khi ăn uống (\"食事の前に掃除をします\"). Do đó, trình tự đúng là Bơi -> Video -> Dọn dẹp -> Ăn uống.",
+      "fullExplanationVi": "Chúng ta phân tích chuỗi hành động theo dòng thời gian trong lời nói của người đàn ông:\n\n1. Đầu tiên là bơi trong 3 tiếng (\"まず水泳が三時間\").\n2. Tiếp theo là xem video phân tích cách bơi (\"そしてビデオを見て...\").\n3. Sau đó anh ấy nói: \"Kết thúc thì ăn uống\" (\"終わったら食事です\").\n4. Nhưng ngay lập tức, anh ấy sửa lại: \"À, trước khi ăn thì sẽ dọn dẹp\" (\"あっ、食事の前に掃除をします\").\n\nNhư vậy, hoạt động dọn dẹp (掃除) được chèn vào ngay trước hoạt động ăn uống (食事) và sau hoạt động xem video.\nTrình tự cuối cùng là: Bơi lội -> Xem video -> Dọn dẹp -> Ăn uống (Đáp án 4).",
+      "trapVi": "Bẫy thay đổi thông tin phút chót (Correction Trap). Người nói lúc đầu đưa ra một trình tự, sau đó thốt lên \"Ah\" (あっ) để bổ sung/thay đổi thông tin. Người nghe nếu không chú ý đến phần đính chính phía sau sẽ chọn sai trình tự thành Bơi -> Video -> Ăn uống.",
+      "listeningStrategyVi": "Đối với dạng bài nghe về thứ tự hành động/lịch trình, hãy ghi lại các bước bằng mũi tên hoặc số thứ tự tạm thời. Đặc biệt cảnh giác với các từ chuyển ý như \"Ah\" (あっ), \"Nhưng\" (でも), \"Thực ra\" (実は) để cập nhật lại sơ đồ lịch trình của mình.",
+      "transcriptJa": "男の人が話しています。午後はどんな予定ですか？\n男：午後の予定を言います、よく聞いてください。\n女：はい。\n男：まず水泳が三時間、そしてビデオを見て、自分の泳ぎ方を研究します。終わ\nったら食事です。\n女：はい。\n男：あっ、食事の前に掃除をします。\n女：えー、掃除をしなければならないですか？\n男：はい、じゃー、頑張ってください。\n女：はーい。\n午後はどんな予定ですか？",
+      "translationVi": "Một người đàn ông đang nói chuyện. Lịch trình chiều nay như thế nào?\n\n- Người đàn ông: Tôi sẽ thông báo lịch trình chiều nay, mọi người nghe cho kỹ nhé.\n- Người phụ nữ: Vâng.\n- Người đàn ông: Đầu tiên là bơi 3 tiếng, sau đó xem video để nghiên cứu cách bơi của bản thân. Xong xuôi thì ăn uống.\n- Người phụ nữ: Vâng.\n- Người đàn ông: À, trước khi ăn chúng ta sẽ dọn dẹp nhé.\n- Người phụ nữ: Ơ, phải dọn dẹp nữa ạ?\n- Người đàn ông: Đúng thế, vậy nên hãy cố gắng lên nhé.\n- Người phụ nữ: Vâng ạ.\n\nLịch trình chiều nay như thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_009_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-7"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex7-q4.mp3",
+        "durationSec": 69.08
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex7-q4.gif",
+        "alt": "Japanesetest4you Ex 7 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人がレストランで話しています。女の人がどうしてカレーを食べませんか？",
+      "stemVi": "Tại sao người phụ nữ lại không ăn cà ri?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người phụ nữ đã phủ nhận việc mình ăn cà ri vào hôm qua khi người đàn ông đoán (\"じゃー、昨日食べたんですか？\" - \"いいえ\")."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Người phụ nữ giải thích lý do không ăn cà ri lúc này là vì tối nay cô ấy sẽ ăn cà ri ở nhà, cô ấy đã tự nấu sẵn rồi (\"実は今夜なんです、もう作ってきたんです\")."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Cô ấy trả lời \"いいえ\" khi người đàn ông hỏi có phải ghét cà ri không (\"嫌いなんですか？\")."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Dù người đàn ông khen món cà ri ở đây cay ngon, nhưng vị cay không phải lý do khiến cô ấy từ chối ăn món này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người phụ nữ từ chối ăn cà ri vì tối nay ở nhà cô ấy sẽ ăn món này (đã chuẩn bị sẵn rồi - \"実は今夜なんです、もう作ってきたんです\").",
+      "fullExplanationVi": "Trong cuộc hội thoại tại nhà hàng:\n\n1. Người đàn ông gợi ý món cà ri vì nó cay và ngon.\n2. Người phụ nữ ngập ngừng từ chối: \"Thế ạ, nhưng cà ri thì hơi...\"\n3. Người đàn ông phỏng đoán các lý do:\n   - Ghét cà ri? -> Cô ấy bảo không phải (\"いいえ\").\n   - Hôm qua ăn rồi à? -> Cô ấy bảo không phải (\"いいえ\").\n4. Cuối cùng cô tiết lộ lý do thật: \"Thực ra là tối nay, tôi đã nấu sẵn ở nhà rồi\" (\"実は今夜なんです、もう作ってきたんです\").\n\nVì tối nay sẽ ăn cà ri nên trưa/lúc này cô không muốn ăn trùng lặp nữa. Do đó, đáp án đúng là đáp án 2.",
+      "trapVi": "Bẫy phủ định và thời gian. Người nghe dễ bị nhầm giữa \"hôm qua đã ăn\" (昨日食べた) và \"tối nay sẽ ăn\" (今夜 / 今晩) vì cả hai mốc thời gian đều được nhắc tới dưới dạng câu hỏi suy đoán của người nam. Phải nghe kỹ lời phủ định \"いいえ\" của người nữ đối với câu hỏi về ngày hôm qua.",
+      "listeningStrategyVi": "Trong dạng câu hỏi tìm lý do, khi đối phương đưa ra các câu hỏi suy đoán (Ví dụ: Ghét à? Hôm qua ăn rồi à?), hãy chú ý câu trả lời phản hồi là khẳng định (はい/そうです) hay phủ định (いいえ/違います). Lý do thật sự thường nằm ở câu nói tự giải thích của chính nhân vật sau các lượt phủ định.",
+      "transcriptJa": "男の人と女の人がレストランで話しています。女の人がどうしてカレーを食べま\nせんか？\n男：ここのカレー辛くておいしいですよ。\n女：そうですか、でもカレーはちょっと\n男：嫌いなんですか？\n女：いいえ。\n男：じゃー、昨日食べたんですか？\n女：いいえ、実は今夜なんです、もう作ってきたんです。\n男：そうなんですか。\n女の人がどうしてカレーを食べませんか？\n1．昨日カレーを食べたからです。\n2．今晩カレーを食べるからです。\n3．カレーが嫌いだからです。\n4．カレーが辛いからです。",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang nói chuyện ở nhà hàng. Tại sao người phụ nữ lại không ăn cà ri?\n\n- Người đàn ông: Cà ri ở đây cay ngon lắm đấy.\n- Người phụ nữ: Thế ạ, nhưng cà ri thì hơi...\n- Người đàn ông: Cô ghét nó à?\n- Người phụ nữ: Không phải đâu ạ.\n- Người đàn ông: Thế thì, hôm qua cô ăn rồi à?\n- Người phụ nữ: Không, thực ra là tối nay cơ, tôi đã nấu sẵn ở nhà rồi.\n- Người đàn ông: Ra là vậy.\n\nTại sao người phụ nữ lại không ăn cà ri?\n\n1. Vì hôm qua đã ăn cà ri.\n2. Vì tối nay sẽ ăn cà ri.\n3. Vì ghét cà ri.\n4. Vì cà ri cay."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_009_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-7"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex7-q5.mp3",
+        "durationSec": 63.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex7-q5.gif",
+        "alt": "Japanesetest4you Ex 7 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "デパートの人が話しています。女性のコートはどこで買えますか？",
+      "stemVi": "Có thể mua áo khoác nữ ở đâu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Đoạn thông báo cho biết quần áo nữ bán ở tầng 3 tòa nhà chính (\"女性の服は本館の三階\"). Áo khoác nữ (女性のコート) thuộc nhóm quần áo nữ (女性の服), nên mua ở đây."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Tầng 4 tòa nhà chính bán quần áo nam (\"男性の服は本館の四階\")."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Tầng 4 tòa nhà mới bán đồ chơi trẻ em (\"おもちゃは新館の四階\")."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Tầng 1 tòa nhà mới bán rau củ quả (\"野菜や果物は新館の一階\")."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Theo thông báo của trung tâm thương mại, quần áo nữ (bao gồm cả áo khoác nữ) được bán tại tầng 3 tòa nhà chính (\"女性の服は本館の三階\").",
+      "fullExplanationVi": "Đoạn phát thanh của cửa hàng bách hóa cung cấp thông tin sơ đồ các tầng vừa được thay đổi vào tháng trước:\n\n- Rau củ quả (野菜や果物): Tầng 1 tòa nhà mới (新館の一階).\n- Đồ chơi (おもちゃ): Tầng 4 tòa nhà mới (新館の四階).\n- Quần áo nữ (女性の服): Tầng 3 tòa nhà chính (本館の三階).\n- Quần áo nam (男性の服): Tầng 4 tòa nhà chính (本館の四階).\n\nCâu hỏi hỏi về \"áo khoác nữ\" (女性のコート). Đây là một mặt hàng thuộc nhóm \"quần áo nữ\" (女性の服). Do đó, khách hàng cần đến tầng 3 tòa nhà chính để mua (Đáp án 1).",
+      "trapVi": "Bẫy từ vựng khái quát hóa (Generalization Trap). Lời thông báo dùng từ khái quát \"quần áo nữ\" (女性の服), trong khi câu hỏi dùng từ cụ thể \"áo khoác nữ\" (女性のコート). Nếu người nghe chỉ chờ đợi nghe thấy từ khóa \"コート\" (áo khoác) trong băng thì sẽ không tìm ra đáp án.",
+      "listeningStrategyVi": "Khi nghe thông tin thông báo vị trí các gian hàng, hãy ghi nhanh liên kết giữa từ chỉ địa điểm (本館 - tòa chính, 新館 - tòa mới, số tầng) và mặt hàng. Hãy linh hoạt liên tưởng các từ vựng cụ thể trong câu hỏi (áo khoác, váy, áo len...) với danh mục lớn hơn trong bài nghe (quần áo nam/nữ).",
+      "transcriptJa": "デパートの人が話しています。女性のコートはどこで買えますか？\n男：お客様にお知らせします。先月売り場は変わりました。野菜や果物は新館の\n一階、おもちゃは新館の四階になりました。女性の服は本館の三階、男性の服は\n本館の四階です。よろしくお願い致します。\n女性のコートはどこで買えますか？\n1．本館の三階です。\n2．本館の四階です。\n3．新館の四階です。\n4．新館の一階です。",
+      "translationVi": "Nhân viên cửa hàng bách hóa đang thông báo. Có thể mua áo khoác nữ ở đâu?\n\n- Người đàn ông: Xin thông báo tới quý khách hàng. Kể từ tháng trước, các khu vực bán hàng đã có sự thay đổi. Rau và hoa quả chuyển sang tầng 1 tòa nhà mới, đồ chơi trẻ em ở tầng 4 tòa nhà mới. Quần áo nữ nằm ở tầng 3 tòa nhà chính, và quần áo nam nằm ở tầng 4 tòa nhà chính. Rất mong nhận được sự ủng hộ của quý khách.\n\nCó thể mua áo khoác nữ ở đâu?\n\n1. Tầng 3 tòa nhà chính.\n2. Tầng 4 tòa nhà chính.\n3. Tầng 4 tòa nhà mới.\n4. Tầng 1 tòa nhà mới."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

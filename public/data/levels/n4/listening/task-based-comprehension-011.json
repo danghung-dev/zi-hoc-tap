@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_011_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-9"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex9-q1.mp3",
+        "durationSec": 65.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex9-q1.gif",
+        "alt": "Japanesetest4you Ex 9 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人が話しています。明日雨が降りそうだったら、運動会はどうなりますか？",
+      "stemVi": "Một người đàn ông đang nói chuyện. Nếu ngày mai có vẻ như trời sẽ mưa, ngày hội thể thao sẽ thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Nếu ngày mai trời có vẻ sắp mưa, ban tổ chức chưa quyết định tổ chức ngay mà sẽ thông báo trước 9 giờ."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Loa thông báo nói rằng nếu trời mưa hẳn thì mới không có (雨が降ったらありません), còn nếu chỉ có vẻ sắp mưa (雨が降りそう) thì sẽ thông báo sau."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. 10 giờ là thời gian tập trung tại trường trung học nếu thời tiết đẹp, không phải thời hạn biết kết quả thông báo."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Theo thông báo: 'Nếu có vẻ như trời sắp mưa, chúng tôi sẽ thông báo trước 9 giờ xem có tổ chức ngày hội thể thao hay không' (九時までにお知らせ致します)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Nếu trời có vẻ sắp mưa, ban tổ chức sẽ thông báo xem ngày hội thể thao có được tổ chức hay không trước 9 giờ sáng.",
+      "fullExplanationVi": "Trong đoạn băng, người đàn ông thông báo về ngày hội thể thao ngày mai với các mốc thời gian và điều kiện thời tiết cụ thể:\n1. Nếu trời mưa hẳn: Không tổ chức (雨が降ったらありません).\n2. Nếu thời tiết đẹp: Tập trung tại trường trung học cơ sở trước 10 giờ sáng (天気がよかったら、午前十時までに中学校にお集まりください).\n3. Nếu trời có vẻ sắp mưa: Sẽ thông báo có tổ chức hay không trước 9 giờ sáng (もし雨が降りそうだったら、運動会するかどうか、九時までにお知らせ致します).\nDo câu hỏi hỏi về trường hợp trời có vẻ sắp mưa (雨が降りそうだったら), hành động tiếp theo sẽ là thông báo trước 9 giờ xem có diễn ra hay không. Đáp án đúng là 4.",
+      "trapVi": "Bẫy ở câu này là các mốc thời gian dễ gây nhầm lẫn: 10 giờ (thời gian tập trung nếu trời đẹp) và 9 giờ (thời gian thông báo nếu trời sắp mưa). Người nghe cần liên kết đúng điều kiện 'trời có vẻ sắp mưa' (雨が降りそう) với mốc 9 giờ.",
+      "listeningStrategyVi": "Đối với dạng bài thông báo lịch trình/sự kiện kèm điều kiện thời tiết, hãy ghi chú nhanh các cặp 'Điều kiện - Thời gian/Hành động' (ví dụ: mưa -> hủy; đẹp -> 10h tập trung; âm u/sắp mưa -> 9h thông báo) để dễ dàng đối chiếu khi nghe câu hỏi.",
+      "transcriptJa": "男の人が話しています。明日雨が降りそうだったら、運動会はどうなりますか？\n男：明日の運動会についてお知らせします。明日の運動会は雨が降ったらありません、天気がよかったら、午前十時までに中学校にお集まりください。もし雨が降りそうだったら、運動会するかどうか、九時までにお知らせ致します。\n明日雨が降りそうだったら、運動会はどうなりますか？\n1．運動会はあります。\n2．運動会はありません。\n3．あるかどうか十時までに分かります。\n4．あるかどうか九時までに分かります。",
+      "translationVi": "Một người đàn ông đang nói chuyện. Nếu ngày mai có vẻ như trời sẽ mưa, ngày hội thể thao sẽ thế nào?\n\nNam: Tôi xin thông báo về ngày hội thể thao ngày mai. Ngày hội thể thao ngày mai nếu trời mưa sẽ không tổ chức; nếu thời tiết đẹp, xin vui lòng tập trung tại trường trung học cơ sở trước 10 giờ sáng. Trong trường hợp trời có vẻ sắp mưa, chúng tôi sẽ thông báo trước 9 giờ về việc có tổ chức ngày hội thể thao hay không.\n\nNếu ngày mai có vẻ như trời sẽ mưa, ngày hội thể thao sẽ thế nào?\n1. Ngày hội thể thao vẫn diễn ra.\n2. Ngày hội thể thao không diễn ra.\n3. Sẽ biết có diễn ra hay không trước 10 giờ.\n4. Sẽ biết có diễn ra hay không trước 9 giờ."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_011_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-9"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex9-q2.mp3",
+        "durationSec": 63.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex9-q2.gif",
+        "alt": "Japanesetest4you Ex 9 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。男の人はどうして女の人に本を買ってきましたか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Tại sao người đàn ông lại mua sách cho người phụ nữ?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người phụ nữ nhắc lại rằng sinh nhật của cô ấy đã qua từ mấy hôm trước rồi."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Người phụ nữ cũng nói rõ đây không phải dịp Giáng sinh."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây chỉ là câu hỏi nghi vấn của người phụ nữ (Anh muốn bắt em đọc à?) chứ không phải lý do của người đàn ông."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Người đàn ông giải thích lý do mua là vì người phụ nữ đã nhờ vả (Chẳng phải em đã bảo anh mua hộ cơ mà)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người đàn ông mua sách vì người phụ nữ trước đó đã nhờ anh ấy mua hộ.",
+      "fullExplanationVi": "Đầu cuộc trò chuyện, người đàn ông đưa cuốn sách cho người phụ nữ. Người phụ nữ tỏ ra ngạc nhiên và đoán các lý do như: sinh nhật (đã qua), Giáng sinh (chưa đến), hoặc người nam muốn cô ấy đọc sách. Cuối cùng, người nam nói: 'Chẳng phải em đã bảo anh mua hộ à?' (君は買ってきてくれって言っただろう). Người nữ sực nhớ ra và thừa nhận điều đó (あー、そう言えば...). Do đó, lý do thực sự là do người phụ nữ đã nhờ. Đáp án đúng là 4.",
+      "trapVi": "Người nghe có thể bị phân tâm bởi các từ khóa 'sinh nhật' (誕生日) hay 'Giáng sinh' (クリスマス) xuất hiện ở đầu hội thoại. Tuy nhiên, đây đều là những suy đoán bị phủ nhận ngay sau đó.",
+      "listeningStrategyVi": "Chú ý lắng nghe phần sau của cuộc hội thoại, đặc biệt là khi các giả thuyết ban đầu bị phủ nhận bằng các cấu trúc như '...でもないし' (cũng chẳng phải...). Đáp án thực sự thường nằm ở lời giải thích cuối cùng của người nói.",
+      "transcriptJa": "男の人と女の人が話しています。男の人はどうして女の人に本を買ってきましたか？\n男：はい、この本。\n女：え？誕生日が先日だったよ、クリスマスでもないし…\n男：いやだなー。\n女：何？私読ませたいの？\n男：君は買ってきてくれって言っただろう。\n女：え？そう？あー、そう言えば...\n男の人はどうして女の人に本を買ってきましたか？\n1．誕生日だからです。\n2．クリスマスだからです。\n3．女の人に読ませたいからです。\n4．女の人が頼んだからです。",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Tại sao người đàn ông lại mua sách cho người phụ nữ?\n\nNam: Này, sách của em đây.\nNữ: Ơ? Sinh nhật em qua mấy hôm trước rồi mà, cũng đâu phải Giáng sinh...\nNam: Kìa em/Gì thế chứ.\nNữ: Gì vậy? Anh muốn bắt em đọc à?\nNam: Chẳng phải chính em đã nhờ anh mua hộ hay sao.\nNữ: Ơ? Thế à? À, nhắc mới nhớ...\n\nTại sao người đàn ông lại mua sách cho người phụ nữ?\n1. Vì là sinh nhật.\n2. Vì là Giáng sinh.\n3. Vì muốn để người phụ nữ đọc.\n4. Vì người phụ nữ đã nhờ."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_011_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-9"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex9-q3.mp3",
+        "durationSec": 71.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex9-q3.gif",
+        "alt": "Japanesetest4you Ex 9 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。女の人はパーティーで何をしますか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người phụ nữ sẽ làm gì ở bữa tiệc?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người phụ nữ có hỏi về piano (ピアノは？) nhưng người đàn ông trả lời ở đó không có đàn piano."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Người đàn ông mới là người chơi guitar chứ không phải người phụ nữ."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Người đàn ông đề nghị chơi guitar để người phụ nữ hát và cô ấy đã đồng ý."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Ban đầu người nam nhờ phát biểu chúc mừng (挨拶) nhưng người nữ đã từ chối vì việc đó còn khó hơn hát."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người phụ nữ đồng ý hát trong bữa tiệc theo tiếng đàn guitar đệm của người đàn ông.",
+      "fullExplanationVi": "Người đàn ông muốn nhờ người phụ nữ hát hoặc phát biểu chúc mừng trong tiệc cưới của Yamashita. Người phụ nữ ngần ngại việc hát và khi được đề nghị phát biểu, cô từ chối vì phát biểu còn khó hơn hát (挨拶は歌よりもっと困るわ). Cô hỏi về piano nhưng ở đó không có. Cuối cùng, người đàn ông đề nghị: 'Anh sẽ chơi guitar, nên em hãy hát cho anh nghe đi' (僕がギターを弾くから、きれいな声を聞かせてよ). Người phụ nữ đồng ý hát cùng với guitar (ギターと一緒ね。分かったわ、やります). Vậy cô ấy sẽ hát ở bữa tiệc. Đáp án đúng là 3.",
+      "trapVi": "Người nghe rất dễ nhầm lẫn giữa người đàn ông và người phụ nữ chơi nhạc cụ gì. Hãy chú ý chủ ngữ của hành động: người đàn ông chơi guitar (僕がギターを弾く), còn người phụ nữ hát (きれいな声を聞かせてよ).",
+      "listeningStrategyVi": "Đối với các bài thảo luận phân chia công việc hoặc lựa chọn hoạt động, hãy ghi nhớ rõ ai làm việc gì. Chú ý các cụm từ thể hiện sự từ chối mạnh mẽ như '...もっと困る' (còn khó xử/phiền phức hơn cả...) để loại trừ nhanh các phương án sai.",
+      "transcriptJa": "男の人と女の人が話しています。女の人はパーティーで何をしますか。\n男：山下さんの結婚パーティーの事なんだけど。\n女：ええ。\n男：パーティーの時、歌か挨拶をお願いしたいんだけど。\n女：え？歌はちょっと\n男：じゃ、お祝いの挨拶をしてくれる？\n女：挨拶は歌よりもっと困るわ。うん。ピアノは？ピアノの人は？\n男：ないんだよ、あそこには。僕がギターを弾くから、きれいな声を聞かせてよ。\n女：ギターと一緒ね。分かったわ、やります。\n女の人はパーティーで何をしますか。\n1．ピアノを弾きます。\n2．ギターを弾きます。\n3．歌を歌います。\n4．挨拶をします。",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người phụ nữ sẽ làm gì ở bữa tiệc?\n\nNam: Về bữa tiệc cưới của anh Yamashita ấy mà.\nNữ: Vâng.\nNam: Anh muốn nhờ em hát hoặc phát biểu chúc mừng trong bữa tiệc.\nNữ: Hả? Hát thì hơi...\nNam: Thế em phát biểu chúc mừng nhé?\nNữ: Phát biểu còn làm khó em hơn cả hát đấy. Ừm, thế piano thì sao? Người chơi piano đâu rồi?\nNam: Ở chỗ đó không có piano đâu. Anh sẽ chơi guitar, nên em hãy hát cho anh nghe bằng giọng hát hay của em đi.\nNữ: Hát cùng guitar đúng không. Được rồi, em sẽ làm.\n\nNgười phụ nữ sẽ làm gì ở bữa tiệc?\n1. Chơi đàn piano.\n2. Chơi đàn guitar.\n3. Hát.\n4. Phát biểu chào mừng."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_011_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-9"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex9-q4.mp3",
+        "durationSec": 74.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex9-q4.gif",
+        "alt": "Japanesetest4you Ex 9 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人が話しています。大森駅へ行く人はどこで乗り換えますか。",
+      "stemVi": "Một người đàn ông đang nói chuyện. Người đi đến ga Omori sẽ chuyển tàu ở đâu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Ga Tokyo chỉ nằm trong tên của hãng tàu điện ngầm (東京地下鉄) chứ không phải nơi chuyển tàu."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Theo thông báo mới nhất, hành khách đi đến ga Omori cần chuyển tàu tại ga Nakayama (中山駅で乗り換えてください)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Ga Miura là ga chuyển tàu trước đây, hiện tại không còn chuyển ở đó nữa (これまでのように、三浦駅ではありませんので、ご注意ください)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Ga Egawa là ga tiếp theo của chuyến tàu hiện tại đang đi (次は江川、江川です) chứ không phải ga chuyển tàu đi Omori."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Theo thông báo mới, người đi đến ga Omori phải chuyển tàu ở ga Nakayama thay vì ga cũ là Miura.",
+      "fullExplanationVi": "Thông báo của tàu điện ngầm cho biết từ ngày hôm qua có một ga mới được thành lập. Hành khách muốn đi đến ga Omori phải chuyển tàu ở ga Nakayama (大森へいらっしゃる方は中山駅で乗り換えてください). Thông báo cũng nhắc nhở ga chuyển tàu không còn là ga Miura như trước nữa (これまでのように、三浦駅ではありません). Do đó, ga chuyển tàu hiện tại là Nakayama. Đáp án đúng là 2.",
+      "trapVi": "Bẫy thông tin cũ và mới: Ga Miura là ga chuyển tàu cũ, ga Nakayama mới là ga chuyển tàu hiện tại. Nếu người nghe không chú ý cụm từ phủ định 'ではありません' (không phải) thì sẽ chọn nhầm ga Miura.",
+      "listeningStrategyVi": "Đối với dạng bài thông báo nhà ga/đường đi, hãy cực kỳ nhạy bén với các từ thể hiện sự thay đổi hoặc phủ định như 'これまでのように...ではありません' (không còn giống như trước đây nữa) hay '新しく...になりました' (đã mới chuyển thành...).",
+      "transcriptJa": "男の人が話しています。大森駅へ行く人はどこで乗り換えますか。\n男：本日の東京地下鉄をご利用いただきありがとうございます。お客様にお知らせ致します。昨日から新しい駅が出来ました、大森へいらっしゃる方は中山駅で乗り換えてください。これまでのように、三浦駅ではありませんので、ご注意ください。大森へいらっしゃるお客様は中山駅で 3 番線の電車にお乗りください。次は江川、江川です。\n大森駅へ行く人はどこで乗り換えますか。\n1．東京駅です。\n2．中山駅です。\n3．三浦駅です。\n4．江川駅です。",
+      "translationVi": "Một người đàn ông đang nói chuyện. Người đi đến ga Omori sẽ chuyển tàu ở đâu?\n\nNam: Cảm ơn quý khách đã sử dụng tàu điện ngầm Tokyo ngày hôm nay. Chúng tôi xin gửi tới quý khách một thông báo. Từ ngày hôm qua có một ga mới được đưa vào hoạt động, quý khách nào đi đến ga Omori xin vui lòng chuyển tàu tại ga Nakayama. Xin lưu ý là ga chuyển tàu không còn là ga Miura như từ trước đến nay nữa. Quý khách đi ga Omori vui lòng lên tàu ở đường ray số 3 tại ga Nakayama. Tiếp theo là ga Egawa, ga Egawa.\n\nNgười đi đến ga Omori sẽ chuyển tàu ở đâu?\n1. Ga Tokyo.\n2. Ga Nakayama.\n3. Ga Miura.\n4. Ga Egawa."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_011_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-9"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex9-q5.mp3",
+        "durationSec": 62.14
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex9-q5.gif",
+        "alt": "Japanesetest4you Ex 9 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "旅行会社の人がお客に話しています。明日、何時に、どこに集まりますか。",
+      "stemVi": "Nhân viên công ty du lịch đang nói chuyện với khách hàng. Ngày mai họ sẽ tập trung lúc mấy giờ và ở đâu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Địa điểm tập trung đã được thay đổi từ trước khách sạn sang trước nhà ga (集まる場所は駅に変わりました)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Cả thời gian (9 giờ rưỡi là giờ tàu chạy, không phải giờ tập trung) và địa điểm (trước khách sạn) đều sai."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Thời gian tập trung vẫn giữ nguyên là 9 giờ (時間は同じです), địa điểm thay đổi thành trước nhà ga (駅の前に集まってください)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. 9 giờ rưỡi là thời gian tàu chạy (9時半の電車に乗ります) chứ không phải thời gian tập trung."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Ngày mai họ sẽ tập trung lúc 9 giờ (thời gian cũ giữ nguyên) ở trước nhà ga (địa điểm mới thay thế cho trước khách sạn).",
+      "fullExplanationVi": "Nhân viên hướng dẫn giải thích lịch trình ngày mai:\n- Chuyến tàu sẽ chạy lúc 9 giờ rưỡi (9時半の電車に乗ります).\n- Kế hoạch cũ là tập trung trước khách sạn lúc 9 giờ (ホテルの前に9時に集まることになっていました).\n- Kế hoạch mới là địa điểm tập trung đổi thành trước nhà gia (集まる場所は駅に変わりました), thời gian tập trung vẫn giữ nguyên không đổi là 9 giờ (時間は同じです).\nDo đó, thời gian tập trung là 9 giờ và địa điểm là trước nhà ga. Đáp án đúng là 3.",
+      "trapVi": "Bẫy thông tin cũ/mới và bẫy thời gian: 9h30 là giờ tàu chạy, không phải giờ tập trung. Địa điểm cũ (trước khách sạn) và địa điểm mới (trước nhà ga) dễ bị nghe lẫn lộn nếu không chú ý động từ '変わりました' (đã thay đổi).",
+      "listeningStrategyVi": "Khi nghe hướng dẫn về thời gian và địa điểm, hãy vẽ nhanh một bảng so sánh Cũ - Mới (ví dụ: Cũ: khách sạn, 9h; Mới: nhà ga, thời gian cũ). Chú ý kỹ cụm từ '時間は同じです' (thợi gian vẫn thế) để biết thời gian không thay đổi dù địa điểm thay đổi.",
+      "transcriptJa": "旅行会社の人がお客に話しています。明日、何時に、どこに集まりますか。\n男：え、皆さん、よく聞いてください。明日は 9 時半の電車に乗ります。ホテル\nの前に 9 時に集まることになっていましたが、集まる場所は駅に変わりました。\n駅の前に集まってください。時間は同じです。遅れないでください。\n明日、何時に、どこに集まりますか。\n1．9 時にホテルの前です。\n2．9 時半にホテルの前です。\n3．9 時に駅の前です。\n4．9 時半に駅の前です。",
+      "translationVi": "Nhân viên công ty du lịch đang nói chuyện với khách hàng. Ngày mai, họ sẽ tập trung lúc mấy giờ và ở đâu?\n\nNam: Vâng, xin mọi người hãy chú ý lắng nghe. Ngày mai chúng ta sẽ lên chuyến tàu lúc 9 giờ rưỡi. Ban đầu dự kiến là tập trung trước khách sạn lúc 9 giờ, nhưng địa điểm tập trung đã thay đổi thành nhà ga. Xin mọi người hãy tập trung ở trước nhà ga. Thời gian tập trung vẫn giữ nguyên như cũ. Xin đừng đến muộn.\n\nNgày mai, họ sẽ tập trung lúc mấy giờ và ở đâu?\n1. Lúc 9 giờ trước khách sạn.\n2. Lúc 9 giờ rưỡi trước khách sạn.\n3. Lúc 9 giờ trước nhà ga.\n4. Lúc 9 giờ rưỡi trước nhà ga."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

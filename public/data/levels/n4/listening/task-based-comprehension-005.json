@@ -1,0 +1,391 @@
+[
+  {
+    "id": "n4_listen_task_005_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex3-q1.mp3",
+        "durationSec": 65.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex3-q1.gif",
+        "alt": "Japanesetest4you Ex 3 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。男の人はコピーを何枚を用意しますか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện với nhau. Người đàn ông sẽ chuẩn bị bao nhiêu bản sao (bản photocopy)?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. 10 bản. Đây là số lượng bản sao cần in thêm so với số người tham gia dự kiến (10枚多く), chứ không phải tổng số bản sao."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. 20 bản. Đây là con số không chính xác (lấy 30 trừ đi 10), không đúng yêu cầu in thêm 10 bản của người phụ nữ."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. 30 bản. Đây là tổng số người tham gia cuộc họp (全部で30). Người phụ nữ yêu cầu in thêm 10 bản nữa, nên chỉ in 30 bản là thiếu."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. 40 bản. Đây là số bản sao chính xác cần chuẩn bị, bao gồm 30 bản cho số người tham gia dự họp cộng thêm 10 bản in thêm theo yêu cầu (30 + 10 = 40)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người phụ nữ yêu cầu chuẩn bị số bản sao nhiều hơn số người tham dự họp (30 người) là 10 bản, do đó tổng số bản sao cần chuẩn bị là 30 + 10 = 40 bản.",
+      "fullExplanationVi": "Cuộc hội thoại diễn ra giữa một nam nhân viên và một nữ trưởng phòng (部長) về số lượng bản sao tài liệu họp:\n1. Nam nhân viên hỏi: 'Trưởng phòng, tôi nên chuẩn bị bao nhiêu bản sao tài liệu này ạ?' (部長、このコピーは、何枚用意すればよろしいでしょうか。)\n2. Nữ trưởng phòng trả lời: 'À, số người tham gia họp tổng cộng là 30 người, nhưng cậu photo nhiều hơn số đó 10 bản giúp tôi được không?' (そうね、会議に出席する人は、全部で 30 だけど、それより 10 枚多くコピーしてくれる？)\n3. Như vậy, phép tính số bản cần photo sẽ là: 30 (người họp) + 10 (bản in thêm) = 40 bản.\n4. Nam nhân viên xác nhận hiểu và đồng ý: 'Tôi đã rõ rồi ạ.' (わかりました。)\nDo đó, đáp án đúng là đáp án 4 (40 bản), tương ứng với lựa chọn D.",
+      "trapVi": "Bẫy thường gặp là người nghe chỉ chú ý đến con số đầu tiên nghe được (30 người) hoặc con số in thêm (10 bản) mà không thực hiện phép tính cộng theo yêu cầu 'nhiều hơn 10 bản' (10枚多く).",
+      "listeningStrategyVi": "Đối với dạng bài nghe về con số và số lượng (số người, số bản sao, số tiền, ngày tháng), hãy ghi chú lại từng con số nghe được cùng với ngữ cảnh đi kèm (ví dụ: '30 người tham gia', 'in thêm 10 bản'). Sau đó, chú ý các từ chỉ mối quan hệ giữa các con số như 'hơn' (多く/より), 'kém' (少なく), 'mỗi người' để thực hiện phép toán chính xác.",
+      "transcriptJa": "男の人と女の人が話しています。男の人はコピーを何枚を用意しますか。\n男の人：部長、このコピーは、何枚用意すればよろしいでしょうか。\n女の人：そうね、会議に出席する人は、全部で 30 だけど、それより 10 枚多く\nコピーしてくれる？\n男の人：わかりました。\n男の人はコピーを何枚を用意しますか。\n1. 10 枚です。\n2. 20 枚です。\n3. 30 枚です。\n4. 40 枚です。",
+      "translationVi": "Nam: Trưởng phòng, tôi nên chuẩn bị bao nhiêu bản photocopy tài liệu này thì được ạ?\nNữ: Để xem, số người tham dự cuộc họp tổng cộng là 30 người, nhưng cậu photo nhiều hơn số đó 10 bản giúp tôi nhé?\nNam: Vâng, tôi rõ rồi ạ."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_005_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex3-q2.mp3",
+        "durationSec": 104.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex3-q2.gif",
+        "alt": "Japanesetest4you Ex 3 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が会社の中で電話で話しています。女の人はこの後、すぐ何をしなければなりませんか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện điện thoại trong công ty. Người phụ nữ phải làm gì ngay sau đây?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đi đến phòng photocopy và tìm cuốn sổ. Đây là việc đầu tiên người phụ nữ cần làm ngay lập tức theo yêu cầu của trưởng phòng."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Mang cuốn sổ đến phòng photocopy. Đây là hành động ngược lại (người phụ nữ phải đi tìm sổ mang về/mang đi chứ không phải mang sổ đến phòng photo)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Tìm cuốn sổ ở phòng họp. Trưởng phòng đang ở phòng họp và nói rằng cuốn sổ có lẽ đang ở phòng photocopy, không phải kêu tìm ở phòng họp."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Gọi điện thoại đến phòng họp. Việc này chỉ thực hiện sau khi đã đến phòng photocopy tìm nhưng không thấy cuốn sổ, không phải hành động ngay lập tức tiếp theo."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người phụ nữ được yêu cầu đi đến phòng photocopy để kiểm tra xem có cuốn sổ xanh ở đó hay không trước tiên, do đó hành động ngay sau đây là đến phòng photocopy tìm sổ.",
+      "fullExplanationVi": "Cuộc điện thoại diễn ra giữa Trưởng phòng Yamada (課長) và nhân viên nữ:\n1. Trưởng phòng hỏi xem trên bàn làm việc của mình có cuốn sổ màu xanh không. Cô kiểm tra và trả lời là không có.\n2. Trưởng phòng đoán rằng mình đã để quên ở phòng photocopy (コピー室). Ông yêu cầu cô: 'Phiền cô đến phòng photocopy xem có cuốn sổ ở đó không' (コピー室に行って、ノートがあるかどうか、見ていってくれる？). Đây là hành động cần thực hiện ngay lập tức.\n3. Các hành động tiếp theo được diễn ra tùy theo kết quả tìm kiếm:\n   - Nếu tìm thấy sổ: Mang ngay đến phòng họp cho ông (あったら、すぐ会議室にもってきてください).\n   - Nếu không thấy sổ: Gọi điện báo cho ông ở phòng họp (もしなかったら、会議室に電話してくれる？).\nVì vậy, việc đầu tiên ngay sau cuộc gọi là đi đến phòng photocopy để tìm sổ. Đáp án chính xác là 1 (tương ứng với lựa chọn A).",
+      "trapVi": "Bẫy ở đây là các hành động có điều kiện ở phía sau như 'mang đến phòng họp' hoặc 'gọi điện cho phòng họp'. Người nghe dễ nhầm lẫn chọn việc gọi điện ngay (đáp án 4) nếu không nghe kỹ điều kiện 'nếu không thấy' (もしなかったら) của trưởng phòng.",
+      "listeningStrategyVi": "Đối với dạng câu hỏi 'phải làm gì ngay sau đây' (この後、すぐ何をしなければなりませんか), hãy chú ý lắng nghe chuỗi hành động và các liên từ điều kiện hoặc thứ tự thời gian. Phân biệt rõ việc nào làm trước (đi tìm), việc nào làm sau tùy theo kết quả (tìm thấy hay không thấy).",
+      "transcriptJa": "男の人と女の人が会社の中で電話で話しています。女の人はこの後、すぐ何をしなければなりませんか。\n男の人：もしもし、山田だけど、\n女の人：あっ、課長。\n男の人：僕の机のうえに、青いノートある？\n女の人：青いノートですか、えっ、ありませんが。\n男の人：やっぱり、コピー室に置いたままだ。悪いけど、コピー室に行って、ノートがあるかどうか、見ていってくれる？\n女の人：はい、\n男の人：で、あったら、すぐ会議室にもってきてください。\n女の人：はい、わかりました。\n男の人：もしなかったら、会議室に電話してくれる？急いでね。\n女の人はこの後、すぐ何をしなければなりませんか。\n1. コピー室に行って、ノートをさがします。\n2. コピー室にノートを持っていきます。\n3. 会議室でノートをさがします。\n4. 会議室に電話をします。",
+      "translationVi": "Nam (Trưởng phòng Yamada): Alo, tôi là Yamada đây...\nNữ: A, thưa trưởng phòng.\nNam: Trên bàn làm việc của tôi có cuốn sổ tay màu xanh dương nào không?\nNữ: Cuốn sổ màu xanh dương ạ? A, không có ạ...\nNam: Quả nhiên là tôi bỏ quên ở phòng photocopy rồi. Phiền cô đến phòng photocopy xem có cuốn sổ đó ở đấy không giúp tôi nhé?\nNữ: Vâng.\nNam: Rồi nếu có thì mang ngay đến phòng họp cho tôi.\nNữ: Vâng, tôi rõ rồi ạ.\nNam: Còn nếu không có thì gọi điện báo cho tôi ở phòng họp nhé. Gấp đấy.\nNữ: Vâng."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_005_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex3-q3.mp3",
+        "durationSec": 79.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex3-q3.gif",
+        "alt": "Japanesetest4you Ex 3 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。正しいのはどれですか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện với nhau. Câu nào dưới đây là đúng?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Anh Hiroshi bị thương ở tay. Sai vì người bị thương là vợ anh Hiroshi (奥さん), không phải anh Hiroshi."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Anh Hiroshi bị thương ở chân. Sai cả về người bị thương (phải là người vợ) và bộ phận bị thương (phải là tay)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Vợ anh Hiroshi bị thương ở tay. Đây là thông tin hoàn toàn chính xác được xác nhận bởi người phụ nữ."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Vợ anh Hiroshi bị thương ở chân. Sai bộ phận bị thương, vì người phụ nữ đã đính chính là bị thương ở tay (いいえ、手ですよ) chứ không phải chân."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người bị thương và phải nhập viện là vợ anh Hiroshi (chứ không phải anh Hiroshi), và bộ phận bị thương là tay (chứ không phải chân).",
+      "fullExplanationVi": "Đoạn hội thoại xoay quanh việc đính chính thông tin của người đàn ông về người bị thương:\n1. Người đàn ông hỏi: 'Nghe nói anh Hiroshi bị thương nhập viện đúng không?'\n2. Người phụ nữ sửa lại: 'Không, không phải anh Hiroshi mà là vợ anh ấy đấy.' (いいえ、ヒロシさんじゃなくて、奥さんですよ。) -> Xác định người bị thương là vợ anh Hiroshi.\n3. Người đàn ông tiếp tục hỏi: 'À thế à, nghe nói là bị thương ở chân đúng không?'\n4. Người phụ nữ lại đính chính: 'Không, ở tay đấy.' (いいえ、手ですよ。) -> Xác định bộ phận bị thương là tay.\n5. Người phụ nữ cho biết cô biết rõ vì hôm qua đã đi thăm bệnh (お見舞い).\nTổng hợp hai thông tin đính chính trên: Vợ anh Hiroshi bị thương ở tay. Do đó, câu đúng là câu 3, tương ứng với lựa chọn C.",
+      "trapVi": "Bẫy ở đây là các thông tin ban đầu không chính xác của người đàn ông (anh Hiroshi, bị thương ở chân). Nếu người nghe không chú ý đến những câu phủ định đính chính của người phụ nữ ('いいえ...' - 'Không phải...') thì rất dễ chọn nhầm các thông tin sai lệch này.",
+      "listeningStrategyVi": "Với dạng bài đính chính thông tin (correction), hãy đặc biệt chú ý đến các từ phủ định như 'いいえ' (Không), '～じゃなくて' (Không phải là... mà là...) để lọc ra thông tin chính xác cuối cùng. Thường thông tin của người hỏi ban đầu sẽ sai và người trả lời sẽ đưa ra thông tin đúng.",
+      "transcriptJa": "男の人と女の人が話しています。正しいのはどれですか。\n男の人：ヒロシさんがけがで入院しているそうですね。\n女の人：いいえ、ヒロシさんじゃなくて、奥さんですよ。\n男の人：あっ、そうですか、足の怪我らしいですね。\n女の人：いいえ、手ですよ。\n男の人：あっ、そうですか。よく知っていますね。\n女の人：ええ、だって、昨日、お見舞いに行きましたから。\n正しいのはどれですか。\n1. ヒロシさんが手に怪我をしました。\n2.  ヒロシさんが足に怪我をしました。\n3.  ヒロシさんの奥さんが手に怪我をしました。\n4. ヒロシさんの奥さんが足に怪我をしました。",
+      "translationVi": "Nam: Nghe nói anh Hiroshi bị thương phải nhập viện phải không cô?\nNữ: Không phải đâu, không phải anh Hiroshi mà là vợ anh ấy đấy.\nNam: Ôi thế à, nghe đâu là bị thương ở chân đúng không?\nNữ: Không, ở tay cơ.\nNam: À ra vậy. Cô biết rõ thế nhỉ.\nNữ: Vâng, vì hôm qua tôi mới đi thăm cô ấy mà."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_005_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex3-q4.mp3",
+        "durationSec": 64.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex3-q4.gif",
+        "alt": "Japanesetest4you Ex 3 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が会社で話しています。今、どんな天気ですか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện ở công ty. Hiện tại thời tiết như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Trời nắng. Sai vì người phụ nữ có nói thời tiết xấu (天気も悪いし) và trời sắp mưa."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Trời nhiều mây (âm u). Đây là đáp án đúng. Vì trời âm u, thời tiết xấu và 'trông có vẻ sắp mưa' (雨が降り出しそう) nhưng hiện tại vẫn chưa mưa."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Trời mưa. Sai vì người phụ nữ nói 'trông có vẻ sắp mưa' (雨が降り出しそう - sắp sửa đổ mưa), tức là hiện tại trời vẫn chưa mưa."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Trời tuyết. Sai vì người đàn ông nói 'nghe nói sẽ có tuyết rơi' (雪になるそう) theo dự báo thời tiết cho tương lai, chứ hiện tại chưa rơi tuyết."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người phụ nữ mô tả trời âm u và sắp mưa (雨が降り出しそう) và người đàn ông nhắc đến dự báo tuyết rơi sau đó (雪になるそう), nghĩa là hiện tại trời chỉ đang âm u/nhiều mây.",
+      "fullExplanationVi": "Phân tích trạng thái thời tiết qua cuộc hội thoại:\n1. Người đàn ông chào buổi sáng và kêu lạnh (寒いですね).\n2. Người phụ nữ đồng tình và nói thêm: 'Thật vậy, thời tiết cũng xấu nữa. Trông có vẻ sắp mưa rồi nhỉ' (本当、天気も悪いし。雨が降り出しそうな天気ですね。). Cụm từ '雨が降り出しそう' (sắp sửa mưa) cho thấy trời hiện tại âm u/nhiều mây (曇り) nhưng chưa có mưa thực tế.\n3. Người đàn ông bổ sung: 'Nhắc mới nhớ, nghe nói trời sẽ chuyển sang tuyết đấy. Dự báo thời tiết có nói thế.' (そういえば、雪になるそうですよ。天気予報で言ってました。). Cụm '雪になるそう' biểu thị dự đoán tương lai, tuyết cũng chưa rơi.\nDo đó, thời tiết hiện tại (今) là trời âm u, nhiều mây. Đáp án chính xác là 2 (tương ứng với lựa chọn B).",
+      "trapVi": "Bẫy ở đây là các từ liên quan đến thời tiết được nhắc tới: mưa (雨) và tuyết (雪). Người nghe nếu chỉ bắt từ khóa mà không chú ý đến các cấu trúc ngữ pháp chỉ tương lai/dự đoán như '～そう' (có vẻ sắp...) hoặc '～そう' (nghe nói...) sẽ dễ chọn nhầm trời mưa hoặc trời tuyết.",
+      "listeningStrategyVi": "Chú ý kỹ ngữ pháp đuôi câu để xác định tính chất thời gian và thực tế: 'V-masu + そう' (sắp sửa xảy ra hành động) và 'V/A-plain + そう' (nghe nói). Câu hỏi hỏi về thời tiết 'hiện tại' (今) nên cần lọc ra những gì đang thực sự diễn ra, loại bỏ các dự báo hoặc phán đoán sắp xảy ra.",
+      "transcriptJa": "男の人と女の人が会社で話しています。今、どんな天気ですか。\n男の人：おはようございます。寒いですね。\n女の人：本当、天気も悪いし。雨が降り出しそうな天気ですね。\n男の人：そういえば、雪になるそうですよ。天気予報で言ってました。\n女の人：そうなんですか\n今、どんな天気ですか。\n1. 晴れです。\n2. 曇りです。\n3. 雨です。\n4. 雪です。",
+      "translationVi": "Nam: Chào buổi sáng. Trời lạnh quá nhỉ.\nNữ: Đúng thế, thời tiết lại xấu nữa. Trông như sắp mưa ấy nhỉ.\nNam: Nhắc mới nhớ, nghe nói trời sẽ chuyển sang có tuyết đấy. Dự báo thời tiết có nói vậy.\nNữ: Thế hả anh?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_005_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-3"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex3-q5.mp3",
+        "durationSec": 91.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex3-q5.gif",
+        "alt": "Japanesetest4you Ex 3 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が歯医者について話しています。二人はこの歯医者についてどうおもっていますか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện về một phòng khám nha khoa. Cả hai người nghĩ như thế nào về phòng khám này?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Người đàn ông nghĩ là tốt. Sai vì người đàn ông phàn nàn phải chờ 2 tiếng, làm rất đau và khuyên nên đi phòng khám khác."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Người phụ nữ nghĩ là tốt. Sai vì dù khen lễ tân và thiết bị nhưng cô bỏ lửng câu với thái độ ngập ngừng thất vọng về bác sĩ (お医者さんがねえ) và sau đó đồng tình với người đàn ông."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Cả người đàn ông và người phụ nữ đều nghĩ là tốt. Sai hoàn toàn vì cả hai đều có ấn tượng xấu về phòng khám này."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Cả người đàn ông và người phụ nữ đều nghĩ là không tốt. Đây là đáp án đúng vì cả hai đều có những phàn nàn và đồng ý là nên đi phòng khám khác."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Cả hai người đều có những trải nghiệm không tốt và đồng tình rằng phòng khám nha khoa này không tốt và nên chuyển sang chỗ khác.",
+      "fullExplanationVi": "Phân tích ý kiến của hai người về nha khoa trước nhà ga:\n1. Người phụ nữ nhận xét: Lễ tân thân thiện, máy móc mới, nhưng bỏ lửng câu 'nhưng bác sĩ thì...' (お医者さんがねえ) biểu lộ thái độ không hài lòng về bác sĩ.\n2. Người đàn ông chia sẻ trải nghiệm tệ hại của mình: Phải đợi tận 2 tiếng (二時間も待たされた), chữa răng rất đau (すごく痛くて), và khuyên nên đi nha khoa khác thì tốt hơn (ほかの歯医者に行ったほうがいいね).\n3. Người phụ nữ đồng ý ngay lập tức: 'Ừ, đúng thế thật.' (うん。そうね。)\nNhư vậy, cả hai người đều có đánh giá tiêu cực và nghĩ phòng khám này không tốt. Đáp án đúng là 4 (tương ứng với lựa chọn D).",
+      "trapVi": "Bẫy ở câu này là người phụ nữ có khen một số điểm ở lúc đầu như 'lễ tân thân thiện' (受付の人もやさしい), 'máy móc mới' (機械も新しい). Tuy nhiên, liên từ nghịch bộ 'nhưng' (けど) và câu bỏ lửng 'bác sĩ thì...' (お医者さんがねえ) cùng sự đồng tình ở cuối cuộc trò chuyện cho thấy đánh giá tổng thể của cô là tiêu cực.",
+      "listeningStrategyVi": "Chú ý đến các từ nối tương phản như 'けど' (nhưng) và ngữ điệu bỏ lửng của người Nhật thể hiện sự ngần ngại hoặc không hài lòng (お医者さんがねえ...). Đồng thời, luôn lắng nghe đến cuối cuộc hội thoại để xem sự đồng tình (うん、そうね) của các nhân vật đối với ý kiến của nhau.",
+      "transcriptJa": "男の人と女の人が歯医者について話しています。二人はこの歯医者についてどうおもっていますか。\n男の人：ねえ、駅前の歯医者、行ったことがある？\n女の人：うん、前に一度だけ行ったことがある。受付の人もやさしいし、機械も新しいけど、お医者さんがねえ、\n男の人：二時間も待たされたよ。それに、すごく痛くて。ほかの歯医者に行ったほうがいいね。\n女の人：うん。そうね。\n二人はこの歯医者についてどうおもっていますか。\n1. 男の人はいいと思っています。\n2. 女の人はいいと思っています。\n3. 男の人も女の人もいいと思っています。\n4. 男の人も女の人もよくないと思っています。"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

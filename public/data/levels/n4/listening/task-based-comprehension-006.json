@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_006_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex4-q1.mp3",
+        "durationSec": 77.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex4-q1.gif",
+        "alt": "Japanesetest4you Ex 4 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。だれがカップをもらいましたか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Ai đã nhận được chiếc cốc?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người phụ nữ nói rõ chiếc cốc không phải của cô ấy (私のじゃないんですよ)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Người phụ nữ giải thích chiếc cốc do người dì tự tay làm và tặng cho mẹ cô ấy (叔母が母に作ってくれたものです)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Người dì là người làm ra chiếc cốc để tặng chứ không phải người nhận."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Không có thông tin nào nhắc tới người bà trong cuộc đối thoại."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người phụ nữ giải thích chiếc cốc là do người dì tự tay làm để tặng cho mẹ của cô ấy, do đó mẹ cô ấy là người nhận chiếc cốc.",
+      "fullExplanationVi": "Trong đoạn hội thoại, người đàn ông khen chiếc cốc đẹp và hỏi người phụ nữ mua ở đâu. Người phụ nữ đính chính rằng đó không phải cốc của mình mà là chiếc cốc do người dì (叔母) tự làm tặng cho mẹ cô (母に作ってくれたもの). Cụm cấu trúc ngữ pháp 'V-てくれた' (làm gì cho ai đó) đi kèm với '母に' (cho mẹ) xác nhận mẹ của người phụ nữ là người nhận (được tặng) chiếc cốc này. Do đó, đáp án đúng là đáp án 2 (B).",
+      "trapVi": "Người nghe dễ nhầm lẫn vì người đàn ông hỏi 'Có phải dì mua cho bạn không?' (叔母さんが買ってくれたんですか), và người phụ nữ cũng dùng từ '私のじゃない' (không phải của tôi). Cần nghe kỹ hành động làm/tặng hướng tới đối tượng nào (母に作ってくれた - làm tặng cho mẹ).",
+      "listeningStrategyVi": "Hãy chú ý đến các trợ từ chỉ đối tượng nhận hành động như 'に' kết hợp với các động từ cho nhận như '～てくれる/てあげる/てもらう' để xác định chính xác ai là người thực hiện và ai là người thụ hưởng hành động.",
+      "transcriptJa": "男の人と女の人が話しています。だれがカップをもらいましたか。\n男の人：そのカップ、いいですね。どこで買ったんですか。\n女の人：これが叔母が\n男の人：叔母さんが買ってくれたんですか。\n女の人：いいえ、叔母が母に作ってくれたものです。私のじゃないんですよ。\n男の人：そうなんですか。叔母さん、とても上手ですね。\nだれがカップをもらいましたか。\n1. この女の人です。\n2. この女の人のお母さんです。\n3. この女の人の叔母さんです。\n4. この女の人のおばあさんです。",
+      "translationVi": "Người đàn ông và người phụ nữ đang nói chuyện. Ai đã nhận được chiếc cốc?\nNgười đàn ông: Chiếc cốc đó đẹp quá nhỉ. Bạn mua ở đâu thế?\nNgười phụ nữ: Cái này là dì tôi...\nNgười đàn ông: Dì của bạn mua tặng cho bạn à?\nNgười phụ nữ: Không phải đâu, đây là món đồ mà dì tự làm tặng cho mẹ tôi. Không phải của tôi đâu nhé.\nNgười đàn ông: Thế à. Dì của bạn khéo tay thật đấy.\nAi đã nhận được chiếc cốc?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_006_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex4-q2.mp3",
+        "durationSec": 77.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex4-q2.gif",
+        "alt": "Japanesetest4you Ex 4 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人が話しています。雨が降ったらどうしますか。",
+      "stemVi": "Một người phụ nữ đang nói chuyện. Nếu trời mưa thì họ sẽ làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Đây là thời gian và địa điểm tập hợp bình thường khi trời không mưa."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Mặc dù địa điểm trước bảo tàng là đúng khi trời mưa, nhưng thời gian 3:30 là sai vì họ phải tập hợp sớm hơn 30 phút."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Mặc dù thời gian 3:00 là đúng, nhưng địa điểm tại lối vào công viên là sai vì khi trời mưa họ phải tập hợp ở bảo tàng."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Nếu trời mưa, họ sẽ tập hợp lúc 3:00 (sớm hơn 30 phút so với 3:30) tại trước bảo tàng mỹ thuật."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Nếu trời mưa, họ sẽ tập hợp lúc 3:00 (sớm hơn 30 phút so với 3:30) tại địa điểm thay thế là trước bảo tàng mỹ thuật.",
+      "fullExplanationVi": "Người hướng dẫn đưa ra hai phương án:\n- Bình thường: tập hợp lúc 3:30 tại lối vào công viên.\n- Nếu trời mưa (もし雨が降ったら): tập hợp sớm hơn 30 phút (30分早く - tức là lúc 3:00) và đổi địa điểm tập hợp thành trước bảo tàng mỹ thuật (美術館の前) thay vì lối vào công viên. Do đó, đáp án đúng khi trời mưa là tập hợp lúc 3 giờ trước bảo tàng mỹ thuật. Chọn đáp án 4 (D).",
+      "trapVi": "Bẫy tính toán thời gian: Cần trừ đi 30 phút từ mốc gốc 3:30 để ra 3:00 ('30分早く'). Bẫy địa điểm: Phải nghe kỹ cụm phủ định kết hợp chỉ định '公園の入り口じゃなくて、あの美術館の前' (không phải lối vào công viên mà là trước bảo tàng mỹ thuật kia).",
+      "listeningStrategyVi": "Đối với các câu hỏi có điều kiện thay đổi kế hoạch ('nếu trời mưa', 'nếu trễ xe'...), hãy ghi chép lại kế hoạch gốc làm tham chiếu, sau đó tập trung nghe các từ khóa điều kiện như 'もし...たら' và các từ phủ định/thay đổi như '～じゃなくて' để xác định đúng kế hoạch mới.",
+      "transcriptJa": "女の人が話しています。雨が降ったらどうしますか。\n女の人：それでは、今から、自由に過ごしてください。帰りですが、3 時半に公\n園の入り口に集まってください。3 時半ですよ。でも、もし雨が降ったら、30 分\n早く集まることにします。それから、公園の入り口じゃなくて、あの美術館の前\nに集まってください。いいですね。\n1. 3 時半に公園の入り口に集まります。\n2. 3 時半に美術館の前に集まります。\n3. 3 時に公園の入り口に集まります。\n4. 3 時に美術館の前に集まります。",
+      "translationVi": "Một người phụ nữ đang nói chuyện. Nếu trời mưa thì họ sẽ làm gì?\nNgười phụ nữ: Sau đây, xin mời mọi người tự do hoạt động. Về việc ra về, xin hãy tập hợp tại lối vào công viên lúc 3 giờ rưỡi. 3 giờ rưỡi nhé. Tuy nhiên, nếu trời mưa, chúng ta sẽ tập hợp sớm hơn 30 phút. Hơn nữa, chúng ta sẽ tập hợp ở phía trước bảo tàng mỹ thuật đằng kia chứ không phải ở lối vào công viên nữa. Mọi người rõ chưa ạ?\n1. Tập hợp tại lối vào công viên lúc 3 giờ rưỡi.\n2. Tập hợp trước bảo tàng mỹ thuật lúc 3 giờ rưỡi.\n3. Tập hợp tại lối vào công viên lúc 3 giờ.\n4. Tập hợp trước bảo tàng mỹ thuật lúc 3 giờ."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_006_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex4-q3.mp3",
+        "durationSec": 71.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex4-q3.gif",
+        "alt": "Japanesetest4you Ex 4 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "お母さんが話しています。この男の子は今どんな具合ですか。",
+      "stemVi": "Người mẹ đang nói chuyện. Cậu bé này hiện tại tình trạng sức khỏe như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Cậu bé nói mình bị đau đầu (頭が痛くて) và không bị sốt (熱はない)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Cậu bé xác nhận là không bị sốt."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Triệu chứng đau bụng chỉ xuất hiện vào buổi sáng và hiện tại đã khỏi (朝はちょっと痛かったけど、今はなおった)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Cậu bé không bị sốt và hiện tại cũng đã hết đau bụng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Cậu bé hiện tại bị đau đầu, không bị sốt và cơn đau bụng buổi sáng đã khỏi hoàn toàn.",
+      "fullExplanationVi": "Trong cuộc đối thoại, cậu bé nói mình bị đau đầu nên muốn tìm hộp thuốc ('頭が痛くて'). Người mẹ hỏi tiếp xem cậu bé có sốt không ('熱は？'), cậu bé bảo không ('ない'). Người mẹ hỏi thêm về việc đau bụng ('お腹？'), cậu bé giải thích là buổi sáng có hơi đau một chút nhưng bây giờ đã khỏi rồi ('朝はちょっと痛かったけど、今はなおった'). Vì vậy, tình trạng hiện tại của cậu bé là đau đầu nhưng không sốt. Chọn đáp án 1 (A).",
+      "trapVi": "Bẫy về thời gian của triệu chứng: Cần phân biệt triệu chứng trong quá khứ/buổi sáng ('朝はちょっと痛かった' - buổi sáng hơi đau bụng) và tình trạng hiện tại ('今はなおった' - bây giờ đã khỏi). Tránh nhầm lẫn đau bụng là triệu chứng hiện tại.",
+      "listeningStrategyVi": "Khi nghe các đoạn hội thoại nói về triệu chứng sức khỏe, hãy chú ý phân biệt các mốc thời gian như '朝' (buổi sáng), '今' (bây giờ) và trạng thái của triệu chứng đó: còn đau hay đã khỏi nhờ các từ khóa phủ định hoặc chỉ trạng thái như '治った' (đã khỏi), 'ない' (không có).",
+      "transcriptJa": "お母さんが話しています。この男の子は今どんな具合ですか。\n男の人：お母さん、薬の箱、どこ？頭が痛くて。\n女の人：熱は？\n男の人：ない。\n女の人：お腹？\n男の人：朝はちょっと痛かったけど、今はなおった。\n女の人：風邪かしらね。\nこの男の子は今どんな具合ですか。\n1. 頭が痛いですが、熱はありません。\n2. 頭が痛くて、熱もあります。\n3. お腹が痛いですが、熱はありません。\n4. お腹が痛くて、熱もあります。",
+      "translationVi": "Người mẹ đang nói chuyện. Cậu bé này hiện tại tình trạng sức khỏe như thế nào?\nCon trai: Mẹ ơi, hộp thuốc ở đâu thế ạ? Con đau đầu quá.\nMẹ: Có sốt không con?\nCon trai: Dạ không.\nMẹ: Thế còn bụng thì sao?\nCon trai: Buổi sáng thì hơi đau một chút nhưng giờ hết rồi ạ.\nMẹ: Chắc là cảm cúm rồi nhỉ.\nCậu bé này hiện tại tình trạng sức khỏe như thế nào?\n1. Đau đầu nhưng không bị sốt.\n2. Đau đầu và cũng bị sốt.\n3. Đau bụng nhưng không bị sốt.\n4. Đau bụng và cũng bị sốt."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_006_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex4-q4.mp3",
+        "durationSec": 84.13
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex4-q4.gif",
+        "alt": "Japanesetest4you Ex 4 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "おかあさんと男の子が話しています。男の子はどうして少ししか晩御飯を食べないのですか。",
+      "stemVi": "Người mẹ và cậu bé đang nói chuyện. Tại sao cậu bé lại chỉ ăn một chút cơm tối?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Cậu bé khẳng định mình không bị đau bụng (違うよ。大丈夫)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là món ăn yêu thích từ trước tới nay của cậu bé chứ không phải món ghét."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Không có thông tin nào nhắc tới món ăn bị ngọt."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Cậu bé giải thích là do trước đó đã ăn rất nhiều bánh kẹo ở nhà bạn Ichiro (先、一郎君のうちでお菓子をたくさん食べたんだ)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Cậu bé ăn ít cơm tối là do trước đó đã ăn rất nhiều bánh kẹo ở nhà bạn Ichiro nên không thấy đói.",
+      "fullExplanationVi": "Người mẹ thấy cậu bé ăn ít cơm tối nên hỏi thăm xem có phải bị đau bụng hay không. Cậu bé phủ nhận việc đau bụng và giải thích lý do thực sự là do trước đó cậu đã ăn rất nhiều bánh kẹo ở nhà bạn Ichiro ('先、一郎君のうちでお菓子をたくさん食べたんだ'). Điều này dẫn đến kết luận của người mẹ là cậu bé không thấy đói ('それで、お腹がすいていないのね'). Chọn đáp án 4 (D).",
+      "trapVi": "Bẫy phỏng đoán: Người nghe dễ nhầm lẫn bởi các câu hỏi phỏng đoán của người mẹ như đau bụng ('お腹でも痛いの？') hay ghét món này rồi ('嫌いになった？'). Cần lắng nghe câu trả lời khẳng định nguyên nhân thực sự của người con ở cuối hội thoại.",
+      "listeningStrategyVi": "Đối với dạng bài tìm nguyên nhân/lý do, hãy chú ý lắng nghe phần giải thích chứa các từ nối nguyên nhân kết quả như '～んだ' (giải thích lý do), 'それで' (vì vậy) để nắm bắt được nguyên nhân chính xác từ người nói.",
+      "transcriptJa": "おかあさんと男の子が話しています。男の子はどうして少ししか晩御飯を食べないのですか。\n女の人：あら、どうした、あまり食べていないのね。\n男の人：うん。\n女の人：お腹でも痛いの？\n男の人：違うよ。大丈夫。\n女の人：すこししか食べていないわよ。これ大好きだったでしょう。嫌いになった？\n男の人：うん。あのう、先、一郎君のうちでお菓子をたくさん食べたんだ。\n女の人：それで、お腹がすいていないのね。\n男の子はどうして少ししか晩御飯を食べないのですか。\n1. お腹が痛いからです。\n2. 嫌いな料理だからです。\n3. 料理が甘いからです。\n4. お菓子を食べたからです。",
+      "translationVi": "Người mẹ và cậu bé đang nói chuyện. Tại sao cậu bé lại chỉ ăn một chút cơm tối?\nMẹ: Ơ kìa, có chuyện gì thế con? Con hầu như chẳng ăn mấy nhỉ.\nCon trai: Vâng ạ.\nMẹ: Con bị đau bụng à?\nCon trai: Không phải đâu ạ. Con bình thường mà.\nMẹ: Nhưng con ăn ít quá đấy. Đây vốn là món con rất thích cơ mà. Con ghét nó rồi à?\nCon trai: Không ạ. Thực ra là... vừa nãy con đã ăn rất nhiều bánh kẹo ở nhà Ichiro rồi.\nMẹ: Hóa ra là thế, bảo sao con không thấy đói.\nTại sao cậu bé lại chỉ ăn một chút cơm tối?\n1. Vì bị đau bụng.\n2. Vì đây là món ăn cậu bé ghét.\n3. Vì thức ăn ngọt.\n4. Vì cậu bé đã ăn bánh kẹo."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_006_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-4"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex4-q5.mp3",
+        "durationSec": 94.14
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex4-q5.gif",
+        "alt": "Japanesetest4you Ex 4 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人と男の人が話しています。男の人は薬をどのように飲まなければなりませんか。",
+      "stemVi": "Một người phụ nữ và một người đàn ông đang nói chuyện. Người đàn ông phải uống thuốc như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người đàn ông phải uống ngày 3 lần sau khi ăn."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Dù người đàn ông muốn chỉ uống 2 lần nếu bỏ ăn sáng, người phụ nữ đã từ chối và yêu cầu uống đủ 3 lần."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Thời gian uống đúng là sau bữa ăn (食事の後)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Người phụ nữ hướng dẫn uống ngày 3 lần sau mỗi bữa ăn (1日3回、食事の後に) và yêu cầu người đàn ông ăn sáng đầy đủ."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người đàn ông phải uống thuốc ngày 3 lần sau khi ăn, kể cả bữa sáng cũng phải ăn đầy đủ để uống thuốc.",
+      "fullExplanationVi": "Đầu tiên, người phụ nữ hướng dẫn: 'Mỗi ngày 3 lần, uống sau bữa ăn' (一日三回、食事の後に、飲んでください). Khi người đàn ông hỏi liệu có thể giảm xuống 2 lần vào những ngày không ăn sáng không, người phụ nữ nhấn mạnh thuốc phải uống đủ 3 lần mới hiệu quả và yêu cầu anh ta phải ăn sáng đầy đủ ('朝ご飯もきちんと食べてくださいね'). Do đó, phương án đúng là uống ngày 3 lần sau bữa ăn. Chọn đáp án 4 (D).",
+      "trapVi": "Bẫy đề xuất từ người nói: Người nghe có thể bị phân tâm bởi câu hỏi của người đàn ông muốn uống 2 lần một ngày khi bỏ ăn sáng ('2回でもいいですか'). Phải chú ý nghe phản ứng từ chối của người phụ nữ để chọn phương án chuẩn xác.",
+      "listeningStrategyVi": "Đối với dạng bài có người đưa ra đề xuất làm trái hướng dẫn ban đầu, hãy chú ý nghe phản ứng (đồng ý hay phản bác) từ người có chuyên môn hoặc người hướng dẫn để biết kết quả cuối cùng.",
+      "transcriptJa": "女の人と男の人が話しています。男の人は薬をどのように飲まなければなりませんか。\n女の人：山田さん、これが薬ですよ。一日三回、食事の後に、飲んでください。\n男の人：わかりました。あのう、私は朝ご飯を食べないときもありますが、そのときは、2 回でもいいですか。\n女の人：薬はきちんと 1 日 3 回飲まなければ治りませんよ。朝ご飯もきちんと食べてくださいね。\n男の人：はい、わかりました。\n男の人は薬をどのように飲まなければなりませんか。\n1. 1 日 2 回食事の前に飲みます。\n2. 1 日 2 回食事の後に飲みます。\n3. 1 日 3 回食事の前に飲みます。\n4. 1 日 3 回食事の後に飲みます。",
+      "translationVi": "Một người phụ nữ và một người đàn ông đang nói chuyện. Người đàn ông phải uống thuốc như thế nào?\nNgười phụ nữ: Anh Yamada, đây là thuốc của anh nhé. Hãy uống ngày 3 lần, sau bữa ăn.\nNgười đàn ông: Tôi hiểu rồi. À, đôi khi tôi không ăn sáng, những lúc đó tôi uống 2 lần thôi có được không?\nNgười phụ nữ: Thuốc này phải uống đúng ngày 3 lần thì mới khỏi bệnh đấy nhé. Anh cũng hãy ăn sáng đầy đủ nhé.\nNgười đàn ông: Vâng, tôi rõ rồi.\nNgười đàn ông phải uống thuốc như thế nào?\n1. Uống ngày 2 lần trước khi ăn.\n2. Uống ngày 2 lần sau khi ăn.\n3. Uống ngày 3 lần trước khi ăn.\n4. Uống ngày 3 lần sau khi ăn."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

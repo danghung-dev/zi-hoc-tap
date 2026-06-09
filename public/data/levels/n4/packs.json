@@ -99,15 +99,6 @@
     "count": 2
   },
   {
-    "id": "n4_listen_task_001",
-    "section": "listening",
-    "jlptItemType": "task_based_comprehension",
-    "uiTemplate": "listening_player",
-    "file": "listening/task-based-comprehension-001.json",
-    "title": "聴解 問題1 - Task-based comprehension",
-    "count": 8
-  },
-  {
     "id": "n4_vocab_kanji_reading_002",
     "section": "vocabulary",
     "jlptItemType": "kanji_reading",
@@ -213,6 +204,87 @@
     "uiTemplate": "listening_player",
     "file": "listening/task-based-comprehension-003.json",
     "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 1)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_004",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-004.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 2)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_005",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-005.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 3)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_006",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-006.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 4)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_007",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-007.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 5)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_008",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-008.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 6)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_009",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-009.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 7)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_010",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-010.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 8)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_011",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-011.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 9)",
+    "count": 5
+  },
+  {
+    "id": "n4_listen_task_012",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "file": "listening/task-based-comprehension-012.json",
+    "title": "聴解 問題1 - Task based comprehension (Japanesetest4you Ex 10)",
     "count": 5
   }
 ]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_008_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-6"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex6-q1.mp3",
+        "durationSec": 41.15
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex6-q1.gif",
+        "alt": "Japanesetest4you Ex 6 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。男の人がするスポーツはどれですか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang trò chuyện. Môn thể thao người đàn ông chơi là môn nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Đây là hình vẽ hai người đang chơi quần vợt (tennis). Phù hợp với sở thích của người đàn ông là không chơi môn quá đông người nhưng cũng không muốn chơi một mình vì cô đơn."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là hình ảnh chạy bộ/bơi lội (môn thể thao cá nhân). Người đàn ông đã từ chối vì không thích chơi một mình do cảm giác cô đơn."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây là môn bóng đá/bóng chày (môn thể thao tập thể nhiều người). Người đàn ông đã phủ nhận vì không chơi được các môn thể thao đông người."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Tương tự như đáp án C, đây là môn thể thao đồng đội với số lượng người chơi lớn, không thích hợp với người đàn ông."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông không thích các môn thể thao đông người (bóng đá, bóng chày) cũng như các môn cá nhân một mình (chạy bộ, bơi lội), do đó môn thể thao hai người chơi (tennis - đáp án 1) là sự lựa chọn của anh ấy.",
+      "fullExplanationVi": "Trong cuộc hội thoại, người phụ nữ đưa ra các gợi ý: đầu tiên là bóng đá hoặc bóng chày, nhưng người đàn ông phủ nhận vì không chơi được những môn đông người (大勢でするスポーツはだめ). Tiếp theo, cô ấy gợi ý chạy bộ hoặc bơi lội, người đàn ông cũng phủ nhận vì chơi một mình thì hơi cô đơn (一人だけのはちょっと寂しくて). Như vậy, anh ấy chỉ có thể chơi các môn thể thao có số lượng người chơi vừa phải (như tennis chơi 2 người), tương ứng với hình vẽ số 1.",
+      "trapVi": "Bẫy ở đây nằm ở việc người phụ nữ liên tục đưa ra các gợi ý thể thao khác nhau. Người nghe cần bắt được các từ phủ định 'いいえ' cùng lý do cụ thể của người đàn ông để loại trừ chính xác các nhóm môn thể thao đồng đội và cá nhân.",
+      "listeningStrategyVi": "Đối với dạng bài nghe chọn hình vẽ loại trừ này, hãy ghi nhanh các điều kiện của nhân vật: 'không chơi đông người' và 'không chơi một mình'. Từ đó suy ra đáp án là môn chơi hai người.",
+      "transcriptJa": "男の人と女の人が話しています。男の人がするスポーツはどれですか？\n女：高橋さんはどのスポーツをするんですか？\n男：なんだと思いますか？\n女：サッカーとか、野球とか？\n男：いいえ、大勢でするスポーツはだめなんですよ。\n女：じゃあ、泳いだり、走ったり？\n男：いいえ、一人だけのちょっと寂しくて。\n女：あー。それじゃー\n男の人がするスポーツはどれですか？",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang trò chuyện. Môn thể thao người đàn ông chơi là môn nào?\nNữ: Anh Takahashi chơi môn thể thao nào thế ạ?\nNam: Cô thử đoán xem là môn gì nào?\nNữ: Bóng đá hay bóng chày ạ?\nNam: Không, tôi không chơi được mấy môn thể thao đông người đâu.\nNữ: Thế thì bơi lội hay chạy bộ ạ?\nNam: Không, chơi một mình thì hơi cô đơn.\nNữ: A... Thế thì...\nMôn thể thao người đàn ông chơi là môn nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_008_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-6"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex6-q2.mp3",
+        "durationSec": 35.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex6-q2.gif",
+        "alt": "Japanesetest4you Ex 6 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。部屋は今どうなっていますか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang trò chuyện. Căn phòng bây giờ đang như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Hình này mô tả cửa sổ đóng và bình hoa đứng bình thường, không đúng với thực tế cửa sổ bị mở và bình hoa bị đổ."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Hình vẽ mô tả trạng thái không khớp với toàn bộ hội thoại (ví dụ: cửa sổ đóng nhưng bình hoa bị đổ, hoặc ngược lại)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Hình vẽ mô tả cửa sổ mở nhưng bình hoa vẫn đứng thẳng bình thường, thiếu chi tiết bình hoa đổ."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Hình vẽ biểu thị căn phòng lúc này có cửa sổ đang mở và bình hoa trên bàn đã bị đổ xuống."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Căn phòng hiện tại có cửa sổ đang mở và bình hoa bị đổ nghi ngờ có trộm vào nhà.",
+      "fullExplanationVi": "Người phụ nữ lấy làm lạ vì nhớ rằng mình đã đóng cửa sổ (窓、閉めてたはずなんだけど) nhưng thực tế hiện tại cửa sổ lại đang mở. Đồng thời, cô phát hiện ra bình hoa trên bàn đã bị đổ (花瓶も倒れてる). Người đàn ông xác nhận và nghi rằng có trộm đã lẻn vào nhà. Trạng thái căn phòng hiện tại là cửa sổ mở và bình hoa bị đổ, phù hợp với hình số 4.",
+      "trapVi": "Bẫy ở câu nói '窓、閉めてたはず' (lẽ ra phải đóng cửa sổ), nếu người nghe vội vã chọn hình cửa sổ đóng thì sẽ sai, vì thực tế cửa sổ hiện tại đang bị mở tung.",
+      "listeningStrategyVi": "Hãy chú ý đến các biến đổi của đồ vật được nhắc đến trong đoạn hội thoại bằng cách sử dụng các từ ngữ chỉ sự phát hiện ('変ねぇ', 'あっ、倒れてる'). Tập hợp đầy đủ các dấu hiệu để chọn bức tranh đúng.",
+      "transcriptJa": "男の人と女の人が話しています。部屋は今どうなっていますか？\n女：変ねぇ...\n男：どうした？\n女：窓、閉めてたはずなんだけど。\n男：忘れたんだろう。\n女：そうかなぁ。あっ、花瓶も倒れてる。\n男：本当だ、泥棒に入られたかな。\n部屋は今どうなっていますか？",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang trò chuyện. Căn phòng bây giờ đang như thế nào?\nNữ: Lạ thật đấy...\nNam: Có chuyện gì thế?\nNữ: Em nhớ rõ là mình đã đóng cửa sổ rồi mà nhỉ.\nNam: Chắc em quên thôi.\nNữ: Có thật thế không ta... Ơ, bình hoa cũng bị đổ này.\nNam: Đúng thật, hay là trộm đột nhập rồi?\nCăn phòng bây giờ đang như thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_008_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-6"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex6-q3.mp3",
+        "durationSec": 43.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex6-q3.gif",
+        "alt": "Japanesetest4you Ex 6 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人が電話で話しています。この男の人はどこにいますか？",
+      "stemVi": "Một người đàn ông đang nói chuyện điện thoại. Người đàn ông này đang ở đâu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Đây là hình vẽ người đàn ông ngồi thư giãn ở hàng ghế phía sau của xe ô tô."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Hình vẽ biểu thị người đàn ông ngồi ở ghế phụ phía trước bên cạnh tài xế, nhưng anh ấy nói rõ là ngồi ở phía sau."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Hình vẽ này mô tả người đàn ông tự lái xe, không khớp vì con gái ông mới là người cầm lái."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Hình vẽ mô tả người đàn ông đứng chờ ở ga tàu, nhưng ông vẫn đang ở trên xe ô tô trên đường đi."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông đang ngồi ở hàng ghế phía sau của xe ô tô và con gái đang chở ông ra ga.",
+      "fullExplanationVi": "Người đàn ông tên Yamada xác nhận mình đang ở trong ô tô (今車の中なんです) và đang được con gái chở ra ga (娘に駅まで送ってもらうところです). Ông cho biết thường để con gái lái xe vì con gái lái giỏi hơn, còn mình thì ngồi ở ghế sau (僕は後ろなんです) để thư giãn. Vậy đáp án chính xác là hình vẽ người đàn ông ngồi ở hàng ghế sau (hình 1).",
+      "trapVi": "Tránh nhầm lẫn giữa vị trí ghế lái, ghế phụ trước và ghế sau của xe ô tô, và từ 'ga tàu' (駅) chỉ là điểm đến chứ không phải vị trí hiện tại.",
+      "listeningStrategyVi": "Lắng nghe kỹ các từ chỉ vị trí chỗ ngồi và người thực hiện hành động lái xe. Từ khóa '後ろ' (phía sau) là mấu chốt quyết định vị trí của nhân vật.",
+      "transcriptJa": "男の人が電話で話しています。この男の人はどこにいますか？\n男：はい、山田です。あっ、今車の中なんです。娘に駅まで送ってもらうところ\nです。うん、いつも運転してもらって、僕は後ろなんです。後ろの方がゆっくり\nできますから。それに、運転は娘のほうがうまいんですよ。\nこの男の人がどこにいますか？",
+      "translationVi": "Một người đàn ông đang nói chuyện điện thoại. Người đàn ông này đang ở đâu?\nNam: Vâng, tôi là Yamada đây. À, bây giờ tôi đang ở trong xe ô tô. Tôi đang được con gái chở ra ga đây. Ừm, bình thường con gái tôi lái còn tôi ngồi ghế sau. Ngồi phía sau thì thoải mái thư thả hơn. Vả lại, con gái tôi lái xe cũng khéo hơn tôi nữa.\nNgười đàn ông này đang ở đâu?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_008_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-6"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex6-q4.mp3",
+        "durationSec": 43.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex6-q4.gif",
+        "alt": "Japanesetest4you Ex 6 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "先生が女の子と話しています。誰が女の子に料理を教えていますか？",
+      "stemVi": "Giáo viên đang nói chuyện với một cô bé. Ai là người dạy cô bé nấu ăn?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Người dạy cô bé nấu ăn chính là ông ngoại/ông nội (祖父)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là hình ảnh mẹ hoặc bà, những người không dạy cô bé nấu ăn."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây là hình ảnh chị gái, nhưng cô bé khẳng định chị chưa từng dạy cô nấu ăn."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đây là hình ảnh một người khác, không phải người ông thích nấu ăn."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Ông của cô bé (祖父) là người dạy cô bé nấu ăn vì ông thích nấu ăn và thường xuyên chỉ dạy cho cô bé.",
+      "fullExplanationVi": "Khi giáo viên khen Mari nấu ăn ngon và hỏi có phải mẹ dạy không, Mari phủ nhận và trả lời: 'Không, ông em thích nấu ăn nên thường dạy em' (いいえ、祖父が料理が好きで、よく教えてくれるんです). Giáo viên hỏi gặng thêm xem có phải mẹ, bà hay chị gái dạy không, Mari đều khẳng định chị gái chưa bao giờ dạy nấu ăn. Do đó, người dạy cô bé nấu ăn là ông cô bé (祖父), ứng với hình vẽ số 1.",
+      "trapVi": "Đoạn đối thoại nhắc tới nhiều nhân vật người thân như mẹ (お母さん), bà (おばあさん), chị gái (お姉さん), ông (祖父) để gây rối. Người nghe cần lắng nghe kỹ các câu phủ định 'いいえ' để loại bỏ các phương án gây nhiễu.",
+      "listeningStrategyVi": "Nhận biết danh từ chỉ các thành viên trong gia đình (お母さん, 祖父, 姉, おばあさん) và kết hợp với thái độ đồng ý hay phủ nhận của nhân vật chính.",
+      "transcriptJa": "先生が女の子と話しています。誰が女の子に料理を教えていますか？\n先生：マリさんは料理が上手ですね。\nマリ：うちでいつも教えてもらってます。\n先生：そう、お母さんから？\nマリ：いいえ、祖父が料理が好きで、よく教えてくれるんです。\n先生：えー、お母さんやおばあさんじゃないの？お姉さんは？\nマリ：いいえ、姉が教えてくれたことはありません。\n誰が女の子に料理を教えていますか？",
+      "translationVi": "Giáo viên đang nói chuyện với một cô bé. Ai là người dạy cô bé nấu ăn?\nGiáo viên: Mari nấu ăn giỏi thế nhỉ.\nMari: Dạ em hay được mọi người chỉ dạy ở nhà ạ.\nGiáo viên: Thế à, mẹ dạy em hả?\nMari: Dạ không, ông em thích nấu ăn lắm nên ông thường dạy em.\nGiáo viên: Ồ, không phải mẹ hay bà dạy sao? Chị gái thì sao?\nMari: Dạ không, chị em chưa bao giờ dạy em cả.\nAi là người dạy cô bé nấu ăn?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_008_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-6"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex6-q5.mp3",
+        "durationSec": 48.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex6-q5.gif",
+        "alt": "Japanesetest4you Ex 6 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "お父さんとお母さんが話しています。この人たちの子供が描いた絵はどれですか？",
+      "stemVi": "Người cha và người mẹ đang trò chuyện. Bức tranh mà con của họ vẽ là bức nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Hình vẽ khuôn mặt có nhiều tóc hoặc có mũi, không đúng với đặc điểm chỉ có một sợi tóc và không vẽ mũi."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Bức tranh thể hiện khuôn mặt chỉ có một sợi tóc trên đầu, có một đường ngang dài ở giữa làm râu và không vẽ chiếc mũi nào."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Hình vẽ thiếu đi chi tiết đường kẻ ngang dài làm râu hoặc có chi tiết mũi không đúng mô tả."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Hình vẽ có nhiều tóc và vẽ đầy đủ các bộ phận bình thường."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Bức vẽ khuôn mặt bố của cậu con trai chỉ có một sợi tóc trên đầu, có một đường ngang dài làm râu ở giữa và không vẽ mũi.",
+      "fullExplanationVi": "Người bố thắc mắc về bức tranh vẽ chân dung của mình do con trai Ryuji vẽ: tại sao tóc chỉ có một sợi (髪が一本だけ), có một đường ngang dài ở giữa (長い横の線) và sau đó được mẹ giải thích đó là râu (それは鬚よ). Người bố cười nhận xét là do không vẽ mũi (鼻を描いてない) nên lúc đầu ông không nhận ra đó là râu. Tập hợp ba đặc điểm này (1 sợi tóc, 1 đường ngang làm râu ở giữa mặt, không có mũi) thì hình vẽ số 2 là đáp án chính xác.",
+      "trapVi": "Cần chú ý kỹ các cuộc hội thoại mô tả từng bộ phận: số lượng sợi tóc, ý nghĩa của đường ngang (là râu chứ không phải miệng), và chi tiết không có bộ phận nào (không có mũi).",
+      "listeningStrategyVi": "Khi nghe miêu tả các chi tiết của một bức tranh hoặc đồ vật, hãy liệt kê nhanh các đặc điểm đặc biệt được nhắc tới và đối chiếu trực tiếp để loại trừ các bức hình không thỏa mãn.",
+      "transcriptJa": "お父さんとお母さんが話しています。この人たちの子供が描いた絵はどれです\nか？\nお父さん：この絵、何？\nお母さん：あ、それ？隆司が描いたお父さんの顔。\nお父さん：え、僕？どうして髪が一本だけなんだろう？僕は髪が多いのに。\nお母さん：一本もないよりいいでしょう。\nお父さん：この、真ん中に描いてある、長い横の線は何？\nお母さん：あ、それは鬚よ。\nお父さん：あ？鬚か？ハハ、鼻を描いてないから分からないんだよ。\nこの人たちの子供が描いた絵はどれですか？",
+      "translationVi": "Người cha và người mẹ đang nói chuyện. Bức tranh mà con của họ vẽ là bức nào?\nCha: Bức tranh này là gì thế em?\nMẹ: À, cái đó hả? Là khuôn mặt của bố do bé Ryuji vẽ đấy.\nCha: Ơ, anh á? Sao tóc lại chỉ vẽ đúng một sợi thế này? Tóc anh nhiều thế cơ mà.\nMẹ: Có một sợi còn hơn là không có sợi nào đúng không anh.\nCha: Thế còn đường kẻ ngang dài vẽ ở chính giữa này là gì?\nMẹ: À, cái đó là râu đấy.\nCha: Hả? Râu á? Haha, tại không vẽ mũi nên anh chẳng thể nhận ra được.\nBức tranh mà con của họ vẽ là bức nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

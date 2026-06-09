@@ -1,0 +1,394 @@
+[
+  {
+    "id": "n4_listen_task_004_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex2-q1.mp3",
+        "durationSec": 51.08
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex2-q1.gif",
+        "alt": "Japanesetest4you Ex 2 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と店の人が話しています。男の人はどれにするといっていますか。",
+      "stemVi": "Một người đàn ông và nhân viên cửa hàng đang nói chuyện với nhau. Người đàn ông quyết định chọn món quà nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Người đàn ông muốn chọn một món quà cưới khó vỡ hay hỏng hóc. Khi nhân viên giới thiệu chậu cây xanh có tác dụng làm sạch không khí, anh ấy thấy rất phù hợp và quyết định chọn nó."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là món đồ dễ vỡ (như cốc/ly thủy tinh), không đáp ứng tiêu chí khó vỡ hay hỏng hóc mà người đàn ông đề ra."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây là món đồ dễ vỡ (như đĩa/bát sứ), không phù hợp với yêu cầu khó vỡ của người đàn ông."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đây là món đồ dễ hỏng hóc (như đồng hồ hoặc đồ điện tử), không phù hợp với yêu cầu."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông chọn chậu cây xanh làm quà vì nó vừa không dễ vỡ/hỏng vừa giúp thanh lọc không khí trong phòng.",
+      "fullExplanationVi": "Người đàn ông muốn tìm một món quà cưới cho bạn. Anh ấy yêu cầu món quà phải là thứ khó vỡ hay hỏng hóc (割れたり、こわれたりしにくいもの). Nhân viên cửa hàng gợi ý chậu cây xanh với công dụng làm sạch không khí trong phòng (この葉が部屋をきれいにするそう). Người đàn ông cảm thấy có màu xanh của cây cối trong phòng rất tốt nên đã quyết định chọn chậu cây này (緑が部屋にあるのはいいですね。じゃ、これにします). Do đó, đáp án đúng là 1 (chậu cây xanh - tương ứng với đáp án A).",
+      "trapVi": "Người nghe dễ bị phân tâm bởi các gợi ý quà cưới thông thường như đồ thủy tinh hoặc đồ sứ. Cần ghi nhớ điều kiện ràng buộc quan trọng ngay từ đầu: 'khó vỡ, khó hỏng' (割れたり、こわれたりしにくいもの).",
+      "listeningStrategyVi": "Nắm vững tiêu chí lựa chọn của nhân vật chính được đưa ra ở phần đầu hội thoại. Khi nghe các gợi ý tiếp theo, hãy đối chiếu xem gợi ý nào đáp ứng tất cả các tiêu chí và nhận được sự đồng ý cuối cùng từ nhân vật.",
+      "transcriptJa": "男の人と店の人が話しています。男の人はどれにするといっていますか。\n男の人：あのう、友達が結婚するので、プレゼントを探しているんですけど、\n女の人：では、こちらはいかがでしょうか。\n男の人：割れたり、こわれたりしにくいものがいいんです。\n女の人：じゃ、こちらのほうはいかがでしょうか。この葉が部屋をきれいにする\nそうです。\n男の人：緑が部屋にあるのはいいですね。じゃ、これにします。",
+      "translationVi": "Người đàn ông và nhân viên cửa hàng đang nói chuyện với nhau. Người đàn ông quyết định chọn món quà nào?\nNgười đàn ông: Xin lỗi, bạn tôi sắp kết hôn nên tôi đang tìm một món quà...\nNhân viên: Vậy thì món này thế nào ạ?\nNgười đàn ông: Tôi muốn món nào khó bị vỡ hay hỏng hóc một chút.\nNhân viên: Vậy thì chậu cây này thì sao ạ? Nghe nói loại lá cây này giúp làm sạch không khí trong phòng đấy ạ.\nNgười đàn ông: Có màu xanh của cây cối ở trong phòng thì tốt quá nhỉ. Được rồi, tôi lấy cái này."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_004_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "media": {
+        "audio": {
+          "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex2-q2.mp3",
+          "durationSec": 49.1
+        },
+        "image": {
+          "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex2-q2.gif",
+          "alt": "Japanesetest4you Ex 2 Q2 Image"
+        }
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が昨日の散歩について話しています。女の人の話について正しい絵はどれですか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện về buổi đi dạo hôm qua. Bức tranh nào mô tả đúng về câu chuyện của người phụ nữ?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Hình vẽ biểu thị đi dạo lúc trời nắng hoặc đi bộ cùng bạn bè, không khớp với thông tin trời mưa và bạn cô ấy không đi cùng."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Người phụ nữ kể rằng hôm qua cô ấy đi núi và trời mưa, nhưng vì chú chó của cô ấy thích mưa nên hai bên đã đi dạo cùng nhau (山は雨だったの。でも、私の犬は雨が好きだから、いっしょに散歩したの). Bạn của cô ấy thì không đi cùng."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Hình vẽ mô tả đi dạo cùng một người bạn, trong khi người phụ nữ nói bạn cô ấy không đi (友達は行かなかった)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Hình vẽ thiếu chú chó đi cùng hoặc thời tiết không đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Người phụ nữ đã dắt chó đi dạo trên núi dưới trời mưa, người bạn của cô ấy không đi cùng.",
+      "fullExplanationVi": "Người phụ nữ kể rằng hôm qua cô ấy lên núi và buổi đi chơi rất vui. Người đàn ông đoán thời tiết lúc đó đẹp (お天気もよかったし), nhưng người phụ nữ phủ nhận và nói trời mưa (いいえ、山は雨だったの). Tuy nhiên, vì chú chó của cô ấy thích mưa nên cô ấy đã dắt nó đi dạo cùng (私の犬は雨が好きだから、いっしょに散歩したの). Người đàn ông hỏi thêm bạn bè có đi cùng không (友達も一緒？) thì cô ấy đáp bạn mình không đi (友達は行かなかった). Như vậy, bức tranh đúng phải thể hiện người phụ nữ đi dạo với chú chó dưới trời mưa trên núi (đáp án B/số 2).",
+      "trapVi": "Bẫy nằm ở câu đoán của người đàn ông về thời tiết đẹp (お天気もよかったし) và câu hỏi về người bạn đi cùng (友達も一緒？). Người nghe cần nghe kỹ câu phủ định của người phụ nữ: 'いいえ、山は雨だったの' và '友達は行かなかった' để không chọn nhầm các bức tranh trời nắng hoặc có bóng dáng người bạn.",
+      "listeningStrategyVi": "Đối với dạng câu hỏi chọn tranh, hãy xác định các từ khóa chi tiết về: địa điểm (núi), thời tiết (mưa), nhân vật đồng hành (chó, không có bạn). Lắng nghe kỹ các lời thoại mang tính phủ định như 'いいえ' hay '〜なかった' để loại bỏ các tranh vẽ sai thông tin.",
+      "transcriptJa": "男の人と女の人が昨日の散歩について話しています。女の人の話について正しい\n絵はどれですか。\n女の人：昨日、山へ行ったの、とても楽しかった。\n男の人：よかったね、お天気もよかったし。\n女の人：いいえ、山は雨だったの。でも、私の犬は雨が好きだから、いっしょに\n散歩したの。\n男の人：友達も一緒？ 女の人：うーん、友達は行かなかった。\n男の人：あっ、そう。",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang nói chuyện về buổi đi dạo hôm qua. Bức tranh nào mô tả đúng về câu chuyện của người phụ nữ?\nNgười phụ nữ: Hôm qua tôi đi núi đấy, vui cực kỳ.\nNgười đàn ông: Thích thế, thời tiết chắc cũng đẹp nữa nhỉ.\nNgười phụ nữ: Không đâu, trên núi mưa đấy. Nhưng vì chú chó của tôi thích mưa nên tôi đã đi dạo cùng nó.\nNgười đàn ông: Bạn của cô cũng đi cùng à?\nNgười phụ nữ: Không, bạn tôi không đi.\nNgười đàn ông: À, ra thế."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_004_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex2-q3.mp3",
+        "durationSec": 68.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex2-q3.gif",
+        "alt": "Japanesetest4you Ex 2 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の学生と女の学生が駅で話しています。男の学生は今日どうやって駅まで行きましたか。",
+      "stemVi": "Một nam sinh và một nữ sinh đang nói chuyện ở nhà ga. Nam sinh hôm nay đã đi đến nhà ga bằng phương tiện gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Nam sinh trả lời hôm nay được mẹ lái xe ô tô chở đến ga do trời mưa lớn (車。母に駅まで送ってもらったんだ)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Xe buýt là phương tiện anh ấy thường đi (いつもは自転車かバス), không phải hôm nay."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Xe đạp là phương tiện anh ấy thường đi, không phải hôm nay."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đi bộ là sở thích của anh ấy (本当は歩きたい) nhưng hôm nay anh ấy không đi bộ vì không có thời gian."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Hôm nay do trời mưa to nên nam sinh được mẹ chở đến nhà ga bằng xe ô tô.",
+      "fullExplanationVi": "Trong buổi nói chuyện tại nhà ga, nữ sinh hỏi nam sinh hôm nay đi bằng xe buýt đến à (バスできた？). Nam sinh phủ nhận và nói mình đi bằng xe ô tô do được mẹ chở đến ga (車。母に駅まで送ってもらったんだ). Nam sinh giải thích thêm rằng hôm nay là trường hợp đặc biệt, còn bình thường anh ấy đi bằng xe đạp hoặc xe buýt (いつもは自転車かバス), và thực lòng thì muốn đi bộ nhưng không kịp thời gian. Câu hỏi yêu cầu tìm phương tiện đi ngày hôm nay (今日), vì thế xe ô tô là đáp án đúng (đáp án A/số 1).",
+      "trapVi": "Bẫy liệt kê hàng loạt phương tiện: xe buýt (バス), xe đạp (自転車), đi bộ (歩く). Người nghe dễ nhầm lẫn nếu không phân biệt rõ trạng từ thời gian 'hôm nay' (今日) và 'thường ngày' (いつもは) hoặc mong muốn thực tế (本当は歩きたい).",
+      "listeningStrategyVi": "Xác định rõ mốc thời gian của câu hỏi là '今日' (hôm nay). Tập trung nắm bắt thông tin ngay sau câu hỏi của nữ sinh về phương tiện hôm nay và chú ý phân biệt các phương tiện đi kèm trạng từ chỉ tần suất 'いつもは' (thường ngày).",
+      "transcriptJa": "男の学生と女の学生が駅で話しています。男の学生は今日どうやって駅まで行き\nましたか。\n男の人：おはよう、すごい雨だね、今日は\n女の人：うん、山田君、バスできた？\n男の人：うーん、車。母に駅まで送ってもらったんだ。\n女の人：いいな。いつも車。\n男の人：今日は特別。いつもは自転車かバスなんだ。本当は歩きたいんだけど、\n時間がなくて。\n女の人：うん、私は毎日歩くんだ。\n男の人：歩くのは気持ちがいいね。\n女の人：ええ、でも、こんな天気の日はね。",
+      "translationVi": "Một nam sinh và một nữ sinh đang nói chuyện ở nhà ga. Nam sinh hôm nay đã đi đến nhà ga bằng phương tiện gì?\nNam sinh: Chào buổi sáng. Hôm nay mưa to thật đấy nhỉ.\nNữ sinh: Ừ, Yamada-kun đi xe buýt đến à?\nNam sinh: Không, tớ đi xe ô tô. Được mẹ chở đến tận ga đấy.\nNữ sinh: Thích thế. Lúc nào cũng đi ô tô à?\nNam sinh: Hôm nay là đặc biệt thôi. Bình thường tớ đi xe đạp hoặc xe buýt. Thực ra tớ muốn đi bộ cơ mà không có thời gian.\nNữ sinh: Ừm, tớ thì đi bộ mỗi ngày.\nNam sinh: Đi bộ thì sảng khoái thật đấy.\nNữ sinh: Đúng vậy, nhưng vào những ngày thời tiết như thế này thì..."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_004_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex2-q4.mp3",
+        "durationSec": 61.09
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex2-q4.gif",
+        "alt": "Japanesetest4you Ex 2 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人と男の人が話しています。男の人はどんな写真を撮りますか。",
+      "stemVi": "Một người phụ nữ và một người đàn ông đang nói chuyện với nhau. Người đàn ông sẽ chụp bức ảnh như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Đây là ảnh chụp tàu thủy và búp bê ngồi, không đúng với các chỉnh sửa cuối cùng của hai nhân vật."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là ảnh chụp tàu thủy và búp bê đứng, sai chi tiết tàu thủy (đã đổi sang xe ô tô)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây là ảnh chụp ô tô và búp bê ngồi, sai chi tiết búp bê ngồi (đã đổi sang tư thế đứng)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Người đàn ông đã quyết định thay thế chiếc tàu thủy bằng xe ô tô (車) và dựng búp bê đứng lên thay vì để ngồi (立たせたほうがいい)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người đàn ông quyết định chụp ảnh xe ô tô kết hợp với búp bê đứng thẳng.",
+      "fullExplanationVi": "Người đàn ông đang bày đồ chơi trên bàn để chuẩn bị chụp ảnh. Ban đầu anh ấy đặt tàu thủy và búp bê. Người phụ nữ khuyên nên đổi tàu thủy sang xe ô tô (船を車に変えたら) vì trông ô tô sẽ ngầu hơn, người đàn ông đồng ý. Tiếp theo, người đàn ông định cho búp bê ngồi xuống (人形を座らせる), nhưng người phụ nữ khuyên nên để búp bê đứng thì tốt hơn (立たせたほうがいい). Người đàn ông tán thành ý kiến này (あっ、そうですね、いいですね。これだ). Như vậy, bức ảnh cuối cùng sẽ có xe ô tô và búp bê đứng (đáp án D/số 4).",
+      "trapVi": "Bẫy thay đổi quyết định liên tục: Ban đầu là tàu thủy (船) đổi thành xe ô tô (車); lúc đầu định cho búp bê ngồi (座らせる) nhưng sau đó chọn tư thế đứng (立たせる). Nếu người nghe chọn ngay phương án xuất hiện đầu tiên sẽ bị sai.",
+      "listeningStrategyVi": "Đối với dạng bài thay đổi quyết định/sắp đặt đồ vật, hãy chú ý cấu trúc đề xuất đổi hướng như '〜に変えたらどうですか' (thay đổi sang... thì sao), '〜より〜ほうがいい' (thay vì... thì... tốt hơn) và theo dõi phản ứng đồng thuận của người đưa ra quyết định ở cuối cuộc thoại.",
+      "transcriptJa": "女の人と男の人が話しています。男の人はどんな写真を撮りますか。\n女の人：テーブルに物を並べて、何するんですか。\n男の人：写真を撮ろうと思っているんです。なんか、変だな\n女の人：じゃ、船を車に変えたらどうですか。\n男の人：ですね、車の方がカッコウいいかもしれない。\n女の人：そうですね。 男の人：ここに人形を座らせると、どうかな？\n女の人：ええ、それより、立たせたほうがいいですよ。\n男の人：あっ、そうですね、いいですね。これだ。",
+      "translationVi": "Một người phụ nữ và một người đàn ông đang nói chuyện với nhau. Người đàn ông sẽ chụp bức ảnh như thế nào?\nNgười phụ nữ: Anh bày đồ ra bàn để làm gì thế?\nNgười đàn ông: Tôi định chụp ảnh ấy mà. Cứ thấy thế nào ấy nhỉ...\nNgười phụ nữ: Vậy anh đổi tàu thủy sang ô tô xem sao?\nNgười đàn ông: Đúng thế nhỉ, ô tô trông có vẻ ngầu hơn đấy.\nNgười phụ nữ: Đúng vậy ạ.\nNgười đàn ông: Đặt búp bê ngồi ở đây thì thế nào nhỉ?\nNgười phụ nữ: À, thay vì thế thì để búp bê đứng lên sẽ đẹp hơn đấy ạ.\nNgười đàn ông: Ồ, đúng vậy nhỉ, hay đấy. Quyết định thế này đi!"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_004_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-2"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex2-q5.mp3",
+        "durationSec": 82.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex2-q5.gif",
+        "alt": "Japanesetest4you Ex 2 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "医者と男の人が話しています。体によくないやり方はどれですか。よくないやり方です。",
+      "stemVi": "Bác sĩ và người đàn ông đang nói chuyện. Phương pháp luyện tập nào không tốt cho sức khỏe?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Tập các môn thể thao khác (chạy bộ, tennis) trước rồi mới đi bơi (Bác sĩ cảnh báo việc bơi sau khi vận động mạnh là rất nguy hiểm: 走ったり、テニスをしたりしてから、泳ぐのは危ない)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đi bơi trước rồi mới tập các môn thể thao khác (Bác sĩ xác nhận thứ tự này hoàn toàn bình thường: それなら、いいですよ)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Đây là cách luyện tập an toàn hoặc hoạt động đơn lẻ khác."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đây là cách luyện tập an toàn khác."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Cách luyện tập không tốt là vận động nhiều (như chạy bộ, chơi tennis) rồi mới đi bơi.",
+      "fullExplanationVi": "Người đàn ông hỏi bác sĩ liệu có thể chạy bộ, chơi tennis rồi đi bơi liên tục trong một ngày không. Bác sĩ cho biết chạy bộ hoặc chơi tennis trước rồi đi bơi là rất nguy hiểm (走ったり、テニスをしたりしてから、泳ぐのは危ない). Ngược lại, nếu đi bơi trước rồi mới làm các hoạt động khác thì hoàn toàn ổn (水泳をしてから、ほかの運動をするのは... それなら、いいですよ). Bác sĩ nhấn mạnh tóm lại không nên đi bơi sau khi đã vận động nhiều (たくさん運動をした後で、水泳をするのはやめたほうがいい). Vì câu hỏi yêu cầu chọn cách luyện tập KHÔNG TỐT cho cơ thể (体によくないやり方), nên đáp án đúng là phương án tập môn khác rồi mới đi bơi (đáp án A/số 1).",
+      "trapVi": "Bẫy nằm ở hai luồng ý kiến trái ngược: một bên được bác sĩ đồng ý (Bơi -> Môn khác) và một bên bị bác sĩ cảnh báo (Môn khác -> Bơi). Người nghe cần nghe kỹ câu hỏi yêu cầu tìm việc 'không tốt' (よくないやり方) và nắm bắt chính xác thứ tự của hành động qua liên từ '〜してから' (sau khi làm...).",
+      "listeningStrategyVi": "Đọc kỹ câu hỏi để xác định mục tiêu là tìm hành vi KHÔNG TỐT/NGUY HIỂM. Lắng nghe các từ mang tính tiêu cực như '危ない' (nguy hiểm) hoặc 'やめたほうがいい' (nên từ bỏ/tránh) để khoanh vùng hành động tương ứng. Chú ý liên từ chỉ thứ tự hành động '〜してから' để không bị nhầm lẫn thứ tự trước sau.",
+      "transcriptJa": "医者と男の人が話しています。体によくないやり方はどれですか。よくないやり\n方です。\n男の人：先生、ちょっと聞きたいですけど。泳いだり、走ったり、テニスをし\nたり、一日続けてやってもいいですか。\n女の人：そうですね、走ったり、テニスをしたりしてから、泳ぐのは危ないです\nよ。\n男の人：あっ、そうですか、水泳をしてから、ほかの運動をするのは\n女の人：それなら、いいですよ。とにかく、たくさん運動をした後で、水泳をす\nるのはやめたほうがいいです。",
+      "translationVi": "Bác sĩ và người đàn ông đang nói chuyện. Phương pháp luyện tập nào không tốt cho sức khỏe?\nNgười đàn ông: Thưa bác sĩ, tôi muốn hỏi một chút. Tôi đi bơi, chạy bộ, rồi chơi tennis liên tục trong một ngày có được không ạ?\nBác sĩ: À, chạy bộ hay chơi tennis xong rồi mới đi bơi thì nguy hiểm đấy nhé.\nNgười đàn ông: Ồ, vậy ạ. Thế nếu bơi xong rồi mới tập các môn khác thì sao ạ?\nBác sĩ: Như thế thì được. Tóm lại là nên tránh bơi lội sau khi đã vận động nhiều."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

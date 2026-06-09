@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_012_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-10"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex10-q1.mp3",
+        "durationSec": 41.15
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex10-q1.gif",
+        "alt": "Japanesetest4you Ex 10 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "お父さんと女の子が話しています。この女のこのテストは、どれですか。",
+      "stemVi": "Bố và bé gái đang nói chuyện. Bài kiểm tra của bé gái này là cái nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Điểm số này không phù hợp vì bé gái nói không thể đạt được 70 điểm và điểm lần này tốt hơn lần trước (50 điểm)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Điểm số này (50 điểm) là điểm của lần trước, lần này điểm của bé gái tốt hơn."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Điểm số này (60 điểm) cao hơn lần trước (50 điểm) nhưng thấp hơn mức 70 điểm (mức không thể đạt được)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Điểm số này là 70 điểm, nhưng bé gái đã nói rõ là không thể đạt được 70 điểm."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Điểm số lần này của bé gái tốt hơn lần trước (50 điểm) nhưng không thể đạt mức 70 điểm, vì vậy điểm số phù hợp là 60 điểm (đáp án C).",
+      "fullExplanationVi": "Người bố hỏi điểm thi của con có được khoảng 70 điểm không. Bé gái trả lời rằng '70 điểm là không thể' (70点は無理だよ) nhưng 'tốt hơn lần trước' (前よりよかったよ). Khi bố hỏi lần trước được bao nhiêu điểm, bé trả lời là '50 điểm' (50点). Như vậy, điểm số lần này phải lớn hơn 50 và nhỏ hơn 70. Trong các lựa chọn, đáp án C (60 điểm) là phù hợp nhất.",
+      "trapVi": "Bẫy nghe số điểm: Người nghe dễ bị nhầm lẫn giữa điểm số lần trước (50 điểm), điểm số người bố đoán (70 điểm) và điểm số thực tế lần này (nằm giữa 50 và 70).",
+      "listeningStrategyVi": "Chú ý lắng nghe các mốc số liệu (50 điểm, 70 điểm) và các cụm từ phủ định/so sánh như '無理' (không thể), '前よりよかった' (tốt hơn lần trước) để loại trừ các đáp án không chính xác.",
+      "transcriptJa": "お父さんと女の子が話しています。この女のこのテストは、どれですか。\n男：テスト、どうだった？\n女：難しかった。\n男：じゃ、70 てんぐらい？\n女：７０点は無理だよ。でも、前よりよかったよ。\n男：前は、何点だったんだ？\n女：５０点。\n男：ふーん。\nこの女のこのテストは、どれですか。",
+      "translationVi": "Bố và bé gái đang nói chuyện. Bài kiểm tra của bé gái này là cái nào?\nBố: Bài kiểm tra thế nào rồi con?\nCon: Khó lắm ạ.\nBố: Vậy à, được khoảng 70 điểm không?\nCon: 70 điểm thì không thể nào đâu ạ. Nhưng mà tốt hơn lần trước đấy.\nBố: Lần trước con được mấy điểm?\nCon: 50 điểm.\nBố: Hừm.\nBài kiểm tra của bé gái này là cái nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_012_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-10"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex10-q2.mp3",
+        "durationSec": 48.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex10-q2.gif",
+        "alt": "Japanesetest4you Ex 10 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。女の人は、きのう、何をしましたか。",
+      "stemVi": "Người đàn ông và người phụ nữ đang nói chuyện. Người phụ nữ hôm qua đã làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Cô ấy muốn chơi tennis (テニス) nhưng không chơi được vì phải đi làm."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Cô ấy định dọn dẹp nhà cửa (掃除) nhưng thực tế không làm được."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Cô ấy định giặt giũ (洗濯) nhưng thực tế không làm được."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Hôm qua cô ấy phải đi làm (仕事に行かなければならなくて)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người phụ nữ hôm qua muốn chơi tennis và dọn dẹp, giặt giũ ở nhà nhưng thực tế đã phải đi làm.",
+      "fullExplanationVi": "Người đàn ông hỏi Sato hôm qua có chơi tennis không. Cô trả lời muốn chơi nhưng phải đi làm (仕事に行かなければならなくて). Cô cũng nói thêm rằng thực ra định dọn dẹp và giặt giũ ở nhà (掃除も洗濯もしなければならなかった) nhưng không làm được. Vậy việc duy nhất cô ấy thực tế đã làm hôm qua là đi làm (đáp án D).",
+      "trapVi": "Bẫy liệt kê hàng loạt hành động: chơi tennis (テニス), dọn dẹp (掃除), giặt giũ (洗濯) được nhắc đến như là những dự định hoặc mong muốn nhưng thực tế không thực hiện được.",
+      "listeningStrategyVi": "Cần nghe kỹ các cấu trúc ngữ pháp thể hiện mong muốn nhưng không thực hiện được như '～たかったんですけど' (muốn... nhưng...) và thể hiện nghĩa vụ nhưng không làm được như '本当は～しなければならなかったのに' (thực ra phải... thế mà...).",
+      "transcriptJa": "男の人と女の人が話しています。女の人は、きのう、何をしましたか。\n男：佐藤さん、昨日 भी テニスしたんですか。\n女：あ、昨日ですか。したかったんですけど、仕事に行かなければならなく\nて．．．\n男：ああ、そうですか。日曜日でも休めないんですね。\n女：ええ。本当は、うちで掃除も洗濯もしなければならんかったのに．．．\n男：大変ですね。\n女の人は、きのう、何をしましたか。",
+      "translationVi": "Người đàn ông và người phụ nữ đang nói chuyện. Người phụ nữ hôm qua đã làm gì?\nNam: Chị Sato này, hôm qua chị cũng chơi tennis à?\nNữ: À, hôm qua ấy ạ? Em cũng muốn chơi lắm nhưng lại phải đi làm mất rồi...\nNam: Ồ, thế à. Chủ nhật mà cũng không được nghỉ sao.\nNữ: Vâng. Thực ra em còn phải dọn dẹp và giặt giũ ở nhà nữa, thế mà...\nNam: Vất vả quá nhỉ.\nNgười phụ nữ hôm qua đã làm gì?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_012_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-10"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex10-q3.mp3",
+        "durationSec": 41.15
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex10-q3.gif",
+        "alt": "Japanesetest4you Ex 10 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が、パーティーで話しています。今、料理はどうなっていますか 。",
+      "stemVi": "Người đàn ông và người phụ nữ đang nói chuyện ở bữa tiệc. Bây giờ thức ăn như thế nào rồi?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Hình vẽ biểu thị cả sandwich và sushi đều còn nhiều."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Hình vẽ biểu thị sandwich còn nhiều và sushi còn ít."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Hình vẽ biểu thị cả hai món đều còn ít."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Hình vẽ biểu thị sandwich còn ít (chỉ còn vài cái) và sushi còn nhiều."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Món sandwich chỉ còn lại một ít (sắp hết), còn món sushi thì vẫn còn lại rất nhiều.",
+      "fullExplanationVi": "Trong cuộc trò chuyện, người phụ nữ nói sandwich ngon và sắp hết (もうすぐなくなりそう), người đàn ông đồng tình là chỉ còn một ít (もう、少ししかない). Đồng thời, người phụ nữ nhận xét sushi vẫn còn lại rất nhiều (お寿司の方は、まだたくさん残っている). Như vậy, trạng thái hiện tại là sandwich còn ít và sushi còn nhiều (đáp án D).",
+      "trapVi": "Người nghe cần phân biệt rõ số lượng của hai món ăn khác nhau (sandwich và sushi) thông qua các từ chỉ lượng như '少ししかない' (chỉ còn một chút) và 'たくさん残っている' (còn lại nhiều), tránh nhầm lẫn giữa món này với món kia.",
+      "listeningStrategyVi": "Khi nghe các câu hỏi về trạng thái đồ vật/thức ăn, hãy ghi chép nhanh hoặc định vị nhanh hình ảnh tương ứng với từng món được nhắc đến kèm theo từ chỉ lượng (nhiều/ít).",
+      "transcriptJa": "男の人と女の人が、パーティーで話しています。今、料理はどうなっていますか 。\n男：そのサンドイッチ、おいしそうだね。\n女：すごいおいしいわよ。早く食べないと、もうすぐなくなりそうよ。\n男：あ、ほんとだ。もう、少ししかないね。\n女：お寿司の方は、まだたくさん残っているのにね。\n今、料理はどうなっていますか。",
+      "translationVi": "Người đàn ông và người phụ nữ đang nói chuyện ở bữa tiệc. Bây giờ thức ăn như thế nào rồi?\nNam: Món bánh mì kẹp đó trông ngon nhỉ.\nNữ: Ngon lắm đấy. Không ăn nhanh là sắp hết sạch rồi đấy.\nNam: À, đúng thế thật. Chỉ còn lại một chút thôi nhỉ.\nNữ: Trong khi món sushi thì vẫn còn lại rất nhiều nhỉ.\nBây giờ thức ăn như thế nào rồi?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_012_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-10"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex10-q4.mp3",
+        "durationSec": 48.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex10-q4.gif",
+        "alt": "Japanesetest4you Ex 10 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。男の人は、女の人にどうするように言いましたか。",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người đàn ông đã bảo người phụ nữ phải làm gì?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Đây là phương án gọi điện trước khi lên tàu điện (電車に乗る前に電話する) do người phụ nữ đề xuất, nhưng người đàn ông không đồng ý."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Đây là phương án gọi điện sau khi xuống tàu điện (電車を降りてから/バスに乗る前に), không đúng với yêu cầu của người đàn ông."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Người đàn ông yêu cầu người phụ nữ gọi điện sau khi xuống xe buýt (バスを降りてから電話する)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Đây là phương án gọi điện trước khi lên xe buýt, không đúng."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người đàn ông yêu cầu người phụ nữ gọi điện thoại sau khi xuống xe buýt để anh ta ra đón.",
+      "fullExplanationVi": "Người phụ nữ đề xuất sẽ gọi điện trước khi lên tàu điện (電車に乗る前に電話しますね). Người đàn ông đã bác bỏ và đưa ra chỉ dẫn cụ thể: 'Thay vì thế, hãy gọi sau khi xuống xe buýt' (あ、それより、バスを降りてから電話してください) để anh ta có thể ra trạm xe buýt đón cô ấy kịp thời. Do đó, hành động đúng là gọi điện sau khi xuống xe buýt (đáp án C).",
+      "trapVi": "Bẫy thay đổi quyết định: Người nghe dễ chọn nhầm phương án gọi điện trước khi lên tàu điện vì đây là ý kiến đầu tiên của người phụ nữ. Cần đặc biệt chú ý từ khóa chuyển hướng 'それより' (thay vì thế, đúng hơn là) của người đàn ông.",
+      "listeningStrategyVi": "Trong các cuộc hội thoại đưa ra chỉ dẫn/yêu cầu, ý kiến hoặc đề xuất đầu tiên thường bị phủ định hoặc sửa đổi bởi người nói thứ hai. Hãy chú ý lắng nghe phần sau từ nối như 'それより', 'いや', 'やっぱり' để biết quyết định cuối cùng.",
+      "transcriptJa": "男の人は女の人が話しています。男の人は、女の人にどうするように言いました\nか。\n男：じゃあ、あした１１時ごろうちへ来てください。\n女：電車を降りて、そこからバスに乗るんですね。\n男：ええ。バス停まで、迎えに行きますから。\n女：はい、電車に乗る前に電話しますね。\n男：あ、それより、バスを降りてから電話してください。\n男の人は、女の人にどうするように言いましたか。",
+      "translationVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người đàn ông đã bảo người phụ nữ phải làm gì?\nNam: Vậy thì ngày mai khoảng 11 giờ hãy đến nhà tôi nhé.\nNữ: Xuống tàu điện rồi từ đó bắt xe buýt đúng không ạ?\nNam: Vâng. Tôi sẽ ra tận trạm xe buýt đón chị.\nNữ: Vâng, trước khi lên tàu điện tôi sẽ gọi điện nhé.\nNam: À, thay vì thế, chị hãy gọi điện sau khi xuống xe buýt nhé.\nNgười đàn ông đã bảo người phụ nữ phải làm gì?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_012_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-10"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex10-q5.mp3",
+        "durationSec": 54.14
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex10-q5.gif",
+        "alt": "Japanesetest4you Ex 10 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人と、男の人が話しています。時計は、どこにかけますか。",
+      "stemVi": "Người phụ nữ và người đàn ông đang nói chuyện. Họ sẽ treo đồng hồ ở đâu?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Treo trên tivi (テレビの上) bị người phụ nữ từ chối vì sẽ làm mất tập trung khi xem tivi."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Treo trên giá sách (本棚の上) bị người phụ nữ từ chối vì quá cao."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Hai người quyết định treo đồng hồ trên cây (木の上) trước mắt."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Vị trí này không được chọn."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Hai người quyết định treo đồng hồ trên cây vì các vị trí khác (trên tivi, trên giá sách) đều không phù hợp.",
+      "fullExplanationVi": "Đầu tiên, người đàn ông gợi ý treo trên tivi, nhưng người phụ nữ từ chối vì gây mất tập trung khi xem tivi. Tiếp theo, gợi ý treo trên giá sách cũng bị từ chối vì quá cao. Cuối cùng, khi người đàn ông gợi ý treo trên cây (木の上), dù người phụ nữ lo ngại cây lớn lên sẽ che mất nhưng người đàn ông trấn an là hiện tại vẫn ổn. Người phụ nữ đồng ý treo ở đó cho hiện tại (じゃあ、今はそこにしましょう). Vậy đáp án là vị trí số 3 (trên cây, tương ứng với C).",
+      "trapVi": "Bẫy phủ định liên tiếp: Người nghe cần theo dõi mạch hội thoại để loại trừ các phương án bị phủ định (trên tivi, trên giá sách) và bắt kịp sự đồng ý cuối cùng của người phụ nữ ở phương án treo trên cây.",
+      "listeningStrategyVi": "Chú ý lắng nghe phản ứng của người nói (đồng ý hay từ chối) đối với từng gợi ý. Khi nghe thấy 'じゃあ、～にしましょう' (vậy thì quyết định chọn...) hoặc '今はそこにしましょう' (bây giờ hãy chọn chỗ đó) thì đó chính là quyết định cuối cùng.",
+      "transcriptJa": "女の人と、男の人が話しています。時計は、どこにかけますか。時計はやっぱり\n見やすいところがいいわよね。\n男：テレビの上はどう？\n女：うーん、便利だけど、ゆっくりテレビが見られないわね。\n男：本棚の上は？\n女：ちょっと、高すぎるなあ。\n男：その木の上は？\n女：木が大きくなったら見えなくなるわよ。\n男：まだまだ大丈夫だよ。\n女：ま、そうね。じゃあ、今はそこにしましょう。\n時計は、どこにかけますか。",
+      "translationVi": "Người phụ nữ và người đàn ông đang nói chuyện. Họ sẽ treo đồng hồ ở đâu?\nNữ: Đồng hồ thì quả nhiên treo ở chỗ dễ nhìn là tốt nhất nhỉ.\nNam: Trên tivi thì thế nào?\nNữ: Ừm, tiện thì tiện thật nhưng như thế thì không thể thong thả xem tivi được.\nNam: Trên giá sách thì sao?\nNữ: Hơi cao quá nhỉ.\nNam: Trên cái cây kia thì sao?\nNữ: Cây mà lớn lên thì sẽ không nhìn thấy nữa đâu.\nNam: Vẫn còn chưa sao đâu mà.\nNữ: Ừm, cũng đúng nhỉ. Vậy thì bây giờ cứ treo ở đó đi.\nHọ sẽ treo đồng hồ ở đâu?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

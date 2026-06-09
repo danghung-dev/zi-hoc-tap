@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_010_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-8"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex8-q1.mp3",
+        "durationSec": 54.11
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex8-q1.gif",
+        "alt": "Japanesetest4you Ex 8 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "お父さんと娘が話しています。娘は何人で旅行をしましたか？",
+      "stemVi": "Người bố và con gái đang nói chuyện. Người con gái đã đi du lịch với mấy người?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người bố tưởng con gái chỉ đi 2 người với Yoko, nhưng con gái đính chính là có thêm cả 2 người bạn cùng công ty đi cùng nữa."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Ba người không phải là tổng số người trong chuyến đi thực tế (thiếu đi một người trong nhóm 4 người gồm con gái, Yoko, Nakamura và Aoki)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Đúng. Tổng số người tham gia chuyến đi là 4 người: cô con gái, Yoko, Nakamura và Aoki."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Số lượng thành viên tham gia chuyến đi là 4 người chứ không phải 5 người."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Chuyến đi gồm có cô con gái, người bạn tên Yoko, cùng hai người bạn đồng nghiệp là Nakamura và Aoki, tổng cộng là 4 người (đáp án số 3).",
+      "fullExplanationVi": "Khi người bố hỏi về chuyến đi du lịch, cô con gái kể rằng rất vui và mọi người cùng trò chuyện đến đêm muộn. Người bố ngạc nhiên hỏi: 'Ủa? Chẳng phải con đi hai người với Yoko sao?' (洋子さんと二人じゃなかったの？). Cô con gái trả lời rằng có cả hai người bạn đồng nghiệp cùng công ty là Nakamura và Aoki đi cùng nữa (会社の友達の中村さんと青木さんも一緒だったの). Như vậy, thành viên chuyến đi gồm có: cô con gái + Yoko-san + Nakamura-san + Aoki-san = 4 người. Do đó, đáp án đúng là số 3 (四人です).",
+      "trapVi": "Bẫy nằm ở câu hỏi của người bố 'Không phải đi hai người với Yoko sao?' khiến người nghe dễ chọn nhầm số 2. Cần nghe tiếp câu đính chính của người con gái để cộng thêm hai người bạn đồng nghiệp nữa.",
+      "listeningStrategyVi": "Đối với dạng câu hỏi đếm số người hoặc số lượng vật dụng, hãy ghi chú lại từng nhân vật xuất hiện và mối quan hệ của họ. Đừng vội chọn đáp án ngay khi nghe thấy con số đầu tiên, mà cần nghe hết cuộc đối thoại để xác nhận sự thay đổi hoặc bổ sung thông tin.",
+      "transcriptJa": "お父さんと娘が話しています。娘は何人で旅行をしましたか？\nお父さん：お帰り、旅行はどうだった？\n娘：すごく楽しかった。皆で夜遅くまで話して。\nお父さん：え？洋子さんと二人じゃなかったの？\n娘：会社の友達の中村さんと青木さんも一緒だったの。\nお父さん：あーそう。\n娘は何人で旅行をしましたか？\n1．二人です。\n2．三人です。\n3．四人です。\n4．五人です。",
+      "translationVi": "Bố: Mừng con đã về, chuyến đi du lịch thế nào?\nCon gái: Vui lắm bố ạ. Mọi người nói chuyện với nhau tới tận khuya.\nBố: Ơ? Không phải con đi hai người với Yoko à?\nCon gái: Có cả Nakamura và Aoki, bạn cùng công ty, đi cùng nữa ạ.\nBố: À, ra thế."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_010_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-8"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex8-q2.mp3",
+        "durationSec": 75.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex8-q2.gif",
+        "alt": "Japanesetest4you Ex 8 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。女の人はなぜアナウンサになれないと言っていますか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người phụ nữ nói tại sao mình không thể trở thành phát thanh viên?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Người đàn ông khen cô ấy có giọng tốt (声がいい), nên giọng xấu không phải lý do cô ấy tự nhận."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Người đàn ông khen cô ấy phát âm rất rõ ràng (発音もはっきりしている)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Người đàn ông khen cô ấy rất đáng yêu (可愛い)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Đúng. Người phụ nữ tự nhận mình chỉ nói được rất chậm (ゆっくりしか話せない), nghĩa là không thể nói nhanh được."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Người phụ nữ giải thích lý do không thể làm phát thanh viên là vì cô ấy chỉ nói được rất chậm (ゆっくりしか話せない), tương ứng với đáp án số 4 (không thể nói nhanh).",
+      "fullExplanationVi": "Người đàn ông hỏi người phụ nữ muốn làm công việc gì sau khi tốt nghiệp đại học, cô trả lời là muốn làm phát thanh viên (アナウンサー) nhưng không thể. Khi được hỏi lý do tại sao (どうして？), cô giải thích: 'Tôi chỉ có thể nói chậm thôi' (私ゆっくりしか話せないんです). Dù người đàn ông khen cô có giọng hay, phát âm rõ ràng và dễ thương, nhưng cô khẳng định chỉ chừng đó thì không đủ. Do đó, lý do thực sự cô ấy không thể làm phát thanh viên là vì không thể nói nhanh (đáp án số 4).",
+      "trapVi": "Người nghe dễ bị xao nhãng bởi các lời khen của người đàn ông như giọng hay (声がいい), phát âm rõ (発音) hoặc đáng yêu (可愛い). Cần lưu ý đây là ý kiến của người đàn ông để động viên chứ không phải lý do chính người phụ nữ tự nhận.",
+      "listeningStrategyVi": "Đối với câu hỏi về nguyên nhân/lý do của một nhân vật, hãy tập trung vào câu trả lời trực tiếp của chính nhân vật đó (thường đi sau các câu hỏi 'どうして' hoặc 'nguyên nhân/tại sao'). Đừng nhầm lẫn giữa lời nhận xét từ người khác và lời tự nhận của nhân vật chính.",
+      "transcriptJa": "男の人と女の人が話しています。女の人はなぜアナウンサになれないと言ってい\nますか？\n男：大学を卒業したらどんな仕事したいの？\n女：アナウンサ。\n男：えー？\n女：でも駄目なんです。\n男：どうして？\n女：私ゆっくりしか話せないんです。\n男：でも、田中さんは声がいいし、発音もはっきりしているし、それに可愛いか\nら、大丈夫ですよ。\n女：それだけじゃ駄目なんです。\n男：そうなんですか？\n女の人はなぜアナウンサになれないと言っていますか？\n1．声が悪いからです。\n2．発音がはっきりしていないです。\n3．可愛くないからです。\n4．早く話せないからです。",
+      "translationVi": "Đàn ông: Sau khi tốt nghiệp đại học, em muốn làm công việc gì?\nPhụ nữ: Phát thanh viên ạ.\nĐàn ông: Ồ, thế á?\nPhụ nữ: Nhưng mà không được đâu ạ.\nĐàn ông: Tại sao thế?\nPhụ nữ: Em chỉ có thể nói chậm thôi ạ.\nĐàn ông: Nhưng Tanaka có giọng tốt này, phát âm cũng rõ ràng, lại đáng yêu nữa, chắc chắn là ổn mà.\nPhụ nữ: Chỉ thế thì vẫn chưa được đâu ạ.\nĐàn ông: Thế à?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_010_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-8"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex8-q3.mp3",
+        "durationSec": 57.13
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex8-q3.gif",
+        "alt": "Japanesetest4you Ex 8 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "お母さんと娘が話しています。今、どんな天気ですか？今です。",
+      "stemVi": "Người mẹ và con gái đang nói chuyện. Bây giờ thời tiết như thế nào? (Hỏi về thời điểm hiện tại)."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Khi người mẹ hỏi trời đang mưa à (降ってるの？), người con gái trả lời là 'vẫn chưa mưa' (まだだけど)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Con gái nói trời vẫn chưa mưa nhưng trời âm u/tối sầm và có vẻ sắp mưa (空暗いし降りそうよ), tức là trời đang nhiều mây, u ám (曇っています)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Người mẹ có đề cập dự báo thời tiết báo nắng cả ngày (一日中晴れる), nhưng thực tế hiện tại trời đang âm u."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Người con gái nói vì trời lạnh nên lúc đi về mới có thể có tuyết (帰りは雪かもしれない), chứ không phải lúc này."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Mặc dù dự báo nói nắng cả ngày và lúc về có thể có tuyết, người con gái xác nhận thời tiết hiện tại là bầu trời âm u, tối sầm sắp mưa (まだだけど、空暗いし降りそうよ), tức là trời đang nhiều mây/u ám (đáp án số 2).",
+      "fullExplanationVi": "Người con gái chuẩn bị đi học/đi làm và nhờ mẹ lấy hộ ô. Người mẹ hỏi: 'Ơ? Trời đang mưa à?' (降ってるの？). Người con gái trả lời: 'Chưa mưa đâu ạ, nhưng bầu trời âm u và có vẻ sắp mưa rồi' (まだだけど、空暗いし降りそうよ). Bầu trời tối sầm (空暗い) tương ứng với thời tiết nhiều mây, u ám (曇っています). Khi người mẹ thắc mắc vì dự báo thời tiết bảo nắng cả ngày (一日中晴れる), người con gái bổ sung thêm vì trời lạnh nên lúc về (trong tương lai) có thể sẽ có tuyết (帰りは雪かもしれない). Câu hỏi hỏi về thời tiết 'bây giờ' (今), do đó đáp án đúng là trời âm u/nhiều mây (đáp án số 2).",
+      "trapVi": "Đoạn hội thoại nhắc tới mưa (雨 - sắp mưa), nắng (晴れ - dự báo thời tiết nói thế) và tuyết (雪 - có thể rơi lúc về). Người nghe cần phân biệt rõ mốc thời gian 'bây giờ' (今) với 'cả ngày' (一日中) và 'lúc về' (帰り) để tránh nhầm lẫn.",
+      "listeningStrategyVi": "Hãy chú ý kỹ trạng từ chỉ thời gian trong câu hỏi như '今' (bây giờ) hay '帰り' (lúc về). Trong bài nghe, thông tin thường trải dài từ quá khứ, hiện tại đến tương lai, cần bám sát mốc thời gian được hỏi để loại trừ đáp án nhiễu.",
+      "transcriptJa": "お母さんと娘が話しています。今、どんな天気ですか？今です。\n娘：行ってきます。あっ、お母さん、傘はとって。\nお母さん：え？降ってるの？\n娘：まだだけど、空暗いし降りそうよ。\nお母さん：変ね。天気予報じゃ一日中晴れるって言ってたわよ。\n娘：寒いから、帰りは雪かもしれない。\n今、どんな天気ですか？\n1．雨が降っています。\n2．曇っています。\n3．晴れています。\n4．雪が降っています。",
+      "translationVi": "Con gái: Con đi đây ạ. Ơ, mẹ ơi lấy hộ con cái ô với.\nMẹ: Ơ? Trời đang mưa à?\nCon gái: Vẫn chưa ạ, nhưng bầu trời âm u lắm, có vẻ sắp mưa rồi.\nMẹ: Lạ nhỉ. Dự báo thời tiết bảo nắng cả ngày mà.\nCon gái: Vì trời lạnh nên lúc về có khi tuyết rơi cũng nên."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_010_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-8"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex8-q4.mp3",
+        "durationSec": 53.14
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex8-q4.gif",
+        "alt": "Japanesetest4you Ex 8 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人が話しています。どうしてお寺はなくなりましたか？",
+      "stemVi": "Một người phụ nữ đang nói chuyện. Tại sao ngôi chùa lại không còn nữa?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Sai. Tuyết rơi nhiều chỉ là bối cảnh thời gian khi sự việc xảy ra (雪がたくさん降った日) chứ không phải nguyên nhân khiến chùa biến mất."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Đúng. Ngôi chùa bị thiêu rụi bởi hỏa hoạn (火事) bắt nguồn từ lửa của lò sưởi (ストーブの火が原因で)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Người phụ nữ kể rằng ngôi chùa dù có động chất cũng không sao (地震があっても大丈夫だった)."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Ngôi chùa dù có bão lớn thổi qua vẫn an toàn (台風が来ても大丈夫だった)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Ngôi chùa tuy chống chịu được động đất và bão, nhưng đã bị thiêu rụi hoàn toàn do hỏa hoạn phát ra từ chiếc lò sưởi vào một ngày tuyết rơi nhiều (đáp án số 2).",
+      "fullExplanationVi": "Người phụ nữ giới thiệu rằng nơi này từng có một ngôi chùa cổ nổi tiếng. Tuy nhiên, vào một ngày tuyết rơi dày năm ngoái, do lửa từ lò sưởi đã gây hỏa hoạn và thiêu rụi toàn bộ ngôi chùa (ストーブの火が原因で火事になって焼けてしまいました). Cô cũng bày tỏ sự tiếc nuối khi ngôi chùa vốn rất vững chãi, dù có động đất hay bão lớn đổ bộ vẫn không sao. Do đó, nguyên nhân chùa bị phá hủy là vì hỏa hoạn (đáp án số 2).",
+      "trapVi": "Đoạn văn đề cập đến tuyết (雪), động đất (地震) và bão (台風) bên cạnh hỏa hoạn (火事). Người nghe nếu chỉ bắt từ khóa chỉ thiên tai mà bỏ qua cấu trúc ngữ pháp '原因で' (nguyên nhân là) và '大丈夫だった' (vẫn an toàn) thì rất dễ chọn nhầm.",
+      "listeningStrategyVi": "Với câu hỏi tìm nguyên nhân, hãy tìm các từ chỉ nguyên nhân - kết quả như '原因' (nguyên nhân), 'ため' (vì/do). Đồng thời, chú ý các cụm từ mang tính phủ định hoặc nhượng bộ như '～があっても大丈夫' (dù có... cũng không sao) để loại trừ các đáp án nhiễu.",
+      "transcriptJa": "女の人が話しています。どうしてお寺はなくなりましたか？\n女：ここには有名な古いお寺がありました。でも、去年雪がたくさん降った日、\nストーブの火が原因で火事になって焼けてしまいました。地震があっても、台風\nが来ても大丈夫だったのに、本当に残念です。\nどうしてお寺はなくなりましたか？\n1．雪のためです。\n2．火事のためです。\n3．地震のためです。\n4．台風のためです。",
+      "translationVi": "Người phụ nữ: Ở đây từng có một ngôi chùa cổ nổi tiếng. Thế nhưng, vào một ngày tuyết rơi dày năm ngoái, do nguyên nhân từ lửa của lò sưởi đã gây ra hỏa hoạn và thiêu rụi hoàn toàn ngôi chùa. Ngay cả khi có động đất hay bão lớn đến thì chùa vẫn an toàn, vậy mà... thật là đáng tiếc."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_010_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-8"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex8-q5.mp3",
+        "durationSec": 75.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex8-q5.gif",
+        "alt": "Japanesetest4you Ex 8 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。男の人は新しいカメラがどうなると言っていますか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Người đàn ông nói chiếc máy ảnh mới sẽ như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Đúng. Người đàn ông cho biết mẫu máy ảnh mới sẽ có giá rẻ hơn (値段が安いらしい) và cách dùng đơn giản hơn (もっと簡単になる)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Sai. Người đàn ông phủ nhận việc máy ảnh mới sẽ nhỏ gọn hơn (それはないんだけど)."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Sai. Máy ảnh mới sẽ rẻ hơn chứ không đắt hơn (高くなって), đồng thời không nhỏ gọn hơn."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Sai. Máy ảnh mới sẽ rẻ hơn chứ không đắt hơn (高くなって)."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Người đàn ông cho biết mẫu máy ảnh mới sắp ra mắt sẽ có giá rẻ hơn và cách sử dụng đơn giản hơn (đáp án số 1).",
+      "fullExplanationVi": "Người phụ nữ khen chiếc máy ảnh của người đàn ông nhỏ gọn và dễ dùng nên có ý định mua. Người đàn ông khuyên cô nên đợi một chút vì mẫu mới sắp ra mắt. Anh cung cấp thông tin: 'Mẫu mới nghe nói giá sẽ rẻ hơn' (今度はもっと値段が安いらしいよ). Người phụ nữ hỏi tiếp: 'Ồ, thế nó sẽ nhỏ hơn nữa à?' (もっと小さくなるの？). Người đàn ông phủ nhận tính năng nhỏ hơn: 'Không có chuyện đó đâu, nhưng nghe nói sẽ đơn giản/dễ dùng hơn' (それはないんだけど、もっと簡単になるって). Vậy đặc điểm máy mới là rẻ hơn và dễ dùng hơn (đáp án số 1).",
+      "trapVi": "Bẫy ở câu hỏi 'Thế nó sẽ nhỏ hơn nữa à?' của người phụ nữ. Người nghe nếu không chú ý câu trả lời phủ nhận 'Không có chuyện đó đâu' (それはないんだけど) của người đàn ông sẽ dễ chọn nhầm đáp án có từ 'nhỏ hơn'.",
+      "listeningStrategyVi": "Đối với các cuộc đối thoại trao đổi về thuộc tính sản phẩm hoặc kế hoạch thay đổi, hãy chú ý sự tương tác khẳng định/phủ định giữa hai người nói. Phải xác nhận xem một đặc tính được nhắc đến là được chấp nhận hay bác bỏ.",
+      "transcriptJa": "男の人と女の人が話しています。男の人は新しいカメラがどうなると言っていま\nすか？\n女：あ、いいカメラ、小さいよね。\n男：うん、簡単でいいよ。\n女：私もこれ買おうかな。\n男：あ、少し待ったほうがいいよ。\n女：どうして？\n男：もうすぐ新しいのが出るんだよ、今度はもっと値段が安いらしいよ。\n女：えー、そしてもっと小さくなるの？\n男：それはないんだけど、もっと簡単になるって。\n男の人は新しいカメラがどうなると言っていますか？\n1．値段が安くなって簡単になります。\n2．値段が安くなって小さくなります。\n3．値段が高くなって小さくなります。\n4．値段が高くなって簡単になります。",
+      "translationVi": "Phụ nữ: Ồ, chiếc máy ảnh này tốt thế, nhỏ gọn nữa nhỉ.\nĐàn ông: Ừ, đơn giản mà dùng thích lắm.\nPhụ nữ: Hay là em cũng mua một cái nhỉ.\nĐàn ông: À, em nên đợi một chút thì hơn.\nPhụ nữ: Tại sao thế?\nĐàn ông: Sắp sửa có mẫu mới ra mắt đấy, nghe nói lần này giá rẻ hơn.\nPhụ nữ: Thế á? Và nó sẽ nhỏ hơn nữa à?\nĐàn ông: Cái đó thì không có đâu, nhưng nghe nói sẽ dễ dùng hơn đấy."
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "n4_listen_task_007_001",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-5"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex5-q1.mp3",
+        "durationSec": 24.08
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex5-q1.gif",
+        "alt": "Japanesetest4you Ex 5 Q1 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。部屋はどうなりましたか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Căn phòng bây giờ như thế nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Hình 1 biểu thị căn phòng có cửa đóng và đèn vẫn sáng. Lựa chọn này không chính xác vì người phụ nữ yêu cầu giữ cửa mở (\"いいえ、開けていてください\") và tắt điện đi (\"電気は消していきましょう\")."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Hình 2 biểu thị căn phòng có cửa đóng và đèn đã tắt. Lựa chọn này không chính xác vì người phụ nữ nói không cần đóng cửa mà hãy để cửa mở (\"いいえ、開けていてください\")."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": true,
+        "explanationVi": "Đáp án C. Hình 3 biểu thị căn phòng có cửa mở và đèn đã tắt. Đây là đáp án chính xác vì khớp hoàn toàn với yêu cầu của người phụ nữ: giữ nguyên trạng thái mở cửa (\"いいえ、開けていてください\") và tắt điện trước khi rời đi (\"電気は消していきましょう\")."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Hình 4 biểu thị căn phòng có cửa mở và đèn vẫn bật sáng. Lựa chọn này không chính xác vì mặc dù cửa mở đúng yêu cầu, nhưng điện vẫn bật, trong khi người phụ nữ muốn tắt điện (\"電気は消していきましょう\")."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "C",
+      "shortExplanationVi": "Người phụ nữ yêu cầu giữ cửa mở (\"いいえ、開けていてください\") và tắt đèn trước khi đi (\"電気は消していきましょう\"), tương ứng với Hình 3.",
+      "fullExplanationVi": "Trong cuộc hội thoại, người đàn ông chủ động đề xuất đóng cửa: \"ドアを閉めましょうか？\" (Tôi đóng cửa lại nhé?). Người phụ nữ từ chối và yêu cầu giữ cửa mở: \"いいえ、開けていてください\" (Không, hãy cứ mở cửa ra). Tiếp theo, cô bổ sung thêm yêu cầu tắt điện: \"でも、電気は消していきましょう\" (Nhưng chúng ta hãy tắt điện đi trước khi đi nhé). Người đàn ông đồng ý: \"はい、分かりました\" (Vâng, tôi rõ rồi). Do đó, sau cuộc đối thoại này, căn phòng sẽ ở trạng thái cửa mở và đèn tắt, tức là Hình 3.",
+      "trapVi": "Bẫy ở câu này là sự nhầm lẫn giữa đề xuất của người đàn ông (\"đóng cửa\") và quyết định cuối cùng của người phụ nữ (\"giữ cửa mở\"), cũng như hành động đi kèm là \"tắt đèn\". Người nghe cần chú ý đến từ phủ định \"いいえ\" ở đầu câu trả lời của người phụ nữ.",
+      "listeningStrategyVi": "Đối với dạng câu hỏi về trạng thái đồ vật sau đối thoại, hãy chú ý lắng nghe cấu trúc đề xuất \"〜ましょうか\" của một bên và phản hồi của bên còn lại, đặc biệt là các cụm từ thể hiện trạng thái như \"〜ておきます\" (cứ để nguyên như vậy) hoặc \"〜てください\" (hãy làm thế này).",
+      "transcriptJa": "男の人と女の人が話しています。部屋はどうなりましたか？\n男：ドアを閉めましょうか？\n女：いいえ、開けていてください。でも、電気は消していきましょう\n男：はい、分かりました。\n部屋はどうなりましたか？",
+      "translationVi": "Nam: Tôi đóng cửa lại nhé?\nNữ: Không, hãy cứ mở cửa ra. Nhưng chúng ta hãy tắt điện đi trước khi đi nhé.\nNam: Vâng, tôi rõ rồi.\nHỏi: Căn phòng bây giờ như thế nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_007_002",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-5"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex5-q2.mp3",
+        "durationSec": 29.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex5-q2.gif",
+        "alt": "Japanesetest4you Ex 5 Q2 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。女の人は始めにいくら出しましたか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Ban đầu người phụ nữ đã đưa ra bao nhiêu tiền?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Hình 1 biểu thị số tiền 1500 yên. Lựa chọn này không chính xác vì nếu người phụ nữ đưa 1500 yên thì số tiền còn thiếu sẽ là 100 yên (1600 - 1500 = 100), chứ không phải thiếu 50 yên."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Hình 2 biểu thị số tiền 1600 yên. Lựa chọn này không chính xác vì 1600 yên là tổng số tiền cần trả. Nếu người phụ nữ đưa đủ 1600 yên ngay từ đầu thì nhân viên đã không báo thiếu tiền."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Hình 3 biểu thị số tiền 1650 yên. Lựa chọn này không chính xác vì đây là kết quả của việc cộng nhầm 50 yên vào tổng hóa đơn (1600 + 50 = 1650), nếu đưa số tiền này thì người phụ nữ sẽ được thối lại chứ không phải bị thiếu."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": true,
+        "explanationVi": "Đáp án D. Hình 4 biểu thị số tiền 1550 yên. Đây là đáp án chính xác vì tổng số tiền là 1600 yên nhưng bị thiếu mất 50 yên, do đó số tiền người phụ nữ đưa ban đầu là: 1600 - 50 = 1550 yên."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "D",
+      "shortExplanationVi": "Tổng hóa đơn là 1600 yên, người bán hàng thông báo thiếu 50 yên, nghĩa là người phụ nữ ban đầu chỉ đưa 1550 yên (Hình 4).",
+      "fullExplanationVi": "Trong hội thoại, nhân viên cửa hàng báo giá: \"全部で１６００円です\" (Tổng cộng là 1600 yên). Người phụ nữ đưa tiền, nhưng nhân viên thông báo: \"あれ、５０円足りませんよ\" (Ơ kìa, thiếu mất 50 yên rồi). Để tính số tiền ban đầu người phụ nữ đã đưa ra, ta lấy tổng số tiền cần thanh toán trừ đi số tiền còn thiếu: 1600 yên - 50 yên = 1550 yên. Do đó, đáp án đúng là Hình 4.",
+      "trapVi": "Bẫy ở câu này nằm ở từ \"足りません\" (thiếu/không đủ). Nếu không nghe kỹ hoặc hấp tấp làm phép tính, người nghe dễ lấy 1600 + 50 = 1650 yên (Hình 3) hoặc nhầm lẫn với tổng tiền 1600 yên (Hình 2).",
+      "listeningStrategyVi": "Đối với các bài toán tính tiền, hãy ghi chú nhanh tổng tiền được nhắc đến và từ khóa liên quan như \"足りない\" (thiếu -> thực hiện phép trừ) hoặc \"お釣り\" (tiền thừa -> thực hiện phép cộng hoặc trừ tùy câu hỏi). Hãy luôn xác định rõ câu hỏi đang hỏi về số tiền nào (số tiền ban đầu, số tiền thiếu, hay số tiền được thối lại).",
+      "transcriptJa": "男の人と女の人が話しています。女の人は始めにいくら出しましたか？\n男：はい、お客さん。全部で１６００円です。\n女：はい。\n男：あれ、５０円足りませんよ。\n女：あらー 。\n女の人は始めにいくら出しましたか？",
+      "translationVi": "Nam: Vâng, thưa quý khách. Tổng cộng là 1600 yên ạ.\nNữ: Vâng.\nNam: Ơ, thiếu mất 50 yên rồi ạ.\nNữ: Ôi trời.\nHỏi: Người phụ nữ ban đầu đã đưa ra bao nhiêu tiền?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_007_003",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-5"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex5-q3.mp3",
+        "durationSec": 34.13
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex5-q3.gif",
+        "alt": "Japanesetest4you Ex 5 Q3 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が話しています。二人は何時に会いますか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang nói chuyện. Hai người sẽ gặp nhau lúc mấy giờ?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Hình 1 biểu thị mốc thời gian 8:00. Đây là đáp án chính xác vì bữa tiệc bắt đầu lúc 8:30 và hai người đã đồng ý gặp nhau trước giờ bắt đầu 30 phút (8:30 - 30 phút = 8:00)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Hình 2 biểu thị mốc thời gian 8:10 hoặc 8:15. Lựa chọn này không chính xác vì đây chỉ là khoảng thời gian 15-20 phút uống trà trước tiệc mà người phụ nữ đề cập, chứ không phải giờ hẹn gặp đã thống nhất."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Hình 3 biểu thị mốc thời gian 8:30. Lựa chọn này không chính xác vì đây là giờ bắt đầu bữa tiệc chứ không phải giờ hai người hẹn gặp nhau."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Hình 4 biểu thị mốc thời gian khác (ví dụ: 8:45 hoặc 9:00). Lựa chọn này không chính xác vì thời gian này trễ hơn thời gian bắt đầu tiệc."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Bữa tiệc bắt đầu lúc 8:30, họ thống nhất gặp nhau trước khi tiệc bắt đầu 30 phút, tức là lúc 8:00 (Hình 1).",
+      "fullExplanationVi": "Trong hội thoại, người đàn ông xác nhận thời gian bắt đầu tiệc: \"今晩のパーティー、八時半からだね\" (Bữa tiệc tối nay bắt đầu từ 8:30 nhỉ). Người phụ nữ đề xuất đi uống trà khoảng 15-20 phút trước khi tiệc diễn ra. Người đàn ông liền đề nghị: \"じゃー、パーティーが始まる 30 分前に会うか？\" (Vậy chúng ta gặp nhau trước khi tiệc bắt đầu 30 phút nhé?). Người phụ nữ đồng ý: \"いいわね、そうしましょう\" (Được đấy, quyết định thế đi). Thời gian gặp nhau sẽ là: 8:30 - 30 phút = 8:00. Vì vậy, Hình 1 là đáp án đúng.",
+      "trapVi": "Bẫy ở câu này là con số \"15 phút hoặc 20 phút\" (15分か20分ぐらい) uống trà mà người phụ nữ đưa ra ban đầu. Người nghe nếu không chú ý đến lời đề xuất chốt cuối cùng của người đàn ông (\"gặp trước 30 phút\") và sự đồng thuận của người phụ nữ thì rất dễ làm phép tính sai lệch ra 8:10 hoặc 8:15.",
+      "listeningStrategyVi": "Khi nghe hội thoại lên lịch trình, hãy ghi chú lại mốc thời gian gốc (8:30) và các mốc thời gian đề xuất. Luôn luôn tập trung vào câu chốt ở cuối đoạn đối thoại, nơi cả hai người đạt được sự đồng thuận bằng các từ như \"そうしましょう\" (hãy làm thế đi) hoặc \"分かりました\" (tôi hiểu rồi).",
+      "transcriptJa": "男の人と女の人が話しています。二人は何時に会いますか？\n男：今晩のパーティー、八時半からだね\n女：うん。でも始まる前に 15 分か 20 分ぐらいお茶飲むか行かない？\n男：そうだね。じゃー、パーティーが始まる 30 分前に会うか？\n女：いいわね、そうしましょう。\n二人は何時に会いますか？",
+      "translationVi": "Nam: Bữa tiệc tối nay bắt đầu từ lúc 8 giờ rưỡi đúng không nhỉ?\nNữ: Ừm. Nhưng trước khi bắt đầu, chúng mình đi uống trà khoảng 15 hay 20 phút không?\nNam: Đúng thế nhỉ. Vậy thì gặp nhau trước khi tiệc bắt đầu 30 phút nhé?\nNữ: Được đấy, chúng ta làm thế đi.\nHỏi: Two people will meet at what time?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_007_004",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-5"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex5-q4.mp3",
+        "durationSec": 31.1
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex5-q4.gif",
+        "alt": "Japanesetest4you Ex 5 Q4 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "女の人が話しています。いなくなった猫はどの猫ですか？",
+      "stemVi": "Một người phụ nữ đang nói chuyện. Con mèo bị mất tích là con mèo nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "explanationVi": "Đáp án A. Hình 1 biểu thị chú mèo lông dài, thân trắng và hai chân sau màu đen. Đây là đáp án chính xác vì khớp hoàn toàn với các đặc điểm: \"体が白くて\" (thân trắng), \"毛も長い\" (lông dài), và \"後ろの足だけ黒い\" (chỉ có hai chân sau là màu đen)."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "explanationVi": "Đáp án B. Hình 2 biểu thị chú mèo có thân trắng, chân sau đen nhưng lông ngắn. Lựa chọn này không chính xác vì chú mèo bị lạc được mô tả là có lông dài (\"毛も長い\")."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Hình 3 biểu thị chú mèo có lông dài, thân trắng nhưng chân trước màu đen (hoặc có đặc điểm sai lệch khác). Lựa chọn này không chính xác vì mèo bị lạc chỉ có chân sau màu đen (\"後ろの足だけ黒い\")."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Hình 4 biểu thị chú mèo có thân trắng, lông ngắn và chân trước màu đen. Lựa chọn này sai hoàn toàn cả về độ dài lông lẫn vị trí chân đen."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "A",
+      "shortExplanationVi": "Con mèo bị lạc có đặc điểm là thân màu trắng, lông dài và chỉ có hai chân sau màu đen, khớp hoàn toàn với Hình 1.",
+      "fullExplanationVi": "Trong đoạn thông báo, người phụ nữ liệt kê rõ ràng 3 đặc điểm nhận dạng của chú mèo bị lạc:\n1. \"体が白くて\" (Thân màu trắng)\n2. \"毛も長いの子で\" (Là chú mèo có lông dài)\n3. \"後ろの足だけ黒い猫です\" (Chỉ có hai chân sau là màu đen).\nHình 1 là hình duy nhất thể hiện đúng cả ba đặc điểm này: lông dài xù, toàn thân trắng ngoại trừ hai chân sau màu đen. Do đó, đây là đáp án đúng.",
+      "trapVi": "Bẫy ở câu này nằm ở việc phân biệt vị trí màu lông đen trên chân mèo: chân trước (\"前の足\") hay chân sau (\"後ろの足\"), cũng như đặc điểm lông dài (\"毛も長い\") hay lông ngắn. Nếu nghe lướt qua từ \"足\" mà không bắt được từ định hướng \"後ろ\" (phía sau), người nghe dễ chọn nhầm sang các đáp án khác.",
+      "listeningStrategyVi": "Đối với các câu hỏi nhận diện đối tượng qua mô tả ngoại hình, hãy ghi chú nhanh các từ khóa chỉ đặc điểm vật lý (màu sắc, kích thước, bộ phận cơ thể) theo thứ tự xuất hiện. Sau đó dùng phương pháp loại trừ trực tiếp trên các hình vẽ để tìm ra hình khớp nhất.",
+      "transcriptJa": "女の人が話しています。いなくなった猫はどの猫ですか？\n女：うちの猫はいなくなりました。体が白くて、毛も長いの子で、後ろの足だけ\n黒い猫です。猫を見た人は教えてください。お願いします。\nいなくなった猫はどの猫ですか？",
+      "translationVi": "Nữ: Con mèo nhà tôi bị lạc mất rồi. Nó là một chú mèo có thân màu trắng, lông dài, và chỉ có hai chân sau là màu đen. Ai nhìn thấy bé xin vui lòng báo cho tôi biết với ạ. Xin cảm ơn.\nHỏi: Con mèo bị mất tích là con mèo nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  },
+  {
+    "id": "n4_listen_task_007_005",
+    "level": "N4",
+    "section": "listening",
+    "jlptItemType": "task_based_comprehension",
+    "uiTemplate": "listening_player",
+    "difficulty": 2,
+    "tags": [
+      "listening",
+      "japanesetest4you",
+      "exercise-5"
+    ],
+    "customClassification": {
+      "source": "zi_jlpt_n4_taxonomy_v1",
+      "categoryId": "LISTENING_M1",
+      "categoryName": "Nghe hiểu Mondai 1",
+      "displayLabel": "N4 Nghe: Mondai 1",
+      "showOnCard": true
+    },
+    "media": {
+      "audio": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/audio/listening/jtest4you-ex5-q5.mp3",
+        "durationSec": 55.12
+      },
+      "image": {
+        "src": "https://raw.githubusercontent.com/danghung-dev/tiengnhat/main/public/assets/levels/n4/images/listening/jtest4you-ex5-q5.gif",
+        "alt": "Japanesetest4you Ex 5 Q5 Image"
+      }
+    },
+    "question": {
+      "instruction": "もんだい１では、はじめにしつもんをきいてください。それからはなしをきいて、もんだいようしの１から４のなかから、いちばんいいものをひとつえらんでください。",
+      "instructionVi": "Nghe đoạn băng và chọn đáp án chính xác nhất.",
+      "textVisibleBeforeAudio": true,
+      "stem": "男の人と女の人が写真を見ながら話しています。この男の人の一番上の娘はどの人ですか？",
+      "stemVi": "Một người đàn ông và một người phụ nữ đang vừa xem ảnh vừa nói chuyện. Con gái lớn nhất của người đàn ông này là người nào?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "explanationVi": "Đáp án A. Hình 1 biểu thị người con gái có vóc dáng cao lớn hơn trong bức ảnh. Lựa chọn này không chính xác vì người bố đã giải thích rằng cô con gái lớn hơn thực chất lại là em gái (\"この大きい方が妹なんですよ\")."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": true,
+        "explanationVi": "Đáp án B. Hình 2 biểu thị người con gái có vóc dáng nhỏ bé/thấp hơn trong bức ảnh. Đây là đáp án chính xác vì người bố cho biết người con gái lớn học lớp 9, người em học lớp 7, nhưng người em lại cao lớn hơn. Do đó, người chị lớn nhất phải là người thấp hơn."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "explanationVi": "Đáp án C. Hình 3 biểu thị người vợ (người mẹ) trong ảnh. Lựa chọn này không chính xác vì người phụ nữ khen người vợ trông trẻ trung, đây không phải là một trong hai cô con gái."
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "isCorrect": false,
+        "explanationVi": "Đáp án D. Hình 4 biểu thị người em gái nhỏ khác hoặc thành viên khác. Lựa chọn này không chính xác."
+      }
+    ],
+    "answer": {
+      "correctOptionId": "B",
+      "shortExplanationVi": "Chị lớn học lớp 9, em gái học lớp 7. Người bố cho biết cô em gái lại có vóc dáng to cao hơn, suy ra chị lớn (con gái lớn nhất) là người thấp bé hơn (Hình 2).",
+      "fullExplanationVi": "Trong đoạn hội thoại, khi người phụ nữ hỏi về hai cô con gái lớn cao hơn mẹ trong ảnh xem có phải học sinh cấp 3 không (\"高校生ですか？\"), người bố phủ định và cho biết: \"いいえ、まだ中学生。上は三年生で、下は一年生。\" (Không, vẫn là học sinh cấp 2. Chị lớn học lớp 9, em gái học lớp 7). Tiếp sau đó, người bố làm rõ thông tin quan trọng nhất để trả lời câu hỏi: \"この大きい方が妹なんですよ\" (Đứa to cao hơn này lại là em gái đấy). Từ dữ kiện này, chúng ta suy ra được cô con gái lớn nhất (chị lớn, học lớp 9) chính là người có vóc dáng thấp bé hơn trong hai chị em. Do đó, đáp án đúng là Hình 2.",
+      "trapVi": "Bẫy của câu hỏi này đánh vào định kiến thông thường: chị lớn thì phải cao hơn em nhỏ. Nếu người nghe không bắt được từ \"妹\" (em gái) trong câu \"この大きい方が妹なんですよ\" (Đứa to cao hơn lại là em gái đấy) thì sẽ dễ dàng chọn nhầm người con gái cao lớn hơn (Hình 1).",
+      "listeningStrategyVi": "Đối với các câu hỏi về mối quan hệ gia đình và nhận diện người qua ảnh, hãy cẩn thận với thông tin so sánh ngược với tự nhiên/thông thường (ví dụ: em cao hơn chị, chị trông trẻ hơn em). Tập trung nghe rõ danh từ xưng hô đi kèm với tính từ mô tả ngoại hình (\"大きい方\" - đứa lớn hơn, \"妹\" - em gái).",
+      "transcriptJa": "男の人と女の人が写真を見ながら話しています。この男の人の一番上の娘はどの人ですか？一番上の娘です。\n男：これ、この前家族皆で撮った写真。\n女：えー、奥さんいつも若いですね、うえの嬢さんたち二人はお母さんより大きいですけど、高校生ですか？\n男：いいえ、まだ中学生。上は三年生で、下は一年生。この大きい方が妹なんですよ。もうすぐ僕より高くなりそうでしょう。\n女：本当。\nこの男の人の一番上の娘はどの人ですか？",
+      "translationVi": "Nam: Đây là bức ảnh cả gia đình chụp cùng nhau hôm trước.\nNữ: Ồ, vợ anh lúc nào trông cũng trẻ trung nhỉ. Hai cô con gái lớn hơn cả mẹ rồi, họ là học sinh cấp ba à anh?\nNam: Không, vẫn là học sinh cấp hai thôi. Đứa lớn học lớp chín (năm 3), đứa nhỏ học lớp bảy (năm 1). Cái đứa to cao hơn này lại là em gái đấy. Trông có vẻ sắp cao hơn tôi đến nơi rồi.\nNữ: Thật thế à.\nHỏi: Con gái lớn nhất của người đàn ông này là người nào?"
+    },
+    "playbackPolicy": {
+      "practiceModeReplay": true,
+      "examModeReplay": false,
+      "showTranscriptBeforeAnswer": false,
+      "showTranscriptAfterAnswer": true
+    }
+  }
+]
