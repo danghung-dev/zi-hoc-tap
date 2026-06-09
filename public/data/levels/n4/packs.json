@@ -207,42 +207,6 @@
     "count": 2
   },
   {
-    "id": "n4_listen_task_002",
-    "section": "listening",
-    "jlptItemType": "task_based_comprehension",
-    "uiTemplate": "listening_player",
-    "file": "listening/task-based-comprehension-002.json",
-    "title": "聴解 問題1 - Task-based comprehension (Đề 5)",
-    "count": 8
-  },
-  {
-    "id": "n4_listen_point_002",
-    "section": "listening",
-    "jlptItemType": "comprehension_of_key_points",
-    "uiTemplate": "listening_player",
-    "file": "listening/comprehension-of-key-points-002.json",
-    "title": "聴解 問題2 - Comprehension of key points (Đề 5)",
-    "count": 7
-  },
-  {
-    "id": "n4_listen_verbal_002",
-    "section": "listening",
-    "jlptItemType": "verbal_expressions",
-    "uiTemplate": "listening_player",
-    "file": "listening/verbal-expressions-002.json",
-    "title": "聴解 問題3 - Verbal expressions (Đề 5)",
-    "count": 8
-  },
-  {
-    "id": "n4_listen_quick_002",
-    "section": "listening",
-    "jlptItemType": "quick_response",
-    "uiTemplate": "listening_player",
-    "file": "listening/quick-response-002.json",
-    "title": "聴解 問題4 - Quick response (Đề 5)",
-    "count": 9
-  },
-  {
     "id": "n4_listen_task_003",
     "section": "listening",
     "jlptItemType": "task_based_comprehension",
