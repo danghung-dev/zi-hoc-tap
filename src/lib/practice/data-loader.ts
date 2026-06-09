@@ -39,7 +39,10 @@ export async function loadPack(level: string, file: string): Promise<Question[]>
 
 export async function loadAllQuestions(level: string): Promise<Question[]> {
   const packs = await loadPacks(level);
-  const questionPromises = packs.map(pack => loadPack(level, pack.file));
+  const questionPromises = packs.map(async (pack) => {
+    const questions = await loadPack(level, pack.file);
+    return questions.map(q => ({ ...q, packId: pack.id }));
+  });
   const questionPacks = await Promise.all(questionPromises);
   return questionPacks.flat();
 }

@@ -63,6 +63,7 @@ export interface QuestionBase {
   difficulty: number;
   tags: string[];
   customClassification?: CustomClassification;
+  packId?: string; // New field
 }
 
 export interface StandardQuizQuestion extends QuestionBase {
