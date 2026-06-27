@@ -43,6 +43,7 @@ interface AppKanjiCard {
   on_yomi?: string;
   kun_yomi?: string;
   mnemonic?: string;
+  image_path?: string;
   examples?: { word: string; hiragana: string; meaning: string }[];
   level?: "N3" | "N4";
 }
@@ -853,11 +854,26 @@ export default function Page() {
                         <span className="text-xs text-emerald-400 uppercase tracking-widest font-bold font-mono">Answer</span>
                       </div>
                       {activeDeck.length > 0 && activeDeck[currentCardIndex].isKanjiCard ? (
-                        <div className="flex flex-col items-center justify-center text-center gap-2 my-auto w-full px-4 overflow-y-auto max-h-[190px] pr-1">
+                        <div className="flex flex-col items-center justify-start text-center gap-2 w-full px-4 overflow-y-auto max-h-[170px] pr-1 py-1">
                           <span className="text-2xl font-bold text-indigo-300 font-sans">
                             {activeDeck[currentCardIndex].han_viet ? `Hán Việt: ${activeDeck[currentCardIndex].han_viet}` : activeDeck[currentCardIndex].hiragana}
                           </span>
                           <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
+                          
+                          {activeDeck[currentCardIndex].image_path && (
+                            <div className="my-1 flex justify-center">
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img
+                                src={(() => {
+                                  const path = activeDeck[currentCardIndex].image_path!;
+                                  const filename = path.includes('/') ? path.split('/').pop() : path;
+                                  return `/images/kanji_n3/${filename}`;
+                                })()}
+                                alt="Kanji memory aid"
+                                className="max-h-[90px] rounded-lg border border-slate-700/60 shadow bg-slate-950/20 object-contain p-0.5"
+                              />
+                            </div>
+                          )}
                           
                           {activeDeck[currentCardIndex].on_yomi && (
                             <div className="text-xs text-slate-300">

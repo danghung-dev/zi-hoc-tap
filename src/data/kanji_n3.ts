@@ -14,6 +14,7 @@ export interface KanjiCardN3 {
   on_yomi?: string;
   kun_yomi?: string;
   mnemonic?: string;
+  image_path?: string;
   examples?: { word: string; hiragana: string; meaning: string }[];
 }
 
@@ -88,6 +89,7 @@ rawN3Data.forEach((item: any) => {
     on_yomi: item.on_yomi || undefined,
     kun_yomi: item.kun_yomi || undefined,
     mnemonic: item.mnemonic || undefined,
+    image_path: item.image_path || undefined,
     examples: item.examples && item.examples.length > 0 ? item.examples : undefined,
   });
 
