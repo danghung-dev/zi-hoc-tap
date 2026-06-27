@@ -506,7 +506,7 @@ export default function Page() {
   return (
     <div className="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
       {/* Header */}
-      <header className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+      <header className="border-b border-slate-800 bg-slate-900/50 backdrop-blur">
         <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-indigo-600 rounded-xl shadow-lg shadow-indigo-500/30">
@@ -793,7 +793,7 @@ export default function Page() {
             {/* Right Side Flashcards & Mistakes Report */}
             <div className="lg:col-span-8 flex flex-col gap-6">
               {/* Main Study Screen */}
-              <div className="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col items-center gap-6 shadow-xl relative overflow-hidden">
+              <div className="bg-slate-900 rounded-3xl p-4 sm:p-6 border border-slate-800 flex flex-col items-center gap-6 shadow-xl relative overflow-hidden">
                 <div className="absolute -top-40 -right-40 w-80 h-80 bg-indigo-600/5 rounded-full blur-3xl pointer-events-none"></div>
                 <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-600/5 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -817,19 +817,18 @@ export default function Page() {
                   ></div>
                 </div>
 
-                {/* 3D Flashcard */}
                 <div
                   onClick={flipCard}
-                  className="w-full max-w-md h-72 card-perspective cursor-pointer z-10"
+                  className="w-full max-w-lg h-[510px] card-perspective cursor-pointer z-10"
                 >
                   <div className={`w-full h-full card-inner relative shadow-2xl rounded-2xl ${isFlipped ? "flipped" : ""}`}>
                     {/* Front side (Kanji) */}
-                    <div className="card-front bg-slate-800 border border-slate-700/85 rounded-2xl flex flex-col items-center justify-between p-6">
+                    <div className="card-front bg-slate-800 border border-slate-700/85 rounded-2xl flex flex-col items-center justify-between py-6 px-3 sm:px-6">
                       <div className="w-full flex justify-end">
                         <span className="text-xs text-indigo-400 uppercase tracking-widest font-bold font-mono">Kanji</span>
                       </div>
                       <div className="flex flex-col items-center justify-center gap-3">
-                        <span className="text-6xl font-bold tracking-wider text-slate-100 font-sans">
+                        <span className="text-7xl font-extrabold tracking-wider text-slate-100 font-sans">
                           {activeDeck.length > 0 ? activeDeck[currentCardIndex].kanji : "--"}
                         </span>
                       </div>
@@ -840,7 +839,7 @@ export default function Page() {
                     </div>
 
                     {/* Back side (Hiragana & Meaning) */}
-                    <div className="card-back bg-slate-800 border-2 border-indigo-500/40 rounded-2xl flex flex-col items-center justify-between p-6">
+                    <div className="card-back bg-slate-800 border-2 border-indigo-500/40 rounded-2xl flex flex-col items-center justify-between py-6 px-3 sm:px-6">
                       <div className="w-full flex justify-between items-center">
                         <button
                           onClick={(e) => {
@@ -855,7 +854,7 @@ export default function Page() {
                         <span className="text-xs text-emerald-400 uppercase tracking-widest font-bold font-mono">Answer</span>
                       </div>
                       {activeDeck.length > 0 && activeDeck[currentCardIndex].isKanjiCard ? (
-                        <div className="flex flex-col items-center justify-start text-center gap-2 w-full px-4 overflow-y-auto max-h-[170px] pr-1 py-1">
+                        <div className="flex flex-col items-center justify-start text-center gap-2 w-full px-1 sm:px-2 overflow-y-auto max-h-[390px] pr-1 py-1">
                           <span className="text-2xl font-bold text-indigo-300 font-sans flex items-center justify-center gap-2 flex-wrap">
                             <span>
                               {activeDeck[currentCardIndex].han_viet ? `Hán Việt: ${activeDeck[currentCardIndex].han_viet}` : activeDeck[currentCardIndex].hiragana}
@@ -866,7 +865,7 @@ export default function Page() {
                           </span>
                           <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
                           {(activeDeck[currentCardIndex].on_yomi || activeDeck[currentCardIndex].kun_yomi) && (
-                            <div className="text-[11px] text-slate-300 flex items-center justify-center gap-2.5 flex-wrap">
+                            <div className="text-base text-slate-100 flex items-center justify-center gap-2.5 flex-wrap font-medium">
                               {activeDeck[currentCardIndex].on_yomi && (
                                 <div>
                                   <span className="font-semibold text-slate-400">On'yomi: </span>
@@ -874,7 +873,7 @@ export default function Page() {
                                 </div>
                               )}
                               {activeDeck[currentCardIndex].on_yomi && activeDeck[currentCardIndex].kun_yomi && (
-                                <span className="text-slate-600 font-bold">•</span>
+                                <span className="text-slate-650 font-bold">•</span>
                               )}
                               {activeDeck[currentCardIndex].kun_yomi && (
                                 <div>
@@ -886,7 +885,7 @@ export default function Page() {
                           )}
 
                           {activeDeck[currentCardIndex].mnemonic && (
-                            <div className="text-xs bg-slate-900/60 p-2 rounded border border-slate-800/80 text-slate-300 italic max-w-full text-left">
+                            <div className="text-base bg-slate-900/60 p-3 rounded-xl border border-slate-800/80 text-slate-100 italic max-w-full text-left">
                               💡 {activeDeck[currentCardIndex].mnemonic}
                             </div>
                           )}
@@ -914,9 +913,9 @@ export default function Page() {
                           )}
 
                           {activeDeck[currentCardIndex].examples && activeDeck[currentCardIndex].examples!.length > 0 && (
-                            <div className="w-full text-left mt-1 border-t border-slate-700/50 pt-1.5">
-                              <span className="text-[10px] text-slate-400 font-semibold block mb-0.5">Ví dụ từ vựng:</span>
-                              <ul className="text-[11px] text-emerald-300 space-y-0.5">
+                            <div className="w-full text-left mt-1.5 border-t border-slate-700/50 pt-2">
+                              <span className="text-sm text-slate-400 font-bold block mb-1">Ví dụ từ vựng:</span>
+                              <ul className="text-sm sm:text-base text-emerald-400 space-y-1.5">
                                 {activeDeck[currentCardIndex].examples!.slice(0, 3).map((ex, i) => (
                                   <li key={i} className="list-disc list-inside truncate">
                                     <span className="font-semibold">{ex.word}</span> ({ex.hiragana}): {ex.meaning}
@@ -927,7 +926,7 @@ export default function Page() {
                           )}
                         </div>
                       ) : (
-                        <div className="flex flex-col items-center justify-center text-center gap-2 my-auto w-full px-4">
+                        <div className="flex flex-col items-center justify-center text-center gap-2 my-auto w-full px-1 sm:px-2">
                           <span className="text-3xl font-extrabold text-slate-100 font-sans tracking-wide">
                             {activeDeck.length > 0 ? activeDeck[currentCardIndex].kanji : "--"}
                           </span>
