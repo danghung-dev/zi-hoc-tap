@@ -66,6 +66,7 @@ export default function Page() {
   const [activeDeck, setActiveDeck] = useState<AppKanjiCard[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [previewImage, setPreviewImage] = useState<string | null>(null);
   const [mistakeStats, setMistakeStats] = useState<Record<string, { wrong: number; correct: number }>>({});
 
   // Grammar States
@@ -870,7 +871,14 @@ export default function Page() {
                                   return `/images/kanji_n3/${filename}`;
                                 })()}
                                 alt="Kanji memory aid"
-                                className="max-h-[90px] rounded-lg border border-slate-700/60 shadow bg-slate-950/20 object-contain p-0.5"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  const path = activeDeck[currentCardIndex].image_path!;
+                                  const filename = path.includes('/') ? path.split('/').pop() : path;
+                                  setPreviewImage(`/images/kanji_n3/${filename}`);
+                                }}
+                                className="max-h-[110px] rounded-lg border border-slate-700/60 shadow bg-slate-950/20 object-contain p-0.5 cursor-zoom-in transition transform hover:scale-105 duration-200"
+                                title="Bấm để phóng to hình"
                               />
                             </div>
                           )}
@@ -1334,6 +1342,39 @@ export default function Page() {
           </div>
         </div>
       )}
+
+      {/* Full-screen Image Preview Modal */}
+      {previewImage && (
+        <div 
+          onClick={() => setPreviewImage(null)}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 backdrop-blur-md cursor-zoom-out p-4 transition-all duration-300"
+          style={{ animation: "fadeIn 0.2s ease-out" }}
+        >
+          <div className="relative max-w-4xl max-h-[85vh] flex flex-col items-center gap-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src={previewImage} 
+              alt="Kanji memory aid full size" 
+              className="max-w-full max-h-[80vh] object-contain rounded-2xl border border-slate-800 shadow-2xl bg-slate-950 p-2"
+              style={{ animation: "scaleUp 0.2s cubic-bezier(0.34, 1.56, 0.64, 1)" }}
+            />
+            <p className="text-slate-400 text-xs bg-slate-900/80 px-3 py-1.5 rounded-full border border-slate-800/80">
+              Nhấp vào bất kỳ đâu để đóng
+            </p>
+          </div>
+        </div>
+      )}
+
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes scaleUp {
+          from { transform: scale(0.9); opacity: 0; }
+          to { transform: scale(1); opacity: 1; }
+        }
+      `}</style>
 
       {/* Footer */}
       <footer className="border-t border-slate-900/60 bg-slate-950 py-6 text-center text-xs text-slate-500 mt-auto">
