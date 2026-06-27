@@ -1,0 +1,8039 @@
+[
+  {
+    "index": 1,
+    "kanji": "駐",
+    "han_viet": "Trú",
+    "on_yomi": "ちゅう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "駐車",
+        "hiragana": "ちゅうしゃ",
+        "meaning": "đỗ xe"
+      },
+      {
+        "word": "駐車場",
+        "hiragana": "ちゅうしゃじょう",
+        "meaning": "bãi đỗ xe"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 2,
+    "kanji": "無",
+    "han_viet": "Vô",
+    "on_yomi": "む",
+    "kun_yomi": "ない",
+    "mnemonic": "Ngôi nhà bị cháy và tất cả mất hết",
+    "examples": [
+      {
+        "word": "無料",
+        "hiragana": "むりょう",
+        "meaning": "miễn phí"
+      },
+      {
+        "word": "無理",
+        "hiragana": "むり",
+        "meaning": "vô lý, không thể"
+      },
+      {
+        "word": "無い",
+        "hiragana": "ない",
+        "meaning": "không có"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 3,
+    "kanji": "満",
+    "han_viet": "Mãn",
+    "on_yomi": "まん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "満車",
+        "hiragana": "まんしゃ",
+        "meaning": "(bãi đỗ) đầy xe"
+      },
+      {
+        "word": "満員",
+        "hiragana": "まんいん",
+        "meaning": "đầy người"
+      },
+      {
+        "word": "不満",
+        "hiragana": "ふまん",
+        "meaning": "không đủ （người）, ngoài ra từ này còn có nghĩa là không hài lòng, bất mãn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 4,
+    "kanji": "向",
+    "han_viet": "Hướng",
+    "on_yomi": "こう",
+    "kun_yomi": "む-こう\nむ-かう\nむ-き",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "方向",
+        "hiragana": "ほうこう",
+        "meaning": "phương hướng"
+      },
+      {
+        "word": "向かう",
+        "hiragana": "むかう",
+        "meaning": "hướng tới"
+      },
+      {
+        "word": "向こう",
+        "hiragana": "むこう",
+        "meaning": "phía bên kia, phía đó"
+      },
+      {
+        "word": "向き",
+        "hiragana": "むき",
+        "meaning": "hướng (xe)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 5,
+    "kanji": "禁",
+    "han_viet": "Cấm",
+    "on_yomi": "きん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "禁止",
+        "hiragana": "きんし",
+        "meaning": "cấm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 6,
+    "kanji": "関",
+    "han_viet": "Quan",
+    "on_yomi": "かん",
+    "kun_yomi": "",
+    "mnemonic": "Để tạo mối quan hệ tốt, tôi đã mang quà tới đợi ở cổng (門)",
+    "examples": [
+      {
+        "word": "関心",
+        "hiragana": "かんしん",
+        "meaning": "quan tâm"
+      },
+      {
+        "word": "関する",
+        "hiragana": "かんする",
+        "meaning": "liên quan tới"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 7,
+    "kanji": "係",
+    "han_viet": "Hệ",
+    "on_yomi": "けい",
+    "kun_yomi": "かかり",
+    "mnemonic": "Con người liên kết với nhau như cuộn chỉ",
+    "examples": [
+      {
+        "word": "関係",
+        "hiragana": "かんけい",
+        "meaning": "quan hệ"
+      },
+      {
+        "word": "係り",
+        "hiragana": "かかり",
+        "meaning": "phụ trách"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 8,
+    "kanji": "断",
+    "han_viet": "Đoạn, đoán",
+    "on_yomi": "だん",
+    "kun_yomi": "ことわ-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "無断",
+        "hiragana": "むだん",
+        "meaning": "tự tiện (nghỉ không xin phép)"
+      },
+      {
+        "word": "断る",
+        "hiragana": "ことわる",
+        "meaning": "từ chối"
+      },
+      {
+        "word": "断水",
+        "hiragana": "だんすい",
+        "meaning": "ngắt nước (đường ống nước)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 9,
+    "kanji": "横",
+    "han_viet": "Hoành",
+    "on_yomi": "おう",
+    "kun_yomi": "よこ",
+    "mnemonic": "Bọn trẻ đang chơi bên trong một cái hộp bên cạnh một cái cây (木)",
+    "examples": [
+      {
+        "word": "横断",
+        "hiragana": "おうだん",
+        "meaning": "qua đường"
+      },
+      {
+        "word": "横断歩道",
+        "hiragana": "おうだんほどう",
+        "meaning": "đường dành riêng cho người đi bộ qua đường"
+      },
+      {
+        "word": "横",
+        "hiragana": "よこ",
+        "meaning": "bề ngang"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 10,
+    "kanji": "押",
+    "han_viet": "Áp",
+    "on_yomi": "",
+    "kun_yomi": "お-す / お-さえる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "押す",
+        "hiragana": "おす",
+        "meaning": "nhấn, ẩn"
+      },
+      {
+        "word": "押入れ",
+        "hiragana": "おしいれ",
+        "meaning": "nhấn vào, tủ tường."
+      },
+      {
+        "word": "押さえる",
+        "hiragana": "おさえる",
+        "meaning": "giữ"
+      }
+    ],
+    "image_path": "images/10_押.png"
+  },
+  {
+    "index": 11,
+    "kanji": "式",
+    "han_viet": "Thức",
+    "on_yomi": "しき",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "押しボタン式",
+        "hiragana": "おしぼたんしき",
+        "meaning": "phương thức nhấn nút"
+      },
+      {
+        "word": "入学式",
+        "hiragana": "にゅうがくしき",
+        "meaning": "lễ nhập học"
+      },
+      {
+        "word": "数式",
+        "hiragana": "すうしき",
+        "meaning": "công thức toán"
+      }
+    ],
+    "image_path": "images/11_式.png"
+  },
+  {
+    "index": 12,
+    "kanji": "信",
+    "han_viet": "Tín",
+    "on_yomi": "しん",
+    "kun_yomi": "",
+    "mnemonic": "Tôi tin những gì người ta nói (言).",
+    "examples": [
+      {
+        "word": "送信",
+        "hiragana": "そうしん",
+        "meaning": "gửi tin"
+      },
+      {
+        "word": "信じる",
+        "hiragana": "しんじる",
+        "meaning": "tin tưởng"
+      },
+      {
+        "word": "信用",
+        "hiragana": "しんよう",
+        "meaning": "tin dùng"
+      },
+      {
+        "word": "自信",
+        "hiragana": "じしん",
+        "meaning": "tự tin"
+      }
+    ],
+    "image_path": "images/12_信.jpg"
+  },
+  {
+    "index": 13,
+    "kanji": "号",
+    "han_viet": "Hiệu",
+    "on_yomi": "ごう",
+    "kun_yomi": "",
+    "mnemonic": "Hãy hô to số của bạn",
+    "examples": [
+      {
+        "word": "信号",
+        "hiragana": "しんごう",
+        "meaning": "tín hiệu, đèn đỏ"
+      },
+      {
+        "word": "号車",
+        "hiragana": "ごうしゃ",
+        "meaning": "xe số…"
+      }
+    ],
+    "image_path": "images/13_号.jpg"
+  },
+  {
+    "index": 14,
+    "kanji": "確",
+    "han_viet": "Xác",
+    "on_yomi": "かく",
+    "kun_yomi": "たし-か / たし-かめる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "正確",
+        "hiragana": "せいかく",
+        "meaning": "chính xác"
+      },
+      {
+        "word": "確かめる",
+        "hiragana": "たしかめる",
+        "meaning": "làm cho chắc chắn, xác nhận lại cho chắc"
+      },
+      {
+        "word": "確か",
+        "hiragana": "たしか",
+        "meaning": "quả là"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 15,
+    "kanji": "認",
+    "han_viet": "Nhận",
+    "on_yomi": "にん",
+    "kun_yomi": "みと – める",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "確認",
+        "hiragana": "かくにん",
+        "meaning": "xác nhận"
+      },
+      {
+        "word": "認める",
+        "hiragana": "みとめる",
+        "meaning": "chấp nhận"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 16,
+    "kanji": "飛",
+    "han_viet": "Phi",
+    "on_yomi": "ひ",
+    "kun_yomi": "と – ぶ",
+    "mnemonic": "Những con chim bay với đôi cánh giang rộng",
+    "examples": [],
+    "image_path": "images/16_飛.jpg"
+  },
+  {
+    "index": 17,
+    "kanji": "非",
+    "han_viet": "Phi",
+    "on_yomi": "ひ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "非常",
+        "hiragana": "ひじょう",
+        "meaning": "hơn bình thường, bất bình thường"
+      },
+      {
+        "word": "非常に",
+        "hiragana": "ひじょうに",
+        "meaning": "cự kỳ, rất"
+      },
+      {
+        "word": "非常口",
+        "hiragana": "ひじょうぐち",
+        "meaning": "cửa thoát hiểm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 18,
+    "kanji": "常",
+    "han_viet": "Thường",
+    "on_yomi": "じょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "日常",
+        "hiragana": "にちじょう",
+        "meaning": "thường ngày"
+      },
+      {
+        "word": "正常",
+        "hiragana": "せいじょう",
+        "meaning": "đúng, bình thường"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 19,
+    "kanji": "階",
+    "han_viet": "Giai",
+    "on_yomi": "かい",
+    "kun_yomi": "",
+    "mnemonic": "Mọi người (皆) ở trên chiếc xe bus 2 tầng",
+    "examples": [
+      {
+        "word": "～階",
+        "hiragana": "かい",
+        "meaning": "tầng ~"
+      }
+    ],
+    "image_path": "images/19_階.jpg"
+  },
+  {
+    "index": 20,
+    "kanji": "段",
+    "han_viet": "Đoạn",
+    "on_yomi": "だん",
+    "kun_yomi": "",
+    "mnemonic": "Chúng tôi dùng đá để xây cầu thang",
+    "examples": [
+      {
+        "word": "階段",
+        "hiragana": "かいだん",
+        "meaning": "cầu thang"
+      }
+    ],
+    "image_path": "images/20_段.jpg"
+  },
+  {
+    "index": 21,
+    "kanji": "箱",
+    "han_viet": "Tương",
+    "on_yomi": "",
+    "kun_yomi": "はこ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "箱",
+        "hiragana": "はこ",
+        "meaning": "hộp, thùng"
+      },
+      {
+        "word": "ゴミ箱",
+        "hiragana": "ごみばこ",
+        "meaning": "thùng rác"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 22,
+    "kanji": "危",
+    "han_viet": "Nguy",
+    "on_yomi": "き",
+    "kun_yomi": "あぶ-ない",
+    "mnemonic": "Nhìn hòn đá ở trên cái mỏm đá kìa.thật nguy hiểm",
+    "examples": [
+      {
+        "word": "危険",
+        "hiragana": "きけん",
+        "meaning": "nguy hiểm"
+      },
+      {
+        "word": "危ない",
+        "hiragana": "あぶない",
+        "meaning": "nguy hiểm"
+      }
+    ],
+    "image_path": "images/22_危.jpg"
+  },
+  {
+    "index": 23,
+    "kanji": "険",
+    "han_viet": "Hiểm",
+    "on_yomi": "けん",
+    "kun_yomi": "",
+    "mnemonic": "Một người (人) đang nhìn 1 ngọn núi dốc đứng",
+    "examples": [
+      {
+        "word": "危険",
+        "hiragana": "きけん",
+        "meaning": "nguy hiểm"
+      }
+    ],
+    "image_path": "images/23_険.jpg"
+  },
+  {
+    "index": 24,
+    "kanji": "捨",
+    "han_viet": "Xả",
+    "on_yomi": "",
+    "kun_yomi": "す-てる",
+    "mnemonic": "Tôi bỏ rác vào thùng vào các ngày thứ bảy (土).",
+    "examples": [
+      {
+        "word": "捨てる",
+        "hiragana": "すてる",
+        "meaning": "ném"
+      }
+    ],
+    "image_path": "images/24_捨.jpg"
+  },
+  {
+    "index": 25,
+    "kanji": "線",
+    "han_viet": "Tuyến",
+    "on_yomi": "せん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "線",
+        "hiragana": "せん",
+        "meaning": "đường"
+      },
+      {
+        "word": "～番線",
+        "hiragana": "ばんせん",
+        "meaning": "tuyến đường số ~"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 26,
+    "kanji": "面",
+    "han_viet": "Diện",
+    "on_yomi": "めん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "全面",
+        "hiragana": "ぜんめん",
+        "meaning": "toàn diện"
+      },
+      {
+        "word": "画面",
+        "hiragana": "がめん",
+        "meaning": "màn hình"
+      },
+      {
+        "word": "方面",
+        "hiragana": "ほうめん",
+        "meaning": "phương diện"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 27,
+    "kanji": "普",
+    "han_viet": "Phổ",
+    "on_yomi": "ふ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "普通",
+        "hiragana": "ふつう",
+        "meaning": "thông thường"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 28,
+    "kanji": "各",
+    "han_viet": "Các",
+    "on_yomi": "かく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "各駅",
+        "hiragana": "かくえき",
+        "meaning": "các ga"
+      },
+      {
+        "word": "各国",
+        "hiragana": "かっこく",
+        "meaning": "các quốc gia"
+      },
+      {
+        "word": "各自",
+        "hiragana": "かくじ",
+        "meaning": "từng người"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 29,
+    "kanji": "次",
+    "han_viet": "Thứ",
+    "on_yomi": "ジ, シ",
+    "kun_yomi": "つぎ",
+    "mnemonic": "Một người mở to miệng, hô to : “tiếp tục’",
+    "examples": [
+      {
+        "word": "目次",
+        "hiragana": "もくじ",
+        "meaning": "danh mục"
+      },
+      {
+        "word": "次回",
+        "hiragana": "じかい",
+        "meaning": "lần tới"
+      },
+      {
+        "word": "次",
+        "hiragana": "つぎ",
+        "meaning": "tiếp theo"
+      }
+    ],
+    "image_path": "images/29_次.jpg"
+  },
+  {
+    "index": 30,
+    "kanji": "快",
+    "han_viet": "Khoái",
+    "on_yomi": "かい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "快速",
+        "hiragana": "かいそく",
+        "meaning": "(tàu) tốc hành (là tàu điện thường nhưng chỉ dừng ở 1 số ga nhất định)"
+      },
+      {
+        "word": "快い",
+        "hiragana": "こころよい",
+        "meaning": "sáng khoái"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 31,
+    "kanji": "速",
+    "han_viet": "Tốc",
+    "on_yomi": "そく",
+    "kun_yomi": "はや-い",
+    "mnemonic": "Tôi đã chuyển (束) bó hoa một cách nhanh chóng",
+    "examples": [
+      {
+        "word": "高速道路",
+        "hiragana": "こうそくどうろ",
+        "meaning": "đường cao tốc"
+      },
+      {
+        "word": "速度",
+        "hiragana": "そくど",
+        "meaning": "tốc độ"
+      },
+      {
+        "word": "速い",
+        "hiragana": "はやい",
+        "meaning": "nhanh"
+      },
+      {
+        "word": "速達",
+        "hiragana": "そくたつ",
+        "meaning": "chuyển phát nhanh"
+      }
+    ],
+    "image_path": "images/31_速.jpg"
+  },
+  {
+    "index": 32,
+    "kanji": "過",
+    "han_viet": "Quá",
+    "on_yomi": "か",
+    "kun_yomi": "す-ぎる",
+    "mnemonic": "Xin hãy vượt qua toà nhà lớn ở trên đường đó",
+    "examples": [
+      {
+        "word": "通過",
+        "hiragana": "つうか",
+        "meaning": "đi qua"
+      },
+      {
+        "word": "過去",
+        "hiragana": "かこ",
+        "meaning": "quá khứ"
+      },
+      {
+        "word": "過ぎる",
+        "hiragana": "すぎる",
+        "meaning": "quá"
+      }
+    ],
+    "image_path": "images/32_過.jpg"
+  },
+  {
+    "index": 33,
+    "kanji": "鉄",
+    "han_viet": "Thiết",
+    "on_yomi": "てつ",
+    "kun_yomi": "",
+    "mnemonic": "Sắt bị mất (失) giá trị của nó nếu đem nó so sánh với vàng (金).",
+    "examples": [
+      {
+        "word": "地下鉄",
+        "hiragana": "ちかてつ",
+        "meaning": "đường sắt ngầm"
+      },
+      {
+        "word": "鉄道",
+        "hiragana": "てつどう",
+        "meaning": "đường sắt"
+      },
+      {
+        "word": "鉄",
+        "hiragana": "てつ",
+        "meaning": "sắt"
+      }
+    ],
+    "image_path": "images/33_鉄.jpg"
+  },
+  {
+    "index": 34,
+    "kanji": "指",
+    "han_viet": "Chỉ",
+    "on_yomi": "し",
+    "kun_yomi": "ゆび",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "指定",
+        "hiragana": "してい",
+        "meaning": "chỉ định"
+      },
+      {
+        "word": "指定席",
+        "hiragana": "していせき",
+        "meaning": "chỗ được chỉ định"
+      },
+      {
+        "word": "指",
+        "hiragana": "ゆび",
+        "meaning": "ngón tay"
+      },
+      {
+        "word": "指輪",
+        "hiragana": "ゆびわ",
+        "meaning": "nhẫn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 35,
+    "kanji": "定",
+    "han_viet": "Định",
+    "on_yomi": "てい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "定休日",
+        "hiragana": "ていきゅうび",
+        "meaning": "ngày nghỉ định kỳ"
+      },
+      {
+        "word": "安定",
+        "hiragana": "あんてい",
+        "meaning": "ổn định"
+      }
+    ],
+    "image_path": "images/35_定.png"
+  },
+  {
+    "index": 36,
+    "kanji": "席",
+    "han_viet": "Tịch",
+    "on_yomi": "せき",
+    "kun_yomi": "",
+    "mnemonic": "Có 21 chỗ ngồi trong cửa hàng này",
+    "examples": [
+      {
+        "word": "席",
+        "hiragana": "せき",
+        "meaning": "chỗ"
+      },
+      {
+        "word": "出席",
+        "hiragana": "しゅっせき",
+        "meaning": "tham dự"
+      },
+      {
+        "word": "欠席",
+        "hiragana": "けっせき",
+        "meaning": "vắng mặt"
+      }
+    ],
+    "image_path": "images/36_席.jpg"
+  },
+  {
+    "index": 37,
+    "kanji": "由",
+    "han_viet": "Do",
+    "on_yomi": "ゆう",
+    "kun_yomi": "",
+    "mnemonic": "Đừng mở hộp ra. Do là có thể trong đó có thứ gì đáng sợ.",
+    "examples": [
+      {
+        "word": "自由",
+        "hiragana": "じゆう",
+        "meaning": "tự do"
+      },
+      {
+        "word": "自由席",
+        "hiragana": "じゆうせき",
+        "meaning": "chỗ ngồi không chỉ định trước"
+      },
+      {
+        "word": "理由",
+        "hiragana": "りゆう",
+        "meaning": "lý do"
+      }
+    ],
+    "image_path": "images/37_由.jpg"
+  },
+  {
+    "index": 38,
+    "kanji": "番",
+    "han_viet": "Phiên",
+    "on_yomi": "ばん",
+    "kun_yomi": "",
+    "mnemonic": "Họ lần lượt thu hoạch lúa (米) ở trên đồng (田).",
+    "examples": [
+      {
+        "word": "番号",
+        "hiragana": "ばんごう",
+        "meaning": "số"
+      },
+      {
+        "word": "～番",
+        "hiragana": "ばん",
+        "meaning": "số ~"
+      },
+      {
+        "word": "～番線",
+        "hiragana": "ばんせん～",
+        "meaning": "tuyến đướng số ~"
+      }
+    ],
+    "image_path": "images/38_番.jpg"
+  },
+  {
+    "index": 39,
+    "kanji": "窓",
+    "han_viet": "Song",
+    "on_yomi": "",
+    "kun_yomi": "まど",
+    "mnemonic": "Hãy mở cửa sổ trái tim (心) bạn",
+    "examples": [
+      {
+        "word": "窓",
+        "hiragana": "まど",
+        "meaning": "cửa sổ"
+      },
+      {
+        "word": "窓口",
+        "hiragana": "まどぐち",
+        "meaning": "cửa sổ"
+      }
+    ],
+    "image_path": "images/39_窓.jpg"
+  },
+  {
+    "index": 40,
+    "kanji": "側",
+    "han_viet": "Trắc",
+    "on_yomi": "",
+    "kun_yomi": "かわ",
+    "mnemonic": "Tôi để tiền và dao cạnh mình",
+    "examples": [
+      {
+        "word": "両側",
+        "hiragana": "りょうがわ",
+        "meaning": "hai phía"
+      },
+      {
+        "word": "窓側",
+        "hiragana": "まどがわ",
+        "meaning": "phía cửa sổ"
+      },
+      {
+        "word": "右側",
+        "hiragana": "みぎがわ",
+        "meaning": "bên phải"
+      }
+    ],
+    "image_path": "images/40_側.jpg"
+  },
+  {
+    "index": 41,
+    "kanji": "路",
+    "han_viet": "Lộ",
+    "on_yomi": "ろ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "通路",
+        "hiragana": "つうろ",
+        "meaning": "lối đi"
+      },
+      {
+        "word": "道路",
+        "hiragana": "どうろ",
+        "meaning": "đường đi"
+      },
+      {
+        "word": "線路",
+        "hiragana": "せんろ",
+        "meaning": "tuyến đường"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 42,
+    "kanji": "停",
+    "han_viet": "Đình",
+    "on_yomi": "てい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "停車",
+        "hiragana": "ていしゃ",
+        "meaning": "dừng xe"
+      },
+      {
+        "word": "バス停",
+        "hiragana": "ばすてい",
+        "meaning": "điểm dừng xe bus"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 43,
+    "kanji": "整",
+    "han_viet": "Chỉnh",
+    "on_yomi": "せい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "整理",
+        "hiragana": "せいり",
+        "meaning": "chỉnh lý"
+      },
+      {
+        "word": "整理券",
+        "hiragana": "せいりけん",
+        "meaning": "vé chờ tới lượt (được phục vụ trong cửa hàng …)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 44,
+    "kanji": "券",
+    "han_viet": "Khoán",
+    "on_yomi": "けん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "駐車券",
+        "hiragana": "ちゅうしゃけん",
+        "meaning": "vé đỗ xe"
+      },
+      {
+        "word": "回数券",
+        "hiragana": "かいすうけん",
+        "meaning": "vé theo lượt"
+      },
+      {
+        "word": "乗車券",
+        "hiragana": "じょうしゃけん",
+        "meaning": "vé lên xe"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 45,
+    "kanji": "現",
+    "han_viet": "Hiện",
+    "on_yomi": "げん",
+    "kun_yomi": "あらわ-れる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "現金",
+        "hiragana": "げんきん",
+        "meaning": "tiền mặt"
+      },
+      {
+        "word": "表現",
+        "hiragana": "ひょうげん",
+        "meaning": "biểu hiện"
+      },
+      {
+        "word": "現れる",
+        "hiragana": "あらわれる",
+        "meaning": "thể hiện ra"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 46,
+    "kanji": "両",
+    "han_viet": "Lưỡng",
+    "on_yomi": "りょう",
+    "kun_yomi": "",
+    "mnemonic": "Anh bán cá gánh cá trên 2 vai",
+    "examples": [
+      {
+        "word": "両親",
+        "hiragana": "りょうしん",
+        "meaning": "song thân (cha mẹ)"
+      },
+      {
+        "word": "～両",
+        "hiragana": "りょう",
+        "meaning": "lưỡng ~"
+      },
+      {
+        "word": "車両",
+        "hiragana": "しゃりょう",
+        "meaning": "xe cộ"
+      }
+    ],
+    "image_path": "images/46_両.jpg"
+  },
+  {
+    "index": 47,
+    "kanji": "替",
+    "han_viet": "Thế",
+    "on_yomi": "",
+    "kun_yomi": "か-える",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "取り替える",
+        "hiragana": "とりかえる",
+        "meaning": "thay"
+      },
+      {
+        "word": "両替",
+        "hiragana": "りょうがえ",
+        "meaning": "hoán đổi (tiền)"
+      },
+      {
+        "word": "着替える",
+        "hiragana": "きがえる",
+        "meaning": "thay đồ (quần áo)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 48,
+    "kanji": "優",
+    "han_viet": "Ưu",
+    "on_yomi": "ゆう",
+    "kun_yomi": "やさ-しい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "優先席",
+        "hiragana": "ゆうせんせき",
+        "meaning": "ghế ưu tiên"
+      },
+      {
+        "word": "女優",
+        "hiragana": "じょゆう",
+        "meaning": "diễn viên nữ"
+      },
+      {
+        "word": "優しい",
+        "hiragana": "やさしい",
+        "meaning": "dễ tính, tốt bụng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 49,
+    "kanji": "座",
+    "han_viet": "Tọa",
+    "on_yomi": "ざ",
+    "kun_yomi": "すわ-る",
+    "mnemonic": "Hai ngườiv(人) ngồi trên đất (土)",
+    "examples": [
+      {
+        "word": "座席",
+        "hiragana": "ざせき",
+        "meaning": "chỗ ngồi"
+      },
+      {
+        "word": "正座",
+        "hiragana": "せいざ",
+        "meaning": "kiểu ngồi gập gối (ngồi tỳ thẳng lên 2 ống đồng, giống như khi quỳ lễ Phật)"
+      },
+      {
+        "word": "座る",
+        "hiragana": "すわる",
+        "meaning": "ngồi"
+      }
+    ],
+    "image_path": "images/49_座.jpg"
+  },
+  {
+    "index": 50,
+    "kanji": "降",
+    "han_viet": "Giáng, hàng",
+    "on_yomi": "こう",
+    "kun_yomi": "お-りる\nふ-る",
+    "mnemonic": "Tôi xuống ở bến xe bus.",
+    "examples": [
+      {
+        "word": "降車口",
+        "hiragana": "こうしゃぐち",
+        "meaning": "cửa xuống"
+      },
+      {
+        "word": "降りる",
+        "hiragana": "おりる",
+        "meaning": "xuống (xe)"
+      },
+      {
+        "word": "以降",
+        "hiragana": "いこう",
+        "meaning": "từ giới hạn trở xuống"
+      },
+      {
+        "word": "降る",
+        "hiragana": "くだる",
+        "meaning": "hạ xuống"
+      }
+    ],
+    "image_path": "images/50_降.jpg"
+  },
+  {
+    "index": 51,
+    "kanji": "未",
+    "han_viet": "Vị",
+    "on_yomi": "み",
+    "kun_yomi": "",
+    "mnemonic": "Cái cây này vẫn chưa lớn",
+    "examples": [
+      {
+        "word": "未定",
+        "hiragana": "みてい",
+        "meaning": "không cố định"
+      },
+      {
+        "word": "未来",
+        "hiragana": "みらい",
+        "meaning": "tương lai gần"
+      },
+      {
+        "word": "～未満",
+        "hiragana": "みまん～",
+        "meaning": "chưa đầy"
+      }
+    ],
+    "image_path": "images/51_未.jpg"
+  },
+  {
+    "index": 52,
+    "kanji": "末",
+    "han_viet": "Mạt",
+    "on_yomi": "まつ",
+    "kun_yomi": "",
+    "mnemonic": "1 cái cây (木) tại lúc cuối đời",
+    "examples": [
+      {
+        "word": "週末",
+        "hiragana": "しゅうまつ",
+        "meaning": "cuối tuần"
+      },
+      {
+        "word": "月末",
+        "hiragana": "げつまつ",
+        "meaning": "cuối tháng"
+      },
+      {
+        "word": "年末",
+        "hiragana": "ねんまつ",
+        "meaning": "cuối năm"
+      }
+    ],
+    "image_path": "images/52_末.jpg"
+  },
+  {
+    "index": 53,
+    "kanji": "若",
+    "han_viet": "Nhược",
+    "on_yomi": "",
+    "kun_yomi": "わか-い",
+    "mnemonic": "Tôi ngắt những lá non bằng tay phải (左) .",
+    "examples": [
+      {
+        "word": "若い",
+        "hiragana": "わかい",
+        "meaning": "trẻ"
+      }
+    ],
+    "image_path": "images/53_若.jpg"
+  },
+  {
+    "index": 54,
+    "kanji": "晩",
+    "han_viet": "Vãn",
+    "on_yomi": "ばん",
+    "kun_yomi": "",
+    "mnemonic": "Cậu bé nhanh chóng trở về nhà trước khi mặt trời lặn",
+    "examples": [
+      {
+        "word": "晩",
+        "hiragana": "ばん",
+        "meaning": "tối"
+      },
+      {
+        "word": "晩御飯",
+        "hiragana": "ばんごはん",
+        "meaning": "cơm tối"
+      },
+      {
+        "word": "今晩",
+        "hiragana": "こんばん",
+        "meaning": "tối nay"
+      },
+      {
+        "word": "毎晩",
+        "hiragana": "まいばん",
+        "meaning": "mỗi tối"
+      }
+    ],
+    "image_path": "images/54_晩.jpg"
+  },
+  {
+    "index": 55,
+    "kanji": "島",
+    "han_viet": "Đảo",
+    "on_yomi": "とう",
+    "kun_yomi": "しま",
+    "mnemonic": "Một con chim (鳥) đậu trên một ngọn núi (山) trên một hòn đảo.",
+    "examples": [
+      {
+        "word": "～島",
+        "hiragana": "とう",
+        "meaning": "đảo ~"
+      },
+      {
+        "word": "島",
+        "hiragana": "しま",
+        "meaning": "đảo"
+      },
+      {
+        "word": "福島",
+        "hiragana": "ふくしま",
+        "meaning": "tỉnh Fukushima (phúc đảo)"
+      }
+    ],
+    "image_path": "images/55_島.jpg"
+  },
+  {
+    "index": 56,
+    "kanji": "皿",
+    "han_viet": "Mãnh",
+    "on_yomi": "",
+    "kun_yomi": "さら",
+    "mnemonic": "Chiếc bánh ngọtđược đặt trên đĩa",
+    "examples": [
+      {
+        "word": "皿",
+        "hiragana": "さら",
+        "meaning": "đĩa"
+      },
+      {
+        "word": "灰皿",
+        "hiragana": "はいざら",
+        "meaning": "gạt tàn (thuốc lá)"
+      }
+    ],
+    "image_path": "images/56_皿.jpg"
+  },
+  {
+    "index": 57,
+    "kanji": "血",
+    "han_viet": "Huyết",
+    "on_yomi": "けつ",
+    "kun_yomi": "ち",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "血",
+        "hiragana": "ち",
+        "meaning": "máu"
+      },
+      {
+        "word": "出血",
+        "hiragana": "しゅっけつ",
+        "meaning": "ra máu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 58,
+    "kanji": "助",
+    "han_viet": "Trợ",
+    "on_yomi": "じょ",
+    "kun_yomi": "たす-ける",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "救助",
+        "hiragana": "きゅうじょ",
+        "meaning": "cứu trợ"
+      },
+      {
+        "word": "助ける",
+        "hiragana": "たすける",
+        "meaning": "cứu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 59,
+    "kanji": "準",
+    "han_viet": "Chuẩn",
+    "on_yomi": "じゅん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "準備",
+        "hiragana": "じゅんび",
+        "meaning": "chuẩn bị"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 60,
+    "kanji": "備",
+    "han_viet": "Bị",
+    "on_yomi": "び",
+    "kun_yomi": "そな-える",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "準備",
+        "hiragana": "じゅんび",
+        "meaning": "chuẩn bị"
+      },
+      {
+        "word": "備える",
+        "hiragana": "そなえる",
+        "meaning": "chuẩn bị sẵn sàng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 61,
+    "kanji": "営",
+    "han_viet": "Doanh",
+    "on_yomi": "えい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "営業",
+        "hiragana": "えいぎょう",
+        "meaning": "kinh doanh"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 62,
+    "kanji": "閉",
+    "han_viet": "Bế",
+    "on_yomi": "へい",
+    "kun_yomi": "し-まる、し-める",
+    "mnemonic": "mang chìa khóa ra khóa cổng lại",
+    "examples": [
+      {
+        "word": "開閉",
+        "hiragana": "かいへい",
+        "meaning": "đóng mở"
+      },
+      {
+        "word": "閉まる",
+        "hiragana": "しまる",
+        "meaning": "đóng (tự động từ)"
+      },
+      {
+        "word": "閉める",
+        "hiragana": "しめる",
+        "meaning": "đóng (ngoại động từ)"
+      }
+    ],
+    "image_path": "images/62_閉.jpg"
+  },
+  {
+    "index": 63,
+    "kanji": "案",
+    "han_viet": "Án",
+    "on_yomi": "あん",
+    "kun_yomi": "",
+    "mnemonic": "Bên cạnh cái cây (木), tôi ngồi dự trù kế hoạch.",
+    "examples": [
+      {
+        "word": "案内",
+        "hiragana": "あんない",
+        "meaning": "hướng dẫn"
+      },
+      {
+        "word": "案",
+        "hiragana": "あん",
+        "meaning": "phương án"
+      }
+    ],
+    "image_path": "images/63_案.jpg"
+  },
+  {
+    "index": 64,
+    "kanji": "内",
+    "han_viet": "Nội",
+    "on_yomi": "ない",
+    "kun_yomi": "うち",
+    "mnemonic": "Một người (人) đang ở trong một cái hộp lớn",
+    "examples": [
+      {
+        "word": "家内",
+        "hiragana": "かない",
+        "meaning": "vợ"
+      },
+      {
+        "word": "以内",
+        "hiragana": "いない",
+        "meaning": "trong phạm vi được giới hạn"
+      },
+      {
+        "word": "内側",
+        "hiragana": "うちがわ",
+        "meaning": "phía trong"
+      },
+      {
+        "word": "国内",
+        "hiragana": "こくない",
+        "meaning": "trong nước"
+      }
+    ],
+    "image_path": "images/64_内.jpg"
+  },
+  {
+    "index": 65,
+    "kanji": "予",
+    "han_viet": "Dự",
+    "on_yomi": "よ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "予定",
+        "hiragana": "よてい",
+        "meaning": "dự định"
+      },
+      {
+        "word": "予習",
+        "hiragana": "よしゅう",
+        "meaning": "học trước"
+      }
+    ],
+    "image_path": "images/65_予.jpg"
+  },
+  {
+    "index": 66,
+    "kanji": "約",
+    "han_viet": "Ước",
+    "on_yomi": "やく",
+    "kun_yomi": "",
+    "mnemonic": "Hãy nắm lấy lượng dây (糸) vừa đủ",
+    "examples": [
+      {
+        "word": "予約",
+        "hiragana": "よやく",
+        "meaning": "đặt trước (vé, hàng)"
+      },
+      {
+        "word": "約～",
+        "hiragana": "やく～",
+        "meaning": "khoảng"
+      }
+    ],
+    "image_path": "images/66_約.jpg"
+  },
+  {
+    "index": 67,
+    "kanji": "煙",
+    "han_viet": "Yên",
+    "on_yomi": "えん",
+    "kun_yomi": "けむり",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "禁煙",
+        "hiragana": "きんえん",
+        "meaning": "cấm hút thuốc"
+      },
+      {
+        "word": "煙",
+        "hiragana": "けむり",
+        "meaning": "khói"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 68,
+    "kanji": "当",
+    "han_viet": "Đương",
+    "on_yomi": "とう",
+    "kun_yomi": "あ – たる",
+    "mnemonic": "Một mũi tên trúng vào đích",
+    "examples": [
+      {
+        "word": "本当",
+        "hiragana": "ほんとう",
+        "meaning": "thực sự"
+      },
+      {
+        "word": "当たる",
+        "hiragana": "あたる",
+        "meaning": "trúng (số), đập trúng vào (mặt)"
+      },
+      {
+        "word": "当～",
+        "hiragana": "とう～",
+        "meaning": "~ đó, đương ~"
+      },
+      {
+        "word": "当たり前",
+        "hiragana": "あたりまえ",
+        "meaning": "đương nhiên"
+      },
+      {
+        "word": "弁当",
+        "hiragana": "べんとう",
+        "meaning": "cơm hộp"
+      }
+    ],
+    "image_path": "images/68_当.jpg"
+  },
+  {
+    "index": 69,
+    "kanji": "全",
+    "han_viet": "Toàn",
+    "on_yomi": "ぜん",
+    "kun_yomi": "",
+    "mnemonic": "Nhà vua sở hữu tất cả những gì có trên núi",
+    "examples": [
+      {
+        "word": "安全",
+        "hiragana": "あんぜん",
+        "meaning": "an toàn"
+      },
+      {
+        "word": "全部",
+        "hiragana": "ぜんぶ",
+        "meaning": "toàn bộ"
+      },
+      {
+        "word": "全席",
+        "hiragana": "ぜんせき",
+        "meaning": "tất cả các chỗ (vé)"
+      },
+      {
+        "word": "全然",
+        "hiragana": "ぜんぜん",
+        "meaning": "hoàn toàn"
+      }
+    ],
+    "image_path": "images/69_全.jpg"
+  },
+  {
+    "index": 70,
+    "kanji": "客",
+    "han_viet": "Khách",
+    "on_yomi": "きゃく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "客",
+        "hiragana": "きゃく",
+        "meaning": "khách"
+      },
+      {
+        "word": "お客様",
+        "hiragana": "おきゃくさま",
+        "meaning": "quý khách"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 71,
+    "kanji": "様",
+    "han_viet": "Dạng",
+    "on_yomi": "よう",
+    "kun_yomi": "さま",
+    "mnemonic": "Một cái cây (木), con cừu (羊) và nước (水) tạo nên một tình hình an bình",
+    "examples": [
+      {
+        "word": "様子",
+        "hiragana": "ようす",
+        "meaning": "tình trạng"
+      },
+      {
+        "word": "～様",
+        "hiragana": "さま",
+        "meaning": "ngài, vị~"
+      },
+      {
+        "word": "同様",
+        "hiragana": "どうよう",
+        "meaning": "giống như, như nhau"
+      }
+    ],
+    "image_path": "images/71_様.jpg"
+  },
+  {
+    "index": 72,
+    "kanji": "解",
+    "han_viet": "Giải",
+    "on_yomi": "かい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "解決",
+        "hiragana": "かいけつ",
+        "meaning": "giải quyết"
+      },
+      {
+        "word": "理解",
+        "hiragana": "りかい",
+        "meaning": "hiểu"
+      },
+      {
+        "word": "解答",
+        "hiragana": "かいとう",
+        "meaning": "trả lời, câu trả lời"
+      },
+      {
+        "word": "解説",
+        "hiragana": "かいせつ",
+        "meaning": "giải thích"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 73,
+    "kanji": "協",
+    "han_viet": "Hiệp",
+    "on_yomi": "きょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "協力",
+        "hiragana": "きょうりょく",
+        "meaning": "hợp tác"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 74,
+    "kanji": "願",
+    "han_viet": "Nguyện",
+    "on_yomi": "",
+    "kun_yomi": "ねが – う",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "願う",
+        "hiragana": "ねがう",
+        "meaning": "nhờ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 75,
+    "kanji": "観",
+    "han_viet": "Quan",
+    "on_yomi": "かん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "観光",
+        "hiragana": "かんこう",
+        "meaning": "tham quan"
+      },
+      {
+        "word": "観客",
+        "hiragana": "かんきゃく",
+        "meaning": "quan khách, khách tham quan"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 76,
+    "kanji": "園",
+    "han_viet": "Viên",
+    "on_yomi": "えん",
+    "kun_yomi": "",
+    "mnemonic": "Thứ bảy (土), tôi ra công viên nhảy.",
+    "examples": [
+      {
+        "word": "公園",
+        "hiragana": "こうえん",
+        "meaning": "công viên"
+      },
+      {
+        "word": "動物園",
+        "hiragana": "どうぶつえん",
+        "meaning": "vườn thú"
+      }
+    ],
+    "image_path": "images/76_園.jpg"
+  },
+  {
+    "index": 77,
+    "kanji": "港",
+    "han_viet": "Cảng",
+    "on_yomi": "こう",
+    "kun_yomi": "みなと",
+    "mnemonic": "Hãy gặp nhau (共) ở cảng",
+    "examples": [
+      {
+        "word": "空港",
+        "hiragana": "くうこう",
+        "meaning": "sân bay"
+      },
+      {
+        "word": "港",
+        "hiragana": "みなと",
+        "meaning": "cảng"
+      },
+      {
+        "word": "～港",
+        "hiragana": "みなと",
+        "meaning": "cảng ~"
+      }
+    ],
+    "image_path": "images/77_港.jpg"
+  },
+  {
+    "index": 78,
+    "kanji": "遊",
+    "han_viet": "Du",
+    "on_yomi": "ゆう",
+    "kun_yomi": "あそ-ぶ",
+    "mnemonic": "Trẻ em (子) cầm cờ đi chơi",
+    "examples": [
+      {
+        "word": "遊園地",
+        "hiragana": "ゆうえんち",
+        "meaning": "vườn trẻ (nơi vui chơi của trẻ)"
+      },
+      {
+        "word": "遊ぶ",
+        "hiragana": "あそぶ",
+        "meaning": "chơi"
+      }
+    ],
+    "image_path": "images/78_遊.jpg"
+  },
+  {
+    "index": 79,
+    "kanji": "美",
+    "han_viet": "Mỹ",
+    "on_yomi": "び",
+    "kun_yomi": "うつく-しい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "美術館",
+        "hiragana": "びじゅつかん",
+        "meaning": "bảo tàng mỹ thuật"
+      },
+      {
+        "word": "美人",
+        "hiragana": "びじん",
+        "meaning": "người đẹp"
+      },
+      {
+        "word": "美しい",
+        "hiragana": "うつくしい",
+        "meaning": "đẹp"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 80,
+    "kanji": "術",
+    "han_viet": "Thuật",
+    "on_yomi": "じゅつ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "手術",
+        "hiragana": "しゅじゅつ",
+        "meaning": "phẫu thuật"
+      },
+      {
+        "word": "美術",
+        "hiragana": "びじゅつ",
+        "meaning": "mỹ thuật"
+      },
+      {
+        "word": "芸術",
+        "hiragana": "げいじゅつ",
+        "meaning": "nghệ thuật"
+      },
+      {
+        "word": "技術",
+        "hiragana": "ぎじゅつ",
+        "meaning": "kỹ thuật"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 81,
+    "kanji": "神",
+    "han_viet": "Thần",
+    "on_yomi": "しん、じん",
+    "kun_yomi": "かみ",
+    "mnemonic": "Chúng tôi cúng lên thần sấm chớp",
+    "examples": [
+      {
+        "word": "神社",
+        "hiragana": "じんじゃ",
+        "meaning": "đền"
+      },
+      {
+        "word": "神様",
+        "hiragana": "かみさま",
+        "meaning": "thần"
+      },
+      {
+        "word": "神経質",
+        "hiragana": "しんけいしつ",
+        "meaning": "quá nhậy cảm"
+      }
+    ],
+    "image_path": "images/81_神.jpg"
+  },
+  {
+    "index": 82,
+    "kanji": "寺",
+    "han_viet": "Tự",
+    "on_yomi": "じ",
+    "kun_yomi": "てら",
+    "mnemonic": "Chỉ tay huoéng đến ngôi đền",
+    "examples": [
+      {
+        "word": "～寺",
+        "hiragana": "じ",
+        "meaning": "chùa ~"
+      },
+      {
+        "word": "お寺",
+        "hiragana": "おてら",
+        "meaning": "chùa"
+      }
+    ],
+    "image_path": "images/82_寺.jpg"
+  },
+  {
+    "index": 83,
+    "kanji": "役",
+    "han_viet": "Dịch",
+    "on_yomi": "やく",
+    "kun_yomi": "",
+    "mnemonic": "Nhiệm vụ của tôi là vận chuyển đá",
+    "examples": [
+      {
+        "word": "市役所",
+        "hiragana": "しやくしょ",
+        "meaning": "toà thị chính"
+      },
+      {
+        "word": "役に立つ",
+        "hiragana": "やくにたつ",
+        "meaning": "có ích"
+      },
+      {
+        "word": "役員",
+        "hiragana": "やくいん",
+        "meaning": "công chức"
+      }
+    ],
+    "image_path": "images/83_役.jpg"
+  },
+  {
+    "index": 84,
+    "kanji": "郵",
+    "han_viet": "Bưu",
+    "on_yomi": "ゆう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "郵便",
+        "hiragana": "ゆうびん",
+        "meaning": "bưu điện"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 85,
+    "kanji": "局",
+    "han_viet": "Cục",
+    "on_yomi": "きょく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "郵便局",
+        "hiragana": "ゆうびんきょく",
+        "meaning": "bưu điện"
+      },
+      {
+        "word": "薬局",
+        "hiragana": "やっきょく",
+        "meaning": "cửa hàng thuốc"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 86,
+    "kanji": "交",
+    "han_viet": "Giao",
+    "on_yomi": "こう",
+    "kun_yomi": "",
+    "mnemonic": "Bố tôi (父) đang băng qua ngã tư.",
+    "examples": [
+      {
+        "word": "交番",
+        "hiragana": "こうばん",
+        "meaning": "đồn cảnh sát"
+      },
+      {
+        "word": "交通",
+        "hiragana": "こうつう",
+        "meaning": "giao thông"
+      },
+      {
+        "word": "交換",
+        "hiragana": "こうかん",
+        "meaning": "trao đổi"
+      }
+    ],
+    "image_path": "images/86_交.jpg"
+  },
+  {
+    "index": 87,
+    "kanji": "差",
+    "han_viet": "Sai",
+    "on_yomi": "さ",
+    "kun_yomi": "さ-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "差",
+        "hiragana": "さ",
+        "meaning": "chênh lệch"
+      },
+      {
+        "word": "差し出す",
+        "hiragana": "さしだす",
+        "meaning": "gửi đi"
+      },
+      {
+        "word": "差出人",
+        "hiragana": "さしだしにん",
+        "meaning": "người gửi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 88,
+    "kanji": "点",
+    "han_viet": "Điểm",
+    "on_yomi": "てん",
+    "kun_yomi": "",
+    "mnemonic": "Bốn cái chấm đã được đóng dấu",
+    "examples": [
+      {
+        "word": "交差点",
+        "hiragana": "こうさてん",
+        "meaning": "ngã tư"
+      },
+      {
+        "word": "点数",
+        "hiragana": "てんすう",
+        "meaning": "điểm số"
+      },
+      {
+        "word": "～点",
+        "hiragana": "～てん",
+        "meaning": "～điểm"
+      }
+    ],
+    "image_path": "images/88_点.jpg"
+  },
+  {
+    "index": 89,
+    "kanji": "橋",
+    "han_viet": "Kiều",
+    "on_yomi": "きょう",
+    "kun_yomi": "はし",
+    "mnemonic": "Có một cái cầu gỗ (木) và một toà nhà",
+    "examples": [
+      {
+        "word": "歩道橋",
+        "hiragana": "ほどうきょう",
+        "meaning": "cầu đi bộ (cầu trên cao)"
+      },
+      {
+        "word": "橋",
+        "hiragana": "はし",
+        "meaning": "cầu"
+      }
+    ],
+    "image_path": "images/89_橋.jpg"
+  },
+  {
+    "index": 90,
+    "kanji": "公",
+    "han_viet": "Công",
+    "on_yomi": "こう",
+    "kun_yomi": "",
+    "mnemonic": "Phục vụ công chúng là một việc khó",
+    "examples": [
+      {
+        "word": "公園",
+        "hiragana": "こうえん",
+        "meaning": "công viên"
+      },
+      {
+        "word": "公道",
+        "hiragana": "こうどう",
+        "meaning": "đường công (đường do nhà nước làm, không phải do cá nhân làm)"
+      }
+    ],
+    "image_path": "images/90_公.jpg"
+  },
+  {
+    "index": 91,
+    "kanji": "受",
+    "han_viet": "Thụ",
+    "on_yomi": "じゅ",
+    "kun_yomi": "う-ける",
+    "mnemonic": "Nhận đồ vật bằng cách tay trao tay",
+    "examples": [
+      {
+        "word": "受信",
+        "hiragana": "じゅしん",
+        "meaning": "nhận tin"
+      },
+      {
+        "word": "受験",
+        "hiragana": "じゅけん",
+        "meaning": "dự thi"
+      },
+      {
+        "word": "受ける",
+        "hiragana": "うける",
+        "meaning": "nhận"
+      }
+    ],
+    "image_path": "images/91_受.jpg"
+  },
+  {
+    "index": 92,
+    "kanji": "付",
+    "han_viet": "Phó",
+    "on_yomi": "",
+    "kun_yomi": "つ – ける",
+    "mnemonic": "Gắn gì đó vào 1 người",
+    "examples": [
+      {
+        "word": "付ける",
+        "hiragana": "つける",
+        "meaning": "gắn vào"
+      },
+      {
+        "word": "片付ける",
+        "hiragana": "かたづける",
+        "meaning": "dọn dẹp"
+      },
+      {
+        "word": "受付",
+        "hiragana": "うけつけ",
+        "meaning": "tiếp nhận"
+      },
+      {
+        "word": "付く",
+        "hiragana": "つく",
+        "meaning": "gắn với, dính với"
+      }
+    ],
+    "image_path": "images/92_付.jpg"
+  },
+  {
+    "index": 93,
+    "kanji": "科",
+    "han_viet": "Khoa",
+    "on_yomi": "か",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "科学",
+        "hiragana": "かがく",
+        "meaning": "khoa học"
+      },
+      {
+        "word": "外科",
+        "hiragana": "げか",
+        "meaning": "ngoại khoa"
+      },
+      {
+        "word": "教科書",
+        "hiragana": "きょうかしょ",
+        "meaning": "sách giáo khoa"
+      },
+      {
+        "word": "内科",
+        "hiragana": "ないか",
+        "meaning": "nội khoa"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 94,
+    "kanji": "鼻",
+    "han_viet": "Tị",
+    "on_yomi": "び",
+    "kun_yomi": "はな",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "耳鼻科",
+        "hiragana": "じびか",
+        "meaning": "Khoa tai mũi"
+      },
+      {
+        "word": "鼻",
+        "hiragana": "はな",
+        "meaning": "mũi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 95,
+    "kanji": "婦",
+    "han_viet": "Phụ",
+    "on_yomi": "ふ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "婦人",
+        "hiragana": "ふじん",
+        "meaning": "vợ"
+      },
+      {
+        "word": "産婦人科",
+        "hiragana": "さんふじんか",
+        "meaning": "khoa sản"
+      },
+      {
+        "word": "主婦",
+        "hiragana": "しゅふ",
+        "meaning": "nội trợ (nữ)"
+      },
+      {
+        "word": "夫婦",
+        "hiragana": "ふうふ",
+        "meaning": "chồng vợ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 96,
+    "kanji": "形",
+    "han_viet": "Hình",
+    "on_yomi": "けい\nぎょう",
+    "kun_yomi": "かたち",
+    "mnemonic": "Tôi đang tạo hình 1 vài thứ",
+    "examples": [
+      {
+        "word": "形式",
+        "hiragana": "けいしき",
+        "meaning": "hình thức"
+      },
+      {
+        "word": "図形",
+        "hiragana": "ずけい",
+        "meaning": "hình vẽ"
+      },
+      {
+        "word": "整形外科",
+        "hiragana": "せいけいげか",
+        "meaning": "ngoại khoa chỉnh hình"
+      },
+      {
+        "word": "人形",
+        "hiragana": "にんぎょう",
+        "meaning": "búp bê"
+      },
+      {
+        "word": "形",
+        "hiragana": "かたち",
+        "meaning": "hình dạng"
+      }
+    ],
+    "image_path": "images/96_形.jpg"
+  },
+  {
+    "index": 97,
+    "kanji": "骨",
+    "han_viet": "Cốt",
+    "on_yomi": "こつ",
+    "kun_yomi": "ほね",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "骨折",
+        "hiragana": "こっせつ",
+        "meaning": "gẫy xương"
+      },
+      {
+        "word": "骨",
+        "hiragana": "ほね",
+        "meaning": "xương"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 98,
+    "kanji": "折",
+    "han_viet": "Chiết",
+    "on_yomi": "せつ",
+    "kun_yomi": "お-る\nお-れる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "右折",
+        "hiragana": "うせつ",
+        "meaning": "rẽ phải"
+      },
+      {
+        "word": "折る",
+        "hiragana": "おる",
+        "meaning": "bẻ gẫy, gập"
+      },
+      {
+        "word": "左折",
+        "hiragana": "させつ",
+        "meaning": "rẽ trái"
+      },
+      {
+        "word": "折り紙",
+        "hiragana": "おりがみ",
+        "meaning": "nghệ thuật gấp giấy"
+      },
+      {
+        "word": "折れる",
+        "hiragana": "おれる",
+        "meaning": "gấp, bị gập"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 99,
+    "kanji": "困",
+    "han_viet": "Khốn",
+    "on_yomi": "こん",
+    "kun_yomi": "こま-る",
+    "mnemonic": "Vì có một cái cây to ở đây nên thật rắc rối",
+    "examples": [
+      {
+        "word": "困る",
+        "hiragana": "こまる",
+        "meaning": "gặp khó khăn"
+      },
+      {
+        "word": "困難",
+        "hiragana": "こんなん",
+        "meaning": "khốn khổ"
+      }
+    ],
+    "image_path": "images/99_困.jpg"
+  },
+  {
+    "index": 100,
+    "kanji": "消",
+    "han_viet": "Tiêu",
+    "on_yomi": "しょう",
+    "kun_yomi": "き-える / け-す",
+    "mnemonic": "Mặt trăng biến mất vào trong làn nước",
+    "examples": [
+      {
+        "word": "消防",
+        "hiragana": "しょうぼう",
+        "meaning": "phòng và chống (cháy, tai nạn)"
+      },
+      {
+        "word": "消す",
+        "hiragana": "けす",
+        "meaning": "xoá, dập (lửa)"
+      },
+      {
+        "word": "消える",
+        "hiragana": "きえる",
+        "meaning": "biến mất"
+      },
+      {
+        "word": "消しゴム",
+        "hiragana": "けしゴム",
+        "meaning": "cục tẩy"
+      }
+    ],
+    "image_path": "images/100_消.jpg"
+  },
+  {
+    "index": 101,
+    "kanji": "防",
+    "han_viet": "Phòng",
+    "on_yomi": "ぼう",
+    "kun_yomi": "ふせ-ぐ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "予防",
+        "hiragana": "よぼう",
+        "meaning": "dự phòng"
+      },
+      {
+        "word": "防ぐ",
+        "hiragana": "ふせぐ",
+        "meaning": "ngăn cản"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 102,
+    "kanji": "救",
+    "han_viet": "Cứu",
+    "on_yomi": "きゅう",
+    "kun_yomi": "すく-う",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "救急車",
+        "hiragana": "きゅうきゅうしゃ",
+        "meaning": "xe cấp cứu"
+      },
+      {
+        "word": "救う",
+        "hiragana": "すくう",
+        "meaning": "cứu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 103,
+    "kanji": "警",
+    "han_viet": "Cảnh",
+    "on_yomi": "けい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "警官",
+        "hiragana": "けいかん",
+        "meaning": "cảnh sát viên"
+      },
+      {
+        "word": "警察",
+        "hiragana": "けいさつ",
+        "meaning": "cảnh sát"
+      },
+      {
+        "word": "警告",
+        "hiragana": "けいこく",
+        "meaning": "cảnh báo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 104,
+    "kanji": "察",
+    "han_viet": "Sát",
+    "on_yomi": "さつ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "警察",
+        "hiragana": "けいさつ",
+        "meaning": "cảnh sát"
+      },
+      {
+        "word": "警察署",
+        "hiragana": "けいさつしょ",
+        "meaning": "sở cảnh sát"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 105,
+    "kanji": "故",
+    "han_viet": "Cố",
+    "on_yomi": "こ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "事故",
+        "hiragana": "じこ",
+        "meaning": "sự cố, tai nạn"
+      },
+      {
+        "word": "故～",
+        "hiragana": "こ～",
+        "meaning": "cố ~"
+      },
+      {
+        "word": "故障",
+        "hiragana": "こしょう",
+        "meaning": "bị hỏng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 106,
+    "kanji": "伝",
+    "han_viet": "Truyền",
+    "on_yomi": "でん",
+    "kun_yomi": "つた-える",
+    "mnemonic": "Hai (二) người truyền tải một thông điệp",
+    "examples": [
+      {
+        "word": "伝言",
+        "hiragana": "でんごん",
+        "meaning": "lời nhắn"
+      },
+      {
+        "word": "伝える",
+        "hiragana": "つたえる",
+        "meaning": "truyền lại"
+      },
+      {
+        "word": "手伝う",
+        "hiragana": "てつだう",
+        "meaning": "giúp đỡ"
+      }
+    ],
+    "image_path": "images/106_伝.jpg"
+  },
+  {
+    "index": 107,
+    "kanji": "黄",
+    "han_viet": "Hoàng",
+    "on_yomi": "",
+    "kun_yomi": "き",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "黄色",
+        "hiragana": "おうしょく",
+        "meaning": "màu vàng"
+      },
+      {
+        "word": "黄色い",
+        "hiragana": "きいろい",
+        "meaning": "vàng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 108,
+    "kanji": "絵",
+    "han_viet": "Hội",
+    "on_yomi": "かい\nえ",
+    "kun_yomi": "",
+    "mnemonic": "Họ gặp (会) nhau và cùng thêu một bức tranh",
+    "examples": [
+      {
+        "word": "絵",
+        "hiragana": "え",
+        "meaning": "tranh"
+      },
+      {
+        "word": "絵画",
+        "hiragana": "かいが",
+        "meaning": "hội hoạ"
+      },
+      {
+        "word": "絵本",
+        "hiragana": "えほん",
+        "meaning": "sách tranh"
+      }
+    ],
+    "image_path": "images/108_絵.jpg"
+  },
+  {
+    "index": 109,
+    "kanji": "組",
+    "han_viet": "Tổ",
+    "on_yomi": "",
+    "kun_yomi": "く-む / くみ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "～組",
+        "hiragana": "～くみ",
+        "meaning": "nhóm, tổ chức"
+      },
+      {
+        "word": "組む",
+        "hiragana": "くむ",
+        "meaning": "hợp tác"
+      },
+      {
+        "word": "番組",
+        "hiragana": "ばんぐみ",
+        "meaning": "chương trình"
+      },
+      {
+        "word": "組み立てる",
+        "hiragana": "くみたてる",
+        "meaning": "lắp ráp"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 110,
+    "kanji": "束",
+    "han_viet": "Thúc",
+    "on_yomi": "そく",
+    "kun_yomi": "たば",
+    "mnemonic": "Anh ấy đã đưa cho tôi một bó hoa",
+    "examples": [
+      {
+        "word": "約束",
+        "hiragana": "やくそく",
+        "meaning": "hứa"
+      },
+      {
+        "word": "花束",
+        "hiragana": "はなたば",
+        "meaning": "bó hoa"
+      }
+    ],
+    "image_path": "images/110_束.jpg"
+  },
+  {
+    "index": 111,
+    "kanji": "授",
+    "han_viet": "Thụ",
+    "on_yomi": "じゅ",
+    "kun_yomi": "",
+    "mnemonic": "Được chỉ bảo cũng giống như được nhận một thứ gì đó",
+    "examples": [
+      {
+        "word": "授業",
+        "hiragana": "じゅぎょう",
+        "meaning": "bài giảng"
+      },
+      {
+        "word": "教授",
+        "hiragana": "きょうじゅ",
+        "meaning": "trợ giảng"
+      }
+    ],
+    "image_path": "images/111_授.jpg"
+  },
+  {
+    "index": 112,
+    "kanji": "渡",
+    "han_viet": "Độ",
+    "on_yomi": "",
+    "kun_yomi": "わた-る / わた-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "渡る",
+        "hiragana": "わたる",
+        "meaning": "ngang qua (đường)"
+      },
+      {
+        "word": "渡す",
+        "hiragana": "わたす",
+        "meaning": "trao"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 113,
+    "kanji": "昔",
+    "han_viet": "Tích",
+    "on_yomi": "",
+    "kun_yomi": "むかし",
+    "mnemonic": "21 ngày trước là một khoảng thời gian rất lâu",
+    "examples": [
+      {
+        "word": "昔",
+        "hiragana": "むかし",
+        "meaning": "ngày xưa"
+      }
+    ],
+    "image_path": "images/113_昔.jpg"
+  },
+  {
+    "index": 114,
+    "kanji": "要",
+    "han_viet": "Yếu",
+    "on_yomi": "よう",
+    "kun_yomi": "い-る",
+    "mnemonic": "Cô gái giữ những thứ thiết yếu trong cặp",
+    "examples": [
+      {
+        "word": "必要",
+        "hiragana": "ひつよう",
+        "meaning": "cần thiết"
+      },
+      {
+        "word": "要る",
+        "hiragana": "いる",
+        "meaning": "cần"
+      },
+      {
+        "word": "重要",
+        "hiragana": "じゅうよう",
+        "meaning": "cần thiết"
+      }
+    ],
+    "image_path": "images/114_要.jpg"
+  },
+  {
+    "index": 115,
+    "kanji": "冷",
+    "han_viet": "Lãnh",
+    "on_yomi": "れい",
+    "kun_yomi": "つめ-たい / ひ-やす / ひ-える / さ-める / さ-ます",
+    "mnemonic": "Một người run rẩy vì cơn gió lạnh",
+    "examples": [
+      {
+        "word": "冷房",
+        "hiragana": "れいぼう",
+        "meaning": "phòng lạnh"
+      },
+      {
+        "word": "冷たい",
+        "hiragana": "つめたい",
+        "meaning": "lạnh"
+      },
+      {
+        "word": "冷やす",
+        "hiragana": "ひやす",
+        "meaning": "làm lạnh"
+      },
+      {
+        "word": "冷える",
+        "hiragana": "ひえる",
+        "meaning": "trở nên lạnh, lạnh đi"
+      },
+      {
+        "word": "冷める",
+        "hiragana": "さめる",
+        "meaning": "giảm nhiệt độ, mất nhiệt"
+      },
+      {
+        "word": "冷ます",
+        "hiragana": "さます",
+        "meaning": "làm cho giảm nhiệt độ"
+      }
+    ],
+    "image_path": "images/115_冷.jpg"
+  },
+  {
+    "index": 116,
+    "kanji": "蔵",
+    "han_viet": "Tàng",
+    "on_yomi": "ぞう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "冷蔵庫",
+        "hiragana": "れいぞうこ",
+        "meaning": "tủ lạnh"
+      },
+      {
+        "word": "蔵書",
+        "hiragana": "ぞうしょ",
+        "meaning": "tàng thư, sách hay nơi cất chứa sách"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 117,
+    "kanji": "凍",
+    "han_viet": "Đông",
+    "on_yomi": "とう",
+    "kun_yomi": "こお-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "冷凍庫",
+        "hiragana": "れいとうこ",
+        "meaning": "tủ đá"
+      },
+      {
+        "word": "凍る",
+        "hiragana": "こおる",
+        "meaning": "đóng đá (nước đóng băng)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 118,
+    "kanji": "庫",
+    "han_viet": "Khố",
+    "on_yomi": "こ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "金庫",
+        "hiragana": "きんこ",
+        "meaning": "két sắt (két đựng tiền"
+      },
+      {
+        "word": "車庫",
+        "hiragana": "しゃこ",
+        "meaning": "kho xe"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 119,
+    "kanji": "召",
+    "han_viet": "Triệu",
+    "on_yomi": "しょう",
+    "kun_yomi": "め-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "召し上がる",
+        "hiragana": "めしあがる",
+        "meaning": "ăn"
+      },
+      {
+        "word": "召集",
+        "hiragana": "しょうしゅう",
+        "meaning": "triệu tập"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 120,
+    "kanji": "保",
+    "han_viet": "Bảo",
+    "on_yomi": "ほ",
+    "kun_yomi": "たも-つ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "保存する",
+        "hiragana": "ほぞんする",
+        "meaning": "lưu trữ, nhớ lại (file máy tính)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 121,
+    "kanji": "存",
+    "han_viet": "Tồn",
+    "on_yomi": "ぞん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "ご存知です",
+        "hiragana": "ぞんじ",
+        "meaning": "biết (kính ngữ)"
+      },
+      {
+        "word": "存じません",
+        "hiragana": "ぞんじません",
+        "meaning": "không biết"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 122,
+    "kanji": "必",
+    "han_viet": "Tất",
+    "on_yomi": "ひつ",
+    "kun_yomi": "かなら-ず",
+    "mnemonic": "Tôi chắc chắn sẽ giành lấy trái tim em",
+    "examples": [
+      {
+        "word": "必要",
+        "hiragana": "ひつよう",
+        "meaning": "cần thiết"
+      },
+      {
+        "word": "必死",
+        "hiragana": "ひっし",
+        "meaning": "gắng hết sức"
+      },
+      {
+        "word": "必ず",
+        "hiragana": "かならず",
+        "meaning": "chắc chắn"
+      }
+    ],
+    "image_path": "images/122_必.jpg"
+  },
+  {
+    "index": 123,
+    "kanji": "費",
+    "han_viet": "Phí",
+    "on_yomi": "ひ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "費用",
+        "hiragana": "ひよう",
+        "meaning": "chi phí"
+      },
+      {
+        "word": "旅費",
+        "hiragana": "りょひ",
+        "meaning": "chi phí du lịch"
+      },
+      {
+        "word": "消費者",
+        "hiragana": "しょうひしゃ",
+        "meaning": "người tiêu dùng"
+      },
+      {
+        "word": "会費",
+        "hiragana": "かいひ",
+        "meaning": "hội phí"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 124,
+    "kanji": "期",
+    "han_viet": "Kỳ",
+    "on_yomi": "き",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "期間",
+        "hiragana": "きかん",
+        "meaning": "khoảng thời gian, thời kỳ"
+      },
+      {
+        "word": "長期",
+        "hiragana": "ちょうき",
+        "meaning": "dài kỳ, dài hạn"
+      },
+      {
+        "word": "定期券",
+        "hiragana": "ていきけん",
+        "meaning": "vé tháng"
+      },
+      {
+        "word": "短期",
+        "hiragana": "たんき",
+        "meaning": "ngắn hạn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 125,
+    "kanji": "限",
+    "han_viet": "Hạn",
+    "on_yomi": "げん",
+    "kun_yomi": "かぎ-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "期限",
+        "hiragana": "きげん",
+        "meaning": "kỳ hạn"
+      },
+      {
+        "word": "限る",
+        "hiragana": "かぎる",
+        "meaning": "giới hạn"
+      },
+      {
+        "word": "限定",
+        "hiragana": "げんてい",
+        "meaning": "hạn định"
+      },
+      {
+        "word": "限度",
+        "hiragana": "げんど",
+        "meaning": "mức độ giới hạn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 126,
+    "kanji": "製",
+    "han_viet": "Chế",
+    "on_yomi": "せい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "～製",
+        "hiragana": "～せい",
+        "meaning": "sản phẩm ~"
+      },
+      {
+        "word": "製品",
+        "hiragana": "せいひん",
+        "meaning": "sản phẩm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 127,
+    "kanji": "造",
+    "han_viet": "Tạo",
+    "on_yomi": "ぞう",
+    "kun_yomi": "つく-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "製造",
+        "hiragana": "せいぞう",
+        "meaning": "chế tạo"
+      },
+      {
+        "word": "造る",
+        "hiragana": "つくる",
+        "meaning": "tạo ra"
+      },
+      {
+        "word": "木造",
+        "hiragana": "もくぞう",
+        "meaning": "sản phẩm làm từ gỗ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 128,
+    "kanji": "賞",
+    "han_viet": "Thưởng",
+    "on_yomi": "しょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "賞",
+        "hiragana": "しょう",
+        "meaning": "thưởng, phần thưởng"
+      },
+      {
+        "word": "賞金",
+        "hiragana": "しょうきん",
+        "meaning": "tiền thưởng"
+      },
+      {
+        "word": "賞味期限",
+        "hiragana": "しょうみきげん",
+        "meaning": "hạn sử dụng (hạn dùng để có được chất lượng còn tốt)"
+      },
+      {
+        "word": "賞品",
+        "hiragana": "しょうひん",
+        "meaning": "phần thưởng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 129,
+    "kanji": "法",
+    "han_viet": "Pháp",
+    "on_yomi": "ほう",
+    "kun_yomi": "",
+    "mnemonic": "Luật về nước sạch đã được thực thi từ năm ngoái",
+    "examples": [
+      {
+        "word": "方法",
+        "hiragana": "ほうほう",
+        "meaning": "phương pháp"
+      },
+      {
+        "word": "文法",
+        "hiragana": "ぶんぽう",
+        "meaning": "ngữ pháp"
+      },
+      {
+        "word": "法律",
+        "hiragana": "ほうりつ",
+        "meaning": "pháp luật"
+      }
+    ],
+    "image_path": "images/129_法.jpg"
+  },
+  {
+    "index": 130,
+    "kanji": "温",
+    "han_viet": "Ôn",
+    "on_yomi": "おん",
+    "kun_yomi": "あたた-かい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "温度",
+        "hiragana": "おんど",
+        "meaning": "nhiệt độ"
+      },
+      {
+        "word": "温かい",
+        "hiragana": "あたたかい",
+        "meaning": "nóng"
+      },
+      {
+        "word": "気温",
+        "hiragana": "きおん",
+        "meaning": "nhiệt độ không khí"
+      },
+      {
+        "word": "常温",
+        "hiragana": "じょうおん",
+        "meaning": "nhiệt độ thông thường"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 131,
+    "kanji": "販",
+    "han_viet": "Phiến, phán",
+    "on_yomi": "はん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "販売",
+        "hiragana": "はんばい",
+        "meaning": "bán"
+      },
+      {
+        "word": "自動販売機",
+        "hiragana": "じどうはんばいき",
+        "meaning": "máy bán hàng tự động"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 132,
+    "kanji": "機",
+    "han_viet": "Cơ",
+    "on_yomi": "き",
+    "kun_yomi": "",
+    "mnemonic": "Chúng tôi sử dụng máy bằng gỗ (木) để dệt vải từ các sợi chỉ (糸).",
+    "examples": [
+      {
+        "word": "飛行機",
+        "hiragana": "ひこうき",
+        "meaning": "máy bay"
+      },
+      {
+        "word": "機械",
+        "hiragana": "きかい",
+        "meaning": "máy móc"
+      },
+      {
+        "word": "機会",
+        "hiragana": "きかい",
+        "meaning": "cơ hội"
+      }
+    ],
+    "image_path": "images/132_機.jpg"
+  },
+  {
+    "index": 133,
+    "kanji": "増",
+    "han_viet": "Tăng",
+    "on_yomi": "ぞう",
+    "kun_yomi": "ふ-える / ふ-やす",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "増える",
+        "hiragana": "ふえる",
+        "meaning": "tăng"
+      },
+      {
+        "word": "増やす",
+        "hiragana": "ふやす",
+        "meaning": "làm cho tăng"
+      },
+      {
+        "word": "増加",
+        "hiragana": "ぞうか",
+        "meaning": "tăng thêm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 134,
+    "kanji": "減",
+    "han_viet": "Giảm",
+    "on_yomi": "げん",
+    "kun_yomi": "へ-る / へ-らす",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "減少",
+        "hiragana": "げんしょう",
+        "meaning": "giảm thiểu"
+      },
+      {
+        "word": "減る",
+        "hiragana": "へる",
+        "meaning": "giảm"
+      },
+      {
+        "word": "減らす",
+        "hiragana": "へらす",
+        "meaning": "làm cho giảm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 135,
+    "kanji": "量",
+    "han_viet": "Lượng",
+    "on_yomi": "りょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "量",
+        "hiragana": "りょう",
+        "meaning": "lượng"
+      },
+      {
+        "word": "増量",
+        "hiragana": "ぞうりょう",
+        "meaning": "tăng về lượng"
+      },
+      {
+        "word": "数量",
+        "hiragana": "すうりょう",
+        "meaning": "số lượng"
+      },
+      {
+        "word": "減量",
+        "hiragana": "げんりょう",
+        "meaning": "giảm về lương"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 136,
+    "kanji": "氷",
+    "han_viet": "Băng",
+    "on_yomi": "",
+    "kun_yomi": "こおり",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "氷",
+        "hiragana": "こおり",
+        "meaning": "đá, băng đá"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 137,
+    "kanji": "返",
+    "han_viet": "Phản",
+    "on_yomi": "へん",
+    "kun_yomi": "かえ-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "返す",
+        "hiragana": "かえす",
+        "meaning": "trả lại"
+      },
+      {
+        "word": "返事",
+        "hiragana": "へんじ",
+        "meaning": "trả lời"
+      },
+      {
+        "word": "返却",
+        "hiragana": "へんきゃく",
+        "meaning": "trả lại (đồ hoặc tiền đã nhận giữ)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 138,
+    "kanji": "湯",
+    "han_viet": "Thang",
+    "on_yomi": "",
+    "kun_yomi": "おゆ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "お湯",
+        "hiragana": "おゆ",
+        "meaning": "nước nóng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 139,
+    "kanji": "材",
+    "han_viet": "Tài",
+    "on_yomi": "ざい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "材料",
+        "hiragana": "ざいりょう",
+        "meaning": "vật liệu"
+      },
+      {
+        "word": "教材",
+        "hiragana": "きょうざい",
+        "meaning": "tài liệu giảng dạy"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 140,
+    "kanji": "卵",
+    "han_viet": "Noãn",
+    "on_yomi": "",
+    "kun_yomi": "たまご",
+    "mnemonic": "Tách đôi quả trứng",
+    "examples": [
+      {
+        "word": "卵",
+        "hiragana": "たまご",
+        "meaning": "trứng"
+      },
+      {
+        "word": "卵焼き",
+        "hiragana": "たまごやき",
+        "meaning": "trứng rán"
+      }
+    ],
+    "image_path": "images/140_卵.jpg"
+  },
+  {
+    "index": 141,
+    "kanji": "乳",
+    "han_viet": "Nhũ",
+    "on_yomi": "にゅう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "牛乳",
+        "hiragana": "ぎゅうにゅう",
+        "meaning": "sữa bò"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 142,
+    "kanji": "粉",
+    "han_viet": "Phấn",
+    "on_yomi": "",
+    "kun_yomi": "こな / こ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "粉",
+        "hiragana": "こな",
+        "meaning": "bột"
+      },
+      {
+        "word": "小麦粉",
+        "hiragana": "こむぎこ",
+        "meaning": "bột mì"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 143,
+    "kanji": "袋",
+    "han_viet": "Đại",
+    "on_yomi": "",
+    "kun_yomi": "ふくろ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "袋",
+        "hiragana": "ふくろ",
+        "meaning": "túi"
+      },
+      {
+        "word": "手袋",
+        "hiragana": "てぶくろ",
+        "meaning": "găng tay"
+      },
+      {
+        "word": "ゴミ袋",
+        "hiragana": "ごみぶくろ",
+        "meaning": "túi rác"
+      },
+      {
+        "word": "紙袋",
+        "hiragana": "かみぶくろ",
+        "meaning": "túi bằng giấy"
+      },
+      {
+        "word": "足袋",
+        "hiragana": "たび",
+        "meaning": "tất chân"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 144,
+    "kanji": "混",
+    "han_viet": "Hỗn",
+    "on_yomi": "こん",
+    "kun_yomi": "ま-ぜる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "混ぜる",
+        "hiragana": "まぜる",
+        "meaning": "trộn"
+      },
+      {
+        "word": "混雑",
+        "hiragana": "こんざつ",
+        "meaning": "hỗn tạp"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 145,
+    "kanji": "焼",
+    "han_viet": "Thiêu",
+    "on_yomi": "",
+    "kun_yomi": "や-く / や-ける",
+    "mnemonic": "Đốt 30 bó đũa",
+    "examples": [
+      {
+        "word": "焼く",
+        "hiragana": "やく",
+        "meaning": "nướng"
+      },
+      {
+        "word": "焼ける",
+        "hiragana": "やける",
+        "meaning": "cháy"
+      }
+    ],
+    "image_path": "images/145_焼.jpg"
+  },
+  {
+    "index": 146,
+    "kanji": "表",
+    "han_viet": "Biểu",
+    "on_yomi": "ひょう",
+    "kun_yomi": "おもて / あらわ-す",
+    "mnemonic": "Biểu hiện sự vui mừng vì cái cây trở nên to lớn",
+    "examples": [
+      {
+        "word": "表",
+        "hiragana": "おもて",
+        "meaning": "mặt trước"
+      },
+      {
+        "word": "発表",
+        "hiragana": "はっぴょう",
+        "meaning": "phát biểu"
+      },
+      {
+        "word": "表面",
+        "hiragana": "ひょうめん",
+        "meaning": "bề mặt"
+      },
+      {
+        "word": "表現",
+        "hiragana": "ひょうげん",
+        "meaning": "biểu hiện"
+      },
+      {
+        "word": "表す",
+        "hiragana": "あらわす",
+        "meaning": "thể hiện"
+      },
+      {
+        "word": "代表",
+        "hiragana": "だいひょう",
+        "meaning": "đại biểu, địa diện"
+      }
+    ],
+    "image_path": "images/146_表.jpg"
+  },
+  {
+    "index": 147,
+    "kanji": "裏",
+    "han_viet": "Lý",
+    "on_yomi": "",
+    "kun_yomi": "うら",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "裏",
+        "hiragana": "うら",
+        "meaning": "mặt sau"
+      },
+      {
+        "word": "裏返し",
+        "hiragana": "うらがえし",
+        "meaning": "lật mặt sau"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 148,
+    "kanji": "留",
+    "han_viet": "Lưu",
+    "on_yomi": "りゅう\nる",
+    "kun_yomi": "と-める",
+    "mnemonic": "Ngồi trên cánh đồng dùng dao cắt lúa",
+    "examples": [
+      {
+        "word": "留学",
+        "hiragana": "りゅうがく",
+        "meaning": "du học"
+      },
+      {
+        "word": "留守番",
+        "hiragana": "るすばん",
+        "meaning": "trông nhà"
+      },
+      {
+        "word": "保留",
+        "hiragana": "ほりゅう",
+        "meaning": "bảo lưu"
+      },
+      {
+        "word": "書留",
+        "hiragana": "かきとめ",
+        "meaning": "gửi đảm bảo (yêu cầu người nhận phải ký nhận. Bưu điện lưu lại giấy đó)"
+      }
+    ],
+    "image_path": "images/148_留.jpg"
+  },
+  {
+    "index": 149,
+    "kanji": "守",
+    "han_viet": "Thủ",
+    "on_yomi": "しゅ / す",
+    "kun_yomi": "まも-る",
+    "mnemonic": "Chiếc chìa khóa này bảo vệ ngôi nhà",
+    "examples": [
+      {
+        "word": "守備",
+        "hiragana": "しゅび",
+        "meaning": "phòng bị"
+      },
+      {
+        "word": "守る",
+        "hiragana": "まもる",
+        "meaning": "bảo vệ"
+      },
+      {
+        "word": "留守",
+        "hiragana": "るす",
+        "meaning": "vắng nhà"
+      }
+    ],
+    "image_path": "images/149_守.jpg"
+  },
+  {
+    "index": 150,
+    "kanji": "濃",
+    "han_viet": "Nồng",
+    "on_yomi": "のう",
+    "kun_yomi": "こ-い",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "濃い",
+        "hiragana": "こい",
+        "meaning": "đậm đặc"
+      },
+      {
+        "word": "濃度",
+        "hiragana": "のうど",
+        "meaning": "nồng độ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 151,
+    "kanji": "薄",
+    "han_viet": "Bạc",
+    "on_yomi": "",
+    "kun_yomi": "うす-い",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "薄い",
+        "hiragana": "うすい",
+        "meaning": "nhạt"
+      },
+      {
+        "word": "薄暗い",
+        "hiragana": "うすぐらい",
+        "meaning": "hơi tối"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 152,
+    "kanji": "部",
+    "han_viet": "Bộ",
+    "on_yomi": "ぶ",
+    "kun_yomi": "",
+    "mnemonic": "Người đứng ở điểm chờ xe bus",
+    "examples": [
+      {
+        "word": "部分",
+        "hiragana": "ぶぶん",
+        "meaning": "bộ phận"
+      },
+      {
+        "word": "部長",
+        "hiragana": "ぶちょう",
+        "meaning": "trưởng phòng"
+      },
+      {
+        "word": "部屋",
+        "hiragana": "へや",
+        "meaning": "phòng"
+      },
+      {
+        "word": "学部",
+        "hiragana": "がくぶ",
+        "meaning": "khoa (trong trường)"
+      }
+    ],
+    "image_path": "images/152_部.jpg"
+  },
+  {
+    "index": 153,
+    "kanji": "数",
+    "han_viet": "Số",
+    "on_yomi": "すう",
+    "kun_yomi": "かず / かぞ-える",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "数",
+        "hiragana": "かず",
+        "meaning": "số"
+      },
+      {
+        "word": "数字",
+        "hiragana": "すうじ",
+        "meaning": "chữ số"
+      },
+      {
+        "word": "数える",
+        "hiragana": "かぞえる",
+        "meaning": "đếm"
+      },
+      {
+        "word": "数学",
+        "hiragana": "すうがく",
+        "meaning": "số học"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 154,
+    "kanji": "件",
+    "han_viet": "Kiện",
+    "on_yomi": "けん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "事件",
+        "hiragana": "じけん",
+        "meaning": "sự kiện"
+      },
+      {
+        "word": "件名",
+        "hiragana": "けんめい",
+        "meaning": "tên sự kiện"
+      },
+      {
+        "word": "用件",
+        "hiragana": "ようけん",
+        "meaning": "việc riêng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 155,
+    "kanji": "再",
+    "han_viet": "Tái",
+    "on_yomi": "さい\nさ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "再入国",
+        "hiragana": "さいにゅうこく",
+        "meaning": "tái nhập quốc (rời khỏi Nhật, sau đó nhập cảnh trở lại)"
+      },
+      {
+        "word": "再来週",
+        "hiragana": "さらいしゅう",
+        "meaning": "tuần sau nữa"
+      },
+      {
+        "word": "再生",
+        "hiragana": "さいせい",
+        "meaning": "tái sinh"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 156,
+    "kanji": "接",
+    "han_viet": "Tiếp",
+    "on_yomi": "せつ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "面接",
+        "hiragana": "めんせつ",
+        "meaning": "tiếp diện, giáp mặt"
+      },
+      {
+        "word": "接続",
+        "hiragana": "せつぞく",
+        "meaning": "nối"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 157,
+    "kanji": "続",
+    "han_viet": "Tục",
+    "on_yomi": "ぞく",
+    "kun_yomi": "つづ-ける  /  つづ-く",
+    "mnemonic": "Tôi tiếp tục bán (売) những sợi dây (糸) này.",
+    "examples": [
+      {
+        "word": "続ける",
+        "hiragana": "つづける",
+        "meaning": "tiếp tục (tha động từ)"
+      },
+      {
+        "word": "続く",
+        "hiragana": "つづく",
+        "meaning": "tiếp tục (tự động từ)"
+      },
+      {
+        "word": "接続",
+        "hiragana": "せつぞく",
+        "meaning": "nối"
+      }
+    ],
+    "image_path": "images/157_続.jpg"
+  },
+  {
+    "index": 158,
+    "kanji": "示",
+    "han_viet": "Thị",
+    "on_yomi": "じ",
+    "kun_yomi": "しめ-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "指示",
+        "hiragana": "しじ",
+        "meaning": "chỉ thị"
+      },
+      {
+        "word": "表示",
+        "hiragana": "ひょうじ",
+        "meaning": "biểu thị, thể hiện"
+      },
+      {
+        "word": "示す",
+        "hiragana": "しめす",
+        "meaning": "trình, cho xem, xuất trình (vé)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 159,
+    "kanji": "戻",
+    "han_viet": "Lệ",
+    "on_yomi": "",
+    "kun_yomi": "もど-す / もど-る",
+    "mnemonic": "Anh ấy đã trở nên to lớn (大) và đã trở lại .Bây giờ anh ấy đang ở cửa (戸).",
+    "examples": [
+      {
+        "word": "戻す",
+        "hiragana": "もどす",
+        "meaning": "đưa về chỗ cũ"
+      },
+      {
+        "word": "戻る",
+        "hiragana": "もどる",
+        "meaning": "trở lại"
+      }
+    ],
+    "image_path": "images/159_戻.jpg"
+  },
+  {
+    "index": 160,
+    "kanji": "完",
+    "han_viet": "Hoàn",
+    "on_yomi": "かん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "完了",
+        "hiragana": "かんりょう",
+        "meaning": "hoàn thành"
+      },
+      {
+        "word": "完全",
+        "hiragana": "かんぜん",
+        "meaning": "hoàn toàn"
+      },
+      {
+        "word": "完成",
+        "hiragana": "かんせい",
+        "meaning": "hoàn thành"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 161,
+    "kanji": "了",
+    "han_viet": "Liễu",
+    "on_yomi": "りょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "了解",
+        "hiragana": "りょうかい",
+        "meaning": "hiểu"
+      },
+      {
+        "word": "終了",
+        "hiragana": "しゅうりょう",
+        "meaning": "hoàn thành"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 162,
+    "kanji": "登",
+    "han_viet": "Đăng",
+    "on_yomi": "とう / と",
+    "kun_yomi": "のぼ-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "登録",
+        "hiragana": "とうろく",
+        "meaning": "đăng ký"
+      },
+      {
+        "word": "登山",
+        "hiragana": "とざん",
+        "meaning": "leo núi"
+      },
+      {
+        "word": "登る",
+        "hiragana": "のぼる",
+        "meaning": "trèo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 163,
+    "kanji": "録",
+    "han_viet": "Lục",
+    "on_yomi": "ろく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "録音",
+        "hiragana": "ろくおん",
+        "meaning": "ghi âm"
+      },
+      {
+        "word": "記録",
+        "hiragana": "きろく",
+        "meaning": "ghi chép"
+      },
+      {
+        "word": "録画",
+        "hiragana": "ろくが",
+        "meaning": "ghi hình"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 164,
+    "kanji": "育",
+    "han_viet": "Dục",
+    "on_yomi": "いく",
+    "kun_yomi": "そだ-つ / そだ-てる",
+    "mnemonic": "Tôi vừa nhìn mặt trăng (月), vừa lớn lên",
+    "examples": [
+      {
+        "word": "育つ",
+        "hiragana": "そだつ",
+        "meaning": "lớn, trưởng thành"
+      },
+      {
+        "word": "育てる",
+        "hiragana": "そだてる",
+        "meaning": "nuôi dưỡng"
+      },
+      {
+        "word": "教育",
+        "hiragana": "きょういく",
+        "meaning": "giáo dục"
+      }
+    ],
+    "image_path": "images/164_育.jpg"
+  },
+  {
+    "index": 165,
+    "kanji": "種",
+    "han_viet": "Chủng",
+    "on_yomi": "しゅ",
+    "kun_yomi": "たね",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "種",
+        "hiragana": "たね",
+        "meaning": "hạt giống"
+      },
+      {
+        "word": "種類",
+        "hiragana": "しゅるい",
+        "meaning": "loại"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 166,
+    "kanji": "類",
+    "han_viet": "Loại",
+    "on_yomi": "るい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "書類",
+        "hiragana": "しょるい",
+        "meaning": "giấy tờ"
+      },
+      {
+        "word": "分類",
+        "hiragana": "ぶんるい",
+        "meaning": "phân loại"
+      },
+      {
+        "word": "人類",
+        "hiragana": "じんるい",
+        "meaning": "nhân loại"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 167,
+    "kanji": "師",
+    "han_viet": "Sư",
+    "on_yomi": "し",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "教師",
+        "hiragana": "きょうし",
+        "meaning": "giáo sư"
+      },
+      {
+        "word": "看護し",
+        "hiragana": "かんごし",
+        "meaning": "y tá"
+      },
+      {
+        "word": "医師",
+        "hiragana": "いし",
+        "meaning": "y sĩ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 168,
+    "kanji": "妻",
+    "han_viet": "Thê",
+    "on_yomi": "さい",
+    "kun_yomi": "つま",
+    "mnemonic": "Người phụ nữ đang cầm chổi là vợ tôi",
+    "examples": [
+      {
+        "word": "妻",
+        "hiragana": "つま",
+        "meaning": "vợ"
+      },
+      {
+        "word": "夫妻",
+        "hiragana": "ふさい",
+        "meaning": "vợ chồng"
+      }
+    ],
+    "image_path": "images/168_妻.jpg"
+  },
+  {
+    "index": 169,
+    "kanji": "馬",
+    "han_viet": "Mã",
+    "on_yomi": "ば",
+    "kun_yomi": "うま",
+    "mnemonic": "Đây là hình của một con ngựa. 馬の形です。（うまのかたちです）",
+    "examples": [
+      {
+        "word": "馬",
+        "hiragana": "うま",
+        "meaning": "ngựa"
+      },
+      {
+        "word": "乗馬",
+        "hiragana": "じょうば",
+        "meaning": "lên ngựa"
+      }
+    ],
+    "image_path": "images/169_馬.jpg"
+  },
+  {
+    "index": 170,
+    "kanji": "石",
+    "han_viet": "Thạch",
+    "on_yomi": "せき",
+    "kun_yomi": "いし",
+    "mnemonic": "Hình vách đá và tảng đá",
+    "examples": [
+      {
+        "word": "石けん",
+        "hiragana": "せっけん",
+        "meaning": "xà phòng"
+      },
+      {
+        "word": "石",
+        "hiragana": "いし",
+        "meaning": "đá"
+      },
+      {
+        "word": "石油",
+        "hiragana": "せきゆ",
+        "meaning": "dầu (chạy xe)"
+      }
+    ],
+    "image_path": "images/170_石.jpg"
+  },
+  {
+    "index": 171,
+    "kanji": "砂",
+    "han_viet": "Sa",
+    "on_yomi": "さ",
+    "kun_yomi": "すな",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "砂",
+        "hiragana": "すな",
+        "meaning": "cát"
+      },
+      {
+        "word": "砂糖",
+        "hiragana": "さとう",
+        "meaning": "đường"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 172,
+    "kanji": "塩",
+    "han_viet": "Diêm",
+    "on_yomi": "えん",
+    "kun_yomi": "しお",
+    "mnemonic": "Thức ăn trên đĩa rất mặn",
+    "examples": [
+      {
+        "word": "塩",
+        "hiragana": "しお",
+        "meaning": "muối"
+      },
+      {
+        "word": "食塩",
+        "hiragana": "しょくえん",
+        "meaning": "muối ăn"
+      }
+    ],
+    "image_path": "images/172_塩.jpg"
+  },
+  {
+    "index": 173,
+    "kanji": "油",
+    "han_viet": "Du",
+    "on_yomi": "ゆ",
+    "kun_yomi": "あぶら",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "しょう油",
+        "hiragana": "しょうゆ",
+        "meaning": "xì dầu (của Nhật)"
+      },
+      {
+        "word": "灯油",
+        "hiragana": "とうゆ",
+        "meaning": "đầu đốt (lò sưởi, đèn)"
+      },
+      {
+        "word": "石油",
+        "hiragana": "せきゆ",
+        "meaning": "dầu (xăng dầu)"
+      },
+      {
+        "word": "油",
+        "hiragana": "あぶら",
+        "meaning": "dầu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 174,
+    "kanji": "緑",
+    "han_viet": "Lục",
+    "on_yomi": "りょく",
+    "kun_yomi": "みどり",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "緑茶",
+        "hiragana": "りょくちゃ",
+        "meaning": "trà xanh"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 175,
+    "kanji": "紅",
+    "han_viet": "Hồng",
+    "on_yomi": "こう",
+    "kun_yomi": "べに",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "紅茶",
+        "hiragana": "こうちゃ",
+        "meaning": "hồng trà, trà"
+      },
+      {
+        "word": "口紅",
+        "hiragana": "くちべに",
+        "meaning": "son môi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 176,
+    "kanji": "冊",
+    "han_viet": "Sách",
+    "on_yomi": "さつ",
+    "kun_yomi": "",
+    "mnemonic": "Xế nhiều giấy lại, làm thành 1 cuốn sách",
+    "examples": [
+      {
+        "word": "～冊",
+        "hiragana": "～さつ",
+        "meaning": "~ cuốn"
+      },
+      {
+        "word": "冊数",
+        "hiragana": "さっすう",
+        "meaning": "số cuốn"
+      }
+    ],
+    "image_path": "images/176_冊.jpg"
+  },
+  {
+    "index": 177,
+    "kanji": "個",
+    "han_viet": "Cá",
+    "on_yomi": "こ",
+    "kun_yomi": "",
+    "mnemonic": "Mỗi người đều có một niềm tin cứng rắn",
+    "examples": [
+      {
+        "word": "～個",
+        "hiragana": "こ",
+        "meaning": "~ cái"
+      },
+      {
+        "word": "個数",
+        "hiragana": "こすう",
+        "meaning": "số cái"
+      },
+      {
+        "word": "個人",
+        "hiragana": "こじん",
+        "meaning": "cá nhân"
+      }
+    ],
+    "image_path": "images/177_個.jpg"
+  },
+  {
+    "index": 178,
+    "kanji": "枚",
+    "han_viet": "Mai",
+    "on_yomi": "まい",
+    "kun_yomi": "",
+    "mnemonic": "Tôi làm 1 tờ giấy từ 1 cái cây (木).",
+    "examples": [
+      {
+        "word": "～枚",
+        "hiragana": "～まい",
+        "meaning": "~ tờ"
+      },
+      {
+        "word": "枚数",
+        "hiragana": "まいすう",
+        "meaning": "số tờ"
+      }
+    ],
+    "image_path": "images/178_枚.jpg"
+  },
+  {
+    "index": 179,
+    "kanji": "告",
+    "han_viet": "Cáo",
+    "on_yomi": "こく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "広告",
+        "hiragana": "こうこく",
+        "meaning": "quảng cáo"
+      },
+      {
+        "word": "警告",
+        "hiragana": "けいこく",
+        "meaning": "cảnh cáo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 180,
+    "kanji": "利",
+    "han_viet": "Lợi",
+    "on_yomi": "り",
+    "kun_yomi": "",
+    "mnemonic": "Sự dụng dao để cắt lúa sẽ đem lại lợi nhuận",
+    "examples": [
+      {
+        "word": "便利",
+        "hiragana": "べんり",
+        "meaning": "tiện"
+      },
+      {
+        "word": "利用",
+        "hiragana": "りよう",
+        "meaning": "sử dụng, lợi dụng"
+      }
+    ],
+    "image_path": "images/180_利.jpg"
+  },
+  {
+    "index": 181,
+    "kanji": "割",
+    "han_viet": "Cát",
+    "on_yomi": "",
+    "kun_yomi": "わ-る / わ-れる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "割る",
+        "hiragana": "わる",
+        "meaning": "làm vỡ"
+      },
+      {
+        "word": "割れる",
+        "hiragana": "われる",
+        "meaning": "vỡ"
+      },
+      {
+        "word": "割合",
+        "hiragana": "わりあい",
+        "meaning": "tỷ lệ"
+      },
+      {
+        "word": "割引",
+        "hiragana": "わりびき",
+        "meaning": "giảm giá"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 182,
+    "kanji": "倍",
+    "han_viet": "Bội",
+    "on_yomi": "ばい",
+    "kun_yomi": "",
+    "mnemonic": "Người đàn ông cao cao hơn hai lần so với người đàn ông thấp",
+    "examples": [
+      {
+        "word": "倍＝2倍",
+        "hiragana": "ばい",
+        "meaning": "lần"
+      },
+      {
+        "word": "～倍",
+        "hiragana": "ばい",
+        "meaning": "~ lần"
+      }
+    ],
+    "image_path": "images/182_倍.jpg"
+  },
+  {
+    "index": 183,
+    "kanji": "値",
+    "han_viet": "Trị",
+    "on_yomi": "",
+    "kun_yomi": "ね",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "値段",
+        "hiragana": "ねだん",
+        "meaning": "giá"
+      },
+      {
+        "word": "値上げ",
+        "hiragana": "ねあげ",
+        "meaning": "tăng giá"
+      },
+      {
+        "word": "値下げ",
+        "hiragana": "ねさげ",
+        "meaning": "giảm giá"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 184,
+    "kanji": "商",
+    "han_viet": "Thương",
+    "on_yomi": "しょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "商品",
+        "hiragana": "しょうひん",
+        "meaning": "sản phẩm"
+      },
+      {
+        "word": "商店",
+        "hiragana": "しょうてん",
+        "meaning": "cửa hàng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 185,
+    "kanji": "支",
+    "han_viet": "Chi",
+    "on_yomi": "し",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "支店",
+        "hiragana": "してん",
+        "meaning": "cửa hàng chi nhánh"
+      },
+      {
+        "word": "支社",
+        "hiragana": "ししゃ",
+        "meaning": "công ty con"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 186,
+    "kanji": "払",
+    "han_viet": "Phất, Bật",
+    "on_yomi": "",
+    "kun_yomi": "はら-う",
+    "mnemonic": "Tôi trả tiền bằng tay",
+    "examples": [
+      {
+        "word": "払う",
+        "hiragana": "はらう",
+        "meaning": "trả (tiền)"
+      },
+      {
+        "word": "支払い",
+        "hiragana": "しはらう",
+        "meaning": "chi trả"
+      }
+    ],
+    "image_path": "images/186_払.jpg"
+  },
+  {
+    "index": 187,
+    "kanji": "米",
+    "han_viet": "Mễ",
+    "on_yomi": "べい",
+    "kun_yomi": "こめ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "米",
+        "hiragana": "こめ",
+        "meaning": "gạo"
+      },
+      {
+        "word": "米国",
+        "hiragana": "べいこく",
+        "meaning": "nước Mỹ"
+      },
+      {
+        "word": "欧米",
+        "hiragana": "おうべい",
+        "meaning": "âu mỹ"
+      },
+      {
+        "word": "米日",
+        "hiragana": "べいにち",
+        "meaning": "Mỹ – Nhật"
+      }
+    ],
+    "image_path": "images/187_米.png"
+  },
+  {
+    "index": 188,
+    "kanji": "級",
+    "han_viet": "Cấp",
+    "on_yomi": "きゅう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "高級",
+        "hiragana": "こうきゅう",
+        "meaning": "cao cấp"
+      },
+      {
+        "word": "上級",
+        "hiragana": "じょうきゅう",
+        "meaning": "cấp cao"
+      },
+      {
+        "word": "中級",
+        "hiragana": "ちゅうきゅう",
+        "meaning": "trung cấp"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 189,
+    "kanji": "残",
+    "han_viet": "Tàn",
+    "on_yomi": "ざん",
+    "kun_yomi": "のこ-る / のこ-す",
+    "mnemonic": "3 người tử nạn và chỉ còn lại vũ khí của họ",
+    "examples": [
+      {
+        "word": "残る",
+        "hiragana": "のこる",
+        "meaning": "còn lại"
+      },
+      {
+        "word": "残す",
+        "hiragana": "のこす",
+        "meaning": "để lại"
+      },
+      {
+        "word": "残念",
+        "hiragana": "ざんねん",
+        "meaning": "đáng tiếc"
+      },
+      {
+        "word": "残業",
+        "hiragana": "ざんぎょう",
+        "meaning": "(việc làm) ngoài giờ (làm thêm)"
+      }
+    ],
+    "image_path": "images/189_残.jpg"
+  },
+  {
+    "index": 190,
+    "kanji": "型",
+    "han_viet": "Hình",
+    "on_yomi": "",
+    "kun_yomi": "かた",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "大型",
+        "hiragana": "おおがた",
+        "meaning": "cỡ lớn"
+      },
+      {
+        "word": "小型",
+        "hiragana": "こがた",
+        "meaning": "cỡ nhỏ"
+      },
+      {
+        "word": "新型",
+        "hiragana": "しんがた",
+        "meaning": "dạng mới"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 191,
+    "kanji": "税",
+    "han_viet": "Thuế",
+    "on_yomi": "ぜい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "税金",
+        "hiragana": "ぜいきん",
+        "meaning": "tiền thuế"
+      },
+      {
+        "word": "消費税",
+        "hiragana": "しょうひぜい",
+        "meaning": "thuế tiêu dùng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 192,
+    "kanji": "込",
+    "han_viet": "Nhập",
+    "on_yomi": "",
+    "kun_yomi": "こ-む",
+    "mnemonic": "Người người đang đi vào, chắc là đông lắm",
+    "examples": [
+      {
+        "word": "込む",
+        "hiragana": "こむ",
+        "meaning": "(người) đông"
+      },
+      {
+        "word": "振り込む",
+        "hiragana": "ふりこむ",
+        "meaning": "chuyển (khoản)"
+      },
+      {
+        "word": "税込み",
+        "hiragana": "ぜいこみ",
+        "meaning": "bao gồm thuế"
+      }
+    ],
+    "image_path": "images/192_込.jpg"
+  },
+  {
+    "index": 193,
+    "kanji": "価",
+    "han_viet": "Giá",
+    "on_yomi": "か",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "物価",
+        "hiragana": "ぶっか",
+        "meaning": "vật giá"
+      },
+      {
+        "word": "価格",
+        "hiragana": "かかく",
+        "meaning": "giá"
+      },
+      {
+        "word": "定価",
+        "hiragana": "ていか",
+        "meaning": "giá niêm yết (giá không có khuyến mại)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 194,
+    "kanji": "格",
+    "han_viet": "Cách",
+    "on_yomi": "かく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "性格",
+        "hiragana": "せいかく",
+        "meaning": "tính cách"
+      },
+      {
+        "word": "合格",
+        "hiragana": "ごうかく",
+        "meaning": "đạt tiêu chuẩn, đỗ (kỳ thi)"
+      },
+      {
+        "word": "格安",
+        "hiragana": "かくやす",
+        "meaning": "giá rẻ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 195,
+    "kanji": "申",
+    "han_viet": "Thân",
+    "on_yomi": "しん",
+    "kun_yomi": "もう-す",
+    "mnemonic": "Tia chớp đã nói với tôi rằng ‘tên ta là Tia chớp’",
+    "examples": [
+      {
+        "word": "申し込む",
+        "hiragana": "もうしこむ",
+        "meaning": "xin gia nhập"
+      },
+      {
+        "word": "申込書",
+        "hiragana": "もうしこみしょ",
+        "meaning": "đơn xin gia nhập"
+      },
+      {
+        "word": "申請",
+        "hiragana": "しんせい",
+        "meaning": "thỉnh cầu"
+      },
+      {
+        "word": "申し上げる",
+        "hiragana": "もうしあげる",
+        "meaning": "đề xuất"
+      },
+      {
+        "word": "申す",
+        "hiragana": "もうす",
+        "meaning": "gọi là"
+      },
+      {
+        "word": "申告",
+        "hiragana": "しんこく",
+        "meaning": "thông báo"
+      }
+    ],
+    "image_path": "images/195_申.jpg"
+  },
+  {
+    "index": 196,
+    "kanji": "記",
+    "han_viet": "Kí",
+    "on_yomi": "き",
+    "kun_yomi": "",
+    "mnemonic": "Tôi viết lại những điều anh nói",
+    "examples": [
+      {
+        "word": "記入",
+        "hiragana": "きにゅう",
+        "meaning": "ghi chép"
+      },
+      {
+        "word": "記念",
+        "hiragana": "きねん",
+        "meaning": "kỷ niệm"
+      },
+      {
+        "word": "記号",
+        "hiragana": "きごう",
+        "meaning": "ký hiệu"
+      },
+      {
+        "word": "記者",
+        "hiragana": "きしゃ",
+        "meaning": "ký giả, nhà bào"
+      },
+      {
+        "word": "日記",
+        "hiragana": "にっき",
+        "meaning": "nhật ký"
+      },
+      {
+        "word": "記事",
+        "hiragana": "きじ",
+        "meaning": "bài báo"
+      }
+    ],
+    "image_path": "images/196_記.jpg"
+  },
+  {
+    "index": 197,
+    "kanji": "例",
+    "han_viet": "Lệ",
+    "on_yomi": "れい",
+    "kun_yomi": "たと-える",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "例",
+        "hiragana": "れい",
+        "meaning": "ví dụ"
+      },
+      {
+        "word": "]例えば",
+        "hiragana": "たとえば",
+        "meaning": "ví như :"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 198,
+    "kanji": "齢",
+    "han_viet": "Linh",
+    "on_yomi": "れい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "年齢",
+        "hiragana": "ねんれい",
+        "meaning": "tuổi tác"
+      },
+      {
+        "word": "高齢",
+        "hiragana": "こうれい",
+        "meaning": "tuổi cao"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 199,
+    "kanji": "歳",
+    "han_viet": "Tuế",
+    "on_yomi": "さい",
+    "kun_yomi": "",
+    "mnemonic": "Hãy dừng (止) việc hỏi tuổi của tôi.",
+    "examples": [
+      {
+        "word": "～歳",
+        "hiragana": "さい",
+        "meaning": "~ tuổi"
+      },
+      {
+        "word": "二十歳",
+        "hiragana": "はたち",
+        "meaning": "20 tuổi"
+      }
+    ],
+    "image_path": "images/199_歳.jpg"
+  },
+  {
+    "index": 200,
+    "kanji": "性",
+    "han_viet": "Tính",
+    "on_yomi": "せい",
+    "kun_yomi": "",
+    "mnemonic": "Khi sinh ra sẽ biết giới tính của trẻ",
+    "examples": [
+      {
+        "word": "性格",
+        "hiragana": "せいかく",
+        "meaning": "tính cách"
+      },
+      {
+        "word": "女性",
+        "hiragana": "じょせい",
+        "meaning": "nữ giới"
+      },
+      {
+        "word": "性別",
+        "hiragana": "せいべつ",
+        "meaning": "giới tính"
+      },
+      {
+        "word": "男性",
+        "hiragana": "だんせい",
+        "meaning": "nam giới"
+      }
+    ],
+    "image_path": "images/200_性.jpg"
+  },
+  {
+    "index": 201,
+    "kanji": "連",
+    "han_viet": "Liên",
+    "on_yomi": "れん",
+    "kun_yomi": "つ-れる",
+    "mnemonic": "Lái xe (車) trên con đường dẫn tới đích",
+    "examples": [
+      {
+        "word": "連休",
+        "hiragana": "れんきゅう",
+        "meaning": "nghỉ liền nhiều ngày"
+      },
+      {
+        "word": "子供連れ",
+        "hiragana": "こどもつれ",
+        "meaning": "dẫn trẻ con"
+      },
+      {
+        "word": "連れて行く",
+        "hiragana": "つれてゆく",
+        "meaning": "dẫn đi"
+      },
+      {
+        "word": "連れて来る",
+        "hiragana": "つれてくる",
+        "meaning": "dẫn tới"
+      }
+    ],
+    "image_path": "images/201_連.jpg"
+  },
+  {
+    "index": 202,
+    "kanji": "絡",
+    "han_viet": "Lạc",
+    "on_yomi": "らく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "連絡",
+        "hiragana": "れんらく",
+        "meaning": "liên lạc"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 203,
+    "kanji": "届",
+    "han_viet": "Giới",
+    "on_yomi": "",
+    "kun_yomi": "とど-ける / とど-く",
+    "mnemonic": "Bưu phẩm được gửi đến nhà chúng tôi",
+    "examples": [
+      {
+        "word": "届く",
+        "hiragana": "とどく",
+        "meaning": "đến nơi"
+      },
+      {
+        "word": "届ける",
+        "hiragana": "とどける",
+        "meaning": "đưa tới nơi"
+      }
+    ],
+    "image_path": "images/203_届.jpg"
+  },
+  {
+    "index": 204,
+    "kanji": "宅",
+    "han_viet": "Trạch",
+    "on_yomi": "たく",
+    "kun_yomi": "",
+    "mnemonic": "Tôi thích sống trong ngôi nhà tôi",
+    "examples": [
+      {
+        "word": "お宅",
+        "hiragana": "おたく",
+        "meaning": "nhà"
+      },
+      {
+        "word": "宅配",
+        "hiragana": "たくはい",
+        "meaning": "chuyển (hàng) tới nha"
+      },
+      {
+        "word": "自宅",
+        "hiragana": "じたく",
+        "meaning": "nhà (của tôi)"
+      }
+    ],
+    "image_path": "images/204_宅.jpg"
+  },
+  {
+    "index": 205,
+    "kanji": "配",
+    "han_viet": "Phối",
+    "on_yomi": "はい",
+    "kun_yomi": "くば-る",
+    "mnemonic": "Người quỳ xuống và phân phối rượu",
+    "examples": [
+      {
+        "word": "配る",
+        "hiragana": "くばる",
+        "meaning": "phân phối"
+      },
+      {
+        "word": "配達",
+        "hiragana": "はいたつ",
+        "meaning": "phân phối"
+      },
+      {
+        "word": "配送料",
+        "hiragana": "はいそうりょう",
+        "meaning": "chi phí gửi hàng"
+      },
+      {
+        "word": "心配",
+        "hiragana": "しんぱい",
+        "meaning": "lo lắng"
+      }
+    ],
+    "image_path": "images/205_配.jpg"
+  },
+  {
+    "index": 206,
+    "kanji": "希",
+    "han_viet": "Hi",
+    "on_yomi": "き",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "希望",
+        "hiragana": "きぼう",
+        "meaning": "kỳ vọng, hi vọng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 207,
+    "kanji": "望",
+    "han_viet": "Vọng",
+    "on_yomi": "ぼう",
+    "kun_yomi": "のぞ-む",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "失望",
+        "hiragana": "しつぼう",
+        "meaning": "thất vọng"
+      },
+      {
+        "word": "望む",
+        "hiragana": "のぞむ",
+        "meaning": "mong đợi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 208,
+    "kanji": "荷",
+    "han_viet": "Hà",
+    "on_yomi": "か",
+    "kun_yomi": "に",
+    "mnemonic": "Có thể nhìn thấy cỏ mọc ra từ hành lý kia. Không biết trong đó có gì nhỉ.",
+    "examples": [
+      {
+        "word": "荷物",
+        "hiragana": "にもつ",
+        "meaning": "hàng hoá"
+      },
+      {
+        "word": "入荷",
+        "hiragana": "にゅうか",
+        "meaning": "nhập hàng"
+      },
+      {
+        "word": "出荷",
+        "hiragana": "しゅっか",
+        "meaning": "xuất hàng"
+      },
+      {
+        "word": "手荷物",
+        "hiragana": "てにもつ",
+        "meaning": "hàng xách tay (mang lên máy bay)"
+      }
+    ],
+    "image_path": "images/208_荷.jpg"
+  },
+  {
+    "index": 209,
+    "kanji": "換",
+    "han_viet": "Hoán",
+    "on_yomi": "かん",
+    "kun_yomi": "か-える",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "換える",
+        "hiragana": "かえる",
+        "meaning": "thay đổi"
+      },
+      {
+        "word": "交換",
+        "hiragana": "こうかん",
+        "meaning": "trao đổi"
+      },
+      {
+        "word": "乗り換え",
+        "hiragana": "のりかえ",
+        "meaning": "chuyển tàu hoặc xe"
+      },
+      {
+        "word": "代金引換",
+        "hiragana": "だいきんひきかえ",
+        "meaning": "dịch vụ giao hàng tới tận nhà rồi nhận tiền"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 210,
+    "kanji": "額",
+    "han_viet": "Ngạch",
+    "on_yomi": "がく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "金額",
+        "hiragana": "きんがく",
+        "meaning": "số tiền"
+      },
+      {
+        "word": "半額",
+        "hiragana": "はんがく",
+        "meaning": "nửa giá, nửa tiền"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 211,
+    "kanji": "在",
+    "han_viet": "Tại",
+    "on_yomi": "ざい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "存在",
+        "hiragana": "そんざい",
+        "meaning": "tồn tại"
+      },
+      {
+        "word": "不在",
+        "hiragana": "ふざい",
+        "meaning": "không có mặt"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 212,
+    "kanji": "取",
+    "han_viet": "Thủ",
+    "on_yomi": "",
+    "kun_yomi": "と-る",
+    "mnemonic": "Đừng có cầm tai tôi.",
+    "examples": [
+      {
+        "word": "取る",
+        "hiragana": "とる",
+        "meaning": "lấy"
+      },
+      {
+        "word": "受け取る",
+        "hiragana": "うけとる",
+        "meaning": "nhận"
+      },
+      {
+        "word": "受取人",
+        "hiragana": "うけとりにん",
+        "meaning": "người nhận"
+      }
+    ],
+    "image_path": "images/212_取.jpg"
+  },
+  {
+    "index": 213,
+    "kanji": "預",
+    "han_viet": "Dự",
+    "on_yomi": "よ",
+    "kun_yomi": "あず-ける",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "預ける",
+        "hiragana": "あずける",
+        "meaning": "gửi"
+      },
+      {
+        "word": "預金",
+        "hiragana": "よきん",
+        "meaning": "tiền gửi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 214,
+    "kanji": "衣",
+    "han_viet": "Y",
+    "on_yomi": "い",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "衣服",
+        "hiragana": "いふく",
+        "meaning": "y phục"
+      },
+      {
+        "word": "衣類",
+        "hiragana": "いるい",
+        "meaning": "quần áo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 215,
+    "kanji": "参",
+    "han_viet": "Tham",
+    "on_yomi": "さん",
+    "kun_yomi": "まい-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "参加",
+        "hiragana": "さんか",
+        "meaning": "tham dự"
+      },
+      {
+        "word": "参る",
+        "hiragana": "まいる",
+        "meaning": "tới"
+      },
+      {
+        "word": "参考書",
+        "hiragana": "さんこうしょ",
+        "meaning": "sách tham khảo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 216,
+    "kanji": "達",
+    "han_viet": "Đạt",
+    "on_yomi": "たつ",
+    "kun_yomi": "",
+    "mnemonic": "Những con cừu (羊) mang theo đất (土) cuối cùng cũng đi tới đích.",
+    "examples": [
+      {
+        "word": "配達",
+        "hiragana": "はいたつ",
+        "meaning": "giao hàng"
+      },
+      {
+        "word": "速達",
+        "hiragana": "そくたつ",
+        "meaning": "giao hàng nhanh"
+      },
+      {
+        "word": "友達",
+        "hiragana": "ともだち",
+        "meaning": "bạn"
+      },
+      {
+        "word": "上達",
+        "hiragana": "じょうたつ",
+        "meaning": "tiến bộ"
+      }
+    ],
+    "image_path": "images/216_達.jpg"
+  },
+  {
+    "index": 217,
+    "kanji": "勤",
+    "han_viet": "Cần",
+    "on_yomi": "きん",
+    "kun_yomi": "つと-める",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "通勤",
+        "hiragana": "つうきん",
+        "meaning": "đi làm"
+      },
+      {
+        "word": "勤める",
+        "hiragana": "つとめる",
+        "meaning": "làm việc"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 218,
+    "kanji": "帯",
+    "han_viet": "Đới",
+    "on_yomi": "たい",
+    "kun_yomi": "おび",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "帯",
+        "hiragana": "おび",
+        "meaning": "đai (dây lưng vải áo kimono)"
+      },
+      {
+        "word": "携帯",
+        "hiragana": "けいたい",
+        "meaning": "di động"
+      },
+      {
+        "word": "時間帯",
+        "hiragana": "じかんたい",
+        "meaning": "múi giờ"
+      },
+      {
+        "word": "温帯",
+        "hiragana": "おんたい",
+        "meaning": "ôn đới"
+      },
+      {
+        "word": "亜寒帯",
+        "hiragana": "あかんたい",
+        "meaning": "á hàn đới, khu vực gần khu hàn đới"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 219,
+    "kanji": "細",
+    "han_viet": "Tế",
+    "on_yomi": "さい",
+    "kun_yomi": "ほそ-い / こま-かい",
+    "mnemonic": "Những cây lúa trên cánh đồng (田) thì mỏng như sợi chỉ (糸).",
+    "examples": [
+      {
+        "word": "細い",
+        "hiragana": "ほそい",
+        "meaning": "thon, hẹp"
+      },
+      {
+        "word": "細かい",
+        "hiragana": "こまかい",
+        "meaning": "chi tiết"
+      },
+      {
+        "word": "細胞",
+        "hiragana": "さいぼう",
+        "meaning": "tế bào"
+      }
+    ],
+    "image_path": "images/219_細.png"
+  },
+  {
+    "index": 220,
+    "kanji": "戸",
+    "han_viet": "Hộ",
+    "on_yomi": "",
+    "kun_yomi": "と",
+    "mnemonic": "Hình cánh cửa",
+    "examples": [
+      {
+        "word": "戸",
+        "hiragana": "と",
+        "meaning": "cửa"
+      },
+      {
+        "word": "戸棚",
+        "hiragana": "とだな",
+        "meaning": "tủ bếp"
+      },
+      {
+        "word": "雨戸",
+        "hiragana": "あまど",
+        "meaning": "cửa chống mưa, gió"
+      }
+    ],
+    "image_path": "images/220_戸.jpg"
+  },
+  {
+    "index": 221,
+    "kanji": "湖",
+    "han_viet": "Hồ",
+    "on_yomi": "こ",
+    "kun_yomi": "みずうみ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "湖",
+        "hiragana": "みずうみ",
+        "meaning": "hồ"
+      },
+      {
+        "word": "琵琶湖",
+        "hiragana": "びわこ",
+        "meaning": "hồ biwa"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 222,
+    "kanji": "船",
+    "han_viet": "Thuyền",
+    "on_yomi": "せん",
+    "kun_yomi": "ふね / ふな～",
+    "mnemonic": "Anh ấy nói rằng con thuyền đó có thể chứa được tám(八) người",
+    "examples": [
+      {
+        "word": "船",
+        "hiragana": "ふね",
+        "meaning": "thuyền"
+      },
+      {
+        "word": "風船",
+        "hiragana": "ふうせん",
+        "meaning": "bóng bay"
+      },
+      {
+        "word": "船長",
+        "hiragana": "せんちょう",
+        "meaning": "thuyền trưởng"
+      },
+      {
+        "word": "船便",
+        "hiragana": "せんびん",
+        "meaning": "gửi hàng đường thuỷ"
+      }
+    ],
+    "image_path": "images/222_船.jpg"
+  },
+  {
+    "index": 223,
+    "kanji": "角",
+    "han_viet": "Giác",
+    "on_yomi": "かく",
+    "kun_yomi": "かど",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "角",
+        "hiragana": "かど",
+        "meaning": "góc"
+      },
+      {
+        "word": "角度",
+        "hiragana": "かくど",
+        "meaning": "góc độ"
+      },
+      {
+        "word": "四角い",
+        "hiragana": "しかくい",
+        "meaning": "tứ giác"
+      },
+      {
+        "word": "三角形",
+        "hiragana": "さんかくけい",
+        "meaning": "hình tam giác"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 224,
+    "kanji": "夫",
+    "han_viet": "Phu",
+    "on_yomi": "ふ\nふう",
+    "kun_yomi": "おっと",
+    "mnemonic": "Tôi và chồng, 2 người luôn như hình với bóng",
+    "examples": [
+      {
+        "word": "夫",
+        "hiragana": "おっと",
+        "meaning": "chồng"
+      },
+      {
+        "word": "夫婦",
+        "hiragana": "ふうふ",
+        "meaning": "vợ chồng"
+      },
+      {
+        "word": "夫妻",
+        "hiragana": "ふさい",
+        "meaning": "vợ chồng"
+      }
+    ],
+    "image_path": "images/224_夫.jpg"
+  },
+  {
+    "index": 225,
+    "kanji": "苦",
+    "han_viet": "Khổ",
+    "on_yomi": "く",
+    "kun_yomi": "にが-い / くる-しい",
+    "mnemonic": "Nếu như ăn cỏ khô thì bạn sẽ phải khổ sở",
+    "examples": [
+      {
+        "word": "苦い",
+        "hiragana": "にがい",
+        "meaning": "đắng"
+      },
+      {
+        "word": "苦しい",
+        "hiragana": "くるしい",
+        "meaning": "đau khổ"
+      },
+      {
+        "word": "苦労",
+        "hiragana": "くろう",
+        "meaning": "mệt mỏi do làm việc"
+      },
+      {
+        "word": "苦手",
+        "hiragana": "にがて",
+        "meaning": "kém"
+      }
+    ],
+    "image_path": "images/225_苦.jpg"
+  },
+  {
+    "index": 226,
+    "kanji": "礼",
+    "han_viet": "Lễ",
+    "on_yomi": "れい",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "お礼",
+        "hiragana": "おれい",
+        "meaning": "cảm ơn"
+      },
+      {
+        "word": "失礼",
+        "hiragana": "しつれい",
+        "meaning": "thất lễ"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 227,
+    "kanji": "伺",
+    "han_viet": "Tứ",
+    "on_yomi": "",
+    "kun_yomi": "うかが-う",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "伺う",
+        "hiragana": "うかがう",
+        "meaning": "hỏi thăm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 228,
+    "kanji": "遅",
+    "han_viet": "Trì",
+    "on_yomi": "ち",
+    "kun_yomi": "おそ-い / おく-れる",
+    "mnemonic": "Một trong những con cừu (羊) đã nghỉ ngơi nên bị trễ",
+    "examples": [
+      {
+        "word": "遅い",
+        "hiragana": "おそい",
+        "meaning": "chậm, muộn"
+      },
+      {
+        "word": "遅れる",
+        "hiragana": "おくれる",
+        "meaning": "muộn"
+      },
+      {
+        "word": "遅刻",
+        "hiragana": "ちこく",
+        "meaning": "muộn giờ"
+      }
+    ],
+    "image_path": "images/228_遅.jpg"
+  },
+  {
+    "index": 229,
+    "kanji": "失",
+    "han_viet": "Thất",
+    "on_yomi": "しつ",
+    "kun_yomi": "",
+    "mnemonic": "Chồng tôi bị (衆) mất việc và anh ấy đang khóc",
+    "examples": [
+      {
+        "word": "失望",
+        "hiragana": "しつぼう",
+        "meaning": "thất vọng"
+      },
+      {
+        "word": "失礼する",
+        "hiragana": "しつれい",
+        "meaning": "thất lễ"
+      },
+      {
+        "word": "失敗",
+        "hiragana": "しっぱい",
+        "meaning": "thất bại"
+      }
+    ],
+    "image_path": "images/229_失.jpg"
+  },
+  {
+    "index": 230,
+    "kanji": "汗",
+    "han_viet": "Hãn",
+    "on_yomi": "",
+    "kun_yomi": "あせ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "汗",
+        "hiragana": "あせ",
+        "meaning": "mồ hôi"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 231,
+    "kanji": "念",
+    "han_viet": "Niệm",
+    "on_yomi": "ねん",
+    "kun_yomi": "",
+    "mnemonic": "Lúc này anh đang nghĩ về em",
+    "examples": [
+      {
+        "word": "記念",
+        "hiragana": "きねん",
+        "meaning": "kỉ niệm"
+      }
+    ],
+    "image_path": "images/231_念.jpg"
+  },
+  {
+    "index": 232,
+    "kanji": "涙",
+    "han_viet": "Lệ",
+    "on_yomi": "",
+    "kun_yomi": "なみだ",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "涙",
+        "hiragana": "なみだ",
+        "meaning": "nước mắt"
+      },
+      {
+        "word": "涙を流す",
+        "hiragana": "なみだをながす",
+        "meaning": "chảy nước mắt"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 233,
+    "kanji": "笑",
+    "han_viet": "Tiếu",
+    "on_yomi": "",
+    "kun_yomi": "わら-う / え-む",
+    "mnemonic": "Người đang cười “keke”",
+    "examples": [
+      {
+        "word": "笑う",
+        "hiragana": "わらう",
+        "meaning": "cười"
+      },
+      {
+        "word": "笑む",
+        "hiragana": "えむ",
+        "meaning": "mỉm cười"
+      },
+      {
+        "word": "笑顔",
+        "hiragana": "えがお",
+        "meaning": "mặt cười"
+      },
+      {
+        "word": "笑い",
+        "hiragana": "わらい",
+        "meaning": "nụ cười"
+      }
+    ],
+    "image_path": "images/233_笑.jpg"
+  },
+  {
+    "index": 234,
+    "kanji": "調",
+    "han_viet": "Điều",
+    "on_yomi": "ちょう",
+    "kun_yomi": "しら-べる",
+    "mnemonic": "Họ nói (言) họ sẽ điều tra xung quanh (周).",
+    "examples": [
+      {
+        "word": "調子",
+        "hiragana": "ちょうし",
+        "meaning": "tình trạng"
+      },
+      {
+        "word": "調査",
+        "hiragana": "ちょうさ",
+        "meaning": "điều tra"
+      },
+      {
+        "word": "強調",
+        "hiragana": "きょうちょう",
+        "meaning": "cường điệu"
+      },
+      {
+        "word": "調べる",
+        "hiragana": "しらべる",
+        "meaning": "điều tra"
+      }
+    ],
+    "image_path": "images/234_調.jpg"
+  },
+  {
+    "index": 235,
+    "kanji": "査",
+    "han_viet": "Tra",
+    "on_yomi": "さ",
+    "kun_yomi": "",
+    "mnemonic": "Chúng tôi đã điều tra ngôi mộ ở dưới cái cây (木).",
+    "examples": [
+      {
+        "word": "調査",
+        "hiragana": "ちょうさ",
+        "meaning": "điều tra"
+      },
+      {
+        "word": "査問",
+        "hiragana": "さもん",
+        "meaning": "câu hỏi điều tra"
+      }
+    ],
+    "image_path": "images/235_査.jpg"
+  },
+  {
+    "index": 236,
+    "kanji": "移",
+    "han_viet": "Di",
+    "on_yomi": "い",
+    "kun_yomi": "うつ-る / うつ-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "移動",
+        "hiragana": "いどう",
+        "meaning": "di động, di chuyển"
+      },
+      {
+        "word": "移る",
+        "hiragana": "うつる",
+        "meaning": "di chuyển"
+      },
+      {
+        "word": "移す",
+        "hiragana": "うつす",
+        "meaning": "làm cho di chuyển"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 237,
+    "kanji": "難",
+    "han_viet": "Nạn",
+    "on_yomi": "なん",
+    "kun_yomi": "むずか-しい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "難しい",
+        "hiragana": "むずかしい",
+        "meaning": "khó"
+      },
+      {
+        "word": "非難",
+        "hiragana": "ひなん",
+        "meaning": "châm chọc, làm khó (đối phương)"
+      },
+      {
+        "word": "困難",
+        "hiragana": "こんなん",
+        "meaning": "khó khăn"
+      },
+      {
+        "word": "難問",
+        "hiragana": "なんもん",
+        "meaning": "câu hỏi khó"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 238,
+    "kanji": "簡",
+    "han_viet": "Giản",
+    "on_yomi": "かん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "簡単",
+        "hiragana": "かんたん",
+        "meaning": "đơn giản"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 239,
+    "kanji": "単",
+    "han_viet": "Đơn",
+    "on_yomi": "たん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "単位",
+        "hiragana": "たんい",
+        "meaning": "đơn vị"
+      },
+      {
+        "word": "単語",
+        "hiragana": "たんご",
+        "meaning": "từ đơn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 240,
+    "kanji": "感",
+    "han_viet": "Cảm",
+    "on_yomi": "かん",
+    "kun_yomi": "",
+    "mnemonic": "Khi nhìn thấy người mang theo vũ khí, tôi cảm thấy bị sốc",
+    "examples": [
+      {
+        "word": "感じ",
+        "hiragana": "かんじ",
+        "meaning": "cảm giác"
+      },
+      {
+        "word": "感動",
+        "hiragana": "かんどう",
+        "meaning": "cảm động"
+      }
+    ],
+    "image_path": "images/240_感.jpg"
+  },
+  {
+    "index": 241,
+    "kanji": "想",
+    "han_viet": "Tưởng",
+    "on_yomi": "そう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "理想",
+        "hiragana": "りそう",
+        "meaning": "lý tưởng"
+      },
+      {
+        "word": "感想",
+        "hiragana": "かんそう",
+        "meaning": "cảm tưởng"
+      },
+      {
+        "word": "予想",
+        "hiragana": "よそう",
+        "meaning": "dự đoán"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 242,
+    "kanji": "練",
+    "han_viet": "Luyện",
+    "on_yomi": "れん",
+    "kun_yomi": "",
+    "mnemonic": "Tôi tập se chỉ ở hướng đông",
+    "examples": [
+      {
+        "word": "練習",
+        "hiragana": "れんしゅう",
+        "meaning": "luyện tập"
+      },
+      {
+        "word": "訓練",
+        "hiragana": "くんれん",
+        "meaning": "huấn luyện"
+      }
+    ],
+    "image_path": "images/242_練.jpg"
+  },
+  {
+    "index": 243,
+    "kanji": "最",
+    "han_viet": "Tối",
+    "on_yomi": "さい",
+    "kun_yomi": "もっと-も",
+    "mnemonic": "Để tóm （取）được mặt trời （日）là một điều cực khó",
+    "examples": [
+      {
+        "word": "最近",
+        "hiragana": "さいきん",
+        "meaning": "gần đây"
+      },
+      {
+        "word": "最後",
+        "hiragana": "さいご",
+        "meaning": "cuối cùng"
+      },
+      {
+        "word": "最初",
+        "hiragana": "さいしょ",
+        "meaning": "đầu tiên"
+      }
+    ],
+    "image_path": "images/243_最.jpg"
+  },
+  {
+    "index": 244,
+    "kanji": "適",
+    "han_viet": "Thích",
+    "on_yomi": "てき",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "適当",
+        "hiragana": "てきとう",
+        "meaning": "thích hợp"
+      },
+      {
+        "word": "快適",
+        "hiragana": "かいてき",
+        "meaning": "sảng khoái"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 245,
+    "kanji": "選",
+    "han_viet": "Tuyển",
+    "on_yomi": "せん",
+    "kun_yomi": "えら-ぶ",
+    "mnemonic": "Cùng nhau (共) lựa chọn người lãnh đạo",
+    "examples": [
+      {
+        "word": "選ぶ",
+        "hiragana": "えらぶ",
+        "meaning": "chọn"
+      },
+      {
+        "word": "選手",
+        "hiragana": "せんしゅ",
+        "meaning": "tuyển thủ"
+      },
+      {
+        "word": "選挙",
+        "hiragana": "せんきょ",
+        "meaning": "tuyển cử"
+      }
+    ],
+    "image_path": "images/245_選.jpg"
+  },
+  {
+    "index": 246,
+    "kanji": "違",
+    "han_viet": "Vi",
+    "on_yomi": "",
+    "kun_yomi": "ちが-う / ちが-える",
+    "mnemonic": "Vì đường xá phức tạp nên hình như bị nhầm rồi",
+    "examples": [
+      {
+        "word": "違う",
+        "hiragana": "ちがう",
+        "meaning": "khác"
+      },
+      {
+        "word": "間違い",
+        "hiragana": "まちがい",
+        "meaning": "nhầm lẫn (n)"
+      },
+      {
+        "word": "間違える",
+        "hiragana": "まちがえる",
+        "meaning": "nhầm (v)"
+      }
+    ],
+    "image_path": "images/246_違.jpg"
+  },
+  {
+    "index": 247,
+    "kanji": "直",
+    "han_viet": "Trực",
+    "on_yomi": "ちょく",
+    "kun_yomi": "なお-る / なお-す",
+    "mnemonic": "‘Nhìn kìa! Nó bị vỡ rồi.”Hãy sửa đi’.",
+    "examples": [
+      {
+        "word": "直る",
+        "hiragana": "なおる",
+        "meaning": "khỏi"
+      },
+      {
+        "word": "直す",
+        "hiragana": "なおす",
+        "meaning": "sửa chữa"
+      },
+      {
+        "word": "直接",
+        "hiragana": "ちょくせつ",
+        "meaning": "trực tiếp"
+      },
+      {
+        "word": "直線",
+        "hiragana": "ちょくせん",
+        "meaning": "đường thẳng"
+      }
+    ],
+    "image_path": "images/247_直.jpg"
+  },
+  {
+    "index": 248,
+    "kanji": "復",
+    "han_viet": "Phục",
+    "on_yomi": "ふく",
+    "kun_yomi": "",
+    "mnemonic": "Một người, hàng ngày đều đi bộ trên cùng 1 con đường",
+    "examples": [
+      {
+        "word": "復習",
+        "hiragana": "ふくしゅう",
+        "meaning": "luyện tập"
+      },
+      {
+        "word": "往復",
+        "hiragana": "おうふく",
+        "meaning": "2 chiều (chiều đi + chiều về)"
+      },
+      {
+        "word": "回復",
+        "hiragana": "かいふく",
+        "meaning": "hồi phục"
+      }
+    ],
+    "image_path": "images/248_復.jpg"
+  },
+  {
+    "index": 249,
+    "kanji": "辞",
+    "han_viet": "Từ",
+    "on_yomi": "じ",
+    "kun_yomi": "や-める",
+    "mnemonic": "Thật vất vả (辛) để tra 1000 (千) từ trong từ điển.",
+    "examples": [
+      {
+        "word": "辞める",
+        "hiragana": "やめる",
+        "meaning": "nghỉ, từ bỏ"
+      },
+      {
+        "word": "辞書",
+        "hiragana": "じしょ",
+        "meaning": "từ điển"
+      },
+      {
+        "word": "辞典",
+        "hiragana": "じてん",
+        "meaning": "từ điển"
+      }
+    ],
+    "image_path": "images/249_辞.jpg"
+  },
+  {
+    "index": 250,
+    "kanji": "宿",
+    "han_viet": "Túc",
+    "on_yomi": "しゅく",
+    "kun_yomi": "やど",
+    "mnemonic": "Nhà trọ này có thể chứa được 100 người",
+    "examples": [
+      {
+        "word": "宿題",
+        "hiragana": "しゅくだい",
+        "meaning": "bài tập"
+      },
+      {
+        "word": "下宿",
+        "hiragana": "げしゅく",
+        "meaning": "cho thuê nhà nghỉ"
+      },
+      {
+        "word": "宿",
+        "hiragana": "やど",
+        "meaning": "nhà nghỉ"
+      }
+    ],
+    "image_path": "images/250_宿.jpg"
+  },
+  {
+    "index": 251,
+    "kanji": "昨",
+    "han_viet": "Tạc",
+    "on_yomi": "さく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "昨日",
+        "hiragana": "きのう/さくじつ",
+        "meaning": "hôm qua"
+      },
+      {
+        "word": "昨年",
+        "hiragana": "さくねん",
+        "meaning": "năm ngoái"
+      },
+      {
+        "word": "昨夜",
+        "hiragana": "さくや",
+        "meaning": "tối hôm trước"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 252,
+    "kanji": "君",
+    "han_viet": "Quân",
+    "on_yomi": "くん",
+    "kun_yomi": "きみ",
+    "mnemonic": "Tướng quân của tôi cầm gậy và dùng miệng (口) ra lệnh cho tôi.",
+    "examples": [
+      {
+        "word": "～君",
+        "hiragana": "くん",
+        "meaning": "cách gọi nam giới một cách thân thiện"
+      },
+      {
+        "word": "君",
+        "hiragana": "きみ",
+        "meaning": "cậu, ấy (gọi người đối diện một cách thân thiện)"
+      }
+    ],
+    "image_path": "images/252_君.jpg"
+  },
+  {
+    "index": 253,
+    "kanji": "結",
+    "han_viet": "Kết",
+    "on_yomi": "けつ",
+    "kun_yomi": "むす-ぶ",
+    "mnemonic": "Tôi đã dùng chỉ kết lại thành cái dây may mắn",
+    "examples": [
+      {
+        "word": "結ぶ",
+        "hiragana": "むすぶ",
+        "meaning": "liên kết"
+      },
+      {
+        "word": "結婚",
+        "hiragana": "けっこん",
+        "meaning": "kết hôn"
+      },
+      {
+        "word": "結論",
+        "hiragana": "けつろん",
+        "meaning": "kết luận"
+      },
+      {
+        "word": "結局",
+        "hiragana": "けっきょく",
+        "meaning": "kết cục"
+      },
+      {
+        "word": "結構",
+        "hiragana": "けっこう",
+        "meaning": "đủ, không cần thêm"
+      }
+    ],
+    "image_path": "images/253_結.jpg"
+  },
+  {
+    "index": 254,
+    "kanji": "婚",
+    "han_viet": "Hôn",
+    "on_yomi": "こん",
+    "kun_yomi": "",
+    "mnemonic": "Phụ nữ đổi họ sau ngày kết hôn",
+    "examples": [
+      {
+        "word": "結婚",
+        "hiragana": "けっこん",
+        "meaning": "kết hôn"
+      },
+      {
+        "word": "離婚",
+        "hiragana": "りこん",
+        "meaning": "ly hôn"
+      },
+      {
+        "word": "新婚旅行",
+        "hiragana": "しんこんりょこう",
+        "meaning": "du lịch sau khi mới kết hôn (tuần trăng mật)"
+      }
+    ],
+    "image_path": "images/254_婚.jpg"
+  },
+  {
+    "index": 255,
+    "kanji": "祝",
+    "han_viet": "Chúc",
+    "on_yomi": "しゅく",
+    "kun_yomi": "いわ-う",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "祝日",
+        "hiragana": "しゅくじつ",
+        "meaning": "ngày lễ"
+      },
+      {
+        "word": "お祝い",
+        "hiragana": "おいわい",
+        "meaning": "chúc mừng"
+      },
+      {
+        "word": "祝う",
+        "hiragana": "いわう",
+        "meaning": "chúc mừng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 256,
+    "kanji": "曲",
+    "han_viet": "Khúc",
+    "on_yomi": "きょく",
+    "kun_yomi": "ま-がる / ま-げる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "曲線",
+        "hiragana": "きょくせん",
+        "meaning": "đường vòng"
+      },
+      {
+        "word": "曲",
+        "hiragana": "きょく",
+        "meaning": "giai điệu"
+      },
+      {
+        "word": "曲がる",
+        "hiragana": "まがる",
+        "meaning": "cong"
+      },
+      {
+        "word": "曲げる",
+        "hiragana": "まげる",
+        "meaning": "uốn cong"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 257,
+    "kanji": "奥",
+    "han_viet": "Áo",
+    "on_yomi": "",
+    "kun_yomi": "おく",
+    "mnemonic": "Tôi để gạo(米) trong một cái hộp lớn (大) và đặt nó ở phía sau",
+    "examples": [
+      {
+        "word": "奥さん",
+        "hiragana": "おくさん",
+        "meaning": "vợ"
+      },
+      {
+        "word": "奥",
+        "hiragana": "おく",
+        "meaning": "bên trong"
+      }
+    ],
+    "image_path": "images/257_奥.jpg"
+  },
+  {
+    "index": 258,
+    "kanji": "寝",
+    "han_viet": "Tẩm",
+    "on_yomi": "",
+    "kun_yomi": "ね-る",
+    "mnemonic": "Hai người đang ngủ",
+    "examples": [
+      {
+        "word": "寝る",
+        "hiragana": "ねる",
+        "meaning": "ngủ"
+      },
+      {
+        "word": "寝坊",
+        "hiragana": "ねぼう",
+        "meaning": "ngủ quên"
+      },
+      {
+        "word": "昼寝",
+        "hiragana": "ひるね",
+        "meaning": "ngủ ngày"
+      }
+    ],
+    "image_path": "images/258_寝.jpg"
+  },
+  {
+    "index": 259,
+    "kanji": "痛",
+    "han_viet": "Thống",
+    "on_yomi": "つう",
+    "kun_yomi": "いた-い",
+    "mnemonic": "Vượt qua hàng rào trong đau đớn",
+    "examples": [
+      {
+        "word": "痛い",
+        "hiragana": "いたい",
+        "meaning": "đau"
+      },
+      {
+        "word": "頭痛",
+        "hiragana": "ずつう",
+        "meaning": "đau đầu"
+      },
+      {
+        "word": "腹痛",
+        "hiragana": "ふくつう",
+        "meaning": "đau bụng"
+      }
+    ],
+    "image_path": "images/259_痛.jpg"
+  },
+  {
+    "index": 260,
+    "kanji": "熱",
+    "han_viet": "Nhiệt",
+    "on_yomi": "ねつ",
+    "kun_yomi": "あつ-い",
+    "mnemonic": "Tôi cuộn tròn người để giữ nhiệt",
+    "examples": [
+      {
+        "word": "熱",
+        "hiragana": "ねつ",
+        "meaning": "nhiệt"
+      },
+      {
+        "word": "熱い",
+        "hiragana": "あつい",
+        "meaning": "nóng"
+      },
+      {
+        "word": "熱心",
+        "hiragana": "ねっしん",
+        "meaning": "nhiệt tình"
+      },
+      {
+        "word": "熱中",
+        "hiragana": "ねっちゅう",
+        "meaning": "đam mê"
+      }
+    ],
+    "image_path": "images/260_熱.jpg"
+  },
+  {
+    "index": 261,
+    "kanji": "虫",
+    "han_viet": "Trùng",
+    "on_yomi": "",
+    "kun_yomi": "むし",
+    "mnemonic": "Hình con bọ",
+    "examples": [
+      {
+        "word": "虫",
+        "hiragana": "むし",
+        "meaning": "sâu bọ"
+      },
+      {
+        "word": "虫歯",
+        "hiragana": "むしば",
+        "meaning": "sâu răng"
+      }
+    ],
+    "image_path": "images/261_虫.jpg"
+  },
+  {
+    "index": 262,
+    "kanji": "歯",
+    "han_viet": "Nha",
+    "on_yomi": "し",
+    "kun_yomi": "は",
+    "mnemonic": "Ngừng (止) nói, và nhai cơm(米) kĩ với răng của bạn đi.",
+    "examples": [
+      {
+        "word": "歯",
+        "hiragana": "は",
+        "meaning": "răng"
+      },
+      {
+        "word": "歯科",
+        "hiragana": "しか",
+        "meaning": "khoa răng"
+      },
+      {
+        "word": "虫歯",
+        "hiragana": "むしば",
+        "meaning": "sâu ra"
+      },
+      {
+        "word": "歯医者",
+        "hiragana": "はいしゃ",
+        "meaning": "nha sỹ"
+      },
+      {
+        "word": "歯茎",
+        "hiragana": "はぐき",
+        "meaning": "nướu răng"
+      }
+    ],
+    "image_path": "images/262_歯.jpg"
+  },
+  {
+    "index": 263,
+    "kanji": "治",
+    "han_viet": "Trị",
+    "on_yomi": "じ\nち",
+    "kun_yomi": "なお-る / なお-す",
+    "mnemonic": "Tôi trị vì vùng biển",
+    "examples": [
+      {
+        "word": "治る",
+        "hiragana": "なおる",
+        "meaning": "khỏi"
+      },
+      {
+        "word": "治す",
+        "hiragana": "なおす",
+        "meaning": "chữa, sửa"
+      },
+      {
+        "word": "政治",
+        "hiragana": "せいじ",
+        "meaning": "chính trị"
+      },
+      {
+        "word": "治療",
+        "hiragana": "ちりょう",
+        "meaning": "trị liệu"
+      }
+    ],
+    "image_path": "images/263_治.jpg"
+  },
+  {
+    "index": 264,
+    "kanji": "汚",
+    "han_viet": "Ô",
+    "on_yomi": "お",
+    "kun_yomi": "きたな-い / よご-れる",
+    "mnemonic": "Một người đang uống nước bẩn",
+    "examples": [
+      {
+        "word": "汚染",
+        "hiragana": "おせん",
+        "meaning": "ô nhiễm"
+      },
+      {
+        "word": "汚い",
+        "hiragana": "きたない",
+        "meaning": "bẩn"
+      },
+      {
+        "word": "汚れる",
+        "hiragana": "よごれる",
+        "meaning": "nhiễm bẩn"
+      }
+    ],
+    "image_path": "images/264_汚.jpg"
+  },
+  {
+    "index": 265,
+    "kanji": "並",
+    "han_viet": "Tịnh",
+    "on_yomi": "",
+    "kun_yomi": "なら-ぶ / なら-べる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "並ぶ",
+        "hiragana": "ならぶ",
+        "meaning": "xếp thành hàng"
+      },
+      {
+        "word": "並べる",
+        "hiragana": "ならべる",
+        "meaning": "xếp"
+      },
+      {
+        "word": "歯並び",
+        "hiragana": "はならび",
+        "meaning": "hàm răng (sự xếp thành hàng của răng)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 266,
+    "kanji": "他",
+    "han_viet": "Tha",
+    "on_yomi": "た",
+    "kun_yomi": "",
+    "mnemonic": "Không phải bọ cạp, tôi muốn nuôi con khác",
+    "examples": [
+      {
+        "word": "他の",
+        "hiragana": "たの/ ほかの",
+        "meaning": "(vật) khác (ほかの là cách đọc phổ biến và dễ hiểu, たの thì dùng trong các câu văn cứng như báo viết…)"
+      },
+      {
+        "word": "その他",
+        "hiragana": "そのた",
+        "meaning": "ngoài ra"
+      }
+    ],
+    "image_path": "images/266_他.jpg"
+  },
+  {
+    "index": 267,
+    "kanji": "身",
+    "han_viet": "Thân",
+    "on_yomi": "しん",
+    "kun_yomi": "み",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "身長",
+        "hiragana": "しんちょう",
+        "meaning": "chiều cao (thân thể)"
+      },
+      {
+        "word": "独身",
+        "hiragana": "どくしん",
+        "meaning": "độc thân"
+      },
+      {
+        "word": "刺身",
+        "hiragana": "さしみ",
+        "meaning": "món Sasimi"
+      },
+      {
+        "word": "身分",
+        "hiragana": "みぶん",
+        "meaning": "tiểu sử bản thân"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 268,
+    "kanji": "酒",
+    "han_viet": "Tửu",
+    "on_yomi": "しゅ",
+    "kun_yomi": "さけ\nさか",
+    "mnemonic": "Rượu ngon được nấu từ nước tốt",
+    "examples": [
+      {
+        "word": "お酒",
+        "hiragana": "おさけ",
+        "meaning": "rượu"
+      },
+      {
+        "word": "日本酒",
+        "hiragana": "にほんしゅ",
+        "meaning": "rượu nhật"
+      },
+      {
+        "word": "料理酒",
+        "hiragana": "りょうりしゅ",
+        "meaning": "rượu nấu ăn"
+      },
+      {
+        "word": "酒屋",
+        "hiragana": "さかや",
+        "meaning": "cửa hàng rượu"
+      }
+    ],
+    "image_path": "images/268_酒.jpg"
+  },
+  {
+    "index": 269,
+    "kanji": "吸",
+    "han_viet": "Hấp",
+    "on_yomi": "きゅう",
+    "kun_yomi": "す-う",
+    "mnemonic": "Tôi hít vào khói thuốc",
+    "examples": [
+      {
+        "word": "吸う",
+        "hiragana": "すう",
+        "meaning": "hít"
+      },
+      {
+        "word": "呼吸",
+        "hiragana": "こきゅう",
+        "meaning": "hô hấp"
+      }
+    ],
+    "image_path": "images/269_吸.jpg"
+  },
+  {
+    "index": 270,
+    "kanji": "欲",
+    "han_viet": "Dục",
+    "on_yomi": "よく",
+    "kun_yomi": "ほ-しい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "欲しい",
+        "hiragana": "ほしい",
+        "meaning": "muốn có"
+      },
+      {
+        "word": "食欲",
+        "hiragana": "しょくよく",
+        "meaning": "ham muốn ăn"
+      },
+      {
+        "word": "意欲",
+        "hiragana": "いよく",
+        "meaning": "mong muốn làm một cái gì đó"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 271,
+    "kanji": "眠",
+    "han_viet": "Miên",
+    "on_yomi": "みん",
+    "kun_yomi": "ねむ-い / ねむ-る",
+    "mnemonic": "Mọi người đều ngủ với đôi mắt nhắm nghiền",
+    "examples": [
+      {
+        "word": "睡眠",
+        "hiragana": "すいみん",
+        "meaning": "giấc ngủ"
+      },
+      {
+        "word": "眠い",
+        "hiragana": "ねむい",
+        "meaning": "buồn ngủ"
+      },
+      {
+        "word": "眠る",
+        "hiragana": "ねむる",
+        "meaning": "ngủ"
+      }
+    ],
+    "image_path": "images/271_眠.jpg"
+  },
+  {
+    "index": 272,
+    "kanji": "疲",
+    "han_viet": "Bì",
+    "on_yomi": "",
+    "kun_yomi": "つか-れる",
+    "mnemonic": "Anh ấy bị đau nên phải tới bệnh viện",
+    "examples": [
+      {
+        "word": "疲れる",
+        "hiragana": "つかれる",
+        "meaning": "mệt"
+      }
+    ],
+    "image_path": "images/272_疲.jpg"
+  },
+  {
+    "index": 273,
+    "kanji": "息",
+    "han_viet": "Tức",
+    "on_yomi": "",
+    "kun_yomi": "いき",
+    "mnemonic": "Dùng hơi thở để điều hòa nhịp đập trái tim",
+    "examples": [
+      {
+        "word": "息",
+        "hiragana": "いき",
+        "meaning": "hơi thở"
+      },
+      {
+        "word": "息子",
+        "hiragana": "むすこ",
+        "meaning": "con trai"
+      },
+      {
+        "word": "息切れ",
+        "hiragana": "いきぎれ",
+        "meaning": "đứt hơi"
+      }
+    ],
+    "image_path": "images/273_息.jpg"
+  },
+  {
+    "index": 274,
+    "kanji": "呼",
+    "han_viet": "Hô",
+    "on_yomi": "こ",
+    "kun_yomi": "よ-ぶ",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": ""
+  },
+  {
+    "index": 275,
+    "kanji": "厚",
+    "han_viet": "Hậu",
+    "on_yomi": "",
+    "kun_yomi": "あつ-い",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "厚い",
+        "hiragana": "あつい",
+        "meaning": "dày"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 276,
+    "kanji": "泣",
+    "han_viet": "Khấp",
+    "on_yomi": "",
+    "kun_yomi": "な-く",
+    "mnemonic": "Vừa đứng vừa khóc",
+    "examples": [
+      {
+        "word": "泣く",
+        "hiragana": "なく",
+        "meaning": "khóc"
+      }
+    ],
+    "image_path": "images/276_泣.jpg"
+  },
+  {
+    "index": 277,
+    "kanji": "鳴",
+    "han_viet": "Minh",
+    "on_yomi": "",
+    "kun_yomi": "な-く\nな-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "鳴る",
+        "hiragana": "なる",
+        "meaning": "làm cho kêu (chuông)"
+      },
+      {
+        "word": "鳴く",
+        "hiragana": "なく",
+        "meaning": "kêu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 278,
+    "kanji": "初",
+    "han_viet": "Sơ",
+    "on_yomi": "しょ",
+    "kun_yomi": "はじ-め / はじ-めて",
+    "mnemonic": "Khi bạn làm kimono, đầu tiên bạn phải dùng dao (刀) để cắt vải",
+    "examples": [
+      {
+        "word": "初め",
+        "hiragana": "はじめ",
+        "meaning": "bắt đầu (n)"
+      },
+      {
+        "word": "初めて",
+        "hiragana": "はじめて",
+        "meaning": "bắt đầu (adj)"
+      },
+      {
+        "word": "最初",
+        "hiragana": "さいしょ",
+        "meaning": "khởi đầu"
+      },
+      {
+        "word": "初級",
+        "hiragana": "しょきゅう",
+        "meaning": "trình độ sơ cấp"
+      }
+    ],
+    "image_path": "images/278_初.jpg"
+  },
+  {
+    "index": 279,
+    "kanji": "泊",
+    "han_viet": "Bạc",
+    "on_yomi": "はく",
+    "kun_yomi": "と-まる / と-める",
+    "mnemonic": "Chúng tôi đã ở cái khách sạn màu trắng (白) trên bờ biển.",
+    "examples": [
+      {
+        "word": "宿泊",
+        "hiragana": "しゅくはく",
+        "meaning": "trọ"
+      },
+      {
+        "word": "泊まる",
+        "hiragana": "とまる",
+        "meaning": "trọ lại"
+      },
+      {
+        "word": "泊める",
+        "hiragana": "とめる",
+        "meaning": "ở lại"
+      }
+    ],
+    "image_path": "images/279_泊.jpg"
+  },
+  {
+    "index": 280,
+    "kanji": "葉",
+    "han_viet": "Diệp",
+    "on_yomi": "よう",
+    "kun_yomi": "は",
+    "mnemonic": "Thể giới (世) được bao phủ bởi cỏ và lá cây (木)",
+    "examples": [
+      {
+        "word": "紅葉",
+        "hiragana": "こうよう",
+        "meaning": "lá đỏ"
+      },
+      {
+        "word": "葉",
+        "hiragana": "は",
+        "meaning": "lá"
+      },
+      {
+        "word": "言葉",
+        "hiragana": "ことば",
+        "meaning": "từ vựng"
+      }
+    ],
+    "image_path": "images/280_葉.jpg"
+  },
+  {
+    "index": 281,
+    "kanji": "報",
+    "han_viet": "Báo",
+    "on_yomi": "ほう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "予報",
+        "hiragana": "よほう",
+        "meaning": "dự báo"
+      },
+      {
+        "word": "報告",
+        "hiragana": "ほうこく",
+        "meaning": "báo cáo"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 282,
+    "kanji": "晴",
+    "han_viet": "Tình",
+    "on_yomi": "せい",
+    "kun_yomi": "は-れる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "晴れる",
+        "hiragana": "はれる",
+        "meaning": "nắng"
+      },
+      {
+        "word": "晴れ",
+        "hiragana": "はれ",
+        "meaning": "thời tiết tốt"
+      },
+      {
+        "word": "晴天",
+        "hiragana": "せいてん",
+        "meaning": "thời tiết tốt"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 283,
+    "kanji": "雲",
+    "han_viet": "Vân",
+    "on_yomi": "",
+    "kun_yomi": "くも",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "雲",
+        "hiragana": "くも",
+        "meaning": "mây"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 284,
+    "kanji": "吹",
+    "han_viet": "Xúy",
+    "on_yomi": "",
+    "kun_yomi": "ふ-く",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "吹く",
+        "hiragana": "ふく",
+        "meaning": "thổi (gió)"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 285,
+    "kanji": "暖",
+    "han_viet": "Noãn",
+    "on_yomi": "だん",
+    "kun_yomi": "あたた-かい",
+    "mnemonic": "Bạn bè nắm tay nhau sẽ cảm thấy ấm áp",
+    "examples": [],
+    "image_path": "images/285_暖.jpg"
+  },
+  {
+    "index": 286,
+    "kanji": "雪",
+    "han_viet": "Tuyết",
+    "on_yomi": "",
+    "kun_yomi": "ゆき",
+    "mnemonic": "‘Mưa (雨) à?’.’Không, sờ thử xem. Là tuyết đó’",
+    "examples": [
+      {
+        "word": "雪",
+        "hiragana": "ゆき",
+        "meaning": "tuyết"
+      },
+      {
+        "word": "雪国",
+        "hiragana": "ゆきぐに",
+        "meaning": "đất nước có tuyết"
+      }
+    ],
+    "image_path": "images/286_雪.jpg"
+  },
+  {
+    "index": 287,
+    "kanji": "震",
+    "han_viet": "Chấn",
+    "on_yomi": "しん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "地震",
+        "hiragana": "じしん",
+        "meaning": "động đất"
+      },
+      {
+        "word": "震度",
+        "hiragana": "しんど",
+        "meaning": "độ của động đất, rung chấn"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 288,
+    "kanji": "波",
+    "han_viet": "Ba",
+    "on_yomi": "は",
+    "kun_yomi": "な-み",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "電波",
+        "hiragana": "でんぱ",
+        "meaning": "sóng điện"
+      },
+      {
+        "word": "波",
+        "hiragana": "なみ",
+        "meaning": "sóng"
+      },
+      {
+        "word": "津波",
+        "hiragana": "つなみ",
+        "meaning": "sóng thần"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 289,
+    "kanji": "求",
+    "han_viet": "Cầu",
+    "on_yomi": "きゅう",
+    "kun_yomi": "もとめ-る",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "求める",
+        "hiragana": "もとめる",
+        "meaning": "yêu cầu"
+      },
+      {
+        "word": "要求",
+        "hiragana": "ようきゅう",
+        "meaning": "nhu cầu"
+      },
+      {
+        "word": "求人",
+        "hiragana": "きゅうじん",
+        "meaning": "tìm người"
+      },
+      {
+        "word": "請求書",
+        "hiragana": "せいきゅうしょ",
+        "meaning": "hóa đơn yêu cầu thanh toán"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 290,
+    "kanji": "募",
+    "han_viet": "Mộ",
+    "on_yomi": "ぼ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "募集",
+        "hiragana": "ぼしゅう",
+        "meaning": "tuyển người"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 291,
+    "kanji": "職",
+    "han_viet": "Chức",
+    "on_yomi": "しょく",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "職場",
+        "hiragana": "しょくば",
+        "meaning": "nơi làm"
+      },
+      {
+        "word": "転職",
+        "hiragana": "てんしょく",
+        "meaning": "chuyển việc"
+      },
+      {
+        "word": "職業",
+        "hiragana": "しょくぎょう",
+        "meaning": "nghề nghiệp"
+      },
+      {
+        "word": "職員",
+        "hiragana": "しょくいん",
+        "meaning": "nhân viên văn phòng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 292,
+    "kanji": "容",
+    "han_viet": "Dung",
+    "on_yomi": "よう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "内容",
+        "hiragana": "ないよう",
+        "meaning": "nội dung"
+      },
+      {
+        "word": "美容院",
+        "hiragana": "びよういん",
+        "meaning": "thẩm mỹ viện"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 293,
+    "kanji": "技",
+    "han_viet": "Kĩ",
+    "on_yomi": "ぎ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "技術",
+        "hiragana": "ぎじゅつ",
+        "meaning": "kỹ thuật"
+      },
+      {
+        "word": "技術者",
+        "hiragana": "ぎじゅつしゃ",
+        "meaning": "kỹ sư"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 294,
+    "kanji": "般",
+    "han_viet": "Ban, bàn",
+    "on_yomi": "はん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "一般",
+        "hiragana": "いっぱん",
+        "meaning": "căn bản"
+      },
+      {
+        "word": "一般に",
+        "hiragana": "いっぱんてきに",
+        "meaning": "nhìn chung"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 295,
+    "kanji": "務",
+    "han_viet": "Vụ",
+    "on_yomi": "む",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "事務",
+        "hiragana": "じむ",
+        "meaning": "công việc văn phòng"
+      },
+      {
+        "word": "事務所",
+        "hiragana": "じむしょ",
+        "meaning": "văn phòng"
+      },
+      {
+        "word": "公務員",
+        "hiragana": "こうむいん",
+        "meaning": "công chức"
+      },
+      {
+        "word": "税務署",
+        "hiragana": "ぜいむしょ",
+        "meaning": "phòng thuế"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 296,
+    "kanji": "課",
+    "han_viet": "Khoa",
+    "on_yomi": "か",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "第一課",
+        "hiragana": "だいいっか",
+        "meaning": "bài 1"
+      },
+      {
+        "word": "課長",
+        "hiragana": "かちょう",
+        "meaning": "trưởng nhóm"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 297,
+    "kanji": "球",
+    "han_viet": "Cầu",
+    "on_yomi": "きゅう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "地球",
+        "hiragana": "ちきゅう",
+        "meaning": "trái đất"
+      },
+      {
+        "word": "電球",
+        "hiragana": "でんきゅう",
+        "meaning": "bóng đèn"
+      },
+      {
+        "word": "野球",
+        "hiragana": "やきゅう",
+        "meaning": "bóng chày"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 298,
+    "kanji": "決",
+    "han_viet": "Quyết",
+    "on_yomi": "けつ",
+    "kun_yomi": "き-まる / き-める",
+    "mnemonic": "Quyết định sẽ tiết kiệm nước",
+    "examples": [
+      {
+        "word": "決まる",
+        "hiragana": "きまる",
+        "meaning": "được quyết định"
+      },
+      {
+        "word": "決める",
+        "hiragana": "きめる",
+        "meaning": "quyết định"
+      },
+      {
+        "word": "決定",
+        "hiragana": "けってい",
+        "meaning": "quyết định"
+      },
+      {
+        "word": "決心",
+        "hiragana": "けっしん",
+        "meaning": "quyết tâm"
+      }
+    ],
+    "image_path": "images/298_決.jpg"
+  },
+  {
+    "index": 299,
+    "kanji": "勝",
+    "han_viet": "Thắng",
+    "on_yomi": "しょう",
+    "kun_yomi": "か-つ",
+    "mnemonic": "Tôi đã thắng vào thứ hai (月), không phải thứ ba (火).",
+    "examples": [
+      {
+        "word": "勝つ",
+        "hiragana": "かつ",
+        "meaning": "thắng"
+      },
+      {
+        "word": "優勝",
+        "hiragana": "ゆうしょう",
+        "meaning": "người thắng cuộc"
+      },
+      {
+        "word": "決勝",
+        "hiragana": "けっしょう",
+        "meaning": "chung kết"
+      }
+    ],
+    "image_path": "images/299_勝.jpg"
+  },
+  {
+    "index": 300,
+    "kanji": "対",
+    "han_viet": "Đối",
+    "on_yomi": "たい",
+    "kun_yomi": "",
+    "mnemonic": "Tôi phản đối bạn",
+    "examples": [
+      {
+        "word": "1対2",
+        "hiragana": "いちたいに",
+        "meaning": "1 -2"
+      },
+      {
+        "word": "反対",
+        "hiragana": "はんたい",
+        "meaning": "phản đối"
+      },
+      {
+        "word": "対する",
+        "hiragana": "たいする",
+        "meaning": "đối với"
+      }
+    ],
+    "image_path": "images/300_対.jpg"
+  },
+  {
+    "index": 301,
+    "kanji": "流",
+    "han_viet": "Lưu",
+    "on_yomi": "りゅう",
+    "kun_yomi": "なが-れる / なが-す",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "流れる",
+        "hiragana": "ながれる",
+        "meaning": "chảy"
+      },
+      {
+        "word": "流す",
+        "hiragana": "ながす",
+        "meaning": "cho chảy"
+      },
+      {
+        "word": "交流",
+        "hiragana": "こうりゅう",
+        "meaning": "giao lưu"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 302,
+    "kanji": "負",
+    "han_viet": "Phụ",
+    "on_yomi": "ふ",
+    "kun_yomi": "ま-ける",
+    "mnemonic": "Người thua phải trả tiền",
+    "examples": [
+      {
+        "word": "負ける",
+        "hiragana": "まける",
+        "meaning": "thua cuộc"
+      },
+      {
+        "word": "勝負",
+        "hiragana": "しょうぶ",
+        "meaning": "trận đấu"
+      }
+    ],
+    "image_path": "images/302_負.jpg"
+  },
+  {
+    "index": 303,
+    "kanji": "投",
+    "han_viet": "Đầu",
+    "on_yomi": "とう",
+    "kun_yomi": "な-げる",
+    "mnemonic": "Tôi dùng tay ném hòn đá",
+    "examples": [
+      {
+        "word": "投げる",
+        "hiragana": "なげる",
+        "meaning": "ném đi"
+      },
+      {
+        "word": "投手",
+        "hiragana": "とうしゅ",
+        "meaning": "vận động viên ném bóng"
+      }
+    ],
+    "image_path": "images/303_投.jpg"
+  },
+  {
+    "index": 304,
+    "kanji": "果",
+    "han_viet": "Quả",
+    "on_yomi": "か",
+    "kun_yomi": "くだ",
+    "mnemonic": "Cái cây không có quả",
+    "examples": [
+      {
+        "word": "結果",
+        "hiragana": "けっか",
+        "meaning": "kết quả"
+      }
+    ],
+    "image_path": "images/304_果.jpg"
+  },
+  {
+    "index": 305,
+    "kanji": "戦",
+    "han_viet": "Chiến",
+    "on_yomi": "せん",
+    "kun_yomi": "たたか-う",
+    "mnemonic": "Nhiều loại vũ khí được dùng trong chiến tranh",
+    "examples": [
+      {
+        "word": "戦争",
+        "hiragana": "せんそう",
+        "meaning": "chiến tranh"
+      },
+      {
+        "word": "戦う",
+        "hiragana": "たたかう",
+        "meaning": "đấu tranh"
+      },
+      {
+        "word": "戦後",
+        "hiragana": "せんご",
+        "meaning": "hậu chiến"
+      }
+    ],
+    "image_path": "images/305_戦.jpg"
+  },
+  {
+    "index": 306,
+    "kanji": "経",
+    "han_viet": "Kinh",
+    "on_yomi": "けい",
+    "kun_yomi": "",
+    "mnemonic": "Trải qua thời gian dài để dệt vải và trồng cây",
+    "examples": [
+      {
+        "word": "経済",
+        "hiragana": "けいざい",
+        "meaning": "kinh tế"
+      },
+      {
+        "word": "経営",
+        "hiragana": "けいえい",
+        "meaning": "điều hành"
+      },
+      {
+        "word": "経験",
+        "hiragana": "けいけん",
+        "meaning": "kinh nghiệm"
+      }
+    ],
+    "image_path": "images/306_経.jpg"
+  },
+  {
+    "index": 307,
+    "kanji": "済",
+    "han_viet": "Tế",
+    "on_yomi": "さい",
+    "kun_yomi": "す-む",
+    "mnemonic": "Tôi đã viết xong câu văn (文) trên cao",
+    "examples": [
+      {
+        "word": "済む",
+        "hiragana": "すむ",
+        "meaning": "đã kết thúc"
+      },
+      {
+        "word": "経済",
+        "hiragana": "けいざい",
+        "meaning": "kinh tế"
+      }
+    ],
+    "image_path": "images/307_済.jpg"
+  },
+  {
+    "index": 308,
+    "kanji": "成",
+    "han_viet": "Thành",
+    "on_yomi": "せい",
+    "kun_yomi": "",
+    "mnemonic": "Sử dụng vũ khí, tôi đã hoàn thành nhiệm vụ",
+    "examples": [
+      {
+        "word": "成長",
+        "hiragana": "せいちょう",
+        "meaning": "trưởng thành"
+      },
+      {
+        "word": "賛成",
+        "hiragana": "さんせい",
+        "meaning": "tán thành"
+      },
+      {
+        "word": "完成",
+        "hiragana": "かんせい",
+        "meaning": "hoàn thành"
+      }
+    ],
+    "image_path": "images/308_成.jpg"
+  },
+  {
+    "index": 309,
+    "kanji": "貿",
+    "han_viet": "Mậu",
+    "on_yomi": "ぼう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "貿易",
+        "hiragana": "ぼうえき",
+        "meaning": "thương mại, ngoại thương"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 310,
+    "kanji": "易",
+    "han_viet": "Dịch",
+    "on_yomi": "えき",
+    "kun_yomi": "やさ-しい",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "貿易",
+        "hiragana": "ぼうえき",
+        "meaning": "thương mại, ngoại thương"
+      },
+      {
+        "word": "易しい",
+        "hiragana": "やさしい",
+        "meaning": "dễ dàng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 311,
+    "kanji": "輸",
+    "han_viet": "Thâu",
+    "on_yomi": "ゆ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "輸出",
+        "hiragana": "ゆしゅつ",
+        "meaning": "xuất khẩu"
+      },
+      {
+        "word": "輸入",
+        "hiragana": "ゆにゅう",
+        "meaning": "nhập khẩu"
+      },
+      {
+        "word": "輸送",
+        "hiragana": "ゆそう",
+        "meaning": "vận chuyển"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 312,
+    "kanji": "相",
+    "han_viet": "Tướng, tương",
+    "on_yomi": "そう / しょう",
+    "kun_yomi": "あい",
+    "mnemonic": "Đặt đôi mắt của bạn (目) trên cây (木). Cái cây và bạn đang đối mặt với nhau",
+    "examples": [
+      {
+        "word": "相談",
+        "hiragana": "そうだん",
+        "meaning": "thảo luận"
+      },
+      {
+        "word": "相手",
+        "hiragana": "あいて",
+        "meaning": "đối phương"
+      },
+      {
+        "word": "首相",
+        "hiragana": "しゅしょう",
+        "meaning": "thủ tướng"
+      }
+    ],
+    "image_path": "images/312_相.jpg"
+  },
+  {
+    "index": 313,
+    "kanji": "化",
+    "han_viet": "Hóa",
+    "on_yomi": "か / け",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "文化",
+        "hiragana": "ぶんか",
+        "meaning": "văn hóa"
+      },
+      {
+        "word": "化学",
+        "hiragana": "かがく",
+        "meaning": "hóa học"
+      },
+      {
+        "word": "化粧",
+        "hiragana": "けしょう",
+        "meaning": "trang điểm"
+      }
+    ],
+    "image_path": "images/313_化.jpg"
+  },
+  {
+    "index": 314,
+    "kanji": "比",
+    "han_viet": "Tỷ",
+    "on_yomi": "",
+    "kun_yomi": "くら-べる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "比べる",
+        "hiragana": "くらべる",
+        "meaning": "so sánh"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 315,
+    "kanji": "原",
+    "han_viet": "Nguyên",
+    "on_yomi": "げん",
+    "kun_yomi": "はら",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "原料",
+        "hiragana": "げんりょう",
+        "meaning": "nguyên liệu"
+      },
+      {
+        "word": "野原",
+        "hiragana": "のはら",
+        "meaning": "đồng bằng"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 316,
+    "kanji": "因",
+    "han_viet": "Nhân",
+    "on_yomi": "いん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "原因",
+        "hiragana": "げんいん",
+        "meaning": "nguyên nhân"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 317,
+    "kanji": "際",
+    "han_viet": "Tế",
+    "on_yomi": "さい",
+    "kun_yomi": "",
+    "mnemonic": "Lễ hội (祭) là 1 dịp đặc biệt cho mọi người",
+    "examples": [
+      {
+        "word": "国際",
+        "hiragana": "こくさい",
+        "meaning": "quốc tế"
+      },
+      {
+        "word": "交際",
+        "hiragana": "こうさい",
+        "meaning": "quan hệ"
+      }
+    ],
+    "image_path": "images/317_際.jpg"
+  },
+  {
+    "index": 318,
+    "kanji": "議",
+    "han_viet": "Nghị",
+    "on_yomi": "ぎ",
+    "kun_yomi": "",
+    "mnemonic": "Họ đang tranh luận xem đúng hay sai",
+    "examples": [
+      {
+        "word": "会議",
+        "hiragana": "かいぎ",
+        "meaning": "hội nghị"
+      },
+      {
+        "word": "議員",
+        "hiragana": "ぎいん",
+        "meaning": "nghị viên"
+      }
+    ],
+    "image_path": "images/318_議.jpg"
+  },
+  {
+    "index": 319,
+    "kanji": "活",
+    "han_viet": "Hoạt",
+    "on_yomi": "かつ",
+    "kun_yomi": "",
+    "mnemonic": "Tôi uống nước và trở nên hoạt bát",
+    "examples": [
+      {
+        "word": "生活",
+        "hiragana": "せいかつ",
+        "meaning": "sinh hoạt"
+      },
+      {
+        "word": "活動",
+        "hiragana": "かつどう",
+        "meaning": "hoạt động"
+      }
+    ],
+    "image_path": "images/319_活.jpg"
+  },
+  {
+    "index": 320,
+    "kanji": "変",
+    "han_viet": "Biến",
+    "on_yomi": "へん",
+    "kun_yomi": "か-わる / か-える",
+    "mnemonic": "Anh ấy đang mặc bộ quần áo kì quái",
+    "examples": [
+      {
+        "word": "大変",
+        "hiragana": "たいへん",
+        "meaning": "rất, cực"
+      },
+      {
+        "word": "変化",
+        "hiragana": "へんか",
+        "meaning": "biến hóa"
+      },
+      {
+        "word": "変わる",
+        "hiragana": "かわる",
+        "meaning": "thay đổi"
+      },
+      {
+        "word": "変える",
+        "hiragana": "かえる",
+        "meaning": "thay đổi"
+      }
+    ],
+    "image_path": "images/320_変.jpg"
+  },
+  {
+    "index": 321,
+    "kanji": "政",
+    "han_viet": "Chính",
+    "on_yomi": "せい",
+    "kun_yomi": "",
+    "mnemonic": "Chính phủ nên làmviệc đúng (正).",
+    "examples": [
+      {
+        "word": "政治",
+        "hiragana": "せいじ",
+        "meaning": "chính trị"
+      },
+      {
+        "word": "政治家",
+        "hiragana": "せいじか",
+        "meaning": "chính trị gia"
+      }
+    ],
+    "image_path": "images/321_政.jpg"
+  },
+  {
+    "index": 322,
+    "kanji": "府",
+    "han_viet": "Phủ",
+    "on_yomi": "ふ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "政府",
+        "hiragana": "せいふ",
+        "meaning": "chính phủ"
+      },
+      {
+        "word": "都道府県",
+        "hiragana": "とどうふけん",
+        "meaning": "hệ thống tỉnh thành"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 323,
+    "kanji": "改",
+    "han_viet": "Cải",
+    "on_yomi": "かい",
+    "kun_yomi": "あらた-める",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "改める",
+        "hiragana": "あらためる",
+        "meaning": "cải thiện"
+      },
+      {
+        "word": "改正",
+        "hiragana": "かいせい",
+        "meaning": "cải chính, chỉnh sửa"
+      },
+      {
+        "word": "改札口",
+        "hiragana": "かいさつぐち",
+        "meaning": "cửa soát vé"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 324,
+    "kanji": "否",
+    "han_viet": "Phủ",
+    "on_yomi": "ひ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "否定",
+        "hiragana": "ひてい",
+        "meaning": "phủ định"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 325,
+    "kanji": "的",
+    "han_viet": "Đích",
+    "on_yomi": "てき",
+    "kun_yomi": "",
+    "mnemonic": "Nó là cái đích màu trắng (白)",
+    "examples": [
+      {
+        "word": "否定的",
+        "hiragana": "ひていてき",
+        "meaning": "tính phủ định"
+      },
+      {
+        "word": "国際的",
+        "hiragana": "こくさいてき",
+        "meaning": "tính quốc tế"
+      },
+      {
+        "word": "目的",
+        "hiragana": "もくてき",
+        "meaning": "mục đích"
+      },
+      {
+        "word": "個人的",
+        "hiragana": "こじんてき",
+        "meaning": "tính cá nhân"
+      }
+    ],
+    "image_path": "images/325_的.jpg"
+  },
+  {
+    "index": 326,
+    "kanji": "実",
+    "han_viet": "Thực",
+    "on_yomi": "じつ",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "現実",
+        "hiragana": "げんじつ",
+        "meaning": "hiện thực"
+      },
+      {
+        "word": "実験",
+        "hiragana": "じっけん",
+        "meaning": "thực nghiệm"
+      },
+      {
+        "word": "実際",
+        "hiragana": "じっさい",
+        "meaning": "thực tế"
+      },
+      {
+        "word": "実は",
+        "hiragana": "じつは",
+        "meaning": "thực ra"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 327,
+    "kanji": "欠",
+    "han_viet": "Khuyết",
+    "on_yomi": "けつ",
+    "kun_yomi": "か-ける",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "欠ける",
+        "hiragana": "かける",
+        "meaning": "thiếu"
+      },
+      {
+        "word": "欠点",
+        "hiragana": "けってん",
+        "meaning": "khuyết điểm"
+      },
+      {
+        "word": "欠席",
+        "hiragana": "けっせき",
+        "meaning": "vắng mặt"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 328,
+    "kanji": "専",
+    "han_viet": "Chuyên",
+    "on_yomi": "せん",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "専門",
+        "hiragana": "せんもん",
+        "meaning": "chuyên môn"
+      },
+      {
+        "word": "専門家",
+        "hiragana": "せんもんか",
+        "meaning": "chuyên gia"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 329,
+    "kanji": "亡",
+    "han_viet": "Vong",
+    "on_yomi": "ぼう",
+    "kun_yomi": "な-い",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "死亡",
+        "hiragana": "しぼう",
+        "meaning": "Tử vong"
+      }
+    ],
+    "image_path": ""
+  },
+  {
+    "index": 330,
+    "kanji": "忙",
+    "han_viet": "Mang",
+    "on_yomi": "ぼう",
+    "kun_yomi": "いそが-しい",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": ""
+  },
+  {
+    "index": 331,
+    "kanji": "忘",
+    "han_viet": "Vong",
+    "on_yomi": "ぼう",
+    "kun_yomi": "わす-れる",
+    "mnemonic": "",
+    "examples": [
+      {
+        "word": "忘れる",
+        "hiragana": "わすれる",
+        "meaning": "quên"
+      }
+    ],
+    "image_path": "images/331_忘.jpg"
+  },
+  {
+    "index": 332,
+    "kanji": "祭",
+    "han_viet": "Sái / Tế",
+    "on_yomi": "さい",
+    "kun_yomi": "まつ-り",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": "images/332_祭.jpg"
+  },
+  {
+    "index": 333,
+    "kanji": "労",
+    "han_viet": "Lao",
+    "on_yomi": "ろう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": ""
+  },
+  {
+    "index": 334,
+    "kanji": "加",
+    "han_viet": "Gia",
+    "on_yomi": "か",
+    "kun_yomi": "くわ-える",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": ""
+  },
+  {
+    "index": 335,
+    "kanji": "情",
+    "han_viet": "Tình",
+    "on_yomi": "じょう",
+    "kun_yomi": "",
+    "mnemonic": "",
+    "examples": [],
+    "image_path": "images/335_情.jpg"
+  }
+]

@@ -24,8 +24,27 @@ import {
 
 // Import data
 import { setNames, flashcards, KanjiCard } from "@/data/kanji";
+import { setNamesN3, n3Flashcards } from "@/data/kanji_n3";
 import { grammarGroups, grammarQuestions, GrammarQuestion } from "@/data/grammar";
 import { speakJapanese } from "@/lib/tts";
+
+interface AppKanjiCard {
+  id: string;
+  kanji: string;
+  hiragana: string;
+  meaning: string;
+  setId: number;
+  setName: string;
+  example?: string;
+  warning?: string;
+  isKanjiCard?: boolean;
+  han_viet?: string;
+  on_yomi?: string;
+  kun_yomi?: string;
+  mnemonic?: string;
+  examples?: { word: string; hiragana: string; meaning: string }[];
+  level?: "N3" | "N4";
+}
 
 export default function Page() {
   // Navigation
@@ -37,9 +56,12 @@ export default function Page() {
   const [modalMessage, setModalMessage] = useState("");
   const [modalType, setModalType] = useState<"info" | "warning" | "success">("info");
 
+  // Kanji Level State
+  const [level, setLevel] = useState<"N3" | "N4">("N3");
+
   // Kanji States
   const [selectedSetIds, setSelectedSetIds] = useState<Set<number>>(new Set());
-  const [activeDeck, setActiveDeck] = useState<KanjiCard[]>([]);
+  const [activeDeck, setActiveDeck] = useState<AppKanjiCard[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [mistakeStats, setMistakeStats] = useState<Record<string, { wrong: number; correct: number }>>({});
@@ -59,15 +81,15 @@ export default function Page() {
 
   // Initialize
   useEffect(() => {
-    // 1. Initial selection is all 40 sets
+    // 1. Initial selection is all 6 sets of N3 (default level)
     const initialSets = new Set<number>();
-    for (let i = 1; i <= 40; i++) {
+    for (let i = 1; i <= 6; i++) {
       initialSets.add(i);
     }
     setSelectedSetIds(initialSets);
 
     // 2. Load Local Storage
-    const savedKanjiMistakes = localStorage.getItem("n4_kanji_mistakes_stats");
+    const savedKanjiMistakes = localStorage.getItem("n3_kanji_mistakes_stats");
     if (savedKanjiMistakes) {
       try {
         setMistakeStats(JSON.parse(savedKanjiMistakes));
@@ -94,18 +116,51 @@ export default function Page() {
       }
     }
 
-    // 3. Load Active Deck based on the initial sets selection
-    const initialDeck = flashcards.filter((card) => initialSets.has(card.setId));
+    // 3. Load Active Deck based on the initial sets selection for N3
+    const initialDeck = n3Flashcards.filter((card) => initialSets.has(card.setId));
     setActiveDeck(initialDeck);
   }, []);
 
   // Sync active deck whenever selectedSetIds changes
   const updateActiveDeck = (sets: Set<number>) => {
-    const deck = flashcards.filter((card) => sets.has(card.setId));
+    const currentCards = level === "N3" ? n3Flashcards : flashcards;
+    const deck = currentCards.filter((card) => sets.has(card.setId));
     setActiveDeck(deck);
     setCurrentCardIndex(0);
     setIsFlipped(false);
     return deck;
+  };
+
+  // Switch Kanji Level (N3/N4)
+  const handleLevelChange = (newLevel: "N3" | "N4") => {
+    setLevel(newLevel);
+
+    const maxSets = newLevel === "N3" ? 6 : 40;
+    const newSets = new Set<number>();
+    for (let i = 1; i <= maxSets; i++) {
+      newSets.add(i);
+    }
+    setSelectedSetIds(newSets);
+
+    // Sync active deck
+    const currentCards = newLevel === "N3" ? n3Flashcards : flashcards;
+    const deck = currentCards.filter((card) => newSets.has(card.setId));
+    setActiveDeck(deck);
+    setCurrentCardIndex(0);
+    setIsFlipped(false);
+
+    // Load mistakes stats
+    const mistakesKey = newLevel === "N3" ? "n3_kanji_mistakes_stats" : "n4_kanji_mistakes_stats";
+    const savedKanjiMistakes = localStorage.getItem(mistakesKey);
+    if (savedKanjiMistakes) {
+      try {
+        setMistakeStats(JSON.parse(savedKanjiMistakes));
+      } catch (e) {
+        setMistakeStats({});
+      }
+    } else {
+      setMistakeStats({});
+    }
   };
 
   // Keyboard controls for Kanji Tab
@@ -168,7 +223,8 @@ export default function Page() {
 
   const handleSelectAll = () => {
     const newSets = new Set<number>();
-    for (let i = 1; i <= 40; i++) {
+    const maxSets = level === "N3" ? 6 : 40;
+    for (let i = 1; i <= maxSets; i++) {
       newSets.add(i);
     }
     setSelectedSetIds(newSets);
@@ -183,7 +239,8 @@ export default function Page() {
     if (setsToUse.size === 0) {
       // Auto select all if none is selected
       const allSets = new Set<number>();
-      for (let i = 1; i <= 40; i++) {
+      const maxSets = level === "N3" ? 6 : 40;
+      for (let i = 1; i <= maxSets; i++) {
         allSets.add(i);
       }
       setSelectedSetIds(allSets);
@@ -191,7 +248,7 @@ export default function Page() {
     }
     const deck = updateActiveDeck(setsToUse);
     if (deck.length === 0) {
-      showModal("Cảnh báo", "Vui lòng chọn ít nhất một bộ Kanji để học!", "warning");
+      showModal("Cảnh báo", `Vui lòng chọn ít nhất một ${level === "N3" ? "tuần" : "bộ"} để học!`, "warning");
       return;
     }
     showModal("Bắt đầu học", `Đã tải ${deck.length} thẻ Kanji.`, "success");
@@ -215,7 +272,11 @@ export default function Page() {
     const nextFlippedState = !isFlipped;
     setIsFlipped(nextFlippedState);
     if (nextFlippedState) {
-      speakJapanese(activeDeck[currentCardIndex].hiragana);
+      const currentCard = activeDeck[currentCardIndex];
+      const speakText = currentCard.isKanjiCard 
+        ? (currentCard.on_yomi || currentCard.kun_yomi || currentCard.hiragana)
+        : currentCard.hiragana;
+      speakJapanese(speakText);
     }
   };
 
@@ -235,7 +296,8 @@ export default function Page() {
     }
 
     setMistakeStats(currentStats);
-    localStorage.setItem("n4_kanji_mistakes_stats", JSON.stringify(currentStats));
+    const mistakesKey = level === "N3" ? "n3_kanji_mistakes_stats" : "n4_kanji_mistakes_stats";
+    localStorage.setItem(mistakesKey, JSON.stringify(currentStats));
 
     if (currentCardIndex < activeDeck.length - 1) {
       setCurrentCardIndex(currentCardIndex + 1);
@@ -252,11 +314,12 @@ export default function Page() {
   };
 
   const clearKanjiMistakes = () => {
-    const check = confirm("Xóa toàn bộ lịch sử trả lời sai Kanji?");
+    const check = confirm(`Xóa toàn bộ lịch sử trả lời sai Kanji ${level}?`);
     if (check) {
       setMistakeStats({});
-      localStorage.removeItem("n4_kanji_mistakes_stats");
-      showModal("Đã xóa sạch", "Mọi lịch sử lỗi sai Kanji đã được làm mới!", "success");
+      const mistakesKey = level === "N3" ? "n3_kanji_mistakes_stats" : "n4_kanji_mistakes_stats";
+      localStorage.removeItem(mistakesKey);
+      showModal("Đã xóa sạch", `Mọi lịch sử lỗi sai Kanji ${level} đã được làm mới!`, "success");
     }
   };
 
@@ -266,7 +329,8 @@ export default function Page() {
       showModal("Thông báo", "Bạn chưa có lỗi sai nào. Hãy tiếp tục phát huy!", "info");
       return;
     }
-    const filteredDeck = flashcards.filter((card) => wrongIds.includes(card.id));
+    const currentCards = level === "N3" ? n3Flashcards : flashcards;
+    const filteredDeck = currentCards.filter((card) => wrongIds.includes(card.id));
     filteredDeck.sort((a, b) => (mistakeStats[b.id]?.wrong || 0) - (mistakeStats[a.id]?.wrong || 0));
 
     setActiveDeck(filteredDeck);
@@ -277,11 +341,12 @@ export default function Page() {
 
   // Get mistake stats array sorted by wrong count descending
   const getSortedMistakes = () => {
-    const list: (KanjiCard & { wrongCount: number })[] = [];
+    const list: (AppKanjiCard & { wrongCount: number })[] = [];
     Object.keys(mistakeStats).forEach((id) => {
       const stat = mistakeStats[id];
       if (stat.wrong > 0) {
-        const card = flashcards.find((c) => c.id === id);
+        const currentCards = level === "N3" ? n3Flashcards : flashcards;
+        const card = currentCards.find((c) => c.id === id);
         if (card) {
           list.push({ ...card, wrongCount: stat.wrong });
         }
@@ -392,9 +457,13 @@ export default function Page() {
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                日本語 N4 総合学習
+                日本語 {level} 総合学習
               </h1>
-              <p className="text-xs text-slate-400">Học Kanji & Grammar Arena N4: 170 câu bài tập</p>
+              <p className="text-xs text-slate-400">
+                {level === "N3" 
+                  ? "Học Kanji Flashcard N3 (Soumatome) & Ngữ pháp N4"
+                  : "Học Kanji & Ngữ pháp N4"}
+              </p>
             </div>
           </div>
 
@@ -461,15 +530,15 @@ export default function Page() {
               <div className="h-4 w-px bg-slate-800"></div>
               <div className="flex items-center gap-1">
                 <span className="text-indigo-400 font-semibold">{globalTotalUnique}</span>
-                <span className="text-slate-500">/ {flashcards.length} Đã học</span>
+                <span className="text-slate-500">/ {level === "N3" ? n3Flashcards.length : flashcards.length} Đã học</span>
               </div>
             </div>
             <div className="mt-2 flex items-center justify-end gap-2 text-[11px]">
               <span className="bg-emerald-950/70 text-emerald-300 border border-emerald-800/70 px-2.5 py-1 rounded-full font-semibold">
-                Flashcard: 481 từ / 40 bộ
+                Flashcard: {level === "N3" ? n3Flashcards.length : flashcards.length} từ / {level === "N3" ? "6 tuần" : "40 bộ"}
               </span>
               <span className="bg-slate-900 text-slate-400 border border-slate-800 px-2.5 py-1 rounded-full font-mono">
-                Markdown rows: 481 · Exact duplicates removed: 0
+                Markdown rows: {level === "N3" ? n3Flashcards.length : flashcards.length} · Exact duplicates removed: 0
               </span>
             </div>
           </div>
@@ -477,15 +546,45 @@ export default function Page() {
           <main className="flex-1 max-w-6xl w-full mx-auto p-4 grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Left Side Control Panel */}
             <div className="lg:col-span-4 flex flex-col gap-5">
+              {/* Level Selector */}
+              <div className="bg-slate-900 rounded-2xl p-5 border border-slate-800 flex flex-col gap-3">
+                <h3 className="font-bold text-slate-200 flex items-center gap-2 text-sm">
+                  <Sparkles className="w-4 h-4 text-indigo-400" />
+                  Trình độ / Level
+                </h3>
+                <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800">
+                  <button
+                    onClick={() => handleLevelChange("N3")}
+                    className={`flex-1 py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
+                      level === "N3"
+                        ? "bg-indigo-600 text-white"
+                        : "text-slate-400 hover:text-slate-200"
+                    }`}
+                  >
+                    N3 (Mặc định)
+                  </button>
+                  <button
+                    onClick={() => handleLevelChange("N4")}
+                    className={`flex-1 py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
+                      level === "N4"
+                        ? "bg-indigo-600 text-white"
+                        : "text-slate-400 hover:text-slate-200"
+                    }`}
+                  >
+                    N4
+                  </button>
+                </div>
+              </div>
+
               {/* Set Selector */}
               <div className="bg-slate-900 rounded-2xl p-5 border border-slate-800 flex flex-col gap-4">
                 <div className="flex items-center justify-between">
                   <h2 className="font-bold flex items-center gap-2 text-slate-200">
                     <Layers className="w-5 h-5 text-indigo-400" />
-                    学習範囲 / Chọn Bộ Kanji
+                    {level === "N3" ? "学習範囲 / Chọn Tuần Học" : "学習範囲 / Chọn Bộ Kanji"}
                   </h2>
                   <span className="text-xs bg-slate-800 px-2.5 py-1 rounded-full text-slate-400 font-mono">
-                    {selectedSetIds.size}/40
+                    {selectedSetIds.size}/{level === "N3" ? 6 : 40}
                   </span>
                 </div>
 
@@ -506,10 +605,11 @@ export default function Page() {
 
                 {/* List of sets */}
                 <div className="max-h-[250px] overflow-y-auto pr-1 flex flex-col gap-1 border border-slate-800 rounded-xl p-2 bg-slate-950/50">
-                  {Object.keys(setNames).map((idStr) => {
+                  {Object.keys(level === "N3" ? setNamesN3 : setNames).map((idStr) => {
                     const id = parseInt(idStr);
-                    const name = setNames[id];
-                    const count = flashcards.filter((c) => c.setId === id).length;
+                    const name = level === "N3" ? setNamesN3[id] : setNames[id];
+                    const currentCards = level === "N3" ? n3Flashcards : flashcards;
+                    const count = currentCards.filter((c) => c.setId === id).length;
                     const isChecked = selectedSetIds.has(id);
                     return (
                       <label
@@ -525,7 +625,7 @@ export default function Page() {
                           />
                           <span className="text-slate-300 font-medium">{name}</span>
                         </div>
-                        <span className="text-[10px] text-slate-500 font-mono">{count} từ</span>
+                        <span className="text-[10px] text-slate-500 font-mono">{count} thẻ</span>
                       </label>
                     );
                   })}
@@ -637,38 +737,80 @@ export default function Page() {
                         </button>
                         <span className="text-xs text-emerald-400 uppercase tracking-widest font-bold font-mono">Answer</span>
                       </div>
-                      <div className="flex flex-col items-center justify-center text-center gap-2.5 my-auto w-full px-4">
-                        <span className="text-2xl font-bold text-indigo-300 font-sans">
-                          {activeDeck.length > 0 ? activeDeck[currentCardIndex].hiragana : "--"}
-                        </span>
-                        <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
-                        <span className="text-lg font-medium text-slate-100">
-                          {activeDeck.length > 0 ? activeDeck[currentCardIndex].meaning : "--"}
-                        </span>
-
-                        {/* Extra examples / warning */}
-                        {activeDeck.length > 0 &&
-                          (activeDeck[currentCardIndex].example || activeDeck[currentCardIndex].warning) && (
-                            <div className="w-full mt-2">
-                              <div className="bg-slate-900/90 px-3 py-2 rounded-xl text-left border border-slate-700/40 text-xs">
-                                {activeDeck[currentCardIndex].example && (
-                                  <div>
-                                    <span className="text-slate-400 font-semibold block mb-0.5">例句 / Câu mẫu:</span>
-                                    <p className="text-emerald-300 font-medium">
-                                      {activeDeck[currentCardIndex].example}
-                                    </p>
-                                  </div>
-                                )}
-                                {activeDeck[currentCardIndex].warning && (
-                                  <div className="mt-1 text-rose-300 font-medium flex items-start gap-1">
-                                    <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
-                                    <span>{activeDeck[currentCardIndex].warning}</span>
-                                  </div>
-                                )}
-                              </div>
+                      {activeDeck.length > 0 && activeDeck[currentCardIndex].isKanjiCard ? (
+                        <div className="flex flex-col items-center justify-center text-center gap-2 my-auto w-full px-4 overflow-y-auto max-h-[190px] pr-1">
+                          <span className="text-2xl font-bold text-indigo-300 font-sans">
+                            {activeDeck[currentCardIndex].han_viet ? `Hán Việt: ${activeDeck[currentCardIndex].han_viet}` : activeDeck[currentCardIndex].hiragana}
+                          </span>
+                          <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
+                          
+                          {activeDeck[currentCardIndex].on_yomi && (
+                            <div className="text-xs text-slate-300">
+                              <span className="font-semibold text-slate-400">On'yomi: </span>
+                              {activeDeck[currentCardIndex].on_yomi}
                             </div>
                           )}
-                      </div>
+                          
+                          {activeDeck[currentCardIndex].kun_yomi && (
+                            <div className="text-xs text-slate-300">
+                              <span className="font-semibold text-slate-400">Kun'yomi: </span>
+                              {activeDeck[currentCardIndex].kun_yomi}
+                            </div>
+                          )}
+
+                          {activeDeck[currentCardIndex].mnemonic && (
+                            <div className="text-xs bg-slate-900/60 p-2 rounded border border-slate-800/80 text-slate-300 italic max-w-full text-left">
+                              💡 {activeDeck[currentCardIndex].mnemonic}
+                            </div>
+                          )}
+
+                          {activeDeck[currentCardIndex].examples && activeDeck[currentCardIndex].examples!.length > 0 && (
+                            <div className="w-full text-left mt-1 border-t border-slate-700/50 pt-1.5">
+                              <span className="text-[10px] text-slate-400 font-semibold block mb-0.5">Ví dụ từ vựng:</span>
+                              <ul className="text-[11px] text-emerald-300 space-y-0.5">
+                                {activeDeck[currentCardIndex].examples!.slice(0, 3).map((ex, i) => (
+                                  <li key={i} className="list-disc list-inside truncate">
+                                    <span className="font-semibold">{ex.word}</span> ({ex.hiragana}): {ex.meaning}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                        <div className="flex flex-col items-center justify-center text-center gap-2.5 my-auto w-full px-4">
+                          <span className="text-2xl font-bold text-indigo-300 font-sans">
+                            {activeDeck.length > 0 ? activeDeck[currentCardIndex].hiragana : "--"}
+                          </span>
+                          <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
+                          <span className="text-lg font-medium text-slate-100">
+                            {activeDeck.length > 0 ? activeDeck[currentCardIndex].meaning : "--"}
+                          </span>
+
+                          {/* Extra examples / warning */}
+                          {activeDeck.length > 0 &&
+                            (activeDeck[currentCardIndex].example || activeDeck[currentCardIndex].warning) && (
+                              <div className="w-full mt-2">
+                                <div className="bg-slate-900/90 px-3 py-2 rounded-xl text-left border border-slate-700/40 text-xs">
+                                  {activeDeck[currentCardIndex].example && (
+                                    <div>
+                                      <span className="text-slate-400 font-semibold block mb-0.5">例句 / Câu mẫu:</span>
+                                      <p className="text-emerald-300 font-medium">
+                                        {activeDeck[currentCardIndex].example}
+                                      </p>
+                                    </div>
+                                  )}
+                                  {activeDeck[currentCardIndex].warning && (
+                                    <div className="mt-1 text-rose-300 font-medium flex items-start gap-1">
+                                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                                      <span>{activeDeck[currentCardIndex].warning}</span>
+                                    </div>
+                                  )}
+                                </div>
+                              </div>
+                            )}
+                        </div>
+                      )}
                       <div className="flex items-center gap-1.5 text-xs text-slate-400">
                         <Rotate3dIcon className="w-4 h-4" />
                         <span>Nhấp để quay lại mặt Kanji</span>
