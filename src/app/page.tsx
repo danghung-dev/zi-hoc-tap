@@ -34,6 +34,7 @@ interface AppKanjiCard {
   hiragana: string;
   meaning: string;
   setId: number;
+  dayId?: number;
   setName: string;
   example?: string;
   warning?: string;
@@ -60,7 +61,7 @@ export default function Page() {
   const [level, setLevel] = useState<"N3" | "N4">("N3");
 
   // Kanji States
-  const [selectedSetIds, setSelectedSetIds] = useState<Set<number>>(new Set());
+  const [selectedSetIds, setSelectedSetIds] = useState<Set<string>>(new Set());
   const [activeDeck, setActiveDeck] = useState<AppKanjiCard[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -81,10 +82,12 @@ export default function Page() {
 
   // Initialize
   useEffect(() => {
-    // 1. Initial selection is all 6 sets of N3 (default level)
-    const initialSets = new Set<number>();
-    for (let i = 1; i <= 6; i++) {
-      initialSets.add(i);
+    // 1. Initial selection is all days of N3 (default level)
+    const initialSets = new Set<string>();
+    for (let w = 1; w <= 6; w++) {
+      for (let d = 1; d <= 6; d++) {
+        initialSets.add(`w${w}_d${d}`);
+      }
     }
     setSelectedSetIds(initialSets);
 
@@ -117,14 +120,22 @@ export default function Page() {
     }
 
     // 3. Load Active Deck based on the initial sets selection for N3
-    const initialDeck = n3Flashcards.filter((card) => initialSets.has(card.setId));
+    const initialDeck = n3Flashcards.filter((card) => 
+      initialSets.has(`w${card.setId}_d${card.dayId || 1}`)
+    );
     setActiveDeck(initialDeck);
   }, []);
 
   // Sync active deck whenever selectedSetIds changes
-  const updateActiveDeck = (sets: Set<number>) => {
-    const currentCards = level === "N3" ? n3Flashcards : flashcards;
-    const deck = currentCards.filter((card) => sets.has(card.setId));
+  const updateActiveDeck = (sets: Set<string>) => {
+    const currentCards = (level === "N3" ? n3Flashcards : flashcards) as AppKanjiCard[];
+    const deck = currentCards.filter((card) => {
+      if (level === "N3") {
+        return sets.has(`w${card.setId}_d${card.dayId || 1}`);
+      } else {
+        return sets.has(`s${card.setId}`);
+      }
+    });
     setActiveDeck(deck);
     setCurrentCardIndex(0);
     setIsFlipped(false);
@@ -135,16 +146,29 @@ export default function Page() {
   const handleLevelChange = (newLevel: "N3" | "N4") => {
     setLevel(newLevel);
 
-    const maxSets = newLevel === "N3" ? 6 : 40;
-    const newSets = new Set<number>();
-    for (let i = 1; i <= maxSets; i++) {
-      newSets.add(i);
+    const newSets = new Set<string>();
+    if (newLevel === "N3") {
+      for (let w = 1; w <= 6; w++) {
+        for (let d = 1; d <= 6; d++) {
+          newSets.add(`w${w}_d${d}`);
+        }
+      }
+    } else {
+      for (let s = 1; s <= 40; s++) {
+        newSets.add(`s${s}`);
+      }
     }
     setSelectedSetIds(newSets);
 
     // Sync active deck
-    const currentCards = newLevel === "N3" ? n3Flashcards : flashcards;
-    const deck = currentCards.filter((card) => newSets.has(card.setId));
+    const currentCards = (newLevel === "N3" ? n3Flashcards : flashcards) as AppKanjiCard[];
+    const deck = currentCards.filter((card) => {
+      if (newLevel === "N3") {
+        return newSets.has(`w${card.setId}_d${card.dayId || 1}`);
+      } else {
+        return newSets.has(`s${card.setId}`);
+      }
+    });
     setActiveDeck(deck);
     setCurrentCardIndex(0);
     setIsFlipped(false);
@@ -213,19 +237,51 @@ export default function Page() {
   // --- Kanji logic ---
   const handleCheckboxChange = (id: number, checked: boolean) => {
     const newSets = new Set(selectedSetIds);
+    const key = `s${id}`;
     if (checked) {
-      newSets.add(id);
+      newSets.add(key);
     } else {
-      newSets.delete(id);
+      newSets.delete(key);
+    }
+    setSelectedSetIds(newSets);
+  };
+
+  const handleWeekCheckboxChange = (weekId: number, checked: boolean) => {
+    const newSets = new Set(selectedSetIds);
+    for (let d = 1; d <= 6; d++) {
+      const key = `w${weekId}_d${d}`;
+      if (checked) {
+        newSets.add(key);
+      } else {
+        newSets.delete(key);
+      }
+    }
+    setSelectedSetIds(newSets);
+  };
+
+  const handleDayCheckboxChange = (weekId: number, dayId: number, checked: boolean) => {
+    const newSets = new Set(selectedSetIds);
+    const key = `w${weekId}_d${dayId}`;
+    if (checked) {
+      newSets.add(key);
+    } else {
+      newSets.delete(key);
     }
     setSelectedSetIds(newSets);
   };
 
   const handleSelectAll = () => {
-    const newSets = new Set<number>();
-    const maxSets = level === "N3" ? 6 : 40;
-    for (let i = 1; i <= maxSets; i++) {
-      newSets.add(i);
+    const newSets = new Set<string>();
+    if (level === "N3") {
+      for (let w = 1; w <= 6; w++) {
+        for (let d = 1; d <= 6; d++) {
+          newSets.add(`w${w}_d${d}`);
+        }
+      }
+    } else {
+      for (let s = 1; s <= 40; s++) {
+        newSets.add(`s${s}`);
+      }
     }
     setSelectedSetIds(newSets);
   };
@@ -238,17 +294,24 @@ export default function Page() {
     let setsToUse = selectedSetIds;
     if (setsToUse.size === 0) {
       // Auto select all if none is selected
-      const allSets = new Set<number>();
-      const maxSets = level === "N3" ? 6 : 40;
-      for (let i = 1; i <= maxSets; i++) {
-        allSets.add(i);
+      const allSets = new Set<string>();
+      if (level === "N3") {
+        for (let w = 1; w <= 6; w++) {
+          for (let d = 1; d <= 6; d++) {
+            allSets.add(`w${w}_d${d}`);
+          }
+        }
+      } else {
+        for (let s = 1; s <= 40; s++) {
+          allSets.add(`s${s}`);
+        }
       }
       setSelectedSetIds(allSets);
       setsToUse = allSets;
     }
     const deck = updateActiveDeck(setsToUse);
     if (deck.length === 0) {
-      showModal("Cảnh báo", `Vui lòng chọn ít nhất một ${level === "N3" ? "tuần" : "bộ"} để học!`, "warning");
+      showModal("Cảnh báo", `Vui lòng chọn ít nhất một ${level === "N3" ? "ngày học" : "bộ"} để học!`, "warning");
       return;
     }
     showModal("Bắt đầu học", `Đã tải ${deck.length} thẻ Kanji.`, "success");
@@ -329,7 +392,7 @@ export default function Page() {
       showModal("Thông báo", "Bạn chưa có lỗi sai nào. Hãy tiếp tục phát huy!", "info");
       return;
     }
-    const currentCards = level === "N3" ? n3Flashcards : flashcards;
+    const currentCards = (level === "N3" ? n3Flashcards : flashcards) as AppKanjiCard[];
     const filteredDeck = currentCards.filter((card) => wrongIds.includes(card.id));
     filteredDeck.sort((a, b) => (mistakeStats[b.id]?.wrong || 0) - (mistakeStats[a.id]?.wrong || 0));
 
@@ -345,7 +408,7 @@ export default function Page() {
     Object.keys(mistakeStats).forEach((id) => {
       const stat = mistakeStats[id];
       if (stat.wrong > 0) {
-        const currentCards = level === "N3" ? n3Flashcards : flashcards;
+        const currentCards = (level === "N3" ? n3Flashcards : flashcards) as AppKanjiCard[];
         const card = currentCards.find((c) => c.id === id);
         if (card) {
           list.push({ ...card, wrongCount: stat.wrong });
@@ -584,7 +647,9 @@ export default function Page() {
                     {level === "N3" ? "学習範囲 / Chọn Tuần Học" : "学習範囲 / Chọn Bộ Kanji"}
                   </h2>
                   <span className="text-xs bg-slate-800 px-2.5 py-1 rounded-full text-slate-400 font-mono">
-                    {selectedSetIds.size}/{level === "N3" ? 6 : 40}
+                    {level === "N3" 
+                      ? `${selectedSetIds.size}/36 ngày`
+                      : `${selectedSetIds.size}/40 bộ`}
                   </span>
                 </div>
 
@@ -604,31 +669,87 @@ export default function Page() {
                 </div>
 
                 {/* List of sets */}
-                <div className="max-h-[250px] overflow-y-auto pr-1 flex flex-col gap-1 border border-slate-800 rounded-xl p-2 bg-slate-950/50">
-                  {Object.keys(level === "N3" ? setNamesN3 : setNames).map((idStr) => {
-                    const id = parseInt(idStr);
-                    const name = level === "N3" ? setNamesN3[id] : setNames[id];
-                    const currentCards = level === "N3" ? n3Flashcards : flashcards;
-                    const count = currentCards.filter((c) => c.setId === id).length;
-                    const isChecked = selectedSetIds.has(id);
-                    return (
-                      <label
-                        key={id}
-                        className="flex items-center justify-between p-2 rounded-lg hover:bg-slate-800/80 cursor-pointer text-xs transition border border-transparent hover:border-slate-700/50"
-                      >
-                        <div className="flex items-center gap-2">
-                          <input
-                            type="checkbox"
-                            checked={isChecked}
-                            onChange={(e) => handleCheckboxChange(id, e.target.checked)}
-                            className="w-4 h-4 rounded text-indigo-600 bg-slate-950 border-slate-700 focus:ring-indigo-500 focus:ring-offset-slate-900 cursor-pointer"
-                          />
-                          <span className="text-slate-300 font-medium">{name}</span>
+                <div className="max-h-[280px] overflow-y-auto pr-1 flex flex-col gap-2 border border-slate-800 rounded-xl p-2 bg-slate-950/50">
+                  {level === "N3" ? (
+                    Object.keys(setNamesN3).map((idStr) => {
+                      const weekId = parseInt(idStr);
+                      const weekName = setNamesN3[weekId];
+                      const days = [1, 2, 3, 4, 5, 6];
+                      const selectedDaysInWeek = days.filter(d => selectedSetIds.has(`w${weekId}_d${d}`));
+                      const isWeekFullyChecked = selectedDaysInWeek.length === 6;
+                      const isWeekIndeterminate = selectedDaysInWeek.length > 0 && selectedDaysInWeek.length < 6;
+
+                      return (
+                        <div key={weekId} className="border border-slate-800/80 rounded-xl p-2.5 bg-slate-900/30 flex flex-col gap-1.5">
+                          {/* Parent Checkbox (Week) */}
+                          <label className="flex items-center justify-between p-1 hover:bg-slate-800/50 rounded-lg cursor-pointer transition">
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="checkbox"
+                                checked={isWeekFullyChecked}
+                                ref={(el) => {
+                                  if (el) el.indeterminate = isWeekIndeterminate;
+                                }}
+                                onChange={(e) => handleWeekCheckboxChange(weekId, e.target.checked)}
+                                className="w-4 h-4 rounded text-indigo-600 bg-slate-950 border-slate-700 focus:ring-indigo-500 focus:ring-offset-slate-900 cursor-pointer"
+                              />
+                              <span className="text-slate-200 font-bold text-xs">{weekName}</span>
+                            </div>
+                            <span className="text-[10px] text-indigo-400 font-semibold font-mono">
+                              {selectedDaysInWeek.length}/6 ngày
+                            </span>
+                          </label>
+
+                          {/* Child Checkboxes (Days) */}
+                          <div className="grid grid-cols-3 gap-1 pl-6 pt-1.5 border-t border-slate-800/50">
+                            {days.map((dayId) => {
+                              const isChecked = selectedSetIds.has(`w${weekId}_d${dayId}`);
+                              const count = n3Flashcards.filter(c => c.setId === weekId && c.dayId === dayId).length;
+                              return (
+                                <label
+                                  key={dayId}
+                                  className="flex items-center gap-1.5 p-1 rounded hover:bg-slate-800 cursor-pointer text-[10px] transition border border-transparent"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    checked={isChecked}
+                                    onChange={(e) => handleDayCheckboxChange(weekId, dayId, e.target.checked)}
+                                    className="w-3.5 h-3.5 rounded text-indigo-600 bg-slate-950 border-slate-700 focus:ring-indigo-500 focus:ring-offset-slate-900 cursor-pointer"
+                                  />
+                                  <span className="text-slate-400 font-medium whitespace-nowrap">Ngày {dayId}</span>
+                                  <span className="text-[9px] text-slate-600 font-mono">({count})</span>
+                                </label>
+                              );
+                            })}
+                          </div>
                         </div>
-                        <span className="text-[10px] text-slate-500 font-mono">{count} thẻ</span>
-                      </label>
-                    );
-                  })}
+                      );
+                    })
+                  ) : (
+                    Object.keys(setNames).map((idStr) => {
+                      const id = parseInt(idStr);
+                      const name = setNames[id];
+                      const count = flashcards.filter((c) => c.setId === id).length;
+                      const isChecked = selectedSetIds.has(`s${id}`);
+                      return (
+                        <label
+                          key={id}
+                          className="flex items-center justify-between p-2 rounded-lg hover:bg-slate-800/80 cursor-pointer text-xs transition border border-transparent hover:border-slate-700/50"
+                        >
+                          <div className="flex items-center gap-2">
+                            <input
+                              type="checkbox"
+                              checked={isChecked}
+                              onChange={(e) => handleCheckboxChange(id, e.target.checked)}
+                              className="w-4 h-4 rounded text-indigo-600 bg-slate-950 border-slate-700 focus:ring-indigo-500 focus:ring-offset-slate-900 cursor-pointer"
+                            />
+                            <span className="text-slate-300 font-medium">{name}</span>
+                          </div>
+                          <span className="text-[10px] text-slate-500 font-mono">{count} thẻ</span>
+                        </label>
+                      );
+                    })
+                  )}
                 </div>
 
                 {/* Study Mode Operations */}

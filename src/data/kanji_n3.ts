@@ -6,6 +6,7 @@ export interface KanjiCardN3 {
   hiragana: string;
   meaning: string;
   setId: number;
+  dayId: number; // Day of the week (1 to 6)
   setName: string;
   level: "N3" | "N4";
   isKanjiCard?: boolean;
@@ -25,23 +26,53 @@ export const setNamesN3: Record<number, string> = {
   6: "Tuần 6 (283-335)",
 };
 
-const getWeekId = (index: number): number => {
-  if (index >= 1 && index <= 58) return 1;
-  if (index >= 59 && index <= 113) return 2;
-  if (index >= 114 && index <= 170) return 3;
-  if (index >= 171 && index <= 226) return 4;
-  if (index >= 227 && index <= 282) return 5;
-  return 6; // index 283 - 335
+const getWeekAndDay = (index: number): { weekId: number; dayId: number } => {
+  let weekId = 1;
+  let localIndex = index;
+
+  if (index >= 1 && index <= 58) {
+    weekId = 1;
+    localIndex = index;
+  } else if (index >= 59 && index <= 113) {
+    weekId = 2;
+    localIndex = index - 58;
+  } else if (index >= 114 && index <= 170) {
+    weekId = 3;
+    localIndex = index - 113;
+  } else if (index >= 171 && index <= 226) {
+    weekId = 4;
+    localIndex = index - 170;
+  } else if (index >= 227 && index <= 282) {
+    weekId = 5;
+    localIndex = index - 226;
+  } else {
+    weekId = 6;
+    localIndex = index - 282;
+  }
+
+  const weekTotals: Record<number, number> = {
+    1: 58,
+    2: 55,
+    3: 57,
+    4: 56,
+    5: 56,
+    6: 53
+  };
+  const totalInWeek = weekTotals[weekId];
+  const size = Math.ceil(totalInWeek / 6);
+  let dayId = Math.floor((localIndex - 1) / size) + 1;
+  if (dayId > 6) dayId = 6;
+
+  return { weekId, dayId };
 };
 
 export const n3Flashcards: KanjiCardN3[] = [];
 
 rawN3Data.forEach((item: any) => {
-  const weekId = getWeekId(item.index);
+  const { weekId, dayId } = getWeekAndDay(item.index);
   const setName = setNamesN3[weekId];
 
   // 1. Add main Kanji Card
-  // Construct a reading representation for TTS/reference
   const readings = [item.on_yomi, item.kun_yomi].filter(Boolean).join(" / ");
   n3Flashcards.push({
     id: `n3_k${item.index}_main`,
@@ -49,6 +80,7 @@ rawN3Data.forEach((item: any) => {
     hiragana: readings || item.kanji,
     meaning: item.han_viet || "",
     setId: weekId,
+    dayId,
     setName,
     level: "N3",
     isKanjiCard: true,
@@ -68,6 +100,7 @@ rawN3Data.forEach((item: any) => {
         hiragana: ex.hiragana,
         meaning: ex.meaning,
         setId: weekId,
+        dayId,
         setName,
         level: "N3",
         isKanjiCard: false,
