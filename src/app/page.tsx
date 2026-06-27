@@ -856,10 +856,40 @@ export default function Page() {
                       </div>
                       {activeDeck.length > 0 && activeDeck[currentCardIndex].isKanjiCard ? (
                         <div className="flex flex-col items-center justify-start text-center gap-2 w-full px-4 overflow-y-auto max-h-[170px] pr-1 py-1">
-                          <span className="text-2xl font-bold text-indigo-300 font-sans">
-                            {activeDeck[currentCardIndex].han_viet ? `Hán Việt: ${activeDeck[currentCardIndex].han_viet}` : activeDeck[currentCardIndex].hiragana}
+                          <span className="text-2xl font-bold text-indigo-300 font-sans flex items-center justify-center gap-2 flex-wrap">
+                            <span>
+                              {activeDeck[currentCardIndex].han_viet ? `Hán Việt: ${activeDeck[currentCardIndex].han_viet}` : activeDeck[currentCardIndex].hiragana}
+                            </span>
+                            <span className="text-3xl font-extrabold text-slate-100 font-sans">
+                              : {activeDeck[currentCardIndex].kanji}
+                            </span>
                           </span>
                           <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
+                          {(activeDeck[currentCardIndex].on_yomi || activeDeck[currentCardIndex].kun_yomi) && (
+                            <div className="text-[11px] text-slate-300 flex items-center justify-center gap-2.5 flex-wrap">
+                              {activeDeck[currentCardIndex].on_yomi && (
+                                <div>
+                                  <span className="font-semibold text-slate-400">On'yomi: </span>
+                                  {activeDeck[currentCardIndex].on_yomi}
+                                </div>
+                              )}
+                              {activeDeck[currentCardIndex].on_yomi && activeDeck[currentCardIndex].kun_yomi && (
+                                <span className="text-slate-600 font-bold">•</span>
+                              )}
+                              {activeDeck[currentCardIndex].kun_yomi && (
+                                <div>
+                                  <span className="font-semibold text-slate-400">Kun'yomi: </span>
+                                  {activeDeck[currentCardIndex].kun_yomi}
+                                </div>
+                              )}
+                            </div>
+                          )}
+
+                          {activeDeck[currentCardIndex].mnemonic && (
+                            <div className="text-xs bg-slate-900/60 p-2 rounded border border-slate-800/80 text-slate-300 italic max-w-full text-left">
+                              💡 {activeDeck[currentCardIndex].mnemonic}
+                            </div>
+                          )}
                           
                           {activeDeck[currentCardIndex].image_path && (
                             <div className="my-1 flex justify-center">
@@ -882,26 +912,6 @@ export default function Page() {
                               />
                             </div>
                           )}
-                          
-                          {activeDeck[currentCardIndex].on_yomi && (
-                            <div className="text-xs text-slate-300">
-                              <span className="font-semibold text-slate-400">On'yomi: </span>
-                              {activeDeck[currentCardIndex].on_yomi}
-                            </div>
-                          )}
-                          
-                          {activeDeck[currentCardIndex].kun_yomi && (
-                            <div className="text-xs text-slate-300">
-                              <span className="font-semibold text-slate-400">Kun'yomi: </span>
-                              {activeDeck[currentCardIndex].kun_yomi}
-                            </div>
-                          )}
-
-                          {activeDeck[currentCardIndex].mnemonic && (
-                            <div className="text-xs bg-slate-900/60 p-2 rounded border border-slate-800/80 text-slate-300 italic max-w-full text-left">
-                              💡 {activeDeck[currentCardIndex].mnemonic}
-                            </div>
-                          )}
 
                           {activeDeck[currentCardIndex].examples && activeDeck[currentCardIndex].examples!.length > 0 && (
                             <div className="w-full text-left mt-1 border-t border-slate-700/50 pt-1.5">
@@ -917,12 +927,15 @@ export default function Page() {
                           )}
                         </div>
                       ) : (
-                        <div className="flex flex-col items-center justify-center text-center gap-2.5 my-auto w-full px-4">
-                          <span className="text-2xl font-bold text-indigo-300 font-sans">
+                        <div className="flex flex-col items-center justify-center text-center gap-2 my-auto w-full px-4">
+                          <span className="text-3xl font-extrabold text-slate-100 font-sans tracking-wide">
+                            {activeDeck.length > 0 ? activeDeck[currentCardIndex].kanji : "--"}
+                          </span>
+                          <span className="text-lg font-bold text-indigo-300 font-sans">
                             {activeDeck.length > 0 ? activeDeck[currentCardIndex].hiragana : "--"}
                           </span>
                           <div className="w-12 h-0.5 bg-slate-700 rounded"></div>
-                          <span className="text-lg font-medium text-slate-100">
+                          <span className="text-base font-medium text-slate-200">
                             {activeDeck.length > 0 ? activeDeck[currentCardIndex].meaning : "--"}
                           </span>
 
