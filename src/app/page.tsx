@@ -82,12 +82,10 @@ export default function Page() {
 
   // Initialize
   useEffect(() => {
-    // 1. Initial selection is all days of N3 (default level)
+    // 1. Initial selection is all days of Week 1 of N3 (default level, weeks 2-6 hidden)
     const initialSets = new Set<string>();
-    for (let w = 1; w <= 6; w++) {
-      for (let d = 1; d <= 6; d++) {
-        initialSets.add(`w${w}_d${d}`);
-      }
+    for (let d = 1; d <= 6; d++) {
+      initialSets.add(`w1_d${d}`);
     }
     setSelectedSetIds(initialSets);
 
@@ -148,10 +146,8 @@ export default function Page() {
 
     const newSets = new Set<string>();
     if (newLevel === "N3") {
-      for (let w = 1; w <= 6; w++) {
-        for (let d = 1; d <= 6; d++) {
-          newSets.add(`w${w}_d${d}`);
-        }
+      for (let d = 1; d <= 6; d++) {
+        newSets.add(`w1_d${d}`);
       }
     } else {
       for (let s = 1; s <= 40; s++) {
@@ -273,10 +269,8 @@ export default function Page() {
   const handleSelectAll = () => {
     const newSets = new Set<string>();
     if (level === "N3") {
-      for (let w = 1; w <= 6; w++) {
-        for (let d = 1; d <= 6; d++) {
-          newSets.add(`w${w}_d${d}`);
-        }
+      for (let d = 1; d <= 6; d++) {
+        newSets.add(`w1_d${d}`);
       }
     } else {
       for (let s = 1; s <= 40; s++) {
@@ -296,10 +290,8 @@ export default function Page() {
       // Auto select all if none is selected
       const allSets = new Set<string>();
       if (level === "N3") {
-        for (let w = 1; w <= 6; w++) {
-          for (let d = 1; d <= 6; d++) {
-            allSets.add(`w${w}_d${d}`);
-          }
+        for (let d = 1; d <= 6; d++) {
+          allSets.add(`w1_d${d}`);
         }
       } else {
         for (let s = 1; s <= 40; s++) {
@@ -648,7 +640,7 @@ export default function Page() {
                   </h2>
                   <span className="text-xs bg-slate-800 px-2.5 py-1 rounded-full text-slate-400 font-mono">
                     {level === "N3" 
-                      ? `${selectedSetIds.size}/36 ngày`
+                      ? `${selectedSetIds.size}/6 ngày`
                       : `${selectedSetIds.size}/40 bộ`}
                   </span>
                 </div>
@@ -671,8 +663,10 @@ export default function Page() {
                 {/* List of sets */}
                 <div className="max-h-[280px] overflow-y-auto pr-1 flex flex-col gap-2 border border-slate-800 rounded-xl p-2 bg-slate-950/50">
                   {level === "N3" ? (
-                    Object.keys(setNamesN3).map((idStr) => {
-                      const weekId = parseInt(idStr);
+                    Object.keys(setNamesN3)
+                      .filter((idStr) => parseInt(idStr) === 1)
+                      .map((idStr) => {
+                        const weekId = parseInt(idStr);
                       const weekName = setNamesN3[weekId];
                       const days = [1, 2, 3, 4, 5, 6];
                       const selectedDaysInWeek = days.filter(d => selectedSetIds.has(`w${weekId}_d${d}`));
